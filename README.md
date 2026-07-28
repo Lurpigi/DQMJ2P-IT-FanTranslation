@@ -7,7 +7,7 @@ This fork of Ceris White's Joker 2 Professional repository includes a post-game 
 [Patcher Program](https://github.com/saneezore07/dqmj2pro_translation/releases) with friendly user interface for patching your legally obtained rom. Select your rom, check which patch options you want, then run the program.<br>
 <img src="./Database/GUI_Patcher/gui.png" width="300">
 
-Database of Monster [Synthesis](https://saneezore07.github.io/DQMJ2Pro_Translation/Database/synthesis_database.html) Recipes.<br>
+Database of Monster [Synthesis](https://saneezore.github.io/DQMJ2Pro_Translation/Database/synthesis_database.html) Recipes.<br>
 (New custom Synthesis Recipes are at the bottom of the list)<br>
 Database of Monster [Stats and Traits](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Database/monster_database.csv).<br>
 Database of Monster [Resistances](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Database/monster_resistance_database.csv).
