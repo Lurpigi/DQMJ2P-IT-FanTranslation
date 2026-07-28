@@ -579,7 +579,7 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         release_link.bind(
             "<Button-1>",
             lambda _e: open_url(
-                "https://github.com/saneezore07/DQMJ2Pro_Translation/releases"
+                "https://github.com/Saneezore/DQMJ2Pro_Translation/releases"
             ),
         )
 
@@ -594,7 +594,7 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         info_link.bind(
             "<Button-1>",
             lambda _e: open_url(
-                "https://github.com/saneezore07/DQMJ2Pro_Translation"
+                "https://github.com/Saneezore/DQMJ2Pro_Translation"
             ),
         )
 
