@@ -1,6 +1,6 @@
 ## [V1.0.0 Release Announcement](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Guide/v1.0_announcement_post.md) & [F.A.Q](Guide/faq.md)
 
-This fork of Ceris White's Joker 2 Professional repository includes a post-game translation by Gerb.
+This fork of Ceris White's Joker 2 Professional repository includes a completed translation and localisation by the English Translation Project team.
 
 <img src="./Database/credits.png" width="700">
 
@@ -50,6 +50,9 @@ Database of Monster [Resistances](https://github.com/saneezore07/DQMJ2Pro_Transl
 **The [Dragon Quest Translations](https://discord.gg/aX6Ac8cC84) discord server:**
 - For hosting collaboration efforts.
 
+<br>
+---<br>
+<br>
 
 <details>
 <summary>Manually Patching the Translation</summary>
