@@ -39,7 +39,7 @@ Database of Monster [Resistances](https://github.com/saneezore07/DQMJ2Pro_Transl
 **Translation and Localisation:**
 - Ceris White, Ilario, Reflex: Importing of existing English text and translation of game menus.
 - Gerb: Post-game translation and localisation.
-- GemSlimee: Proofreading and editing.<br>
+- GemSlimee, TheTwistery: Proofreading and editing.<br>
 
 **New Synthesis Recipes:**
 - Darko, Hoodiniebobeenie, Anthcny: Creation of new recipes and game balancing.<br>
