@@ -36,7 +36,7 @@ F,34,Conkalve,1,Demon,,,,^50%,-25%,,,,,,,,-25%,^50%,Immune,-25%,,,,Immune,,,,,,I
 F,35,Muddy Hand,1,Zombie,-25%,,,,,^50%,,,,Immune,,-25%,^50%,Immune,,Immune,,,^50%,,-25%,,,,,,,
 F,36,She-Slime,1,Slime,Immune,,,,^50%,-25%,,,,,,Immune,,,,,,^50%,,-25%,,,,,-25%,^50%,,Immune
 F,37,Jargon,1,Dragon,,,,,,,^50%,,,-25%,,^50%,-25%,,,,,,-25%,,^50%,^50%,,^50%,,Immune,,
-F,38,Kingfuchsia,1,Nature,,^50%,Immune,,,,-25%,,,-25%,,,,,-25%,^50%,,,,-25%,^50%,,Immune,,Immune,,,
+F,38,Florajay,1,Nature,,^50%,Immune,,,,-25%,,,-25%,,,,,-25%,^50%,,,,-25%,^50%,,Immune,,Immune,,,
 F,39,Scissor Beatle,1,Nature,-25%,^50%,,,,,-25%,,,,,,,,-25%,^50%,Immune,,,-25%,^50%,,Immune,,Immune,,,
 F,40,Boppin' Badger,1,Beast,^50%,,,-25%,,,,,,,,,Immune,,^50%,,-25%,-25%,,^50%,,,Immune,,,,Immune,
 F,41,Spitnik,1,Material,,Absorb,-25%,-25%,,-25%,Absorb,,-25%,^50%,Immune,,,-25%,,,^50%,^50%,-25%,,Immune,,,,,,,
@@ -106,9 +106,9 @@ D,104,Sea Dog,1,Beast,^50%,,,-25%,,,,,,,,,Immune,,^50%,,-25%,-25%,,^50%,,,,Immun
 D,105,Shadow,1,Material,,,-25%,,-25%,Absorb,,,,^50%,Immune,,,-25%,,,^50%,^50%,-25%,,Immune,,,,,,,
 D,106,Anchorman,1,Material,,,-25%,,,,,,,Immune,Immune,,,-25%,Immune,,^50%,^50%,-25%,,Immune,,,,,,,
 D,107,Lesser Demon,1,Demon,,Immune,,^50%,-25%,,,,,,,,,^50%,Immune,-25%,,,,^50%,-25%,,,,,Immune,,
-D,108,Pompom Bomb,1,Zombie,-25%,Immune,,,,^50%,,,,,,-25%,^50%,Immune,,Immune,,,^50%,,-25%,,,,,,,
+D,108,Discombombulator,1,Zombie,-25%,Immune,,,,^50%,,,,,,-25%,^50%,Immune,,Immune,,,^50%,,-25%,,,,,,,
 D,109,Angel Slime,1,Slime,,,,,Absorb,-25%,,,,,Immune,Immune,,,,,,^50%,,-25%,,,,,-25%,^50%,,Immune
-D,110,Gas Bagon,1,Dragon,,,,,,,^50%,Immune,,-25%,,^50%,-25%,-25%,,,,,-25%,,^50%,^50%,,^50%,,,,
+D,110,Gasbagon,1,Dragon,,,,,,,^50%,Immune,,-25%,,^50%,-25%,-25%,,,,,-25%,,^50%,^50%,,^50%,,,,
 D,111,Spiked Hare,1,Nature,,^50%,,,,,-25%,,,,,,,,-25%,^50%,,,,-25%,^50%,,Immune,,Immune,,,
 D,112,Rockin' Rockhopper,1,Nature,,^50%,,Immune,,,-25%,-25%,Immune,,,,-25%,,-25%,^50%,,,,-25%,^50%,,Immune,,Immune,,,
 D,113,Fencing Fox,1,Beast,^50%,,^50%,-25%,,,,,,,,,Immune,-25%,^50%,-25%,-25%,-25%,,^50%,,,-25%,,,,Immune,
@@ -209,7 +209,7 @@ B,207,Dark Slime,1,Slime,,,,,,Absorb,,,,,,Immune,,,,,,^50%,,-25%,,,,,-25%,^50%,,
 B,208,Tyrantosaurus,1,Dragon,,,,,,,^50%,,,-25%,,^50%,-25%,,,,,Immune,-25%,-25%,^50%,Immune,,Immune,,,,
 B,209,Compos Mantis,1,Nature,,^50%,,,,,-25%,,,,,,Immune,Immune,-25%,^50%,,,,-25%,^50%,,Immune,,Immune,,,
 B,210,Cockateer,1,Beast,^50%,,Immune,-25%,,,,,,,,,Immune,,^50%,,-25%,-25%,,^50%,,,,Immune,,-25%,Immune,
-B,211,Stainless Scrapper,1,Material,,,-25%,,Immune,,,,,^50%,Immune,,,-25%,,,^50%,^50%,-25%,,Immune,,,,,,,
+B,211,Automaton,1,Material,,,-25%,,Immune,,,,,^50%,Immune,,,-25%,,,^50%,^50%,-25%,,Immune,,,,,,,
 B,212,Fallen Priest,1,Demon,,,,^50%,-25%,,,,,,,,,^50%,Immune,-25%,,,,^50%,-25%,,,,,Immune,,Immune
 B,213,Grim Rider,1,Zombie,-25%,,,,-25%,^50%,,,,,,-25%,^50%,^50%,^50%,^50%,Immune,,^50%,,-25%,,,,,,,
 B,214,Soulspawn,1,Zombie,-25%,,,,-25%,^50%,Immune,,,,Immune,,^50%,Immune,,Immune,,,^50%,,-25%,,,,,,,
@@ -261,9 +261,9 @@ A,259,King Bubble Slime,1,Slime,,,,,^50%,-25%,,,,,,Immune,Immune,,,Immune,,^50%,
 A,260,Rashaverak,1,Dragon,,,,,,Immune,^50%,,,-25%,,^50%,-25%,,,,,,-25%,,^50%,Immune,,Immune,,,,
 A,261,Wooper Trooper,1,Nature,,^50%,,,Immune,Immune,-25%,,,,,,,,-25%,^50%,,,,-25%,^50%,,Immune,,Immune,,,
 A,262,Buffalogre,1,Beast,^50%,,,-25%,,,,,,,Immune,,Immune,Immune,^50%,,-25%,-25%,,^50%,,,,,,,Immune,
-A,263,Sytheborg,1,Material,,,-25%,,Immune,,,,,^50%,Immune,,,-25%,,Immune,^50%,^50%,-25%,,Immune,,,,,,,Immune
+A,263,Scytheborg,1,Material,,,-25%,,Immune,,,,,^50%,Immune,,,-25%,,Immune,^50%,^50%,-25%,,Immune,,,,,,,Immune
 A,264,Hyperanemon,1,Demon,,,,^50%,-25%,,,,,,,,,^50%,Immune,-25%,,,,^50%,-25%,,,,,Immune,Immune,Immune
-A,265,Gigamute,1,Zombie,-25%,,Immune,,,^50%,,,,,,-25%,^50%,Immune,,Immune,,,^50%,,-25%,,,,,,Immune,
+A,265,Gigalumph,1,Zombie,-25%,,Immune,,,^50%,,,,,,-25%,^50%,Immune,,Immune,,,^50%,,-25%,,,,,,Immune,
 A,266,Slime Gang,3,Slime,,,,,^50%,-25%,,,,,Immune,-25%,Immune,,Immune,Immune,Immune,^50%,,-25%,,,Immune,,-25%,^50%,Immune,-25%
 A,267,Sintaur,1,Dragon,,,,,,Immune,^50%,,,-25%,,^50%,-25%,,,,,,-25%,,^50%,Immune,,Immune,,,,
 A,268,Heligator,1,Nature,,^50%,,,,,-25%,Immune,Immune,,,,,,-25%,^50%,,-25%,,-25%,^50%,,Immune,,Immune,,,
@@ -340,7 +340,7 @@ S,338,Slider Girl,2,Slime,,,Immune,Immune,^50%,-25%,,,Immune,,Immune,,Immune,Imm
 S,339,Alabast Dragon,2,Dragon,,,,,Absorb,,^50%,,Immune,-25%,Immune,^50%,-25%,Immune,Immune,Immune,Immune,,-25%,,^50%,,,,,,,
 S,340,Prism Peacock,1,Nature,Immune,^50%,,Immune,,,-25%,Immune,Immune,,,,-25%,-25%,-25%,^50%,-25%,,,-25%,^50%,,,,,,,
 S,341,Mossferatu,1,Beast,^50%,,Immune,-25%,,,,,Immune,-25%,,,Immune,,^50%,,-25%,-25%,,^50%,,,,,,,,
-S,342,Time Sage,1,Material,,,-25%,Immune,,,,,,^50%,Immune,,,-25%,,,^50%,^50%,-25%,,,,,,,Immune,,
+S,342,The Time Being,1,Material,,,-25%,Immune,,,,,,^50%,Immune,,,-25%,,,^50%,^50%,-25%,,,,,,,Immune,,
 S,343,Titanis,2,Demon,,,,^50%,-25%,,,,,,Immune,,,Immune,Immune,-25%,Immune,,,^50%,-25%,,,,,,,
 S,344,Darkonium Slime,2,Slime,Immune,Immune,Immune,Immune,Immune,Immune,Immune,Immune,Immune,Immune,Immune,,Immune,Immune,,Immune,Immune,^50%,,,,Immune,Immune,Immune,,,Immune,Immune
 S,345,Bilhaw,2,Dragon,,,,,,,^50%,,,-25%,Immune,^50%,-25%,-25%,-25%,^50%,^50%,,-25%,,^50%,,,,,,,
@@ -377,16 +377,16 @@ SS,375,Orochi,3,Dragon,,,,-25%,,,^50%,Immune,,-25%,Immune,^50%,^50%,Immune,Immun
 SS,376,Trode,1,Nature,,^50%,,,,,-25%,Immune,,,Immune,,,,-25%,^50%,,,,-25%,^50%,,,,,Immune,Immune,
 SS,377,Pruslas,3,Beast,^50%,,,-25%,,,,,,Immune,Immune,,Immune,Immune,Immune,Immune,Immune,-25%,,^50%,,,,,,,,
 SS,378,Trauminator,2,Material,,,-25%,,Immune,,,,,^50%,Immune,,Immune,^50%,Immune,Immune,Immune,^50%,-25%,,,,,Immune,,,,
-SS,379,Warubou,1,Demon,,,,^50%,-25%,Absorb,,,,,Immune,,,^50%,,-25%,,,,^50%,-25%,,Immune,,,,,
+SS,379,Scruffy,1,Demon,,,,^50%,-25%,Absorb,,,,,Immune,,,^50%,,-25%,,,,^50%,-25%,,Immune,,,,,
 SS,380,Dr Snapped,2,Zombie,-25%,,,,-25%,Absorb,,,,,,,Immune,Immune,Immune,Immune,Immune,,^50%,,,,,,,,,
 SS,381,Zoma,1,？？？系,,-25%,^50%,,-25%,,,,,,Immune,^50%,,,-25%,,,-25%,^50%,,,^50%,,,^50%,Immune,,
-SS,382,Liquid Metal Slime King,3,Slime,Immune,Immune,Immune,Immune,Immune,Immune,Immune,Immune,Immune,Immune,Immune,,Immune,Immune,^50%,Immune,Immune,^50%,,,,Immune,Immune,Immune,,^25%,Immune,Immune
+SS,382,Liquid Metal King Slime,3,Slime,Immune,Immune,Immune,Immune,Immune,Immune,Immune,Immune,Immune,Immune,Immune,,Immune,Immune,^50%,Immune,Immune,^50%,,,,Immune,Immune,Immune,,^25%,Immune,Immune
 SS,383,Barbarus,2,Dragon,,,,,-25%,Absorb,^50%,,Immune,-25%,Immune,^50%,-25%,Immune,Immune,Immune,Immune,,-25%,,^50%,,,,,,,
 SS,384,Numen,1,Nature,,^50%,,,Immune,-25%,-25%,,,,Immune,,,,-25%,^50%,,,Immune,^50%,^50%,,,,,,,
 SS,385,Fluffy,1,Beast,^50%,,,-25%,Immune,,,,,,Immune,,,,^50%,,-25%,-25%,,^50%,Immune,,,,,,,
 SS,386,Schwarzman Tank,3,Material,,,-25%,,,Immune,,,,Immune,Immune,,Immune,Immune,Immune,Immune,Immune,^50%,-25%,,,,,,,,,
 SS,387,Mortamor,2,？？？系,,-25%,^50%,,,,,Immune,Immune,,Immune,,Immune,Immune,Immune,Immune,Immune,-25%,^50%,,,,,-25%,^50%,-25%,,
-SS,388,Baboon Beast,3,？？？系,^50%,-25%,^50%,,^50%,^50%,^50%,^50%,,,Immune,,Immune,Immune,Immune,Immune,Immune,-25%,^50%,,,,,,^50%,-25%,,
+SS,388,Baboorood,3,？？？系,^50%,-25%,^50%,,^50%,^50%,^50%,^50%,,,Immune,,Immune,Immune,Immune,Immune,Immune,-25%,^50%,,,,,,^50%,-25%,,
 SS,389,Greygnarl,2,Dragon,,,,,Absorb,-25%,^50%,Immune,,-25%,Immune,^50%,-25%,Immune,Immune,Immune,Immune,,-25%,,^50%,,,,,,,
 SS,390,Yggdrasil,3,Nature,,^50%,Immune,,,,-25%,,,,Immune,,Immune,Immune,Immune,Immune,Immune,,,-25%,^50%,,,,,,,
 SS,391,Sagittar,3,Material,,Immune,-25%,,Immune,,,,,^50%,Immune,,Immune,Immune,Immune,Immune,Immune,^50%,-25%,,,,,,,,-25%,
@@ -409,7 +409,7 @@ SS,407,Magarugi,3,？？？系,,-25%,^50%,,Immune,Immune,,,,,Immune,,Immune,Immu
 SS,408,Corvus,1,？？？系,,-25%,^50%,,Reflect,Reflect,,,,,Immune,,,,,,,-25%,^50%,,,,,,^50%,-25%,,
 SS,409,Dragovian Lord,2,Dragon,,,,,,,^50%,Immune,Immune,-25%,Immune,^50%,-25%,Immune,Immune,Immune,Immune,,-25%,,^50%,,,,,,,
 SS,410,Zenith Dragon,3,Dragon,,,,,Immune,,^50%,Absorb,Absorb,-25%,Immune,^50%,^50%,Immune,Immune,Immune,Immune,,-25%,,^50%,,,,,,,
-SS,411,Evil Beast,3,？？？系,,-25%,^50%,Immune,Immune,Immune,,,Immune,,Immune,,Immune,Immune,Immune,Immune,Immune,-25%,^50%,,,,,,^50%,-25%,,
+SS,411,Baboodread,3,？？？系,,-25%,^50%,Immune,Immune,Immune,,,Immune,,Immune,,Immune,Immune,Immune,Immune,Immune,-25%,^50%,,,,,,^50%,-25%,,
 SS,412,Wulfspade,1,？？？系,,-25%,^50%,,,,,^50%,,,^50%,,^50%,,,^50%,,-25%,^50%,,,,,,^50%,-25%,,^50%
 SS,413,Hawkhart,1,？？？系,^50%,,^50%,^50%,^50%,,^50%,,^50%,,^50%,,-25%,-25%,-25%,-25%,-25%,-25%,^50%,,,,,,^50%,-25%,,
 SS,414,Cluboon,1,？？？系,,-25%,^50%,,,,,^50%,,,^50%,,^50%,,,,^50%,-25%,^50%,,,,,,^50%,-25%,^50%,
