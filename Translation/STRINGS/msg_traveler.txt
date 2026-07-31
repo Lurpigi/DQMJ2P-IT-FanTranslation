@@ -84,7 +84,7 @@ A monster's growth limit is level 50.{315}Repeated synthesis and high-level pare
 Evolve synthesis creates Strong{315}or Strongest monsters.{315}Fuse a rank F, E or D monster{315}at level 20+ with the same species{315}to make a Strong monster.{315}Fuse a rank C, B or A monster{315}at level 50+ with the same species{315}to make a Strongest monster.
 Uses monster skills to restore{315}all allies' HP to full.{315}If MP runs out midway,{315}healing stops there.
 Fully restores your monsters' HP and MP.{315}You can use it up to 3 times while out.{315}Return to the airship to recharge it.
-Scout Proficiency Test level 1 asks you{315}to bring the Heckling Hector trait!{315}{315}Boppin' badger and Armoured Wartoise{315}have this trait.
+Scout Proficiency Test level 1 asks you{315}to bring the Grumble trait!{315}{315}Boppin' badger and Armoured Wartoise{315}have this trait.
 Scout Proficiency Test level 2 asks you{315}to bring 2 Dragon family monsters!{315}{315}Set 2 Dragons in your party{315}and talk to Marsha.{315}Komodo, Dragonthorn and{315}Drag Racer are Dragon-family monsters.
 Scout Proficiency Test level 3 asks you{315}to bring any monster with a Guest mark!{315}{315}Bring one from Tag Mode{315}or downloads to clear it.{315}{315}Any monster will do.
 Scout Proficiency Test level 4 asks you{315}to bring the Immediate Buff and{315}Random Buff traits!{315}{315}One monster may have both,{315}or two monsters one each.{315}Army Ant and Axecutioner{315}have these traits.
