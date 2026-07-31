@@ -3736,7 +3736,7 @@ SETNAME "Elder"
 SAY "{VOICE=03}To make the sainted soma to heal{BREAK}the Incarnus, I need these materials:"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Vivifying Flame and Dragon's Tears.{BREAK}Oh.. and 3 Time Crystals."
+SAY "{VOICE=03}Vivifying Flame and Dragon's Tears.{BREAK}Oh.. and a Time Crystal."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}I foresee that there are{BREAK}monsters that may have these items..."
