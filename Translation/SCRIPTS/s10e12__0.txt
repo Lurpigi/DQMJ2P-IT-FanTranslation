@@ -3736,7 +3736,7 @@ SETNAME "Elder"
 SAY "{VOICE=03}To make the sainted soma to heal{BREAK}the Incarnus, I need these materials:"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Vivifying Flame and Dragon's Tears.{BREAK}Oh.. and 3 Time Crystals."
+SAY "{VOICE=03}Vivifying Flame and Dragon's Tears.{BREAK}Oh, and a Time Crystal. Those 3."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}I foresee that there are{BREAK}monsters that may have these items..."
@@ -3817,7 +3817,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0xbf800000
 SYS_73 0x8 
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Ahh, this is definitely it for sure!{BREAK}Thank you, I'm very greatful for this."
+SAY "{VOICE=03}Ahh, this is definitely it for sure!{BREAK}Thank you, I'm very grateful for this."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}And now about the monster that{BREAK}has the Dragon's Tears..."
