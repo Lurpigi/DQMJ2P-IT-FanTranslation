@@ -28,7 +28,7 @@ def app_root():
     return Path(__file__).resolve().parents[3]
 
 ROOT = app_root()
-PATCHER_VERSION = "1.0.5"
+PATCHER_VERSION = "1.1.0"
 
 def open_url(url):
     if sys.platform.startswith("linux"):
@@ -579,7 +579,7 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         release_link.bind(
             "<Button-1>",
             lambda _e: open_url(
-                "https://github.com/saneezore07/DQMJ2Pro_Translation/releases"
+                "https://github.com/Saneezore/DQMJ2Pro_Translation/releases"
             ),
         )
 
@@ -594,7 +594,7 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         info_link.bind(
             "<Button-1>",
             lambda _e: open_url(
-                "https://github.com/saneezore07/DQMJ2Pro_Translation"
+                "https://github.com/Saneezore/DQMJ2Pro_Translation"
             ),
         )
 
