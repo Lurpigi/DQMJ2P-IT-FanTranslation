@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 import argparse
+import csv
 import atexit
 import os
 import importlib.util
 import shutil
 import subprocess
+import struct
 import sys
 from pathlib import Path
 import tempfile
@@ -248,6 +250,7 @@ def build_randomizer_settings_summary(args):
         "Patch options:",
         "- Anti-piracy: on",
         f"- New synthesis recipes: {'on' if args.new_synths else 'off'}",
+        f"- Post-game Pipit vendor items: {'on' if args.postgame_pipit_vendor_items else 'off'}",
         f"- X/XY monster suffixes: {'on' if args.xvariant_suffix else 'off'}",
         f"- Gender icons: {'on' if args.gender_icons else 'off'}",
         f"- XP multiplier: {'on' if bool(args.xp_mult) else 'off'}",
@@ -276,6 +279,46 @@ def build_randomizer_settings_summary(args):
 
     return "\n".join(lines)
 
+def apply_postgame_pipit_vendor_items(repo: Path, pro_rom: Path):
+    csv_path = repo / "Database" / "postgame_pipit_vendor_items.csv"
+    store_path = pro_rom / "data_dir" / "StoreTbl_B.bin"
+
+    if not csv_path.is_file():
+        raise SystemExit(f"Post-game Pipit vendor CSV not found: {csv_path}")
+    if not store_path.is_file():
+        raise SystemExit(f"StoreTbl_B.bin not found: {store_path}")
+
+    data = bytearray(store_path.read_bytes())
+    if data[:4] != b"STRE":
+        raise SystemExit(f"Unexpected StoreTbl_B magic in {store_path}")
+
+    count = struct.unpack_from("<I", data, 4)[0]
+
+    with csv_path.open(newline="", encoding="utf-8-sig") as f:
+        rows = list(csv.DictReader(f))
+
+    changed = 0
+    for row in rows:
+        item_id = int(row["ID"], 0)
+        rank = int(row["Rank"], 0)
+        for_sale = int(row["ForSale"], 0)
+
+        if item_id < 0 or item_id >= count:
+            raise SystemExit(f"Post-game Pipit vendor item ID out of range: {item_id}")
+
+        off = 8 + item_id * 4
+        old = struct.unpack_from("<HBB", data, off)
+        new = (rank, for_sale, 0)
+        struct.pack_into("<HBB", data, off, *new)
+
+        if old != new:
+            changed += 1
+            print(f"  item {item_id:>3} {row.get('Name', '')}: {old[0]},{old[1]} -> {rank},{for_sale}")
+
+    store_path.write_bytes(data)
+    print(f"  updated {changed} StoreTbl_B entries")
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description="DQMJ2P GUI patch backend")
     ap.add_argument("--rom", required=True)
@@ -285,6 +328,7 @@ def main(argv=None):
     ap.add_argument("--repo", default="AUTO")
 
     ap.add_argument("--new-synths", action="store_true")
+    ap.add_argument("--postgame-pipit-vendor-items", action="store_true")
     ap.add_argument("--anti-piracy", action="store_true")
     ap.add_argument("--xp-mult", type=float, default=None)
     ap.add_argument("--xvariant-suffix", action="store_true")
@@ -534,6 +578,10 @@ def main(argv=None):
             "--out", pro_rom / "data_dir" / "Combination4GTbl.bin",
             "--type", "4g",
         ])
+
+    if args.postgame_pipit_vendor_items:
+        print("Adding post-game Pipit vendor items...")
+        apply_postgame_pipit_vendor_items(repo, pro_rom)
 
     if (
         args.randomizer_monsters

@@ -28,7 +28,7 @@ def app_root():
     return Path(__file__).resolve().parents[3]
 
 ROOT = app_root()
-PATCHER_VERSION = "1.1.0"
+PATCHER_VERSION = "1.2.0"
 
 def open_url(url):
     if sys.platform.startswith("linux"):
@@ -258,6 +258,7 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         self.out_var = tk.StringVar(value=str(Path.home() / f"DQMJ2P_Eng_Patched_v{PATCHER_VERSION}.nds"))
 
         self.new_synths_var = tk.BooleanVar(value=True)
+        self.postgame_pipit_vendor_var = tk.BooleanVar(value=True)
         self.xp_mult_var = tk.BooleanVar(value=False)
         self.xp_mult_value = tk.StringVar(value="2.0")
         self.xvariant_var = tk.BooleanVar(value=True)
@@ -344,6 +345,12 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
             "Add New Synthesis Recipes",
             self.new_synths_var,
             "Vanilla Joker 2 Pro makes some monsters wi-fi exclusive or otherwise unobtainable. This checkbox adds new synthesis recipes for those monsters.",
+        )
+        add_check_with_info(
+            recommended,
+            "Add Unobtainable Items",
+            self.postgame_pipit_vendor_var,
+            "Vanilla Joker 2 Pro has a Wi-Fi only tournament, which unlocks a special shop in Pipisle. This checkbox moves those exclusive items to the regular shop in Pipisle once the post-game final boss has been defeated.",
         )
         add_check_with_info(
             recommended,
@@ -708,6 +715,8 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         args = ["--rom", rom, "--output", out, "--anti-piracy"]
         if self.new_synths_var.get():
             args.append("--new-synths")
+        if self.postgame_pipit_vendor_var.get():
+            args.append("--postgame-pipit-vendor-items")
         if self.xp_mult_var.get():
             args.extend(["--xp-mult", self.xp_mult_value.get()])
         if self.xvariant_var.get():
