@@ -28,7 +28,7 @@ def app_root():
     return Path(__file__).resolve().parents[3]
 
 ROOT = app_root()
-PATCHER_VERSION = "1.2.0"
+PATCHER_VERSION = "1.2.1"
 
 def open_url(url):
     if sys.platform.startswith("linux"):
