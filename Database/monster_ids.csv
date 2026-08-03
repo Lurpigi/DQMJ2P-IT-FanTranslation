@@ -1,0 +1,517 @@
+monster_id,monster_name
+0,
+1,Slime
+2,Bubble Slime
+3,Shell Slime
+4,Healslime
+5,Drake Slime
+6,Metal Slime
+7,Slime Knight
+8,Wild Slime
+9,Liquid Metal Slime
+10,Angel Slime
+11,King Slime
+12,King Bubble Slime
+13,Metal King Slime
+14,Grandpa Slime
+15,Gem Slime
+16,Trode
+17,She-Slime
+18,Snail Slime
+19,Cureslime
+20,Behemoth Slime
+21,Beshemoth Slime
+22,Dragon Slime
+23,Metal Slime Knight
+24,Metal Kaiser Slime
+25,Dark Slime Knight
+26,Dark Slime
+27,King Cureslime
+28,Darkonium Slime
+29,Mottle King Slime
+30,
+31,Slime Gang
+32,Slider Girl
+33,Slime Blaster
+34,Dark Mecha-Slime
+35,Diamond Slime
+36,Liquid Metal King Slime
+37,Kon The Knight
+38,Prism Peacock
+39,
+40,Goresby-Purrvis
+41,Yggdrasil
+42,Munchie
+43,Mossferatu
+44,Baalzack
+45,
+46,Pruslas
+47,Robbin's Old Lady
+48,Small Fry
+49,Komodo
+50,Gasbagon
+51,Argon Lizard
+52,
+53,Green Dragon
+54,Drag-goof
+55,Jargon
+56,Metal Dragon
+57,Drag Racer
+58,Hacksaurus
+59,Red Dragon
+60,Dragurn
+61,Great Argon Lizard
+62,Ethereal Serpent
+63,Mechanowyrm
+64,Great Dragon
+65,Drakulard
+66,Dragonlord
+67,
+68,Dragovian Lord
+69,Mandrake Marshal
+70,Skelegon
+71,Dragonthorn
+72,Nardragon
+73,Frou-Fry
+74,Sea Dragon
+75,Seasaur
+76,Snapdragon
+77,Drakularge
+78,Tyrantosaurus
+79,Black Dragon
+80,Frou-Frou
+81,Abyss Diver
+82,Megalodon
+83,Alabast Dragon
+84,
+85,Dragonfry
+86,Damselfly
+87,Armoured Wartoise
+88,Dragon Rider
+89,Rashaverak
+90,Tortoceratops
+91,Sintaur
+92,Bilhaw
+93,Tri Winder
+94,Dimensional Dragon
+95,Xiphos
+96,Platypunk
+97,Great Sabrecub
+98,Scissor Beatle
+99,Stark Raven
+100,Jailcat
+101,Khalamari Kid
+102,Capsichum
+103,Hell Hornet
+104,Chimaera
+105,Hades Condor
+106,Frogface
+107,Crabid
+108,Bullfinch
+109,Eyevory Tusk-Tusk
+110,Giant Moth
+111,Treeface
+112,Yabby
+113,Gorerilla
+114,Scorpion
+115,Heligator
+116,Great Sabrecat
+117,Garuda
+118,Bantamweight
+119,Firebird
+120,Elder Pipit
+121,King Squid
+122,Khalamari
+123,Leopold
+124,Empyrea
+125,Spiked Hare
+126,Powie Yowie
+127,Wild Boarfish
+128,Eveel
+129,Riptide
+130,Beetlebully
+131,Cruelcumber
+132,Army Ant
+133,Florajay
+134,Cactiball
+135,Sentripede
+136,Rockin' Rockhopper
+137,Whackanape
+138,Lleviathan
+139,Pipit
+140,Compos Mantis
+141,Flamethrower
+142,Blizzybody
+143,Wooper Trooper
+144,Mischievous Mole
+145,Bodkin Archer
+146,Hammerhood
+147,Satyr
+148,Jumping Jackal
+149,Genie Sanguini
+150,Chainine
+151,Puppeteer
+152,Beetleboy
+153,Orc
+154,Headhunter
+155,Fallen Priest
+156,Fencing Fox
+157,Pan Piper
+158,
+159,Gargoyle
+160,Weartiger
+161,
+162,Gigantes
+163,Cockateer
+164,Monkey Zombie
+165,Notso Macho
+166,King Sanguini
+167,Boss Troll
+168,Atlas
+169,Don Mole
+170,Robbin' Hood
+171,Dhoulmagus
+172,Rhapthorne
+173,Rhapthorne II
+174,Ace Of Spades
+175,Brownie
+176,Leokid
+177,
+178,Boppin' Badger
+179,Pickayune
+180,Vampire Cat
+181,Sea Dog
+182,Damned Ram
+183,Bewarewolf
+184,Mortoad
+185,Tigertaur
+186,Half Hog
+187,Tantamount
+188,Squign
+189,Alphyn
+190,Goreham-Hogg
+191,Slon The Rook
+192,Bag O' Laughs
+193,Wax Murderer
+194,Firespirit
+195,Mecha-Mynah
+196,Mud Mannequin
+197,Dingaling
+198,Goodybag
+199,Shadow
+200,Cannibox
+201,Spitnik
+202,Hunter Mech
+203,Rockbomb
+204,Mum
+205,Golem
+206,Boh
+207,Dancing Flame
+208,Jum
+209,Frostburn
+210,Boe
+211,King Kelp
+212,Mimic
+213,Diemon
+214,Uberkilling Machine
+215,Gold Golem
+216,Living Statue
+217,Trap Box
+218,Killing Machine
+219,Mumboh-Jumboe
+220,Ruin
+221,Psaro
+222,Estark
+223,Anchorman
+224,Ticking Timeburrm
+225,Corrupt Carter
+226,Pocus Poppet
+227,Axecutioner
+228,Chariot Chappie
+229,Moai Minstrel
+230,Harmour
+231,Foo Dog
+232,Cumulus Rex
+233,Octagoon
+234,Wishmaster
+235,Automaton
+236,Scytheborg
+237,Terracotta Warrior
+238,Escudogre
+239,The Time Being
+240,Dracky
+241,Lips
+242,Winky
+243,Imp
+244,Lump Wizard
+245,Night Emperor
+246,Dancing Devil
+247,Knight Aberrant
+248,Merman
+249,Lesser Demon
+250,Gryphon
+251,Aggrosculpture
+252,Octavian Sentry
+253,Silvapithecus
+254,Malevolynx
+255,Archdemon
+256,Moosifer
+257,Buffalogre
+258,Jamirus
+259,Mohawker
+260,Pazuzu
+261,Gracos
+262,Belial
+263,Night Clubber
+264,Malroth
+265,Zoma
+266,Nimzo
+267,Mortamor
+268,Orgodemir
+269,See Urchin
+270,Dessert Demon
+271,Lethal Armour
+272,Great Dracky
+273,Wrecktor
+274,Demon-At-Arms
+275,Tree Feller
+276,Gruffon
+277,Prickly Prankster
+278,Grim Keeper
+279,Captain Catastrophe
+280,High Djinks
+281,Juggular
+282,Hootingham-Gore
+283,Baron Von Bellycose
+284,King Korol
+285,Hyperanemon
+286,Blackmar
+287,Aamon
+288,Cerberwretch
+289,Ghost
+290,Stump Chump
+291,Drooling Ghoul
+292,Muddy Hand
+293,Swingin' Hipster
+294,Funghoul
+295,Discombombulator
+296,Walking Corpse
+297,Demonrider
+298,Skeleton
+299,Restless Armour
+300,Grim Rider
+301,Mummy Boy
+302,Soulspawn
+303,Wailin' Weed
+304,Phantom Fencer
+305,Roseguardin
+306,Bone Baron
+307,Dullahan
+308,Tortured Soul
+309,Captain Crow
+310,Dr Snapped
+311,Skipper
+312,Flyguy
+313,Hellhound
+314,Skeleton Soldier
+315,Phantom Swordsman
+316,Wight King
+317,Dark Crab
+318,Cobra Cardinal
+319,Wight Knight
+320,Ragin' Contagion
+321,Gigalumph
+322,Grotwyrm
+323,Ladja
+324,
+325,King Godwyn II
+326,
+327,
+328,
+329,
+330,
+331,
+332,
+333,
+334,
+335,
+336,Wulfspade
+337,Hawkhart
+338,Cluboon
+339,Diamagon
+340,Wulfspade Ace
+341,Hawkhart Ace
+342,Cluboon Ace
+343,Diamagon Ace
+344,Wildcard
+345,
+346,Darck
+347,Magarugi
+348,Beastly Baboorude
+349,Baboodread
+350,Zoma's Devil
+351,Gadis
+352,Stormsgate Citadel
+353,Meddle Slime
+354,
+355,Dracolord
+356,Stella
+357,Greygnarl
+358,Barbarus
+359,Corvus
+360,Bjorn
+361,Conklave
+362,Mental Pitcher
+363,Heedoovoodoo
+364,Cheeky Tiki
+365,Swarmtroop
+366,Wormonger
+367,Killerpillar
+368,Missing Lynx
+369,Scruffy
+370,Hyper Heyedra
+371,Bad Egg
+372,Heyedra
+373,Weedie
+374,Baramos
+375,Magmalice
+376,Fright Knight
+377,Hargon
+378,Titanis
+379,Mottle Slime
+380,Rubble Slime
+381,Magic Slime
+382,Cyber Slime
+383,Rotten Egg
+384,Snowmangler
+385,Noble Gasbagon
+386,Aquestrian Gladiator
+387,Boreal Serpent
+388,Orochi
+389,Zenith Dragon
+390,Weaken Beakon
+391,Barracuda
+392,Boring Bug
+393,Gripevine
+394,Cross Eye
+395,Paws
+396,Snowbird
+397,Marquis De Léon
+398,Erazor Blade
+399,Overkilling Machine
+400,Malevolamp
+401,Firn Fiend
+402,Balhib
+403,Conkettes
+404,Dangler Fish
+405,Dhuran
+406,Nokturnus
+407,Gemon
+408,Murdaw
+409,Bona Constrictor
+410,Cross Bones
+411,Drohl Drone
+412,Night Knight
+413,Dierantula
+414,Exorsus
+415,Taurus
+416,Dual Duellers
+417,Dorsal Fiend
+418,Thornella
+419,Kapurigon
+420,Mortella
+421,Rigor Mortex
+422,Canzar
+423,Aquarion
+424,Sagittar
+425,
+426,Leonyx
+427,Schwarzman Tank
+428,Ultra Slime
+429,Trauminator
+430,Tyrannosaurus Wrecks
+431,Teeny Sanguini
+432,Pink Sanguini
+433,Shogum
+434,Slime Stack
+435,Fluffy
+436,Numen
+437,Nemeslime
+438,Prince O' Thieves
+439,Robbin' Huddle
+440,Great Godbird
+441,Xenlon
+442,Maniacal Mole
+443,Seedy Weedie
+444,Drohl Diabolist
+445,Schleiman Tank
+446,
+447,
+448,Hyper Heyedra
+449,Wormonger
+450,Missing Lynx
+451,Tall Tail
+452,Baby Bjorn
+453,Bjorn
+454,Bjorn
+455,Baby Bjorn
+456,Tentickle
+457,Missing Lynx
+458,Gemon
+459,Empyrea
+460,Khalamari
+461,Overkilling Machine
+462,Sagittar
+463,
+464,Leonyx
+465,Great Dragon
+466,Wight King
+467,Metal King Slime
+468,Bilhaw
+469,Captain Crow
+470,Malevolynx
+471,
+472,Schleiman Tank
+473,Dhoulmagus
+474,Barbarus
+475,Nokturnus
+476,Ultra Slime
+477,Nemeslime
+478,Estark
+479,Dimensional Dragon
+480,Stella
+481,Baboon Beast
+482,Evil Beast
+483,Don Mole
+484,Canzar
+485,Harmour
+486,Rigor Mortex
+487,Wight Knight
+488,Knight Aberrant
+489,Balhib
+490,Ethereal Serpent
+491,Dragovian Lord
+492,Leopold
+493,Overkilling Machine
+494,Demon-At-Arms
+495,Liquid Metal Slime
+496,Saggitar
+497,Trauminator
+498,Night Clubber
+499,Hootingham-Gore
+500,Teeny Sanguini
+501,Pink Sanguini
+502,Genie Sanguini
+503,Ruin
+504,Goresby-Purrvis
+505,Goreham-Hogg
+506,Wulfspade Ace
+507,Hawkhart Ace
+508,Cluboon Ace
+509,Diamagon Ace
+510,Mumboh-Jumboe
+511,Atlas
+512,
+513,X
+514,XY
+515,
