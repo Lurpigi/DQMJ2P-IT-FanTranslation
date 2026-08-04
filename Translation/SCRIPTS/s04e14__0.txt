@@ -6773,7 +6773,7 @@ SYS_44 0x8
 SAY "{COLOR=2}It seems the plate you got{BREAK}from Iceolation will fit."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Insert the ice plate in the hole?{VOICE=09}"
+SAY "{COLOR=2}Insert the mountain plate in the hole?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -7082,7 +7082,7 @@ SYS_44 0x8
 SAY "{COLOR=2}It seems the plate you got{BREAK}from the Bemusoleum will fit."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Will you insert the war god{BREAK}plate?{VOICE=09}"
+SAY "{COLOR=2}Will you insert the war god's{BREAK}plate?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
