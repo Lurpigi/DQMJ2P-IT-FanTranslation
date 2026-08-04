@@ -1,4 +1,4 @@
-Vulnerable to Frizz
+Vuln. to Frizz
 
 Frizz Damage ↓25%
 Frizz Damage ↓50%
@@ -6,7 +6,7 @@ Frizz Damage ↓75%
 Frizzproof
 Reflects Frizz
 Healed by Frizz
-Vulnerable to Bang
+Vuln. to Bang
 
 Bang Damage ↓25%
 Bang Damage ↓50%
@@ -14,7 +14,7 @@ Bang Damage ↓75%
 Bangproof
 Reflects Bang
 Healed by Bang
-Vulnerable to Woosh
+Vuln. to Woosh
 
 Woosh Damage ↓25%
 Woosh Damage ↓50%
@@ -22,7 +22,7 @@ Woosh Damage ↓75%
 Wooshproof
 Reflects Woosh
 Healed by Woosh
-Vulnerable to Crack
+Vuln. to Crack
 
 Crack Damage ↓25%
 Crack Damage ↓50%
@@ -30,7 +30,7 @@ Crack Damage ↓75%
 Crackproof
 Reflects Crack
 Healed by Crack
-Vulnerable to Zap
+Vuln. to Zap
 
 Zap Damage ↓25%
 Zap Damage ↓50%
@@ -38,7 +38,7 @@ Zap Damage ↓75%
 Zapproof
 Reflects Zap
 Healed by Zap
-Vulnerable to Zam
+Vuln. to Zam
 
 Zam Damage ↓25%
 Zam Damage ↓50%
@@ -46,7 +46,7 @@ Zam Damage ↓75%
 Zamproof
 Reflects Zam
 Healed by Zam
-Vulnerable to Fire Breath
+Vuln. to Fire Breath
 
 Fire Breath Damage ↓25%
 Fire Breath Damage ↓50%
@@ -54,7 +54,7 @@ Fire Breath Damage ↓75%
 Fire Breathproof
 Reflects Fire Breath
 Healed by Fire Breath
-Vulnerable to Ice Breath
+Vuln. to Ice Breath
 
 Ice Breath Damage ↓25%
 Ice Breath Damage ↓50%
@@ -62,127 +62,127 @@ Ice Breath Damage ↓75%
 Ice Breathproof
 Reflects Ice Breath
 Healed by Ice Breath
-Vulnerable to Whack
+Vuln. to Whack
 
-Whack Resistance ↑25%
-Whack Resistance ↑50%
-Whack Resistance ↑75%
+Whack Res. ↑25%
+Whack Res. ↑50%
+Whack Res. ↑75%
 Whackproof
 Reflects Whack
 Whackproof
-Vulnerable to Dazzle
+Vuln. to Dazzle
 
-Dazzle Resistance ↑25%
-Dazzle Resistance ↑50%
-Dazzle Resistance ↑75%
+Dazzle Res. ↑25%
+Dazzle Res. ↑50%
+Dazzle Res. ↑75%
 Dazzleproof
 Reflects Dazzle
 Dazzleproof
-Vulnerable to Poison
+Vuln. to Poison
 
-Poison Resistance ↑25%
-Poison Resistance ↑50%
-Poison Resistance ↑75%
+Poison Res. ↑25%
+Poison Res. ↑50%
+Poison Res. ↑75%
 Poisonproof
 Reflects Poison
 Poisonproof
-Vulnerable to Drain Magic
+Vuln. to Drain Magic
 
-Drain Magic Resistance ↑25%
-Drain Magic Resistance ↑50%
-Drain Magic Resistance ↑75%
+Drain Magic Res. ↑25%
+Drain Magic Res. ↑50%
+Drain Magic Res. ↑75%
 Drain Magicproof
 Reflects Drain Magic
 Drain Magicproof
-Vulnerable to Fizzle
+Vuln. to Fizzle
 
-Fizzle Resistance ↑25%
-Fizzle Resistance ↑50%
-Fizzle Resistance ↑75%
+Fizzle Res. ↑25%
+Fizzle Res. ↑50%
+Fizzle Res. ↑75%
 Fizzleproof
 Reflects Fizzle
 Fizzleproof
-Vulnerable to Gobstopper
+Vuln. to Gobstopper
 
-Gobstopper Resistance ↑25%
-Gobstopper Resistance ↑50%
-Gobstopper Resistance ↑75%
+Gobstopper Res. ↑25%
+Gobstopper Res. ↑50%
+Gobstopper Res. ↑75%
 Gobstopperproof
 Reflects Gobstopper
 Gobstopperproof
-Vulnerable to Ban Dance
+Vuln. to Ban Dance
 
-Ban Dance Resistance ↑25%
-Ban Dance Resistance ↑50%
-Ban Dance Resistance ↑75%
+Ban Dance Res. ↑25%
+Ban Dance Res. ↑50%
+Ban Dance Res. ↑75%
 Ban Danceproof
 Reflects Ban Dance
 Ban Danceproof
-Vulnerable to Confusion
+Vuln. to Confusion
 
-Confusion Resistance ↑25%
-Confusion Resistance ↑50%
-Confusion Resistance ↑75%
+Confusion Res. ↑25%
+Confusion Res. ↑50%
+Confusion Res. ↑75%
 Confusionproof
 Reflects Confusion
 Confusionproof
-Vulnerable to Inaction
+Vuln. to Inaction
 
-Inaction Resistance ↑25%
-Inaction Resistance ↑50%
-Inaction Resistance ↑75%
+Inaction Res. ↑25%
+Inaction Res. ↑50%
+Inaction Res. ↑75%
 Inactionproof
 Reflects Inaction
 Inactionproof
-Vulnerable to Paralysis
+Vuln. to Paralysis
 
-Paralysis Resistance ↑25%
-Paralysis Resistance ↑50%
-Paralysis Resistance ↑75%
+Paralysis Res. ↑25%
+Paralysis Res. ↑50%
+Paralysis Res. ↑75%
 Paralysisproof
 Reflects Paralysis
 Paralysisproof
-Vulnerable to Sleep
+Vuln. to Sleep
 
-Sleep Resistance ↑25%
-Sleep Resistance ↑50%
-Sleep Resistance ↑75%
+Sleep Res. ↑25%
+Sleep Res. ↑50%
+Sleep Res. ↑75%
 Sleepproof
 Reflects Sleep
 Sleepproof
-Vulnerable to Sag
+Vuln. to Sag
 
-Sag Resistance ↑25%
-Sag Resistance ↑50%
-Sag Resistance ↑75%
+Sag Res. ↑25%
+Sag Res. ↑50%
+Sag Res. ↑75%
 Sagproof
 Reflects Sag
 Sagproof
-Vulnerable to Sap
+Vuln. to Sap
 
-Sap Resistance ↑25%
-Sap Resistance ↑50%
-Sap Resistance ↑75%
+Sap Res. ↑25%
+Sap Res. ↑50%
+Sap Res. ↑75%
 Sapproof
 Reflects Sap
 Sapproof
-Vulnerable to Decelerate
+Vuln. to Decelerate
 
-Decelerate Resistance ↑25%
-Decelerate Resistance ↑50%
-Decelerate Resistance ↑75%
+Decelerate Res. ↑25%
+Decelerate Res. ↑50%
+Decelerate Res. ↑75%
 Decelerateproof
 Reflects Decelerate
 Decelerateproof
-Vulnerable to Dim
+Vuln. to Dim
 
-Dim Resistance ↑25%
-Dim Resistance ↑50%
-Dim Resistance ↑75%
+Dim Res. ↑25%
+Dim Res. ↑50%
+Dim Res. ↑75%
 Dimproof
 Reflects Dim
 Dimproof
-Vulnerable to Sizz
+Vuln. to Sizz
 
 Sizz Damage ↓25%
 Sizz Damage ↓50%
@@ -190,31 +190,31 @@ Sizz Damage ↓75%
 Sizzproof
 Reflects Sizz
 Healed by Sizz
-Vulnerable to Magical Sabotage
+Vuln. to Magical Sabotage
 
-Magical Sabotage Resistance ↑25%
-Magical Sabotage Resistance ↑50%
-Magical Sabotage Resistance ↑75%
+Magical Sabotage Res. ↑25%
+Magical Sabotage Res. ↑50%
+Magical Sabotage Res. ↑75%
 Magical Sabotageproof
 Reflects Magical Sabotage
 Magical Sabotageproof
-Vulnerable to Abiliterator
+Vuln. to Abiliterator
 
-Abiliterator Resistance ↑25%
-Abiliterator Resistance ↑50%
-Abiliterator Resistance ↑75%
+Abiliterator Res. ↑25%
+Abiliterator Res. ↑50%
+Abiliterator Res. ↑75%
 Abiliteratorproof
 Reflects Abiliterator
 Abiliteratorproof
-Vulnerable to Blade Blunter
+Vuln. to Blade Blunter
 
-Blade Blunter Resistance ↑25%
-Blade Blunter Resistance ↑50%
-Blade Blunter Resistance ↑75%
+Blade Blunter Res. ↑25%
+Blade Blunter Res. ↑50%
+Blade Blunter Res. ↑75%
 Blade Blunterproof
 Reflects Blade Blunter
 Blade Blunterproof
-Vulnerable to Donk
+Vuln. to Donk
 
 Donk Damage ↓25%
 Donk Damage ↓50%

@@ -4388,27 +4388,27 @@ STORE 0x18 0x1 0x0 0x2 0x429e0000
 STORE 0x18 0x1 0x3f800000 0x2 0x40400000
 SYS_28 0x8 
 SYS_42 0x8 
-SETNAME "Genie Sanguini"
+SETNAME "Maybellina"
 SAY "{VOICE=07}Welcome to the Ultimate Scout Arena!{BREAK}I'm here to give you advice!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 L_11264:
-SAY "{VOICE=07}There are 3 Ultimate class scouts here.{BREAK}If you talk to them, you'll battle."
+SAY "{VOICE=07}There are 3 'Ultimate Class' scouts here.{BREAK}If you talk to 'em, you can battle 'em."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}As you make it closer to the center{BREAK}you'll fight higher ranked scouts."
+SAY "{VOICE=07}As you make it closer to the center,{BREAK}you can fight higher ranked scouts."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Since they're all pros,{BREAK}you'll be allowed to use items."
+SAY "{VOICE=07}Of course, since they're all pros,{BREAK}you'll be allowed to use items."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}We'd like you to win no matter how.{BREAK}And if you happen to win a match,"
+SAY "{VOICE=07}We'd like you to win, no matter how!{BREAK}Oh, and if you happen to win a match,"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}you'll receive bonus points that{BREAK}you can use on the next Ultimate Scout!"
+SAY "{VOICE=07}You'll receive bonus points that{BREAK}you can use on the next Ultimate Scout!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}However you only have 1 win and 1 loss{BREAK}against the same scout. good luck!"
+SAY "{VOICE=07}Bear in mind, win or lose, you can{BREAK}only fight that same scout once again!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4419,7 +4419,7 @@ L_114e8:
 JMP_ABS 0xc L_114f4
 L_114f4:
 SYS_42 0x8 
-SETNAME "Genie Sanguini"
+SETNAME "Maybellina"
 SAY "{VOICE=07}Welcome to the Ultimate Scout Arena!{BREAK}Wanna hear my advice again?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
@@ -4447,8 +4447,8 @@ L_11658:
 CMP_EQ 0x18 0x3 0x0 0x0 0x42b40000
 JMP_IFNOT 0xc L_125c4
 SYS_42 0x8 
-SETNAME "Genie Sanguini"
-SAY "{VOICE=07}Do you want to know the bonus points{BREAK}you've earned before your next opponent?{VOICE=09}"
+SETNAME "Maybellina"
+SAY "{VOICE=07}Wanna know the total bonus points{BREAK}you've earned from fighting opponents?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -4496,7 +4496,7 @@ SYS_A8 0x8
 SAY "{VOICE=07}You have earned {E322} bonus{BREAK}points so far."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Bonus points will be added when you{BREAK}fight until the final Ultimate Scout battle!"
+SAY "{VOICE=07}Bonus points will be added when you{BREAK}fight in Ultimate Scout battles!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Want to return to{BREAK}Blanc Palace?{VOICE=09}"
@@ -4574,7 +4574,7 @@ JMP_REL L_11fa4
 L_11fa4:
 JMP_ABS 0xc L_11fb0
 L_11fb0:
-SAY "{VOICE=07}Tell me anytime when you want{BREAK}to return to Blanc Palace, 'kay?"
+SAY "{VOICE=07}Talk to me anytime you want{BREAK}to return to Blanc Palace, 'kay?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
