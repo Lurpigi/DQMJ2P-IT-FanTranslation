@@ -6539,7 +6539,7 @@ STORE 0x18 0x0 0x42fa0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42fa0000 0x2 0x0
 JMP_IFNOT 0xc L_1a0fc
 SYS_42 0x8 
-SAY "{COLOR=2}It's a monument carved like a thick{BREAK}grove. There is a hole on the altar."
+SAY "{COLOR=2}It's a monument carved like a thick{BREAK}jungle. There is a hole on the altar."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6550,7 +6550,7 @@ L_1a104:
 JMP_ABS 0xc L_1a110
 L_1a110:
 SYS_42 0x8 
-SAY "{COLOR=2}The monument carved like a thick{BREAK}grove glows in a strong power."
+SAY "{COLOR=2}The monument carved like a thick{BREAK}jungle glows in a strong power."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6561,13 +6561,13 @@ L_1a190:
 CMP_EQ 0x18 0x0 0x42f80000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1a5ec
 SYS_42 0x8 
-SAY "{COLOR=2}It's a monument shaped like a thick{BREAK}grove. There is a hole on the altar."
+SAY "{COLOR=2}It's a monument shaped like a thick{BREAK}jungle. There is a hole on the altar."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}It seems the plate you got{BREAK}from Treepidation will fit."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Will you insert the grove plate?{VOICE=09}"
+SAY "{COLOR=2}Will you insert the jungle plate?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -6607,7 +6607,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Power builds up in the monument{BREAK}shaped like a thick grove."
+SAY "{COLOR=2}Power builds up in the monument{BREAK}shaped like a thick jungle."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
