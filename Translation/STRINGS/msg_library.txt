@@ -100,7 +100,7 @@ Defence may increase or decrease{315}in battle.
 Agility may increase or decrease{315}in battle.
 Wisdom may increase or decrease{315}in battle.
 HP increases to 1.5 times its maximum{315}in battle, but attack and defence are{315}both reduced to 1.
-MP increases to 2 times its maximum{315}in battle, but attack and wisdom are{315}both reduced to 1.
+MP increases to 1.5 times its maximum{315}in battle, but attack and wisdom are{315}both reduced to 1.
 Disruptive Wave may be launched{315}automatically during battles.
 Wave of Relief may be launched{315}automatically during battles.
 The sole learnable trait among the{315}Talent Scout set of traits.{315}Scout gauge will be boosted very{315}slightly when a show of strength{315}is launched.
