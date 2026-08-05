@@ -4046,7 +4046,7 @@ SETNAME "Leonyx"
 SAY "{VOICE=07}I am unsure how you have come to know of my childhood, but..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}You must not tell anyone that I was once afraid of Hihyurude!"
+SAY "{VOICE=07}You must not tell anyone that I was once afraid of Baboorood!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Swear to me now that you will not!"
