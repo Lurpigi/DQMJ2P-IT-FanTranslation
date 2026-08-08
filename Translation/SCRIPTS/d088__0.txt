@@ -90,7 +90,7 @@ SAY "{VOICE=07}{1F35}no Leonex, il Combattente Divino."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonex"
-SAY "{VOICE=07}La tua forza è grande e pura. Essa {BREAK}mi ha risvegliato. Ti sono {WAIT}{CLEAR}infinitamente grato."
+SAY "{VOICE=07}La tua forza è grande e pura. Essa mi ha risvegliato.{WAIT}{CLEAR}Ti sono infinitamente grato."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -121,7 +121,7 @@ SYS_3C 0x8
 WAIT 0x10 0x2 0x42700000
 SYS_42 0x8 
 SETNAME "Mynos il Vecchio"
-SAY "{VOICE=03}Non credo ai miei occhi...! Quell'aura {BREAK}abbagliante... Non può che essere..."
+SAY "{VOICE=03}Non credo ai miei occhi...! Quell'aura abbagliante... Non può che essere..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40000000
@@ -208,7 +208,7 @@ SAY "{VOICE=07}Quando il male mi avvolse, riuscii a separare il cuore dal resto 
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonex"
-SAY "{VOICE=07}Il mio cuore si risvegliò in una terra lontana...{WAIT}{CLEAR}Esso non sapeva che, un tempo, era appartenuto a un dio..."
+SAY "{VOICE=07}Il mio cuore si risvegliò in una terra lontana... {WAIT}{CLEAR}Esso non sapeva che, un tempo, era appartenuto a un dio..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -297,7 +297,7 @@ SAY "{VOICE=07}Il cuore puro e il corpo devastato dal male si sono \"sentiti\" e
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonex"
-SAY "{VOICE=07}Ecco perché siete precipitati. Mi spiace {BREAK}di essere stato la causa dell'incidente."
+SAY "{VOICE=07}Ecco perché siete precipitati. Mi spiace di essere stato la causa dell'incidente."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -338,7 +338,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Leonex"
-SAY "{VOICE=07}Non c'è alcun dubbio: sei uno {BREAK}{1F29}out straordinario... Non solo {WAIT}{CLEAR}sei forte, ma il tuo cuore è puro."
+SAY "{VOICE=07}Non c'è alcun dubbio: sei uno {1F29}out straordinario...{WAIT}{CLEAR}Non solo sei forte, ma il tuo cuore è puro."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonex"
@@ -346,7 +346,7 @@ SAY "{VOICE=07}Verrà il momento in cui ti presterò il mio potere..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonex"
-SAY "{VOICE=07}Adesso ti saluto, ma sono certo {BREAK}che ci incontreremo di nuovo."
+SAY "{VOICE=07}Adesso ti saluto, ma sono certo che ci incontreremo di nuovo."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -427,7 +427,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42c20000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Mynos il Vecchio"
-SAY "{VOICE=03}{E321}{NAME}, hai riportato in vita il nostro dio.{WAIT}{CLEAR}Ti saremo eternamente grati per ciò che hai fatto."
+SAY "{VOICE=03}{E321}{NAME}, hai riportato in vita il nostro dio. {WAIT}{CLEAR}Ti saremo eternamente grati per ciò che hai fatto."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Mynos il Vecchio"
@@ -435,7 +435,7 @@ SAY "{VOICE=03}{1F2B}i un eroe per noi... No, di più! {1F2B}i una leggenda!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41a00000
 SETNAME "Mynos il Vecchio"
-SAY "{VOICE=03}Il viaggio è stato lungo, ma è finalmente {BREAK}terminato. Ora possiamo riposare in pace."
+SAY "{VOICE=03}Il viaggio è stato lungo, ma è finalmente terminato. Ora possiamo riposare in pace."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Mynos il Vecchio"

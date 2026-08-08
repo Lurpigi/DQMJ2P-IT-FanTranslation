@@ -422,7 +422,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Eccoci a casa nostra, un villaggio sull'isola centrale{BREAK}nota come Isola Pipit."
+SAY "{VOICE=08}Eccoci a casa nostra, un villaggio sull'isola centrale nota come Isola Pipit."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SPAWN 0x10 L_28b4
@@ -430,15 +430,15 @@ DATA 0x00000001
 WAIT 0x10 0x2 0x41c80000
 STORE 0x18 0x0 0x0 0x2 0x3f800000
 SETNAME "Tiko"
-SAY "{VOICE=08}È un luogo misterioso. Un mondo di{BREAK}sogni, un mondo di ricordi..."
+SAY "{VOICE=08}È un luogo misterioso. Un mondo di sogni, un mondo di ricordi..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}Siamo diventati un passaggio per i viaggiatori{BREAK}diretti verso mondi diversi."
+SAY "{VOICE=08}Siamo diventati un passaggio per i viaggiatori diretti verso mondi diversi."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}Purtroppo, i viaggiatori senza meta spesso{BREAK}si perdono nel nostro villaggio."
+SAY "{VOICE=08}Purtroppo, i viaggiatori senza meta spesso si perdono nel nostro villaggio."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SPAWN 0x10 L_2988
@@ -468,11 +468,11 @@ SYS_4E 0x8
 STORE 0x18 0x0 0x40000000 0x2 0x3f800000
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}Ma non è un problema. Abbiamo il potere di{BREAK}collegare tra loro mondi diversi."
+SAY "{VOICE=08}Ma non è un problema. Abbiamo il potere di collegare tra loro mondi diversi."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}È dovere della nostra tribù usare questo{BREAK}potere per guidare chi si è smarrito."
+SAY "{VOICE=08}È dovere della nostra tribù usare questo potere per guidare chi si è smarrito."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SPAWN 0x10 L_2c54
@@ -500,7 +500,7 @@ SAY "{VOICE=08}...ma ora stiamo perdendo questo potere..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}Come puoi vedere, il nostro villaggio è in rovina.{BREAK}L'Isola Pipit sta affrontando una crisi senza precedenti."
+SAY "{VOICE=08}Come puoi vedere, il nostro villaggio è in rovina. L'Isola Pipit sta affrontando una{WAIT}{CLEAR}crisi senza precedenti."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40800000
@@ -530,11 +530,11 @@ STORE 0x18 0x1 0x0 0x2 0x42240000
 STORE 0x18 0x1 0x3f800000 0x2 0x40e00000
 SYS_17 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Perciò spetta a te, {NAME},{BREAK}salvarci da questa crisi!"
+SAY "{VOICE=08}Perciò spetta a te, {NAME}, salvarci da questa crisi!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}Per quanto riguarda il tuo compito, chiedi{BREAK}all'anziano di spiegarti tutto nei dettagli."
+SAY "{VOICE=08}Per quanto riguarda il tuo compito, chiedi all'anziano di spiegarti tutto nei{WAIT}{CLEAR}dettagli."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x42480000
@@ -549,11 +549,11 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43160000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}L'anziano si trova oltre quella porta{BREAK}laggiù."
+SAY "{VOICE=08}L'anziano si trova oltre quella porta laggiù."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}Io vado ad aspettarti. Ci vediamo là.{BREAK}È stato un piacere conoscerti!"
+SAY "{VOICE=08}Io vado ad aspettarti. Ci vediamo là. È stato un piacere conoscerti!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

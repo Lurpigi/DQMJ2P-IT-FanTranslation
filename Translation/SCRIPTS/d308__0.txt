@@ -181,7 +181,7 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Uuuh... Uuuh...{BREAK}Dove mi trovo...?"
+SAY "{VOICE=07}Uuuh... Uuuh... Dove mi trovo...?"
 WAIT 0x10 0x2 0x41a00000
 STORE 0x18 0x1 0x0 0x2 0x41800000
 STORE 0x18 0x1 0x3f800000 0x2 0x42480000
@@ -218,7 +218,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x434a0000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Oh! Grande Incarnus!{BREAK}Ti sei risvegliato!?"
+SAY "{VOICE=03}Oh! Grande Incarnus! Ti sei risvegliato!?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -269,11 +269,11 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42f00000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Capisco...{BREAK}Ho inseguito quel farabutto..."
+SAY "{VOICE=07}Capisco... Ho inseguito quel farabutto..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}...e sei stato tu a salvarmi.{BREAK}Ti sono molto riconoscente."
+SAY "{VOICE=07}...e sei stato tu a salvarmi. Ti sono molto riconoscente."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -296,7 +296,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Incarnus, rispondimi, per favore:{BREAK}che cosa ci fai in questo mondo?"
+SAY "{VOICE=03}Incarnus, rispondimi, per favore: che cosa ci fai in questo mondo?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -330,23 +330,23 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Il mio dovere è viaggiare nelle terre{BREAK}invase dai mostri e sigillarli."
+SAY "{VOICE=07}Il mio dovere è viaggiare nelle terre invase dai mostri e sigillarli."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}Per compiere il mio dovere, ho combattuto{BREAK}contro innumerevoli orde di mostri."
+SAY "{VOICE=07}Per compiere il mio dovere, ho combattuto contro innumerevoli orde di mostri."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}Ma quando credevo di aver finalmente{BREAK}portato a termine il mio compito..."
+SAY "{VOICE=07}Ma quando credevo di aver finalmente portato a termine il mio compito..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}Un solo mostro era riuscito a fuggire{BREAK}ed era volato nel tuo mondo..."
+SAY "{VOICE=07}Un solo mostro era riuscito a fuggire ed era volato nel tuo mondo..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}...e il suo nome era{BREAK}Baboorood."
+SAY "{VOICE=07}...e il suo nome era Baboorood."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41a00000
 STORE 0x18 0x1 0x0 0x0 0x40c00000
@@ -366,7 +366,7 @@ STORE 0x18 0x1 0x0 0x2 0x41a80000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}Sì. È venuto qui, in questa terra,{BREAK}e ha portato la devastazione che hai visto."
+SAY "{VOICE=07}Sì. È venuto qui, in questa terra, e ha portato la devastazione che hai visto."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41a00000
@@ -390,7 +390,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Baboorood...{BREAK}È questo il nome dell'Ospite indesiderato...?"
+SAY "{VOICE=08}Baboorood... È questo il nome dell'Ospite indesiderato...?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -408,11 +408,11 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}...Ho inseguito Baboorood{BREAK}e sono arrivato qui, ma..."
+SAY "{VOICE=07}...Ho inseguito Baboorood e sono arrivato qui, ma..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}Non riesco a oltrepassare la sua barriera.{BREAK}È molto al di là delle mie possibilità."
+SAY "{VOICE=07}Non riesco a oltrepassare la sua barriera. È molto al di là delle mie{WAIT}{CLEAR}possibilità."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40800000
@@ -430,7 +430,7 @@ STORE 0x18 0x1 0x0 0x2 0x42480000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41f00000
 SETNAME "Incarnus"
-SAY "{VOICE=07}Tu... i tuoi occhi...{BREAK}Li ho già visti..."
+SAY "{VOICE=07}Tu... i tuoi occhi... Li ho già visti..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40c00000
@@ -450,11 +450,11 @@ STORE 0x18 0x1 0x0 0x2 0x424c0000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}Tanto tempo fa conoscevo{BREAK}qualcuno che aveva occhi come i tuoi."
+SAY "{VOICE=07}Tanto tempo fa conoscevo qualcuno che aveva occhi come i tuoi."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}Sei anche tu uno Scout?{BREAK}In tal caso avrò bisogno della tua forza."
+SAY "{VOICE=07}Sei anche tu uno Scout? In tal caso avrò bisogno della tua forza."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -483,7 +483,7 @@ SYS_8C 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}C-certo, {NAME}! Con l'Incarnus al nostro fianco{BREAK}avremo molto più coraggio!"
+SAY "{VOICE=08}C-certo, {NAME}! Con l'Incarnus al nostro fianco avremo molto{WAIT}{CLEAR}più coraggio!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -511,11 +511,11 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Grazie al potere del tuo Soma,{BREAK}ora posso abbattere quella barriera."
+SAY "{VOICE=07}Grazie al potere del tuo Soma, ora posso abbattere quella barriera."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}Ti seguirò, quindi non preoccuparti{BREAK}e vai pure avanti."
+SAY "{VOICE=07}Ti seguirò, quindi non preoccuparti e vai pure avanti."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -539,15 +539,15 @@ WAIT 0x10 0x2 0x42200000
 STORE 0x18 0x0 0x40000000 0x2 0x3f800000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Ehi! È la prima volta che{BREAK}sento il termine "Scout'."
+SAY "{VOICE=08}Ehi! È la prima volta che sento il termine "Scout'."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}È incredibile che l'Incarnus{BREAK}possa contare su di te, non trovi!?"
+SAY "{VOICE=08}È incredibile che l'Incarnus possa contare su di te, non trovi!?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}Lo sapevo che non ero pazza!{BREAK}Bene, raggiungiamo quella barriera!"
+SAY "{VOICE=08}Lo sapevo che non ero pazza! Bene, raggiungiamo quella barriera!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

@@ -1342,7 +1342,7 @@ STORE 0x18 0x0 0x426c0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x426c0000 0x2 0x0
 JMP_IFNOT 0xc L_4c7c
 SYS_42 0x8 
-SAY "{COLOR=2}La curiosità può uccidere i gatti, ma non gli {1F29}out!{WAIT}{CLEAR}Esamina queste strane rocce per imparare tecniche e comandi nuovi."
+SAY "{COLOR=2}La curiosità può uccidere i gatti, ma non gli {1F29}out! Esamina queste strane rocce{WAIT}{CLEAR}per imparare tecniche e comandi nuovi."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}Le "Pietre dello {1F29}out" sono indicate sulla mappa da icone azzurre."
@@ -1378,10 +1378,10 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha imparato "Teletrasporto"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un attimo in qualsiasi area già visitata."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un attimo in qualsiasi area{WAIT}{CLEAR}già visitata."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Fatte salve poche eccezioni, può essere utilizzata ovunque... Persino nelle grotte!"
+SAY "{COLOR=2}Fatte salve poche eccezioni, può essere utilizzata ovunque... Persino nelle{WAIT}{CLEAR}grotte!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1401,7 +1401,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha imparato "{1F36}arizione"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa tecnica permette a {NAME} di passare sotto il naso dei nemici senza farsi notare."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di passare sotto il naso dei nemici senza{WAIT}{CLEAR}farsi notare."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1418,7 +1418,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} può ora usare "Guarisci tutti"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Quest'incantesimo di guarigione permette a {NAME} di curare tutti i membri della squadra."
+SAY "{COLOR=2}Quest'incantesimo di guarigione permette a {NAME} di curare tutti i{WAIT}{CLEAR}membri della squadra."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1441,7 +1441,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha imparato "{1F2B}gugio"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa tecnica permette a {NAME} di scoprire quanti tesori sono nascosti nelle vicinanze."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di scoprire quanti tesori sono nascosti{WAIT}{CLEAR}nelle vicinanze."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1458,13 +1458,13 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha imparato "Velotrans"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un istante al più vicino portale Velotrans."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un istante al più vicino{WAIT}{CLEAR}portale Velotrans."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}La tecnica funzionerà solo se il portale è già aperto."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Quindi, è bene che {NAME} esamini subito i portali Velotrans situati sull'isola."
+SAY "{COLOR=2}Quindi, è bene che {NAME} esamini subito i portali Velotrans situati{WAIT}{CLEAR}sull'isola."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1485,7 +1485,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha ottenuto "Curamostri"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa bevanda fa recuperare PV e PM a tutti i membri della squadra di {NAME}."
+SAY "{COLOR=2}Questa bevanda fa recuperare PV e PM a tutti i membri della squadra di {NAME}{WAIT}{CLEAR}."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}La bottiglia contiene tre dosi e può essere riempita di nuovo tornando alla nave."
@@ -5091,7 +5091,7 @@ STORE 0x18 0x1 0x0 0x2 0x40000000
 SYS_AD 0x8 
 WAIT 0x10 0x2 0x40a00000
 SYS_42 0x8 
-SAY "{COLOR=2}La fiamma si è spenta.{BREAK}Non puoi più usarla."
+SAY "{COLOR=2}La fiamma si è spenta. Non puoi più usarla."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5190,7 +5190,7 @@ SYS_49 0x8
 STORE 0x18 0x1 0x0 0x2 0x40000000
 SYS_AD 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}La legna è accatastata per{BREAK}accendere un fuoco."
+SAY "{COLOR=2}La legna è accatastata per accendere un fuoco."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5206,7 +5206,7 @@ SYS_42 0x8
 SAY "{COLOR=2}Qui è accatastata della legna."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}C'è una grande impronta{BREAK}laggiù."
+SAY "{COLOR=2}C'è una grande impronta laggiù."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5241,7 +5241,7 @@ STORE 0x18 0x1 0x0 0x2 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x0 0x42d00000
 SYS_A8 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}La luce della torcia si è ridotta!{BREAK}Si spegnerà dopo {E322} combattimenti."
+SAY "{COLOR=2}La luce della torcia si è ridotta! Si spegnerà dopo {E322} combattimenti."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6539,7 +6539,7 @@ STORE 0x18 0x0 0x42fa0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42fa0000 0x2 0x0
 JMP_IFNOT 0xc L_1a0fc
 SYS_42 0x8 
-SAY "{COLOR=2}È un monumento scolpito a forma di giungla rigogliosa.{BREAK}C'è un foro sull'altare."
+SAY "{COLOR=2}È un monumento scolpito a forma di giungla rigogliosa. C'è un foro{WAIT}{CLEAR}sull'altare."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6550,7 +6550,7 @@ L_1a104:
 JMP_ABS 0xc L_1a110
 L_1a110:
 SYS_42 0x8 
-SAY "{COLOR=2}Il monumento a forma di giungla rigogliosa{BREAK}emana una forte energia."
+SAY "{COLOR=2}Il monumento a forma di giungla rigogliosa emana una forte energia."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6561,10 +6561,10 @@ L_1a190:
 CMP_EQ 0x18 0x0 0x42f80000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1a5ec
 SYS_42 0x8 
-SAY "{COLOR=2}È un monumento a forma di giungla rigogliosa.{BREAK}C'è un foro sull'altare."
+SAY "{COLOR=2}È un monumento a forma di giungla rigogliosa. C'è un foro sull'altare."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Sembra che il piatto ottenuto{BREAK}da Selvascura possa entrarci."
+SAY "{COLOR=2}Sembra che il piatto ottenuto da Selvascura possa entrarci."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}Vuoi inserire il piatto della giungla?{VOICE=09}"
@@ -6607,7 +6607,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}L'energia si accumula nel monumento{BREAK}a forma di giungla rigogliosa."
+SAY "{COLOR=2}L'energia si accumula nel monumento a forma di giungla rigogliosa."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6642,7 +6642,7 @@ STORE 0x18 0x0 0x42fa0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42fa0000 0x2 0x0
 JMP_IFNOT 0xc L_1a794
 SYS_42 0x8 
-SAY "{COLOR=2}È un monumento scolpito a forma di pianura.{BREAK}C'è un foro sull'altare."
+SAY "{COLOR=2}È un monumento scolpito a forma di pianura. C'è un foro sull'altare."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6653,7 +6653,7 @@ L_1a79c:
 JMP_ABS 0xc L_1a7a8
 L_1a7a8:
 SYS_42 0x8 
-SAY "{COLOR=2}Il monumento a forma di pianura{BREAK}emana una forte energia."
+SAY "{COLOR=2}Il monumento a forma di pianura emana una forte energia."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6664,10 +6664,10 @@ L_1a828:
 CMP_EQ 0x18 0x0 0x42f80000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1ac84
 SYS_42 0x8 
-SAY "{COLOR=2}È un monumento scolpito a forma di pianura.{BREAK}C'è un foro sull'altare."
+SAY "{COLOR=2}È un monumento scolpito a forma di pianura. C'è un foro sull'altare."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Sembra che il piatto ottenuto{BREAK}da Vastopiano possa entrarci."
+SAY "{COLOR=2}Sembra che il piatto ottenuto da Vastopiano possa entrarci."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}Vuoi inserire il piatto della pianura?{VOICE=09}"
@@ -6710,7 +6710,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Il monumento a forma di pianura{BREAK}comincia ad accumulare energia."
+SAY "{COLOR=2}Il monumento a forma di pianura comincia ad accumulare energia."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6745,7 +6745,7 @@ STORE 0x18 0x0 0x42fa0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42fa0000 0x2 0x0
 JMP_IFNOT 0xc L_1ae2c
 SYS_42 0x8 
-SAY "{COLOR=2}È un monumento scolpito a forma di vetta ghiacciata.{BREAK}C'è un foro sull'altare."
+SAY "{COLOR=2}È un monumento scolpito a forma di vetta ghiacciata. C'è un foro sull'altare."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6756,7 +6756,7 @@ L_1ae34:
 JMP_ABS 0xc L_1ae40
 L_1ae40:
 SYS_42 0x8 
-SAY "{COLOR=2}Il monumento a forma di vetta ghiacciata{BREAK}emana una forte energia."
+SAY "{COLOR=2}Il monumento a forma di vetta ghiacciata emana una forte energia."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6767,10 +6767,10 @@ L_1aec0:
 CMP_EQ 0x18 0x0 0x42f80000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1b31c
 SYS_42 0x8 
-SAY "{COLOR=2}È un monumento a forma di vetta ghiacciata.{BREAK}C'è un foro sull'altare."
+SAY "{COLOR=2}È un monumento a forma di vetta ghiacciata. C'è un foro sull'altare."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Sembra che il piatto ottenuto{BREAK}da Gelandia possa entrarci."
+SAY "{COLOR=2}Sembra che il piatto ottenuto da Gelandia possa entrarci."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}Vuoi inserire il piatto della montagna?{VOICE=09}"
@@ -6813,7 +6813,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Il monumento a forma di vetta{BREAK}ghiacciata comincia ad accumulare energia."
+SAY "{COLOR=2}Il monumento a forma di vetta ghiacciata comincia ad accumulare energia."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6848,7 +6848,7 @@ STORE 0x18 0x0 0x42fa0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42fa0000 0x2 0x0
 JMP_IFNOT 0xc L_1b4c4
 SYS_42 0x8 
-SAY "{COLOR=2}È un monumento scolpito a forma di rupe.{BREAK}C'è un foro sull'altare."
+SAY "{COLOR=2}È un monumento scolpito a forma di rupe. C'è un foro sull'altare."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6859,7 +6859,7 @@ L_1b4cc:
 JMP_ABS 0xc L_1b4d8
 L_1b4d8:
 SYS_42 0x8 
-SAY "{COLOR=2}Il monumento a forma di rupe{BREAK}emana una forte energia."
+SAY "{COLOR=2}Il monumento a forma di rupe emana una forte energia."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6870,10 +6870,10 @@ L_1b558:
 CMP_EQ 0x18 0x0 0x42f80000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1b9b4
 SYS_42 0x8 
-SAY "{COLOR=2}È un monumento a forma di rupe.{BREAK}C'è un foro sull'altare."
+SAY "{COLOR=2}È un monumento a forma di rupe. C'è un foro sull'altare."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Sembra che il piatto ottenuto{BREAK}da Precipizia possa entrarci."
+SAY "{COLOR=2}Sembra che il piatto ottenuto da Precipizia possa entrarci."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}Vuoi inserire il piatto della rupe?{VOICE=09}"
@@ -6916,7 +6916,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Il monumento a forma di rupe{BREAK}comincia ad accumulare energia."
+SAY "{COLOR=2}Il monumento a forma di rupe comincia ad accumulare energia."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6951,7 +6951,7 @@ STORE 0x18 0x0 0x42fa0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42fa0000 0x2 0x0
 JMP_IFNOT 0xc L_1bb5c
 SYS_42 0x8 
-SAY "{COLOR=2}È un monumento scolpito a forma di costa.{BREAK}C'è un foro sull'altare."
+SAY "{COLOR=2}È un monumento scolpito a forma di costa. C'è un foro sull'altare."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6962,7 +6962,7 @@ L_1bb64:
 JMP_ABS 0xc L_1bb70
 L_1bb70:
 SYS_42 0x8 
-SAY "{COLOR=2}Il monumento a forma di costa{BREAK}emana una forte energia."
+SAY "{COLOR=2}Il monumento a forma di costa emana una forte energia."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6973,10 +6973,10 @@ L_1bbf0:
 CMP_EQ 0x18 0x0 0x42f80000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1c04c
 SYS_42 0x8 
-SAY "{COLOR=2}È un monumento a forma di costa.{BREAK}C'è un foro sull'altare."
+SAY "{COLOR=2}È un monumento a forma di costa. C'è un foro sull'altare."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Sembra che il piatto ottenuto{BREAK}da Costa Ignota possa entrarci."
+SAY "{COLOR=2}Sembra che il piatto ottenuto da Costa Ignota possa entrarci."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}Vuoi inserire il piatto della costa?{VOICE=09}"
@@ -7019,7 +7019,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Il monumento a forma di costa{BREAK}comincia ad accumulare energia."
+SAY "{COLOR=2}Il monumento a forma di costa comincia ad accumulare energia."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7054,7 +7054,7 @@ STORE 0x18 0x0 0x42fa0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42fa0000 0x2 0x0
 JMP_IFNOT 0xc L_1c1f8
 SYS_42 0x8 
-SAY "{COLOR=2}È un monumento scolpito a forma di leone gigante.{BREAK}C'è un foro sull'altare."
+SAY "{COLOR=2}È un monumento scolpito a forma di leone gigante. C'è un foro sull'altare."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7065,7 +7065,7 @@ L_1c200:
 JMP_ABS 0xc L_1c20c
 L_1c20c:
 SYS_42 0x8 
-SAY "{COLOR=2}Il monumento a forma di leone gigante{BREAK}emana una forte energia."
+SAY "{COLOR=2}Il monumento a forma di leone gigante emana una forte energia."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7076,13 +7076,13 @@ L_1c290:
 CMP_EQ 0x18 0x0 0x42f80000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1cb6c
 SYS_42 0x8 
-SAY "{COLOR=2}È un monumento a forma di leone gigante.{BREAK}C'è un foro sull'altare."
+SAY "{COLOR=2}È un monumento a forma di leone gigante. C'è un foro sull'altare."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Sembra che il piatto ottenuto{BREAK}dal Mausoleum possa entrarci."
+SAY "{COLOR=2}Sembra che il piatto ottenuto dal Mausoleum possa entrarci."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Vuoi inserire il piatto del dio della guerra?{BREAK}{VOICE=09}"
+SAY "{COLOR=2}Vuoi inserire il piatto del dio della guerra? {VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -7122,7 +7122,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Il monumento a forma di leone gigante{BREAK}comincia ad accumulare energia."
+SAY "{COLOR=2}Il monumento a forma di leone gigante comincia ad accumulare energia."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

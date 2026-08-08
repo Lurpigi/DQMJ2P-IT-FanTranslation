@@ -85,7 +85,7 @@ WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Meck Nick"
-SAY "{VOICE=07}Svegliati, clandestino!{BREAK}Hai riposato abbastanza!"
+SAY "{VOICE=07}Svegliati, clandestino! Hai riposato abbastanza!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -151,7 +151,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Meck Nick"
-SAY "{VOICE=07}Non ho chiuso occhio tutta la notte.{BREAK}Ho riflettuto a lungo sulla situazione...{WAIT}{CLEAR}Ed è stato un bene che lo abbia fatto, perché ora so come dobbiamo procedere!"
+SAY "{VOICE=07}Non ho chiuso occhio tutta la notte. Ho riflettuto a lungo sulla situazione...{WAIT}{CLEAR}Ed è stato un bene che lo abbia fatto, perché ora so come dobbiamo procedere!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x3f800000
@@ -162,7 +162,7 @@ STORE 0x18 0x1 0x0 0x0 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x2 0x428c0000
 SYS_18 0x8 
 SETNAME "Meck Nick"
-SAY "{VOICE=07}Ci inoltreremo nel folto della giungla, ragazzo!{WAIT}{CLEAR}{1F61}, è pericoloso, ma potrebbero esserci dei superstiti, ed è nostro dovere trovarli."
+SAY "{VOICE=07}Ci inoltreremo nel folto della giungla, ragazzo! {1F61}, è pericoloso, ma potrebbero{WAIT}{CLEAR}esserci dei superstiti, ed è nostro dovere trovarli."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Meck Nick"
@@ -170,7 +170,7 @@ SAY "{VOICE=07}Mi ci vorrà un mucchio di tempo per riparare la nave..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Meck Nick"
-SAY "{VOICE=07}Sarò impegnato per un bel pezzo,{BREAK}quindi dovrai cavartela da solo."
+SAY "{VOICE=07}Sarò impegnato per un bel pezzo, quindi dovrai cavartela da solo."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Meck Nick"
@@ -235,7 +235,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x428c0000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Meck Nick"
-SAY "{VOICE=07}Se non sbaglio, non hai nemmeno un mostro... Uhm, vieni con me..."
+SAY "{VOICE=07}{1F2B} non sbaglio, non hai nemmeno un mostro... Uhm, vieni con me..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

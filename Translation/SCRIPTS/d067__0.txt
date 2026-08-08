@@ -215,7 +215,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_4E 0x8 
 SYS_42 0x8 
 SETNAME "Piovron"
-SAY "{VOICE=03}Proprio non riesci a star zitta, eh?!{BREAK}Sparisci, prima che mi arrabbi sul serio!"
+SAY "{VOICE=03}Proprio non riesci a star zitta, eh?! {1F36}arisci, prima che mi arrabbi sul serio!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -407,7 +407,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x428c0000
 SYS_42 0x8 
 SETNAME "Piovron"
-SAY "{VOICE=03}Beh? Cosa c'è da guardare?{BREAK}Mai vista una piovra gigante...?"
+SAY "{VOICE=03}Beh? Cosa c'è da guardare? Mai vista una piovra gigante...?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -425,7 +425,7 @@ SAY "{VOICE=03}Aspetta un attimo...! {1F28}aglio o mi hai svegliato affettandomi
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Piovron"
-SAY "{VOICE=03}I tentacoli ricresceranno presto,{BREAK}quindi la cosa non mi disturba più di tanto.{WAIT}{CLEAR}Ciò che non posso perdonare, invece, è che tu mi abbia disturbato mentre riposavo!"
+SAY "{VOICE=03}I tentacoli ricresceranno presto, quindi la cosa non mi disturba più di tanto. Ciò che{WAIT}{CLEAR}non posso perdonare, invece, è che tu mi abbia disturbato mentre riposavo!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -607,7 +607,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_4E 0x8 
 SYS_42 0x8 
 SETNAME "Piovron"
-SAY "{VOICE=03}Proprio non riesci a star zitta, eh?! Sparisci, prima che mi arrabbi sul serio!"
+SAY "{VOICE=03}Proprio non riesci a star zitta, eh?! {1F36}arisci, prima che mi arrabbi sul serio!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

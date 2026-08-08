@@ -313,7 +313,7 @@ WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Mynos il Vecchio"
-SAY "{VOICE=03}Salute a te, Don Mole. Hai portato a termine il tuo sacro compito."
+SAY "{VOICE=03}{1F27}lute a te, Don Mole. Hai portato a termine il tuo sacro compito."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -343,11 +343,11 @@ STORE 0x18 0x0 0x40000000 0x2 0x3f800000
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Mynos il Vecchio"
-SAY "{VOICE=03}Sei tu che hai portato qui la Medaglia del Valore? Hai compiuto una grande impresa."
+SAY "{VOICE=03}{1F2B}i tu che hai portato qui la Medaglia del Valore? Hai compiuto una grande impresa."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Mynos il Vecchio"
-SAY "{VOICE=03}Voglio svelarti il segreto della Medaglia del Valore...{WAIT}{CLEAR}Chi la possiede ha il diritto di affrontare la sfida finale del Torneo Monster Scout."
+SAY "{VOICE=03}Voglio svelarti il segreto della Medaglia del Valore...{WAIT}{CLEAR}Chi la possiede ha il diritto di affrontare la sfida finale del Torneo Monster {1F29}out."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Mynos il Vecchio"
@@ -407,7 +407,7 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Mynos il Vecchio"
-SAY "{VOICE=03}Originariamente, il Torneo Monster Scout dell'isola aveva uno scopo preciso...{WAIT}{CLEAR}Quello di avvicinarci al Combattente Divino."
+SAY "{VOICE=03}Originariamente, il Torneo Monster {1F29}out dell'isola aveva uno scopo preciso...{WAIT}{CLEAR}Quello di avvicinarci al Combattente Divino."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Mynos il Vecchio"
@@ -493,7 +493,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Mynos il Vecchio"
-SAY "{VOICE=03}La bontà e la purezza del Combattente Divino si trasformarono in malvagità.{WAIT}{CLEAR}Fummo costretti a imprigionare quell'essere divenuto malefico e ad attendere..."
+SAY "{VOICE=03}La bontà e la purezza del Combattente Divino si trasformarono in malvagità.{WAIT}{CLEAR}Fummo costretti a imprigionare quell'essere divenuto malefico e ad{WAIT}{CLEAR}attendere..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Mynos il Vecchio"
@@ -518,7 +518,7 @@ SAY "{VOICE=07}Mynos il Vecchio ci aveva affidato il compito di organizzare ques
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
-SAY "{VOICE=07}Lo scopo della competizione, però, è ben diverso da quello della sfida originaria.{BREAK}Questo Torneo mira a trovare la persona forte e giusta di cui abbiamo bisogno.{WAIT}{CLEAR}"
+SAY "{VOICE=07}Lo scopo della competizione, però, è ben diverso da quello della sfida originaria.{WAIT}{CLEAR}Questo Torneo mira a trovare la persona forte e giusta di cui abbiamo bisogno."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -665,11 +665,11 @@ SAY "{VOICE=07}{E321}{NAME} ha combattuto per i suoi compagni di viaggio."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Marcus Logos"
-SAY "{VOICE=07}Secoli fa, Empyrea, il grande volatile, aiutò degli uomini a lasciare l'isola."
+SAY "{VOICE=07}{1F2B}coli fa, Empyrea, il grande volatile, aiutò degli uomini a lasciare l'isola."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Marcus Logos"
-SAY "{VOICE=07}Se il Combattente Divino sarà risvegliato, Empyrea ci aiuterà?"
+SAY "{VOICE=07}{1F2B} il Combattente Divino sarà risvegliato, Empyrea ci aiuterà?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -693,7 +693,7 @@ SAY "{VOICE=03}I mostri giganti dell'isola hanno giurato eterna fedeltà a una s
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Mynos il Vecchio"
-SAY "{VOICE=03}Se, al suo risveglio, egli permetterà che essi vi assistano, lo faranno."
+SAY "{VOICE=03}{1F2B}, al suo risveglio, egli permetterà che essi vi assistano, lo faranno."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -705,7 +705,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Marcus Logos"
-SAY "{VOICE=07}Ho capito! Allora la persona che un tempo fu lodata dal Combattente Divino...{WAIT}{CLEAR}Ma certo! Quell'uomo era sicuramente lo Scout della leggenda!"
+SAY "{VOICE=07}Ho capito! Allora la persona che un tempo fu lodata dal Combattente Divino...{WAIT}{CLEAR}Ma certo! Quell'uomo era sicuramente lo {1F29}out della leggenda!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41a00000
 STORE 0x18 0x1 0x0 0x2 0x42cc0000
@@ -745,7 +745,7 @@ STORE 0x18 0x1 0x0 0x0 0x40c00000
 STORE 0x18 0x1 0x3f800000 0x2 0x42a40000
 SYS_18 0x8 
 SETNAME "Marcus Logos"
-SAY "{VOICE=07}{E321}{NAME}, sento che ce la farai...!{WAIT}{CLEAR}Anche tu puoi diventare uno Scout leggendario!"
+SAY "{VOICE=07}{E321}{NAME}, sento che ce la farai...!{WAIT}{CLEAR}Anche tu puoi diventare uno {1F29}out leggendario!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

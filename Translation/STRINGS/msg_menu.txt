@@ -106,7 +106,7 @@ Dai un nome a questo {30b}{00}.
 Cambia il nome di {30b}{00}.
 Dai un nome alla tua squadra.
 Continua
-Avvio
+Nuova Partita
 Gioco wireless DS
 Connessione Wi-Fi Nintendo
 Impostazioni profilo

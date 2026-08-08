@@ -242,11 +242,11 @@ STORE 0x18 0x1 0x0 0x2 0x42240000
 STORE 0x18 0x1 0x3f800000 0x2 0x41200000
 SYS_17 0x8 
 SETNAME "Marcus Logos"
-SAY "{VOICE=07}Pare che, molti anni fa, alcune persone riuscirono a fuggire dall'isola.{WAIT}{CLEAR}Per farlo, salirono in groppa a un gigantesco pennuto. Incredibile, eh?"
+SAY "{VOICE=07}Pare che, molti anni fa, alcune persone riuscirono a fuggire dall'isola. Per{WAIT}{CLEAR}farlo, salirono in groppa a un gigantesco pennuto. Incredibile, eh?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Marcus Logos"
-SAY "{VOICE=07}Se la bestia enorme fosse proprio quel volatile, forse potremmo tornare a casa!"
+SAY "{VOICE=07}{1F2B} la bestia enorme fosse proprio quel volatile, forse potremmo tornare a casa!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -273,7 +273,7 @@ STORE 0x18 0x1 0x0 0x2 0x42780000
 SYS_A5 0x8 
 WAIT 0x10 0x2 0x42340000
 WAIT 0x10 0x2 0x41200000
-SAY "{COLOR=2}Sulla mappa principale è ora riportata la nuova area."
+SAY "{COLOR=2}{1F3B}lla mappa principale è ora riportata la nuova area."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

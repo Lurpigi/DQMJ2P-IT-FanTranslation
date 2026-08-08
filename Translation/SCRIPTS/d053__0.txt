@@ -176,11 +176,11 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
 SETNAME "Capitan Alex"
-SAY "{VOICE=07}E così, fatta eccezione per noi e per Sheila, tutti gli altri sono al sicuro..."
+SAY "{VOICE=07}E così, fatta eccezione per noi e per {1F2E}eila, tutti gli altri sono al sicuro..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Capitan Alex"
-SAY "{VOICE=07}Quando l'Albatros è precipitato sono finito in acqua...{BREAK}Per fortuna sono riuscito a raggiungere la costa a nuoto...{WAIT}{CLEAR}"
+SAY "{VOICE=07}Quando l'Albatros è precipitato sono finito in acqua...{WAIT}{CLEAR}Per fortuna sono riuscito a raggiungere la costa a nuoto..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Capitan Alex"
@@ -188,7 +188,7 @@ SAY "{VOICE=07}Mi sono ritrovato da solo in territorio ostile, senza avere idea 
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Capitan Alex"
-SAY "{VOICE=07}Poi ho sentito Sheila gridare, e ho capito che dovevo proteggere quella poveretta!"
+SAY "{VOICE=07}Poi ho sentito {1F2E}eila gridare, e ho capito che dovevo proteggere quella poveretta!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -206,7 +206,7 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Capitan Alex"
-SAY "{VOICE=07}Sono fiero di te, pivello.{BREAK}Non tutti sarebbero riusciti a trovare questo posto."
+SAY "{VOICE=07}Sono fiero di te, pivello. Non tutti sarebbero riusciti a trovare questo posto."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -231,11 +231,11 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Capitan Alex"
-SAY "{VOICE=07}Cos'hai detto?! Non sono sicuro di aver capito bene...{WAIT}{CLEAR}Un Torneo Monster Scout organizzato da un branco di talpe?!{WAIT}{CLEAR}Un pennuto gigante che vive tra queste vette?!"
+SAY "{VOICE=07}Cos'hai detto?! Non sono sicuro di aver capito bene...{WAIT}{CLEAR}Un Torneo Monster {1F29}out organizzato da un branco di talpe?!{WAIT}{CLEAR}Un pennuto gigante che vive tra queste vette?!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Capitan Alex"
-SAY "{VOICE=07}Senza offesa, pivello, ma... sei certo di non esserti bevuto il cervello?!"
+SAY "{VOICE=07}{1F2B}nza offesa, pivello, ma... sei certo di non esserti bevuto il cervello?!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Capitan Alex"
@@ -290,7 +290,7 @@ SYS_43 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Jamirus"
-SAY "{VOICE=07}Adesso capisco... Sei qui per trovare il grande volatile..."
+SAY "{VOICE=07}Adesso capisco... {1F2B}i qui per trovare il grande volatile..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -427,7 +427,7 @@ SYS_18 0x8
 STORE 0x18 0x0 0x40a00000 0x2 0x3f800000
 SYS_42 0x8 
 SETNAME "Capitan Alex"
-SAY "{VOICE=07}Cosa vuoi dire?! Spiegati meglio... Ehi! Aspetta!"
+SAY "{VOICE=07}Cosa vuoi dire?! {1F36}iegati meglio... Ehi! Aspetta!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40400000
@@ -544,7 +544,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Capitan Alex"
-SAY "{VOICE=07}Adesso basta con queste stupide storie di spettri... Dobbiamo trovare Sheila!"
+SAY "{VOICE=07}Adesso basta con queste stupide storie di spettri... Dobbiamo trovare {1F2E}eila!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Capitan Alex"
@@ -552,7 +552,7 @@ SAY "{VOICE=07}Il pennuto è sparito, e la nostra amica dovrebbe sapersela cavar
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Capitan Alex"
-SAY "{VOICE=07}Ma Capitan Alex non abbandona i suoi passeggeri! Mai!{WAIT}{CLEAR}Dobbiamo rintracciare Sheila il prima possibile!"
+SAY "{VOICE=07}Ma Capitan Alex non abbandona i suoi passeggeri! Mai!{WAIT}{CLEAR}Dobbiamo rintracciare {1F2E}eila il prima possibile!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x0

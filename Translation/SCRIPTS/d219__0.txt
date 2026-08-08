@@ -98,7 +98,7 @@ STORE 0x18 0x1 0x0 0x2 0x42ea0000
 SYS_33 0x8 
 SYS_42 0x8 
 SETNAME "Marcus Logos"
-SAY "{VOICE=07}{1F2B}mbra proprio che sia arrivato il momento {BREAK}di andarcene..."
+SAY "{VOICE=07}{1F2B}mbra proprio che sia arrivato il momento di andarcene..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -139,7 +139,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Empyrea afferra l'Albatros con i suoi possenti artigli...{WAIT}{CLEAR}E porta {NAME} e gli altri nel luogo dove si svolgerà il Torneo Monster {1F29}out..."
+SAY "{COLOR=2}Empyrea afferra l'Albatros con i suoi possenti artigli... E porta {NAME}{WAIT}{CLEAR}e gli altri nel luogo dove si svolgerà il Torneo Monster {1F29}out..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41a00000
 SYS_43 0x8 

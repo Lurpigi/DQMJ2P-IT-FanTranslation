@@ -273,7 +273,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Baboorood"
-SAY "{VOICE=03}A-aspetta!!{BREAK}Mi arrendo! Ho sbagliato!"
+SAY "{VOICE=03}A-aspetta!! Mi arrendo! Ho sbagliato!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -297,7 +297,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Baboorood"
-SAY "{VOICE=03}Ti supplico! Perdonami! Mi impegnerò{BREAK}a cambiare! Forza!"
+SAY "{VOICE=03}Ti supplico! Perdonami! Mi impegnerò a cambiare! Forza!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -330,7 +330,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Si impegnerà, dice.{BREAK}Ascoltami bene!"
+SAY "{VOICE=08}Si impegnerà, dice. Ascoltami bene!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1008,21 +1008,21 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3f99999a
 SYS_4E 0x8 
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Moccioso!{BREAK}Perché!? Perché ci hai salvati!?"
+SAY "{VOICE=07}Moccioso! Perché!? Perché ci hai salvati!?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Leonix"
-SAY "{VOICE=07}Non lo so nemmeno io...{BREAK}Ma..."
+SAY "{VOICE=07}Non lo so nemmeno io... Ma..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonix"
-SAY "{VOICE=07}{NAME}... Guardarti{BREAK}mi ha riempito di coraggio."
+SAY "{VOICE=07}{NAME}... Guardarti mi ha riempito di coraggio."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonix"
-SAY "{VOICE=07}Da solo non avrei mai potuto sconfiggerlo.{BREAK}Ma tu... Di sicuro..."
+SAY "{VOICE=07}Da solo non avrei mai potuto sconfiggerlo. Ma tu... Di sicuro..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1124,15 +1124,15 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Baboorood"
-SAY "{VOICE=03}Grah! Quel ragazzino depresso di prima{BREAK}aveva ancora qualche asso nella manica!"
+SAY "{VOICE=03}Grah! Quel ragazzino depresso di prima aveva ancora qualche asso nella manica!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Baboorood"
-SAY "{VOICE=03}In tal caso non ho scelta. Non volevo{BREAK}arrivare a tanto..."
+SAY "{VOICE=03}In tal caso non ho scelta. Non volevo arrivare a tanto..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Baboorood"
-SAY "{VOICE=03}Ma userò TUTTO il potere di questo luogo{BREAK}e vi mostrerò la mia VERA FORMA!"
+SAY "{VOICE=03}Ma userò TUTTO il potere di questo luogo e vi mostrerò la mia VERA FORMA!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

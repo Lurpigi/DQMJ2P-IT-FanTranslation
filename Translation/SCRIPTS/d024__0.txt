@@ -475,7 +475,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42880000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Meck Nick"
-SAY "{VOICE=07}Ahi! Ahi! Che dolore! Che dolore!{BREAK}...Dove mi trovo!?"
+SAY "{VOICE=07}Ahi! Ahi! Che dolore! Che dolore! ...Dove mi trovo!?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -521,7 +521,7 @@ SAY "{VOICE=07}Bene, allora direi che è ora di smettere di chiamarti clandestin
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Meck Nick"
-SAY "{VOICE=07}Ti devo un favore, ragazzo! E non c'è alcun dubbio...{WAIT}{CLEAR}...ora sei un vero Scout!"
+SAY "{VOICE=07}Ti devo un favore, ragazzo! E non c'è alcun dubbio... ...ora sei un vero Scout!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Meck Nick"
@@ -758,7 +758,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42b40000
 SYS_42 0x8 
 SETNAME "Marcus Logos"
-SAY "{VOICE=07}Non c'è dubbio su quell'emblema. Significa che le leggende sono vere. LO SAPEVO!"
+SAY "{VOICE=07}Non c'è dubbio su quell'emblema. Significa che le leggende sono vere. LO{WAIT}{CLEAR}SAPEVO!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -830,7 +830,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42a00000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Marcus Logos"
-SAY "{VOICE=07}Appena ho visto quel mostro gigantesco,{BREAK}mi sono ricordato di qualcosa che avevo letto..."
+SAY "{VOICE=07}Appena ho visto quel mostro gigantesco, mi sono ricordato di qualcosa che avevo{WAIT}{CLEAR}letto..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40c00000
@@ -844,7 +844,7 @@ STORE 0x18 0x1 0x0 0x0 0x40c00000
 STORE 0x18 0x1 0x3f800000 0x2 0x42a40000
 SYS_18 0x8 
 SETNAME "Marcus Logos"
-SAY "{VOICE=07}Secondo la leggenda, un tempo viveva uno straordinario maestro degli Scout.{WAIT}{CLEAR}Si dice che riuscisse a piegare al suo volere persino i mostri più potenti..."
+SAY "{VOICE=07}Secondo la leggenda, un tempo viveva uno straordinario maestro degli Scout. Si{WAIT}{CLEAR}dice che riuscisse a piegare al suo volere persino i mostri più potenti..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -956,7 +956,7 @@ SYS_54 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Marcus Logos"
-SAY "{VOICE=07}Non capisci cosa significa!?{WAIT}{CLEAR}Questa isola sacra era un tempo la casa di quello Scout leggendario!"
+SAY "{VOICE=07}Non capisci cosa significa!? Questa isola sacra era un tempo la casa di quello{WAIT}{CLEAR}Scout leggendario!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1002,7 +1002,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x428c0000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Meck Nick"
-SAY "{VOICE=07}Quindi vuoi continuare a indagare su questo posto!?{WAIT}{CLEAR}Non hai ancora imparato la lezione, ragazzo?"
+SAY "{VOICE=07}Quindi vuoi continuare a indagare su questo posto!? Non hai ancora imparato{WAIT}{CLEAR}la lezione, ragazzo?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1085,7 +1085,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42a40000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Marcus Logos"
-SAY "{VOICE=07}{E321}{NAME}, ti prego, proteggi quell'artefatto a costo della vita.{WAIT}{CLEAR}Ha un'importanza storica assoluta."
+SAY "{VOICE=07}{E321}{NAME}, ti prego, proteggi quell'artefatto a costo della vita. Ha{WAIT}{CLEAR}un'importanza storica assoluta."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1139,7 +1139,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Meck Nick"
-SAY "{VOICE=07}Oh, già che sei qui, un'altra cosa,{BREAK}piccolo cervellone.{WAIT}{CLEAR}Per caso hai visto qualcun altro della nave?"
+SAY "{VOICE=07}Oh, già che sei qui, un'altra cosa, piccolo cervellone. Per caso hai visto{WAIT}{CLEAR}qualcun altro della nave?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1184,7 +1184,7 @@ STORE 0x18 0x1 0x0 0x2 0x42780000
 SYS_A5 0x8 
 WAIT 0x10 0x2 0x42340000
 WAIT 0x10 0x2 0x41200000
-SAY "{COLOR=2}Apri la mappa principale e vedrai la nuova regione!{WAIT}{CLEAR}Da quel momento potrai usare Zoom per raggiungerla direttamente."
+SAY "{COLOR=2}Apri la mappa principale e vedrai la nuova regione! Da quel momento potrai{WAIT}{CLEAR}usare Zoom per raggiungerla direttamente."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

@@ -1333,7 +1333,7 @@ SYS_42 0x8
 SAY "{COLOR=2}La curiosità può uccidere i gatti, ma non gli {1F29}out!{WAIT}{CLEAR}Esamina queste strane rocce per imparare tecniche e comandi nuovi."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Le "Pietre dello {1F29}out" sono indicate sulla mappa da icone azzurre."
+SAY "{COLOR=2}Le \"Pietre dello {1F29}out\" sono indicate sulla mappa da icone azzurre."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1366,7 +1366,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha imparato \"Teletrasporto\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un attimo in qualsiasi area già visitata."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un attimo in qualsiasi area{WAIT}{CLEAR}già visitata."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}Fatte salve poche eccezioni, può essere utilizzata ovunque... Persino nelle grotte!"
@@ -1389,7 +1389,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha imparato \"{1F36}arizione\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa tecnica permette a {NAME} di passare sotto il naso dei nemici senza farsi notare."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di passare sotto il naso dei nemici senza{WAIT}{CLEAR}farsi notare."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1406,7 +1406,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} può ora usare \"Guarisci tutti\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Quest'incantesimo di guarigione permette a {NAME} di curare tutti i membri della squadra."
+SAY "{COLOR=2}Quest'incantesimo di guarigione permette a {NAME} di curare tutti i{WAIT}{CLEAR}membri della squadra."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1429,7 +1429,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha imparato \"{1F2B}gugio\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa tecnica permette a {NAME} di scoprire quanti tesori sono nascosti nelle vicinanze."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di scoprire quanti tesori sono nascosti{WAIT}{CLEAR}nelle vicinanze."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1446,13 +1446,13 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha imparato \"Velotrans\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un istante al più vicino portale Velotrans."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un istante al più vicino{WAIT}{CLEAR}portale Velotrans."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}La tecnica funzionerà solo se il portale è già aperto."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Quindi, è bene che {NAME} esamini subito i portali Velotrans situati sull'isola."
+SAY "{COLOR=2}Quindi, è bene che {NAME} esamini subito i portali Velotrans situati{WAIT}{CLEAR}sull'isola."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1473,7 +1473,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha ottenuto \"Curamostri\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa bevanda fa recuperare PV e PM a tutti i membri della squadra di {NAME}."
+SAY "{COLOR=2}Questa bevanda fa recuperare PV e PM a tutti i membri della squadra di {NAME}{WAIT}{CLEAR}."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}La bottiglia contiene tre dosi e può essere riempita di nuovo tornando alla nave."
@@ -3768,7 +3768,7 @@ JMP_IFNOT 0xc L_e8c8
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_49 0x8 
 SYS_42 0x8 
-SAY "{VOICE=07}Don Mole vuole parlarti, {BREAK}bipede umano."
+SAY "{VOICE=07}Don Mole vuole parlarti, bipede umano."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4771,7 +4771,7 @@ SYS_44 0x8
 SAY "{VOICE=07}Aspetta un secondo...! Cos'è quella chiave...?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}La chiave per le antiche rovine del Mausoleum...? Ma questo vuol {WAIT}{CLEAR}dire che sull'isola ci sono edifici {BREAK}creati dall'uomo...!"
+SAY "{VOICE=07}La chiave per le antiche rovine del Mausoleum...? {WAIT}{CLEAR}Ma questo vuol dire che sull'isola ci sono edifici creati dall'uomo...!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Chi li avrà costruiti? E per quale motivo? Questa è davvero l'isola del mistero!"
@@ -4815,7 +4815,7 @@ CMP_EQ 0x18 0x0 0x42ea0000 0x2 0x0
 JMP_IFNOT 0xc L_12cb4
 SYS_42 0x8 
 SETNAME "Jim Jenius"
-SAY "{VOICE=03}Credevo di sapere tutto sul Torneo Monster Scout...{WAIT}{CLEAR}...ma non avrei mai immaginato che ne esistesse una versione organizzata dalle talpe!"
+SAY "{VOICE=03}Credevo di sapere tutto sul Torneo Monster Scout... ...ma non avrei mai{WAIT}{CLEAR}immaginato che ne esistesse una versione organizzata dalle talpe!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}Hanno detto che, se otterrai successi nella competizione, andrai lontano..."
@@ -4824,7 +4824,7 @@ SYS_44 0x8
 SAY "{VOICE=03}Questa sì che è una notizia interessante!{WAIT}{CLEAR}Credo che dovremmo tornare alla volonave per riferirla agli altri..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Torna da me non appena sarai pronto {BREAK}per andare all'Albatros."
+SAY "{VOICE=03}Torna da me non appena sarai pronto per andare all'Albatros."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4918,7 +4918,7 @@ SETNAME "Mynos il Vecchio"
 SAY "{VOICE=03}Devo scoprire se hai le capacità necessarie per sfidare una divinità..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Questa sfida non è un gioco come il Torneo Monster Scout.{WAIT}{CLEAR}Qui ci si gioca la vita."
+SAY "{VOICE=03}Questa sfida non è un gioco come il Torneo Monster Scout. Qui ci si gioca la{WAIT}{CLEAR}vita."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}Se perdi, dovrai andartene... e con le tasche più leggere."
@@ -4991,7 +4991,7 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x3f800000
 JMP_IFNOT 0xc L_13798
 SYS_42 0x8 
 SETNAME "Lady Lidia"
-SAY "{VOICE=08}Ho sentito dire che stava per iniziare una sfida di grado S, così sono venuta a dare un'occhiata."
+SAY "{VOICE=08}Ho sentito dire che stava per iniziare una sfida di grado S, così sono venuta a{WAIT}{CLEAR}dare un'occhiata."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}Non sei più il peggiore {1F29}out del mondo! Vedi? Frequentare me ti ha giovato..."
@@ -5007,7 +5007,7 @@ SETNAME "Lady Lidia"
 SAY "{VOICE=08}Uhm... Non mi pare che Mynos il Vecchio abbia tutte le rotelle al loro posto..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}È come se fosse uscito di testa dopo {BREAK}essere stato toccato dalla grazia divina..."
+SAY "{VOICE=08}È come se fosse uscito di testa dopo essere stato toccato dalla grazia divina..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5027,7 +5027,7 @@ SETNAME "Lady Lidia"
 SAY "{VOICE=08}Lo ammetto: lo scontro tra te e Mynos il Vecchio è stato davvero emozionante..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}È piaciuto anche alla mia Contessa! {BREAK}Non l'avevo mai vista tanto entusiasta...!"
+SAY "{VOICE=08}È piaciuto anche alla mia Contessa! Non l'avevo mai vista tanto entusiasta...!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5180,7 +5180,7 @@ CMP_EQ 0x18 0x0 0x42e00000 0x2 0x3f800000
 JMP_IFNOT 0xc L_14580
 SYS_42 0x8 
 SETNAME "Meck Nick"
-SAY "{VOICE=07}L'atmosfera è elettrica. Forse dipende {BREAK}dal risveglio del Combattente Divino..."
+SAY "{VOICE=07}L'atmosfera è elettrica. Forse dipende dal risveglio del Combattente Divino..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Che sia questo il motivo per cui abbiamo dato vita a uno spettacolo così bello?"
@@ -5222,7 +5222,7 @@ SETNAME "Solitaire"
 SAY "{VOICE=08}Stanno ancora preparando il Vero Torneo Monster Scout."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Metterò i miei mostri sotto un rigido programma di allenamento...{WAIT}{CLEAR}...quindi assicurati di tornare qui, capito? A meno che tu non abbia PAURA..."
+SAY "{VOICE=08}Metterò i miei mostri sotto un rigido programma di allenamento... ...quindi{WAIT}{CLEAR}assicurati di tornare qui, capito? A meno che tu non abbia PAURA..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5240,7 +5240,7 @@ CMP_EQ 0x18 0x0 0x42de0000 0x2 0x0
 JMP_IFNOT 0xc L_14990
 SYS_42 0x8 
 SETNAME "Arbitro"
-SAY "{VOICE=07}Ehi, il mio brontolone dalla testa a punta preferito. Sorpreso di vedermi qui, ragazzo?"
+SAY "{VOICE=07}Ehi, il mio brontolone dalla testa a punta preferito. Sorpreso di vedermi qui,{WAIT}{CLEAR}ragazzo?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Il Torneo Monster {1F29}out non può non avere un arbitro! Quindi, eccomi qua."
@@ -5360,7 +5360,7 @@ CMP_EQ 0x18 0x0 0x42fe0000 0x2 0x0
 JMP_IFNOT 0xc L_152cc
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Un'accoglienza davvero speciale al fratello umano con la misteriosa medaglia!{WAIT}{CLEAR}Lo spettacolo del Torneo Monster Scout è pronto a cominciare!"
+SAY "{VOICE=07}Un'accoglienza davvero speciale al fratello umano con la misteriosa{WAIT}{CLEAR}medaglia! Lo spettacolo del Torneo Monster Scout è pronto a cominciare!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Che ne dici, amico? Sei pronto a partecipare al Torneo Monster Scout?{VOICE=09}"
@@ -5453,7 +5453,7 @@ SETNAME "Don Mole"
 SAY "{VOICE=07}Amico umano, perché non visiti l'area che noi chiamiamo \"Precipizia\"?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Parla con colui che regna laggiù,{BREAK}il grande e giusto sovrano."
+SAY "{VOICE=07}Parla con colui che regna laggiù, il grande e giusto sovrano."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5473,7 +5473,7 @@ SETNAME "Don Mole"
 SAY "{VOICE=07}Quindi hai incontrato la giusta Empyrea e cominci a credere nelle talpe?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Stiamo compiendo il nostro sacro dovere organizzando questo Torneo Monster Scout."
+SAY "{VOICE=07}Stiamo compiendo il nostro sacro dovere organizzando questo Torneo Monster{WAIT}{CLEAR}Scout."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Non posso dirti altro, ma presto scoprirai la verità..."
@@ -5536,7 +5536,7 @@ SETNAME "Don Mole"
 SAY "{VOICE=07}Quindi hai incontrato la giusta Empyrea e cominci a credere nelle talpe?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Stiamo compiendo il nostro sacro dovere organizzando questo Torneo Monster Scout."
+SAY "{VOICE=07}Stiamo compiendo il nostro sacro dovere organizzando questo Torneo Monster{WAIT}{CLEAR}Scout."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Non posso dirti altro, ma presto scoprirai la verità..."
@@ -5558,7 +5558,7 @@ JMP_ABS 0xc L_15e30
 L_15e30:
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Un'accoglienza davvero speciale al fratello umano con la misteriosa medaglia!{WAIT}{CLEAR}Ora scegli il grado del Torneo Monster Scout che vuoi affrontare!"
+SAY "{VOICE=07}Un'accoglienza davvero speciale al fratello umano con la misteriosa{WAIT}{CLEAR}medaglia! Ora scegli il grado del Torneo Monster Scout che vuoi affrontare!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5572,7 +5572,7 @@ JMP_ABS 0xc L_15ee8
 L_15ee8:
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Un'accoglienza davvero speciale al fratello umano con la misteriosa medaglia!{WAIT}{CLEAR}Ora scegli il grado del Torneo Monster Scout che vuoi affrontare!"
+SAY "{VOICE=07}Un'accoglienza davvero speciale al fratello umano con la misteriosa{WAIT}{CLEAR}medaglia! Ora scegli il grado del Torneo Monster Scout che vuoi affrontare!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5592,7 +5592,7 @@ JMP_IFNOT 0xc L_16164
 L_15ff8:
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Fratello, il grado S è riservato ai veri giusti che possiedono la Medaglia del Valore.{WAIT}{CLEAR}Ma puoi affrontare un altro grado, se preferisci... {VOICE=09}"
+SAY "{VOICE=07}Fratello, il grado S è riservato ai veri giusti che possiedono la Medaglia del{WAIT}{CLEAR}Valore. Ma puoi affrontare un altro grado, se preferisci... {VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -5620,13 +5620,13 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x3f800000
 JMP_IFNOT 0xc L_16778
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Amico umano, hai conquistato la {BREAK}leggendaria Medaglia del Valore!"
+SAY "{VOICE=07}Amico umano, hai conquistato la leggendaria Medaglia del Valore!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Ora puoi mettere in scena il più grande spettacolo dell'isola: la sfida di grado S!"
+SAY "{VOICE=07}Ora puoi mettere in scena il più grande spettacolo dell'isola: la sfida di grado{WAIT}{CLEAR}S!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Allora, amico umano? {BREAK}{1F2B}i pronto per la sfida finale?{VOICE=09}"
+SAY "{VOICE=07}Allora, amico umano? {1F2B}i pronto per la sfida finale?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -5708,7 +5708,7 @@ SETNAME "Don Mole"
 SAY "{VOICE=07}Mi spiace averti tenuto all'oscuro di tutto, ma non potevo fare altrimenti."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I mostri giganti sono scatenati e il male minaccia la terra... Il sonno {WAIT}{CLEAR}del dio ha messo in pericolo {BREAK}tutti noi."
+SAY "{VOICE=07}I mostri giganti sono scatenati e il male minaccia la terra...{WAIT}{CLEAR}{WAIT}{CLEAR}Il sonno del dio ha messo in pericolo tutti noi."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Aiutaci, amico umano... Risveglia il Combattente Divino e salva l'isola!"
@@ -5801,7 +5801,7 @@ SYS_44 0x8
 SAY "{VOICE=07}Il Combattente Divino è tornato in vita. Il desiderio dell'anziano è stato esaudito."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}...Ho sentito una voce, mio funkoso amico.{WAIT}{CLEAR}Sembra che tu voglia partecipare al Torneo Monster Scout degli umani."
+SAY "{VOICE=07}...Ho sentito una voce, mio funkoso amico. Sembra che tu voglia partecipare al{WAIT}{CLEAR}Torneo Monster Scout degli umani."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Pensi che sia la più antica competizione di {1F29}out del mondo? Beh, non è così..."
@@ -5810,7 +5810,7 @@ SYS_44 0x8
 SAY "{VOICE=07}{1F2B}coli fa, gli umani che vivevano su quest'isola andarono via.{WAIT}{CLEAR}Essi portarono con sé la tradizione delle sfide di mostri..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Hanno creato il loro Torneo Monster Scout, basato sull'originale qui.{WAIT}{CLEAR}Sì, fratello, quest'isola è la casa del Vero Torneo Monster Scout!"
+SAY "{VOICE=07}Hanno creato il loro Torneo Monster Scout, basato sull'originale qui. Sì,{WAIT}{CLEAR}fratello, quest'isola è la casa del Vero Torneo Monster Scout!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Ora che il Combattente Divino è tornato, organizzeremo nuovamente la gara!"
@@ -5863,7 +5863,7 @@ CMP_EQ 0x18 0x0 0x42a40000 0x2 0x41100000
 JMP_IFNOT 0xc L_1763c
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}I miei fratelli talpa stanno preparando il{BREAK}Vero Torneo Monster Scout."
+SAY "{VOICE=07}I miei fratelli talpa stanno preparando il Vero Torneo Monster Scout."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}{1F2B} ti capiterà di tornare da queste parti, iscriviti alla competizione.{WAIT}{CLEAR}{1F27}rà divertente scoprire come te la caverai..."
@@ -5887,7 +5887,7 @@ SYS_44 0x8
 SAY "{VOICE=07}Ascolta, devo dirti una cosa molto importante... Leonex desidera rivederti."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Hai tempo prima della fanfara del Vero Torneo Monster Scout.{WAIT}{CLEAR}Vai dal Grande e scopri che cosa vuole."
+SAY "{VOICE=07}Hai tempo prima della fanfara del Vero Torneo Monster Scout. Vai dal Grande e{WAIT}{CLEAR}scopri che cosa vuole."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5908,7 +5908,7 @@ SYS_44 0x8
 SAY "{VOICE=07}Immagino che tu voglia sentire le regole, dico bene?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Nel Vero Torneo Monster Scout, i reclutatori si affrontano faccia a faccia..."
+SAY "{VOICE=07}Nel Vero Torneo Monster Scout, i reclutatori si affrontano faccia a{WAIT}{CLEAR}faccia..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Ciascuno {1F29}out manda in campo la sua squadra migliore per sconfiggere i rivali."
@@ -5975,7 +5975,7 @@ JMP_REL L_17e80
 L_17e80:
 JMP_ABS 0xc L_17e8c
 L_17e8c:
-SAY "{VOICE=07}Calma, amico... Capisco che ti tremino le {BREAK}gambe. La paura fa parte del gioco..."
+SAY "{VOICE=07}Calma, amico... Capisco che ti tremino le gambe. La paura fa parte del gioco..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5992,7 +5992,7 @@ CMP_EQ 0x18 0x0 0x42fc0000 0x2 0x0
 JMP_IFNOT 0xc L_18024
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Il Vero Torneo Monster Scout è pronto a scatenarsi. Che ne dici?{WAIT}{CLEAR}Sei pronto a partecipare allo spettacolo??{VOICE=09}"
+SAY "{VOICE=07}Il Vero Torneo Monster Scout è pronto a scatenarsi. Che ne dici? Sei pronto a{WAIT}{CLEAR}partecipare allo spettacolo??{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_17b64
@@ -6007,7 +6007,7 @@ SETNAME "Don Mole"
 SAY "{VOICE=07}Mi spiace, caro umano... T'è andata male. Malissimo, oserei dire. Peccato!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Nessuno {1F29}out è riuscito ad arrivare fino in {BREAK}fondo e a vincere il premio in palio..."
+SAY "{VOICE=07}Nessuno {1F29}out è riuscito ad arrivare fino in fondo e a vincere il premio in palio..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Amico, te la senti di riprovarci? Ti va di scendere nuovamente nell'arena?{VOICE=09}"
@@ -6027,7 +6027,7 @@ SETNAME "Don Mole"
 SAY "{VOICE=07}Hai superato i turni di qualificazione! Ora ti attende la fase finale!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Altri due {1F29}out sono entrati in {BREAK}finale. Battili entrambi e il titolo sarà tuo!"
+SAY "{VOICE=07}Altri due {1F29}out sono entrati in finale. Battili entrambi e il titolo sarà tuo!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}{1F27}rà una grande sfida! {1F2B}i pronto per entrare nella storia degli {1F29}out?{VOICE=09}"
@@ -6041,13 +6041,13 @@ JMP_ABS 0xc L_18360
 L_18360:
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Non disperare, amico... Hai perso, {BREAK}ma non è detto che per te sia finita..."
+SAY "{VOICE=07}Non disperare, amico... Hai perso, ma non è detto che per te sia finita..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}La finale di {1F35}litaire è finita in parità... Il titolo non è stato ancora assegnato!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Amico mio, te la senti di {BREAK}riprovarci? {1F2B}i pronto per combattere ancora?{VOICE=09}"
+SAY "{VOICE=07}Amico mio, te la senti di riprovarci? {1F2B}i pronto per combattere ancora?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_184a4
@@ -6138,10 +6138,10 @@ SETNAME "Don Mole"
 SAY "{VOICE=07}Cosa!? Mynos il Vecchio si trova nel Centro di ricerca sulla sintesi?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Evviva! Sembra che le tue battaglie infuocate abbiano riacceso qualcosa in lui...{WAIT}{CLEAR}...e lo abbiano riportato nel nostro mondo pieno di ritmo!"
+SAY "{VOICE=07}Evviva! Sembra che le tue battaglie infuocate abbiano riacceso qualcosa in{WAIT}{CLEAR}lui... ...e lo abbiano riportato nel nostro mondo pieno di ritmo!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Mynos è un ex campione del Vero Torneo Monster Scout...{WAIT}{CLEAR}...è naturale che il fuoco della competizione bruci ancora nel suo sangue!"
+SAY "{VOICE=07}Mynos è un ex campione del Vero Torneo Monster Scout... ...è naturale che il fuoco{WAIT}{CLEAR}della competizione bruci ancora nel suo sangue!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}{NAME}, devi accettare la sfida che Mynos ti ha lanciato."
@@ -6163,7 +6163,7 @@ SYS_44 0x8
 SAY "{VOICE=07}Ma il mondo è grande... Da qualche parte, forse, ci sono {1F29}out più forti di te..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Ascolta, amico. Puoi trovare facilmente nuove sfide, se le cerchi...{WAIT}{CLEAR}Modalità Tag, comunicazioni wireless DS, Nintendo WFC..."
+SAY "{VOICE=07}Ascolta, amico. Puoi trovare facilmente nuove sfide, se le cerchi... Modalità{WAIT}{CLEAR}Tag, comunicazioni wireless DS, Nintendo WFC..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Potrai essere il campione del Torneo Monster Scout, ma la battaglia continua!"
@@ -6202,7 +6202,7 @@ SYS_44 0x8
 SAY "{VOICE=03}Grazie al mio aiuto, potrai ottenere creature incredibilmente potenti."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Cominceremo a fare qualche esperimento {BREAK}non appena saremo sulla tua nave."
+SAY "{VOICE=03}Cominceremo a fare qualche esperimento non appena saremo sulla tua nave."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6388,7 +6388,7 @@ SETNAME "Rico"
 SAY "{VOICE=07}Amico, mi spiace per l'attacco di prima. {1F2B}nza rancore, eh?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Dobbiamo lasciarci tutto alle spalle e preparare un Torneo Monster Scout pieno di ritmo!"
+SAY "{VOICE=07}Dobbiamo lasciarci tutto alle spalle e preparare un Torneo Monster Scout pieno{WAIT}{CLEAR}di ritmo!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6412,10 +6412,10 @@ SYS_44 0x8
 SAY "{VOICE=07}Gli scontri saranno durissimi, quindi voglio darti un consiglio..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}{1F2B} vuoi avere speranze di vittoria, devi inserire qualche guaritore nella tua squadra."
+SAY "{VOICE=07}{1F2B} vuoi avere speranze di vittoria, devi inserire qualche guaritore nella tua{WAIT}{CLEAR}squadra."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Nel Torneo Monster Scout non puoi usare oggetti o pozioni...{WAIT}{CLEAR}...quindi i mostri devono curarsi da soli!"
+SAY "{VOICE=07}Nel Torneo Monster Scout non puoi usare oggetti o pozioni... ...quindi i mostri{WAIT}{CLEAR}devono curarsi da soli!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6485,7 +6485,7 @@ SYS_44 0x8
 SAY "{VOICE=07}Empyrea non ha permesso ai mostri malvagi di agire come avrebbero voluto..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Ma un giorno scoprirai la verità...{WAIT}{CLEAR}...quando trionferai nel Torneo Monster Scout!"
+SAY "{VOICE=07}Ma un giorno scoprirai la verità... ...quando trionferai nel Torneo Monster{WAIT}{CLEAR}Scout!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6550,7 +6550,7 @@ SETNAME "Rico"
 SAY "{VOICE=07}La vittoria nel grado A è tua: stai diventando davvero forte, amico mio."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Forse hai sentito, ma il grado S è aperto solo a chi possiede la Medaglia del Valore."
+SAY "{VOICE=07}Forse hai sentito, ma il grado S è aperto solo a chi possiede la Medaglia del{WAIT}{CLEAR}Valore."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}È giunto il momento che ti rechi al Mausoleum e dimostri di che pasta sei fatto."
@@ -6566,7 +6566,7 @@ SETNAME "Rico"
 SAY "{VOICE=07}{1F29}avo-lo! Hai la Medaglia del Valore?! Niente male, amico umano, niente male!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Credo sia ora del finale più spettacolare: il grado S che farà impazzire il pubblico!"
+SAY "{VOICE=07}Credo sia ora del finale più spettacolare: il grado S che farà{WAIT}{CLEAR}impazzire il pubblico!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Come andrà a finire? Ah, non guardare me: non ne ho la più pallida idea..."
@@ -6601,7 +6601,7 @@ CMP_EQ 0x18 0x0 0x42fe0000 0x2 0x0
 JMP_IFNOT 0xc L_1ae20
 SYS_42 0x8 
 SETNAME "Rico"
-SAY "{VOICE=07}Mynos il Vecchio è andato verso {BREAK}il Mausoleum."
+SAY "{VOICE=07}Mynos il Vecchio è andato verso il Mausoleum."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Cosa spera di trovare in quel cumulo di vecchie rovine...?"
@@ -6683,7 +6683,7 @@ CMP_EQ 0x18 0x0 0x42ec0000 0x2 0x0
 JMP_IFNOT 0xc L_1b364
 SYS_42 0x8 
 SETNAME "Rico"
-SAY "{VOICE=07}Mi dispiace, amico mio, ma non siamo pronti a ospitare lo spettacolo del Torneo."
+SAY "{VOICE=07}Mi dispiace, amico mio, ma non siamo pronti a ospitare lo spettacolo del{WAIT}{CLEAR}Torneo."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Già che ci siamo, ti informo che il grande Don Mole vorrebbe parlarti..."
@@ -6696,7 +6696,7 @@ CMP_EQ 0x18 0x0 0x42ec0000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1b468
 SYS_42 0x8 
 SETNAME "Rico"
-SAY "{VOICE=07}Mi dispiace, amico mio, ma non siamo pronti a ospitare lo spettacolo del Torneo."
+SAY "{VOICE=07}Mi dispiace, amico mio, ma non siamo pronti a ospitare lo spettacolo del{WAIT}{CLEAR}Torneo."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}{1F2B} hai altre faccende da sbrigare, questo è il momento di occupartene..."
@@ -6711,10 +6711,10 @@ CMP_EQ 0x18 0x0 0x42de0000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1b58c
 SYS_42 0x8 
 SETNAME "Rico"
-SAY "{VOICE=07}Il Vero Torneo Monster Scout non si tiene qui.{WAIT}{CLEAR}Si svolge laggiù, nell'arena di battaglia più antica e piena di ritmo."
+SAY "{VOICE=07}Il Vero Torneo Monster Scout non si tiene qui. Si svolge laggiù, nell'arena di{WAIT}{CLEAR}battaglia più antica e piena di ritmo."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}{1F2B} vuoi partecipare, devi {BREAK}andare a parlare con Don Mole."
+SAY "{VOICE=07}{1F2B} vuoi partecipare, devi andare a parlare con Don Mole."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6750,7 +6750,7 @@ SETNAME "Sira"
 SAY "{VOICE=08}Ti serve qualcosa? Non starai mica pensando al tesoro del capo, eh...?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Il capo vuole organizzare il Torneo Monster Scout, quindi devo dare una mano..."
+SAY "{VOICE=08}Il capo vuole organizzare il Torneo Monster Scout, quindi devo dare una{WAIT}{CLEAR}mano..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}Questo, però, non vuol dire che ora voi umani mi siate simpatici!"
@@ -6768,7 +6768,7 @@ SETNAME "Sira"
 SAY "{VOICE=08}Cosa vuoi? Non starai mica pensando al tesoro del nostro capo, eh...?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Il capo vuole organizzare il Torneo Monster Scout, quindi devo dare una mano..."
+SAY "{VOICE=08}Il capo vuole organizzare il Torneo Monster Scout, quindi devo dare una{WAIT}{CLEAR}mano..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}Questo, però, non vuol dire che ora voi umani mi siate simpatici!"
@@ -6928,7 +6928,7 @@ L_1c484:
 CMP_EQ 0x18 0x0 0x42fa0000 0x2 0x40400000
 JMP_IFNOT 0xc L_1c638
 SYS_42 0x8 
-SAY "{VOICE=07}Amico! Se vinci il Torneo Monster Scout, davanti a te si apriranno nuove strade straordinarie."
+SAY "{VOICE=07}Amico! Se vinci il Torneo Monster Scout, davanti a te si apriranno nuove strade{WAIT}{CLEAR}straordinarie."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}L'impresa è ardua, però, perché dovrai combattere battaglie sempre più dure!"
@@ -6948,7 +6948,7 @@ L_1c644:
 CMP_EQ 0x18 0x0 0x42a40000 0x2 0x40a00000
 JMP_IFNOT 0xc L_1c7f8
 SYS_42 0x8 
-SAY "{VOICE=07}Amico! Se vinci il Torneo Monster Scout, davanti a te si apriranno nuove strade straordinarie."
+SAY "{VOICE=07}Amico! Se vinci il Torneo Monster Scout, davanti a te si apriranno nuove strade{WAIT}{CLEAR}straordinarie."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}L'impresa è ardua, però, perché dovrai combattere battaglie sempre più dure!"
@@ -6966,7 +6966,7 @@ L_1c7f8:
 CMP_EQ 0x18 0x0 0x42a40000 0x2 0x40c00000
 JMP_IFNOT 0xc L_1ca18
 SYS_42 0x8 
-SAY "{VOICE=07}Amico! Se vinci nel Torneo Monster Scout, davanti a te si apriranno nuove strade straordinarie."
+SAY "{VOICE=07}Amico! Se vinci nel Torneo Monster Scout, davanti a te si apriranno nuove strade{WAIT}{CLEAR}straordinarie."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}A proposito! {1F27}pevi che hai molti modi diversi per combattere sfide esaltanti?"
@@ -6978,7 +6978,7 @@ SYS_44 0x8
 SAY "{VOICE=07}Con la Nintendo Wi-Fi Connection puoi affrontare {1F29}out da ogni parte del mondo."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Nel Campionato mondiale dei mostri...{WAIT}{CLEAR}...potrai combattere per il titolo mondiale!"
+SAY "{VOICE=07}Nel Campionato mondiale dei mostri... ...potrai combattere per il titolo{WAIT}{CLEAR}mondiale!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7059,7 +7059,7 @@ L_1ceec:
 CMP_GE 0x18 0x0 0x42a40000 0x2 0x41300000
 JMP_IFNOT 0xc L_1cfe8
 SYS_42 0x8 
-SAY "{VOICE=07}Il luogo davanti è rimasto chiuso per molti anni...{WAIT}{CLEAR}...ma ora è la sede ufficiale del Vero Torneo Monster Scout."
+SAY "{VOICE=07}Il luogo davanti è rimasto chiuso per molti anni... ...ma ora è la sede ufficiale del{WAIT}{CLEAR}Vero Torneo Monster Scout."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Non potrebbe esserci un'ambientazione più bella per i duelli di mostri!"
@@ -7099,7 +7099,7 @@ STORE 0x18 0x0 0x42fe0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42fe0000 0x2 0x0
 JMP_IFNOT 0xc L_1d33c
 SYS_42 0x8 
-SAY "{VOICE=07}Che cos'è, fratello umano? Hai trovato un monumento di pietra dove inserire la medaglia?"
+SAY "{VOICE=07}Che cos'è, fratello umano? Hai trovato un monumento di pietra dove inserire la{WAIT}{CLEAR}medaglia?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}E ce ne sono altri uguali?!"
@@ -7188,7 +7188,7 @@ L_1d7c0:
 CMP_EQ 0x18 0x0 0x42a40000 0x2 0x41000000
 JMP_IFNOT 0xc L_1d85c
 SYS_42 0x8 
-SAY "{VOICE=07}Don Mole vuole parlarti, {BREAK}bipede umano."
+SAY "{VOICE=07}Don Mole vuole parlarti, bipede umano."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7292,7 +7292,7 @@ SYS_44 0x8
 SAY "{VOICE=07}Lo sapevo che quel monumento nascondeva qualcosa di enorme, fratello!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Raccogliere tutte quelle piastre non è stata un'impresa da poco. Gran lavoro, ragazzo."
+SAY "{VOICE=07}Raccogliere tutte quelle piastre non è stata un'impresa da poco. Gran lavoro,{WAIT}{CLEAR}ragazzo."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7312,7 +7312,7 @@ SYS_44 0x8
 SAY "{VOICE=07}Lo sapevo che quel monumento nascondeva qualcosa di enorme, fratello!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Raccogliere tutte quelle piastre non è stata un'impresa da poco. Gran lavoro, ragazzo."
+SAY "{VOICE=07}Raccogliere tutte quelle piastre non è stata un'impresa da poco. Gran lavoro,{WAIT}{CLEAR}ragazzo."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7348,7 +7348,7 @@ CMP_EQ 0x18 0x0 0x43020000 0x2 0x0
 JMP_IFNOT 0xc L_1e338
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Quindi mi stai dicendo che hai rinunciato? Va bene, fratello, torna un'altra volta."
+SAY "{VOICE=07}Quindi mi stai dicendo che hai rinunciato? Va bene, fratello, torna un'altra{WAIT}{CLEAR}volta."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7373,7 +7373,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x0
 STORE 0x18 0x1 0x40000000 0x2 0x40400000
 STORE 0x18 0x1 0x40400000 0x0 0x43020000
 SYS_FD 0x8 
-SAY "{VOICE=07}Molto bene! Via alla {BREAK}battaglia! {E322}! Round 1!"
+SAY "{VOICE=07}Molto bene! Via alla battaglia! {E322}! Round 1!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7556,10 +7556,10 @@ STORE 0x18 0x1 0x40400000 0x2 0x3f800000
 SYS_FD 0x8 
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Il nostro amico umano ha vinto il {BREAK}Round 1, ma la sfida è appena iniziata!"
+SAY "{VOICE=07}Il nostro amico umano ha vinto il Round 1, ma la sfida è appena iniziata!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Preparati per il prossimo scontro, {BREAK}amico mio! {E322}! Round 2!"
+SAY "{VOICE=07}Preparati per il prossimo scontro, amico mio! {E322}! Round 2!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7590,10 +7590,10 @@ STORE 0x18 0x1 0x40400000 0x2 0x40000000
 SYS_FD 0x8 
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Il nostro amico umano ha vinto il {BREAK}Round 1, ma la sfida è appena iniziata!"
+SAY "{VOICE=07}Il nostro amico umano ha vinto il Round 1, ma la sfida è appena iniziata!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Preparati per il prossimo scontro, {BREAK}amico mio! {E322}! Round 2!"
+SAY "{VOICE=07}Preparati per il prossimo scontro, amico mio! {E322}! Round 2!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7624,10 +7624,10 @@ STORE 0x18 0x1 0x40400000 0x2 0x40400000
 SYS_FD 0x8 
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Il nostro amico umano ha vinto il {BREAK}Round 1, ma la sfida è appena iniziata!"
+SAY "{VOICE=07}Il nostro amico umano ha vinto il Round 1, ma la sfida è appena iniziata!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Preparati per il prossimo scontro, {BREAK}amico mio! {E322}! Round 2!"
+SAY "{VOICE=07}Preparati per il prossimo scontro, amico mio! {E322}! Round 2!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7658,10 +7658,10 @@ STORE 0x18 0x1 0x40400000 0x2 0x40800000
 SYS_FD 0x8 
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Il nostro amico umano ha vinto il {BREAK}Round 1, ma la sfida è appena iniziata!"
+SAY "{VOICE=07}Il nostro amico umano ha vinto il Round 1, ma la sfida è appena iniziata!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Preparati per il prossimo scontro, {BREAK}amico mio! {E322}! Round 2!"
+SAY "{VOICE=07}Preparati per il prossimo scontro, amico mio! {E322}! Round 2!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7692,10 +7692,10 @@ STORE 0x18 0x1 0x40400000 0x2 0x40a00000
 SYS_FD 0x8 
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Il nostro amico umano ha vinto il {BREAK}Round 1, ma la sfida è appena iniziata!"
+SAY "{VOICE=07}Il nostro amico umano ha vinto il Round 1, ma la sfida è appena iniziata!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Preparati per il prossimo scontro, {BREAK}amico mio! {E322}! Round 2!"
+SAY "{VOICE=07}Preparati per il prossimo scontro, amico mio! {E322}! Round 2!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7726,10 +7726,10 @@ STORE 0x18 0x1 0x40400000 0x2 0x40c00000
 SYS_FD 0x8 
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Il nostro amico umano ha vinto il {BREAK}Round 1, ma la sfida è appena iniziata!"
+SAY "{VOICE=07}Il nostro amico umano ha vinto il Round 1, ma la sfida è appena iniziata!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Preparati per il prossimo scontro, {BREAK}amico mio! {E322}! Round 2!"
+SAY "{VOICE=07}Preparati per il prossimo scontro, amico mio! {E322}! Round 2!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7760,10 +7760,10 @@ STORE 0x18 0x1 0x40400000 0x2 0x40e00000
 SYS_FD 0x8 
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Il nostro amico umano ha vinto il {BREAK}Round 1, ma la sfida è appena iniziata!"
+SAY "{VOICE=07}Il nostro amico umano ha vinto il Round 1, ma la sfida è appena iniziata!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Preparati per il prossimo scontro, {BREAK}amico mio! {E322}! Round 2!"
+SAY "{VOICE=07}Preparati per il prossimo scontro, amico mio! {E322}! Round 2!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -8649,13 +8649,13 @@ SYS_44 0x8
 SYS_43 0x8 
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}La prossima sfida è il grado S.{WAIT}{CLEAR}La "S" sta per "Speciale", mio funkoso amico."
+SAY "{VOICE=07}La prossima sfida è il grado S. La "S" sta per "Speciale", mio funkoso amico."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Usa la chiave, entra nel Mausoleum e conquista la Medaglia del Valore!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Senza la Medaglia, nessun reclutatore, per quanto funkoso, può affrontare il grado S."
+SAY "{VOICE=07}Senza la Medaglia, nessun reclutatore, per quanto funkoso, può affrontare il{WAIT}{CLEAR}grado S."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Fammi vedere che hai fegato, fratello, e non deludere Don Mole!"
@@ -8716,10 +8716,10 @@ STORE 0x18 0x1 0x3f800000 0x2 0x0
 SYS_28 0x8 
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}{1F3B} con la vita, amico umano... Una {BREAK}sconfitta non è mica la fine del mondo!"
+SAY "{VOICE=07}{1F3B} con la vita, amico umano... Una sconfitta non è mica la fine del mondo!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Hai lottato bene e con coraggio. Vedrai {BREAK}che il prossimo scontro ti andrà meglio..."
+SAY "{VOICE=07}Hai lottato bene e con coraggio. Vedrai che il prossimo scontro ti andrà meglio..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -8736,7 +8736,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x0
 SYS_28 0x8 
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Hai fatto bene a ritirarti prima che {BREAK}i tuoi mostri fossero annientati..."
+SAY "{VOICE=07}Hai fatto bene a ritirarti prima che i tuoi mostri fossero annientati..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}{1F36}eriamo di rivederti, amico mio! Diventa più forte e torna a trovarci presto!"
@@ -8852,7 +8852,7 @@ L_2531c:
 JMP_ABS 0xc L_25328
 L_25328:
 SYS_42 0x8 
-SAY "{COLOR=2}Ci sono tantissimi oggetti più o meno {BREAK}preziosi. Meglio non prendere niente..."
+SAY "{COLOR=2}Ci sono tantissimi oggetti più o meno preziosi. Meglio non prendere niente..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

@@ -175,7 +175,7 @@ SAY "{VOICE=07}Da questo momento in poi potrai reclutare anche i mostri giganti.
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonex"
-SAY "{VOICE=07}Creature enormi come Vermex o le Linci alate, per esempio, e altre ancora...{WAIT}{CLEAR}Usa il comando \"Recluta\" e sarai in grado di farle entrare nella tua squadra!"
+SAY "{VOICE=07}Creature enormi come Vermex o le Linci alate, per esempio, e altre ancora... Usa{WAIT}{CLEAR}il comando \"Recluta\" e sarai in grado di farle entrare nella tua squadra!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonex"

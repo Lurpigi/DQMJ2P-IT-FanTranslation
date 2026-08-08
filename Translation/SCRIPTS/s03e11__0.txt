@@ -1329,7 +1329,7 @@ SYS_42 0x8
 SAY "{COLOR=2}La curiosità può uccidere i gatti, ma non gli {1F29}out!{WAIT}{CLEAR}Esamina queste strane rocce per imparare tecniche e comandi nuovi."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Le "Pietre dello {1F29}out" sono indicate sulla mappa da icone azzurre."
+SAY "{COLOR=2}Le \"Pietre dello {1F29}out\" sono indicate sulla mappa da icone azzurre."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1362,7 +1362,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha imparato \"Teletrasporto\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un attimo in qualsiasi area già visitata."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un attimo in qualsiasi area{WAIT}{CLEAR}già visitata."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}Fatte salve poche eccezioni, può essere utilizzata ovunque... Persino nelle grotte!"
@@ -1385,7 +1385,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha imparato \"{1F36}arizione\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa tecnica permette a {NAME} di passare sotto il naso dei nemici senza farsi notare."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di passare sotto il naso dei nemici senza{WAIT}{CLEAR}farsi notare."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1402,7 +1402,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} può ora usare \"Guarisci tutti\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Quest'incantesimo di guarigione permette a {NAME} di curare tutti i membri della squadra."
+SAY "{COLOR=2}Quest'incantesimo di guarigione permette a {NAME} di curare tutti i{WAIT}{CLEAR}membri della squadra."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1425,7 +1425,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha imparato \"{1F2B}gugio\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa tecnica permette a {NAME} di scoprire quanti tesori sono nascosti nelle vicinanze."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di scoprire quanti tesori sono nascosti{WAIT}{CLEAR}nelle vicinanze."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1442,13 +1442,13 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha imparato \"Velotrans\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un istante al più vicino portale Velotrans."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un istante al più vicino{WAIT}{CLEAR}portale Velotrans."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}La tecnica funzionerà solo se il portale è già aperto."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Quindi, è bene che {NAME} esamini subito i portali Velotrans situati sull'isola."
+SAY "{COLOR=2}Quindi, è bene che {NAME} esamini subito i portali Velotrans situati{WAIT}{CLEAR}sull'isola."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1469,7 +1469,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha ottenuto \"Curamostri\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa bevanda fa recuperare PV e PM a tutti i membri della squadra di {NAME}."
+SAY "{COLOR=2}Questa bevanda fa recuperare PV e PM a tutti i membri della squadra di {NAME}{WAIT}{CLEAR}."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}La bottiglia contiene tre dosi e può essere riempita di nuovo tornando alla nave."
@@ -4324,7 +4324,7 @@ CMP_EQ 0x18 0x0 0x42d20000 0x2 0x0
 JMP_IFNOT 0xc L_10a08
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}Quindi le talpe hanno finalmente messo in funzione questo Vero Torneo Monster Scout."
+SAY "{VOICE=08}Quindi le talpe hanno finalmente messo in funzione questo Vero Torneo Monster{WAIT}{CLEAR}Scout."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}Non dovresti prepararti invece di stare qui a chiacchierare con me?"
@@ -4340,7 +4340,7 @@ CMP_EQ 0x18 0x0 0x42d20000 0x2 0x3f800000
 JMP_IFNOT 0xc L_10b78
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}Questo è il Vero Torneo Monster Scout, quindi la concorrenza è DAVVERO agguerrita."
+SAY "{VOICE=08}Questo è il Vero Torneo Monster Scout, quindi la concorrenza è DAVVERO{WAIT}{CLEAR}agguerrita."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}Non dovresti prepararti invece di stare qui a chiacchierare con me?"
@@ -4539,7 +4539,7 @@ CMP_EQ 0x18 0x0 0x42a80000 0x2 0x41800000
 JMP_IFNOT 0xc L_11b54
 SYS_42 0x8 
 SETNAME "Sheila"
-SAY "{VOICE=08}{E321}{NAME}, hai vinto il Vero Torneo Monster Scout! Sei fantastico! "
+SAY "{VOICE=08}{E321}{NAME}, hai vinto il Vero Torneo Monster Scout! Sei fantastico!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}Resterò sempre al tuo fianco! In questo modo, imparerò un mucchio di cose...!"
@@ -4569,13 +4569,13 @@ SETNAME "Capitan Alex"
 SAY "{VOICE=07}Toh, ecco il mio caro pivello..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Scusa se ti abbiamo lasciato indietro, ma dovevo andare avanti per controllare il territorio."
+SAY "{VOICE=07}Scusa se ti abbiamo lasciato indietro, ma dovevo andare avanti per controllare il{WAIT}{CLEAR}territorio."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Questo posto è davvero straordinario...!{WAIT}{CLEAR}Chissà di quali incredibili scontri è stato teatro nel corso della sua storia..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Dovrai combattere rispettando le antiche {WAIT}{CLEAR}tradizioni di correttezza e lealtà..."
+SAY "{VOICE=07}Dovrai combattere rispettando le antiche tradizioni di correttezza e lealtà..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4618,7 +4618,7 @@ CMP_EQ 0x18 0x0 0x42a80000 0x2 0x41800000
 JMP_IFNOT 0xc L_12168
 SYS_42 0x8 
 SETNAME "Capitan Alex"
-SAY "{VOICE=07}Campione del Vero Torneo Monster Scout?{BREAK}Devo trovarti un nuovo nome, pivello!"
+SAY "{VOICE=07}Campione del Vero Torneo Monster Scout? Devo trovarti un nuovo nome, pivello!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Puoi ancora migliorarti parecchio. Chissà dove riuscirai ad arrivare..."
@@ -4653,7 +4653,7 @@ SETNAME "Arbitro"
 SAY "{VOICE=07}Il Vero Torneo Monster Scout non finisce finché non emerge un campione."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Non puoi ritirarti...! Il titolo non è {BREAK}stato ancora assegnato!"
+SAY "{VOICE=07}Non puoi ritirarti...! Il titolo non è stato ancora assegnato!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4671,7 +4671,7 @@ SYS_44 0x8
 SAY "{VOICE=07}Non dirmi che vuoi sentirti chiamare ancora \"campione\"...? Detto... fatto!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}È quiiiii! È {NAME}...{WAIT}{CLEAR}...il campione del Torneo Monster Scout dell'isola!!!!"
+SAY "{VOICE=07}È quiiiii! È {NAME}... ...il campione del Torneo Monster Scout{WAIT}{CLEAR}dell'isola!!!!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4684,10 +4684,10 @@ JMP_IFNOT 0xc L_12784
 CMP_LT 0x18 0x0 0x42a80000 0x2 0x41800000
 JMP_IFNOT 0xc L_1268c
 SYS_42 0x8 
-SAY "{VOICE=07}Nella scorsa competizione sei andato {BREAK}bene. Arrivare alle finali non è cosa da poco."
+SAY "{VOICE=07}Nella scorsa competizione sei andato bene. Arrivare alle finali non è cosa da poco."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Tuttavia, dubito che riuscirai a ripeterti: {BREAK}i rivali sono molto più forti!"
+SAY "{VOICE=07}Tuttavia, dubito che riuscirai a ripeterti: i rivali sono molto più forti!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4729,7 +4729,7 @@ SYS_42 0x8
 SAY "{VOICE=07}Ehi, ma tu sei uno {1F29}out!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}{1F29}usa, non siamo ancora pronti. Trovati {BREAK}qualcosa da fare per ingannare l'attesa..."
+SAY "{VOICE=07}{1F29}usa, non siamo ancora pronti. Trovati qualcosa da fare per ingannare l'attesa..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

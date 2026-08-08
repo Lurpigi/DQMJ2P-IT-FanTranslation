@@ -225,7 +225,7 @@ SAY "{VOICE=07}Beh, eccoci qua, pivello..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Capitan Alex"
-SAY "{VOICE=07}Voglio affidarti una nuova missione, caro {BREAK}aiuto-vice-mozzo di terza categoria..."
+SAY "{VOICE=07}Voglio affidarti una nuova missione, caro aiuto-vice-mozzo di terza categoria..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Capitan Alex"

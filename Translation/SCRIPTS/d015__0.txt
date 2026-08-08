@@ -189,10 +189,10 @@ SYS_17 0x8
 SAY "{VOICE=07}Devi vincere..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SAY "{VOICE=07}Devi vincere... e vincere... e vincere ancora. È la tua unica speranza di sopravvivere..."
+SAY "{VOICE=07}Devi vincere... e vincere... e vincere ancora. È la tua unica speranza di{WAIT}{CLEAR}sopravvivere..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SAY "{VOICE=07}Devi vincere... e vincere... e vincere ancora... "
+SAY "{VOICE=07}Devi vincere... e vincere... e vincere ancora..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -228,7 +228,7 @@ SYS_02 0x8
 SYS_03 0x8 
 SYS_42 0x8 
 SETNAME "Meck Nick"
-SAY "{VOICE=03}...Ragazzo? ...Ragazzo?{BREAK}Mi senti?"
+SAY "{VOICE=03}...Ragazzo? ...Ragazzo? Mi senti?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -290,7 +290,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Meck Nick"
-SAY "{VOICE=07}Ti sei rigirato tutta la notte.{BREAK}C'è qualcosa che non va?"
+SAY "{VOICE=07}Ti sei rigirato tutta la notte. C'è qualcosa che non va?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -340,7 +340,7 @@ STORE 0x18 0x1 0x0 0x0 0x40800000
 STORE 0x18 0x1 0x3f800000 0x2 0x428c0000
 SYS_18 0x8 
 SETNAME "Meck Nick"
-SAY "{VOICE=07}E se non lo facessi, non riusciremmo mai a lasciare quest'isola!? {WAIT}{CLEAR}Per tutti i mostri! Non mi piace per niente!"
+SAY "{VOICE=07}E se non lo facessi, non riusciremmo mai a lasciare quest'isola!? Per tutti i mostri!{WAIT}{CLEAR}Non mi piace per niente!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x41b00000
@@ -391,11 +391,11 @@ STORE 0x18 0x1 0x3f800000 0x2 0x428c0000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Meck Nick"
-SAY "{VOICE=07}...Oh, scusa se ho urlato, ragazzo.{BREAK}Mi sono lasciato prendere un po' dall'emozione."
+SAY "{VOICE=07}...Oh, scusa se ho urlato, ragazzo. Mi sono lasciato prendere un po'{WAIT}{CLEAR}dall'emozione."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Meck Nick"
-SAY "{VOICE=07}Se partecipare al Torneo Monster Scout è così importante per te...{WAIT}{CLEAR}...il vecchio Meck Nick non ti ostacolerà!"
+SAY "{VOICE=07}Se partecipare al Torneo Monster Scout è così importante per te... ...il vecchio Meck{WAIT}{CLEAR}Nick non ti ostacolerà!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

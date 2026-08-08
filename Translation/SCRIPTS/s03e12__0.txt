@@ -1331,7 +1331,7 @@ SYS_42 0x8
 SAY "{COLOR=2}La curiosità può uccidere i gatti, ma non gli {1F29}out!{WAIT}{CLEAR}Esamina queste strane rocce per imparare tecniche e comandi nuovi."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Le "Pietre dello {1F29}out" sono indicate sulla mappa da icone azzurre."
+SAY "{COLOR=2}Le \"Pietre dello {1F29}out\" sono indicate sulla mappa da icone azzurre."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1364,7 +1364,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha imparato \"Teletrasporto\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un attimo in qualsiasi area già visitata."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un attimo in qualsiasi area{WAIT}{CLEAR}già visitata."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}Fatte salve poche eccezioni, può essere utilizzata ovunque... Persino nelle grotte!"
@@ -1387,7 +1387,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha imparato \"{1F36}arizione\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa tecnica permette a {NAME} di passare sotto il naso dei nemici senza farsi notare."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di passare sotto il naso dei nemici senza{WAIT}{CLEAR}farsi notare."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1404,7 +1404,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} può ora usare \"Guarisci tutti\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Quest'incantesimo di guarigione permette a {NAME} di curare tutti i membri della squadra."
+SAY "{COLOR=2}Quest'incantesimo di guarigione permette a {NAME} di curare tutti i{WAIT}{CLEAR}membri della squadra."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1427,7 +1427,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha imparato \"{1F2B}gugio\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa tecnica permette a {NAME} di scoprire quanti tesori sono nascosti nelle vicinanze."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di scoprire quanti tesori sono nascosti{WAIT}{CLEAR}nelle vicinanze."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1444,13 +1444,13 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha imparato \"Velotrans\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un istante al più vicino portale Velotrans."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un istante al più vicino{WAIT}{CLEAR}portale Velotrans."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}La tecnica funzionerà solo se il portale è già aperto."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Quindi, è bene che {NAME} esamini subito i portali Velotrans situati sull'isola."
+SAY "{COLOR=2}Quindi, è bene che {NAME} esamini subito i portali Velotrans situati{WAIT}{CLEAR}sull'isola."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1471,7 +1471,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha ottenuto \"Curamostri\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa bevanda fa recuperare PV e PM a tutti i membri della squadra di {NAME}."
+SAY "{COLOR=2}Questa bevanda fa recuperare PV e PM a tutti i membri della squadra di {NAME}{WAIT}{CLEAR}."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}La bottiglia contiene tre dosi e può essere riempita di nuovo tornando alla nave."
@@ -3772,7 +3772,7 @@ CMP_LT 0x18 0x0 0x42ca0000 0x2 0x40000000
 JMP_IFNOT 0xc L_e628
 SYS_42 0x8 
 SETNAME "Marcus Logos"
-SAY "{VOICE=07}Che meraviglia! Qui {BREAK}ci sono tonnellate di libri!"
+SAY "{VOICE=07}Che meraviglia! Qui ci sono tonnellate di libri!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Questa è una vera miniera di informazioni!{WAIT}{CLEAR}{1F29}ommetto che in queste pagine c'è tutta la storia dell'isola..."
@@ -3788,13 +3788,13 @@ CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x40000000
 JMP_IFNOT 0xc L_e7a0
 SYS_42 0x8 
 SETNAME "Marcus Logos"
-SAY "{VOICE=07}Allora, Don Mole ti ha promesso di parlarti di un certo luogo se avessi vinto il grado D?"
+SAY "{VOICE=07}Allora, Don Mole ti ha promesso di parlarti di un certo luogo se avessi vinto{WAIT}{CLEAR}il grado D?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}{1F29}ommetto che in quel posto c'è la chiave per svelare tutti i segreti dell'isola!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Ascolta, {NAME}, DEVI vincere la sfida di grado D!{WAIT}{CLEAR}Non farlo per me: fallo per l'archeologia!"
+SAY "{VOICE=07}Ascolta, {NAME}, DEVI vincere la sfida di grado D! Non farlo per me:{WAIT}{CLEAR}fallo per l'archeologia!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3826,7 +3826,7 @@ SYS_42 0x8
 SAY "{VOICE=08}Ho sentito parlare di quest'isola e ho deciso di visitarla..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Quindi è qui che si svolgevano tutte le ricerche sulla sintesi?{WAIT}{CLEAR}...Non è grandioso come pensavo."
+SAY "{VOICE=08}Quindi è qui che si svolgevano tutte le ricerche sulla sintesi? ...Non è grandioso{WAIT}{CLEAR}come pensavo."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3843,10 +3843,10 @@ CMP_LT 0x18 0x0 0x42d20000 0x2 0x41e00000
 JMP_IFNOT 0xc L_ef24
 SYS_42 0x8 
 SETNAME "Mynos il Vecchio"
-SAY "{VOICE=03}Ah, {NAME}.{BREAK}So, we meet again."
+SAY "{VOICE=03}Ah, {NAME}. So, we meet again."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Ho ammirato le tue gesta dall'altro {BREAK}mondo, e ho capito che dovevo agire..."
+SAY "{VOICE=03}Ho ammirato le tue gesta dall'altro mondo, e ho capito che dovevo agire..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}Dimmi, {NAME}, conosci il monumento di pietra di Gelandia?{VOICE=09}"
@@ -3895,10 +3895,10 @@ JMP_ABS 0xc L_ef38
 L_ef38:
 SYS_42 0x8 
 SETNAME "Mynos il Vecchio"
-SAY "{VOICE=03}Ah, {NAME}.{BREAK}So, we meet again."
+SAY "{VOICE=03}Ah, {NAME}. So, we meet again."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Ho ammirato le tue gesta dall'altro {BREAK}mondo, e ho capito che dovevo agire..."
+SAY "{VOICE=03}Ho ammirato le tue gesta dall'altro mondo, e ho capito che dovevo agire..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}Dimmi, {NAME}, conosci il monumento di pietra di Gelandia?{VOICE=09}"
@@ -3911,7 +3911,7 @@ JMP_IFNOT 0xc L_f1f0
 SAY "{VOICE=03}Ho sentito molte storie sui mostri terrificanti che vivono su quell'isola."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Nessuno è spettacolare quanto la colossale creatura metallica che fluttua nel cielo!"
+SAY "{VOICE=03}Nessuno è spettacolare quanto la colossale creatura metallica che fluttua{WAIT}{CLEAR}nel cielo!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}Oh, quanto vorrei poter vedere una simile creatura con i miei occhi."
@@ -4064,7 +4064,7 @@ CMP_EQ 0x18 0x0 0x42a40000 0x2 0x40a00000
 JMP_IFNOT 0xc L_fb80
 L_fb10:
 SYS_42 0x8 
-SAY "{VOICE=07}{1F27}lve! {1F2B} vuoi, slurpuoi dare un'occhiata {BREAK}ai libri rossi..."
+SAY "{VOICE=07}{1F27}lve! {1F2B} vuoi, slurpuoi dare un'occhiata ai libri rossi..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4184,7 +4184,7 @@ SETNAME "Halb"
 SAY "{VOICE=07}Vedi quel Pu pazzo vicino agli scaffali? È Marsha."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Se vuoi mettere alla prova le tue abilità, parla con lei e affronta il test di abilità del reclutatore."
+SAY "{VOICE=07}Se vuoi mettere alla prova le tue abilità, parla con lei e affronta il test di abilità{WAIT}{CLEAR}del reclutatore."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Dà premi davvero fantastici ai vincitori."
@@ -4203,7 +4203,7 @@ SYS_44 0x8
 SAY "{VOICE=07}È così presa dal test che non ha tempo per l'amore e il romanticismo..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Beh, il tempo per l'amore dovrà trovarlo, in un modo o nell'altro! Dopo che {WAIT}{CLEAR}qualcuno avrà superato la prova, le confesserò {BREAK}ciò che sento per lei!"
+SAY "{VOICE=07}Beh, il tempo per l'amore dovrà trovarlo, in un modo o nell'altro!{WAIT}{CLEAR}Dopo che qualcuno avrà superato la prova, le confesserò ciò che sento per lei!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4232,7 +4232,7 @@ CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x437a0000
 JMP_IFNOT 0xc L_1077c
 SYS_42 0x8 
 SETNAME "Halb"
-SAY "{VOICE=07}Evviva, amico! Congratulazioni per aver superato il test di abilità del reclutatore!"
+SAY "{VOICE=07}Evviva, amico! Congratulazioni per aver superato il test di abilità del{WAIT}{CLEAR}reclutatore!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Ora che la prova è finita, Pupa avvertirà un senso di vuoto nella sua vita..."
@@ -4251,10 +4251,10 @@ SETNAME "Halb"
 SAY "{VOICE=07}Non posso credere che Marsha sia scappata con te..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Pensavo che, una volta finito il suo test... finalmente mi avrebbe dato una chance."
+SAY "{VOICE=07}Pensavo che, una volta finito il suo test... finalmente mi avrebbe dato una{WAIT}{CLEAR}chance."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Ho qui il piccone più potente che esista,{BREAK}amico della superficie!"
+SAY "{VOICE=07}Ho qui il piccone più potente che esista, amico della superficie!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Devi solo farmi venire con te, amico!{VOICE=09}"
@@ -4357,7 +4357,7 @@ SETNAME "Halb"
 SAY "{VOICE=07}Il Pu pazzo che vedi accanto a me si chiama Pupa. Oh, è bellissima..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Se vuoi mettere alla prova le tue abilità, parla con lei e affronta il test di abilità del reclutatore."
+SAY "{VOICE=07}Se vuoi mettere alla prova le tue abilità, parla con lei e affronta il test di abilità{WAIT}{CLEAR}del reclutatore."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Dà premi davvero fantastici ai vincitori."
@@ -4553,7 +4553,7 @@ MATH_ADD 0x20 0x0 0x42d60000 0x0 0x42d60000 0x2 0x3f800000
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x0 0x42d60000
 SYS_A8 0x8 
-SAY "{VOICE=08}Molto bene. Procediamo con il Test Attitudinale degli {1F29}out, {BREAK}livello {E322}..."
+SAY "{VOICE=08}Molto bene. Procediamo con il Test Attitudinale degli {1F29}out, livello {E322}..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4712,7 +4712,7 @@ JMP_IFNOT 0xc L_129e0
 STORE 0x18 0x1 0x0 0x2 0x42080000
 STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_DC 0x8 
-SAY " {VOICE=08}Porta un mostro con il tratto Brontolone!"
+SAY "{VOICE=08}Porta un mostro con il tratto Brontolone!"
 JMP_ABS 0xc L_13668
 L_129e0:
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x3f800000
@@ -4902,7 +4902,7 @@ JMP_IFNOT 0xc L_13cbc
 SAY "{VOICE=08}Oh, bene! Ce l'hai fatta! Sono PROPRIO quelli che cercavo!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}A seconda della stirpe di un mostro, potrebbe reagire in modo particolare a certe cose."
+SAY "{VOICE=08}A seconda della stirpe di un mostro, potrebbe reagire in modo particolare a{WAIT}{CLEAR}certe cose."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}Per esempio, se un drago usa Poli superdifesa su se stesso..."
@@ -5006,7 +5006,7 @@ SYS_44 0x8
 SAY "{VOICE=08}Il tratto Fortunato offre un sacco di effetti utili."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Usando le abilità c'è sempre una possibilità di successo o fallimento. Con Fortunato..."
+SAY "{VOICE=08}Usando le abilità c'è sempre una possibilità di successo o fallimento. Con{WAIT}{CLEAR}Fortunato..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}...il successo diventa più probabile! Ma fai attenzione anche a Sfortunato!"
@@ -5076,7 +5076,7 @@ JMP_IFNOT 0xc L_14ea0
 SAY "{VOICE=08}Oh, bene! Ce l'hai fatta! È PROPRIO il mostro che dovevi portare!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Ammazzastandard ti permette di infliggere danni aggiuntivi ai mostri di taglia normale."
+SAY "{VOICE=08}Ammazzastandard ti permette di infliggere danni aggiuntivi ai mostri di{WAIT}{CLEAR}taglia normale."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}C'è anche Ammazzagiganti, che fa esattamente ciò che suggerisce il nome."
@@ -5120,7 +5120,7 @@ SYS_44 0x8
 SAY "{VOICE=08}Oltre quest'isola ti aspettano nemici ancora più grandi, non dimenticarlo."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}E questo è tutto!{WAIT}{CLEAR}Hai fatto piazza pulita nell'unico e inimitabile test di abilità del reclutatore Pro!"
+SAY "{VOICE=08}E questo è tutto! Hai fatto piazza pulita nell'unico e inimitabile test di abilità del{WAIT}{CLEAR}reclutatore Pro!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x42800000
@@ -5151,7 +5151,7 @@ SYS_11B 0x8
 JMP_ABS 0xc L_16b38
 JMP_ABS 0xc L_15548
 L_15548:
-SAY "{VOICE=08}Hai superato con successo la {BREAK}prova, quindi ti spetta un premio..."
+SAY "{VOICE=08}Hai superato con successo la prova, quindi ti spetta un premio..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5375,7 +5375,7 @@ JMP_IFNOT 0xc L_16214
 JMP_ABS 0xc L_162dc
 JMP_ABS 0xc L_16214
 L_16214:
-SAY "{VOICE=08}No, mi dispiace... Non hai {BREAK}con te il mostro che ti avevo chiesto."
+SAY "{VOICE=08}No, mi dispiace... Non hai con te il mostro che ti avevo chiesto."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}Ricordati di leggere i consigli che ti ho dato!"
@@ -5385,7 +5385,7 @@ SYS_43 0x8
 SYS_11B 0x8 
 JMP_ABS 0xc L_16b38
 L_162dc:
-SAY "{VOICE=08}Tsk tsk... No, no, no.{BREAK}La tua squadra non corrisponde a ciò che ho richiesto!"
+SAY "{VOICE=08}Tsk tsk... No, no, no. La tua squadra non corrisponde a ciò che ho richiesto!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}Ricordati di leggere i consigli che ti ho dato!"
@@ -5404,7 +5404,7 @@ SYS_43 0x8
 SYS_11B 0x8 
 JMP_ABS 0xc L_16b38
 L_16488:
-SAY "{VOICE=08}No, mi dispiace... Non hai {BREAK}con te il mostro che ti avevo chiesto."
+SAY "{VOICE=08}No, mi dispiace... Non hai con te il mostro che ti avevo chiesto."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}Questa potrebbe essere troppo difficile. Vuoi rinunciare?{VOICE=09}"
@@ -6144,7 +6144,7 @@ SYS_44 0x8
 SAY "{COLOR=2}\"Durante le sfide, puoi cambiare i mostri facendo scendere in campo le riserve.\""
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}\"Prova a reclutare i mostri nemici quando la tua squadra è in stato di Carica.\"{WAIT}{CLEAR}\"In questa situazione è molto più probabile che la dimostrazione di forza riesca.\""
+SAY "{COLOR=2}\"Prova a reclutare i mostri nemici quando la tua squadra è in stato di Carica.\" \"In{WAIT}{CLEAR}questa situazione è molto più probabile che la dimostrazione di forza riesca.\""
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6165,7 +6165,7 @@ L_196a8:
 CMP_EQ 0x18 0x0 0x42f00000 0x2 0x40800000
 JMP_IFNOT 0xc L_198ac
 SYS_42 0x8 
-SAY "{COLOR=2}È un libro intitolato 'L'arte della sintesi'.{WAIT}{CLEAR}{E321}{NAME} inizia a leggerlo..."
+SAY "{COLOR=2}È un libro intitolato 'L'arte della sintesi'. {E321}{NAME} inizia a{WAIT}{CLEAR}leggerlo..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}\"Cosa succede quando due mostri si uniscono grazie alla sintesi?\"{WAIT}{CLEAR}\"Ciascuno di essi passa metà dei propri Punti Abilità alla nuova belva.\""
@@ -6191,7 +6191,7 @@ STORE 0x18 0x0 0x42f40000 0x1 0x0
 CMP_LT 0x18 0x0 0x42f40000 0x2 0x41300000
 JMP_IFNOT 0xc L_19ab0
 SYS_42 0x8 
-SAY "{COLOR=2}Questo libro è intitolato 'Un biglietto per il successo'.{WAIT}{CLEAR}{E321}{NAME} lo prende e inizia a leggerlo..."
+SAY "{COLOR=2}Questo libro è intitolato 'Un biglietto per il successo'. {E321}{NAME} lo prende{WAIT}{CLEAR}e inizia a leggerlo..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}\"Forse avrai già sentito parlare dei misteriosi biglietti metallici...\""
@@ -6264,7 +6264,7 @@ STORE 0x18 0x0 0x42f60000 0x1 0x0
 SYS_42 0x8 
 CMP_EQ 0x18 0x0 0x42f60000 0x2 0x0
 JMP_IFNOT 0xc L_1a05c
-SAY "{VOICE=03}'In questo momento sei molto Fortunato!{BREAK}Il tuo oggetto fortunato è la deliziesca!"
+SAY "{VOICE=03}'In questo momento sei molto Fortunato! Il tuo oggetto fortunato è la deliziesca!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}\"Questo è un buon momento per reclutare qualche mostro molto potente.\"{WAIT}{CLEAR}\"Usa la deliziesca per attirare qualcuna di queste poderose creature.\""
@@ -6277,7 +6277,7 @@ JMP_ABS 0xc L_1a5c8
 L_1a05c:
 CMP_EQ 0x18 0x0 0x42f60000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1a1b8
-SAY "{VOICE=03}\"In questi giorni sei una persona molto {BREAK}fortunata. Il tuo numero magico è l'11.\""
+SAY "{VOICE=03}\"In questi giorni sei una persona molto fortunata. Il tuo numero magico è l'11.\""
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}\"Quando i mostri arrivano al livello 11 ricevono più Punti Abilità del solito.\""
@@ -6290,7 +6290,7 @@ JMP_ABS 0xc L_1a5c8
 L_1a1b8:
 CMP_EQ 0x18 0x0 0x42f60000 0x2 0x40000000
 JMP_IFNOT 0xc L_1a310
-SAY "{VOICE=03}\"Non sei molto fortunato. Il forcone {BREAK}della natura è l'arma che fa per te.\""
+SAY "{VOICE=03}\"Non sei molto fortunato. Il forcone della natura è l'arma che fa per te.\""
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}\"È probabile che un mostro armato con il forcone della natura sferri colpi critici.\""
@@ -6303,7 +6303,7 @@ JMP_ABS 0xc L_1a5c8
 L_1a310:
 CMP_EQ 0x18 0x0 0x42f60000 0x2 0x40400000
 JMP_IFNOT 0xc L_1a46c
-SAY "{VOICE=03}\"La buona sorte non ti è molto amica. Il tuo {BREAK}mostro fortunato è lo {1F31}eledrago.\""
+SAY "{VOICE=03}\"La buona sorte non ti è molto amica. Il tuo mostro fortunato è lo {1F31}eledrago.\""
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}\"Per creare uno {1F31}eledrago avrai bisogno di un Asciasauro o di un Verdrago.\"{WAIT}{CLEAR}\"Completa il processo di sintesi con un essere della famiglia dei Non-morti.\""
@@ -6316,7 +6316,7 @@ JMP_ABS 0xc L_1a5c8
 L_1a46c:
 CMP_EQ 0x18 0x0 0x42f60000 0x2 0x40800000
 JMP_IFNOT 0xc L_1a5c8
-SAY "{VOICE=03}\"Mi spiace, ma in questi giorni sei {BREAK}molto sfortunato. Vai in un luogo piovoso.\""
+SAY "{VOICE=03}\"Mi spiace, ma in questi giorni sei molto sfortunato. Vai in un luogo piovoso.\""
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}\"La pioggia nasconderà le lacrime che la malasorte ti farà versare...\""
@@ -6391,7 +6391,7 @@ STORE 0x18 0x0 0x42f60000 0x1 0x0
 SYS_42 0x8 
 CMP_EQ 0x18 0x0 0x42f60000 0x2 0x0
 JMP_IFNOT 0xc L_1ab54
-SAY "{VOICE=03}'In questo momento sei molto fortunato!{BREAK}Gli scout fortunati usano Danni sorprendenti!"
+SAY "{VOICE=03}'In questo momento sei molto fortunato! Gli scout fortunati usano Danni{WAIT}{CLEAR}sorprendenti!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}\"`Danni sorprendenti' può annullare i danni derivanti dai colpi subiti.\""
@@ -6400,17 +6400,17 @@ SYS_44 0x8
 SAY "{VOICE=03}\"Ciò significa che i tuoi mostri potrebbero non essere feriti in caso di attacco.\""
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}\"{1F2B} il colpo andrà a segno, però, infliggerà più danni del solito!\" \"In altre parole, usare `Danni sorprendenti' è un azzardo...\""
+SAY "{VOICE=03}\"{1F2B} il colpo andrà a segno, però, infliggerà più danni del solito!\"{WAIT}{CLEAR}\"In altre parole, usare `Danni sorprendenti' è un azzardo...\""
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_1b0cc
 L_1ab54:
 CMP_EQ 0x18 0x0 0x42f60000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1acb4
-SAY "{VOICE=03}\"In questo periodo sei molto fortunato. {BREAK}Il tuo numero magico è il 21.\""
+SAY "{VOICE=03}\"In questo periodo sei molto fortunato. Il tuo numero magico è il 21.\""
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}\"{1F2B} raggiungono il livello 21, i mostri ricevono tantissimi Punti Abilità...\" \"Addirittura più di quanti ne ottengono quando arrivano al livello 11!\""
+SAY "{VOICE=03}\"{1F2B} raggiungono il livello 21, i mostri ricevono tantissimi Punti Abilità...\"{WAIT}{CLEAR}\"Addirittura più di quanti ne ottengono quando arrivano al livello 11!\""
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}\"Cerca di portare i tuoi mostri fino al livello 21...\"{WAIT}{CLEAR}\"In questo modo, potrai usare la sintesi per generare creature potentissime!\""
@@ -6446,7 +6446,7 @@ JMP_ABS 0xc L_1b0cc
 L_1af70:
 CMP_EQ 0x18 0x0 0x42f60000 0x2 0x40800000
 JMP_IFNOT 0xc L_1b0cc
-SAY "{VOICE=03}\"In questo periodo sei molto sfortunato. {BREAK}Controlla la tua lista di amici.\""
+SAY "{VOICE=03}\"In questo periodo sei molto sfortunato. Controlla la tua lista di amici.\""
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}\"Una sfida contro un amico è quello che ci vuole per allontanare la malasorte!\""

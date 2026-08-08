@@ -212,7 +212,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Fatti da parte, ora{BREAK}abbatterò la barriera."
+SAY "{VOICE=07}Fatti da parte, ora abbatterò la barriera."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x0
@@ -375,7 +375,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Bene, ora possiamo andare{BREAK}a cercare Baboorood."
+SAY "{VOICE=07}Bene, ora possiamo andare a cercare Baboorood."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -445,7 +445,7 @@ STORE 0x18 0x1 0x0 0x2 0x44044000
 SYS_33 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonix"
-SAY "{VOICE=07}Finalmente!{BREAK}Ora posso proseguire."
+SAY "{VOICE=07}Finalmente! Ora posso proseguire."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -490,7 +490,7 @@ STORE 0x18 0x0 0x41300000 0x2 0x3f800000
 STORE 0x18 0x0 0x41700000 0x2 0x3f800000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Ehi, tu!{BREAK}Ringrazia almeno!"
+SAY "{VOICE=08}Ehi, tu! Ringrazia almeno!"
 WAIT 0x10 0x2 0x42c80000
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -537,7 +537,7 @@ SYS_18 0x8
 STORE 0x18 0x0 0x41700000 0x2 0x3f800000
 SYS_42 0x8 
 SETNAME "Leonix"
-SAY "{VOICE=07}Ringraziare? Se potevi abbattere la{BREAK}barriera, dovevi farlo subito!"
+SAY "{VOICE=07}Ringraziare? Se potevi abbattere la barriera, dovevi farlo subito!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -581,7 +581,7 @@ SAY "{VOICE=07}E invece hai aspettato... TU."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonix"
-SAY "{VOICE=07}Non ti vergogni a girare{BREAK}insieme a un umano?"
+SAY "{VOICE=07}Non ti vergogni a girare insieme a un umano?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -595,7 +595,7 @@ WAIT 0x10 0x2 0x42700000
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Uff. Non c'è niente di male{BREAK}a stare insieme agli umani."
+SAY "{VOICE=07}Uff. Non c'è niente di male a stare insieme agli umani."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -625,7 +625,7 @@ SAY "{VOICE=07}Che cosa hai detto?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonix"
-SAY "{VOICE=07}Ugh. Nonostante il tuo aspetto regale,{BREAK}sei solo un perdente patetico."
+SAY "{VOICE=07}Ugh. Nonostante il tuo aspetto regale, sei solo un perdente patetico."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -661,7 +661,7 @@ SPAWN 0x10 L_416c
 DATA 0x0000000d
 SYS_42 0x8 
 SETNAME "Kukri"
-SAY "{VOICE=08}Ah! Aspettami,{BREAK}Leonix!"
+SAY "{VOICE=08}Ah! Aspettami, Leonix!"
 WAIT 0x10 0x2 0x42f00000
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -716,7 +716,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43410000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Che problema ha quel tipo, {NAME}!{BREAK}NON perderemo contro di lui!"
+SAY "{VOICE=08}Che problema ha quel tipo, {NAME}! NON perderemo contro di lui!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -749,11 +749,11 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}{NAME}. La presenza del male diventa{BREAK}molto più forte da qui in poi."
+SAY "{VOICE=07}{NAME}. La presenza del male diventa molto più forte da qui in poi."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}Procediamo con molta cautela.{BREAK}Ti seguirò."
+SAY "{VOICE=07}Procediamo con molta cautela. Ti seguirò."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

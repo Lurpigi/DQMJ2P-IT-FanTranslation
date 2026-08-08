@@ -460,7 +460,7 @@ SAY "{VOICE=07}Credevo di essere l'unico a voler tornare sull'isola, ma mi sbagl
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Marcus Logos"
-SAY "{VOICE=07}Beh, meglio così! Più siamo, più {BREAK}ci divertiremo!"
+SAY "{VOICE=07}Beh, meglio così! Più siamo, più ci divertiremo!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Marcus Logos"

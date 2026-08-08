@@ -136,11 +136,11 @@ WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Meck Nick"
-SAY "{VOICE=07}Oh, di cosa stai blaterando adesso, ragazzo?{WAIT}{CLEAR}Abbiamo problemi più importanti di un verme da quattro soldi!"
+SAY "{VOICE=07}Oh, di cosa stai blaterando adesso, ragazzo? Abbiamo problemi più importanti{WAIT}{CLEAR}di un verme da quattro soldi!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Meck Nick"
-SAY "{VOICE=07}Dovresti essere grato di avere ancora la testa sulle spalle! Ora muoviamoci!{WAIT}{CLEAR}La fedele vecchia Albatross ci aspetta!"
+SAY "{VOICE=07}Dovresti essere grato di avere ancora la testa sulle spalle! Ora muoviamoci! La{WAIT}{CLEAR}fedele vecchia Albatross ci aspetta!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -151,7 +151,7 @@ SAY "{VOICE=07}M-ma sono nel bel mezzo delle mie indagini su quest'isola!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Marcus Logos"
-SAY "{VOICE=07}Stento a credere quanto siamo stati fortunati a precipitare in un territorio così inesplorato!"
+SAY "{VOICE=07}Stento a credere quanto siamo stati fortunati a precipitare in un territorio così{WAIT}{CLEAR}inesplorato!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -598,11 +598,11 @@ SAY "{VOICE=07}{E321}{NAME}! Sei vivo!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Marcus Logos"
-SAY "{VOICE=07}Ti sei perso l'evento più terribile.{BREAK}Un verme gigantesco ci è venuto addosso e...{WAIT}{CLEAR}...Meck Nick... ha rischiato eroicamente la vita per proteggermi..."
+SAY "{VOICE=07}Ti sei perso l'evento più terribile. Un verme gigantesco ci è venuto addosso e...{WAIT}{CLEAR}...Meck Nick... ha rischiato eroicamente la vita per proteggermi..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Marcus Logos"
-SAY "{VOICE=07}Se avessi fatto ciò che mi era stato detto e fossi tornata alla nave...{WAIT}{CLEAR}...tutto questo non sarebbe mai successo!"
+SAY "{VOICE=07}Se avessi fatto ciò che mi era stato detto e fossi tornata alla nave... ...tutto{WAIT}{CLEAR}questo non sarebbe mai successo!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Marcus Logos"

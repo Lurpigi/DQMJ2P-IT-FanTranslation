@@ -147,7 +147,7 @@ SYS_13 0x8
 STORE 0x18 0x1 0x0 0x2 0x41f80000
 SYS_14 0x8 
 SETNAME "Mynos il Vecchio"
-SAY "{VOICE=03}Sono io, Mynos... Potente Leonex, ti ricordi di me?"
+SAY "{VOICE=03}{1F35}no io, Mynos... Potente Leonex, ti ricordi di me?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -163,7 +163,7 @@ SAY "{VOICE=03}Groarrr... Grrrarrrgh..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Malevoleonex"
-SAY "{VOICE=03}Vi distruggerò... Grrroarrr!{BREAK}Vi divorerò tutti...!"
+SAY "{VOICE=03}Vi distruggerò... Grrroarrr! Vi divorerò tutti...!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

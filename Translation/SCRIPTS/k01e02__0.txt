@@ -1344,7 +1344,7 @@ SYS_42 0x8
 SAY "{COLOR=2}La curiosità può uccidere i gatti, ma non gli {1F29}out!{WAIT}{CLEAR}Esamina queste strane rocce per imparare tecniche e comandi nuovi."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Le "Pietre dello {1F29}out" sono indicate sulla mappa da icone azzurre."
+SAY "{COLOR=2}Le \"Pietre dello {1F29}out\" sono indicate sulla mappa da icone azzurre."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1377,7 +1377,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha imparato \"Teletrasporto\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un attimo in qualsiasi area già visitata."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un attimo in qualsiasi area{WAIT}{CLEAR}già visitata."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}Fatte salve poche eccezioni, può essere utilizzata ovunque... Persino nelle grotte!"
@@ -1400,7 +1400,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha imparato \"{1F36}arizione\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa tecnica permette a {NAME} di passare sotto il naso dei nemici senza farsi notare."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di passare sotto il naso dei nemici senza{WAIT}{CLEAR}farsi notare."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1417,7 +1417,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} può ora usare \"Guarisci tutti\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Quest'incantesimo di guarigione permette a {NAME} di curare tutti i membri della squadra."
+SAY "{COLOR=2}Quest'incantesimo di guarigione permette a {NAME} di curare tutti i{WAIT}{CLEAR}membri della squadra."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1440,7 +1440,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha imparato \"{1F2B}gugio\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa tecnica permette a {NAME} di scoprire quanti tesori sono nascosti nelle vicinanze."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di scoprire quanti tesori sono nascosti{WAIT}{CLEAR}nelle vicinanze."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1457,13 +1457,13 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha imparato \"Velotrans\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un istante al più vicino portale Velotrans."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un istante al più vicino{WAIT}{CLEAR}portale Velotrans."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}La tecnica funzionerà solo se il portale è già aperto."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Quindi, è bene che {NAME} esamini subito i portali Velotrans situati sull'isola."
+SAY "{COLOR=2}Quindi, è bene che {NAME} esamini subito i portali Velotrans situati{WAIT}{CLEAR}sull'isola."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1484,7 +1484,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha ottenuto \"Curamostri\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa bevanda fa recuperare PV e PM a tutti i membri della squadra di {NAME}."
+SAY "{COLOR=2}Questa bevanda fa recuperare PV e PM a tutti i membri della squadra di {NAME}{WAIT}{CLEAR}."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}La bottiglia contiene tre dosi e può essere riempita di nuovo tornando alla nave."
@@ -4845,7 +4845,7 @@ SYS_06 0x8
 STORE 0x18 0x1 0x0 0x2 0x43340000
 SYS_07 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}La squadra di {E321}{NAME} ha riposato sulla volonave, e ora è in perfetta forma."
+SAY "{COLOR=2}La squadra di {E321}{NAME} ha riposato sulla volonave, e ora è in{WAIT}{CLEAR}perfetta forma."
 STORE 0x18 0x1 0x0 0x2 0x42820000
 SYS_A5 0x8 
 SYS_43 0x8 
@@ -6344,13 +6344,13 @@ SETNAME "Capitan Alex"
 SAY "{VOICE=07}{1F35}no caduto in mare... Ho nuotato fino alla costa più vicina..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Pivello, credo anche tu possa {BREAK}raggiungere quella spiaggia..."
+SAY "{VOICE=07}Pivello, credo anche tu possa raggiungere quella spiaggia..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}{1F2B} Empyrea non può aiutarci, allora il mare è la nostra unica via di fuga..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Ascoltami bene, pivello... {BREAK}Devi potenziare le tue {WAIT}{CLEAR}capacità in vista delle battaglie che affronterai in futuro..."
+SAY "{VOICE=07}Ascoltami bene, pivello...{WAIT}{CLEAR}Devi potenziare le tue capacità in vista delle battaglie che affronterai in futuro..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6393,10 +6393,10 @@ CMP_EQ 0x18 0x0 0x42f40000 0x2 0x3f800000
 JMP_IFNOT 0xc L_186c0
 SYS_42 0x8 
 SETNAME "Capitan Alex"
-SAY "{VOICE=07}Nnngh... Sei tu, {NAME}? Scusa, pivello... Non vedo un accidente..."
+SAY "{VOICE=07}Nnngh... Sei tu, {NAME}? Scusa, pivello... Non vedo un{WAIT}{CLEAR}accidente..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Concentrati sulla missione. {1F35}lo {BREAK}tu puoi portarla a termine con successo."
+SAY "{VOICE=07}Concentrati sulla missione. {1F35}lo tu puoi portarla a termine con successo."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6512,7 +6512,7 @@ STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{VOICE=03}Hohoho. Salve, salve.{BREAK}Eugene Poole, al tuo servizio.{WAIT}{CLEAR}Sono un esperto del Torneo Monster Scout. Ne sono affascinato."
+SAY "{VOICE=03}Hohoho. Salve, salve. Eugene Poole, al tuo servizio. Sono un esperto del Torneo{WAIT}{CLEAR}Monster Scout. Ne sono affascinato."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SETNAME "Jim Jenius"
@@ -6656,7 +6656,7 @@ CMP_EQ 0x18 0x0 0x42f40000 0x2 0x41400000
 JMP_IFNOT 0xc L_19868
 SYS_42 0x8 
 SETNAME "Jim Jenius"
-SAY "{VOICE=03}Perché la nave trema?! {BREAK}Che sta succedendo?!"
+SAY "{VOICE=03}Perché la nave trema?! Che sta succedendo?!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}Capitan Alex ha fama di essere un ottimo pilota... {1F36}eriamo che la cosa sia vera!"
@@ -6705,13 +6705,13 @@ SYS_44 0x8
 SAY "{VOICE=03}Ogni buona azione merita una ricompensa. La tua si trova di sotto, nel mio baule."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Se stai cercando il signore che abbiamo riportato indietro dalla tana delle talpe..."
+SAY "{VOICE=03}Se stai cercando il signore che abbiamo riportato indietro dalla tana delle{WAIT}{CLEAR}talpe..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}...si trova nel recinto dei mostri, intento a coltivare la sua passione per la sintesi."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}I mostri possono crescere solo fino a un certo punto. La sintesi è la chiave per creare una squadra potente!{WAIT}{CLEAR}Ti consiglio di andarlo a trovare."
+SAY "{VOICE=03}I mostri possono crescere solo fino a un certo punto. La sintesi è la chiave per{WAIT}{CLEAR}creare una squadra potente! Ti consiglio di andarlo a trovare."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6729,7 +6729,7 @@ SETNAME "Jim Jenius"
 SAY "{VOICE=03}Il tipo che hai incontrato nella tana delle talpe è al recinto dei mostri.{WAIT}{CLEAR}Dove altro potrebbe essere un appassionato di sintesi come lui...?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}I mostri possono crescere solo fino a un certo punto. La sintesi è la chiave per creare una squadra di alto livello!{WAIT}{CLEAR}Ti consiglio di andarlo a trovare."
+SAY "{VOICE=03}I mostri possono crescere solo fino a un certo punto. La sintesi è la chiave per{WAIT}{CLEAR}creare una squadra di alto livello! Ti consiglio di andarlo a trovare."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6746,7 +6746,7 @@ SETNAME "Jim Jenius"
 SAY "{VOICE=03}Solo le squadre più forti trionfano nel Torneo Monster Scout."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Se pensi che la tua squadra debba affinare le proprie abilità...{WAIT}{CLEAR}...visita una delle regioni e allenati contro i mostri selvatici."
+SAY "{VOICE=03}Se pensi che la tua squadra debba affinare le proprie abilità... ...visita una{WAIT}{CLEAR}delle regioni e allenati contro i mostri selvatici."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6758,13 +6758,13 @@ CMP_EQ 0x18 0x0 0x42f40000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1a0b4
 SYS_42 0x8 
 SETNAME "Jim Jenius"
-SAY "{VOICE=03}Quindi hai trionfato nel Torneo Monster Scout...{WAIT}{CLEAR}...e in cambio le talpe ti hanno rivelato la posizione di Gelandia, eh?"
+SAY "{VOICE=03}Quindi hai trionfato nel Torneo Monster Scout... ...e in cambio le talpe ti hanno{WAIT}{CLEAR}rivelato la posizione di Gelandia, eh?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Quindi le talpe dicevano la verità quando sostenevano che la vittoria avrebbe aperto nuove strade."
+SAY "{VOICE=03}Quindi le talpe dicevano la verità quando sostenevano che la vittoria avrebbe{WAIT}{CLEAR}aperto nuove strade."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}{NAME}, hai iniziato a mettere insieme una squadra di mostri molto potenti..."
+SAY "{VOICE=03}{NAME}, hai iniziato a mettere insieme una squadra di mostri molto{WAIT}{CLEAR}potenti..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6774,7 +6774,7 @@ CMP_EQ 0x18 0x0 0x42f40000 0x2 0x40000000
 JMP_IFNOT 0xc L_1a2c8
 SYS_42 0x8 
 SETNAME "Jim Jenius"
-SAY "{VOICE=03}Dimmi, giovanotto, come procede il Torneo Monster Scout?"
+SAY "{VOICE=03}Dimmi, giovanotto, come procede il Torneo Monster {1F29}out?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}Vuoi sottoporre i tuoi mostri a un allenamento più duro, per caso?{WAIT}{CLEAR}Allora visita le varie zone quando le condizioni meteorologiche sono avverse."
@@ -6783,7 +6783,7 @@ SYS_44 0x8
 SAY "{VOICE=03}La pioggia aiuta a far emergere le vere qualità delle creature più forti."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Reclutamento, addestramento e sintesi...{WAIT}{CLEAR}Questi tre elementi sono indispensabili per costruire una squadra di alto livello."
+SAY "{VOICE=03}Reclutamento, addestramento e sintesi... Questi tre elementi sono indispensabili per{WAIT}{CLEAR}costruire una squadra di alto livello."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}{1F2B} vincerai la competizione, potremmo trovare il modo di tornare a casa..."
@@ -6803,7 +6803,7 @@ CMP_EQ 0x18 0x0 0x433c0000 0x2 0x0
 JMP_IFNOT 0xc L_1a4e4
 SYS_42 0x8 
 SETNAME "Jim Jenius"
-SAY "{VOICE=03}Dimmi, giovanotto, come procede il Torneo Monster Scout?"
+SAY "{VOICE=03}Dimmi, giovanotto, come procede il Torneo Monster {1F29}out?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}Vuoi sottoporre i tuoi mostri a un allenamento più duro, per caso?{WAIT}{CLEAR}Allora visita le varie zone quando le condizioni meteorologiche sono avverse."
@@ -7210,7 +7210,7 @@ JMP_IFNOT 0xc L_1c18c
 SAY "{VOICE=07}Oh, certo che no. Eppure sembri proprio a casa tua."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Se ci imbattessimo di nuovo in un problema simile, non so se riusciremmo a uscirne tutti interi!"
+SAY "{VOICE=07}Se ci imbattessimo di nuovo in un problema simile, non so se riusciremmo a uscirne{WAIT}{CLEAR}tutti interi!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_1c26c
@@ -7257,7 +7257,7 @@ SYS_02 0x8
 SYS_03 0x8 
 SYS_42 0x8 
 SETNAME "Meck Nick"
-SAY "{VOICE=07}Ho sistemato il Negozio degli oggetti per te e devo dire che ho fatto un ottimo lavoro.{WAIT}{CLEAR}Quindi assicurati di comprare qualche provvista prima di partire di nuovo all'avventura."
+SAY "{VOICE=07}Ho sistemato il Negozio degli oggetti per te e devo dire che ho fatto un ottimo{WAIT}{CLEAR}lavoro. Quindi assicurati di comprare qualche provvista prima di partire di{WAIT}{CLEAR}nuovo all'avventura."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7300,7 +7300,7 @@ SETNAME "Meck Nick"
 SAY "{VOICE=07}Io e il cervellone cercheremo di riparare il motore...{WAIT}{CLEAR}Tu dirigiti verso il Vastopiano e controlla se ci sono dei sopravvissuti."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Ho sistemato il Negozio degli oggetti per te e devo dire che ho fatto un ottimo lavoro.{WAIT}{CLEAR}Quindi assicurati di comprare qualche provvista prima di partire di nuovo all'avventura."
+SAY "{VOICE=07}Ho sistemato il Negozio degli oggetti per te e devo dire che ho fatto un ottimo{WAIT}{CLEAR}lavoro. Quindi assicurati di comprare qualche provvista prima di partire di{WAIT}{CLEAR}nuovo all'avventura."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Pregherò la dea affinché tu trovi tutti vivi e in buone condizioni di salute..."
@@ -7366,7 +7366,7 @@ SETNAME "Meck Nick"
 SAY "{VOICE=07}Quindi non era un sogno. Il fantasma del Capitano infesta il Vastopiano!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Secondo te quel discorso del "vinci, vinci" riguardava il Torneo Monster Scout?"
+SAY "{VOICE=07}Secondo te quel discorso del "vinci, vinci" riguardava il Torneo Monster{WAIT}{CLEAR}Scout?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7388,7 +7388,7 @@ CMP_EQ 0x18 0x0 0x433c0000 0x2 0x0
 JMP_IFNOT 0xc L_1d0b8
 SYS_42 0x8 
 SETNAME "Meck Nick"
-SAY "{VOICE=07}Allora, com'è stata la Sfida dei mostri?{BREAK}Ti ha fatto paura?{VOICE=09}"
+SAY "{VOICE=07}Allora, com'è stata la Sfida dei mostri? Ti ha fatto paura?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -7547,13 +7547,13 @@ CMP_EQ 0x18 0x0 0x433c0000 0x2 0x0
 JMP_IFNOT 0xc L_1db48
 SYS_42 0x8 
 SETNAME "Meck Nick"
-SAY "{VOICE=07}Quindi quella piccola secchiona pensa che tu debba arrampicarti su scogliere pericolose...{WAIT}{CLEAR}...seguire un uccello gigantesco e convincerlo a portarci tutti in salvo!?"
+SAY "{VOICE=07}Quindi quella piccola secchiona pensa che tu debba arrampicarti su scogliere{WAIT}{CLEAR}pericolose... ...seguire un uccello gigantesco e convincerlo a portarci tutti{WAIT}{CLEAR}in salvo!?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Mi sembra incredibile che, alla sua età, quel tipo creda ancora alle favole...!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}...Comunque stai facendo un ottimo lavoro, trovando tutte queste nuove regioni da esplorare."
+SAY "{VOICE=07}...Comunque stai facendo un ottimo lavoro, trovando tutte queste nuove{WAIT}{CLEAR}regioni da esplorare."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Adesso fila a Precipizia, trova {1F2E}eila e Capitan Alex e portali in salvo!"
@@ -7574,7 +7574,7 @@ SETNAME "Meck Nick"
 SAY "{VOICE=07}Quello studioso è un illuso se crede davvero che un volatile ci salverà..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}...Comunque stai facendo un ottimo lavoro, trovando tutte queste nuove regioni da esplorare."
+SAY "{VOICE=07}...Comunque stai facendo un ottimo lavoro, trovando tutte queste nuove{WAIT}{CLEAR}regioni da esplorare."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Ora non ti resta che andare a Precipizia, trovare {1F2E}eila e Capitan Alex e salvarli!"
@@ -7643,7 +7643,7 @@ CMP_EQ 0x18 0x0 0x42f20000 0x2 0x40c00000
 JMP_IFNOT 0xc L_1e178
 SYS_42 0x8 
 SETNAME "Meck Nick"
-SAY "{VOICE=07}Non riesco a cavare un ragno dal buco... {BREAK}Mi sento inutile! Perdonami, Capitano..."
+SAY "{VOICE=07}Non riesco a cavare un ragno dal buco... Mi sento inutile! Perdonami, Capitano..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7671,7 +7671,7 @@ CMP_EQ 0x18 0x0 0x433c0000 0x2 0x0
 JMP_IFNOT 0xc L_1e548
 SYS_42 0x8 
 SETNAME "Meck Nick"
-SAY "{VOICE=07}Diamine! Mi piacerebbe vedere {BREAK}il Combattente Divino risorto...!"
+SAY "{VOICE=07}Diamine! Mi piacerebbe vedere il Combattente Divino risorto...!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}E se riuscissi a risvegliare il Combattente Divino..."
@@ -7722,7 +7722,7 @@ SETNAME "Meck Nick"
 SAY "{VOICE=07}Ragazzo, ho saputo che hai riportato in vita il Combattente Divino..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Quindi Empyrea verrà a portarci via in volo?{WAIT}{CLEAR}Oh, sarò felice di vedere per l'ultima volta quest'isola, te lo dico io."
+SAY "{VOICE=07}Quindi Empyrea verrà a portarci via in volo? Oh, sarò felice di vedere per{WAIT}{CLEAR}l'ultima volta quest'isola, te lo dico io."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}{1F2B}i pronto per andartene? {1F2B} non lo fossi, faresti bene a darti una mossa!"
@@ -7741,7 +7741,7 @@ CMP_EQ 0x18 0x0 0x433c0000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1eca0
 SYS_42 0x8 
 SETNAME "Meck Nick"
-SAY "{VOICE=07}Dobbiamo completare il viaggio: il Torneo Monster Scout ci aspetta! "
+SAY "{VOICE=07}Dobbiamo completare il viaggio: il Torneo Monster Scout ci aspetta!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Sei pronto ad affrontare la sfida nel Torneo Monster Scout?{VOICE=09}"
@@ -7778,7 +7778,7 @@ JMP_REL L_1ec18
 L_1ec18:
 JMP_ABS 0xc L_1ec24
 L_1ec24:
-SAY "{VOICE=07}Il nostro mezzo di trasporto non è ancora {BREAK}arrivato, hai tempo per prepararti..."
+SAY "{VOICE=07}Il nostro mezzo di trasporto non è ancora arrivato, hai tempo per prepararti..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7850,7 +7850,7 @@ SYS_44 0x8
 SAY "{VOICE=07}{1F2B} sconfiggerai quella belva, dopo potrai vincere la competizione a occhi chiusi!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}{NAME}, il nostro {BREAK}destino è nelle tue mani!"
+SAY "{VOICE=07}{NAME}, il nostro destino è nelle tue mani!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7972,7 +7972,7 @@ CMP_EQ 0x18 0x0 0x43000000 0x2 0x0
 JMP_IFNOT 0xc L_1f9a0
 SYS_42 0x8 
 SETNAME "Marcus Logos"
-SAY "{VOICE=07}{NAME}!　Eugene si è addormentato di nuovo!"
+SAY "{VOICE=07}{NAME}! Eugene si è addormentato di nuovo!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Sta anche mormorando qualcosa."
@@ -8143,7 +8143,7 @@ CMP_EQ 0x18 0x0 0x433c0000 0x2 0x0
 JMP_IFNOT 0xc L_2070c
 SYS_42 0x8 
 SETNAME "Lady Lidia"
-SAY "{VOICE=08}Beh?! Che vuoi?! Ti ho ringraziato, {BREAK}no?! Cos'altro pretendi?!"
+SAY "{VOICE=08}Beh?! Che vuoi?! Ti ho ringraziato, no?! Cos'altro pretendi?!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}Certo, hai dimostrato di essere uno scout migliore di quanto avessi creduto..."
@@ -8285,7 +8285,7 @@ SETNAME "Lady Lidia"
 SAY "{VOICE=08}La mia amatissima Contessa si è trasformata nel Combattente Divino..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}La cosa non mi sorprende, se si considera {BREAK}che è sempre {WAIT}{CLEAR}stata accanto a me... Non per vantarmi, ma io so come tirar fuori il meglio dai mostri."
+SAY "{VOICE=08}La cosa non mi sorprende, se si considera che è sempre stata accanto a me...{WAIT}{CLEAR}Non per vantarmi, ma io so come tirar fuori il meglio dai mostri."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}La cosa non mi sorprende, se si considera che è sempre stata accanto a me...{WAIT}{CLEAR}Non per vantarmi, ma io so come tirar fuori il meglio dai mostri."
@@ -8303,7 +8303,7 @@ JMP_ABS 0xc L_21110
 L_21110:
 SYS_42 0x8 
 SETNAME "Lady Lidia"
-SAY "{VOICE=08}{1F35}b! Dov'è la mia adorata Contessa? {BREAK}Oh, come sono disperata! {1F35}b!"
+SAY "{VOICE=08}{1F35}b! Dov'è la mia adorata Contessa? Oh, come sono disperata! {1F35}b!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -8331,7 +8331,7 @@ SYS_44 0x8
 SYS_43 0x8 
 SYS_42 0x8 
 SETNAME "Contessa"
-SAY "{VOICE=08}SQUEAK! SQUEAK!"
+SAY "{VOICE=08}{1F1D}UEAK! {1F1D}UEAK!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -8351,7 +8351,7 @@ JMP_ABS 0xc L_213d0
 L_213d0:
 SYS_42 0x8 
 SETNAME "Contessa"
-SAY "{VOICE=08}SQUEAK! SQUEAK!"
+SAY "{VOICE=08}{1F1D}UEAK! {1F1D}UEAK!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -8368,7 +8368,7 @@ CMP_EQ 0x18 0x0 0x42f40000 0x2 0x41200000
 JMP_IFNOT 0xc L_21570
 SYS_42 0x8 
 SETNAME "Contessa"
-SAY "{VOICE=08}SQUEAK! SQUEAK!"
+SAY "{VOICE=08}{1F1D}UEAK! {1F1D}UEAK!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -8451,7 +8451,7 @@ CMP_EQ 0x18 0x0 0x42f40000 0x2 0x40000000
 JMP_IFNOT 0xc L_21a68
 SYS_42 0x8 
 SETNAME "Contessa"
-SAY "{VOICE=08}Squeak! Squark!"
+SAY "{VOICE=08}{1F37}ueak! {1F37}uark!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -8468,7 +8468,7 @@ CMP_EQ 0x18 0x0 0x42f20000 0x2 0x40e00000
 JMP_IFNOT 0xc L_21b5c
 SYS_42 0x8 
 SETNAME "Contessa"
-SAY "{VOICE=08}Squeak! Squark!"
+SAY "{VOICE=08}{1F37}ueak! {1F37}uark!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -8498,7 +8498,7 @@ STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{VOICE=08}Ciao! Io sono Sheila, e lavoro per il Torneo Monster Scout. Il mio compito è...{WAIT}{CLEAR}Uhm, non lo so... Non mi hanno ancora spiegato cosa devo fare..."
+SAY "{VOICE=08}Ciao! Io sono {1F2E}eila, e lavoro per il Torneo Monster {1F29}out. Il mio compito è...{WAIT}{CLEAR}Uhm, non lo so... Non mi hanno ancora spiegato cosa devo fare..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SETNAME "Sheila"
@@ -8586,7 +8586,7 @@ CMP_EQ 0x18 0x0 0x42f40000 0x2 0x41400000
 JMP_IFNOT 0xc L_2231c
 SYS_42 0x8 
 SETNAME "Sheila"
-SAY "{VOICE=08}Che succede alla nave?! Aiuto! Non ditemi che {BREAK}stiamo per precipitare...!"
+SAY "{VOICE=08}Che succede alla nave?! Aiuto! Non ditemi che stiamo per precipitare...!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -8705,7 +8705,7 @@ SYS_42 0x8
 SAY "{VOICE=07}Il Capitano e i passeggeri sono slimandati sul Vastopiano, all'arena dei mostri."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Mi hanno chiesto di slurprendermi cura di te. {1F2B} {BREAK}slurparlerai con me... {1F32}uuurp!"
+SAY "{VOICE=07}Mi hanno chiesto di slurprendermi cura di te. {1F2B} slurparlerai con me... {1F32}uuurp!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Ehm, se parlerai con me, dormirai finché la notte diventerà giorno, o slimeversa!"
@@ -8724,7 +8724,7 @@ SYS_30 0x8
 STORE 0x18 0x0 0x433b0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x433b0000 0x2 0x0
 JMP_IFNOT 0xc L_22fa0
-SAY "{VOICE=07}Vuoi dormire fino allo slurpuntare {BREAK}della luna?{VOICE=09}"
+SAY "{VOICE=07}Vuoi dormire fino allo slurpuntare della luna?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -9979,7 +9979,7 @@ JMP_IFNOT 0xc L_27f30
 SAY "{COLOR=2}{NAME} prova a inserire i frammenti meccanici che ha con sé..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Ma non ci riesce! Il contenitore non vuole {BREAK}accettarli! Non adesso, almeno..."
+SAY "{COLOR=2}Ma non ci riesce! Il contenitore non vuole accettarli! Non adesso, almeno..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

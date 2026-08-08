@@ -253,7 +253,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41980000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Un attacco a tenaglia? Maledetto Baboorood.{BREAK}Non ti fermerai davanti a nulla..."
+SAY "{VOICE=07}Un attacco a tenaglia? Maledetto Baboorood. Non ti fermerai davanti a{WAIT}{CLEAR}nulla..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -367,11 +367,11 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}{NAME}!{BREAK}Non preoccuparti per me!"
+SAY "{VOICE=07}{NAME}! Non preoccuparti per me!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}Vai ad affrontare Baboorood!{BREAK}Sono certo che ce la farai!"
+SAY "{VOICE=07}Vai ad affrontare Baboorood! Sono certo che ce la farai!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

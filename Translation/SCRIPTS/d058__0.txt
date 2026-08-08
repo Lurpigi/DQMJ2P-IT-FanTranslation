@@ -715,7 +715,7 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Lady Lidia"
-SAY "{VOICE=08}Anche uno Scout da due soldi come te può tornare utile, di quando in quando..."
+SAY "{VOICE=08}Anche uno {1F29}out da due soldi come te può tornare utile, di quando in quando..."
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x0 0x41400000
 STORE 0x18 0x1 0x3f800000 0x2 0x42d20000

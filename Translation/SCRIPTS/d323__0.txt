@@ -36,7 +36,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
 SETNAME "Leonex"
-SAY "{VOICE=07}Che succede, {NAME}?{BREAK}Volevi dirmi qualcosa?"
+SAY "{VOICE=07}Che succede, {NAME}? Volevi dirmi qualcosa?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -84,15 +84,15 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Leonex"
-SAY "{VOICE=07}COSA?! Mi hai incontrato quando ero{BREAK}ancora giovane!?"
+SAY "{VOICE=07}COSA?! Mi hai incontrato quando ero ancora giovane!?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonex"
-SAY "{VOICE=07}E dici che tremavo davanti al malvagio{BREAK}Baboorood!?"
+SAY "{VOICE=07}E dici che tremavo davanti al malvagio Baboorood!?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonex"
-SAY "{VOICE=07}C-come hai fatto a{BREAK}saperlo...?"
+SAY "{VOICE=07}C-come hai fatto a saperlo...?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -112,11 +112,11 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Leonex"
-SAY "{VOICE=07}Perfino io avevo dimenticato tutto{BREAK}quello che era successo tanto tempo fa..."
+SAY "{VOICE=07}Perfino io avevo dimenticato tutto quello che era successo tanto tempo fa..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonex"
-SAY "{VOICE=07}Non l'ho mai raccontato a nessuno...{BREAK}Quindi rimarrà un segreto tra noi!"
+SAY "{VOICE=07}Non l'ho mai raccontato a nessuno... Quindi rimarrà un segreto tra noi!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

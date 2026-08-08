@@ -121,7 +121,7 @@ SPAWN 0x10 L_11c8
 DATA 0x00000001
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}{NAME}. Hai attraversato di nuovo un{BREAK}ponte senza problemi."
+SAY "{VOICE=07}{NAME}. Hai attraversato di nuovo un ponte senza problemi."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40000000
@@ -148,11 +148,11 @@ STORE 0x18 0x1 0x0 0x2 0x41a00000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}Ehe ehe ehe. Viaggiare con te in questo modo{BREAK}mi ricorda il mio amico di tanto tempo fa."
+SAY "{VOICE=07}Ehe ehe ehe. Viaggiare con te in questo modo mi ricorda il mio amico di tanto tempo{WAIT}{CLEAR}fa."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}Per recuperare il mio potere nascosto,{BREAK}visitavo i santuari insieme a lui."
+SAY "{VOICE=07}Per recuperare il mio potere nascosto, visitavo i santuari insieme a lui."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40000000
@@ -172,7 +172,7 @@ STORE 0x18 0x1 0x0 0x2 0x424c0000
 STORE 0x18 0x1 0x3f800000 0x2 0x42b40000
 SYS_17 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Allora non credevo negli umani,{BREAK}proprio come quel moccioso di Leonex."
+SAY "{VOICE=07}Allora non credevo negli umani, proprio come quel moccioso di Leonex."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40000000
@@ -189,7 +189,7 @@ STORE 0x18 0x1 0x0 0x2 0x42740000
 STORE 0x18 0x1 0x3f800000 0x2 0x42f00000
 SYS_17 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Ma dopo averlo incontrato, l'Incarnus{BREAK}che sono oggi è diverso."
+SAY "{VOICE=07}Ma dopo averlo incontrato, l'Incarnus che sono oggi è diverso."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40000000
@@ -213,11 +213,11 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43480000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}Prima di partire per il mondo oscuro,{BREAK}feci una promessa al mio amico."
+SAY "{VOICE=07}Prima di partire per il mondo oscuro, feci una promessa al mio amico."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}Per mantenere quella promessa{BREAK}devo compiere il mio dovere."
+SAY "{VOICE=07}Per mantenere quella promessa devo compiere il mio dovere."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x0
@@ -237,7 +237,7 @@ STORE 0x18 0x1 0x0 0x2 0x428c0000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}Mi dispiace averti fermato. Bene,{BREAK}andiamo. Siamo vicini a Palazzo Blanc."
+SAY "{VOICE=07}Mi dispiace averti fermato. Bene, andiamo. Siamo vicini a Palazzo Blanc."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

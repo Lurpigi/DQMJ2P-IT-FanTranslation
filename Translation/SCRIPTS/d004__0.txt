@@ -103,7 +103,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Ti spiegherò le regole una volta sola!{WAIT}{CLEAR}Allora, siamo pronti?{BREAK}Ho detto: SIAMO PRONTI?!"
+SAY "{VOICE=07}Ti spiegherò le regole una volta sola! Allora, siamo pronti? Ho detto: SIAMO{WAIT}{CLEAR}PRONTI?!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
@@ -119,7 +119,7 @@ SAY "{VOICE=07}Non è possibile cambiare mostri né usare oggetti. È chiaro anc
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
-SAY "{VOICE=07}Bene! Ero certo che avresti capito le mie spiegazioni!{BREAK}Diamo il via allo spettacolo!"
+SAY "{VOICE=07}Bene! Ero certo che avresti capito le mie spiegazioni! Diamo il via allo spettacolo!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"

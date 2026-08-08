@@ -168,7 +168,7 @@ SAY "{VOICE=08}Ah, volete che vi aiuti a tornare a casa...? Uhm, capisco..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41f00000
 SETNAME "Empyrea"
-SAY "{VOICE=08}Temo di non poter esaudire il vostro desiderio.{BREAK}Io servo solo il mio padrone."
+SAY "{VOICE=08}Temo di non poter esaudire il vostro desiderio. Io servo solo il mio padrone."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Empyrea"
@@ -215,7 +215,7 @@ STORE 0x18 0x1 0x0 0x2 0x41200000
 SYS_14 0x8 
 SYS_42 0x8 
 SETNAME "Empyrea"
-SAY "{VOICE=08}So quanto gli sta a cuore il futuro di quest'isola e di noi che la abitiamo..."
+SAY "{VOICE=08}{1F35} quanto gli sta a cuore il futuro di quest'isola e di noi che la abitiamo..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Empyrea"
@@ -274,11 +274,11 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43ff0000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Empyrea"
-SAY "{VOICE=08}Ascoltatemi, umani.{BREAK}Dovete confidare nelle forze del fato."
+SAY "{VOICE=08}Ascoltatemi, umani. Dovete confidare nelle forze del fato."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Empyrea"
-SAY "{VOICE=08}Se lo farete, conoscerete la Grande Creatura, e il vostro destino si compirà."
+SAY "{VOICE=08}{1F2B} lo farete, conoscerete la Grande Creatura, e il vostro destino si compirà."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -522,7 +522,7 @@ DATA 0x00000004
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Sheila"
-SAY "{VOICE=08}Capitan Alex! Che ti prende?!{BREAK}Presto! Qualcuno faccia qualcosa!"
+SAY "{VOICE=08}Capitan Alex! Che ti prende?! Presto! Qualcuno faccia qualcosa!"
 WAIT 0x10 0x2 0x428c0000
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_04 0x8 
@@ -535,7 +535,7 @@ SYS_43 0x8
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x42480000
 SYS_42 0x8 
-SAY "{COLOR=2}{E321}{NAME} e Sheila portano Capitan Alex all'Albatros..."
+SAY "{COLOR=2}{E321}{NAME} e {1F2E}eila portano Capitan Alex all'Albatros..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

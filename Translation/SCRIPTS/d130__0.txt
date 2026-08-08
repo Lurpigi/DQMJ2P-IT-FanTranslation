@@ -161,11 +161,11 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42680000
 SYS_18 0x8 
 STORE 0x18 0x0 0x41000000 0x2 0x3f800000
 SYS_42 0x8 
-SAY "{VOICE=07}Scusami per averti fatta aspettare, gentile signorina.{BREAK}Sono Capitan Alex, comandante di questa splendida volonave.{WAIT}{CLEAR}"
+SAY "{VOICE=07}{1F29}usami per averti fatta aspettare, gentile signorina.{WAIT}{CLEAR}{1F35}no Capitan Alex, comandante di questa splendida volonave."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Capitan Alex"
-SAY "{VOICE=07}È un vero onore accogliere sulla nostra nave la campionessa in carica.{WAIT}{CLEAR}Prego, signorina, entra. Accomodati pure..."
+SAY "{VOICE=07}È un vero onore accogliere sulla nostra nave la campionessa in carica. Prego,{WAIT}{CLEAR}signorina, entra. Accomodati pure..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -177,7 +177,7 @@ WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Capitan Alex"
-SAY "{VOICE=07}Come preferisci, signorina.{WAIT}{CLEAR}Anzi, a essere sincero, sono felice che tu abbia deciso di non imbarcarti..."
+SAY "{VOICE=07}Come preferisci, signorina. Anzi, a essere sincero, sono felice che tu abbia{WAIT}{CLEAR}deciso di non imbarcarti..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -238,7 +238,7 @@ STORE 0x18 0x1 0x0 0x0 0x41100000
 STORE 0x18 0x1 0x3f800000 0x2 0x43140000
 SYS_18 0x8 
 SYS_42 0x8 
-SAY "{VOICE=08}Ehi! Stai per caso insinuando che sono grassa?!"
+SAY "{VOICE=08}Ehi! {1F3A}ai per caso insinuando che sono grassa?!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -285,7 +285,7 @@ SYS_18 0x8
 STORE 0x18 0x0 0x41300000 0x2 0x3f800000
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{VOICE=07}Capitano, sto per ultimare le operazioni di carico. Siamo quasi pronti per il decollo."
+SAY "{VOICE=07}Capitano, sto per ultimare le operazioni di carico. {1F2F}amo quasi pronti per il decollo."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -344,7 +344,7 @@ STORE 0x18 0x1 0x0 0x0 0x41100000
 STORE 0x18 0x1 0x3f800000 0x2 0x43140000
 SYS_18 0x8 
 SYS_42 0x8 
-SAY "{VOICE=08}Pfui! Sarò ben lieta di non essere un peso aggiuntivo per il tuo trabiccolo!"
+SAY "{VOICE=08}Pfui! {1F27}rò ben lieta di non essere un peso aggiuntivo per il tuo trabiccolo!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SAY "{VOICE=08}Chissà, con un po' di fortuna potresti persino raggiungere la sede del Torneo..."

@@ -336,7 +336,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3e4ccccd
 SYS_54 0x8 
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}{1F35} cosa stai pensando, ma sappi {BREAK}una cosa: non lo faccio per i soldi."
+SAY "{VOICE=08}{1F35} cosa stai pensando, ma sappi una cosa: non lo faccio per i soldi."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"

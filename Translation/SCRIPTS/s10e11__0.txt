@@ -1332,7 +1332,7 @@ STORE 0x18 0x0 0x426c0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x426c0000 0x2 0x0
 JMP_IFNOT 0xc L_4c7c
 SYS_42 0x8 
-SAY "{COLOR=2}La curiosità può uccidere i gatti, ma non gli {1F29}out!{WAIT}{CLEAR}Esamina queste strane rocce per imparare tecniche e comandi nuovi."
+SAY "{COLOR=2}La curiosità può uccidere i gatti, ma non gli {1F29}out! Esamina queste strane rocce{WAIT}{CLEAR}per imparare tecniche e comandi nuovi."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}Le "Pietre dello {1F29}out" sono indicate sulla mappa da icone azzurre."
@@ -1368,10 +1368,10 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha imparato "Teletrasporto"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un attimo in qualsiasi area già visitata."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un attimo in qualsiasi area{WAIT}{CLEAR}già visitata."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Fatte salve poche eccezioni, può essere utilizzata ovunque... Persino nelle grotte!"
+SAY "{COLOR=2}Fatte salve poche eccezioni, può essere utilizzata ovunque... Persino nelle{WAIT}{CLEAR}grotte!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1391,7 +1391,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha imparato "{1F36}arizione"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa tecnica permette a {NAME} di passare sotto il naso dei nemici senza farsi notare."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di passare sotto il naso dei nemici senza{WAIT}{CLEAR}farsi notare."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1408,7 +1408,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} può ora usare "Guarisci tutti"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Quest'incantesimo di guarigione permette a {NAME} di curare tutti i membri della squadra."
+SAY "{COLOR=2}Quest'incantesimo di guarigione permette a {NAME} di curare tutti i{WAIT}{CLEAR}membri della squadra."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1431,7 +1431,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha imparato "{1F2B}gugio"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa tecnica permette a {NAME} di scoprire quanti tesori sono nascosti nelle vicinanze."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di scoprire quanti tesori sono nascosti{WAIT}{CLEAR}nelle vicinanze."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1448,13 +1448,13 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha imparato "Velotrans"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un istante al più vicino portale Velotrans."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un istante al più vicino{WAIT}{CLEAR}portale Velotrans."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}La tecnica funzionerà solo se il portale è già aperto."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Quindi, è bene che {NAME} esamini subito i portali Velotrans situati sull'isola."
+SAY "{COLOR=2}Quindi, è bene che {NAME} esamini subito i portali Velotrans situati{WAIT}{CLEAR}sull'isola."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1475,7 +1475,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha ottenuto "Curamostri"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa bevanda fa recuperare PV e PM a tutti i membri della squadra di {NAME}."
+SAY "{COLOR=2}Questa bevanda fa recuperare PV e PM a tutti i membri della squadra di {NAME}{WAIT}{CLEAR}."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}La bottiglia contiene tre dosi e può essere riempita di nuovo tornando alla nave."
@@ -3466,13 +3466,13 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x40c00000
 JMP_IFNOT 0xc L_d3a0
 L_d248:
 SYS_42 0x8 
-SAY "{VOICE=07}Sei tu il guerriero portato da Tiko?{BREAK}A cosa pensava quando ha scelto un umano?"
+SAY "{VOICE=07}Sei tu il guerriero portato da Tiko? A cosa pensava quando ha scelto un{WAIT}{CLEAR}umano?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Non riesco proprio a immaginarti come il{BREAK}guerriero che ha sconfitto quei mostri giganti."
+SAY "{VOICE=07}Non riesco proprio a immaginarti come il guerriero che ha sconfitto quei mostri{WAIT}{CLEAR}giganti."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Cosa? Non sei un guerriero, ma uno{BREAK}Scout? Cosa? Non ne ho mai sentito parlare."
+SAY "{VOICE=07}Cosa? Non sei un guerriero, ma uno Scout? Cosa? Non ne ho mai sentito{WAIT}{CLEAR}parlare."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3517,10 +3517,10 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x41d00000
 JMP_IFNOT 0xc L_d63c
 L_d568:
 SYS_42 0x8 
-SAY "{VOICE=08}Uff, pant. Mi si annebbia la vista,{BREAK}e non riesco a respirare..."
+SAY "{VOICE=08}Uff, pant. Mi si annebbia la vista, e non riesco a respirare..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Scompariremo davvero se{BREAK}nessuno sconfigge l'Ospite indesiderato..."
+SAY "{VOICE=08}Scompariremo davvero se nessuno sconfigge l'Ospite indesiderato..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3529,10 +3529,10 @@ L_d63c:
 CMP_EQ 0x18 0x0 0x42a60000 0x2 0x41e00000
 JMP_IFNOT 0xc L_d730
 SYS_42 0x8 
-SAY "{VOICE=07}Grazie, {NAME}!{BREAK}Sei l'eroe dell'isola Pipit!"
+SAY "{VOICE=07}Grazie, {NAME}! Sei l'eroe dell'isola Pipit!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I Monster Scout sono forti!{BREAK}Scommetto che ora andranno di moda!"
+SAY "{VOICE=07}I Monster Scout sono forti! Scommetto che ora andranno di moda!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3541,13 +3541,13 @@ L_d730:
 CMP_EQ 0x18 0x0 0x42a60000 0x2 0x41e80000
 JMP_IFNOT 0xc L_d890
 SYS_42 0x8 
-SAY "{VOICE=07}Il monumento che hai usato quando{BREAK}sei arrivato qui è stato costruito dagli umani antichi."
+SAY "{VOICE=07}Il monumento che hai usato quando sei arrivato qui è stato costruito dagli umani{WAIT}{CLEAR}antichi."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Credevano che questo fosse{BREAK}il mondo degli dèi."
+SAY "{VOICE=07}Credevano che questo fosse il mondo degli dèi."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Si apriva solo per colui che{BREAK}aveva sconfitto i 6 mostri giganti."
+SAY "{VOICE=07}Si apriva solo per colui che aveva sconfitto i 6 mostri giganti."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3584,17 +3584,17 @@ STORE 0x18 0x0 0x42be0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42be0000 0x2 0x0
 JMP_IFNOT 0xc L_dd10
 SYS_42 0x8 
-SAY "{VOICE=08}Sei un cliente, per caso?{BREAK}{VOICE=09}"
+SAY "{VOICE=08}Sei un cliente, per caso? {VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42c00000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42c00000 0x2 0x0
 JMP_IFNOT 0xc L_dc7c
-SAY "{VOICE=08}Per fortuna. Pensavo che il{BREAK}negozio fosse ormai spacciato."
+SAY "{VOICE=08}Per fortuna. Pensavo che il negozio fosse ormai spacciato."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Dovrebbero esserci oggetti che{BREAK}non hai mai visto prima, quindi fai con calma."
+SAY "{VOICE=08}Dovrebbero esserci oggetti che non hai mai visto prima, quindi fai con calma."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3617,7 +3617,7 @@ JMP_REL L_dc84
 L_dc84:
 JMP_ABS 0xc L_dc90
 L_dc90:
-SAY "{VOICE=08}Sigh... In momenti come questo{BREAK}la gente non riesce proprio a fare acquisti."
+SAY "{VOICE=08}Sigh... In momenti come questo la gente non riesce proprio a fare acquisti."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3630,7 +3630,7 @@ L_dd18:
 JMP_ABS 0xc L_dd24
 L_dd24:
 SYS_42 0x8 
-SAY "{VOICE=08}Benvenuto!{BREAK}Fai pure con calma."
+SAY "{VOICE=08}Benvenuto! Fai pure con calma."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3661,10 +3661,10 @@ SYS_42 0x8
 SAY "{VOICE=08}Benvenuto!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Vendo la leggendaria ricetta{BREAK}medicinale di Pipit che mi ha insegnato l'anziano."
+SAY "{VOICE=08}Vendo la leggendaria ricetta medicinale di Pipit che mi ha insegnato l'anziano."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Costa un bel po', ma sarà utile{BREAK}per i mostri forti che affronterai."
+SAY "{VOICE=08}Costa un bel po', ma sarà utile per i mostri forti che affronterai."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3691,7 +3691,7 @@ L_e114:
 JMP_ABS 0xc L_e120
 L_e120:
 SYS_42 0x8 
-SAY "{VOICE=08}Benvenuto!{BREAK}Fai pure con calma."
+SAY "{VOICE=08}Benvenuto! Fai pure con calma."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3938,7 +3938,7 @@ SYS_49 0x8
 CMP_EQ 0x18 0x0 0x42f20000 0x2 0x40000000
 JMP_IFNOT 0xc L_ebb4
 SYS_42 0x8 
-SAY "{VOICE=08}Grazie mille.{BREAK}Torna presto!"
+SAY "{VOICE=08}Grazie mille. Torna presto!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

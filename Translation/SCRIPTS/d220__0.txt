@@ -117,7 +117,7 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41600000
 SYS_42 0x8 
 SETNAME "Arbitro"
-SAY "{VOICE=07}Partiamo con la rivelazione di quest'edizione della sfida...!{WAIT}{CLEAR}Fino a poco fa era meno di un mozzo, e ora lotta per il titolo... {NAME}!"
+SAY "{VOICE=07}Partiamo con la rivelazione di quest'edizione della sfida...! Fino a{WAIT}{CLEAR}poco fa era meno di un mozzo, e ora lotta per il titolo... {NAME}!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -192,7 +192,7 @@ SAY "{VOICE=08}Facevi parte dell'equipaggio della nave che era scomparsa misteri
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}Ma lo sai che avrei dovuto imbarcarmi su quel rottame?! Per fortuna {WAIT}{CLEAR}cambiai idea, altrimenti {BREAK}chissà che fine avrei fatto!"
+SAY "{VOICE=08}Ma lo sai che avrei dovuto imbarcarmi su quel rottame?!{WAIT}{CLEAR}Per fortuna cambiai idea, altrimenti chissà che fine avrei fatto!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
@@ -237,7 +237,7 @@ SAY "{VOICE=07}È vietato effettuare sostituzioni, fuggire, reclutare mostri e u
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Arbitro"
-SAY "{VOICE=07}Bene! È il momento della finalissima! {BREAK}Tra breve scopriremo a chi andrà la vittoria!"
+SAY "{VOICE=07}Bene! È il momento della finalissima! Tra breve scopriremo a chi andrà la vittoria!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

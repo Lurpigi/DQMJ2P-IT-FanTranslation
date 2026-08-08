@@ -1339,7 +1339,7 @@ SYS_42 0x8
 SAY "{COLOR=2}La curiosità può uccidere i gatti, ma non gli {1F29}out!{WAIT}{CLEAR}Esamina queste strane rocce per imparare tecniche e comandi nuovi."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Le "Pietre dello {1F29}out" sono indicate sulla mappa da icone azzurre."
+SAY "{COLOR=2}Le \"Pietre dello {1F29}out\" sono indicate sulla mappa da icone azzurre."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1372,7 +1372,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha imparato \"Teletrasporto\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un attimo in qualsiasi area già visitata."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un attimo in qualsiasi area{WAIT}{CLEAR}già visitata."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}Fatte salve poche eccezioni, può essere utilizzata ovunque... Persino nelle grotte!"
@@ -1395,7 +1395,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha imparato \"{1F36}arizione\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa tecnica permette a {NAME} di passare sotto il naso dei nemici senza farsi notare."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di passare sotto il naso dei nemici senza{WAIT}{CLEAR}farsi notare."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1412,7 +1412,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} può ora usare \"Guarisci tutti\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Quest'incantesimo di guarigione permette a {NAME} di curare tutti i membri della squadra."
+SAY "{COLOR=2}Quest'incantesimo di guarigione permette a {NAME} di curare tutti i{WAIT}{CLEAR}membri della squadra."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1435,7 +1435,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha imparato \"{1F2B}gugio\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa tecnica permette a {NAME} di scoprire quanti tesori sono nascosti nelle vicinanze."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di scoprire quanti tesori sono nascosti{WAIT}{CLEAR}nelle vicinanze."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1452,13 +1452,13 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha imparato \"Velotrans\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un istante al più vicino portale Velotrans."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un istante al più vicino{WAIT}{CLEAR}portale Velotrans."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}La tecnica funzionerà solo se il portale è già aperto."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Quindi, è bene che {NAME} esamini subito i portali Velotrans situati sull'isola."
+SAY "{COLOR=2}Quindi, è bene che {NAME} esamini subito i portali Velotrans situati{WAIT}{CLEAR}sull'isola."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1479,7 +1479,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha ottenuto \"Curamostri\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa bevanda fa recuperare PV e PM a tutti i membri della squadra di {NAME}."
+SAY "{COLOR=2}Questa bevanda fa recuperare PV e PM a tutti i membri della squadra di {NAME}{WAIT}{CLEAR}."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}La bottiglia contiene tre dosi e può essere riempita di nuovo tornando alla nave."
@@ -4781,7 +4781,7 @@ SAY "{COLOR=2}È una lunga lista di nomi di mostri..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 L_12b04:
-SAY "{COLOR=2}Vuoi rivivere le vittorie del Monster Scout Challenge...{WAIT}{CLEAR}...e vedere i nomi dei mostri incontrati da {NAME}?{VOICE=09}"
+SAY "{COLOR=2}Vuoi rivivere le vittorie del Monster Scout Challenge... ...e vedere i nomi dei mostri{WAIT}{CLEAR}incontrati da {NAME}?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -4936,10 +4936,10 @@ SYS_44 0x8
 SAY "{VOICE=07}Mi sembra che sia rimasta una sola creatura. Avanti, portala con te..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Non so a chi appartenga, ma questa è una situazione {BREAK}di emergenza. {1F35}no sicuro che il {WAIT}{CLEAR}legittimo proprietario non avrà nulla da obiettare..."
+SAY "{VOICE=07}Non so a chi appartenga, ma questa è una situazione di emergenza.{WAIT}{CLEAR}{1F35}no sicuro che il legittimo proprietario non avrà nulla da obiettare..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Forse ti serviranno ulteriori informazioni sul recinto dei mostri... In {WAIT}{CLEAR}tal caso, ti suggerisco di armeggiare un po' con quel {BREAK}marchingegno."
+SAY "{VOICE=07}Forse ti serviranno ulteriori informazioni sul recinto dei mostri...{WAIT}{CLEAR}In tal caso, ti suggerisco di armeggiare un po' con quel marchingegno."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Bleah! {1F2B}nti che puzza! {1F2B} non ti dispiace, ti aspetterò vicino alla porta..."
@@ -5235,7 +5235,7 @@ SETNAME "Doc Syntex"
 SAY "{VOICE=03}Bentrovato, {E321}{NAME}! Non sarai mica sorpreso di vedermi qui...?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Con il mio aiuto, creerai nuovi mostri che renderanno ancora più forte la tua squadra!"
+SAY "{VOICE=03}Con il mio aiuto, creerai nuovi mostri che renderanno ancora più forte la tua{WAIT}{CLEAR}squadra!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}Ma forse ti starai chiedendo: cos'è la sintesi? Te lo spiego?{VOICE=09}"
@@ -5248,7 +5248,7 @@ JMP_IFNOT 0xc L_14db0
 SAY "{VOICE=03}Ottimo! Ti schiuderò la porta che conduce nel meraviglioso mondo della sintesi!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Basta unire tra loro un mostro dotato di carica positiva e uno con carica negativa...{WAIT}{CLEAR}E il gioco è fatto! Il risultato sarà un essere più potente dei suoi "genitori"!"
+SAY "{VOICE=03}Basta unire tra loro un mostro dotato di carica positiva e uno con carica negativa...{WAIT}{CLEAR}E il gioco è fatto! Il risultato sarà un essere più potente dei suoi \"genitori\"!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}Possono partecipare alla sintesi solo i mostri di livello pari o superiore a 10."
@@ -5260,7 +5260,7 @@ SYS_44 0x8
 SAY "{VOICE=03}Le loro capacità, però, sono ereditate dal mostro ottenuto tramite la sintesi."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Inoltre, la nuova creatura riceve la metà dei Punti Abilità dei "genitori"."
+SAY "{VOICE=03}Inoltre, la nuova creatura riceve la metà dei Punti Abilità dei \"genitori\"."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}{1F35}no inclusi nel calcolo anche i Punti Abilità ancora inutilizzati."
@@ -5800,10 +5800,10 @@ SYS_44 0x8
 SAY "{VOICE=08}Ti do il benvenuto al recinto dei mostri, {NAME}."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Puoi lasciare le tue creature presso il deposito automatizzato Mondep 1200.{WAIT}{CLEAR}In alternativa, assegna i mostri alla squadra che ti seguirà nelle tue avventure."
+SAY "{VOICE=08}Puoi lasciare le tue creature presso il deposito automatizzato Mondep 1200. In{WAIT}{CLEAR}alternativa, assegna i mostri alla squadra che ti seguirà nelle tue{WAIT}{CLEAR}avventure."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Per prima cosa, seleziona "Cambia mostri" e scegli i mostri da aggiungere alla tua squadra."
+SAY "{VOICE=08}Per prima cosa, seleziona "Cambia mostri" e scegli i mostri da aggiungere{WAIT}{CLEAR}alla tua squadra."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}{1F2B} ti serve aiuto, seleziona \"Info\" sul touch screen."
@@ -6062,7 +6062,7 @@ SYS_44 0x8
 SAY "{VOICE=03}{1F35}lo i mostri di livello pari o superiore a 10 possono essere usati per la sintesi."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Manda i tuoi mostri in battaglia,{BREAK}allenali e rendili forti..."
+SAY "{VOICE=03}Manda i tuoi mostri in battaglia, allenali e rendili forti..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

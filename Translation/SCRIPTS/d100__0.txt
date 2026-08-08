@@ -169,7 +169,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43250000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Arbitro"
-SAY "{VOICE=07}{1F2F}gnore e signori...! {BREAK}Ehm... {1F2F}gnore, signori e mostri...!"
+SAY "{VOICE=07}{1F2F}gnore e signori...! Ehm... {1F2F}gnore, signori e mostri...!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -225,7 +225,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Arbitro"
-SAY "{VOICE=07}Iniziamo con il primo concorrente! Parla poco e ha la chioma folta e ribelle...{WAIT}{CLEAR}È il campione in carica! È l'intrepido, impavido, indomito... {NAME}!"
+SAY "{VOICE=07}Iniziamo con il primo concorrente! Parla poco e ha la chioma folta e ribelle... È il{WAIT}{CLEAR}campione in carica! È l'intrepido, impavido, indomito... {NAME}!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -576,7 +576,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43250000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Arbitro"
-SAY "{VOICE=07}{NAME}, il campione, si aggiudica il primo {BREAK}turno di qualificazione!"
+SAY "{VOICE=07}{NAME}, il campione, si aggiudica il primo turno di qualificazione!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -992,7 +992,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42d00000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Arbitro"
-SAY "{VOICE=07}Nei miei appunti c'è scritto che il {1F27}nguinis della prossima {WAIT}{CLEAR}concorrente... In realtà era una {BREAK}divinità...? Ma davvero?! {WAIT}{CLEAR}Eh, la vita riserva sempre tante sorprese... Ecco a voi... Lady Lidia!"
+SAY "{VOICE=07}Nei miei appunti c'è scritto che il {1F27}nguinis della prossima concorrente...{WAIT}{CLEAR}In realtà era una divinità...? Ma davvero?!{WAIT}{CLEAR}Eh, la vita riserva sempre tante sorprese... Ecco a voi... Lady Lidia!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1280,7 +1280,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43250000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Arbitro"
-SAY "{VOICE=07}{1F2F}gnore e signori...! Ehm, {BREAK}volevo dire... {1F2F}gnore, signori e mostri...!"
+SAY "{VOICE=07}{1F2F}gnore e signori...! Ehm, volevo dire... {1F2F}gnore, signori e mostri...!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1336,7 +1336,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Arbitro"
-SAY "{VOICE=07}Il primo concorrente è un ragazzo di poche parole e dalla pettinatura bizzarra...{WAIT}{CLEAR}È il campione in carica! Il fenomenale, sontuoso, immenso... {NAME}!"
+SAY "{VOICE=07}Il primo concorrente è un ragazzo di poche parole e dalla pettinatura bizzarra... È il{WAIT}{CLEAR}campione in carica! Il fenomenale, sontuoso, immenso... {NAME}!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1533,7 +1533,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Arbitro"
-SAY "{VOICE=07}Il primo concorrente è un tipo di poche parole e dai bizzarri capelli...{WAIT}{CLEAR}È il campione in carica! Il fenomenale, sontuoso, immenso... {NAME}!"
+SAY "{VOICE=07}Il primo concorrente è un tipo di poche parole e dai bizzarri capelli... È il{WAIT}{CLEAR}campione in carica! Il fenomenale, sontuoso, immenso... {NAME}!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -2179,7 +2179,7 @@ SAY "{VOICE=08}Ti schiaccerò come un pidocchio! Non te la caverai, bamboccio!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}In attesa che arrivi quel momento, cercheremo nuove belve per le nostre squadre."
+SAY "{VOICE=08}In attesa che arrivi quel momento, cercheremo nuove belve per le nostre{WAIT}{CLEAR}squadre."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
@@ -2263,11 +2263,11 @@ SAY "{VOICE=07}{E321}{NAME}, sono fiero di te! Ce l'hai fatta!{WAIT}{CLEAR}Hai c
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
-SAY "{VOICE=07}Hai lottato come un veterano. {1F2B}i riuscito a risvegliare il Combattente Divino...{WAIT}{CLEAR}Non è stato facile raggiungere la vetta, ma ce l'hai fatta!"
+SAY "{VOICE=07}Hai lottato come un veterano. {1F2B}i riuscito a risvegliare il Combattente Divino... {WAIT}{CLEAR}Non è stato facile raggiungere la vetta, ma ce l'hai fatta!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
-SAY "{VOICE=07}A nome di tutte le talpe, ti ringrazio per ciò che hai fatto per noi. {WAIT}{CLEAR}{E321}{NAME}, il campionissimo! {BREAK}\"Campionissimo\" suona bene, no?"
+SAY "{VOICE=07}A nome di tutte le talpe, ti ringrazio per ciò che hai fatto per noi.{WAIT}{CLEAR}{E321}{NAME}, il campionissimo! \"Campionissimo\" suona bene, no?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"

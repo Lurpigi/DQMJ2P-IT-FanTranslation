@@ -154,11 +154,11 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Marcus Logos"
-SAY "{VOICE=07}L'importanza storica di questa scoperta è sconvolgente...{WAIT}{CLEAR}Pensaci: un Torneo Monster Scout qui, su quest'isola sperduta!"
+SAY "{VOICE=07}L'importanza storica di questa scoperta è sconvolgente... Pensaci: un Torneo{WAIT}{CLEAR}Monster Scout qui, su quest'isola sperduta!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Marcus Logos"
-SAY "{VOICE=07}A meno che non mi sbagli di grosso, quelle talpe sanno più di quanto vogliano far credere."
+SAY "{VOICE=07}A meno che non mi sbagli di grosso, quelle talpe sanno più di quanto vogliano far{WAIT}{CLEAR}credere."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Marcus Logos"
@@ -194,11 +194,11 @@ STORE 0x18 0x1 0x3f800000 0x2 0x428c0000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Meck Nick"
-SAY "{VOICE=07}Frena un attimo, ragazzo!{WAIT}{CLEAR}Tua madre non ti ha mai detto di non fidarti di una talpa?"
+SAY "{VOICE=07}Frena un attimo, ragazzo! Tua madre non ti ha mai detto di non fidarti di una{WAIT}{CLEAR}talpa?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Meck Nick"
-SAY "{VOICE=07}Non abbiamo tempo da perdere a rotolarci nella terra con un branco di talpe.{WAIT}{CLEAR}Ci sono passeggeri da salvare, zuccone!"
+SAY "{VOICE=07}Non abbiamo tempo da perdere a rotolarci nella terra con un branco di talpe. Ci{WAIT}{CLEAR}sono passeggeri da salvare, zuccone!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -218,7 +218,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42c20000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Jim Jenius"
-SAY "{VOICE=03}Signori! Un po' di decoro, per favore! {WAIT}{CLEAR}Entrambi avete sollevato questioni importanti..."
+SAY "{VOICE=03}Signori! Un po' di decoro, per favore! Entrambi avete sollevato questioni{WAIT}{CLEAR}importanti..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Jim Jenius"
@@ -244,7 +244,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0xc1f00000
 SYS_101 0x8 
 SYS_42 0x8 
 SETNAME "Jim Jenius"
-SAY "{VOICE=03}Mi ritirerò per la notte.{BREAK}Ti consiglio di fare lo stesso..."
+SAY "{VOICE=03}Mi ritirerò per la notte. Ti consiglio di fare lo stesso..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

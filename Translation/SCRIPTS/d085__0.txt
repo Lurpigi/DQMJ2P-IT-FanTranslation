@@ -55,7 +55,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
 SETNAME "Mynos il Vecchio"
-SAY "{VOICE=03}Ma com'è possibile?! Quel piccolo Sanguinis..."
+SAY "{VOICE=03}Ma com'è possibile?! Quel piccolo {1F27}nguinis..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SPAWN 0x10 L_11fc
@@ -141,17 +141,17 @@ SPAWN 0x10 L_1418
 DATA 0x00000004
 WAIT 0x10 0x2 0x41f00000
 SETNAME "Mynos il Vecchio"
-SAY "{VOICE=03}Solo dopo che la Grande Creatura si sarà inchinata di fronte alla tua forza..."
+SAY "{VOICE=03}{1F35}lo dopo che la Grande Creatura si sarà inchinata di fronte alla tua forza..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41f00000
 SETNAME "Mynos il Vecchio"
-SAY "{VOICE=03}Solo allora i misteri di quest'isola verranno svelati!"
+SAY "{VOICE=03}{1F35}lo allora i misteri di quest'isola verranno svelati!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41f00000
 SETNAME "Mynos il Vecchio"
-SAY "{VOICE=03}Tu sei la nostra unica speranza, {NAME}.{WAIT}{CLEAR}Sei l'ultima carta che possiamo giocare in questa drammatica partita.{BREAK}Non deluderci."
+SAY "{VOICE=03}Tu sei la nostra unica speranza, {NAME}.{WAIT}{CLEAR}{1F2B}i l'ultima carta che possiamo giocare in questa drammatica partita. Non deluderci."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x3f800000
 STORE 0x18 0x1 0x0 0x2 0x433a0000

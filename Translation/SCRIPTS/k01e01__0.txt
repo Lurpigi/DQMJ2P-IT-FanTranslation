@@ -1350,7 +1350,7 @@ SYS_42 0x8
 SAY "{COLOR=2}La curiosità può uccidere i gatti, ma non gli {1F29}out!{WAIT}{CLEAR}Esamina queste strane rocce per imparare tecniche e comandi nuovi."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Le "Pietre dello {1F29}out" sono indicate sulla mappa da icone azzurre."
+SAY "{COLOR=2}Le \"Pietre dello {1F29}out\" sono indicate sulla mappa da icone azzurre."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1383,7 +1383,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha imparato \"Teletrasporto\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un attimo in qualsiasi area già visitata."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un attimo in qualsiasi area{WAIT}{CLEAR}già visitata."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}Fatte salve poche eccezioni, può essere utilizzata ovunque... Persino nelle grotte!"
@@ -1406,7 +1406,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha imparato \"{1F36}arizione\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa tecnica permette a {NAME} di passare sotto il naso dei nemici senza farsi notare."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di passare sotto il naso dei nemici senza{WAIT}{CLEAR}farsi notare."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1423,7 +1423,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} può ora usare \"Guarisci tutti\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Quest'incantesimo di guarigione permette a {NAME} di curare tutti i membri della squadra."
+SAY "{COLOR=2}Quest'incantesimo di guarigione permette a {NAME} di curare tutti i{WAIT}{CLEAR}membri della squadra."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1446,7 +1446,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha imparato \"{1F2B}gugio\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa tecnica permette a {NAME} di scoprire quanti tesori sono nascosti nelle vicinanze."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di scoprire quanti tesori sono nascosti{WAIT}{CLEAR}nelle vicinanze."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1463,13 +1463,13 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha imparato \"Velotrans\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un istante al più vicino portale Velotrans."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un istante al più vicino{WAIT}{CLEAR}portale Velotrans."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}La tecnica funzionerà solo se il portale è già aperto."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Quindi, è bene che {NAME} esamini subito i portali Velotrans situati sull'isola."
+SAY "{COLOR=2}Quindi, è bene che {NAME} esamini subito i portali Velotrans situati{WAIT}{CLEAR}sull'isola."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1490,7 +1490,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha ottenuto \"Curamostri\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa bevanda fa recuperare PV e PM a tutti i membri della squadra di {NAME}."
+SAY "{COLOR=2}Questa bevanda fa recuperare PV e PM a tutti i membri della squadra di {NAME}{WAIT}{CLEAR}."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}La bottiglia contiene tre dosi e può essere riempita di nuovo tornando alla nave."
@@ -5688,7 +5688,7 @@ SETNAME "Meck Nick"
 SAY "{VOICE=07}Ragazzo, sei pronto a combattere? In quest'area troverai moltissimi {1F32}ime..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Quando vuoi menare le mani, non devi fare altro che avvicinarti a un mostro.{WAIT}{CLEAR}Non sottovalutare i rivali! Gli slime sono carini, ma possono far male!"
+SAY "{VOICE=07}Quando vuoi menare le mani, non devi fare altro che avvicinarti a un mostro.{WAIT}{CLEAR}Non sottovalutare i rivali! Gli {1F32}ime sono carini, ma possono far male!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5702,7 +5702,7 @@ SYS_44 0x8
 SAY "{COLOR=2}Puoi salvare la posizione quando vuoi, tranne che in certi eventi della storia."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Per salvare, accedi al menu premendo il pulsante X e scegli \"Salva\"."
+SAY "{COLOR=2}Per salvare, accedi al menu premendo il pulsante X e scegli \"{1F27}lva\"."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5718,7 +5718,7 @@ SETNAME "Meck Nick"
 SAY "{VOICE=07}Perfetto! Così si fa! {1F3B}, prova ancora..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Ora sai come si combatte, ma forse non sei in {BREAK}grado di arruolare i mostri. {1F2B} non lo avessi {WAIT}{CLEAR}capito, sto parlando dell'operazione di \"reclutamento\"..."
+SAY "{VOICE=07}Ora sai come si combatte, ma forse non sei in grado di arruolare i mostri.{WAIT}{CLEAR}{1F2B} non lo avessi capito, sto parlando dell'operazione di \"reclutamento\"..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Non puoi dire di essere un vero {1F29}out se non sai reclutare i mostri."
@@ -5733,7 +5733,7 @@ SYS_44 0x8
 SAY "{VOICE=07}{1F2B} le cose andranno bene, il nemico passerà dalla tua parte."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Non sempre il reclutamento riuscirà subito: {BREAK}a volte dovrai ripeterlo più volte."
+SAY "{VOICE=07}Non sempre il reclutamento riuscirà subito: a volte dovrai ripeterlo più volte."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Ti è tutto chiaro, ragazzo? Forza! Vai e mostra a quelle belve cosa sai fare!"
@@ -5809,7 +5809,7 @@ SETNAME "Meck Nick"
 SAY "{VOICE=07}Non ci siamo... Il nemico ha avuto la meglio su di te."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Ricorda di tornare alla nave quando hai bisogno di rimettere in forze la tua squadra."
+SAY "{VOICE=07}Ricorda di tornare alla nave quando hai bisogno di rimettere in forze la tua{WAIT}{CLEAR}squadra."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6090,7 +6090,7 @@ SETNAME "Meck Nick"
 SAY "{VOICE=07}Ragazzo, sei pronto a combattere? In quest'area troverai moltissimi {1F32}ime..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Quando vuoi menare le mani, non devi fare altro che avvicinarti a un mostro.{WAIT}{CLEAR}Non sottovalutare i rivali! Gli slime sono carini, ma possono far male!"
+SAY "{VOICE=07}Quando vuoi menare le mani, non devi fare altro che avvicinarti a un mostro.{WAIT}{CLEAR}Non sottovalutare i rivali! Gli {1F32}ime sono carini, ma possono far male!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6100,7 +6100,7 @@ CMP_EQ 0x18 0x0 0x43110000 0x2 0x41500000
 JMP_IFNOT 0xc L_17a64
 SYS_42 0x8 
 SETNAME "Meck Nick"
-SAY "{VOICE=07}Ora sai come si combatte, ma forse non sei in {BREAK}grado di arruolare i mostri. {1F2B} non lo avessi {WAIT}{CLEAR}capito, sto parlando dell'operazione di \"reclutamento\"..."
+SAY "{VOICE=07}Ora sai come si combatte, ma forse non sei in grado di arruolare i mostri.{WAIT}{CLEAR}{1F2B} non lo avessi capito, sto parlando dell'operazione di \"reclutamento\"..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Non puoi dire di essere un vero {1F29}out se non sai reclutare i mostri."
@@ -6109,7 +6109,7 @@ SYS_44 0x8
 SAY "{VOICE=07}Durante lo scontro, seleziona prima \"Recluta\" e poi il mostro che desideri."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Non sempre il reclutamento riuscirà subito: {BREAK}a volte dovrai ripeterlo più volte."
+SAY "{VOICE=07}Non sempre il reclutamento riuscirà subito: a volte dovrai ripeterlo più volte."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6161,10 +6161,10 @@ CMP_EQ 0x18 0x0 0x43100000 0x2 0x41100000
 JMP_IFNOT 0xc L_17e94
 SYS_42 0x8 
 SETNAME "Jim Jenius"
-SAY "{VOICE=03}{1F2F}amo tutti sani e salvi! {1F2F} {BREAK}vede che lassù qualcuno ci ama..."
+SAY "{VOICE=03}{1F2F}amo tutti sani e salvi! {1F2F} vede che lassù qualcuno ci ama..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Beh, il cielo ci ha dato una mano, ma {BREAK}senza di te saremmo nei guai! Grazie."
+SAY "{VOICE=03}Beh, il cielo ci ha dato una mano, ma senza di te saremmo nei guai! Grazie."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6248,7 +6248,7 @@ JMP_ABS 0xc L_183a8
 L_183a8:
 SYS_42 0x8 
 SETNAME "Infantus"
-SAY "{VOICE=08}Squark?"
+SAY "{VOICE=08}{1F37}uark?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

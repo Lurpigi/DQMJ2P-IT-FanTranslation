@@ -18,7 +18,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Non abbiamo tempo per riposare!{BREAK}Eccolo che arriva!"
+SAY "{VOICE=07}Non abbiamo tempo per riposare! Eccolo che arriva!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

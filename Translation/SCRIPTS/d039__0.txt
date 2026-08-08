@@ -128,7 +128,7 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Lady Lidia"
-SAY "{VOICE=08}Oh, quella legna sembra proprio perfetta.{BREAK}Un po' di calore mi farebbe bene."
+SAY "{VOICE=08}Oh, quella legna sembra proprio perfetta. Un po' di calore mi farebbe bene."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -244,7 +244,7 @@ STORE 0x18 0x0 0x41000000 0x2 0x3f800000
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Lady Lidia"
-SAY "{VOICE=08}Tu, laggiù! Giovane! Questo è il mio falò e tu ne stai approfittando. {WAIT}{CLEAR}Costruiscitene uno tuo!"
+SAY "{VOICE=08}Tu, laggiù! Giovane! Questo è il mio falò e tu ne stai approfittando. Costruiscitene{WAIT}{CLEAR}uno tuo!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

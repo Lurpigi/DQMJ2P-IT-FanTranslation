@@ -81,7 +81,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41d80000
 SYS_18 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}{E321}{NAME} ha sconfitto Empyrea,{BREAK}l'Imperatrice dei Cieli!"
+SAY "{COLOR=2}{E321}{NAME} ha sconfitto Empyrea, l'Imperatrice dei Cieli!"
 WAIT 0x10 0x2 0x3f800000
 STORE 0x18 0x1 0x0 0x2 0x42780000
 SYS_A5 0x8 
@@ -125,11 +125,11 @@ SAY "{VOICE=08}Ora so perché la Grande Creatura ti ha ritenuto degno di ricever
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Empyrea"
-SAY "{VOICE=08}Tuttavia, se vuoi che mi unisca a te,{BREAK}devi riuscire a reclutarmi..."
+SAY "{VOICE=08}Tuttavia, se vuoi che mi unisca a te, devi riuscire a reclutarmi..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Empyrea"
-SAY "{VOICE=08}Torna quando sarai diventato più forte.{BREAK}Ti aspetterò..."
+SAY "{VOICE=08}Torna quando sarai diventato più forte. Ti aspetterò..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -240,7 +240,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41d80000
 SYS_18 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}{E321}{NAME} ha sconfitto Empyrea,{BREAK}l'Imperatrice dei Cieli!"
+SAY "{COLOR=2}{E321}{NAME} ha sconfitto Empyrea, l'Imperatrice dei Cieli!"
 WAIT 0x10 0x2 0x3f800000
 STORE 0x18 0x1 0x0 0x2 0x42780000
 SYS_A5 0x8 
@@ -284,11 +284,11 @@ SAY "{VOICE=08}Ora so perché la Grande Creatura ti ha ritenuto degno di ricever
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Empyrea"
-SAY "{VOICE=08}Tuttavia, se vuoi che mi unisca a te,{BREAK}devi riuscire a reclutarmi..."
+SAY "{VOICE=08}Tuttavia, se vuoi che mi unisca a te, devi riuscire a reclutarmi..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Empyrea"
-SAY "{VOICE=08}Torna quando sarai diventato più forte.{BREAK}Ti aspetterò..."
+SAY "{VOICE=08}Torna quando sarai diventato più forte. Ti aspetterò..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -441,7 +441,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
 SETNAME "Empyrea"
-SAY "{VOICE=08}Hai dimostrato di essere uno Scout di immenso valore."
+SAY "{VOICE=08}Hai dimostrato di essere uno {1F29}out di immenso valore."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Empyrea"
@@ -526,7 +526,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
 SETNAME "Empyrea"
-SAY "{VOICE=08}Hai dimostrato di essere uno Scout di immenso valore."
+SAY "{VOICE=08}Hai dimostrato di essere uno {1F29}out di immenso valore."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Empyrea"
@@ -586,7 +586,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41d80000
 SYS_18 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} ha sconfitto Empyrea,{BREAK}l'Imperatrice dei Cieli!"
+SAY "{COLOR=2}{NAME} ha sconfitto Empyrea, l'Imperatrice dei Cieli!"
 WAIT 0x10 0x2 0x3f800000
 STORE 0x18 0x1 0x0 0x2 0x42780000
 SYS_A5 0x8 
@@ -619,11 +619,11 @@ SAY "{VOICE=08}Ora so perché la Grande Creatura ti ha ritenuto degno di ricever
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Empyrea"
-SAY "{VOICE=08}Tuttavia, se vuoi che mi unisca a te,{BREAK}devi riuscire a reclutarmi..."
+SAY "{VOICE=08}Tuttavia, se vuoi che mi unisca a te, devi riuscire a reclutarmi..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Empyrea"
-SAY "{VOICE=08}Torna quando sarai diventato più forte.{BREAK}Ti aspetterò..."
+SAY "{VOICE=08}Torna quando sarai diventato più forte. Ti aspetterò..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -734,7 +734,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41d80000
 SYS_18 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} ha sconfitto Empyrea,{BREAK}l'Imperatrice dei Cieli!"
+SAY "{COLOR=2}{NAME} ha sconfitto Empyrea, l'Imperatrice dei Cieli!"
 WAIT 0x10 0x2 0x3f800000
 STORE 0x18 0x1 0x0 0x2 0x42780000
 SYS_A5 0x8 
@@ -767,11 +767,11 @@ SAY "{VOICE=08}Ora so perché la Grande Creatura ti ha ritenuto degno di ricever
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Empyrea"
-SAY "{VOICE=08}Tuttavia, se vuoi che mi unisca a te,{BREAK}devi riuscire a reclutarmi..."
+SAY "{VOICE=08}Tuttavia, se vuoi che mi unisca a te, devi riuscire a reclutarmi..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Empyrea"
-SAY "{VOICE=08}Torna quando sarai diventato più forte.{BREAK}Ti aspetterò..."
+SAY "{VOICE=08}Torna quando sarai diventato più forte. Ti aspetterò..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -913,7 +913,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
 SETNAME "Empyrea"
-SAY "{VOICE=08}Hai dimostrato di essere uno Scout di immenso valore."
+SAY "{VOICE=08}Hai dimostrato di essere uno {1F29}out di immenso valore."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Empyrea"
@@ -987,7 +987,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
 SETNAME "Empyrea"
-SAY "{VOICE=08}Hai dimostrato di essere uno Scout di immenso valore."
+SAY "{VOICE=08}Hai dimostrato di essere uno {1F29}out di immenso valore."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Empyrea"

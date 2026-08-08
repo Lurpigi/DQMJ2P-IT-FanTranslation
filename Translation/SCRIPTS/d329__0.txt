@@ -46,11 +46,11 @@ DATA 0x00000001
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Baboorood"
-SAY "{VOICE=03}Ehe ehe ehe. Come può un semplice umano{BREAK}sfidarmi?"
+SAY "{VOICE=03}Ehe ehe ehe. Come può un semplice umano sfidarmi?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Baboorood"
-SAY "{VOICE=03}Devi essere pazzo a pensare che un insetto{BREAK}come te possa affrontarmi."
+SAY "{VOICE=03}Devi essere pazzo a pensare che un insetto come te possa affrontarmi."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x41a80000
@@ -60,7 +60,7 @@ STORE 0x18 0x1 0x0 0x2 0x41a80000
 STORE 0x18 0x1 0x3f800000 0x2 0x41000000
 SYS_17 0x8 
 SETNAME "Baboorood"
-SAY "{VOICE=03}Ti inchinerai davanti ai miei contrattacchi{BREAK}e ti abbandonerai alla disperazione!"
+SAY "{VOICE=03}Ti inchinerai davanti ai miei contrattacchi e ti abbandonerai alla disperazione!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

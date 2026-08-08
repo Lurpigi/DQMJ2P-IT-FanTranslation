@@ -137,7 +137,7 @@ SAY "{VOICE=03}Ho una cattiva notizia... Capitan Alex è rimasto gravemente feri
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Jim Jenius"
-SAY "{VOICE=03}Finché resteremo su quest'isola, non possiamo far nulla per aiutarlo...{WAIT}{CLEAR}L'unica soluzione è tornare a casa, il più in fretta possibile!"
+SAY "{VOICE=03}Finché resteremo su quest'isola, non possiamo far nulla per aiutarlo... L'unica{WAIT}{CLEAR}soluzione è tornare a casa, il più in fretta possibile!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -173,7 +173,7 @@ WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Meck Nick"
-SAY "{VOICE=07}Ehm, ecco... Diciamo che non procedono per niente...{BREAK}Quasi quasi mi converrebbe costruire una nuova volonave...{WAIT}{CLEAR}"
+SAY "{VOICE=07}Ehm, ecco... Diciamo che non procedono per niente...{WAIT}{CLEAR}Quasi quasi mi converrebbe costruire una nuova volonave..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -233,7 +233,7 @@ WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x42a00000
 SYS_42 0x8 
 SETNAME "Marcus Logos"
-SAY "{VOICE=07}Se mi è permesso, vorrei esprimere il mio punto di vista..."
+SAY "{VOICE=07}{1F2B} mi è permesso, vorrei esprimere il mio punto di vista..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -304,7 +304,7 @@ SYS_44 0x8
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x42480000
 SETNAME "Marcus Logos"
-SAY "{VOICE=07}Empyrea ci ha detto di aver fiducia nelle forze del fato.{WAIT}{CLEAR}Secondo me, dobbiamo mettere il nostro destino{BREAK}nelle mani di {NAME}."
+SAY "{VOICE=07}Empyrea ci ha detto di aver fiducia nelle forze del fato.{WAIT}{CLEAR}{1F2B}condo me, dobbiamo mettere il nostro destino nelle mani di {NAME}."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -366,7 +366,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x428c0000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Meck Nick"
-SAY "{VOICE=07}Capitan Alex! Sei vivo!"
+SAY "{VOICE=07}Capitan Alex! {1F2B}i vivo!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -453,14 +453,14 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Capitan Alex"
-SAY "{VOICE=07}Ci vuole ben altro... che un graffietto{BREAK}... per mettere fuori uso... Capitan Alex!{WAIT}{CLEAR}E ora ascoltami, pivello..."
+SAY "{VOICE=07}Ci vuole ben altro... che un graffietto ... per mettere fuori uso... Capitan Alex! E{WAIT}{CLEAR}ora ascoltami, pivello..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Capitan Alex"
-SAY "{VOICE=07}Quando l'Albatros è precipitato sono finito in mare...{BREAK}Ho nuotato a lungo e sono riuscito a raggiungere la costa...{WAIT}{CLEAR}"
+SAY "{VOICE=07}Quando l'Albatros è precipitato sono finito in mare...{WAIT}{CLEAR}Ho nuotato a lungo e sono riuscito a raggiungere la costa..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Capitan Alex"
@@ -518,11 +518,11 @@ STORE 0x18 0x1 0x0 0x2 0x42a20000
 SYS_14 0x8 
 SYS_42 0x8 
 SETNAME "Capitan Alex"
-SAY "{VOICE=07}Pivello, ormai sei un veterano...{BREAK}Non avrai problemi a raggiungere la costa."
+SAY "{VOICE=07}Pivello, ormai sei un veterano... Non avrai problemi a raggiungere la costa."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Capitan Alex"
-SAY "{VOICE=07}Se Empyrea non può farci volare via, proveremo a lasciare l'isola via mare..."
+SAY "{VOICE=07}{1F2B} Empyrea non può farci volare via, proveremo a lasciare l'isola via mare..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -550,7 +550,7 @@ STORE 0x18 0x1 0x0 0x2 0x42780000
 SYS_A5 0x8 
 WAIT 0x10 0x2 0x42340000
 WAIT 0x10 0x2 0x41200000
-SAY "{COLOR=2}Sulla mappa principale è ora riportata la nuova area."
+SAY "{COLOR=2}{1F3B}lla mappa principale è ora riportata la nuova area."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

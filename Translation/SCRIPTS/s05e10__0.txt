@@ -1339,7 +1339,7 @@ SYS_42 0x8
 SAY "{COLOR=2}La curiosità può uccidere i gatti, ma non gli {1F29}out!{WAIT}{CLEAR}Esamina queste strane rocce per imparare tecniche e comandi nuovi."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Le "Pietre dello {1F29}out" sono indicate sulla mappa da icone azzurre."
+SAY "{COLOR=2}Le \"Pietre dello {1F29}out\" sono indicate sulla mappa da icone azzurre."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1372,7 +1372,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha imparato \"Teletrasporto\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un attimo in qualsiasi area già visitata."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un attimo in qualsiasi area{WAIT}{CLEAR}già visitata."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}Fatte salve poche eccezioni, può essere utilizzata ovunque... Persino nelle grotte!"
@@ -1395,7 +1395,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha imparato \"{1F36}arizione\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa tecnica permette a {NAME} di passare sotto il naso dei nemici senza farsi notare."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di passare sotto il naso dei nemici senza{WAIT}{CLEAR}farsi notare."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1412,7 +1412,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} può ora usare \"Guarisci tutti\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Quest'incantesimo di guarigione permette a {NAME} di curare tutti i membri della squadra."
+SAY "{COLOR=2}Quest'incantesimo di guarigione permette a {NAME} di curare tutti i{WAIT}{CLEAR}membri della squadra."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1435,7 +1435,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha imparato \"{1F2B}gugio\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa tecnica permette a {NAME} di scoprire quanti tesori sono nascosti nelle vicinanze."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di scoprire quanti tesori sono nascosti{WAIT}{CLEAR}nelle vicinanze."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1452,13 +1452,13 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha imparato \"Velotrans\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un istante al più vicino portale Velotrans."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un istante al più vicino{WAIT}{CLEAR}portale Velotrans."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}La tecnica funzionerà solo se il portale è già aperto."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Quindi, è bene che {NAME} esamini subito i portali Velotrans situati sull'isola."
+SAY "{COLOR=2}Quindi, è bene che {NAME} esamini subito i portali Velotrans situati{WAIT}{CLEAR}sull'isola."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1479,7 +1479,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha ottenuto \"Curamostri\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa bevanda fa recuperare PV e PM a tutti i membri della squadra di {NAME}."
+SAY "{COLOR=2}Questa bevanda fa recuperare PV e PM a tutti i membri della squadra di {NAME}{WAIT}{CLEAR}."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}La bottiglia contiene tre dosi e può essere riempita di nuovo tornando alla nave."
@@ -4098,13 +4098,13 @@ SYS_02 0x8
 SYS_03 0x8 
 SYS_42 0x8 
 SETNAME "Estark"
-SAY "{VOICE=07}Il mio nome è Estark. {BREAK}E... non ricordo altro..."
+SAY "{VOICE=07}Il mio nome è Estark. E... non ricordo altro..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}{1F35}no una creatura buona o un {BREAK}essere malvagio...? Non lo so."
+SAY "{VOICE=07}{1F35}no una creatura buona o un essere malvagio...? Non lo so."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Perché sei qui? {BREAK}{1F2B}i venuto per uccidermi?{VOICE=09}"
+SAY "{VOICE=07}Perché sei qui? {1F2B}i venuto per uccidermi?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -4147,7 +4147,7 @@ SYS_7A 0x8
 STORE 0x18 0x0 0x42c80000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42c80000 0x2 0x0
 JMP_IFNOT 0xc L_fed0
-SAY "{VOICE=07}{1F2B} è questo ciò che vuoi, dovrai {BREAK}dimostrarti all'altezza delle tue ambizioni."
+SAY "{VOICE=07}{1F2B} è questo ciò che vuoi, dovrai dimostrarti all'altezza delle tue ambizioni."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Potrei annientarti in una frazione di secondo...{WAIT}{CLEAR}Ma non voglio negarti il piacere di mostrarti tutta la mia spaventosa potenza!"
@@ -4250,13 +4250,13 @@ SYS_02 0x8
 SYS_03 0x8 
 SYS_42 0x8 
 SETNAME "Estark"
-SAY "{VOICE=07}Il mio nome è Estark. {BREAK}E... non ricordo altro..."
+SAY "{VOICE=07}Il mio nome è Estark. E... non ricordo altro..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}{1F35}no una creatura buona o un {BREAK}essere malvagio...? Non lo so."
+SAY "{VOICE=07}{1F35}no una creatura buona o un essere malvagio...? Non lo so."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Perché sei qui? {BREAK}{1F2B}i venuto per uccidermi?{VOICE=09}"
+SAY "{VOICE=07}Perché sei qui? {1F2B}i venuto per uccidermi?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -4299,7 +4299,7 @@ SYS_7A 0x8
 STORE 0x18 0x0 0x42c80000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42c80000 0x2 0x0
 JMP_IFNOT 0xc L_10a0c
-SAY "{VOICE=07}{1F2B} è questo ciò che vuoi, dovrai {BREAK}dimostrarti all'altezza delle tue ambizioni."
+SAY "{VOICE=07}{1F2B} è questo ciò che vuoi, dovrai dimostrarti all'altezza delle tue ambizioni."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Potrei annientarti in una frazione di secondo...{WAIT}{CLEAR}Ma non voglio negarti il piacere di mostrarti tutta la mia spaventosa potenza!"
@@ -4608,7 +4608,7 @@ SYS_A8 0x8
 SAY "{VOICE=07}{1F2B}i molto forte. Non credevo che saresti riuscito a battermi così facilmente...!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}{1F2B}i un grande guerriero. Ho deciso: metterò {BREAK}la mia potenza al tuo servizio..."
+SAY "{VOICE=07}{1F2B}i un grande guerriero. Ho deciso: metterò la mia potenza al tuo servizio..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Forse, se combatterò al tuo fianco, potrò ricordare chi sono..."

@@ -23,7 +23,7 @@ I codici di controllo, i segnaposto (`{NAME}`, `{E321}`, `{COLOR=...}`, `{WAIT}`
 - `Translation/STRINGS/`: testi dell'interfaccia e delle tabelle di gioco, inclusi nomi di mostri, mosse, abilità, tratti, oggetti, luoghi e personaggi, oltre a descrizioni, messaggi di battaglia e testi delle modalità wireless.
 - `game/rom/`: dati estratti dalla versione normale di DQMJ2, usati per il confronto con l'italiano ufficiale.
 - `game/romP/`: dati estratti dalla versione Professional, usati per individuare le aggiunte e le differenze da tradurre; contiene testo misto inglese/giapponese e non viene usata automaticamente come sorgente italiana.
-- `Pro_Tools/`: strumenti per estrarre, modificare, ricostruire e verificare gli script e i file di testo della ROM, tra cui `msgtool.py` e `storytool.py`.
+- `Pro_Tools/`: strumenti per estrarre, modificare, ricostruire e verificare gli script e i file di testo della ROM, tra cui `msgtool.py`, `storytool.py` e `format_dialogues.py` (il formatter che mantiene ogni pagina entro due righe e inserisce `{WAIT}{CLEAR}` quando serve).
 - `game/tmp/`: script temporanei di analisi, confronto, normalizzazione e controllo. `import_legend_terms.py` importa solo corrispondenze esatte dalla legenda italiana di DQMJ3P, escludendo intenzionalmente i luoghi; `make_italian_databases.py` genera le copie italiane dei database. Questi script servono a rendere ripetibili le verifiche e non sono necessari al funzionamento della ROM patchata.
 - `Guide/`: guide per estrazione, applicazione della patch, patch anti-pirateria, Linux e aggiunta di contenuti.
 

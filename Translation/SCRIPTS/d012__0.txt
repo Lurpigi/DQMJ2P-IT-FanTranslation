@@ -268,7 +268,7 @@ SAY "{VOICE=07}Ehi-ehi-ehi! Ecco degli esseri umani che si fanno avanti con tutt
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
-SAY "{VOICE=07}Sai da quanto tempo io e i miei fratelli mezzi ciechi ti aspettiamo?{WAIT}{CLEAR}Ci chiedevamo quando sarebbe arrivato qualcuno con quella medaglia speciale."
+SAY "{VOICE=07}Sai da quanto tempo io e i miei fratelli mezzi ciechi ti aspettiamo? Ci chiedevamo{WAIT}{CLEAR}quando sarebbe arrivato qualcuno con quella medaglia speciale."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
@@ -485,11 +485,11 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Questo piccoletto si chiama Dr. Lump.{WAIT}{CLEAR}È il sultano della sintesi,{BREAK}il maestro degli abbinamenti tra mostri."
+SAY "{VOICE=07}Questo piccoletto si chiama Dr. Lump. È il sultano della sintesi, il maestro degli{WAIT}{CLEAR}abbinamenti tra mostri."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
-SAY "{VOICE=07}La sintesi è la cosa più bella, naturale e fantastica del mondo.{WAIT}{CLEAR}Due mostri si fondono per generare un figlio più forte e più speciale!"
+SAY "{VOICE=07}La sintesi è la cosa più bella, naturale e fantastica del mondo. Due mostri si{WAIT}{CLEAR}fondono per generare un figlio più forte e più speciale!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
