@@ -1,0 +1,203 @@
+id,english,italian
+1,Herb,Erba medicinale
+2,Strong herb,Medicina forte
+3,Special Herb,Medicina speciale
+4,Strong Special herb,Medicina multipla
+5,Yggdrasil Dew,rugiada di Ygdrasil
+6,Magic Water,Elisir magico
+7,Sage Elixir,Elisir del saggio
+8,Elfin Elixir,elisir degli elfi
+9,Yggdrasil leaf,foglia di Ygdrasil
+10,Antidote,Erba antidoto
+11,Moonwort Bulb,bulbo di erbaluna
+12,Panacea,Panacea
+13,Fire Staff,Polvere antimagica
+14,Attack Boost,Polvere di Potenza
+15,Team Def Upper,Moneta del mago
+16,Team Wis Upper,Scellino del mago
+17,Wind Braker,Insulade
+18,I18,Insulade gigante
+19,Skill Seed,Seme dell'abilità
+20,HP Seed,Seme della vita
+21,MP Seed,Seme della magia
+22,Atk Seed,Seme della forza
+23,Def Seed,Seme della difesa
+24,Agi Seed,Seme dell'agilità
+25,Wis Seed,Seme della saggezza
+26,Dung,Letame mostruoso
+27,Level upper,Seme della speranza
+28,Gold Card,Carta fedeltà
+29,Gold Lump,Pepita d'oro
+30,{231} Scent,'Attrattore positivo'
+31,{232} Scent,'Pensa negativo'
+32,{233} Scent,'Terreno neutrale'
+33,Sagestone,Essenza di Amor Seco
+42,Metal Ticket,biglietto metallico
+45,Beef Jerky,Bocconcini per mostri
+46,Sobering Slap,Sali odorosi
+48,King`s Proof,Libro di Lupicche
+49,Queen`s Proof,Libro di Cuordifalco
+50,Ace`s Proof,Libro di Quadrago
+51,Jack`s Proof,Libro di Fiorango
+52,Warrior`s Proof,Pergamena del Guerriero
+53,Magic`s Proof,Pergamena del Mago
+54,Priest`s Proof,Pergamena del Sacerdote
+55,Monk`s Proof,Pergamena dell'Artista marziale
+56,Sage`s Proof,Pergamena del Saggio
+57,Thief`s Proof,Pergamena del Ladro
+58,Metal Stone,Palla da flipper
+59,Stone Bomb,Frammento di Esplo-sasso
+61,Doubtful medicine,Medicina d'errore
+66,Timbrel of tension,sonaglio di carica
+67,Attack Downer,Polvere di Sag
+68,Defense Downer,Sapperine
+69,Agility Downer,Deceleratonic
+70,Wisdom Downer,Dimium
+71,Defense Upper,Bufferine
+72,Agility Upper,Acceleratonic
+73,Wisdom Upper,Pingium
+74,HP Recovery Proof,'Tocco curativo'
+75,MP Recovery Proof,'Stregoneria segreta'
+76,Atk Proof,'Forza sulla mente'
+77,Def Proof,'Abbassati e copriti'
+78,Agi Proof,'La via rapida'
+79,Wis Proof,'Sapere è potere'
+80,Mysterious Plate,Medaglia misteriosa
+81,Ruins Key,Chiave del Mausoleum
+82,Scout ring,anello da Scout
+83,I83 Slime,Lettera bagnata
+84,Entire Recovery Proof,'Guarigione alla testa'
+93,Pebble,Ciottolo grazioso
+94,Bronze Lump,Frammento di bronzo
+95,Silver Lump,Scheggia d'argento
+107,Parts,Parti meccaniche
+109,Warrior`s Proof,Medaglia al merito
+111,Mud Heart,Cuore di fango
+112,Copper Sword,spada di rame
+113,Divine Dagger,daga divina
+114,Rapier,stocco
+115,Steel Broadsword,spada d'acciaio
+116,Zombiesbane,Ammazzazombie
+117,Dragonsbane,Ammazzadraghi
+118,Obsidian Sword,spada d'ossidiana
+119,Silver Broadsword,spada d'argento
+120,Zombiesblight,lama dello Zombie
+121,Dragonsblight,lama del drago
+122,Giant`s Sword,Spada del gigante
+123,Zombie Slayer,Stramazzazombie
+124,Dragon Slayer,Stramazzadraghi
+125,Lost Katana,katana perduta
+126,Metal King`s Sword,Spada del Re Metalslime
+127,Iron Lance,lancia di ferro
+128,Pitchfork,forcone della natura
+129,Sacred Spear,giavellotto celeste
+130,Partisan,partigiana
+131,Holy Lance,lancia sacra
+132,Hunting Spear,lancia da caccia
+133,Dragon Lance,lancia del drago
+134,Halberd,alabarda
+135,Hero Spear,lancia dell'eroe
+136,Gae Bolg,Gáe Bolg
+137,Stone Axe,ascia di pietra
+138,Woodcutter`s Axe,Ascia del boscaiolo
+139,Iron Axe,ascia di ferro
+140,Woodman`s Axe,Ascia del taglialegna
+141,Headman`s Axe,Ascia del boia
+142,Battle Axe,Ascia da battaglia
+143,Forester`s Axe,Ascia del guardaboschi
+144,King`s Axe,Ascia del re
+145,Ranger`s Axe ,Ascia del ranger
+146,Executioner`s Axe,Ascia del giustiziere
+147,Oaken Club,clava
+148,Slegehammer,Martello di melma
+149,Iron Hammer,testa di ferro
+150,War Hammer,martello da guerra
+151,Miracle Mallet,maglio miracoloso
+152,Giant Wrench,chiave gigante
+153,Atlas Hammer,Martello da fabbro
+154,Golden Mace,Mazza del predone
+155,Warlord`s Hammer,Martello del condottiero
+156,Miracle Mace,mazza miracolosa
+157,Leather Whip,frusta di cuoio
+158,Battle Whip,frusta da guerra
+159,Thorn Whip,frusta di spine
+160,Sidewinder,frusta Krotalo
+161,Snakeskin Whip,frusta Pyton
+162,Chain Whip,frusta di ferro
+163,Dragontail Whip,coda di drago
+164,Spiked Steel Whip,frusta d'acciaio
+165,Scourge Whip,frusta dentata
+166,Gringham Whip,frusta Gringham
+167,Stone Claws,artigli di pietra
+168,Metal Claws,artigli metallici
+169,Iron Claws,artigli di ferro
+170,Sacred Claws,artigli sacri
+171,Razor Claws,artigli ninja
+172,Steel Claws,artigli d'acciaio
+173,Metal Talons,artigli siderali
+174,Gryphon Talons,artigli del grifone
+175,Sacred Talons,artigli celesti
+176,Orichalcum Claws,artigli d'orichalcum
+177,Cypress Staff,mazza di cipresso
+178,Rune Staff,bastone runico
+179,Phoenix Sceptre,scettro della fenice
+181,{231} Sceptre,Scettro del più
+182,{232} Sceptre,Scettro del meno
+183,Crystal Staff,scettro di cristallo
+184,Staff of Darkness,bastone delle tenebre
+185,Sage`s Staff,Bastone del saggio
+186,Royal Rod,scettro reale
+187,Leonine Greatsword,spada del leone
+188,I188,Sparatankissimus
+189,I189,Malevomazza
+190,I190,Artigli d'ebano
+191,I191,Lancia di Diablo
+194,I194,Zampe
+195,Crushing Tower,Ammucchiata
+196,Miracle Sword,spada dei miracoli
+197,Falcon Nail,Artigli di falco
+198,Gent Staff,Bastone di Ghent
+199,Dragon Claw,Artigli di drago
+200,Jack-o`-lantern,Tridente di Gracos
+201,Chainsaw,Frusta magica
+212,Fire Crystal,Fiamma vivificante
+213,Water Crystal,Lacrime di drago
+214,Underworld Crystal,Cristallo del tempo
+215,Plain Plate,Piastra delle pianure
+216,Mountain Plate,Piastra delle montagne
+217,Cliff Plate,Piastra delle rocce
+218,Coast Plate,Piastra della costa
+219,Underworld Ruins Plate,Piastra del dio della guerra
+220,The Silver Sword,Spada ipernova
+221,I221,Lama ardente
+222,I222,Attizzatoio incandescente
+223,I223,Lancia Aha
+224,God`s Axe,Ascia galattica
+225,I225,Spezzaspade
+226,Fire Mace,Spaccastelle
+227,I227,Spaccatensione
+228,True Gringham Whip,Superfrusta di Gringham
+229,Witch Whip,Frusta della strega
+230,Ryuuzin Claw,Artigli di Xenlon
+231,Core drill,Trivella centrale
+232,Light staff,Bastone splendente
+233,Lucky Stick,Bastone slime
+234,Monster Egg,Uovo di mostro
+235,I235,Polvere di Potenza gigante
+236,I236,Bufferine gigante
+237,I237,Acceleratonic gigante
+238,I238,Pingium gigante
+239,I239,Polvere di Sag gigante
+240,I240,Sapperine gigante
+241,I241,Deceleratonic gigante
+242,I242,Dimium gigante
+243,I243,Soma benedetto
+244,Anti Slash Proof,Pergamena Spezzaspade
+245,Anti Spell Proof,Pergamena Spezzamagie
+246,Anti Breath Proof,Pergamena Spezzarespiro
+247,Anti Recovery Proof,Pergamena Purificatrice
+248,I248 Proof,Libro di Morrie
+249,I249 Proof,Pergamena del Maestro del Cammino di battaglia
+252,Crushed Metal Proof,'Manuale dell'ammazzametalli'
+253,I253 Proof,'Il sigillo dello zero'
+254,I254 Proof,'Manuale dell'ammazzagiganti'

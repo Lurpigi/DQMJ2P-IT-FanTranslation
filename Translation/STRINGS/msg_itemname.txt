@@ -1,37 +1,37 @@
 
-Medicinal Herb
-Strong Medicine
-Special Medicine
-Multi Medicine
-Yggdrasil Dew
-Magic Elixir
-Sage's Elixir
-Elfin Elixir
-Yggdrasil Leaf
-Antidotal Herb
-Moonwort Bulb
+Erba medicinale
+Medicina forte
+Medicina speciale
+Medicina multipla
+rugiada di Ygdrasil
+Elisir magico
+Elisir del saggio
+elisir degli elfi
+foglia di Ygdrasil
+Erba antidoto
+bulbo di erbaluna
 Panacea
-Antimagic Powder
-Oomph Powder
-Wizard's Penny
-Wizard's Shilling
+Polvere antimagica
+Polvere di Potenza
+Moneta del mago
+Scellino del mago
 Insulade
-Jumbo Insulade
-Seed of Skill
-Seed of Life
-Seed of Magic
-Seed of Strength
-Seed of Defence
-Seed of Agility
-Seed of Wisdom
-Monster Manure
-Seed of Hope
-Loyalty Card
-Gold Nugget
-'Positive Puller'
-'Think Negative'
-'Neutral Ground'
-Amor Seco Essence
+Insulade gigante
+Seme dell'abilità
+Seme della vita
+Seme della magia
+Seme della forza
+Seme della difesa
+Seme dell'agilità
+Seme della saggezza
+Letame mostruoso
+Seme della speranza
+Carta fedeltà
+Pepita d'oro
+'Attrattore positivo'
+'Pensa negativo'
+'Terreno neutrale'
+Essenza di Amor Seco
 
 
 
@@ -40,49 +40,49 @@ Amor Seco Essence
 
 
 
-Metal Ticket
+biglietto metallico
 
 
-Beastie Bites
-Smelling Salts
+Bocconcini per mostri
+Sali odorosi
 
-Book of Wulfspade
-Book of Hawkhart
-Book of Diamagon
-Book of Cluboon
-Warrior's Scroll
-Mage's Scroll
-Priest's Scroll
-Martial Artist's Scroll
-Sage's Scroll
-Thief's Scroll
-Pinball
-Rockbomb Shard
+Libro di Lupicche
+Libro di Cuordifalco
+Libro di Quadrago
+Libro di Fiorango
+Pergamena del Guerriero
+Pergamena del Mago
+Pergamena del Sacerdote
+Pergamena dell'Artista marziale
+Pergamena del Saggio
+Pergamena del Ladro
+Palla da flipper
+Frammento di Esplo-sasso
 
-Mistake Medicine
-
-
+Medicina d'errore
 
 
-Timbrel of Tension
-Sag Powder
+
+
+sonaglio di carica
+Polvere di Sag
 Sapperine
 Deceleratonic
 Dimium
 Bufferine
 Acceleratonic
 Pingium
-'The Healing Touch'
-'Secret Sorcery'
-'Brawn Over Brains'
-'Duck And Cover'
-'Life In The Fast Lane'
-'Knowledge Is Power'
-Mysterious Medal
-Bemusoleum Key
-Scout Ring
-Soggy Letter
-'Head Over Heals'
+'Tocco curativo'
+'Stregoneria segreta'
+'Forza sulla mente'
+'Abbassati e copriti'
+'La via rapida'
+'Sapere è potere'
+Medaglia misteriosa
+Chiave del Mausoleum
+anello da Scout
+Lettera bagnata
+'Guarigione alla testa'
 
 
 
@@ -91,9 +91,9 @@ Soggy Letter
 
 
 
-Pretty Pebble
-Bronze Bit
-Silver Sliver
+Ciottolo grazioso
+Frammento di bronzo
+Scheggia d'argento
 
 
 
@@ -105,103 +105,101 @@ Silver Sliver
 
 
 
-Machine Parts
+Parti meccaniche
 
-Medal of Merit
+Medaglia al merito
 
-Heart of Mud
-Copper Sword
-Divine Dagger
-Rapier
-Steel Broadsword
-Zombiesbane
-Dragonsbane
-Obsidian Sword
-Silver Broadsword
-Zombiesblight
-Dragonsblight
-Giant's Sword
-Zombie Slayer
-Dragon Slayer
-Lost Katana
-Metal King Sword
-Iron Lance
-Pitchfork
-Sacred Spear
-Partisan
-Holy Lance
-Hunting Spear
-Dragon Lance
-Halberd
-Hero Spear
+Cuore di fango
+spada di rame
+daga divina
+stocco
+spada d'acciaio
+Ammazzazombie
+Ammazzadraghi
+spada d'ossidiana
+spada d'argento
+lama dello Zombie
+lama del drago
+Spada del gigante
+Stramazzazombie
+Stramazzadraghi
+katana perduta
+Spada del Re Metalslime
+lancia di ferro
+forcone della natura
+giavellotto celeste
+partigiana
+lancia sacra
+lancia da caccia
+lancia del drago
+alabarda
+lancia dell'eroe
 Gáe Bolg
-Stone Axe
-Woodcutter's Axe
-Iron Axe
-Woodsman's Axe
-Headsman's Axe
-Battleaxe
-Forester's Axe
-King Axe
-Ranger's Axe
-Executioner's Axe
-Oaken Club
-Sludgehammer
-Iron Hammer
-War Hammer
-Miracle Mallet
-Giant Wrench
-Sledgehammer
-Marauder's Maul
-Warlord's Hammer
-Miracle Mace
-Leather Whip
-Battle Whip
-Thorn Whip
-Sidewinder
-Snakeskin Whip
-Chain Whip
-Dragontail Whip
-Spiked Steel Whip
-Scourge Whip
-Gringham Whip
-Stone Claws
-Metal Claws
-Iron Claws
-Sacred Claws
-Razor Claws
-Steel Claws
-Metal Talons
-Gryphon Talons
-Sacred Talons
-Orichalcum Claws
-Cypress Staff
-Rune Staff
-Phoenix Sceptre
+ascia di pietra
+Ascia del boscaiolo
+ascia di ferro
+Ascia del taglialegna
+Ascia del boia
+Ascia da battaglia
+Ascia del guardaboschi
+Ascia del re
+Ascia del ranger
+Ascia del giustiziere
+clava
+Martello di melma
+testa di ferro
+martello da guerra
+maglio miracoloso
+chiave gigante
+Martello da fabbro
+Mazza del predone
+Martello del condottiero
+mazza miracolosa
+frusta di cuoio
+frusta da guerra
+frusta di spine
+frusta Krotalo
+frusta Pyton
+frusta di ferro
+coda di drago
+frusta d'acciaio
+frusta dentata
+frusta Gringham
+artigli di pietra
+artigli metallici
+artigli di ferro
+artigli sacri
+artigli ninja
+artigli d'acciaio
+artigli siderali
+artigli del grifone
+artigli celesti
+artigli d'orichalcum
+mazza di cipresso
+bastone runico
+scettro della fenice
 
-Plus Sceptre
-Minus Sceptre
-Crystal Staff
-Staff of Darkness
-Sage's Staff
-Royal Rod
-Leonine Greatsword
-Schleiman Shooter
-Malevomace
-Ebony Talons
-Diablo Spear
-
-
-Paws
-Pile-On
-Miracle Sword
-Falcon Claws
-Staff of Ghent
-Dragon Claws
-Gracos's Trident
-Wizardly Whip
+Scettro del più
+Scettro del meno
+scettro di cristallo
+bastone delle tenebre
+Bastone del saggio
+scettro reale
+spada del leone
+Sparatankissimus
+Malevomazza
+Artigli d'ebano
+Lancia di Diablo
 
 
+Zampe
+Ammucchiata
+spada dei miracoli
+Artigli di falco
+Bastone di Ghent
+Artigli di drago
+Tridente di Gracos
+Frusta magica
 
 
 
@@ -210,48 +208,50 @@ Wizardly Whip
 
 
 
-Vivifying Flame
-Dragon's Tears
-Time Crystal
-Plains Plate
-Mountain Plate
-Crag Plate
-Coast Plate
-War God's Plate
-Hypernova Sword
-Burn Blade
-Red-Hot Poker
-Aha Spear
-Galaxy Axe
-Sword Breaker
-Star Crusher
-Tension Crusher
-Uber Gringham Whip
-Witch's Whip
-Xenlon Claws
-Core Driller
-Bright Staff
-Slime Stick
-Monster Egg
-Jumbo Oomph Powder
-Jumbo Bufferine
-Jumbo Acceleratonic
-Jumbo Pingium
-Jumbo Sag Powder
-Jumbo Sapperine
-Jumbo Deceleratonic
-Jumbo Dimium
-Sainted Soma
-Swordbreaker Scroll
-Spellbreaker Scroll
-Breathbreaker Scroll
-Cleanser Scroll
-Morrie's Book
-Battle Road Scroll
 
 
-'Metal Slayer Primer'
-'The Zero Seal'
-'Giant Slayer Primer'
+Fiamma vivificante
+Lacrime di drago
+Cristallo del tempo
+Piastra delle pianure
+Piastra delle montagne
+Piastra delle rocce
+Piastra della costa
+Piastra del dio della guerra
+Spada ipernova
+Lama ardente
+Attizzatoio incandescente
+Lancia Aha
+Ascia galattica
+Spezzaspade
+Spaccastelle
+Spaccatensione
+Superfrusta di Gringham
+Frusta della strega
+Artigli di Xenlon
+Trivella centrale
+Bastone splendente
+Bastone slime
+Uovo di mostro
+Polvere di Potenza gigante
+Bufferine gigante
+Acceleratonic gigante
+Pingium gigante
+Polvere di Sag gigante
+Sapperine gigante
+Deceleratonic gigante
+Dimium gigante
+Soma benedetto
+Pergamena Spezzaspade
+Pergamena Spezzamagie
+Pergamena Spezzarespiro
+Pergamena Purificatrice
+Libro di Morrie
+Pergamena del Maestro del Cammino di battaglia
+
+
+'Manuale dell'ammazzametalli'
+'Il sigillo dello zero'
+'Manuale dell'ammazzagiganti'
 
 

@@ -1,0 +1,256 @@
+id,english,italian
+1,Frizz ＆ Bang,Fiamma & Bang
+2,Prince,Principe
+3,Frizz ＆ Bang +,Fiamma & Bang II
+4,Frizz ＆ Woosh,Fiamma & Vento
+5,Princess,Principessa
+6,Frizz ＆ Woosh +,Fiamma & Vento II
+7,Frizz ＆ Zap,Fiamma & Fulmine
+8,MetalCrush,Schiacciametallo
+9,Frizz ＆ Zap +,Fiamma & Fulmine II
+10,Frizz ＆ Zam,Fiamma & Elektron
+11,G11 Seal,Sigillo zero
+12,Frizz ＆ Zam +,Fiamma & Elektron II
+13,Bang ＆ Woosh,Bang & Vento
+14,Huge Crush,Ammazza Giganti
+15,Bang ＆ Woosh +,Bang & Vento II
+16,Bang ＆ Crack,Bang & Gelo
+17,VS Breath +,Spezzafiato II
+18,Bang ＆ Crack +,Bang & Gelo II
+19,Bang ＆ Zap,Bang & Fulmine
+20,VS Slash,Spezzaspade
+21,Bang ＆ Zap +,Bang & Fulmine II
+22,Bang ＆ Zam,Bang & Elektron
+23,VS Slash +,Spezzaspade II
+24,Bang ＆ Zam + ,Bang & Elektron II
+25,Woosh ＆ Crack,Vento & Gelo
+26,Mormon King,King Sanguini
+27,Woosh ＆ Crack +,Vento & Gelo II
+28,Woosh ＆ Zap,Vento & Fulmine
+29,Warubou,Scruffy
+30,Woosh ＆ Zap +,Vento & Fulmine II
+31,Woosh ＆ Zam,Vento & Elektron
+32,Kandata,Vecchia signora di Robbin
+33,Woosh ＆ Zam +,Vento & Elektron II
+34,Crack ＆ Zap,Gelo & Fulmine
+35,Prism Peacock,Pavone prismatico
+36,Crack ＆ Zap +,Gelo & Fulmine II
+37,Crack ＆ Zam,Gelo & Elektron
+38,Robo Slime,Dark Mecha-Slime
+39,Crack ＆ Zam +,Gelo & Elektron II
+40,Fire,Fuoco
+41,Ballon Slime,Sparaslimes
+42,Fire +,Fiamma II
+43,Ice,Ghiaccio
+44,Diamond Slime,Diamanteslime
+45,Ice +,Gelo II
+46,Breath,Respiro
+47,Girl Slider,Ragazza Slider
+48,Breath +,Respiro II
+49,G49,Fendenti fuocovento
+50,G50,Fendenti tuonovento
+51,G51,Fendenti gelidi
+52,G52,Fendenti luce oscura
+53,Red Fighter,Combattifuoco
+54,Yellow Fighter,Pugile del Bang
+55,Green Fighter,Soffiavento
+56,Blue Fighter,Guru del Gelo
+57,White Fighter,Cavaliere bianco
+58,Black Fighter,Cavaliere oscuro
+59,HP Recovery,Guarigione
+60,Full Recovery,Gran rimedio
+61,Conditions Recovery,Purificazione
+62,Samurai,Avanguardia
+63,G63,Difensore
+64,G64,Velocista
+65,MP Recovery,Aiuto magico
+66,Upper,Fortificazione
+67,Downer,Indebolimento
+68,Jamming,Sabotatore
+69,VS Spell,Spezzamagie
+70,VS Spell +,Spezzamagie II
+71,VS Breath,Spezzafiato
+72,Metal Hunter,Antimetallo
+73,Guard,Guardia
+74,G74,Barricata
+75,G75,Sigillo
+76,G76,Hypnos
+77,Poison,Intoxicato
+78,Horror,Terrormagis
+79,Bad Breath,Respiro malefico
+80,G80,Indebolente
+81,Ranger,Guerrigliero
+82,Assassin,Killer
+83,Hunter,Cacciatore
+84,Bounty Hunter,Caccia alla taglia
+85,Holy God,Crociato
+86,Haunting,Maledetto
+87,G87,Flammascura
+88,Dark,Niflheim
+89,Dancers,Ballerino
+90,Dynamite,Bombardiere
+91,Wild,Tosto
+92,Berserker,Assalto furioso
+93,G93,Martire
+94,G94 Death,Mietitore
+95,Nightmare,Incubo
+96,Cold Sleep,Sonno gelido
+97,G97,Supporto sacro
+98,G98,Acquafarmacista
+99,Variety,Tuttofare
+100,Inspire,Mimo
+101,G101,Burlone
+102,Slimer,Slimer
+103,Animal,Via del bruto
+104,Undead,Cuore tombale
+105,Sorcery,Diabolista
+106,Dragon Spirit,Sapienza draconica
+107,Wind Feather,Cervello d'uccello
+108,Ecology,Pollice verde
+109,G109,Mente alveare
+110,RockHead,Materialista
+111,Wulfspade,Lupicche
+112,Wulfspade +,Lupicche II
+113,Hawkhart,Cuordifalco
+114,Hawkhart +,Cuordifalco II
+115,Diamagon,Quadrago
+116,Diamagon +,Quadrago II
+117,Cluboon,Fiorango
+118,Cluboon +,Fiorango II
+119,Dragonlord,Dragonlord
+120,Dragovian,Sire Dragoviano
+121,Leopold,Leopold
+122,Dhoulmagus,Dhoulmagus
+123,Rhapthorne,Rhapthorne
+124,Rhapthorne,Rhapthorne Ⅱ
+125,Estark,Estark
+126,G126,Nimzo
+127,G127,Moltomort
+128,Cap{00}{00} Crow,Capitan Crow
+129,SP Dark fire,Über Dark Dynamiter
+130,SP Holy ice,Über Blessed Blizzardier
+131,SP Magic,Über Mage
+132,SP Breath,Über Breath
+133,SP Slash,Über Knight
+134,SP Recovery,Über Healer
+135,SP Supporter,Über Helpful
+136,SP G136,Über Charmer
+137,King,Lupicche III
+138,Ace,Quadrago III
+139,Queen,Cuordifalco III
+140,Jack,Fiorango III
+141,Dr Snapped,Prof Briskod
+142,Attk1,Bonus ATT
+143,Attk2,Bonus ATT II
+144,Attk3,Bonus ATT III
+145,Def1,Bonus DIF
+146,Def2,Bonus DIF II
+147,Def3,Bonus DIF III
+148,Agi1,Bonus AGI
+149,Agi2,Bonus AGI II
+150,Agi3,Bonus AGI III
+151,Wis1,Bonus INT
+152,Wis2,Bonus INT II
+153,Wis3,Bonus INT III
+154,Frizz Guard,Para-Fiamma
+155,Bang Guard,Para-Bang
+156,Woosh Guard,Para-Vento
+157,Crack Guard,Para-Gelo
+158,Zap Guard,Para-Fulmine
+159,Zam Guard,Para-Elektron
+160,Down Guard,Para-Debilis
+161,Sag Guard,Para-Indebolente
+162,Decelerate Guard,Para-Velocimeno
+163,Fool Guard,Para-Stoopid
+164,Fire Breath Guard,Para-Respiro di fuoco
+165,Ice Breath Guard,Para-Respiro ghiacciato
+166,Whack Guard,Para-K.O.
+167,Dazzle Guard,Para-Danzaluce
+168,Poison Guard,Para-Veleno
+169,Drain Magic Guard,Para-PickMagic
+170,Kafizzle Guard,Para-Sabotamagie
+171,Breath Seal Guard,Para-Blocca-K.O.
+172,Dance Seal Guard,Para-Danza proibita
+173,Confusion Guard,Para-Confusione
+174,Mind Guard,Para-Inazione
+175,Paralysis Guard,Para-Paralisi
+176,Sleep Guard,Para-Sonno
+177,HP Up SP,Ultra Bonus PV
+178,MP Up SP,Ultra Bonus PM
+179,Attk Up SP,Ultra Bonus ATT
+180,Def Up SP,Ultra Bonus DIF
+181,Agi Up SP,Ultra Bonus AGI
+182,Wis Up SP,Ultra Bonus INT
+183,Fire Guard SP,Para-Calore supremo
+184,Ice Guard SP,Para-Gelo supremo
+185,G185 Guard SP,Para-Vento supremo
+186,G186 Guard SP,Para-Luce oscura suprema
+187,Warrior,Guerriero
+188,G188,Mago
+189,G189,Sacerdote
+190,G190,Artista marziale
+191,G191,Saggio
+192,Thief,Ladro
+193,Frizz ＆ Sizz,Fiamma & Pyro
+194,Liquid Metal King,Re Metalslime
+195,Frizz ＆ Sizz +,Fiamma & Pyro II
+196,Bang ＆ Sizz,Bang & Pyro
+197,Yggdrasil,Yggdrasil
+198,Bang ＆ Sizz +,Bang & Pyro II
+199,Woosh ＆ Sizz,Vento & Pyro
+200,Pipit,Pipetto
+201,Woosh ＆ Sizz +,Vento & Pyro II
+202,Crack ＆ Sizz,Gelo & Pyro
+203,UberKillingMachine,Cybercentauro
+204,Crack ＆ Sizz +,Gelo & Pyro II
+205,Sizz ＆ Zap,Pyro & Fulmine
+206,King Godwyn,Re Godwyn II
+207,Sizz ＆ Zap +,Pyro & Fulmine II
+208,Sizz ＆ Zam,Pyro & Elektron
+209,Munchie,Munchie
+210,Sizz ＆ Zam +,Pyro & Elektron II
+211,Sizz Guard,Para-Pyro
+212,Aerix,Exorsus
+213,Dimensional Dragon,Dimensaur
+214,Geminex,Gemines
+215,Paizar,Demonstrum
+216,Virgella,Virgax
+217,DarkLeonyx,Malevoleonex
+218,Scorpella,Scorpia
+219,Libranex,Rigor Mortex
+220,Canzar,Cancerio
+221,Aquarion,Aquarion
+222,Saggitar,Sagitta
+223,Leonyx,Leonex
+224,Wiggly,Vermex
+225,Bjorn,Wasen
+226,MissingLynx,Lince alata
+227,Khalimari,Piovron
+228,Ruin,Rovina
+229,Orochi,Orochi
+230,ZenithDragon,Drago di Zenithia
+231,Empyrea,Empyrea
+232,Zoma,Zoma
+233,G233 Guard,Para-Sabotamagie
+234,Abiliterator Guard,Para-Abilitatore
+235,Slashing Seal Guard,Para-Bloccacolpi
+236,G236 Guard,Para-Gravitas
+237,G237 SP,Über Zapologist
+238,SchleimanTank,Guerriero del flauto
+239,Wildcard,Joker
+240,ManiacMole,Costruzione mitica
+241,Molly Selection,Morrie's Melange
+242,G242,Maestro della Via delle Sfide
+243,Stella,Stella
+244,G244,Eroe dei cieli
+245,G245,Vuoto vile
+246,Corvus,Corvus
+247,GreatGodbird,Grande uccello divino
+248,Stormsgate,Forte di Nadiria
+249,Workshop,Carro Slival
+250,Xiphos,Xiphos
+251,Gadis,Gadis
+252,Darck,Darck
+253,Magarugi,Magarugi
+254,Sittingbeast,Baboorood
+255,Evilbeast,Babbuincubo

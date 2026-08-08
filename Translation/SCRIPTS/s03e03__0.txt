@@ -737,19 +737,19 @@ SYS_55 0x8
 SYS_42 0x8 
 CMP_EQ 0x18 0x0 0x423c0000 0x2 0x43360000
 JMP_IFNOT 0xc L_26d8
-SAY "{COLOR=2}{NAME} obtains the Minus sceptre!"
+SAY "{COLOR=2}{NAME} ha ottenuto lo scettro Minus!"
 JMP_ABS 0xc L_2770
 L_26d8:
 CMP_EQ 0x18 0x0 0x423c0000 0x2 0x43350000
 JMP_IFNOT 0xc L_2730
-SAY "{COLOR=2}{NAME} obtains the Plus sceptre!"
+SAY "{COLOR=2}{NAME} ha ottenuto lo scettro Plus!"
 JMP_ABS 0xc L_2770
 L_2730:
 JMP_REL L_2738
 L_2738:
 JMP_ABS 0xc L_2744
 L_2744:
-SAY "{COLOR=2}{NAME} obtains {E328}!"
+SAY "{COLOR=2}{NAME} ha ottenuto {E328}!"
 JMP_ABS 0xc L_2770
 L_2770:
 WAIT 0x10 0x2 0x42340000
@@ -761,7 +761,7 @@ JMP_IFNOT 0xc L_2c5c
 SYS_42 0x8 
 CMP_EQ 0x18 0x0 0x42400000 0x2 0x40400000
 JMP_IFNOT 0xc L_293c
-SAY "{COLOR=2}The mysterious ore is actually a monster in disguise!"
+SAY "{COLOR=2}Il minerale misterioso è in realtà un mostro camuffato!"
 WAIT 0x10 0x2 0x42340000
 SYS_43 0x8 
 STORE 0x18 0x1 0x0 0x2 0x3f800000
@@ -780,7 +780,7 @@ JMP_ABS 0xc L_2c50
 L_293c:
 CMP_EQ 0x18 0x0 0x42400000 0x2 0x40800000
 JMP_IFNOT 0xc L_2c50
-SAY "{COLOR=2}The bag is actually a monster in disguise!"
+SAY "{COLOR=2}La borsa è in realtà un mostro sotto mentite spoglie!"
 WAIT 0x10 0x2 0x42340000
 SYS_43 0x8 
 STORE 0x18 0x1 0x0 0x2 0x42c80000
@@ -836,19 +836,19 @@ SYS_55 0x8
 SYS_42 0x8 
 CMP_EQ 0x18 0x0 0x423c0000 0x2 0x43360000
 JMP_IFNOT 0xc L_2d58
-SAY "{COLOR=2}{NAME} obtains the Minus sceptre!"
+SAY "{COLOR=2}{NAME} ha ottenuto lo scettro Minus!"
 JMP_ABS 0xc L_2df0
 L_2d58:
 CMP_EQ 0x18 0x0 0x423c0000 0x2 0x43350000
 JMP_IFNOT 0xc L_2db0
-SAY "{COLOR=2}{NAME} obtains the Plus sceptre!"
+SAY "{COLOR=2}{NAME} ha ottenuto lo scettro Plus!"
 JMP_ABS 0xc L_2df0
 L_2db0:
 JMP_REL L_2db8
 L_2db8:
 JMP_ABS 0xc L_2dc4
 L_2dc4:
-SAY "{COLOR=2}{NAME} obtains {E328}!"
+SAY "{COLOR=2}{NAME} ha ottenuto {E328}!"
 JMP_ABS 0xc L_2df0
 L_2df0:
 WAIT 0x10 0x2 0x42340000
@@ -1220,7 +1220,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3f19999a
 SYS_54 0x8 
 WAIT 0x10 0x2 0x42480000
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}'s team is healed."
+SAY "{COLOR=2}La squadra di {NAME} è tornata in perfetta forma!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1231,7 +1231,7 @@ L_44b0:
 JMP_ABS 0xc L_44bc
 L_44bc:
 SYS_42 0x8 
-SAY "{COLOR=2}There's no response. {NAME} cannot use this...for now."
+SAY "{COLOR=2}Non succede niente. {NAME} non può usare quest'oggetto per adesso..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1342,10 +1342,10 @@ STORE 0x18 0x0 0x426c0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x426c0000 0x2 0x0
 JMP_IFNOT 0xc L_4c7c
 SYS_42 0x8 
-SAY "{COLOR=2}Curiosity killed the cat, but not the monster scout!{WAIT}{CLEAR}Examine these curious stones to learn new abilities and commands."
+SAY "{COLOR=2}La curiosità può uccidere i gatti, ma non gli {1F29}out!{WAIT}{CLEAR}Esamina queste strane rocce per imparare tecniche e comandi nuovi."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}These Scout's Stones appear on the map as blue icons."
+SAY "{COLOR=2}Le "Pietre dello {1F29}out" sono indicate sulla mappa da icone azzurre."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1375,13 +1375,13 @@ SYS_A4 0x8
 CMP_EQ 0x18 0x0 0x42640000 0x2 0x41400000
 JMP_IFNOT 0xc L_4fb4
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} learns Zoom!"
+SAY "{COLOR=2}{NAME} ha imparato \"Teletrasporto\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}This ability enables {NAME} to teleport to previously visited regions!"
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un attimo in qualsiasi area già visitata."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Apart from a few special locations, it can be used anywhere, including caves!"
+SAY "{COLOR=2}Fatte salve poche eccezioni, può essere utilizzata ovunque... Persino nelle grotte!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1398,10 +1398,10 @@ L_4fb4:
 CMP_EQ 0x18 0x0 0x42640000 0x2 0x41700000
 JMP_IFNOT 0xc L_50ec
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} learns Vanish!"
+SAY "{COLOR=2}{NAME} ha imparato \"{1F36}arizione\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}This ability enables {NAME} to slink past enemy monsters undetected."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di passare sotto il naso dei nemici senza farsi notare."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1415,10 +1415,10 @@ L_50ec:
 CMP_EQ 0x18 0x0 0x42640000 0x2 0x40c00000
 JMP_IFNOT 0xc L_52a0
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} can now use Heal All!"
+SAY "{COLOR=2}{NAME} può ora usare \"Guarisci tutti\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}This spell lets {NAME} restore the health of his entire team!"
+SAY "{COLOR=2}Quest'incantesimo di guarigione permette a {NAME} di curare tutti i membri della squadra."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1438,10 +1438,10 @@ L_52a0:
 CMP_EQ 0x18 0x0 0x42640000 0x2 0x41600000
 JMP_IFNOT 0xc L_53dc
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} learns Nose for Treasure!"
+SAY "{COLOR=2}{NAME} ha imparato \"{1F2B}gugio\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}This ability lets {NAME} find out how many items are hidden nearby."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di scoprire quanti tesori sono nascosti nelle vicinanze."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1455,16 +1455,16 @@ L_53dc:
 CMP_EQ 0x18 0x0 0x42640000 0x2 0x41500000
 JMP_IFNOT 0xc L_5618
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} learns Zip!"
+SAY "{COLOR=2}{NAME} ha imparato \"Velotrans\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}This ability lets {NAME} Zip to the local Zip Portal, quick as a flash!"
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un istante al più vicino portale Velotrans."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Of course, the portal must already be open for this to work."
+SAY "{COLOR=2}La tecnica funzionerà solo se il portale è già aperto."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}So if {NAME} finds a new portal, he should examine it right away."
+SAY "{COLOR=2}Quindi, è bene che {NAME} esamini subito i portali Velotrans situati sull'isola."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1482,13 +1482,13 @@ L_5618:
 CMP_EQ 0x18 0x0 0x42640000 0x2 0x41200000
 JMP_IFNOT 0xc L_589c
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} obtains the Monster Mender!"
+SAY "{COLOR=2}{NAME} ha ottenuto \"Curamostri\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Use this bottle to restore the HP and MP of {NAME}'s entire team."
+SAY "{COLOR=2}Questa bevanda fa recuperare PV e PM a tutti i membri della squadra di {NAME}."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Good for three doses per outing. Once it runs out, head to the airship for a refill!"
+SAY "{COLOR=2}La bottiglia contiene tre dosi e può essere riempita di nuovo tornando alla nave."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4279,16 +4279,16 @@ STORE 0x18 0x0 0x42d60000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x0
 JMP_IFNOT 0xc L_1096c
 SYS_42 0x8 
-SAY "{VOICE=07}Watch it, my man - that's a missing lynx den up ahead!"
+SAY "{VOICE=07}Fai molta attenzione! Quella è la tana di una Lince alata...!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I'm dug in here to make sure topsiders keep their distance."
+SAY "{VOICE=07}{1F35}no di guardia qui proprio per informare i viandanti ignari del pericolo."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Man, I tell ya, this missing lynx is the scourge of the Doubtback...{WAIT}{CLEAR}I wish it would just go missin'!"
+SAY "{VOICE=07}{1F27}rebbe bello se la Lince alata sparisse per sempre...{WAIT}{CLEAR}Quella bestiaccia è un problema per tutto il Vastopiano!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}If ya wanna be a hero, then work on creating a righteous monster team.{WAIT}{CLEAR}Then, when you're stronger than you are now, go take the beast out!"
+SAY "{VOICE=07}Perché non te ne occupi tu? Prova a mettere insieme una squadra di quelle toste!{WAIT}{CLEAR}Proprio così! Diventa più forte di quanto sei ora e togli di mezzo quella belva!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4304,17 +4304,17 @@ STORE 0x18 0x1 0x0 0x2 0x42bc0000
 SYS_29 0x8 
 STORE 0x18 0x0 0x42d60000 0x1 0x0
 SYS_42 0x8 
-SAY "{VOICE=07}Up ahead is the den of the missing lynx.{WAIT}{CLEAR}Yeah, the same one that's causin' all the trouble!"
+SAY "{VOICE=07}Più avanti c'è la tana della Lince alata.{WAIT}{CLEAR}{1F61}, mi riferisco alla pericolosa belva che ci sta creando tanti problemi..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Say, my brother, you haven't come up here to take it on, have you?{VOICE=09}"
+SAY "{VOICE=07}Amico, non è che per caso sei venuto per dare una lezione a quel mostro...?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42d80000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42d80000 0x2 0x0
 JMP_IFNOT 0xc L_10cd8
-SAY "{VOICE=07}Hot diggity! I'd say take it easy, but there ain't no way you can!"
+SAY "{VOICE=07}Favoloso! Mi piacerebbe dirti che andrà tutto bene, ma non ne sono tanto sicuro."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4345,7 +4345,7 @@ JMP_REL L_10ce0
 L_10ce0:
 JMP_ABS 0xc L_10cec
 L_10cec:
-SAY "{VOICE=07}You haven't? Then dude, buzz off and dig a hole somewhere. I'm a busy mole!"
+SAY "{VOICE=07}No?! Allora non farmi perdere tempo! {1F35}no una talpa molto impegnata, io!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4358,13 +4358,13 @@ L_10d68:
 JMP_ABS 0xc L_10d74
 L_10d74:
 SYS_42 0x8 
-SAY "{VOICE=07}Up ahead is the den of the missing lynx.{WAIT}{CLEAR}Yeah, the same one that's causin' all the trouble!"
+SAY "{VOICE=07}Più avanti c'è la tana della Lince alata.{WAIT}{CLEAR}{1F61}, mi riferisco alla pericolosa belva che ci sta creando un mucchio di guai..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}But dude, he's a night cat, he's on the prowl, and he won't be back 'till dawn..."
+SAY "{VOICE=07}È un temibile predatore notturno. Non si farà rivedere prima dell'alba..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}If you're lookin' to do battle, you'll have to come back durin' the day!"
+SAY "{VOICE=07}{1F2B} vorrai sfidare quel diavolo d'un felino, dovrai tornare di giorno."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4393,10 +4393,10 @@ STORE 0x18 0x0 0x42d60000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x0
 JMP_IFNOT 0xc L_1109c
 SYS_42 0x8 
-SAY "{VOICE=07}That missing lynx is bringin' down the grief, even on us moles."
+SAY "{VOICE=07}Quella maledetta Lince alata sta creando un mucchio di guai anche a noi talpe."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}If you can take him out, everyone in the Doubtback is gonna dig you big time!"
+SAY "{VOICE=07}Eliminala e ti guadagnerai la gratitudine di tutti gli abitanti del Vastopiano!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4407,13 +4407,13 @@ L_110a4:
 JMP_ABS 0xc L_110b0
 L_110b0:
 SYS_42 0x8 
-SAY "{VOICE=07}Up ahead is the den of the missing lynx.{WAIT}{CLEAR}Yeah, the same one that's causin' all the trouble!"
+SAY "{VOICE=07}Più avanti c'è la tana della Lince alata.{WAIT}{CLEAR}{1F61}, mi riferisco alla pericolosa belva che ci sta creando tanti problemi..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Hot diggity...you just might have the moves to scout that missing lynx!"
+SAY "{VOICE=07}Credo che tu abbia le qualità necessarie per reclutare quel felino cattivo..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}The cat is snoozin'. Lay down a show of force that'll make his head spin!"
+SAY "{VOICE=07}Ora il gattaccio dorme. Dimostragli la tua forza e trasformalo in un docile micino!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4431,10 +4431,10 @@ STORE 0x18 0x0 0x42d60000 0x1 0x0
 CMP_LE 0x18 0x2 0x3f800000 0x0 0x42d60000
 JMP_IFNOT 0xc L_11348
 SYS_42 0x8 
-SAY "{VOICE=07}Woo-hee! I'm diggin' you man.{WAIT}{CLEAR}I never thought I'd see that missing lynx tamed and on a leash!"
+SAY "{VOICE=07}Ce l'hai fatta! {1F2B}i grande!{WAIT}{CLEAR}Non avrei mai creduto che qualcuno potesse domare quel demonio con gli artigli!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}The good folk of the Doubtback can live in peace, thanks be to you, my man!"
+SAY "{VOICE=07}Grazie a te, ora le brave creature del Vastopiano potranno dormire sonni sereni!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4455,13 +4455,13 @@ STORE 0x18 0x0 0x42d60000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x0
 JMP_IFNOT 0xc L_1163c
 SYS_42 0x8 
-SAY "{VOICE=07}Whoo-hee! You opened up a big can of whoop-daddy on that missing lynx!"
+SAY "{VOICE=07}{1F29}avo-lo! Hai fatto vedere le stelle a quella Lince alata!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}That missing lynx was bringin' down the grief even on us diggers.{WAIT}{CLEAR}Moledom owes you bigtime, kid!"
+SAY "{VOICE=07}La Lince alata aveva creato una montagna di problemi a noi talpe.{WAIT}{CLEAR}Ti dobbiamo molto, amico!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}It ain't much, but this is yours, brother, as a token of our most funky gratitude!"
+SAY "{VOICE=07}Ti prego, accetta questo modesto dono..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4470,7 +4470,7 @@ SYS_33 0x8
 SYS_42 0x8 
 STORE 0x18 0x1 0x0 0x2 0x429a0000
 SYS_55 0x8 
-SAY "{COLOR=2}{NAME} obtains {E328}!"
+SAY "{COLOR=2}{NAME} ha ottenuto {E328}!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4487,10 +4487,10 @@ L_11644:
 JMP_ABS 0xc L_11650
 L_11650:
 SYS_42 0x8 
-SAY "{VOICE=07}We couldn't do nothin' about the grief the missing lynx was bringin' down."
+SAY "{VOICE=07}Noi talpe non eravamo riuscite a fermare le scorrerie della Lince alata..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I don't who you are or where you came from, but you did good, kid!"
+SAY "{VOICE=07}Non so chi sei né da dove vieni, ma una cosa è certa: hai fatto un ottimo lavoro!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4508,13 +4508,13 @@ STORE 0x18 0x0 0x42d60000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x0
 JMP_IFNOT 0xc L_119d0
 SYS_42 0x8 
-SAY "{VOICE=07}Whoo-hee! You opened up a big can of whoop-daddy on that missing lynx!"
+SAY "{VOICE=07}{1F29}avo-lo! Hai fatto vedere le stelle a quella Lince alata!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}That missing lynx was bringin' down the grief even on us diggers.{WAIT}{CLEAR}Moledom owes you bigtime, kid!"
+SAY "{VOICE=07}La Lince alata aveva creato una montagna di problemi a noi talpe.{WAIT}{CLEAR}Ti dobbiamo molto, amico!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}It ain't much, but this is yours, brother, as a token of our most funky gratitude!"
+SAY "{VOICE=07}Ti prego, accetta questo modesto dono..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4523,7 +4523,7 @@ SYS_33 0x8
 SYS_42 0x8 
 STORE 0x18 0x1 0x0 0x2 0x429a0000
 SYS_55 0x8 
-SAY "{COLOR=2}{NAME} obtains {E328}!"
+SAY "{COLOR=2}{NAME} ha ottenuto {E328}!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4540,10 +4540,10 @@ L_119d8:
 JMP_ABS 0xc L_119e4
 L_119e4:
 SYS_42 0x8 
-SAY "{VOICE=07}We couldn't do nothin' about the grief the missing lynx was bringin' down."
+SAY "{VOICE=07}Noi talpe non eravamo riuscite a fermare le scorrerie della Lince alata..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I don't who you are or where you came from, but you did good, kid!"
+SAY "{VOICE=07}Non so chi sei né da dove vieni, ma una cosa è certa: hai fatto un ottimo lavoro!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4567,13 +4567,13 @@ STORE 0x18 0x0 0x42d60000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x0
 JMP_IFNOT 0xc L_11c8c
 SYS_42 0x8 
-SAY "{VOICE=07}Up ahead is the den of the missing lynx.{WAIT}{CLEAR}Yeah, the same one that's causin' all the trouble!"
+SAY "{VOICE=07}Più avanti c'è la tana della Lince alata.{WAIT}{CLEAR}{1F61}, mi riferisco alla pericolosa belva che ci sta creando un mucchio di guai..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}But dude, he's a night cat, he's on the prowl, and he won't be back 'till dawn..."
+SAY "{VOICE=07}È un temibile predatore notturno. Non si farà rivedere prima dell'alba..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}If you're lookin' to do battle, you'll have to come back durin' the day!"
+SAY "{VOICE=07}{1F2B} vorrai sfidare quel diavolo d'un felino, dovrai tornare di giorno."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4589,10 +4589,10 @@ STORE 0x18 0x0 0x42d60000 0x1 0x0
 CMP_LE 0x18 0x2 0x3f800000 0x0 0x42d60000
 JMP_IFNOT 0xc L_11ddc
 SYS_42 0x8 
-SAY "{VOICE=07}Woo-hee! I'm diggin' you man.{WAIT}{CLEAR}I never thought I'd see that missing lynx tamed and on a leash!"
+SAY "{VOICE=07}Ce l'hai fatta! {1F2B}i grande!{WAIT}{CLEAR}Non avrei mai creduto che qualcuno potesse domare quel demonio con gli artigli!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}The good folk of the Doubtback can live in peace, thanks be to you, my man!"
+SAY "{VOICE=07}Grazie a te, ora le brave creature del Vastopiano potranno dormire sonni sereni!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4608,13 +4608,13 @@ STORE 0x18 0x0 0x42d60000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x0
 JMP_IFNOT 0xc L_11f78
 SYS_42 0x8 
-SAY "{VOICE=07}Up ahead is the den of the missing lynx.{WAIT}{CLEAR}Yeah, the same one that's causin' all the trouble!"
+SAY "{VOICE=07}Più avanti c'è la tana della Lince alata.{WAIT}{CLEAR}{1F61}, mi riferisco alla pericolosa belva che ci sta creando un mucchio di guai..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}But dude, he's a night cat, he's on the prowl, and he won't be back 'till dawn..."
+SAY "{VOICE=07}È un temibile predatore notturno. Non si farà rivedere prima dell'alba..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}If you're lookin' to do battle, you'll have to come back durin' the day!"
+SAY "{VOICE=07}{1F2B} vorrai sfidare quel diavolo d'un felino, dovrai tornare di giorno."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4630,13 +4630,13 @@ STORE 0x18 0x0 0x42d60000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x0
 JMP_IFNOT 0xc L_12210
 SYS_42 0x8 
-SAY "{VOICE=07}Whoo-hee! You opened up a big can of whoop-daddy on that missing lynx!"
+SAY "{VOICE=07}{1F29}avo-lo! Hai fatto vedere le stelle a quella Lince alata!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}That missing lynx was bringin' down the grief even on us diggers.{WAIT}{CLEAR}Moledom owes you bigtime, kid!"
+SAY "{VOICE=07}La Lince alata aveva creato una montagna di problemi a noi talpe.{WAIT}{CLEAR}Ti dobbiamo molto, amico!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}It ain't much, but this is yours, brother, as a token of our most funky gratitude!"
+SAY "{VOICE=07}Ti prego, accetta questo modesto dono..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4645,7 +4645,7 @@ SYS_33 0x8
 SYS_42 0x8 
 STORE 0x18 0x1 0x0 0x2 0x429a0000
 SYS_55 0x8 
-SAY "{COLOR=2}{NAME} obtains {E328}!"
+SAY "{COLOR=2}{NAME} ha ottenuto {E328}!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4662,10 +4662,10 @@ L_12218:
 JMP_ABS 0xc L_12224
 L_12224:
 SYS_42 0x8 
-SAY "{VOICE=07}We couldn't do nothin' about the grief the missing lynx was bringin' down."
+SAY "{VOICE=07}Noi talpe non eravamo riuscite a fermare le scorrerie della Lince alata..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I don't who you are or where you came from, but you did good, kid!"
+SAY "{VOICE=07}Non so chi sei né da dove vieni, ma una cosa è certa: hai fatto un ottimo lavoro!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4981,16 +4981,16 @@ STORE 0x18 0x0 0x42d60000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x0
 JMP_IFNOT 0xc L_13710
 SYS_42 0x8 
-SAY "{VOICE=07}Watch it, my man - that's a missing lynx den up ahead!"
+SAY "{VOICE=07}Fai molta attenzione! Quella è la tana di una Lince alata...!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I'm dug in here to make sure topsiders keep their distance."
+SAY "{VOICE=07}{1F35}no di guardia qui proprio per informare i viandanti ignari del pericolo."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Man, I tell ya, this missing lynx is the scourge of the Doubtback...{WAIT}{CLEAR}I wish it would just go missin'!"
+SAY "{VOICE=07}Quel mostro è un problema per tutto il Vastopiano!{WAIT}{CLEAR}Ah, quanto vorrei che quella bestiaccia sparisse per sempre..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}If ya wanna be a hero, then work on creating a righteous monster team.{WAIT}{CLEAR}Then, when you're stronger than you are now, go take the beast out!"
+SAY "{VOICE=07}Perché non te ne occupi tu? Prova a mettere insieme una squadra di quelle toste!{WAIT}{CLEAR}Proprio così! Diventa più forte di quanto sei ora e togli di mezzo quella belva!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5006,17 +5006,17 @@ STORE 0x18 0x1 0x0 0x2 0x42bc0000
 SYS_29 0x8 
 STORE 0x18 0x0 0x42d60000 0x1 0x0
 SYS_42 0x8 
-SAY "{VOICE=07}Up ahead is the den of the missing lynx.{WAIT}{CLEAR}Yeah, the same one that's causin' all the trouble!"
+SAY "{VOICE=07}Più avanti c'è la tana della Lince alata.{WAIT}{CLEAR}{1F61}, mi riferisco alla pericolosa belva che ci sta creando tanti problemi..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Say, my brother, you haven't come up here to take it on, have you?{VOICE=09}"
+SAY "{VOICE=07}Amico, non è che per caso sei venuto per dare una lezione a quel mostro...?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ee0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ee0000 0x2 0x0
 JMP_IFNOT 0xc L_13a74
-SAY "{VOICE=07}Hot diggity! I'd say take it easy, but there ain't no way you can!"
+SAY "{VOICE=07}Favoloso! Mi piacerebbe dirti che andrà tutto bene, ma non ne sono tanto sicuro."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5046,7 +5046,7 @@ JMP_REL L_13a7c
 L_13a7c:
 JMP_ABS 0xc L_13a88
 L_13a88:
-SAY "{VOICE=07}You haven't? Then dude, buzz off and dig a hole somewhere. I'm a busy mole!"
+SAY "{VOICE=07}No?! Allora non farmi perdere tempo! {1F35}no una talpa molto impegnata, io!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5088,13 +5088,13 @@ L_13d14:
 JMP_ABS 0xc L_13d20
 L_13d20:
 SYS_42 0x8 
-SAY "{VOICE=07}Up ahead is the den of the missing lynx.{WAIT}{CLEAR}Yeah, the same one that's causin' all the trouble!"
+SAY "{VOICE=07}Più avanti c'è la tana della Lince alata.{WAIT}{CLEAR}{1F61}, mi riferisco alla pericolosa belva che ci sta creando un mucchio di guai..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}But dude, he's a night cat, he's on the prowl, and he won't be back 'till dawn..."
+SAY "{VOICE=07}È un temibile predatore notturno. Non si farà rivedere prima dell'alba..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}If you're lookin' to do battle, you'll have to come back durin' the day!"
+SAY "{VOICE=07}{1F2B} vorrai sfidare quel diavolo d'un felino, dovrai tornare di giorno."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5123,10 +5123,10 @@ STORE 0x18 0x0 0x42d60000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x0
 JMP_IFNOT 0xc L_14048
 SYS_42 0x8 
-SAY "{VOICE=07}That missing lynx is bringin' down the grief, even on us moles."
+SAY "{VOICE=07}Quella maledetta Lince alata sta creando un mucchio di guai anche a noi talpe."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}If you can take him out, everyone in the Doubtback is gonna dig you big time!"
+SAY "{VOICE=07}Eliminala e ti guadagnerai la gratitudine di tutti gli abitanti del Vastopiano!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5137,13 +5137,13 @@ L_14050:
 JMP_ABS 0xc L_1405c
 L_1405c:
 SYS_42 0x8 
-SAY "{VOICE=07}Up ahead is the den of the missing lynx.{WAIT}{CLEAR}Yeah, the same one that's causin' all the trouble!"
+SAY "{VOICE=07}Più avanti c'è la tana della Lince alata.{WAIT}{CLEAR}{1F61}, mi riferisco alla pericolosa belva che ci sta creando tanti problemi..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Hot diggity...you just might have the moves to scout that missing lynx!"
+SAY "{VOICE=07}Credo che tu abbia le qualità necessarie per reclutare quel felino cattivo..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}The cat is snoozin'. Lay down a show of force that'll make his head spin!"
+SAY "{VOICE=07}Ora il gattaccio dorme. Dimostragli la tua forza e trasformalo in un docile micino!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5161,10 +5161,10 @@ STORE 0x18 0x0 0x42d60000 0x1 0x0
 CMP_LE 0x18 0x2 0x3f800000 0x0 0x42d60000
 JMP_IFNOT 0xc L_142f4
 SYS_42 0x8 
-SAY "{VOICE=07}Woo-hee! I'm diggin' you man.{WAIT}{CLEAR}I never thought I'd see that missing lynx tamed and on a leash!"
+SAY "{VOICE=07}Ce l'hai fatta! {1F2B}i grande!{WAIT}{CLEAR}Non avrei mai creduto che qualcuno potesse domare quel demonio con gli artigli!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}The good folk of the Doubtback can live in peace, thanks be to you, my man!"
+SAY "{VOICE=07}Grazie a te, ora le brave creature del Vastopiano potranno dormire sonni sereni!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5185,13 +5185,13 @@ STORE 0x18 0x0 0x42d60000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x0
 JMP_IFNOT 0xc L_145e8
 SYS_42 0x8 
-SAY "{VOICE=07}Whoo-hee! You opened up a big can of whoop-daddy on that missing lynx!"
+SAY "{VOICE=07}{1F29}avo-lo! Hai fatto vedere le stelle a quella Lince alata!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}That missing lynx was bringin' down the grief even on us diggers.{WAIT}{CLEAR}Moledom owes you bigtime, kid!"
+SAY "{VOICE=07}La Lince alata aveva creato una montagna di problemi a noi talpe.{WAIT}{CLEAR}Ti dobbiamo molto, amico!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}It ain't much, but this is yours, brother, as a token of our most funky gratitude!"
+SAY "{VOICE=07}Ti prego, accetta questo modesto dono..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5200,7 +5200,7 @@ SYS_33 0x8
 SYS_42 0x8 
 STORE 0x18 0x1 0x0 0x2 0x429a0000
 SYS_55 0x8 
-SAY "{COLOR=2}{NAME} obtains {E328}!"
+SAY "{COLOR=2}{NAME} ha ottenuto {E328}!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5217,10 +5217,10 @@ L_145f0:
 JMP_ABS 0xc L_145fc
 L_145fc:
 SYS_42 0x8 
-SAY "{VOICE=07}We couldn't do nothin' about the grief the missing lynx was bringin' down."
+SAY "{VOICE=07}Noi talpe non eravamo riuscite a fermare le scorrerie della Lince alata..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I don't who you are or where you came from, but you did good, kid!"
+SAY "{VOICE=07}Non so chi sei né da dove vieni, ma una cosa è certa: hai fatto un ottimo lavoro!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5238,13 +5238,13 @@ STORE 0x18 0x0 0x42d60000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x0
 JMP_IFNOT 0xc L_1497c
 SYS_42 0x8 
-SAY "{VOICE=07}Whoo-hee! You opened up a big can of whoop-daddy on that missing lynx!"
+SAY "{VOICE=07}{1F29}avo-lo! Hai fatto vedere le stelle a quella Lince alata!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}That missing lynx was bringin' down the grief even on us diggers.{WAIT}{CLEAR}Moledom owes you bigtime, kid!"
+SAY "{VOICE=07}La Lince alata aveva creato una montagna di problemi a noi talpe.{WAIT}{CLEAR}Ti dobbiamo molto, amico!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}It ain't much, but this is yours, brother, as a token of our most funky gratitude!"
+SAY "{VOICE=07}Ti prego, accetta questo modesto dono..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5253,7 +5253,7 @@ SYS_33 0x8
 SYS_42 0x8 
 STORE 0x18 0x1 0x0 0x2 0x429a0000
 SYS_55 0x8 
-SAY "{COLOR=2}{NAME} obtains {E328}!"
+SAY "{COLOR=2}{NAME} ha ottenuto {E328}!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5270,10 +5270,10 @@ L_14984:
 JMP_ABS 0xc L_14990
 L_14990:
 SYS_42 0x8 
-SAY "{VOICE=07}We couldn't do nothin' about the grief the missing lynx was bringin' down."
+SAY "{VOICE=07}Noi talpe non eravamo riuscite a fermare le scorrerie della Lince alata..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I don't who you are or where you came from, but you did good, kid!"
+SAY "{VOICE=07}Non so chi sei né da dove vieni, ma una cosa è certa: hai fatto un ottimo lavoro!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5297,13 +5297,13 @@ STORE 0x18 0x0 0x42d60000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x0
 JMP_IFNOT 0xc L_14c38
 SYS_42 0x8 
-SAY "{VOICE=07}Up ahead is the den of the missing lynx.{WAIT}{CLEAR}Yeah, the same one that's causin' all the trouble!"
+SAY "{VOICE=07}Più avanti c'è la tana della Lince alata.{WAIT}{CLEAR}{1F61}, mi riferisco alla pericolosa belva che ci sta creando un mucchio di guai..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}But dude, he's a night cat, he's on the prowl, and he won't be back 'till dawn..."
+SAY "{VOICE=07}È un temibile predatore notturno. Non si farà rivedere prima dell'alba..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}If you're lookin' to do battle, you'll have to come back durin' the day!"
+SAY "{VOICE=07}{1F2B} vorrai sfidare quel diavolo d'un felino, dovrai tornare di giorno."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5319,10 +5319,10 @@ STORE 0x18 0x0 0x42d60000 0x1 0x0
 CMP_LE 0x18 0x2 0x3f800000 0x0 0x42d60000
 JMP_IFNOT 0xc L_14d88
 SYS_42 0x8 
-SAY "{VOICE=07}Woo-hee! I'm diggin' you man.{WAIT}{CLEAR}I never thought I'd see that missing lynx tamed and on a leash!"
+SAY "{VOICE=07}Ce l'hai fatta! {1F2B}i grande!{WAIT}{CLEAR}Non avrei mai creduto che qualcuno potesse domare quel demonio con gli artigli!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}The good folk of the Doubtback can live in peace, thanks be to you, my man!"
+SAY "{VOICE=07}Grazie a te, ora le brave creature del Vastopiano potranno dormire sonni sereni!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5338,13 +5338,13 @@ STORE 0x18 0x0 0x42d60000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x0
 JMP_IFNOT 0xc L_14f24
 SYS_42 0x8 
-SAY "{VOICE=07}Up ahead is the den of the missing lynx.{WAIT}{CLEAR}Yeah, the same one that's causin' all the trouble!"
+SAY "{VOICE=07}Più avanti c'è la tana della Lince alata.{WAIT}{CLEAR}{1F61}, mi riferisco alla pericolosa belva che ci sta creando un mucchio di guai..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}But dude, he's a night cat, he's on the prowl, and he won't be back 'till dawn..."
+SAY "{VOICE=07}È un temibile predatore notturno. Non si farà rivedere prima dell'alba..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}If you're lookin' to do battle, you'll have to come back durin' the day!"
+SAY "{VOICE=07}{1F2B} vorrai sfidare quel diavolo d'un felino, dovrai tornare di giorno."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5360,13 +5360,13 @@ STORE 0x18 0x0 0x42d60000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x0
 JMP_IFNOT 0xc L_151bc
 SYS_42 0x8 
-SAY "{VOICE=07}Whoo-hee! You opened up a big can of whoop-daddy on that missing lynx!"
+SAY "{VOICE=07}{1F29}avo-lo! Hai fatto vedere le stelle a quella Lince alata!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}That missing lynx was bringin' down the grief even on us diggers.{WAIT}{CLEAR}Moledom owes you bigtime, kid!"
+SAY "{VOICE=07}La Lince alata aveva creato una montagna di problemi a noi talpe.{WAIT}{CLEAR}Ti dobbiamo molto, amico!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}It ain't much, but this is yours, brother, as a token of our most funky gratitude!"
+SAY "{VOICE=07}Ti prego, accetta questo modesto dono..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5375,7 +5375,7 @@ SYS_33 0x8
 SYS_42 0x8 
 STORE 0x18 0x1 0x0 0x2 0x429a0000
 SYS_55 0x8 
-SAY "{COLOR=2}{NAME} obtains {E328}!"
+SAY "{COLOR=2}{NAME} ha ottenuto {E328}!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5392,10 +5392,10 @@ L_151c4:
 JMP_ABS 0xc L_151d0
 L_151d0:
 SYS_42 0x8 
-SAY "{VOICE=07}We couldn't do nothin' about the grief the missing lynx was bringin' down."
+SAY "{VOICE=07}Noi talpe non eravamo riuscite a fermare le scorrerie della Lince alata..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I don't who you are or where you came from, but you did good, kid!"
+SAY "{VOICE=07}Non so chi sei né da dove vieni, ma una cosa è certa: hai fatto un ottimo lavoro!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5467,7 +5467,7 @@ SYS_02 0x8
 SYS_03 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}{E321}{NAME} has been carried away by the river..."
+SAY "{COLOR=2}{E321}{NAME} è stato trascinato via dalla corrente..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5515,7 +5515,7 @@ SYS_02 0x8
 SYS_03 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}{E321}{NAME} has been carried away by the river..."
+SAY "{COLOR=2}{E321}{NAME} è stato trascinato via dalla corrente..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5586,7 +5586,7 @@ SYS_02 0x8
 SYS_03 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}{E321}{NAME} has been carried away by the river..."
+SAY "{COLOR=2}{E321}{NAME} è stato trascinato via dalla corrente..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5657,7 +5657,7 @@ SYS_02 0x8
 SYS_03 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}{E321}{NAME} has been carried away by the river..."
+SAY "{COLOR=2}{E321}{NAME} è stato trascinato via dalla corrente..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5728,7 +5728,7 @@ SYS_02 0x8
 SYS_03 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}{E321}{NAME} has been carried away by the river..."
+SAY "{COLOR=2}{E321}{NAME} è stato trascinato via dalla corrente..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5796,7 +5796,7 @@ SYS_02 0x8
 SYS_03 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}{E321}{NAME} has been carried away by the river..."
+SAY "{COLOR=2}{E321}{NAME} è stato trascinato via dalla corrente..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5857,7 +5857,7 @@ SYS_49 0x8
 STORE 0x18 0x1 0x0 0x2 0x43480000
 SYS_AD 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}'The Hades condor who lives on the hill hides lots of things in its nest.'"
+SAY "{COLOR=2}\"Il Condor blu che abita sulla collina nasconde nel nido oggetti di ogni tipo.\""
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5871,7 +5871,7 @@ SYS_49 0x8
 STORE 0x18 0x1 0x0 0x2 0x43490000
 SYS_AD 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}'This Way to the Top Secret Moles' Den'"
+SAY "{COLOR=2}\"Da questa parte per la segretissima tana delle talpe.\""
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5890,14 +5890,14 @@ SYS_29 0x8
 STORE 0x18 0x0 0x42f60000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42f60000 0x2 0x0
 JMP_IFNOT 0xc L_17078
-SAY "{COLOR=2}'Danger. Be very, very quiet.'"
+SAY "{COLOR=2}\"Pericolo! Non fare rumore!\""
 JMP_ABS 0xc L_170e8
 L_17078:
 JMP_REL L_17080
 L_17080:
 JMP_ABS 0xc L_1708c
 L_1708c:
-SAY "{COLOR=2}'No missing lynx here!{BREAK}Enjoy the peaceful savannah.'"
+SAY "{COLOR=2}\"In quest'area non ci sono Linci alate.\"{BREAK}\"Buon divertimento nella savana!\""
 JMP_ABS 0xc L_170e8
 L_170e8:
 STORE 0x18 0x1 0x0 0x2 0x3f800000
@@ -6063,7 +6063,7 @@ SYS_73 0x8
 STORE 0x18 0x1 0x0 0x0 0x42f80000
 SYS_55 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} obtains {E328}!"
+SAY "{COLOR=2}{NAME} ha ottenuto {E328}!"
 WAIT 0x10 0x2 0x42340000
 SYS_43 0x8 
 SYS_FC 0x8 
@@ -6074,7 +6074,7 @@ L_17a9c:
 JMP_ABS 0xc L_17aa8
 L_17aa8:
 SYS_42 0x8 
-SAY "{COLOR=2}The nest may look empty now...but perhaps it won't be in a little while."
+SAY "{COLOR=2}Adesso il nido è vuoto, ma tra breve la situazione potrebbe cambiare..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -10955,7 +10955,7 @@ STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_49 0x8 
 WAIT 0x10 0x2 0x40400000
 SYS_42 0x8 
-SAY "{COLOR=2}{E321}{NAME} senses...a strange power."
+SAY "{COLOR=2}{E321}{NAME} percepisce una strana forza..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

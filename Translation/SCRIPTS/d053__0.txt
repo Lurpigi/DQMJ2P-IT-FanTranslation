@@ -108,8 +108,8 @@ STORE 0x18 0x1 0x0 0x0 0x0
 STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}I never dreamt it'd be you who rode to the rescue! Rookie, I'm proud of you!"
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Non avrei mai pensato che saresti venuto a salvarmi! Sono fiero di te, pivello!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x41f80000
@@ -117,12 +117,12 @@ SYS_13 0x8
 STORE 0x18 0x1 0x0 0x2 0x41f80000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41f00000
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}Lemme take a look at you... Dang, Rookie! You look like a whole new man."
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Fatti guardare, pivello... Diamine! Mi sembri una persona totalmente diversa!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}I can tell you've seen some serious frontline action."
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Ho la netta sensazione che tu abbia fatto un bel po' d'esperienza sul campo."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41a00000
@@ -155,8 +155,8 @@ STORE 0x18 0x1 0x0 0x2 0x41300000
 STORE 0x18 0x1 0x3f800000 0x2 0x41200000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x40a00000
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}But what about my other passengers? Who's missin' in action? Who's AWOL?{WAIT}{CLEAR}I need a full situation report, stat!"
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Ma cos'è successo agli altri passeggeri? Ci sono dei dispersi?{WAIT}{CLEAR}Voglio il quadro completo della situazione!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -175,20 +175,20 @@ STORE 0x18 0x1 0x40000000 0x2 0x41200000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}...That's good to hear. So besides us and Melonie, everyone's back at base."
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}E così, fatta eccezione per noi e per Sheila, tutti gli altri sono al sicuro..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}When the Albatross took a dive,{BREAK}I ended up in the drink.{WAIT}{CLEAR}It was all I could do to swim to the coast."
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Quando l'Albatros è precipitato sono finito in acqua...{BREAK}Per fortuna sono riuscito a raggiungere la costa a nuoto...{WAIT}{CLEAR}"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}I found myself wanderin' deep in hostile territory, my coordinates unknown..."
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Mi sono ritrovato da solo in territorio ostile, senza avere idea di dove fossi..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}Then I heard Melonie scream, and I knew what my mission was - to protect her."
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Poi ho sentito Sheila gridare, e ho capito che dovevo proteggere quella poveretta!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -205,8 +205,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42680000
 SYS_18 0x8 
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}But I gotta say I'm impressed, Rookie.{BREAK}You did well to find this place."
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Sono fiero di te, pivello.{BREAK}Non tutti sarebbero riusciti a trovare questo posto."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -230,20 +230,20 @@ STORE 0x18 0x1 0x0 0x0 0x0
 STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}...Huh!? I'm not sure I'm readin' you correctly.{WAIT}{CLEAR}...A Monster Scout Challenge run by moles!?{WAIT}{CLEAR}...A giant bird at the top of these cliffs!?"
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Cos'hai detto?! Non sono sicuro di aver capito bene...{WAIT}{CLEAR}Un Torneo Monster Scout organizzato da un branco di talpe?!{WAIT}{CLEAR}Un pennuto gigante che vive tra queste vette?!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}I'm findin' this a little hard to follow, Rookie."
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Senza offesa, pivello, ma... sei certo di non esserti bevuto il cervello?!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}So to cut a long story short, you're here to meet some bigshot bird, right?"
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Per farla breve, sei qui per incontrare un uccello gigantesco...?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41f00000
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}...What the!?"
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Ma cosa...?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -283,14 +283,14 @@ STORE 0x18 0x1 0x0 0x2 0x0
 SYS_8C 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}You're still alive!?"
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Non... sei ancora vivo...!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Jamirus"
-SAY "{VOICE=07}So you've come in search of that giant bird..."
+SAY "{VOICE=07}Adesso capisco... Sei qui per trovare il grande volatile..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -335,7 +335,7 @@ SYS_1E 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Jamirus"
-SAY "{VOICE=07}Well, best of luck to you... Har har har!"
+SAY "{VOICE=07}Hah! Buona fortuna... Har har har!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -426,16 +426,16 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42680000
 SYS_18 0x8 
 STORE 0x18 0x0 0x40a00000 0x2 0x3f800000
 SYS_42 0x8 
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}Hold it! Just what d'you mean by that!?"
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Cosa vuoi dire?! Spiegati meglio... Ehi! Aspetta!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40400000
 STORE 0x18 0x1 0x3f800000 0x2 0x42c80000
 SYS_1F 0x8 
 WAIT 0x10 0x2 0x41a00000
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}Dagnabit! He got away..."
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Maledizione! È scappato..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -481,8 +481,8 @@ SYS_18 0x8
 STORE 0x18 0x0 0x3f800000 0x2 0x3f800000
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}Why you lookin' at me like that, Rookie? Have I got crumbs in my beard again?"
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Perché mi guardi in quel modo, pivello? Ho la barba sporca di sugo...?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -501,8 +501,8 @@ STORE 0x18 0x1 0x0 0x2 0x42200000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}You say you saw my GHOST!?"
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Che cosa?! Tu hai visto... il FANTASMA?!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x0
@@ -512,8 +512,8 @@ WAIT 0x10 0x2 0x422c0000
 STORE 0x18 0x1 0x0 0x0 0x0
 STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_18 0x8 
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}Hah! You've got your wires crossed. Captain Rex Mayday is alive and kickin'!"
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Mi sa che hai bisogno di un buon oculista... Capitan Alex è vivo e vegeto!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -543,16 +543,16 @@ STORE 0x18 0x1 0x40000000 0x2 0x41200000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}Now let's stow the ghost stories and work on trackin' down Melonie."
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Adesso basta con queste stupide storie di spettri... Dobbiamo trovare Sheila!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}We may've chased that birdbrain away, and I know she can handle herself, but..."
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Il pennuto è sparito, e la nostra amica dovrebbe sapersela cavare da sola..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}...Captain Rex Mayday never leaves one of his troops behind on the battlefield!{WAIT}{CLEAR}We need to find her ASAP!"
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Ma Capitan Alex non abbandona i suoi passeggeri! Mai!{WAIT}{CLEAR}Dobbiamo rintracciare Sheila il prima possibile!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x0
@@ -562,8 +562,8 @@ WAIT 0x10 0x2 0x422c0000
 STORE 0x18 0x1 0x0 0x0 0x0
 STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_18 0x8 
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}But this is uncharted territory. Who knows what dangers are waitin' to ambush us?"
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Il guaio è che non conosciamo la zona. Chissà quali insidie dovremo affrontare..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

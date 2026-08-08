@@ -1,230 +1,229 @@
-Vuln. to Frizz
+Debole a Fiamma
 
-Frizz Damage ↓25%
-Frizz Damage ↓50%
-Frizz Damage ↓75%
-Frizzproof
-Reflects Frizz
-Healed by Frizz
-Vuln. to Bang
+Danni da Fiamma ↓25%
+Danni da Fiamma ↓50%
+Danni da Fiamma ↓75%
+Immune a Fiamma
+Riflette Fiamma
+Curato da Fiamma
+Debole a Bang
 
-Bang Damage ↓25%
-Bang Damage ↓50%
-Bang Damage ↓75%
-Bangproof
-Reflects Bang
-Healed by Bang
-Vuln. to Woosh
+Resistenza a Bang ↓25%
+Resistenza a Bang ↓50%
+Resistenza a Bang ↓75%
+Immune a Bang
+Riflette Bang
+Curato da Bang
+Debole a Vento
 
-Woosh Damage ↓25%
-Woosh Damage ↓50%
-Woosh Damage ↓75%
-Wooshproof
-Reflects Woosh
-Healed by Woosh
-Vuln. to Crack
+Danni da Vento ↓25%
+Danni da Vento ↓50%
+Danni da Vento ↓75%
+Immune a Vento
+Riflette Vento
+Curato da Vento
+Debole a Gelo
 
-Crack Damage ↓25%
-Crack Damage ↓50%
-Crack Damage ↓75%
-Crackproof
-Reflects Crack
-Healed by Crack
-Vuln. to Zap
+Danni da Gelo ↓25%
+Danni da Gelo ↓50%
+Danni da Gelo ↓75%
+Immune a Gelo
+Riflette Gelo
+Curato da Gelo
+Debole a Fulmine
 
-Zap Damage ↓25%
-Zap Damage ↓50%
-Zap Damage ↓75%
-Zapproof
-Reflects Zap
-Healed by Zap
-Vuln. to Zam
+Danni da Fulmine ↓25%
+Danni da Fulmine ↓50%
+Danni da Fulmine ↓75%
+Immune a Fulmine
+Riflette Fulmine
+Curato da Fulmine
+Debole a Elektron
 
-Zam Damage ↓25%
-Zam Damage ↓50%
-Zam Damage ↓75%
-Zamproof
-Reflects Zam
-Healed by Zam
-Vuln. to Fire Breath
+Danni da Elektron ↓25%
+Danni da Elektron ↓50%
+Danni da Elektron ↓75%
+Immune a Elektron
+Riflette Elektron
+Curato da Elektron
+Debole a Respiro di fuoco
 
-Fire Breath Damage ↓25%
-Fire Breath Damage ↓50%
-Fire Breath Damage ↓75%
-Fire Breathproof
-Reflects Fire Breath
-Healed by Fire Breath
-Vuln. to Ice Breath
+Danni da Respiro di fuoco ↓25%
+Danni da Respiro di fuoco ↓50%
+Danni da Respiro di fuoco ↓75%
+Immune a Respiro di fuoco
+Riflette Respiro di fuoco
+Curato da Respiro di fuoco
+Debole a Alito di ghiaccio
 
-Ice Breath Damage ↓25%
-Ice Breath Damage ↓50%
-Ice Breath Damage ↓75%
-Ice Breathproof
-Reflects Ice Breath
-Healed by Ice Breath
-Vuln. to Whack
+Danni da Alito di ghiaccio ↓25%
+Danni da Alito di ghiaccio ↓50%
+Danni da Alito di ghiaccio ↓75%
+Immune a Alito di ghiaccio
+Riflette Alito di ghiaccio
+Curato da Alito di ghiaccio
+Debole a Morte rapida
 
-Whack Res. ↑25%
-Whack Res. ↑50%
-Whack Res. ↑75%
-Whackproof
-Reflects Whack
-Whackproof
-Vuln. to Dazzle
+Resistenza a Morte rapida ↑25%
+Resistenza a Morte rapida ↑50%
+Resistenza a Morte rapida ↑75%
+Immune a Morte rapida
+Riflette Morte rapida
+Immune a Morte rapida
+Debole a Illusyo
 
-Dazzle Res. ↑25%
-Dazzle Res. ↑50%
-Dazzle Res. ↑75%
-Dazzleproof
-Reflects Dazzle
-Dazzleproof
-Vuln. to Poison
+Resistenza a Illusyo ↑25%
+Resistenza a Illusyo ↑50%
+Resistenza a Illusyo ↑75%
+Immune a Illusyo
+Riflette Illusyo
+Immune a Illusyo
+Debole a Veleno
 
-Poison Res. ↑25%
-Poison Res. ↑50%
-Poison Res. ↑75%
-Poisonproof
-Reflects Poison
-Poisonproof
-Vuln. to Drain Magic
+Resistenza a Veleno ↑25%
+Resistenza a Veleno ↑50%
+Resistenza a Veleno ↑75%
+Immune a Veleno
+Riflette Veleno
+Immune a Veleno
+Debole a Rubamagia
 
-Drain Magic Res. ↑25%
-Drain Magic Res. ↑50%
-Drain Magic Res. ↑75%
-Drain Magicproof
-Reflects Drain Magic
-Drain Magicproof
-Vuln. to Fizzle
+Resistenza a Rubamagia ↑25%
+Resistenza a Rubamagia ↑50%
+Resistenza a Rubamagia ↑75%
+Immune a Rubamagia
+Riflette Rubamagia
+Immune a Rubamagia
+Debole a Contromagia
 
-Fizzle Res. ↑25%
-Fizzle Res. ↑50%
-Fizzle Res. ↑75%
-Fizzleproof
-Reflects Fizzle
-Fizzleproof
-Vuln. to Gobstopper
+Resistenza a Contromagia ↑25%
+Resistenza a Contromagia ↑50%
+Resistenza a Contromagia ↑75%
+Immune a Contromagia
+Riflette Contromagia
+Immune a Contromagia
+Debole a Boccachiusa
 
-Gobstopper Res. ↑25%
-Gobstopper Res. ↑50%
-Gobstopper Res. ↑75%
-Gobstopperproof
-Reflects Gobstopper
-Gobstopperproof
-Vuln. to Ban Dance
+Resistenza a Boccachiusa ↑25%
+Resistenza a Boccachiusa ↑50%
+Resistenza a Boccachiusa ↑75%
+Immune a Boccachiusa
+Riflette Boccachiusa
+Immune a Boccachiusa
+Debole a Danza ipnotica
 
-Ban Dance Res. ↑25%
-Ban Dance Res. ↑50%
-Ban Dance Res. ↑75%
-Ban Danceproof
-Reflects Ban Dance
-Ban Danceproof
-Vuln. to Confusion
+Resistenza a Danza ipnotica ↑25%
+Resistenza a Danza ipnotica ↑50%
+Resistenza a Danza ipnotica ↑75%
+Immune a Danza ipnotica
+Riflette Danza ipnotica
+Immune a Danza ipnotica
+Debole a Confusione
 
-Confusion Res. ↑25%
-Confusion Res. ↑50%
-Confusion Res. ↑75%
-Confusionproof
-Reflects Confusion
-Confusionproof
-Vuln. to Inaction
+Resistenza a Confusione ↑25%
+Resistenza a Confusione ↑50%
+Resistenza a Confusione ↑75%
+Immune a Confusione
+Riflette Confusione
+Immune a Confusione
+Debole a Inazione
 
-Inaction Res. ↑25%
-Inaction Res. ↑50%
-Inaction Res. ↑75%
-Inactionproof
-Reflects Inaction
-Inactionproof
-Vuln. to Paralysis
+Resistenza a Inazione ↑25%
+Resistenza a Inazione ↑50%
+Resistenza a Inazione ↑75%
+Immune a Inazione
+Riflette Inazione
+Immune a Inazione
+Debole a Paralisi
 
-Paralysis Res. ↑25%
-Paralysis Res. ↑50%
-Paralysis Res. ↑75%
-Paralysisproof
-Reflects Paralysis
-Paralysisproof
-Vuln. to Sleep
+Resistenza a Paralisi ↑25%
+Resistenza a Paralisi ↑50%
+Resistenza a Paralisi ↑75%
+Immune a Paralisi
+Riflette Paralisi
+Immune a Paralisi
+Debole a Sonno
 
-Sleep Res. ↑25%
-Sleep Res. ↑50%
-Sleep Res. ↑75%
-Sleepproof
-Reflects Sleep
-Sleepproof
-Vuln. to Sag
+Resistenza a Sonno ↑25%
+Resistenza a Sonno ↑50%
+Resistenza a Sonno ↑75%
+Immune a Sonno
+Riflette Sonno
+Immune a Sonno
+Debole a Sag
 
-Sag Res. ↑25%
-Sag Res. ↑50%
-Sag Res. ↑75%
-Sagproof
-Reflects Sag
-Sagproof
-Vuln. to Sap
+Resistenza a Sag ↑25%
+Resistenza a Sag ↑50%
+Resistenza a Sag ↑75%
+Immune a Sag
+Riflette Sag
+Immune a Sag
+Debole a Sap
 
-Sap Res. ↑25%
-Sap Res. ↑50%
-Sap Res. ↑75%
-Sapproof
-Reflects Sap
-Sapproof
-Vuln. to Decelerate
+Resistenza a Sap ↑25%
+Resistenza a Sap ↑50%
+Resistenza a Sap ↑75%
+Immune a Sap
+Riflette Sap
+Immune a Sap
+Debole a Velocimeno
 
-Decelerate Res. ↑25%
-Decelerate Res. ↑50%
-Decelerate Res. ↑75%
-Decelerateproof
-Reflects Decelerate
-Decelerateproof
-Vuln. to Dim
+Resistenza a Velocimeno ↑25%
+Resistenza a Velocimeno ↑50%
+Resistenza a Velocimeno ↑75%
+Immune a Velocimeno
+Riflette Velocimeno
+Immune a Velocimeno
+Debole a Dim
 
-Dim Res. ↑25%
-Dim Res. ↑50%
-Dim Res. ↑75%
-Dimproof
-Reflects Dim
-Dimproof
-Vuln. to Sizz
+Resistenza a Dim ↑25%
+Resistenza a Dim ↑50%
+Resistenza a Dim ↑75%
+Immune a Dim
+Riflette Dim
+Immune a Dim
+Debole a Pyro
 
-Sizz Damage ↓25%
-Sizz Damage ↓50%
-Sizz Damage ↓75%
-Sizzproof
-Reflects Sizz
-Healed by Sizz
-Vuln. to Magical Sabotage
+Danni da Pyro ↓25%
+Danni da Pyro ↓50%
+Danni da Pyro ↓75%
+Immune a Pyro
+Riflette Pyro
+Curato da Pyro
+Debole a Sabotaggio magico
 
-Magical Sabotage Res. ↑25%
-Magical Sabotage Res. ↑50%
-Magical Sabotage Res. ↑75%
-Magical Sabotageproof
-Reflects Magical Sabotage
-Magical Sabotageproof
-Vuln. to Abiliterator
+Resistenza a Sabotaggio magico ↑25%
+Resistenza a Sabotaggio magico ↑50%
+Resistenza a Sabotaggio magico ↑75%
+Immune a Sabotaggio magico
+Riflette Sabotaggio magico
+Immune a Sabotaggio magico
+Debole a Abiliterator
 
-Abiliterator Res. ↑25%
-Abiliterator Res. ↑50%
-Abiliterator Res. ↑75%
-Abiliteratorproof
-Reflects Abiliterator
-Abiliteratorproof
-Vuln. to Blade Blunter
+Resistenza a Abiliterator ↑25%
+Resistenza a Abiliterator ↑50%
+Resistenza a Abiliterator ↑75%
+Immune a Abiliterator
+Riflette Abiliterator
+Immune a Abiliterator
+Debole a Blade Blunter
 
-Blade Blunter Res. ↑25%
-Blade Blunter Res. ↑50%
-Blade Blunter Res. ↑75%
-Blade Blunterproof
-Reflects Blade Blunter
-Blade Blunterproof
-Vuln. to Donk
+Resistenza a Blade Blunter ↑25%
+Resistenza a Blade Blunter ↑50%
+Resistenza a Blade Blunter ↑75%
+Immune a Blade Blunter
+Riflette Blade Blunter
+Immune a Blade Blunter
+Debole a Donk
 
-Donk Damage ↓25%
-Donk Damage ↓50%
-Donk Damage ↓75%
-Donkproof
-Reflects Donk
-Donkproof
-Practically Invincible
-Attack Magicproof
-
+Danni da Donk ↓25%
+Danni da Donk ↓50%
+Danni da Donk ↓75%
+Immune a Donk
+Riflette Donk
+Immune a Donk
+Quasi invincibile
+Immune alla magia d'attacco
 
 
 

@@ -107,8 +107,8 @@ WAIT 0x10 0x2 0x42200000
 SPAWN 0x10 L_3a04
 DATA 0x00000008
 SYS_42 0x8 
-SETNAME "Miles"
-SAY "{VOICE=07}Hey man, why you encroachin' on our turf? You launchin' a one-man invasion!?"
+SETNAME "Rico"
+SAY "{VOICE=07}Ehi, amico, perché invadi il nostro territorio? Vuoi lanciare un'invasione da solo!?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -162,12 +162,12 @@ STORE 0x18 0x1 0x0 0x2 0x42e60000
 SYS_33 0x8 
 WAIT 0x10 0x2 0x40a00000
 SYS_42 0x8 
-SETNAME "Eugene Poole"
-SAY "{VOICE=03}...An invasion!? Why, I've never heard anything so preposterous!{WAIT}{CLEAR}I am merely an old man who comes in peace."
+SETNAME "Jim Jenius"
+SAY "{VOICE=03}...Un'invasione!? Non ho mai sentito nulla di così assurdo!{WAIT}{CLEAR}Sono solo un vecchio che viene in pace."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Eugene Poole"
-SAY "{VOICE=03}In a fit of absent-mindedness, I may have given that unfortunate mole a nasty bump..."
+SETNAME "Jim Jenius"
+SAY "{VOICE=03}In un momento di distrazione, potrei aver dato una brutta botta a quella povera talpa..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -194,8 +194,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x442f4000
 SYS_18 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Billie"
-SAY "{VOICE=08}Never mind that, daddy-o!{BREAK}Just what are you, anyway!?{WAIT}{CLEAR}I ain't never seen a monster like you before."
+SETNAME "Sira"
+SAY "{VOICE=08}Lascia perdere, bello!{BREAK}Ma tu cosa sei, esattamente!?{WAIT}{CLEAR}Non ho mai visto un mostro come te."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -207,8 +207,8 @@ STORE 0x18 0x1 0x0 0x0 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x2 0x42c20000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Eugene Poole"
-SAY "{VOICE=03}I can assure you, my dearest Madame Mole, that I am no monster.{WAIT}{CLEAR}I am a genuine, certified human being!"
+SETNAME "Jim Jenius"
+SAY "{VOICE=03}Posso assicurarti, mia cara Madame Mole, che non sono un mostro.{WAIT}{CLEAR}Sono un essere umano autentico e certificato!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -250,20 +250,20 @@ STORE 0x18 0x1 0x3f800000 0x2 0x40e00000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41880000
 SYS_42 0x8 
-SETNAME "Duke"
-SAY "{VOICE=07}I got it! There's only one thing a mystified mole can do at a time like this...{WAIT}{CLEAR}...Consult the good doctor!"
+SETNAME "Halb"
+SAY "{VOICE=07}Ho capito! In un momento come questo, una talpa confusa può fare solo una cosa...{WAIT}{CLEAR}...consultare il buon dottore!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 SPAWN 0x10 L_3704
 DATA 0x00000005
 SYS_42 0x8 
-SETNAME "Billie"
-SAY "{VOICE=08}Now you're talkin', brother! Dr Lump's our in-house synthesis expert.{WAIT}{CLEAR}What he don't know 'bout monsters ain't worth knowin'."
+SETNAME "Sira"
+SAY "{VOICE=08}Ecco cosa volevo sentirti dire, fratello! Dr. Lump è il nostro esperto di sintesi.{WAIT}{CLEAR}Se non lo sa lui sui mostri, allora non vale la pena saperlo."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Billie"
-SAY "{VOICE=08}So let's see what Dr Lump has to say. Let's go, daddy-o!"
+SETNAME "Sira"
+SAY "{VOICE=08}Vediamo cosa ha da dire Dr. Lump. Andiamo, bello!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -305,16 +305,16 @@ SPAWN 0x10 L_3c58
 DATA 0x0000000a
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Eugene Poole"
-SAY "{VOICE=03}P-Please! Don't molehandle me! Wh-Where are you taking me...!?"
+SETNAME "Jim Jenius"
+SAY "{VOICE=03}P-per favore! Non maltrattatemi! D-dove mi state portando...?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 SPAWN 0x10 L_3a04
 DATA 0x00000008
 SYS_42 0x8 
-SETNAME "Miles"
-SAY "{VOICE=07}Hm? Looks like someone's come to crash the party."
+SETNAME "Rico"
+SAY "{VOICE=07}Hmm? Sembra che qualcuno sia venuto a rovinare la festa."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -380,12 +380,12 @@ STORE 0x18 0x1 0x0 0x0 0x41700000
 STORE 0x18 0x1 0x3f800000 0x2 0x3e6147ae
 SYS_54 0x8 
 SYS_42 0x8 
-SETNAME "Eugene Poole"
-SAY "{VOICE=03}Oh my dear boy, it's such a relief to see a familiar face!{WAIT}{CLEAR}This has all been rather trying. I'm not as young as I used to be, you know!"
+SETNAME "Jim Jenius"
+SAY "{VOICE=03}Oh, mio caro ragazzo, che sollievo vedere una faccia familiare!{WAIT}{CLEAR}È stata una situazione davvero difficile. Non sono più giovane come un tempo, sai!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Eugene Poole"
-SAY "{VOICE=03}Could you help me out of my little predicament?"
+SETNAME "Jim Jenius"
+SAY "{VOICE=03}Potresti aiutarmi a uscire da questo piccolo guaio?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -411,8 +411,8 @@ STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_B1 0x8 
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SETNAME "Billie"
-SAY "{VOICE=08}Woah! Looks like an even freakier-lookin' monster's come to bust him out."
+SETNAME "Sira"
+SAY "{VOICE=08}Whoa! Sembra che sia arrivato un mostro dall'aspetto ancora più inquietante per liberarlo."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -426,8 +426,8 @@ WAIT 0x10 0x2 0x41f00000
 SPAWN 0x10 L_3a04
 DATA 0x00000008
 SYS_42 0x8 
-SETNAME "Miles"
-SAY "{VOICE=07}Well sister, they picked the wrong moles to mess with! Let's get 'em!"
+SETNAME "Rico"
+SAY "{VOICE=07}Sorella, hanno scelto le talpe sbagliate con cui mettersi! Diamogli una lezione!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -572,8 +572,8 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SETNAME "Billie"
-SAY "{VOICE=08}Check this out! That freaky-lookin' monster don't give up easily."
+SETNAME "Sira"
+SAY "{VOICE=08}Guardate qui! Quel mostro dall'aspetto inquietante non si arrende facilmente."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -585,8 +585,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41100000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SETNAME "Duke"
-SAY "{VOICE=07}Back for more!? Seems he's got a taste for bein' beaten black and blue."
+SETNAME "Halb"
+SAY "{VOICE=07}Di nuovo qui!? Sembra proprio che gli piaccia farsi riempire di botte."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -598,8 +598,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41100000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SETNAME "Miles"
-SAY "{VOICE=07}C'mon, brothers and sisters! Let's remind him how these moles roll!"
+SETNAME "Rico"
+SAY "{VOICE=07}Forza, fratelli e sorelle! Ricordiamogli come combattono le talpe!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

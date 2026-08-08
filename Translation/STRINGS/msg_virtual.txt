@@ -1,65 +1,65 @@
-Virtual Battle
-Start Battle
-Opponent Setup
-Ally Setup
-Change Rules
-Quit
-Battle Rules
-None
+Battaglia virtuale
+Inizia battaglia
+Impostazioni avversario
+Impostazioni alleati
+Cambia regole
+Esci
+Regole di battaglia
+Nessuna
 
 
-Opponent Party
-Opponent Substitutes
-Edit
-Tactics
-Opponent Members
+Squadra avversaria
+Riserve avversarie
+Modifica
+Tattiche
+Membri avversari
 
-From Monster Pen
-From Favorites
-
-
-
-Party
-Substitutes
-Edit
-Tactics
+Dal recinto mostri
+Dalle squadre preferite
 
 
 
+Squadra
+Riserve
+Modifica
+Tattiche
 
 
 
 
-Battle Rules
-Rounds
-Tactics
-Switch
-Types
-Input Time
-Rank
-Confirm
 
 
-Standard Rules
-SQEX Rules
-WBC Rules
-Custom Rules
+
+Regole di battaglia
+Turni
+Tattiche
+Cambio
+Tipi
+Tempo di inserimento
+Grado
+Conferma
 
 
-No limit
+Regole standard
+Regole SQEX
+Regole WBC
+Regole personalizzate
+
+
+Nessun limite
 5
 10
-Unlimited
-AI only
-Once only
-Banned
-All OK
-Same Lineage OK
-Same Lineage Banned
-No limit
+Illimitato
+Solo IA
+Una volta soltanto
+Vietato
+Tutto consentito
+Stessa stirpe consentita
+Stessa stirpe vietata
+Nessun limite
 15s
 30s
-Open Class
+Classe aperta
 
 
 
@@ -68,10 +68,10 @@ Open Class
 
 
 
-The battle will begin.
-Cannot begin because there{315}are 2 monsters from the same{315}lineage.
-Cannot begin because there{315}2 monsters from the same{315}family.
-You can't take this monster{315}from the monster pen{315}at this time.
+La battaglia avrà inizio.
+Impossibile iniziare: ci sono{315}2 mostri della stessa{315}stirpe.
+Impossibile iniziare: ci sono{315}2 mostri della stessa{315}famiglia.
+Non puoi prendere questo mostro{315}dal recinto mostri{315}in questo momento.
 
 
 
@@ -86,38 +86,38 @@ You can't take this monster{315}from the monster pen{315}at this time.
 
 
 
-Battle with standard rules.
-Battle with official match rules.
-Battle with Championship rules.
-Set battle rules freely.
+Battaglia con regole standard.
+Battaglia con regole delle sfide ufficiali.
+Battaglia con regole del Campionato.
+Imposta liberamente le regole di battaglia.
 
 
-Set the round that will{315}end the battle.
-Set whether orders can{315}be given.
-Set whether Switch can{315}be used.
-Set restrictions on what{315}monsters can be used.
-Set a time limit for{315}entering commands.
-Battle with a custom{315}ruleset.
+Imposta il turno che{315}farà terminare la battaglia.
+Imposta se è possibile{315}impartire ordini.
+Imposta se è possibile usare{315}il Cambio.
+Imposta restrizioni sui{315}mostri utilizzabili.
+Imposta un limite di tempo per{315}inserire i comandi.
+Combatti con un set di{315}regole personalizzato.
 
-The battle will continue{315}until one team is wiped out.
-The battle will end after{315}5 rounds.
-The battle will end after{315}10 rounds.
-You can give orders to{315}monsters.
-Monsters will behave{315}according to Tactics (AI).
-You can use Switch once{315}per battle.
-You cannot use Switch{315}at all.
-You can use any of your{315}monsters.
-You can use monsters from{315}any lineage. But you cannot use{315}monsters of the same family.
-You cannot use monsters{315}from the same lineage.
-There will be unlimited{315}time to enter commands.
-Commands are entered within{315}15 seconds.
-Commands are entered within{315}30 seconds.
-You can freely Switch party{315}members.
+La battaglia continuerà{315}finché una squadra non sarà sconfitta.
+La battaglia terminerà dopo{315}5 turni.
+La battaglia terminerà dopo{315}10 turni.
+Puoi impartire ordini ai{315}mostri.
+I mostri agiranno{315}secondo le Tattiche (IA).
+Puoi usare il Cambio una volta{315}per battaglia.
+Non puoi usare il Cambio{315}in alcun modo.
+Puoi usare qualsiasi tuo{315}mostro.
+Puoi usare mostri di{315}qualsiasi stirpe, ma non puoi usare{315}mostri della stessa famiglia.
+Non puoi usare mostri{315}della stessa stirpe.
+Avrai tempo illimitato{315}per inserire i comandi.
+I comandi vanno inseriti entro{315}15 secondi.
+I comandi vanno inseriti entro{315}30 secondi.
+Puoi cambiare liberamente i membri{315}della squadra.
 
 
 
-The opposing team won!
-The opposing team lost.
-The battle ended in a draw.
+La squadra avversaria ha vinto!
+La squadra avversaria ha perso.
+La battaglia è finita in pareggio.
 
 

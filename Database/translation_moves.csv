@@ -1,0 +1,255 @@
+id,english,italian
+0,Attack,Attacco!
+1,Defend,Difesa!
+2,Tension,Carica!
+3,High Tension,Alta tensione
+4,Super High Tension,Tensione alle stelle
+5,Flee,Fuggi
+6,Nothing,Non fare niente
+8,Giga Cross Break,Tempesta X
+9,S9,Esplosione del domatore
+10,Heaven Slash,Fendente impeccabile
+11,S11,Fendente cosmico
+12,Aurora Breath,Respiro dell'aurora
+13,Calamity,Cataclisma
+14,Kazapple,Fulmine supremo
+15,Disrupt,Fenditura dimensionale
+16,Frizz,Fiamma
+17,Frizzle,Superfiamma
+18,Kafrizz,Megafiamma
+19,Kafrizzle,Fiamma suprema
+20,Bang,Bang
+21,Boom,Superbang
+22,Kaboom,Megabang
+23,Kaboomle,Bang supremo
+24,Woosh,Vento
+25,Swoosh,Supervento
+26,Kaswoosh,Megavento
+27,Kaswooshle,Vento supremo
+28,Crack,Gelo
+29,Crackle,Supergelo
+30,Kacrack,Megagelo
+31,Kacrackle,Gelo supremo
+32,Zap,Fulmine
+33,Zapple,Superfulmine
+34,Kazap,Megafulmine
+35,Kazapple,Fulmine supremo
+36,Zam,Elektron
+37,Zammle,Superelektron
+38,Kazam,Megaelektron
+39,Kazammle,Elektron supremo
+40,NoSelf Seal,Sigillo del capro espiatorio
+41,Smelly Slash,Fendente guardiano
+42,Death Blow,Sigillo zero
+43,Giga Drain Magic,Superpickmagic
+44,Whack,Morte rapida
+45,Thwack,Due in un colpo
+46,Kamikaze,Kamikaze
+47,Heal,Cura
+48,Midheal,Medicura
+49,Fullheal,Megacura
+50,Multiheal,Multicura
+51,Omniheal,Omnicura
+52,Share Magic,Magidò
+53,Give Magic,Donamagia
+54,Zing,Lazzaro
+55,Kazing,Resurge
+56,Kerplunk,Sacrificio finale
+57,Squelch,Detox
+58,Tingle,Solletico
+59,Oomph,Ooomph
+60,Oomphle,Multiooomph
+61,Sag,Depotenzia
+62,Kasag,Multidepotenzia
+63,Buff,Mono superdifesa
+64,Kabuff,Poli superdifesa
+65,Sap,Debilis
+66,Kasap,Iperdebilis
+67,Accelerate,Velocipiù
+68,Acceleratle,Accelerazione
+69,Decelerate,Velocimeno
+70,Deceleratle,Decelerazione
+71,Ping,Intellygo
+72,Kaping,Multintellygo
+73,Dim,Stoopid
+74,Kadim,Omnistoopid
+75,Dazzle,Illusyo
+76,Snooze,Ninnananna
+77,Kasnooze,Super ninnananna
+78,Drain Magic,Rubamagia
+79,Fizzle,Contromagia
+80,Kafizzle,Bloccamagia
+81,Bounce,Specchio riflesso
+82,Fuddle,Caos
+83,Kafuddle,Multicaos
+84,Clang,Rintocco
+85,Insulatle,Isolamento termico
+86,Insulate,Monoisolamento termico
+87,Fire Breath,Respiro caldo
+88,Flame Breath,Respiro incendiario
+89,Inferno,Inferi
+90,Scorch,Bruchor
+91,Cool Breath,Alito di ghiaccio
+92,Chilly Breath,Respiro congelante
+93,Cold Blizzard,Tempesta gelida
+94,C-C-Cold Breath,Respiro g-ghiacciato
+95,Magic Burst,Esplosione magica
+96,Magic Barrier,Barriera magica
+97,Magic Frailty,Magifragilis
+98,Flame Slash,Fendente di fuoco
+99,Inferno Slash,Fendente infernale
+100,Boom Slash,Fendente bomba
+101,Kaboom Slash,Fendente esplosivo
+102,Gust Slash,Fendente eolico
+103,Gale Slash,Fendente del tornado
+104,Charring Slash,Fendente demoniaco
+105,Singeing Slash,Fendente flambé
+106,Frost Slash,Fendente freddo
+107,Blizzard Slash,Fendente gelido
+108,Hallowed Slash,Fendente divino
+109,Sacred Slash,Fendente sacro
+110,Shade Slash,Fendente oscuro
+111,Shadow Slash,Fendente dell'ombra
+112,Metal Slash,Spaccametallo
+113,Dragon Slash,Colpo del drago
+114,ZodianZap,Schiacciamisteri
+115,Multi Slash,Multicolpo
+116,Giga Slash,Mega fendente
+117,Gigagash,Giga fendente
+118,Helmet Splitter,Spaccaelmo
+119,Hatchet Man,Colpo del sicario
+120,Assassin`s Stab,Pugnalata dell'assassino
+121,Double-edge Slash,Fendente traditore
+122,Heart Break,Spezzacuore
+123,Penny Pinch,Colpo del ladro
+124,Klepto Clob,Attacco cleptomane
+125,Poison,Stoccata velenosa
+126,Venom,Raffica velenosa
+127,Para,Pugno paralizzante
+128,Sleep,Calzino del sonno
+129,Conf,Colpo sconcertante
+130,Weakening,Botta indebolente
+131,Slowing,Colpo rallentante
+132,Stupefying Strike,Colpo scioccante
+133,Breathtaking Bash,Mozzafiato
+134,Breakdance Beat,Ritmo spezza-danza
+135,Blinding Blow,Ipoprecisione
+136,Boulder Dash,Pioggia di pietre
+137,Boulder Bash,Lanciaroccia
+138,Waterspout,Schizzetto
+139,Geyser,Geyser
+140,Spark,Scintilla
+141,Lightning,Saetta
+142,Singe,Scottyno
+143,Sear,Vampa
+144,Boulder Toss,Lancio del masso
+145,Tidal Wave,Megaonda
+146,Lightning Storm,Tempesta di saette
+147,Cremate,Inceneritore
+148,Counter,Contrattacco
+149,Defense Champ,Difesa poderosa
+150,Double Up,Doppio rischio
+151,One-on-One,Ultimo sangue
+152,Body Slam,Attacco frontale
+153,Sweet Breath,Dolce respiro
+154,Burning Breath,Respiro di fuoco
+155,Poison Breath,Alito velenoso
+156,Venom Breath,Respiro letale
+157,Bemusing Breath,Alito del caos
+158,Weird Dance,Strandanza
+159,Tap Dance,Danza magica
+160,Fuddle Dance,Danza del caos
+161,Death Dance,Danza della morte
+162,Sultry Dance,Danza della passione
+163,Kerplunk Dance,Danza sacrificale
+164,Hustle Dance,Danza rinvigorente
+165,Dodgy Dance,Danza evasiva
+166,Sandstorm,Tempesta di sabbia
+167,Dazzle flash,Danzaluce
+168,Spooky Aura,Aura mostruosa
+169,Wave of Relief,Onda guaritrice
+170,Wave of Panic,Vento di terrore
+171,Disruptive Wave,Onda distruttrice
+172,Deep Breath,Respiro profondo
+173,Tongue Lashing,Colpo di lingua
+174,War Cry,Grido di guerra
+175,Ban Dance,Danza ipnotica
+176,Gobstopper,Boccachiusa
+177,Brake Wind,Ventofresh
+178,Mist Me,Nebbiamica
+179,Blowback,Respiro riflesso
+180,Meditation,Meditazione
+181,Salvation,Canto salvifico
+182,Rain,Pioggia Amor Seco
+183,Critical Miss,Zero critico
+184,Reheal,Cura perpetua
+185,Mercurial,Colpo perforante
+186,Predict slash,Fendente contrattacco
+187,Predict strike,Contrattacco marziale
+188,Predict cast,Contromagia
+189,Predict breath,Controrespiro
+190,Predict dance,Controdanza
+191,Huge Magic Burst,Mega esplosione magica
+192,Break Seal,Blocca-sigilli
+193,Tension Passer,Trasferitensione
+194,Anchor,Colpo in ritardo
+195,S195,Valzer funesto
+196,S196,Fendicielo
+197,S197,Fendimare
+198,S198,Fenditerra
+199,S199,Tiro lucente
+200,Take this,Prendi questo!
+201,Wicked Dance,Danza degli inferi
+202,S202,Fendente Damore
+203,is confused,Ancora confuso!
+204,Is confused,Ancora confuso!
+205,cowers,Trema di paura!
+206,wait,Valutazione della situazione.
+207,is dazed,Fissa il vuoto.
+208,is hesitant,Non sa cosa fare!
+209,Mental Concentration,Hocus Pocus
+210,Glob,GLOBLITERA TUTTI GLI INTRUSI!
+211,Odd,L'Esplo-sasso si comporta in modo strano!
+212,Wave,Megagravitas!
+214,Salvation,Canto salvifico
+215,Rain,Pioggia Amor Seco
+216,Gulp,Glu glu!
+217,Frenzy,Foga furiosa
+218,Noself,Altruismo
+219,Malhaze,Malocchio persistente
+220,Aha,Matuguard
+221,S221,Abilitatore
+222,Song of Salvation,Canto salvifico
+223,Round Zero,Round Zero
+224,Strategy Seal,Lampada tattica
+225,Slash Seal,Bloccacolpi
+226,Rivers,Ordine inverso
+227,Strategy Seal Breath,Respiro bloccatattiche
+228,Slash Seal Breath,Respiro bloccafendenti
+229,Strike Seal Breath,Respiro bloccaarti marziali
+230,Swords Dance,Danza della spada
+231,Underworld Fog,Nebbia degli inferi
+232,Sizz,Pyro
+233,Sizzle,Superpyro
+234,Kasizz,Megapyro
+235,Kasizzle,Pyro supremo
+236,Pearly Gates,Amen
+237,Miracle Slash,Colpo miracoloso
+238,Slime Cut,Schiacciamoslime
+239,Nature Cut,Indeboliscinatura
+240,Beast Cut,Pesta-bestie
+241,Material Cut,Turbine dei materiali
+242,Demon Cut,Umiliademoni
+243,Undead Cut,Disfa-nonmorti
+244,Multifists,Kick boxing
+245,Big Banga,Big Bang
+246,Defuddle,Mentefresca
+247,Magic Multp,Moltiplicamagia
+248,Hocus Locust,Minus Magis
+249,Wind Sickles,Vento di lame
+250,Thin Air,Aria di guai
+251,Wind Shear,Venti fendenti
+252,Chain,Serial
+253,Squash,Gravitas
+254,S254,Megagravitas
+255,S255,Spaccafiamma

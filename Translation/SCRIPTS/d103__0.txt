@@ -84,12 +84,12 @@ STORE 0x18 0x1 0x0 0x0 0x40000000
 STORE 0x18 0x1 0x3f800000 0x2 0x43250000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}It's what all True Monster Scout Challenge fans have been waiting for!{WAIT}{CLEAR}The titans are ready to clash in a spectacular exhibition match!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}Abbiamo una bella sorpresa per i tifosi del Torneo {1F29}out Pro...!{WAIT}{CLEAR}Tra poco vedremo una sfida amichevole, ma non per questo meno interessante!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Referee"
-SAY "{VOICE=07}Can {NAME} show the stuff that true champions are made of?"
+SETNAME "Arbitro"
+SAY "{VOICE=07}Riuscirà {NAME} a dimostrare tutto il suo indiscutibile valore?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -104,8 +104,8 @@ SYS_13 0x8
 STORE 0x18 0x1 0x0 0x2 0x42700000
 SYS_14 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}Let's do this!{BREAK}...Ready! ...Set! ...FIGHT!!!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}{1F2F} comincia!{BREAK}Ai vostri posti...! Pronti...? COMBATTETE!"
 SYS_44 0x8 
 SYS_43 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41a00000
@@ -164,8 +164,8 @@ STORE 0x18 0x1 0x0 0x0 0x40000000
 STORE 0x18 0x1 0x3f800000 0x2 0x43250000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}...We have a winner!!!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}Abbiamo un vincitore!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -182,8 +182,8 @@ STORE 0x18 0x1 0x0 0x2 0x0
 SYS_8C 0x8 
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}Sure enough, he's built from strong stuff. Our mighty champion, {NAME}!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}Il nostro {NAME} ha confermato di essere uno {1F29}out di altissimo livello!"
 WAIT 0x10 0x2 0x3f800000
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41f00000
@@ -236,7 +236,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}This...CANNOT...be happening! Me, losing in a single round!? Come ON!"
+SAY "{VOICE=08}Questo... NON PUÒ... essere successo! Ho perso in un solo turno?! È assurdo!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -276,16 +276,16 @@ STORE 0x18 0x1 0x3f800000 0x0 0x40c00000
 SYS_A8 0x8 
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}Huh!? It's all over!? You have GOT to be kidding me!"
+SAY "{VOICE=08}Ci hai messo {E322} turni per vincere? È assurdo! Non può essere successo!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}It only took {E322} rounds to defeat me? This CANNOT be happening!"
+SAY "{VOICE=08}Solitaire non è finita! Sappi che mi prenderò la rivincita!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} obtains　10000{COLOR=0}{226}{COLOR=2}!"
+SAY "{COLOR=2}{NAME} ha ottenuto 10000{COLOR=0}{226}{COLOR=2}!"
 WAIT 0x10 0x2 0x3f800000
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
@@ -309,7 +309,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43160000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}And just remember - I've got a thirst for revenge, so be warned!"
+SAY "{VOICE=08}E ci hai messo solo {E322} turni per battermi?! Non posso crederci..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -358,7 +358,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}This is NOT happening! I can't believe I lost to this spiky-headed brat AGAIN!"
+SAY "{VOICE=08}E ricordati: ho una gran voglia di vendicarmi, quindi stai in guardia!"
 SYS_44 0x8 
 CMP_LE 0x18 0x2 0x42c60000 0x0 0x40c00000
 JMP_IFNOT 0xc L_18c8
@@ -369,7 +369,7 @@ STORE 0x18 0x1 0x0 0x2 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x0 0x40c00000
 SYS_A8 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}And it only took you {E322} rounds to beat me!? I can't believe it..."
+SAY "{VOICE=08}Non è ancora finita, bamboccio.{BREAK}Niente affatto.{WAIT}{CLEAR}Finché avrò anche solo una possibilità, non mi arrenderò."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -401,16 +401,16 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43140000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}But this isn't over, kiddo.{BREAK}Not by a long shot.{WAIT}{CLEAR}As long as I've got even the smallest fraction of a chance, I won't give up."
+SAY "{VOICE=08}Stai attento, campionucolo dei miei stivali! Ho una gran voglia di vendicarmi!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}You'd better watch out, Mr Big Shot Champion! I've got a thirst for revenge!"
+SAY "{VOICE=08}Eh...? È già finita...? Mi stai prendendo in giro...? È uno scherzo, vero...?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} obtains　50000{COLOR=0}{226}{COLOR=2}!"
+SAY "{COLOR=2}{NAME} ha ottenuto 50000{COLOR=0}{226}{COLOR=2}!"
 WAIT 0x10 0x2 0x3f800000
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
@@ -434,7 +434,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43160000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}I'm just getting warmed up, so you'd better watch out, Mr Big Shot Champion!"
+SAY "{VOICE=08}Mi sto solo scaldando, quindi faresti meglio a stare in guardia, campionucolo dei miei stivali!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -483,7 +483,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}No way! I lost again?!"
+SAY "{VOICE=08}Non può essere! Ho perso di nuovo?!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 CMP_LE 0x18 0x2 0x42c60000 0x0 0x40c00000
@@ -495,11 +495,11 @@ STORE 0x18 0x1 0x0 0x2 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x0 0x40c00000
 SYS_A8 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}It only took {E322} rounds to defeat me? This CANNOT be happening!"
+SAY "{VOICE=08}Ci hai messo {E322} turni per battermi? È assurdo! Non può essere successo!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}You have to be some kind of monster..."
+SAY "{VOICE=08}Devi essere un mostro, per forza..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -533,16 +533,16 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43140000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}This isn't over! Not by a long shot!"
+SAY "{VOICE=08}Non è finita! Niente affatto!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}... Whatever. Here's your prize money."
+SAY "{VOICE=08}... Comunque. Ecco il tuo premio in denaro."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} obtains　100000{COLOR=0}{226}{COLOR=2}!"
+SAY "{COLOR=2}{NAME} ha ottenuto 100000{COLOR=0}{226}{COLOR=2}!"
 WAIT 0x10 0x2 0x3f800000
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
@@ -566,7 +566,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43160000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}I'm just getting warmed up, so you'd better watch out, Mr Big Shot Champion!"
+SAY "{VOICE=08}Mi sto solo scaldando, quindi faresti meglio a stare in guardia, campionucolo dei miei stivali!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -626,8 +626,8 @@ STORE 0x18 0x1 0x0 0x0 0x40000000
 STORE 0x18 0x1 0x3f800000 0x2 0x43250000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}...We have a winner!!!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}...Abbiamo un vincitore!!!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -650,8 +650,8 @@ STORE 0x18 0x1 0x0 0x2 0x0
 SYS_8C 0x8 
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}In a shocking turn of events, our champion's been defeated!{WAIT}{CLEAR}They'll be talking about this one for years to come!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}Incredibile! Il nostro campione è stato sconfitto!{WAIT}{CLEAR}Se ne parlerà per anni!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -666,15 +666,15 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}Ha! Seems you winning the Monster Scout Challenge was a fluke after all!"
+SAY "{VOICE=08}Ah! A quanto pare, la tua vittoria nel Torneo è stata solo un colpo di fortuna!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}At the next True Monster Scout Challenge, I'll be crowned champion. You'll see!"
+SAY "{VOICE=08}Sarò io a vincere il prossimo Torneo Monster Scout Pro, vedrai!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}If you don't like it, why not give it another shot, Mr So-Called Champion?"
+SAY "{VOICE=08}Se non ti va bene, perché non ci riprovi, campionucolo dei miei stivali?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

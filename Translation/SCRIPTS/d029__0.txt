@@ -50,8 +50,8 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x42700000
 SYS_42 0x8 
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}Did ye see the size o' that thing!?"
+SETNAME "Meck Nick"
+SAY "{VOICE=07}Hai visto quanto era grande quella cosa!?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -70,12 +70,12 @@ STORE 0x18 0x1 0x0 0x0 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x2 0x428c0000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}Don't ye be pickin' any fights with that worm, ye hear?"
+SETNAME "Meck Nick"
+SAY "{VOICE=07}Non metterti a combattere con quel verme, hai capito?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}Ye cannae afford tae let yer guard doon for a second on this island!"
+SETNAME "Meck Nick"
+SAY "{VOICE=07}Su quest'isola non puoi permetterti di abbassare la guardia nemmeno per un secondo!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

@@ -397,7 +397,7 @@ STORE 0x18 0x1 0x0 0x2 0x40400000
 SYS_A7 0x8 
 SYS_AC 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{E321}{NAME} obtains the mysterious medal!"
+SAY "{COLOR=2}{E321}{NAME} ottiene la medaglia misteriosa!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -474,8 +474,8 @@ STORE 0x18 0x1 0x0 0x0 0x41000000
 STORE 0x18 0x1 0x3f800000 0x2 0x42880000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}Oooch! Auch! The pain! The pain!{BREAK}...Where am I anyway!?"
+SETNAME "Meck Nick"
+SAY "{VOICE=07}Ahi! Ahi! Che dolore! Che dolore!{BREAK}...Dove mi trovo!?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -508,24 +508,24 @@ STORE 0x18 0x1 0x0 0x0 0x41000000
 STORE 0x18 0x1 0x3f800000 0x2 0x428c0000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}Jings! If it isnae the wee stowaway!"
+SETNAME "Meck Nick"
+SAY "{VOICE=07}Per tutti i mostri! Guarda chi si vede, il clandestino!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}Do I owe ma rapid reversal o' fortune tae your intervention, laddie?"
+SETNAME "Meck Nick"
+SAY "{VOICE=07}Devo a te questo improvviso cambio di fortuna, ragazzo?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}Well then, I suppose it's high time I stop callin' ye the stowaway."
+SETNAME "Meck Nick"
+SAY "{VOICE=07}Bene, allora direi che è ora di smettere di chiamarti clandestino."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}I owe ye one, laddie! And there's no doubt aboot it...{WAIT}{CLEAR}...Yer a real monster scout now!"
+SETNAME "Meck Nick"
+SAY "{VOICE=07}Ti devo un favore, ragazzo! E non c'è alcun dubbio...{WAIT}{CLEAR}...ora sei un vero Scout!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}Things were lookin' bleak, but ye've given us a fightin' chance!"
+SETNAME "Meck Nick"
+SAY "{VOICE=07}La situazione sembrava disperata, ma ci hai dato una possibilità di combattere!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -640,12 +640,12 @@ STORE 0x18 0x1 0x0 0x0 0x40c00000
 STORE 0x18 0x1 0x3f800000 0x2 0x42a40000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Archie Logg"
-SAY "{VOICE=07}Rory! {E321}{NAME}! Thank the Goddess you're both alright!"
+SETNAME "Marcus Logos"
+SAY "{VOICE=07}Meck Nick! {E321}{NAME}! Grazie alla dea siete entrambi salvi!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Archie Logg"
-SAY "{VOICE=07}Now, I'm terribly sorry, Rory, but something has come to my attenti-"
+SETNAME "Marcus Logos"
+SAY "{VOICE=07}Ora, mi dispiace moltissimo, Meck Nick, ma ho appena notat-"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -697,8 +697,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3e99999a
 SYS_54 0x8 
 WAIT 0x10 0x2 0x40a00000
 SYS_42 0x8 
-SETNAME "Archie Logg"
-SAY "{VOICE=07}...(gasp) Th-That medal! L-Let me take a look..."
+SETNAME "Marcus Logos"
+SAY "{VOICE=07}... (sussulta) Q-quella medaglia! F-fatemi dare un'occhiata..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -757,8 +757,8 @@ STORE 0x18 0x1 0x40000000 0x2 0x41200000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x42b40000
 SYS_42 0x8 
-SETNAME "Archie Logg"
-SAY "{VOICE=07}There's no mistaking that insignia. This means the legends are true. I KNEW it!"
+SETNAME "Marcus Logos"
+SAY "{VOICE=07}Non c'è dubbio su quell'emblema. Significa che le leggende sono vere. LO SAPEVO!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -829,8 +829,8 @@ STORE 0x18 0x1 0x0 0x0 0x40c00000
 STORE 0x18 0x1 0x3f800000 0x2 0x42a00000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Archie Logg"
-SAY "{VOICE=07}The instant I saw that huge monster,{BREAK}I recalled something I once read..."
+SETNAME "Marcus Logos"
+SAY "{VOICE=07}Appena ho visto quel mostro gigantesco,{BREAK}mi sono ricordato di qualcosa che avevo letto..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40c00000
@@ -843,8 +843,8 @@ WAIT 0x10 0x2 0x41a00000
 STORE 0x18 0x1 0x0 0x0 0x40c00000
 STORE 0x18 0x1 0x3f800000 0x2 0x42a40000
 SYS_18 0x8 
-SETNAME "Archie Logg"
-SAY "{VOICE=07}According to legend, there once lived an extraordinary master scout.{WAIT}{CLEAR}It is said that he was able to bend even the greatest of monsters to his will..."
+SETNAME "Marcus Logos"
+SAY "{VOICE=07}Secondo la leggenda, un tempo viveva uno straordinario maestro degli Scout.{WAIT}{CLEAR}Si dice che riuscisse a piegare al suo volere persino i mostri più potenti..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -893,8 +893,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x40a00000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x40a00000
 SYS_42 0x8 
-SETNAME "Archie Logg"
-SAY "{VOICE=07}And the symbol on that medal is that of the master scout!"
+SETNAME "Marcus Logos"
+SAY "{VOICE=07}E il simbolo su quella medaglia è proprio quello del maestro degli Scout!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -955,8 +955,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3c23d70a
 SYS_54 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SETNAME "Archie Logg"
-SAY "{VOICE=07}Don't you see what this means!?{WAIT}{CLEAR}This sacred island was once home to that legendary scout!"
+SETNAME "Marcus Logos"
+SAY "{VOICE=07}Non capisci cosa significa!?{WAIT}{CLEAR}Questa isola sacra era un tempo la casa di quello Scout leggendario!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1001,8 +1001,8 @@ STORE 0x18 0x1 0x0 0x0 0x41000000
 STORE 0x18 0x1 0x3f800000 0x2 0x428c0000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}So yer sayin' ye want tae keep investigatin' this place!?{WAIT}{CLEAR}Have ye no learned yer lesson yet, laddie?"
+SETNAME "Meck Nick"
+SAY "{VOICE=07}Quindi vuoi continuare a indagare su questo posto!?{WAIT}{CLEAR}Non hai ancora imparato la lezione, ragazzo?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1043,8 +1043,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42bc0000
 SYS_18 0x8 
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SETNAME "Archie Logg"
-SAY "{VOICE=07}...Of course. You're right. I shall return to the ship immediately."
+SETNAME "Marcus Logos"
+SAY "{VOICE=07}...Certo. Hai ragione. Tornerò subito alla nave."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1084,8 +1084,8 @@ STORE 0x18 0x1 0x0 0x0 0x40c00000
 STORE 0x18 0x1 0x3f800000 0x2 0x42a40000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Archie Logg"
-SAY "{VOICE=07}{E321}{NAME}, please guard that artifact with your life.{WAIT}{CLEAR}It is of supreme historical importance."
+SETNAME "Marcus Logos"
+SAY "{VOICE=07}{E321}{NAME}, ti prego, proteggi quell'artefatto a costo della vita.{WAIT}{CLEAR}Ha un'importanza storica assoluta."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1138,8 +1138,8 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}Och, one other thing while yer here,{BREAK}ye wee brainbox.{WAIT}{CLEAR}Ye didnae happen tae spot anyone else from the ship, did ye?"
+SETNAME "Meck Nick"
+SAY "{VOICE=07}Oh, già che sei qui, un'altra cosa,{BREAK}piccolo cervellone.{WAIT}{CLEAR}Per caso hai visto qualcun altro della nave?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1151,12 +1151,12 @@ STORE 0x18 0x1 0x0 0x0 0x40c00000
 STORE 0x18 0x1 0x3f800000 0x2 0x42a40000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Archie Logg"
-SAY "{VOICE=07}I'm afraid not. But I did find a passageway to the plains."
+SETNAME "Marcus Logos"
+SAY "{VOICE=07}Temo di no. Però ho trovato un passaggio verso le pianure."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Archie Logg"
-SAY "{VOICE=07}Listen carefully and I'll tell you precisely where it's located..."
+SETNAME "Marcus Logos"
+SAY "{VOICE=07}Ascolta attentamente e ti dirò esattamente dove si trova..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1178,13 +1178,13 @@ STORE 0x18 0x1 0x40000000 0x2 0x41200000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}{E321}{NAME} can now go to a new region - the Doubtback!"
+SAY "{COLOR=2}{E321}{NAME} può ora raggiungere una nuova regione: Vastopiano!"
 WAIT 0x10 0x2 0x3f800000
 STORE 0x18 0x1 0x0 0x2 0x42780000
 SYS_A5 0x8 
 WAIT 0x10 0x2 0x42340000
 WAIT 0x10 0x2 0x41200000
-SAY "{COLOR=2}Go to the main map and the new region will be displayed!{WAIT}{CLEAR}From then on, you'll be able to use Zoom to go straight there."
+SAY "{COLOR=2}Apri la mappa principale e vedrai la nuova regione!{WAIT}{CLEAR}Da quel momento potrai usare Zoom per raggiungerla direttamente."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1215,8 +1215,8 @@ STORE 0x18 0x1 0x0 0x0 0x41000000
 STORE 0x18 0x1 0x3f800000 0x2 0x428c0000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}All right, let's head back tae the good auld Albatross."
+SETNAME "Meck Nick"
+SAY "{VOICE=07}Va bene, torniamo sulla buona vecchia Albatross."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

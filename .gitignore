@@ -1,3 +1,5 @@
 
 __pycache__/
 *.pyc
+game/
+Pro_Tools/*.bin

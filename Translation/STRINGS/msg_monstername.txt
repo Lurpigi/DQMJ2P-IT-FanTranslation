@@ -1,331 +1,329 @@
 
 Slime
-Bubble Slime
-Shell Slime
-Healslime
-Drake Slime
-Metal Slime
-Slime Knight
-Wild Slime
-Liquid Metal Slime
-Angel Slime
-King Slime
-King Bubble Slime
-Metal King Slime
-Grandpa Slime
-Gem Slime
+Bollaslime
+Guscioslime
+Dottor Slime
+Minidrago Slime
+Slime metallico
+Paladino Slime
+Slimpunk
+Metaliquislime
+Slime angelico
+Re Slime
+Re Bollaslime
+Re Metalslime
+Nonno Slime
+Prezioslime
 Trode
-She-Slime
-Snail Slime
-Cureslime
-Behemoth Slime
-Beshemoth Slime
-Dragon Slime
-Metal Slime Knight
-Metal Kaiser Slime
-Dark Slime Knight
-Dark Slime
-King Cureslime
-Darkonium Slime
-Mottle King Slime
+Slimetta
+Slimaca
+Curaslime
+Gigaslime
+Gigaslime arancione
+Dragonslime
+Metalcabal Slime
+Metalslime regale
+Milislime oscuro
+Slime oscuro
+Re Curaslime
+Slime Darkonium
+Re Slime maculato
 
-Slime Gang
-Slider Girl
+Gang Slime
+Ragazza Slider
 Slime Blaster
-Dark Mecha-Slime
-Diamond Slime
-Liquid Metal King Slime
-Kon The Knight
-Prism Peacock
+Roboslime oscuro
+Sliamante
+Re Metaliquislime
+Cavalliere
+Pavone prismatico
 
-Goresby-Purrvis
+Generale Pardus
 Yggdrasil
 Munchie
-Mossferatu
-Baalzack
+Musferatu
+Balzack
 
 Pruslas
-Robbin's Old Lady
-Small Fry
-Komodo
-Gasbagon
-Argon Lizard
+Robbin's Lady
+Lacertoflamma
+Giallosauro
+Pallodrago
+Dragocertola
 
-Green Dragon
-Drag-goof
+Verdrago
+Dragarcio
 Jargon
-Metal Dragon
-Drag Racer
-Hacksaurus
-Red Dragon
-Dragurn
-Great Argon Lizard
-Ethereal Serpent
-Mechanowyrm
-Great Dragon
-Drakulard
+Metaldragone
+Kurridor
+Asciasauro
+Porpordrago
+Jargon verde
+Megacertola
+Serpe eterea
+Mechadrago
+Gigadragone
+Draku Lard
 Dragonlord
 
-Dragovian Lord
-Mandrake Marshal
-Skelegon
-Dragonthorn
-Nardragon
-Frou-Fry
-Sea Dragon
-Seasaur
-Snapdragon
-Drakularge
-Tyrantosaurus
-Black Dragon
-Frou-Frou
-Abyss Diver
-Megalodon
-Alabast Dragon
+Sire Dragoviano
+Mandragola soldato
+Skeledrago
+Dragospino
+Dragocorno
+Frufrina
+Drago marino
+Drago d'acqua
+Rapax
+Lardodragon
+Tyrantosauro
+Dragone nero
+Frufrù
+Dragoon
+Megalodonte
+Dragobastro
 
-Dragonfry
-Damselfly
-Armoured Wartoise
-Dragon Rider
+Lacertoflamma
+Libellula
+Testuggine corazzata
+Cavaliere dei Draghi
 Rashaverak
-Tortoceratops
-Sintaur
-Bilhaw
-Tri Winder
-Dimensional Dragon
+Tartaculei
+Ardimentauro
+Grifotauro
+Tri Aculeo
+Drago dimensionale
 Xiphos
-Platypunk
-Great Sabrecub
-Scissor Beatle
-Stark Raven
-Jailcat
-Khalamari Kid
-Capsichum
-Hell Hornet
-Chimaera
-Hades Condor
-Frogface
-Crabid
-Bullfinch
-Eyevory Tusk-Tusk
-Giant Moth
-Treeface
-Yabby
-Gorerilla
-Scorpion
-Heligator
-Great Sabrecat
+Ornitorink
+Baby Granzann
+Scaraforbici
+Corvoscuro
+Rigatto
+Baby piovra
+Pepe & Rone
+Infernape
+Chimera
+Condor blu
+Ranassassina
+Grankiolon
+Toro incavolato
+Pachidermico
+Falena gigante
+Faccia d'albero
+Crostaceus
+Groarilla
+Skorpio
+Kaiman
+Koguar
 Garuda
-Bantamweight
-Firebird
-Elder Pipit
-King Squid
-Khalamari
+Peso gallo
+Penna di fuoco
+Pipetto Anziano
+Piovra regina
+Piovron
 Leopold
 Empyrea
-Spiked Hare
-Powie Yowie
-Wild Boarfish
-Eveel
-Riptide
-Beetlebully
-Cruelcumber
-Army Ant
-Florajay
-Cactiball
+Corniglio viola
+Yeeteeh
+Ichtus verde
+Malanguilla
+Assalitore marino
+Scaradozer
+Verdurfante
+Formica soldato
+Ghiandaia floreale
+Cactusfera
 Sentripede
-Rockin' Rockhopper
-Whackanape
-Lleviathan
+Pinguinrock
+Scimmia fracassona
+Baleviatan
 Pipit
-Compos Mantis
-Flamethrower
-Blizzybody
-Wooper Trooper
-Mischievous Mole
-Bodkin Archer
-Hammerhood
-Satyr
-Jumping Jackal
-Genie Sanguini
-Chainine
-Puppeteer
-Beetleboy
-Orc
-Headhunter
-Fallen Priest
-Fencing Fox
-Pan Piper
+Mantis composita
+Lanciafuoco
+Frigoforo
+Guerreruspo
+Cattivalpa
+Anselmo Tell
+Martellus
+Satyro
+Sciakallo
+Sanguinigenio
+Mastino guerriero
+Burattinaio nero
+Scarafante nero
+Cinghialorco
+Cacciateste
+Druido del male
+Athos
+Pan
 
 Gargoyle
-Weartiger
+Tigre mannara
 
-Gigantes
-Cockateer
-Monkey Zombie
-Notso Macho
-King Sanguini
-Boss Troll
+Gigante
+Pollo d'attacco
+Scimmia Zombie
+Pocomacho
+Re Sanguini
+Troll capo
 Atlas
 Don Mole
-Robbin' Hood
+Ruban Hood
 Dhoulmagus
 Rhapthorne
 Rhapthorne II
-Ace Of Spades
-Brownie
-Leokid
+Asso di picche
+Martellus magnus
+Leonix
 
-Boppin' Badger
-Pickayune
-Vampire Cat
-Sea Dog
-Damned Ram
-Bewarewolf
-Mortoad
-Trigertaur
-Half Hog
-Tantamount
-Squign
-Alphyn
-Goreham-Hogg
-Slon The Rook
-Bag O' Laughs
-Wax Murderer
-Firespirit
-Mecha-Mynah
-Mud Mannequin
-Dingaling
-Goodybag
-Shadow
-Cannibox
-Spitnik
-Hunter Mech
-Rockbomb
-Mum
+Kan Kanide
+Picchiune
+Gatto vampiro
+Cane di mare
+Montone dannato
+Lupomannaro
+Rospo blu
+Trigertauro
+Mezzo porco
+Tanamount
+Squigno
+Alfino
+Generale Soinos
+Slon la Torre
+Sacco golosone
+Ferocandela
+Fuoco fatuo
+Pettirobot
+Pu pazzo
+Campanella
+Sacco dentato
+Ombra
+Cannibaule
+Sole & Soletto
+Mechator grigio
+Esplo-sasso
+Mam
 Golem
-Boh
-Dancing Flame
-Jum
-Frostburn
-Boe
-King Kelp
-Mimic
-Diemon
-Überkilling Machine
-Gold Golem
-Living Statue
-Trap Box
-Killing Machine
-Mumboh-Jumboe
-Ruin
+Bu
+Fiamma danzante
+Jam
+Spirito gelido
+Bo
+Alga sovrana
+Skrigno dentato
+Dademone blu
+Cybercentauro
+Golem dorato
+Statua vivente
+Demonskrigno
+Mechacentauro
+Mambu-Jambo
+Rovina
 Psaro
 Estark
-Anchorman
+Ankora killer
 Ticking Timeburrm
-Corrupt Carter
-Pocus Poppet
+Corriere Corrotto
+Magibambola
 Axecutioner
-Chariot Chappie
-Moai Minstrel
-Harmour
-Foo Dog
+Carrettiere
+Menestrello Moai
+Armour
+Caneffu
 Cumulus Rex
-Octagoon
-Wishmaster
-Automaton
-Scytheborg
-Terracotta Warrior
-Escudogre
-The Time Being
-Dracky
-Lips
-Winky
-Imp
-Lump Wizard
-Night Emperor
-Dancing Devil
-Knight Aberrant
-Merman
-Lesser Demon
-Gryphon
-Aggrosculpture
-Octavian Sentry
-Silvapithecus
-Malevolynx
-Archdemon
-Moosifer
-Buffalogre
+Octagos
+Signore dei desideri
+Automa
+Borgomietitore
+Guerriero di terracotta
+Scudorkus
+Semper Actualis
+Vampistrello
+Smacker
+Monocolo
+Diavoletto
+Blob bianco
+Re della notte
+Demone danzante
+Cavaliere Aberrante
+Athlantos
+Demone minore
+Grifone
+Aggroscultura
+Polisentinella
+Silvapiteco
+Malevoleonex
+Arcidemone
+Basettos
+Bufalorco
 Jamirus
-Mohawker
-Pazuzu
+Cresta furiosa
+Rosapiteco
 Gracos
-Belial
-Night Clubber
+Bestiah
+Randellatore notturno
 Malroth
 Zoma
 Nimzo
-Mortamor
-Orgodemir
-See Urchin
-Dessert Demon
-Lethal Armour
-Great Dracky
-Wrecktor
-Demon-At-Arms
-Tree Feller
-Gruffon
-Prickly Prankster
-Grim Keeper
-Captain Catastrophe
-High Djinks
-Juggular
-Hootingham-Gore
-Baron Von Bellycose
-King Korol
+Moltomort
+Granvert
+Riccio ribelle
+Dolcimonius
+Armatura letale
+Grampistrello
+Destructore
+Demone multimani
+Taglialbero
+Gruffone
+Jolly killer
+Custode tetro
+Capitan Catastrofe
+Mago pancione
+Juggulare
+Generale Gufus
+Barone Von Bellycose
+Re Korol
 Hyperanemon
-Blackmar
+Neromar
 Aamon
-Cerberwretch
-Ghost
-Stump Chump
-Drooling Ghoul
-Muddy Hand
-Swingin' Hipster
-Funghoul
-Discombombulator
-Walking Corpse
-Demonrider
-Skeleton
-Restless Armour
-Grim Rider
-Mummy Boy
-Soulspawn
-Wailin' Weed
-Phantom Fencer
-Roseguardin
-Bone Baron
+Cerbero
+Phantasma
+Ceppo Geppo
+Ghoul sbavante
+Mano
+Hipster swingante
+Nauseafungus
+Dirigibilio
+Zombeeh
+Cavaliere feroce
+Skeletro
+Armatura killer
+Cavalier Mortimer
+Cocco di mummia
+Ira
+Kantalga
+Fantagnan
+Guardarosa
+Baron Skeletro
 Dullahan
-Tortured Soul
-Captain Crow
-Dr Snapped
-Skipper
-Flyguy
-Hellhound
-Skeleton Soldier
-Phantom Swordsman
-Wight King
-Dark Crab
-Cobra Cardinal
-Wight Knight
-Ragin' Contagion
-Gigalumph
-Grotwyrm
-Ladja
+Anima torturata
+Capitan Crow
+Prof Briskod
+Stivale matto
+Uomosca
+Lupo infernale
+Soldaskeletro
+Principe Spectros
+Druido supremo
+Granchio oscuro
+Cobra cardinale
+Cavaliere dell'Ombra
+Epidemon
+Gigalunfo
+Verme delle Grotte
+Pope Skriterioska
 
-King Godwyn II
-
-
+Re Godwyn II
 
 
 
@@ -334,183 +332,184 @@ King Godwyn II
 
 
 
-Wulfspade
-Hawkhart
-Cluboon
-Diamagon
-Wulfspade Ace
-Hawkhart Ace
-Cluboon Ace
-Diamagon Ace
-Wildcard
+
+
+Lupicche
+Cuordifalco
+Fiorango
+Quadrago
+Lupicche Asso
+Cuordifalco Asso
+Fiorango Asso
+Quadrago Asso
+Joker
 
 Darck
 Magarugi
-Baboorood
-Baboodread
-Zoma's Devil
+Re Babbuino
+Babbuincubo
+Mini Zoma
 Gadis
-Stormsgate Citadel
-Meddle Slime
+Forte di Nadiria
+Lattaslime
 
-Dracolord
+Dragonlord
 Stella
-Greygnarl
+Dragriphon
 Barbarus
 Corvus
-Bjorn
-Conklave
-Mental Pitcher
-Heedoovoodoo
-Cheeky Tiki
-Swarmtroop
-Wormonger
-Killerpillar
-Missing Lynx
+Wasen
+Vegetribù
+Peracolosa
+Mostradamus
+Maskerossa
+Zanzakiller
+Vermex
+Millecolpi
+Lince alata
 Scruffy
-Hyper Heyedra
-Bad Egg
-Heyedra
-Weedie
-Baramos
-Magmalice
-Fright Knight
+Bulbo ramificato
+Maluovo
+Tentacolocchio
+Multifoglia
+Padramos
+Magmalvagio
+Cavalier Terror
 Hargon
 Titanis
-Mottle Slime
-Rubble Slime
-Magic Slime
+Slime maculato
+Slime polifemico
+Magislime
 Cyber Slime
-Rotten Egg
-Snowmangler
-Noble Gasbagon
-Aquestrian Gladiator
-Boreal Serpent
+Ovomarch
+Homo nevis
+Gran Pallodrago
+Gladiatore marino
+Serpe boreale
 Orochi
-Zenith Dragon
-Weaken Beakon
+Drago di Zenithia
+Beck Beck
 Barracuda
-Boring Bug
-Gripevine
-Cross Eye
-Paws
-Snowbird
-Marquis De Léon
-Erazor Blade
-Overkilling Machine
-Malevolamp
-Firn Fiend
-Balhib
-Conkettes
-Dangler Fish
-Dhuran
+Zeck
+Fiore della morte
+Spiritocchio
+Pescelupo
+Gelatile
+Marchese de Léon
+Riditarra
+Mega Mechator
+Malampada
+Gelmonio
+Centopetra
+Minitribù
+Multident
+Duran
 Nokturnus
 Gemon
-Murdaw
-Bona Constrictor
-Cross Bones
-Drohl Drone
-Night Knight
-Dierantula
+Lacertow
+Serpe d'ossa
+Ossassassino
+Droll
+Paladinorribilis
+Terrorantula
 Exorsus
 Taurus
-Dual Duellers
-Dorsal Fiend
-Thornella
-Kapurigon
-Mortella
+Gemines
+Demonstrum
+Virgax
+Kapurim
+Scorpia
 Rigor Mortex
-Canzar
+Cancerio
 Aquarion
-Sagittar
+Sagitta
 
-Leonyx
-Schwarzman Tank
+Leonex
+Carro Slival
 Ultra Slime
-Trauminator
-Tyrannosaurus Wrecks
-Teeny Sanguini
-Pink Sanguini
-Shogum
-Slime Stack
-Fluffy
-Numen
-Nemeslime
-Prince O' Thieves
-Robbin' Huddle
-Great Godbird
+Traumatizzator
+Tiranosfascia
+Sanguinis
+Sanguonicum
+Slime Perbellum
+Torreslime
+Ovattino
+Divino
+Slime Nemo
+Principe Latrum
+Band
+Terrore alato
 Xenlon
-Maniacal Mole
-Seedy Weedie
-Drohl Diabolist
-Schleiman Tank
+Rossotalpa
+Multifoglia Klar
+Droll Diabolista
+Tankissimus
 
 
-Hyper Heyedra
-Wormonger
-Missing Lynx
-Tall Tail
-Baby Bjorn
-Bjorn
-Bjorn
-Baby Bjorn
-Tentickle
-Missing Lynx
+Bulbo ramificato
+Vermex
+Lince alata
+Coda lincea
+Wasinen
+Wasen
+Wasen
+Wasinen
+Tentack
+Lince alata
 Gemon
 Empyrea
-Khalamari
-Overkilling Machine
-Sagittar
+Piovron
+Mega Mechator
+Sagitta
 
-Leonyx
-Great Dragon
-Wight King
-Metal King Slime
-Bilhaw
-Captain Crow
-Malevolynx
+Leonex
+Gigadragone
+Druido supremo
+Re Metalslime
+Grifotauro
+Capitan Crow
+Malevoleonex
 
-Schleiman Tank
+Tankissimus
 Dhoulmagus
 Barbarus
 Nokturnus
 Ultra Slime
-Nemeslime
+Slime Nemo
 Estark
-Dimensional Dragon
+Drago dimensionale
 Stella
-Baboorood
-Baboodread
+Re Babbuino
+Babbuincubo
 Don Mole
-Canzar
-Harmour
+Cancerio
+Armour
 Rigor Mortex
-Wight Knight
-Knight Aberrant
-Balhib
-Ethereal Serpent
-Dragovian Lord
+Cavaliere dell'Ombra
+Cavaliere Aberrante
+Centopetra
+Serpe eterea
+Sire Dragoviano
 Leopold
-Overkilling Machine
-Demon-At-Arms
-Liquid Metal Slime
-Saggitar
-Trauminator
-Night Clubber
-Hootingham-Gore
-Teeny Sanguini
-Pink Sanguini
-Genie Sanguini
-Ruin
-Goresby-Purrvis
-Goreham-Hogg
-Wulfspade Ace
-Hawkhart Ace
-Cluboon Ace
-Diamagon Ace
-Mumboh-Jumboe
+Robocentauro
+Demone multimani
+Metaliquislime
+Sagitta
+Traumatizzator
+Randellatore notturno
+Generale Gufus
+Sanguinis
+Sanguonicum
+Sanguinigenio
+Rovina
+Generale Pardus
+Generale Soinos
+Lupicche Asso
+Cuordifalco Asso
+Fiorango Asso
+Quadrago Asso
+Mambu-Jambo
 Atlas
 
 X
 XY
-

@@ -1,38 +1,38 @@
 ????????
-Professionals
-Your Team
-Healing Your Monsters
-Party Rank
+Professionisti
+La tua squadra
+Cura i tuoi mostri
+Grado della squadra
 Zoom
 Saving
-Items and Weapons
-Monster Championship
-Tag Mode Battles
-Monster Trading
-Guest Monsters
-The 'Guest' Mark
-Scouting
-Successful Scouting
-Substitute Monsters
-Switching in Battle
-Healing Spots
-Mighty Monsters
-Giant Monsters
-Skill Allocation
-Item Vendor
-Gold Bank ATM
-Favorite Teams
-Virtual Battle
-Weather
-Monster Families 1
-Monster Families 2
-Synthesis
-How to Synthesise
-Inheriting Skills
-Levelling Up Limits
-How to Evolve Synthesis
-Heal All
-Monster Mender
+Oggetti e armi
+Campionato dei mostri
+Battaglie in Modalità Tag
+Scambio di mostri
+I mostri ospiti
+Il contrassegno 'Ospite'
+Reclutamento
+Reclutamento riuscito
+Mostri di riserva
+Cambio in battaglia
+Punti di cura
+Mostri potenti
+Mostri giganti
+Assegnazione abilità
+Mercante di oggetti
+La Banca Aurea
+Squadre preferite
+Battaglia virtuale
+Le condizioni meteorologiche
+Famiglie di mostri 1
+Famiglie di mostri 2
+Sintesi
+Come sintetizzare
+Ereditare abilità
+Limiti di livello
+Come evolvere con la sintesi
+Cura tutti
+Curatore di mostri
 Memo 1
 Memo 2
 Memo 3
@@ -50,59 +50,57 @@ Memo 13
 
 32
 ????????
-Professionals are fearless souls{315}who bend monsters to their will.{315}{315}A scout that masters the art,{315}will be able to command even the monsters{315}who threaten the world.
-Monsters are your most stalwart allies{315}and bravely do battle alongside you.{315}You can battle with up to three monsters{315}in your active team at a time. It's{315}possible to scout and keep up to 100{315}monsters at once.
-Bring injured monsters back to the{315}Albatross and they will make a full{315}recovery.{315}Defeated monsters will be brought{315}back to life. You can use items in battle{315}to support your monsters and help them{315}recover HP and MP.
-Party Rank is determined by the{315}stats of your monsters, such as HP and{315}Attack. Certain skills and traits also{315}influence the rank.{315}{315}Rank is displayed as stars above{315}your team.
-Zoom is a skill used by the hero to{315}travel instantaneously to regions he{315}has visited before.{315}Zoom can even be used inside caves,{315}but there are some areas where it{315}does not work.
-You can save your game at almost any{315}time or point during the adventure.{315}However, there are a small number of{315}scenes where you cannot save.
-Press the Y Button to read up on item{315}effects. There are items the hero can{315}use while travelling and those he can{315}use during battle.{315}Weapons, are equipped by monsters.{315}They serve mostly to boost attack power.
-The ultimate monster scout tournament{315}takes place via Nintendo WFC.{315}Participants from all over the world are{315}ranked after daily Home and Away Bouts.
-Use wireless to battle players{315}you pass by.{315}Foes can be saved as memory battles{315}and sent to others.{315}{315}Note that monsters of rank S or higher{315}cannot be scouted.
-You can trade monsters raised by{315}other players or in DQM Joker 2{315}using wireless communication.{315}{315}Only rank A or lower monsters can be{315}traded with DQM Joker 2,{315}and their level becomes 1.
-Monsters scouted in Tag Mode Battles{315}are guest monsters, and get a{315}'Guest' mark by their name.{315}You can add them to your team{315}and use them in Tag Mode Battles,{315}but not in the Wi-Fi{315}Ultimate Master Cup.
-When the 'Guest' mark leaves the{315}family tree, it leaves the monster too.{315}So keep synthesising it with monsters{315}that have no 'Guest' mark, and it will{315}eventually become yours.{315}{315}Once the mark is gone, it can join{315}the Wi-Fi Ultimate Master Cup.
-Select 'Scout' in battle and your{315}monsters will use a scout attack{315}to win over the enemy monster.{315}{315}You can try scouting until the foe{315}gets angry.
-The number shown during a scout attack{315}is your chance of success.{315}The higher it is, the easier the monster{315}is to win over.{315}It is said that weakening the foe{315}near defeat raises your chances.{315}If the number stays low,{315}level up and try again.
-The three monsters shown on the right{315}in 'Switch' are standby monsters.{315}They travel with you as reserves,{315}separate from your active team.
-During battle, press Y to switch{315}active and standby monsters.{315}{315}Rest hurt monsters and use your{315}standby team well. It can make battles{315}much easier. Try different tactics.
-Blue glowing stone pillars are{315}healing spots. They fully restore{315}your team's HP and MP, and revive{315}defeated monsters.{315}{315}After using one, leave the area{315}to make it usable again.
-Some monsters, like Bantamweight,{315}are far larger than normal.{315}New masters likely cannot match{315}their overwhelming strength.{315}{315}If you encounter one,{315}running away is also an option.
-Giant monsters beyond imagination{315}live on this island.{315}Fighting them normally{315}would likely end badly.{315}{315}When your power grows,{315}you may challenge them someday,{315}but stay away for now.
-Assign skill points gained from{315}levelling up to skills{315}to learn new abilities and traits.
-Buy and sell items and weapons.{315}There may be ways to increase{315}the shop selection...?
-You can deposit your gold here.{315}If your party is wiped out,{315}carried gold is cut in half,{315}but deposited gold stays safe.
-Favorite Teams let you save{315}monster groups you like.{315}Saved members can be swapped{315}into your party or standby.{315}Registering teams for Wireless,{315}Wi-Fi or Tag Mode is useful.
-Virtual Battle lets you freely{315}battle using your own monsters.{315}{315}Enemy and ally settings{315}can be changed freely,{315}letting you study patterns{315}or test your monsters.
-When you enter a cleared area,{315}the weather may have changed,{315}altering the area too.{315}{315}Weather may change each time{315}you enter the world map.
-Monsters are split into 8 families:{315}Slime, Dragon, Nature, Beast,{315}Material, Demon, Undead and ???.{315}{315}Each family has a trigger that may{315}raise its tension in battle.
-For example, Slimes may fire up{315}when weakened by Sap or similar skills.{315}Undead may fire up when someone{315}falls in battle.{315}{315}Try to discover each family trigger{315}for yourself.
-Synthesis is a miracle art that{315}combines 2 monsters into a new one.{315}{315}The 2 used monsters are parents,{315}and the new monster is their child.{315}Children can surpass their parents,{315}so synthesise often.
-To synthesise, you need {231} and {232}{315}monsters to be the child's parents.{315}They can be parents above level 10.{315}{315}Monsters grow stronger as their rank{315}rises from F to A.{315}Synthesise higher-rank monsters.
-A synthesised monster can usually{315}inherit up to 3 parent skills.{315}{315}It also inherits half the parents'{315}skill points.{315}Assigned or not, all skill points{315}are halved and passed on.
-A monster's growth limit is level 50.{315}Repeated synthesis and high-level parents{315}can produce monsters that grow further.
-Evolve synthesis creates Strong{315}or Strongest monsters.{315}Fuse a rank F, E or D monster{315}at level 20+ with the same species{315}to make a Strong monster.{315}Fuse a rank C, B or A monster{315}at level 50+ with the same species{315}to make a Strongest monster.
-Uses monster skills to restore{315}all allies' HP to full.{315}If MP runs out midway,{315}healing stops there.
-Fully restores your monsters' HP and MP.{315}You can use it up to 3 times while out.{315}Return to the airship to recharge it.
-Scout Proficiency Test level 1 asks you{315}to bring the Grumble trait!{315}{315}Boppin' badger and Armoured Wartoise{315}have this trait.
-Scout Proficiency Test level 2 asks you{315}to bring 2 Dragon family monsters!{315}{315}Set 2 Dragons in your party{315}and talk to Marsha.{315}Komodo, Dragonthorn and{315}Drag Racer are Dragon-family monsters.
-Scout Proficiency Test level 3 asks you{315}to bring any monster with a Guest mark!{315}{315}Bring one from Tag Mode{315}or downloads to clear it.{315}{315}Any monster will do.
-Scout Proficiency Test level 4 asks you{315}to bring the Immediate Buff and{315}Random Buff traits!{315}{315}One monster may have both,{315}or two monsters one each.{315}Army Ant and Axecutioner{315}have these traits.
-Scout Proficiency Test level 5 asks you{315}to bring the Spell Satisfaction trait!{315}{315}Swingin' Hipster and Damned Ram{315}have this trait.
-Scout Proficiency Test level 6 asks you{315}to bring any X-variant monster!{315}{315}Raise an F-D monster above 20{315}and synthesise it with the same monster{315}to create a Strong monster!{315}The other parent only needs level 10.
-Scout Proficiency Test level 7 asks you{315}to bring the Lucky trait!{315}{315}A monster with that trait{315}might be in Unshore.
-Scout Proficiency Test level 8 asks you{315}to bring the Sleep Guard ↑ ability!{315}{315}Give a monster Sleep Guard{315}or Nightmare, then spend enough{315}skill points to learn{315}Sleep Guard ↑.
-Scout Proficiency Test level 9 asks you{315}to bring the Static trait!{315}{315}Corrupt carter and Killing machine{315}have this trait.
-Scout Proficiency Test level 10 asks you{315}to bring a rank ☆6+ party!{315}{315}Set a ☆6+ party and talk to Marsha.{315}Check party rank in the{315}main menu with X.
-Scout Proficiency Test level 11 asks you{315}to bring the Standard Killer trait!{315}{315}Baalzack and Jargon X{315}have this trait.
-Scout Proficiency Test level 12 asks you{315}to bring the Metal Killer trait!{315}{315}Headhunter X and{315}Mecha-Mynah XY{315}have this trait.
-Scout Proficiency Test level 13 asks you{315}to bring a rank ☆7+ party!{315}{315}Set a ☆7+ party and talk to Marsha.{315}Check party rank in the{315}main menu with X.
+I professionisti sono anime impavide{315}che piegano i mostri alla propria volontà.{315}{315}Un reclutatore che padroneggia quest'arte{315}può comandare persino i mostri{315}che minacciano il mondo.
+I mostri sono i tuoi alleati più fedeli{315}e combattono coraggiosamente al tuo fianco.{315}Puoi combattere con un massimo di tre mostri{315}alla volta nella squadra attiva. È{315}possibile reclutare e conservare fino a 100{315}mostri contemporaneamente.
+Riporta i mostri feriti sull'{315}Albatros e recupereranno completamente.{315}I mostri sconfitti torneranno{315}in vita. Puoi usare oggetti in battaglia{315}per aiutare i tuoi mostri a recuperare{315}PV e PM.{315}
+Il grado della squadra dipende dalle{315}statistiche dei tuoi mostri, come PV e{315}Attacco. Anche alcune abilità e tratti{315}influenzano il grado.{315}{315}Il grado viene mostrato con stelle sopra{315}la tua squadra.
+Zoom è un'abilità che permette all'eroe di{315}raggiungere istantaneamente le zone già{315}visitate.{315}Può essere usato anche nelle grotte,{315}ma ci sono alcune aree in cui{315}non funziona.
+Puoi salvare la partita quasi in ogni{315}momento o punto dell'avventura.{315}Tuttavia, ci sono alcune scene in cui{315}non è possibile salvare.
+Premi il pulsante Y per leggere gli effetti{315}degli oggetti. Alcuni oggetti possono essere{315}usati durante il viaggio,{315}altri in battaglia.{315}Le armi vengono equipaggiate dai mostri.{315}Servono soprattutto ad aumentare l'Attacco.
+Il torneo supremo dei reclutatori di mostri{315}si svolge tramite Nintendo WFC.{315}I partecipanti di tutto il mondo vengono{315}classificati dopo le sfide giornaliere in casa e fuori casa.
+Usa la comunicazione wireless per combattere{315}contro i giocatori che incontri.{315}Puoi salvare gli avversari come battaglie{315}memorizzate e inviarle ad altri.{315}{315}I mostri di grado S o superiore{315}non possono essere reclutati.
+Puoi scambiare mostri cresciuti da{315}altri giocatori o in DQM Joker 2{315}usando la comunicazione wireless.{315}{315}Solo i mostri di grado A o inferiore possono essere{315}scambiati con DQM Joker 2,{315}e il loro livello diventa 1.
+I mostri reclutati nelle battaglie in Modalità Tag{315}sono mostri ospiti e ricevono il contrassegno{315}'Ospite' accanto al nome.{315}Puoi aggiungerli alla squadra{315}e usarli nelle battaglie in Modalità Tag,{315}ma non nella{315}Coppa suprema dei maestri Wi-Fi.
+Quando il contrassegno 'Ospite' lascia l'{315}albero genealogico, lascia anche il mostro.{315}Continua quindi a sintetizzarlo con mostri{315}senza il contrassegno 'Ospite': alla fine{315}diventerà tuo.{315}{315}Quando il contrassegno scompare, il mostro può partecipare alla{315}Coppa suprema dei maestri Wi-Fi.
+Seleziona 'Recluta' in battaglia: i tuoi{315}mostri useranno un attacco di reclutamento{315}per conquistare il mostro nemico.{315}{315}Puoi provare a reclutarlo finché il nemico{315}non si arrabbia.
+Il numero mostrato durante un attacco di reclutamento{315}indica la probabilità di successo.{315}Più è alto,{315}più è facile conquistare il mostro.{315}Si dice che indebolire il nemico{315}quando è vicino alla sconfitta aumenti le probabilità.{315}Se il numero resta basso,{315}fai salire di livello i mostri e riprova.
+I tre mostri mostrati a destra in 'Cambia'{315}sono mostri di riserva.{315}Viaggiano con te separati dalla squadra attiva{315}e possono essere sostituiti in battaglia.
+Durante la battaglia, premi Y per cambiare{315}tra mostri attivi e di riserva.{315}{315}Fai riposare i mostri feriti e usa bene{315}le riserve: le battaglie saranno molto più facili.{315}Prova tattiche diverse.
+I pilastri di pietra azzurra sono punti{315}di cura.{315}Ripristinano completamente PV e PM{315}della squadra e rianimano i mostri sconfitti.{315}{315}Dopo averne usato uno, lascia la zona{315}per renderlo nuovamente utilizzabile.
+Alcuni mostri, come Peso gallo,{315}sono molto più grandi del normale.{315}I nuovi maestri probabilmente non possono competere{315}con la loro forza schiacciante.{315}{315}Se ne incontri uno,{315}puoi anche scegliere di fuggire.
+Su quest'isola{315}vivono mostri giganti{315}oltre ogni immaginazione.{315}Combatterli normalmente{315}finirebbe probabilmente male.{315}{315}Quando sarai più forte potrai affrontarli,{315}ma per ora stai alla larga.
+Assegna ai tratti e alle abilità i punti{315}ottenuti salendo di livello{315}per apprendere nuove abilità e tratti.
+Compra e vendi oggetti e armi.{315}Forse esistono modi per ampliare{315}la scelta del negozio...?
+Qui puoi depositare l'oro.{315}Se la squadra viene sconfitta,{315}l'oro trasportato si dimezza,{315}ma quello depositato resta al sicuro.
+Le squadre preferite permettono di salvare{315}le formazioni di mostri che ti piacciono.{315}I membri salvati possono essere scambiati{315}con la squadra o con le riserve.{315}Registrare squadre è utile per le battaglie{315}Wireless, Wi-Fi o in Modalità Tag.
+La battaglia virtuale permette di{315}combattere liberamente usando i tuoi mostri.{315}{315}Puoi modificare liberamente le impostazioni{315}di nemici e alleati,{315}per studiare gli schemi{315}o mettere alla prova i tuoi mostri.
+Quando entri in una zona già completata,{315}il meteo può essere cambiato,{315}alterando anche la zona.{315}{315}Il meteo può cambiare ogni volta{315}che entri nella mappa del mondo.
+I mostri sono divisi in 8 famiglie:{315}slime, drago, natura, bestia,{315}materiale, demone, non-morti e ???.{315}{315}Ogni famiglia ha un fattore che può{315}aumentarne la tensione in battaglia.
+Per esempio, gli slime possono aumentare la tensione{315}quando vengono indeboliti da Sap o abilità simili.{315}I non-morti possono aumentarla{315}quando qualcuno{315}cade in battaglia.{315}{315}Scopri da solo il fattore di ogni famiglia.
+La sintesi è un'arte miracolosa che{315}combina 2 mostri per crearne uno nuovo.{315}{315}I 2 mostri usati sono i genitori,{315}e il nuovo mostro è il loro figlio.{315}I figli possono superare i genitori,{315}quindi sintetizza spesso.
+Per sintetizzare, servono mostri {231} e {232}{315}come genitori del figlio.{315}I genitori devono avere almeno il livello 10.{315}{315}I mostri diventano più forti quando il grado{315}sale da F ad A.{315}Sintetizza mostri di grado superiore.
+Un mostro sintetizzato può di solito{315}ereditare fino a 3 abilità dai genitori.{315}{315}Eredita anche metà dei punti abilità{315}dei genitori.{315}Che siano stati assegnati o meno,{315}tutti i punti vengono dimezzati e trasmessi.
+Il limite di crescita di un mostro è il livello 50.{315}Sintesi ripetute e genitori di alto livello{315}possono produrre mostri che crescono ulteriormente.
+La sintesi evolutiva crea mostri Forti{315}o Fortissimi.{315}Fondi un mostro di grado F, E o D{315}al livello 20 o superiore con la stessa specie{315}per creare un mostro Forte.{315}Fondi un mostro di grado C, B o A{315}al livello 50 o superiore con la stessa specie{315}per creare un mostro Fortissimo.
+Usa le abilità dei mostri per ripristinare{315}completamente i PV di tutti gli alleati.{315}Se i PM finiscono a metà,{315}la cura si interrompe.
+Ripristina completamente PV e PM dei mostri.{315}Puoi usarlo fino a 3 volte quando sei fuori.{315}Torna sull'aeronave per ricaricarlo.
+Il test di abilità del reclutatore 1 richiede{315}il tratto Brontolone!{315}{315}Kan Kanide e Testuggine corazzata{315}possiedono questo tratto.
+Il test di abilità del reclutatore 2 richiede{315}2 mostri della famiglia drago!{315}{315}Metti 2 draghi nella squadra{315}e parla con Marsha.{315}Giallosauro, Dragospino e{315}Kurridor sono mostri della famiglia drago.
+Il test di abilità del reclutatore 3 richiede{315}un mostro con il contrassegno Ospite!{315}{315}Portane uno dalla Modalità Tag{315}o dai download per superarlo.{315}{315}Va bene qualsiasi mostro.
+Il test di abilità del reclutatore 4 richiede{315}i tratti Potenziamento immediato e{315}Potenziamento casuale!{315}{315}Un mostro può averli entrambi,{315}oppure due mostri possono averne uno ciascuno.{315}Formica soldato e Axecutioner{315}possiedono questi tratti.
+Il test di abilità del reclutatore 5 richiede{315}il tratto Soddisfazione magica!{315}{315}Hipster swingante e Montone dannato{315}possiedono questo tratto.
+Il test di abilità del reclutatore 6 richiede{315}un mostro della variante X!{315}{315}Porta un mostro F-D oltre il livello 20{315}e sintetizzalo con lo stesso mostro{315}per creare un mostro Forte!{315}L'altro genitore deve solo essere al livello 10.
+Il test di abilità del reclutatore 7 richiede{315}il tratto Fortunato!{315}{315}Un mostro con questo tratto{315}potrebbe trovarsi nella zona Costa Ignota.
+Il test di abilità del reclutatore 8 richiede{315}l'abilità Para-Sonno ↑!{315}{315}Assegna a un mostro Para-Sonno{315}o Incubo, poi usa abbastanza{315}punti abilità per apprendere{315}Para-Sonno ↑.
+Il test di abilità del reclutatore 9 richiede{315}il tratto Statico!{315}{315}Corriere Corrotto e Mechacentauro{315}possiedono questo tratto.
+Il test di abilità del reclutatore 10 richiede{315}una squadra di grado ☆6 o superiore!{315}{315}Imposta una squadra ☆6 o superiore e parla con Marsha.{315}Controlla il grado della squadra nel{315}menu principale con X.
+Il test di abilità del reclutatore 11 richiede{315}il tratto Ammazzastandard!{315}{315}Balzack e Jargon X{315}possiedono questo tratto.
+Il test di abilità del reclutatore 12 richiede{315}il tratto Ammazza Metallo!{315}{315}Cacciateste X e{315}Pettirobot XY{315}possiedono questo tratto.
+Il test di abilità del reclutatore 13 richiede{315}una squadra di grado ☆7 o superiore!{315}{315}Imposta una squadra ☆7 o superiore e parla con Marsha.{315}Controlla il grado della squadra nel{315}menu principale con X.
 
 
 
 {30b}{00}.{30b}D{30b}T
-
-
 
 
 

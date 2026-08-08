@@ -110,15 +110,15 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
 SETNAME "Gemon"
-SAY "{VOICE=03}Squaaah! So you followed me right to the top? I should've known."
+SAY "{VOICE=03}Squaah! Mi hai seguito fin quassù? Avrei dovuto immaginarlo."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Gemon"
-SAY "{VOICE=03}This girl's stayin' with us! She'll make a fine nest-mate for my boy!"
+SAY "{VOICE=03}Questa ragazza resterà con noi! Sarà un'ottima compagna di nido per mio figlio!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Gemon"
-SAY "{VOICE=03}Seems you've been causin' all sorts of trouble for my son.{WAIT}{CLEAR}You mess with him, you mess with me. Prepare to pay a heavy price..."
+SAY "{VOICE=03}A quanto pare hai causato ogni sorta di problema a mio figlio.{WAIT}{CLEAR}Se te la prendi con lui, te la prendi con me. Preparati a pagare un prezzo salato..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -201,7 +201,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x441b4000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Jamirus"
-SAY "{VOICE=07}You've got a lot of nerve, wanderin' up here like you own the place!"
+SAY "{VOICE=07}Hai una bella faccia tosta a venire quassù come se fossi il padrone!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -214,12 +214,12 @@ STORE 0x18 0x1 0x0 0x2 0x41a00000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}Looks like the enemy's about to launch a classic pincer attack..."
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Sembra che il nemico stia per lanciare un classico attacco a tenaglia..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}Listen, Rookie. I'll engage this one.{BREAK}You take the fight to the big bird."
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Ascolta, recluta. A questo penso io.{BREAK}Tu occupati dell'uccello gigante."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -244,7 +244,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Gemon"
-SAY "{VOICE=03}Think you stand a chance against me!? Maybe death'll make you think differently."
+SAY "{VOICE=03}Pensi di avere qualche speranza contro di me!? Forse la morte ti farà cambiare idea."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -339,8 +339,8 @@ STORE 0x18 0x1 0x0 0x2 0x41a00000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}Listen, Rookie. I'll engage this one.{BREAK}You take the fight to the big bird."
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Ascolta, recluta. A questo penso io.{BREAK}Tu occupati dell'uccello gigante."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -365,7 +365,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Gemon"
-SAY "{VOICE=03}Think you stand a chance against me!? Maybe death'll make you think differently."
+SAY "{VOICE=03}Pensi di avere qualche speranza contro di me!? Forse la morte ti farà cambiare idea."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

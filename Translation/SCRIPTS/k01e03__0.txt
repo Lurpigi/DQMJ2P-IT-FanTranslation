@@ -723,19 +723,19 @@ SYS_55 0x8
 SYS_42 0x8 
 CMP_EQ 0x18 0x0 0x423c0000 0x2 0x43360000
 JMP_IFNOT 0xc L_26d8
-SAY "{COLOR=2}{NAME} obtains the Minus sceptre!"
+SAY "{COLOR=2}{NAME} ha ottenuto lo scettro Minus!"
 JMP_ABS 0xc L_2770
 L_26d8:
 CMP_EQ 0x18 0x0 0x423c0000 0x2 0x43350000
 JMP_IFNOT 0xc L_2730
-SAY "{COLOR=2}{NAME} obtains the Plus sceptre!"
+SAY "{COLOR=2}{NAME} ha ottenuto lo scettro Plus!"
 JMP_ABS 0xc L_2770
 L_2730:
 JMP_REL L_2738
 L_2738:
 JMP_ABS 0xc L_2744
 L_2744:
-SAY "{COLOR=2}{NAME} obtains {E328}!"
+SAY "{COLOR=2}{NAME} ha ottenuto {E328}!"
 JMP_ABS 0xc L_2770
 L_2770:
 WAIT 0x10 0x2 0x42340000
@@ -747,7 +747,7 @@ JMP_IFNOT 0xc L_2c5c
 SYS_42 0x8 
 CMP_EQ 0x18 0x0 0x42400000 0x2 0x40400000
 JMP_IFNOT 0xc L_293c
-SAY "{COLOR=2}The mysterious ore is actually a monster in disguise!"
+SAY "{COLOR=2}Il minerale misterioso è in realtà un mostro camuffato!"
 WAIT 0x10 0x2 0x42340000
 SYS_43 0x8 
 STORE 0x18 0x1 0x0 0x2 0x3f800000
@@ -766,7 +766,7 @@ JMP_ABS 0xc L_2c50
 L_293c:
 CMP_EQ 0x18 0x0 0x42400000 0x2 0x40800000
 JMP_IFNOT 0xc L_2c50
-SAY "{COLOR=2}The bag is actually a monster in disguise!"
+SAY "{COLOR=2}La borsa è in realtà un mostro sotto mentite spoglie!"
 WAIT 0x10 0x2 0x42340000
 SYS_43 0x8 
 STORE 0x18 0x1 0x0 0x2 0x42c80000
@@ -822,19 +822,19 @@ SYS_55 0x8
 SYS_42 0x8 
 CMP_EQ 0x18 0x0 0x423c0000 0x2 0x43360000
 JMP_IFNOT 0xc L_2d58
-SAY "{COLOR=2}{NAME} obtains the Minus sceptre!"
+SAY "{COLOR=2}{NAME} ha ottenuto lo scettro Minus!"
 JMP_ABS 0xc L_2df0
 L_2d58:
 CMP_EQ 0x18 0x0 0x423c0000 0x2 0x43350000
 JMP_IFNOT 0xc L_2db0
-SAY "{COLOR=2}{NAME} obtains the Plus sceptre!"
+SAY "{COLOR=2}{NAME} ha ottenuto lo scettro Plus!"
 JMP_ABS 0xc L_2df0
 L_2db0:
 JMP_REL L_2db8
 L_2db8:
 JMP_ABS 0xc L_2dc4
 L_2dc4:
-SAY "{COLOR=2}{NAME} obtains {E328}!"
+SAY "{COLOR=2}{NAME} ha ottenuto {E328}!"
 JMP_ABS 0xc L_2df0
 L_2df0:
 WAIT 0x10 0x2 0x42340000
@@ -1206,7 +1206,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3f19999a
 SYS_54 0x8 
 WAIT 0x10 0x2 0x42480000
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}'s team is healed."
+SAY "{COLOR=2}La squadra di {NAME} è tornata in perfetta forma!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1217,7 +1217,7 @@ L_44b0:
 JMP_ABS 0xc L_44bc
 L_44bc:
 SYS_42 0x8 
-SAY "{COLOR=2}There's no response. {NAME} cannot use this...for now."
+SAY "{COLOR=2}Non succede niente. {NAME} non può usare quest'oggetto per adesso..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1328,10 +1328,10 @@ STORE 0x18 0x0 0x426c0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x426c0000 0x2 0x0
 JMP_IFNOT 0xc L_4c7c
 SYS_42 0x8 
-SAY "{COLOR=2}Curiosity killed the cat, but not the monster scout!{WAIT}{CLEAR}Examine these curious stones to learn new abilities and commands."
+SAY "{COLOR=2}La curiosità può uccidere i gatti, ma non gli {1F29}out!{WAIT}{CLEAR}Esamina queste strane rocce per imparare tecniche e comandi nuovi."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}These Scout's Stones appear on the map as blue icons."
+SAY "{COLOR=2}Le "Pietre dello {1F29}out" sono indicate sulla mappa da icone azzurre."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1361,13 +1361,13 @@ SYS_A4 0x8
 CMP_EQ 0x18 0x0 0x42640000 0x2 0x41400000
 JMP_IFNOT 0xc L_4fb4
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} learns Zoom!"
+SAY "{COLOR=2}{NAME} ha imparato \"Teletrasporto\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}This ability enables {NAME} to teleport to previously visited regions!"
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un attimo in qualsiasi area già visitata."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Apart from a few special locations, it can be used anywhere, including caves!"
+SAY "{COLOR=2}Fatte salve poche eccezioni, può essere utilizzata ovunque... Persino nelle grotte!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1384,10 +1384,10 @@ L_4fb4:
 CMP_EQ 0x18 0x0 0x42640000 0x2 0x41700000
 JMP_IFNOT 0xc L_50ec
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} learns Vanish!"
+SAY "{COLOR=2}{NAME} ha imparato \"{1F36}arizione\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}This ability enables {NAME} to slink past enemy monsters undetected."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di passare sotto il naso dei nemici senza farsi notare."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1401,10 +1401,10 @@ L_50ec:
 CMP_EQ 0x18 0x0 0x42640000 0x2 0x40c00000
 JMP_IFNOT 0xc L_52a0
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} can now use Heal All!"
+SAY "{COLOR=2}{NAME} può ora usare \"Guarisci tutti\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}This spell lets {NAME} restore the health of his entire team!"
+SAY "{COLOR=2}Quest'incantesimo di guarigione permette a {NAME} di curare tutti i membri della squadra."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1424,10 +1424,10 @@ L_52a0:
 CMP_EQ 0x18 0x0 0x42640000 0x2 0x41600000
 JMP_IFNOT 0xc L_53dc
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} learns Nose for Treasure!"
+SAY "{COLOR=2}{NAME} ha imparato \"{1F2B}gugio\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}This ability lets {NAME} find out how many items are hidden nearby."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di scoprire quanti tesori sono nascosti nelle vicinanze."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1441,16 +1441,16 @@ L_53dc:
 CMP_EQ 0x18 0x0 0x42640000 0x2 0x41500000
 JMP_IFNOT 0xc L_5618
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} learns Zip!"
+SAY "{COLOR=2}{NAME} ha imparato \"Velotrans\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}This ability lets {NAME} Zip to the local Zip Portal, quick as a flash!"
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un istante al più vicino portale Velotrans."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Of course, the portal must already be open for this to work."
+SAY "{COLOR=2}La tecnica funzionerà solo se il portale è già aperto."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}So if {NAME} finds a new portal, he should examine it right away."
+SAY "{COLOR=2}Quindi, è bene che {NAME} esamini subito i portali Velotrans situati sull'isola."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1468,13 +1468,13 @@ L_5618:
 CMP_EQ 0x18 0x0 0x42640000 0x2 0x41200000
 JMP_IFNOT 0xc L_589c
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} obtains the Monster Mender!"
+SAY "{COLOR=2}{NAME} ha ottenuto \"Curamostri\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Use this bottle to restore the HP and MP of {NAME}'s entire team."
+SAY "{COLOR=2}Questa bevanda fa recuperare PV e PM a tutti i membri della squadra di {NAME}."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Good for three doses per outing. Once it runs out, head to the airship for a refill!"
+SAY "{COLOR=2}La bottiglia contiene tre dosi e può essere riempita di nuovo tornando alla nave."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3442,10 +3442,10 @@ WAIT 0x10 0x2 0x41a00000
 STORE 0x18 0x1 0x0 0x2 0x423c0000
 SYS_49 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}The cover on the ventilation duct is open."
+SAY "{COLOR=2}Il coperchio del condotto dell'aria è aperto..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}How about it? Want to climb in?{VOICE=09}"
+SAY "{COLOR=2}Cosa desideri fare? Vuoi entrare?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -3460,8 +3460,8 @@ JMP_IFNOT 0xc L_d670
 CMP_EQ 0x18 0x0 0x42ae0000 0x2 0x41000000
 JMP_IFNOT 0xc L_d458
 SYS_42 0x8 
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}What are you doin' skulkin' round in here, Rookie?{WAIT}{CLEAR}Go on. The passenger area won't bite."
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}{1F2B}i ancora qui, pivello?{WAIT}{CLEAR}{1F3B}, coraggio... I passeggeri non mordono mica! Ah ah ah!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3474,11 +3474,11 @@ L_d458:
 CMP_EQ 0x18 0x0 0x42ae0000 0x2 0x41300000
 JMP_IFNOT 0xc L_d57c
 SYS_42 0x8 
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}What in blue blazes are you playin' at, Rookie!?"
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}{1F2F} può sapere che stai combinando, pivello?!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}You have orders. Go and find out what Miss Gilder wants!"
+SAY "{VOICE=07}Ho detto che devi andare subito da Lady Lidia e chiederle cosa vuole! È un ordine!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3491,8 +3491,8 @@ L_d57c:
 CMP_EQ 0x18 0x0 0x42ae0000 0x2 0x41500000
 JMP_IFNOT 0xc L_d664
 SYS_42 0x8 
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}Hey, Rookie, what d'you think you're doin'? Report at once!"
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Che stai facendo, pivello?! Vieni subito a rapporto!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3841,17 +3841,17 @@ JMP_IFNOT 0xc L_fc94
 CMP_LE 0x18 0x0 0x42be0000 0x2 0x41100000
 JMP_IFNOT 0xc L_ed18
 SYS_42 0x8 
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}As punishment for tryin' to stow away aboard my vessel...{WAIT}{CLEAR}...you will serve as rookie deckhand,{BREAK}third class."
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Ti sei imbarcato clandestinamente sulla mia nave... Per punizione, {WAIT}{CLEAR}dovrai lavorare come aiuto-vice-mozzo di {BREAK}terza categoria!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Your first job will be to introduce yourself to the other passengers and crew!"
+SAY "{VOICE=07}Il tuo primo compito è presentarti ai passeggeri e ai membri dell'equipaggio."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}There are five other people on board, includin' my engineer, Rory...{WAIT}{CLEAR}Be sure to listen carefully to what everyone has to say to you. Got it?"
+SAY "{VOICE=07}Ci sono cinque persone a bordo, includendo Meck Nick, il meccanico.{WAIT}{CLEAR}Dovrai ubbidire ai loro ordini, e senza fiatare! Hai capito, pivello?!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Once you've spoken to all five of them, come back and see me."
+SAY "{VOICE=07}Torna da me dopo che avrai parlato con le cinque persone che sono sulla nave."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3862,11 +3862,11 @@ JMP_IFNOT 0xc L_f1a8
 STORE 0x18 0x1 0x0 0x2 0xc2fa0000
 SYS_23 0x8 
 SYS_42 0x8 
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}Looks like you finished talkin' to everyone."
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Hai parlato con tutti, vero? Bene."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}In that case, you're gonna need a new job."
+SAY "{VOICE=07}Allora posso assegnarti un altro compito."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3878,8 +3878,8 @@ SYS_3B 0x8
 STORE 0x18 0x1 0x0 0x2 0x433c0000
 SYS_41 0x8 
 SYS_42 0x8 
-SETNAME "Lily Gilder"
-SAY "{VOICE=08}...Eeek! S-Someone... A-Anyone...!{BREAK}I insist someone help me this instant!"
+SETNAME "Lady Lidia"
+SAY "{VOICE=08}Eek! Aiuto! Qualcuno mi aiuti!!!{BREAK}Esigo che qualcuno accorra in mio aiuto!"
 STORE 0x18 0x1 0x0 0x2 0x40c00000
 SYS_60 0x8 
 STORE 0x18 0x0 0x42ba0000 0x1 0x0
@@ -3901,14 +3901,14 @@ SYS_44 0x8
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}Sheesh... Now what does she want...?"
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}E ora che vuole quella rompisc... Ehm, cosa desidera quella cara passeggera...?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}We'll talk about your duties later, Rookie."
+SAY "{VOICE=07}Pivello, parleremo più tardi del tuo prossimo lavoro. Ora hai altro da fare."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}For now, go find out what it is Miss Gilder wants."
+SAY "{VOICE=07}Corri a vedere cos'ha tanto da gridare Lady Lidia..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3920,11 +3920,11 @@ L_f1a8:
 CMP_EQ 0x18 0x0 0x42be0000 0x2 0x41300000
 JMP_IFNOT 0xc L_f2a8
 SYS_42 0x8 
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}We can talk about your duties later, Rookie."
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Dopo ti dirò in cosa consiste la tua prossima missione..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}For now, go find out what it is Miss Gilder wants."
+SAY "{VOICE=07}Corri a vedere cos'ha tanto da gridare Lady Lidia..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3935,17 +3935,17 @@ JMP_IFNOT 0xc L_f484
 STORE 0x18 0x1 0x0 0x2 0xc2fa0000
 SYS_23 0x8 
 SYS_42 0x8 
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}This doesn't make any sense!{WAIT}{CLEAR}Seconds ago we had blue skies for miles and a clear route to Green Bays..."
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Uhm, strano... Fino a pochi minuti fa il cielo era sereno...{WAIT}{CLEAR}Sulla rotta per l'Arcipelago Croupier non c'era nemmeno una nuvola..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}...and now black clouds are gatherin' from the Goddess knows where!"
+SAY "{VOICE=07}E ora siamo circondati da nubi nere e minacciose! È davvero inspiegabile..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Rookie, new mission! Check out the situation in the engine room!"
+SAY "{VOICE=07}Pivello, corri nella sala macchine e controlla cosa sta succedendo lì sotto."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}The engine room is belowdecks, beneath the passenger room and cargo hold."
+SAY "{VOICE=07}La sala macchine è sotto l'area dei passeggeri e la stiva..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3957,17 +3957,17 @@ JMP_IFNOT 0xc L_fc88
 STORE 0x18 0x1 0x0 0x2 0xc2fa0000
 SYS_23 0x8 
 SYS_42 0x8 
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}...What!? Rory says we should prepare to abandon ship!?"
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Che cosa?! Meck Nick dice che dobbiamo prepararci ad abbandonare la nave?!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Umm... The thing is, Rookie, I'm afraid it may already be too late..."
+SAY "{VOICE=07}Pivello, mi spiace dirlo, ma è troppo tardi per farlo..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}The rudder's...no longer respondin'... The pitch and yaw are out of control...!"
+SAY "{VOICE=07}Il timone non risponde ai comandi... Non ho più il controllo dell'Albatros...!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I...I can't hold it...! We're goin' to...!"
+SAY "{VOICE=07}Non riesco a tenerla su...! {1F3A}iamo per...!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4028,8 +4028,8 @@ SYS_02 0x8
 SYS_03 0x8 
 WAIT 0x10 0x2 0x41700000
 SYS_42 0x8 
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}...Waaaaaaaaaaaaaaaaaagh!!!"
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Waaaaaaaaaaaaaaagh!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4071,14 +4071,14 @@ STORE 0x18 0x0 0x42c20000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42c20000 0x2 0x0
 JMP_IFNOT 0xc L_febc
 SYS_42 0x8 
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}So you found our stowaway, did you?{BREAK}That girl is nothin' but trouble."
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Hai trovato il clandestino, eh?{BREAK}Quella tipa ci sta dando un mucchio di problemi..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Now listen up, Rookie. It's time for you to embark on a new mission."
+SAY "{VOICE=07}Va bene, pivello. Ascolta, ho un nuovo lavoretto per te..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Thanks to you, the True Monster Challenge is up and runnin' again.{WAIT}{CLEAR}You should head over to the moles' den and check it out."
+SAY "{VOICE=07}Complimenti! Hai riportato in vita la più antica sfida di mostri del mondo!{WAIT}{CLEAR}Ora recati nella tana delle talpe e senti un po' che si dice in giro..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4092,11 +4092,11 @@ L_fec4:
 JMP_ABS 0xc L_fed0
 L_fed0:
 SYS_42 0x8 
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}Now listen up, Rookie. It's time for you to embark on a new mission."
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Va bene, pivello. Ascolta, ho un nuovo lavoretto per te..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Thanks to you, the True Monster Scout Challenge is up and runnin' again.{WAIT}{CLEAR}You should head over to the moles' den and check it out."
+SAY "{VOICE=07}Complimenti! Hai riportato in vita la più antica sfida di mostri del mondo!{WAIT}{CLEAR}Ora recati nella tana delle talpe e senti un po' che si dice in giro..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4115,14 +4115,14 @@ JMP_IFNOT 0xc L_10194
 CMP_EQ 0x18 0x0 0x42be0000 0x2 0x40000000
 JMP_IFNOT 0xc L_10188
 SYS_42 0x8 
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}Och, there ye are, laddie! There's somethin' I wanted tae tell ye..."
+SETNAME "Meck Nick"
+SAY "{VOICE=07}Toh! Guarda chi c'è! Cercavo proprio te, ragazzo. Volevo dirti una cosa..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}That bookworm laddie headed tae the moles' den tae find more information."
+SAY "{VOICE=07}Il nostro amico studioso ha visitato la tana delle talpe per cercare informazioni."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}He's likely tae know a thing or two.{BREAK}Why dinnae ye go and talk tae him?"
+SAY "{VOICE=07}Magari ha scoperto qualcosa di {BREAK}interessante... Vai a parlare con lui!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4133,14 +4133,14 @@ L_10194:
 CMP_EQ 0x18 0x0 0x42bc0000 0x2 0x40e00000
 JMP_IFNOT 0xc L_102f8
 SYS_42 0x8 
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}Och, there ye are, laddie! There's somethin' I wanted tae tell ye..."
+SETNAME "Meck Nick"
+SAY "{VOICE=07}Toh! Guarda chi c'è! Cercavo proprio te, ragazzo. Volevo dirti una cosa..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}That bookworm laddie headed tae the moles' den tae find more information."
+SAY "{VOICE=07}Il nostro amico studioso ha visitato la tana delle talpe per cercare informazioni."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}He's likely tae know a thing or two.{BREAK}Why dinnae ye go and talk tae him?"
+SAY "{VOICE=07}Magari ha scoperto qualcosa di {BREAK}interessante... Vai a parlare con lui!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4312,7 +4312,7 @@ STORE 0x18 0x1 0x0 0x2 0x42540000
 SYS_49 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SAY "{COLOR=2}This is for steering the ship. There are buttons and levers all around it."
+SAY "{COLOR=2}Il timone della nave. Tutt'intorno ci sono leve e pulsanti di ogni genere."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4457,7 +4457,7 @@ STORE 0x18 0x1 0x0 0x2 0x431c0000
 SYS_41 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}It seems to be Captain Mayday's trunk. It's securely locked."
+SAY "{COLOR=2}Questo è il baule di Capitan Alex. È chiuso a chiave."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4482,13 +4482,13 @@ STORE 0x18 0x1 0x0 0x2 0x423c0000
 SYS_49 0x8 
 WAIT 0x10 0x2 0x41600000
 SYS_42 0x8 
-SAY "{COLOR=2}There's a note on the trunk, addressed to {NAME}."
+SAY "{COLOR=2}{1F3B}l baule c'è un appunto per {NAME}..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}'You saved me, the ship, and the passengers. I won't forget that."
+SAY "{COLOR=2}\"Hai salvato me, la nave e i passeggeri. Ti ringrazio per ciò che hai fatto.\""
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}'Not to mention that you won the Monster Scout Challenge.{WAIT}{CLEAR}'That deserves an award all on its own! Signed, Rex Mayday.' "
+SAY "{COLOR=2}"Inoltre, hai vinto il Torneo Monster Scout!"{WAIT}{CLEAR}"Una simile impresa merita di essere premiata! Firmato: Capitan Alex.""
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4510,7 +4510,7 @@ SYS_73 0x8
 STORE 0x18 0x1 0x0 0x0 0x42dc0000
 SYS_55 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} obtains {E328}!"
+SAY "{COLOR=2}{NAME} ha ottenuto {E328}!"
 WAIT 0x10 0x2 0x42340000
 SYS_43 0x8 
 STORE 0x18 0x1 0x0 0x2 0x3f800000

@@ -109,17 +109,17 @@ SYS_02 0x8
 SYS_03 0x8 
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}I am the divine beast known as the Incarnus.{WAIT}{CLEAR}My divine nature means my development differs from that of regular monsters."
+SAY "{VOICE=07}Io sono Incarnus, la Bestia Divina. Io non sono come gli altri mostri.{WAIT}{CLEAR}A causa della mia origine ultraterrena, mi sviluppo in maniera diversa da loro."
 SYS_44 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}But let's save that discussion until next time."
+SAY "{VOICE=07}Ma affronteremo l'argomento un'altra volta. Ora non è il momento..."
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x42200000
 SYS_13 0x8 
 STORE 0x18 0x1 0x0 0x2 0x42200000
 SYS_14 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}We will meet again, I trust."
+SAY "{VOICE=07}{1F36}ero che c'incontreremo ancora..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -135,14 +135,14 @@ SYS_02 0x8
 SYS_03 0x8 
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Extraordinary. You have managed to defeat me in this form..."
+SAY "{VOICE=07}{1F3A}raordinario...! {1F2B}i riuscito a sconfiggermi nella mia forma attuale...!"
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x42480000
 SYS_13 0x8 
 STORE 0x18 0x1 0x0 0x2 0x42480000
 SYS_14 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}I am the divine beast known as the Incarnus.{WAIT}{CLEAR}My divine nature means my synthesis differs from that of regular monsters."
+SAY "{VOICE=07}Io sono Incarnus, la Bestia Divina. Io non sono come gli altri mostri.{WAIT}{CLEAR}La sintesi ha su di me effetti diversi da quelli che si ottengono con loro."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -158,7 +158,7 @@ SYS_02 0x8
 SYS_03 0x8 
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}As I suspected... The power you wield is the real thing."
+SAY "{VOICE=07}{1F61}, è come sospettavo. Tu possiedi il vero potere."
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x42700000
 STORE 0x18 0x1 0x3f800000 0x2 0x42b40000
@@ -168,10 +168,10 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42b40000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41f00000
 SETNAME "Incarnus"
-SAY "{VOICE=07}I am the divine beast known as the Incarnus."
+SAY "{VOICE=07}Io sono Incarnus, la Bestia Divina."
 SYS_44 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}The next time we meet will likely be the last."
+SAY "{VOICE=07}Con ogni probabilità, c'incontreremo ancora un'ultima volta."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -187,20 +187,20 @@ SYS_02 0x8
 SYS_03 0x8 
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}I wanted to assay the power you have at your disposal."
+SAY "{VOICE=07}Ho messo alla prova il potere di cui disponi..."
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x428c0000
 SYS_13 0x8 
 STORE 0x18 0x1 0x0 0x2 0x428c0000
 SYS_14 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}There is no doubt - you are worthy of being entrusted with the Infantus."
+SAY "{VOICE=07}{1F61}, non c'è dubbio. {1F2B}i degno di accogliere con te Infantus."
 SYS_44 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}I can die happy knowing that I have found a master scout like you..."
+SAY "{VOICE=07}Ora che ho trovato te, che sei uno {1F29}out straordinario, posso morire felice..."
 SYS_44 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}For the divine Incarnus must die in order to entrust the Infantus to another."
+SAY "{VOICE=07}Incarnus deve morire, affinché Infantus possa essere accolto da un altro essere."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -220,7 +220,7 @@ SYS_02 0x8
 SYS_03 0x8 
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Splendid! You may very well prove worthy of being entrusted with the Infantus."
+SAY "{VOICE=07}{1F61}, forse potrai dimostrare di essere degno di accogliere con te Infantus..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -230,14 +230,14 @@ STORE 0x18 0x1 0x0 0x2 0x42a00000
 SYS_14 0x8 
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}I am the divine beast known as the Incarnus.{WAIT}{CLEAR}My divine nature means my development differs from that of regular monsters."
+SAY "{VOICE=07}Io sono Incarnus, la Bestia Divina. Io non sono come gli altri mostri.{WAIT}{CLEAR}A causa della mia origine ultraterrena, mi sviluppo in maniera diversa da loro."
 SYS_44 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}But let's save that discussion until next time."
+SAY "{VOICE=07}Ma affronteremo l'argomento un'altra volta. Ora non è il momento..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}We will meet again, I trust."
+SAY "{VOICE=07}{1F36}ero che c'incontreremo ancora..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -257,7 +257,7 @@ SYS_02 0x8
 SYS_03 0x8 
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Extraordinary. You have managed to defeat me in this form..."
+SAY "{VOICE=07}{1F3A}raordinario...! {1F2B}i riuscito a sconfiggermi nella mia forma attuale...!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -267,14 +267,14 @@ STORE 0x18 0x1 0x0 0x2 0x42b40000
 SYS_14 0x8 
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}I am the divine beast known as the Incarnus.{WAIT}{CLEAR}My divine nature means my synthesis differs from that of regular monsters."
+SAY "{VOICE=07}Io sono Incarnus, la Bestia Divina. Io non sono come gli altri mostri.{WAIT}{CLEAR}La sintesi ha su di me effetti diversi da quelli che si ottengono con loro."
 SYS_44 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}But let's save that discussion until next time."
+SAY "{VOICE=07}Ma affronteremo l'argomento un'altra volta. Ora non è il momento..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}We will meet again, I trust."
+SAY "{VOICE=07}{1F36}ero che c'incontreremo ancora..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -294,7 +294,7 @@ SYS_02 0x8
 SYS_03 0x8 
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}As I suspected... The power you wield is the real thing."
+SAY "{VOICE=07}{1F61}, è come sospettavo. Tu possiedi il vero potere."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -304,14 +304,14 @@ STORE 0x18 0x1 0x0 0x2 0x42c80000
 SYS_14 0x8 
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}I am the divine beast known as the Incarnus."
+SAY "{VOICE=07}Io sono Incarnus, la Bestia Divina."
 SYS_44 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}The next time we meet will likely be the last."
+SAY "{VOICE=07}Con ogni probabilità, c'incontreremo ancora un'ultima volta."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}I look forward to seeing you then."
+SAY "{VOICE=07}Ci rivedremo presto..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -341,40 +341,40 @@ SYS_02 0x8
 SYS_03 0x8 
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}I wanted to assay the power you have at your disposal."
+SAY "{VOICE=07}Ho messo alla prova il potere di cui disponi..."
 SYS_44 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}There is no doubt - you are worthy of being entrusted with the Infantus."
+SAY "{VOICE=07}{1F61}, non c'è dubbio. {1F2B}i degno di accogliere con te Infantus."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}I can die happy knowing that I have found a master scout like you..."
+SAY "{VOICE=07}Ora che ho trovato te, che sei uno {1F29}out straordinario, posso morire felice..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41f00000
 SETNAME "Incarnus"
-SAY "{VOICE=07}For the divine Incarnus must die in order to entrust the Infantus to another."
+SAY "{VOICE=07}Incarnus deve morire, affinché Infantus possa essere accolto da un altro essere."
 SYS_44 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}As the Infantus passes into the hands of another...{WAIT}{CLEAR}...I will lose my memory and fade from existence."
-SYS_44 0x8 
-WAIT 0x10 0x2 0x41200000
-SETNAME "Incarnus"
-SAY "{VOICE=07}It has been brief, but I have enjoyed the time I've spent with you immensely."
+SAY "{VOICE=07}Infantus passerà a un'altra persona...{WAIT}{CLEAR}E io perderò tutti i miei ricordi, fino all'ultimo, e scomparirò per sempre."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}The Infantus awaits you within sight of your airship."
+SAY "{VOICE=07}Il tempo che ho trascorso in tua compagnia è stato breve, ma intenso e piacevole."
+SYS_44 0x8 
+WAIT 0x10 0x2 0x41200000
+SETNAME "Incarnus"
+SAY "{VOICE=07}Infantus ti attende nei pressi della volonave."
 SYS_44 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Look after the Infantus well..."
+SAY "{VOICE=07}Abbi cura di Infantus..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40a00000
 STORE 0x18 0x1 0x3f800000 0x2 0x0
 SYS_F4 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}I pray that you will rise to become the most powerful of all monster scouts."
+SAY "{VOICE=07}Pregherò affinché, un giorno, tu possa diventare il più potente tra tutti gli {1F29}out."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

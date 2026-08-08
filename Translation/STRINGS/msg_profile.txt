@@ -1,8 +1,8 @@
-Profile Settings
-Change Name
-Set Region
-Finish Settings
-Select Region
+Impostazioni profilo
+Cambia nome
+Imposta regione
+Termina impostazioni
+Seleziona regione
 
 
 
@@ -30,16 +30,16 @@ Select Region
 
 
 
-You can change your display name.{315}If you enter an inappropriate name,{315}you cannot use Wi-Fi communications.{315}If your name is inappropriate,{315}please change it before playing.
-Set your region / country.{315}It appears in Tag Mode Battles,{315}Wireless Battles and Wi-Fi communications.
-Confirm your changes and save.
+Puoi cambiare il nome visualizzato.{315}Se inserisci un nome inappropriato,{315}non potrai usare le comunicazioni Wi-Fi.{315}Se il nome non è appropriato,{315}cambialo prima di giocare.
+Imposta la tua regione o il tuo Paese.{315}Apparirà nelle battaglie in Modalità Tag,{315}nelle battaglie wireless e nelle comunicazioni Wi-Fi.
+Conferma le modifiche e salva.
 
 
-Select your region.
-Select your country.
-Select your area.
-Select your region.
-Region set to {30b}{00}.
+Seleziona la tua regione.
+Seleziona il tuo Paese.
+Seleziona la tua area.
+Seleziona la tua regione.
+Regione impostata su {30b}{00}.
 
 
 
@@ -47,10 +47,10 @@ Region set to {30b}{00}.
 
 
 Asia
-Europe / CIS
-Middle East
-North America
-Latin America
+Europa / CSI
+Medio Oriente
+America del Nord
+America Latina
 Africa
 Oceania
 Hokkaido/Tohoku
@@ -62,8 +62,8 @@ Kinki
 Chugoku
 Shikoku
 Kyushu/Okinawa
-Region
-Unregistered
+Regione
+Non registrata
 Hokkaido
 Aomori
 Iwate
@@ -303,13 +303,13 @@ FJI
 MHL
 FSM
 JPN
-Select an Asian country.
-Select a Europe/CIS country.
-Select a Middle East country.
-Select a North American country.
-Select a Latin American country.
-Select an African country.
-Select an Oceanian country.
+Seleziona un Paese asiatico.
+Seleziona un Paese europeo o della CSI.
+Seleziona un Paese del Medio Oriente.
+Seleziona un Paese nordamericano.
+Seleziona un Paese latinoamericano.
+Seleziona un Paese africano.
+Seleziona un Paese oceaniano.
 
 
 
@@ -358,195 +358,195 @@ Select an Oceanian country.
 
 
 
-Set region to India.
-Set region to Indonesia.
-Set region to Cambodia.
-Set region to Singapore.
-Set region to Sri Lanka.
-Set region to Thailand.
-Set region to South Korea.
-Set region to China.
-Set region to North Korea.
-Set region to Nepal.
-Set region to Pakistan.
-Set region to Bangladesh.
-Set region to East Timor.
-Set region to Philippines.
-Set region to Bhutan.
-Set region to Brunei.
-Set region to Vietnam.
-Set region to Malaysia.
-Set region to Myanmar.
-Set region to{315}the Maldives.
-Set region to Mongolia.
-Set region to Laos.
-Set region to Iceland.
-Set region to Ireland.
-Set region to Azerbaijan.
-Set region to Albania.
-Set region to Armenia.
-Set region to Andorra.
-Set region to Italy.
-Set region to Ukraine.
-Set region to Uzbekistan.
-Set region to the{315}United Kingdom.
-Set region to Estonia.
-Set region to Austria.
-Set region to the Netherlands.
-Set region to Kazakhstan.
-Set region to Cyprus.
-Set region to Greece.
-Set region to Kyrgyzstan.
-Set region to Georgia.
-Set region to Croatia.
-Set region to San Marino.
-Set region to Switzerland.
-Set region to Sweden.
-Set region to Spain.
-Set region to Slovakia.
-Set region to Slovenia.
-Set region to Serbia.
-Set region to Tajikistan.
-Set region to the{315}Czech Republic.
-Set region to Denmark.
-Set region to Germany.
-Set region to Turkmenistan.
-Set region to Norway.
-Set region to Hungary.
-Set region to Finland.
-Set region to France.
-Set region to Bulgaria.
-Set region to Belarus.
-Set region to Belgium.
-Set region to Poland.
-Set region to{315}Bosnia-Herzegovina.
-Set region to Portugal.
-Set region to Macedonia.
-Set region to Malta.
-Set region to Monaco.
-Set region to Moldova.
-Set region to Montenegro.
-Set region to Latvia.
-Set region to Lithuania.
-Set region to{315}Liechtenstein.
-Set region to Romania.
-Set region to Luxembourg.
-Set region to Russia.
-Set region to Afghanistan.
-Set region to the{315}United Arab Emirates.
-Set region to Yemen.
-Set region to Israel.
-Set region to Iraq.
-Set region to Iran.
-Set region to Oman.
-Set region to Qatar.
-Set region to Kuwait.
-Set region to Saudi Arabia.
-Set region to Syria.
-Set region to Turkey.
-Set region to Bahrain.
-Set region to Jordan.
-Set region to Lebanon.
-Set region to the{315}United States.
-Set region to Canada.
-Set region to Argentina.
-Set region to{315}Antigua/Barbuda.
-Set region to Uruguay.
-Set region to Ecuador.
-Set region to El Salvador.
-Set region to Guyana.
-Set region to Cuba.
-Set region to Guatemala.
-Set region to Grenada.
-Set region to Costa Rica.
-Set region to Colombia.
-Set region to Jamaica.
-Set region to Suriname.
-Set region to{315}St Kitts/Nevis.
-Set region to{315}St Vincent/Grenadines.
-Set region to St Lucia.
-Set region to Chile.
-Set region to Dominica.
-Set region to the{315}Dominican Republic.
-Set region to{315}Trinidad/Tobago.
-Set region to Nicaragua.
-Set region to Haiti.
-Set region to Panama.
-Set region to Bahamas.
-Set region to Paraguay.
-Set region to Barbados.
-Set region to Brazil.
-Set region to Venezuela.
-Set region to Belize.
-Set region to Peru.
-Set region to Bolivia.
-Set region to Honduras.
-Set region to Mexico.
-Set region to Algeria.
-Set region to Angola.
-Set region to Uganda.
-Set region to Egypt.
-Set region to Ethiopia.
-Set region to Eritrea.
-Set region to Ghana.
-Set region to Cape Verde.
-Set region to Gabon.
-Set region to Cameroon.
-Set region to Gambia.
-Set region to Guinea.
-Set region to Guinea-Bissau.
-Set region to Kenya.
-Set region to{315}Cote d'Ivoire.
-Set region to Comoros.
-Set region to Congo.
-Set region to the{315}DR Congo.
-Set region to{315}Sao Tome/Principe.
-Set region to Zambia.
-Set region to Sierra Leone.
-Set region to Djibouti.
-Set region to Zimbabwe.
-Set region to Sudan.
-Set region to Swaziland.
-Set region to Seychelles.
-Set region to{315}Equatorial Guinea.
-Set region to Senegal.
-Set region to Somalia.
-Set region to Tanzania.
-Set region to Chad.
-Set region to{315}Central Africa.
-Set region to Tunisia.
-Set region to Togo.
-Set region to Nigeria.
-Set region to Namibia.
-Set region to Niger.
-Set region to{315}Burkina Faso.
-Set region to Burundi.
-Set region to Benin.
-Set region to Botswana.
-Set region to Madagascar.
-Set region to Malawi.
-Set region to Mali.
-Set region to South Africa.
-Set region to Mauritius.
-Set region to Mauritania.
-Set region to Mozambique.
-Set region to Morocco.
-Set region to Libya.
-Set region to Liberia.
-Set region to Rwanda.
-Set region to Lesotho.
-Set region to Australia.
-Set region to Kiribati.
-Set region to Samoa.
-Set region to the{315}Solomon Islands.
-Set region to Tuvalu.
-Set region to Tonga.
-Set region to Nauru.
-Set region to New Zealand.
-Set region to Vanuatu.
-Set region to{315}Papua New Guinea.
-Set region to Palau.
-Set region to Fiji.
-Set region to the{315}Marshall Islands.
-Set region to Micronesia.
-Set region to Japan.
+Regione impostata su India.
+Regione impostata su Indonesia.
+Regione impostata su Cambogia.
+Regione impostata su Singapore.
+Regione impostata su Sri Lanka.
+Regione impostata su Thailandia.
+Regione impostata su Corea del Sud.
+Regione impostata su Cina.
+Regione impostata su Corea del Nord.
+Regione impostata su Nepal.
+Regione impostata su Pakistan.
+Regione impostata su Bangladesh.
+Regione impostata su Timor Est.
+Regione impostata sulle Filippine.
+Regione impostata su Bhutan.
+Regione impostata su Brunei.
+Regione impostata su Vietnam.
+Regione impostata su Malaysia.
+Regione impostata su Myanmar.
+Regione impostata sulle{315}Maldive.
+Regione impostata su Mongolia.
+Regione impostata su Laos.
+Regione impostata su Islanda.
+Regione impostata su Irlanda.
+Regione impostata su Azerbaigian.
+Regione impostata su Albania.
+Regione impostata su Armenia.
+Regione impostata su Andorra.
+Regione impostata su Italia.
+Regione impostata su Ucraina.
+Regione impostata su Uzbekistan.
+Regione impostata sul{315}Regno Unito.
+Regione impostata su Estonia.
+Regione impostata su Austria.
+Regione impostata sui Paesi Bassi.
+Regione impostata su Kazakistan.
+Regione impostata su Cipro.
+Regione impostata su Grecia.
+Regione impostata su Kirghizistan.
+Regione impostata su Georgia.
+Regione impostata su Croazia.
+Regione impostata su San Marino.
+Regione impostata su Svizzera.
+Regione impostata su Svezia.
+Regione impostata su Spagna.
+Regione impostata su Slovacchia.
+Regione impostata su Slovenia.
+Regione impostata su Serbia.
+Regione impostata su Tagikistan.
+Regione impostata sulla{315}Repubblica Ceca.
+Regione impostata su Danimarca.
+Regione impostata su Germania.
+Regione impostata su Turkmenistan.
+Regione impostata su Norvegia.
+Regione impostata su Ungheria.
+Regione impostata su Finlandia.
+Regione impostata su Francia.
+Regione impostata su Bulgaria.
+Regione impostata su Bielorussia.
+Regione impostata su Belgio.
+Regione impostata su Polonia.
+Regione impostata sulla{315}Bosnia-Erzegovina.
+Regione impostata su Portogallo.
+Regione impostata su Macedonia.
+Regione impostata su Malta.
+Regione impostata su Monaco.
+Regione impostata su Moldavia.
+Regione impostata su Montenegro.
+Regione impostata su Lettonia.
+Regione impostata su Lituania.
+Regione impostata sul{315}Liechtenstein.
+Regione impostata su Romania.
+Regione impostata su Lussemburgo.
+Regione impostata su Russia.
+Regione impostata su Afghanistan.
+Regione impostata sugli{315}Emirati Arabi Uniti.
+Regione impostata su Yemen.
+Regione impostata su Israele.
+Regione impostata su Iraq.
+Regione impostata su Iran.
+Regione impostata su Oman.
+Regione impostata su Qatar.
+Regione impostata su Kuwait.
+Regione impostata sull'Arabia Saudita.
+Regione impostata su Siria.
+Regione impostata su Turchia.
+Regione impostata su Bahrein.
+Regione impostata su Giordania.
+Regione impostata su Libano.
+Regione impostata sugli{315}Stati Uniti.
+Regione impostata su Canada.
+Regione impostata su Argentina.
+Regione impostata su{315}Antigua/Barbuda.
+Regione impostata su Uruguay.
+Regione impostata su Ecuador.
+Regione impostata su El Salvador.
+Regione impostata su Guyana.
+Regione impostata su Cuba.
+Regione impostata su Guatemala.
+Regione impostata su Grenada.
+Regione impostata su Costa Rica.
+Regione impostata su Colombia.
+Regione impostata su Giamaica.
+Regione impostata su Suriname.
+Regione impostata su{315}Saint Kitts/Nevis.
+Regione impostata su{315}Saint Vincent/Grenadine.
+Regione impostata su Santa Lucia.
+Regione impostata su Cile.
+Regione impostata su Dominica.
+Regione impostata sulla{315}Repubblica Dominicana.
+Regione impostata su{315}Trinidad/Tobago.
+Regione impostata su Nicaragua.
+Regione impostata su Haiti.
+Regione impostata su Panama.
+Regione impostata sulle Bahamas.
+Regione impostata su Paraguay.
+Regione impostata su Barbados.
+Regione impostata su Brasile.
+Regione impostata su Venezuela.
+Regione impostata su Belize.
+Regione impostata su Perù.
+Regione impostata su Bolivia.
+Regione impostata su Honduras.
+Regione impostata sul Messico.
+Regione impostata su Algeria.
+Regione impostata su Angola.
+Regione impostata su Uganda.
+Regione impostata su Egitto.
+Regione impostata su Etiopia.
+Regione impostata su Eritrea.
+Regione impostata su Ghana.
+Regione impostata su Capo Verde.
+Regione impostata su Gabon.
+Regione impostata su Camerun.
+Regione impostata su Gambia.
+Regione impostata su Guinea.
+Regione impostata su Guinea-Bissau.
+Regione impostata su Kenya.
+Regione impostata sulla{315}Costa d'Avorio.
+Regione impostata sulle Comore.
+Regione impostata su Congo.
+Regione impostata sul{315}Congo RD.
+Regione impostata su{315}Sao Tome/Principe.
+Regione impostata su Zambia.
+Regione impostata su Sierra Leone.
+Regione impostata su Gibuti.
+Regione impostata su Zimbabwe.
+Regione impostata su Sudan.
+Regione impostata su eSwatini.
+Regione impostata sulle Seychelles.
+Regione impostata sulla{315}Guinea Equatoriale.
+Regione impostata su Senegal.
+Regione impostata su Somalia.
+Regione impostata su Tanzania.
+Regione impostata su Ciad.
+Regione impostata sull'{315}Africa Centrale.
+Regione impostata su Tunisia.
+Regione impostata su Togo.
+Regione impostata su Nigeria.
+Regione impostata su Namibia.
+Regione impostata su Niger.
+Regione impostata su{315}Burkina Faso.
+Regione impostata su Burundi.
+Regione impostata su Benin.
+Regione impostata su Botswana.
+Regione impostata su Madagascar.
+Regione impostata su Malawi.
+Regione impostata su Mali.
+Regione impostata sul Sudafrica.
+Regione impostata su Mauritius.
+Regione impostata su Mauritania.
+Regione impostata su Mozambico.
+Regione impostata su Marocco.
+Regione impostata su Libia.
+Regione impostata su Liberia.
+Regione impostata su Ruanda.
+Regione impostata su Lesotho.
+Regione impostata su Australia.
+Regione impostata su Kiribati.
+Regione impostata su Samoa.
+Regione impostata sulle{315}Isole Salomone.
+Regione impostata su Tuvalu.
+Regione impostata su Tonga.
+Regione impostata su Nauru.
+Regione impostata su Nuova Zelanda.
+Regione impostata su Vanuatu.
+Regione impostata su{315}Papua Nuova Guinea.
+Regione impostata su Palau.
+Regione impostata su Figi.
+Regione impostata sulle{315}Isole Marshall.
+Regione impostata su Micronesia.
+Regione impostata su Giappone.

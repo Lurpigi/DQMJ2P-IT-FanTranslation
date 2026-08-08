@@ -61,39 +61,23 @@
 
 
 
-Show No Mercy
-Weaken Foes
-Support
-Focus On Healing
-Don't Use Magic
+Non avere pietà
+Indebolisci i nemici
+Supporto
+Concentrati sulle cure
+Non usare magie
 
 
 
-Defeat the enemy as quickly as possible, regardless of MP used.
-Focus on debuffing the enemy.
-Fight using a variety of support spells and abilities.
-Pay attention to the remaining HP of fellow team members.
-Fight without using any MP.
+Sconfiggi il nemico il più rapidamente possibile, indipendentemente dai PM usati.
+Concentrati sull'indebolire il nemico.
+Combatti usando varie magie e abilità di supporto.
+Tieni d'occhio i PV rimanenti dei membri della squadra.
+Combatti senza usare PM.
 
 
 
-Yes{315}No
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-The save data could not be accessed. Please turn off the power and reinsert the DS Game Card.
+Sì{315}No
 
 
 
@@ -109,14 +93,30 @@ The save data could not be accessed. Please turn off the power and reinsert the 
 
 
 
-Cancel
-Rank F
-Rank E
-Rank D
-Rank C
-Rank B
-Rank A
-Rank X
+Impossibile accedere ai dati di salvataggio. Spegni la console e reinserisci la scheda di gioco DS.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Annulla
+Grado F
+Grado E
+Grado D
+Grado C
+Grado B
+Grado A
+Grado X
 
 
 

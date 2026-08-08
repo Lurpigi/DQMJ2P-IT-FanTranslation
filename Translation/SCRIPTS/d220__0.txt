@@ -65,12 +65,12 @@ STORE 0x18 0x1 0x40000000 0x2 0x42b40000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x43480000
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}The tension is building as we prepare for the tournament's grand finale!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}{1F3A}iamo per assistere alla fase finale della sfida! La tensione è altissima!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Referee"
-SAY "{VOICE=07}Let's introduce the two gifted young scouts facing each other in the final..."
+SETNAME "Arbitro"
+SAY "{VOICE=07}Presentiamo i due {1F29}out che si affronteranno nella finalissima!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -116,8 +116,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_18 0x8 
 WAIT 0x10 0x2 0x41600000
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}First, the tournament's dark horse, the rank outsider, the joker in the pack...{WAIT}{CLEAR}It could only be enigmatic former airship deckhand, {NAME}!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}Partiamo con la rivelazione di quest'edizione della sfida...!{WAIT}{CLEAR}Fino a poco fa era meno di un mozzo, e ora lotta per il titolo... {NAME}!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -162,8 +162,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43120000
 SYS_18 0x8 
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}And facing him today, our reigning champion - the seemingly invincible..."
+SETNAME "Arbitro"
+SAY "{VOICE=07}Dovrà vedersela con la grande... invincibile... stratosferica..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x42780000
@@ -173,8 +173,8 @@ STORE 0x18 0x1 0x0 0x2 0x42780000
 STORE 0x18 0x1 0x3f800000 0x2 0x41f00000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x42200000
-SETNAME "Referee"
-SAY "{VOICE=07}...Solitaire!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}{1F35}litaire!!!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -188,15 +188,15 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43140000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}So you were the deckhand on board that mysterious disappearing airship?"
+SAY "{VOICE=08}Facevi parte dell'equipaggio della nave che era scomparsa misteriosamente...?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}Can you believe I was originally set to travel on that flying junkyard!?{WAIT}{CLEAR}That was a close shave alright!{BREAK}Guess I was just born lucky..."
+SAY "{VOICE=08}Ma lo sai che avrei dovuto imbarcarmi su quel rottame?! Per fortuna {WAIT}{CLEAR}cambiai idea, altrimenti {BREAK}chissà che fine avrei fatto!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}Anyway, you may be good for an amateur, but I'll show you how the pros do it."
+SAY "{VOICE=08}In ogni caso, sei solo un dilettante. Ora ti mostrerò come duella una vera {1F29}out!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -217,8 +217,8 @@ STORE 0x18 0x1 0x0 0x2 0x0
 SYS_8C 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}Sorry to butt in, but we need to go over the rules before we get started."
+SETNAME "Arbitro"
+SAY "{VOICE=07}Ehm, scusate se vi interrompo, ma dovrei spiegare le regole della sfida..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x428e0000
@@ -228,16 +228,16 @@ STORE 0x18 0x1 0x0 0x2 0x428e0000
 STORE 0x18 0x1 0x3f800000 0x2 0x41f00000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41f00000
-SETNAME "Referee"
-SAY "{VOICE=07}It's a one-round, no-time-limit battle to the bitter end.{WAIT}{CLEAR}There can be only one winner!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}Lo scontro si svolge in un unico round, senza limiti di tempo.{WAIT}{CLEAR}La vittoria andrà allo {1F29}out che metterà fuori combattimento l'avversario."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Referee"
-SAY "{VOICE=07}There'll be no switching substitutes, fleeing, scouting or using items!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}È vietato effettuare sostituzioni, fuggire, reclutare mostri e usare oggetti."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Referee"
-SAY "{VOICE=07}Okay! It's time for the final!{BREAK}Let's find out who Lady Luck favours."
+SETNAME "Arbitro"
+SAY "{VOICE=07}Bene! È il momento della finalissima! {BREAK}Tra breve scopriremo a chi andrà la vittoria!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -262,8 +262,8 @@ STORE 0x18 0x1 0x0 0x2 0x0
 SYS_8C 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}Will our reigning champion, Solitaire, retain her crown?"
+SETNAME "Arbitro"
+SAY "{VOICE=07}Riuscirà {1F35}litaire, la nostra campionessa in carica, a conservare il titolo?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -288,8 +288,8 @@ STORE 0x18 0x1 0x0 0x2 0x0
 SYS_8C 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}Or will it be this year's previously unknown sensation, {NAME}?"
+SETNAME "Arbitro"
+SAY "{VOICE=07}O la vittoria andrà a {NAME}, la grande rivelazione del Torneo?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -367,8 +367,8 @@ STORE 0x18 0x1 0x0 0x2 0x41a00000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x40a00000
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}...Ready! ...Set! ...FIGHT!!!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}Ai vostri posti...! Pronti...? COMBATTETE!"
 WAIT 0x10 0x2 0x41c80000
 STORE 0x18 0x1 0x0 0x2 0x42200000
 SYS_9C 0x8 

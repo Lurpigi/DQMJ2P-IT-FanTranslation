@@ -1,82 +1,82 @@
-Synthesise
-Cancel
-Monster A
-Monster B
+Sintesi
+Annulla
+Mostro A
+Mostro B
 0
-Result 1
-Result 2
-Result 3
+Risultato 1
+Risultato 2
+Risultato 3
 
-Continue
-Select Skills
-Points
+Continua
+Seleziona abilità
+Punti
 OK
-Place new monster:
-Inherited Skills:
-Synthesise
-Monster level is too low, so synthesis cannot take place.
-More {226} is required for synthesis.
+Inserisci nuovo mostro:
+Abilità ereditate:
+Sintesi
+Il livello del mostro è troppo basso: la sintesi non può essere eseguita.
+Per la sintesi servono altri {226}.
 
 R: 
 OK
 
-Select {30b}{00} skills for the new monster to inherit.
-End
-Monster Pen
-Switch Monsters
-Member List
-Cancel
-Spaces Free In Pen: 
-Skill Points Remaining: 
-Skill Allocation
-Release
-End
+Seleziona le abilità di {30b}{00} che il nuovo mostro erediterà.
+Fine
+Recinto mostri
+Cambia mostri
+Elenco dei membri
+Annulla
+Spazi liberi nel recinto:
+Punti abilità rimanenti:
+Abilità
+Libera
+Fine
 
 OK
 Cancel
-Points Remaining
+Punti rimanenti
 
 
 
 
 
-Monsters that are released are lost forever.
-{30b}{00} reluctantly returns to the wild!
-There must be at least one monster in the team.
-Change Name
-Monsters
-Skills
-Traits
-Library
-The monster is transferred from the pen {23a} and added to the party {238}.
+I mostri liberati andranno persi per sempre.
+{30b}{00} torna controvoglia allo stato brado!
+Deve esserci almeno un mostro nella squadra.
+Cambia nome
+Mostri
+Abilità
+Tratti
+Album
+Il mostro è stato trasferito dal recinto {23a} e aggiunto alla squadra {238}.
 Info
-Synthesis
-Favorite Teams
-Virtual Battle
+Sintesi
+Squadre preferite
+Battaglia virtuale
 
-Buy
-Sell
-Cancel
-This item cannot be sold.
-This item cannot be sold as it is currently equipped by a monster.
+Compra
+Vendi
+Annulla
+Questo oggetto non può essere venduto.
+Questo oggetto non può essere venduto perché è equipaggiato da un mostro.
 
 {226}:
 -
 x
 
 E
-Equip
-Move to Equipment
-Cancel
-Price
+Aggiungi all'equipaggiamento
+Compra
+Annulla
+Prezzo
 -
-End
-Item Vending Machine
-Item Shop
-Item Shop
-Sold Out
-You can't carry any more.
-Missing {226}
+Fine
+Distributore di oggetti
+Negozio di oggetti
+Negozio di oggetti
+Esaurito
+Non puoi trasportarne altri.
+Manca {226}
 
 
 
@@ -87,67 +87,67 @@ Missing {226}
 
 
 
-Cleared!
-Monster Arena
+Completato!
+Arena dei mostri
 
 
 
 
-Deposit
-Withdraw
-Cancel
+Deposita
+Ritira
+Annulla
 All
 1000
 10000
 {226} In Hand
-{226} In Bank
+{226} in banca
 ↑
 ↓
-Gold Bank ATM
-End
+Banca Aurea
+Fine
 
 
 
 
 All
-{20e}Slime Family
-{20f}Dragon Family
-{210}Nature Family
-{211}Beast Family
-{212}Material Family
-{213}Demon Family
-{214}Undead Family
-{215}??? Family
-Spells and Abilities
-Attribute Bonuses
-Special Effects
-Parameter Tweaks
-Resistance +/-
+{20e}Famiglia Slime
+{20f}Famiglia Draghi
+{210}Famiglia Naturali
+{211}Famiglia Belve
+{212}Famiglia Materiali
+{213}Famiglia Demoni
+{214}Famiglia Non-morti
+{215}Famiglia ???
+Magie e abilità
+Bonus agli attributi
+Effetti speciali
+Modifiche ai parametri
+Resistenze +/-
 
 
-Unknown
-Victories
-Scouted
-Synth.
-Types Befriended:
-Total: 
-Equippable Weapons:
+Sconosciuto
+Vittorie
+Reclutati
+Sintesi
+Tipi reclutati:
+Totale:
+Armi equipaggiabili:
 Habitat:
-How to Synthesise:
+Come sintetizzare:
 X
 
-{30b}{00} cannot be checked on right now.
-{30b}{00} checks on {30b}T.
-That monster isn't in the monster pen, so {30f} can't check on them.
-{30b}{00} is not in the party, so {30f} can't check their status.
-Sorted by ID!
-Sorted by rank!
-Sorted alphabetically!
-Moved open entries to the top of the list!
-Go on and look for one. It should be in the monster pen somewhere.
-Try heading out the door by the monster pen.
+Non puoi controllare {30b}{00} in questo momento.
+{30b}{00} controlla {30b}T.
+Quel mostro non è nel recinto, quindi {30f} non può controllarlo.
+{30b}{00} non è nella squadra, quindi {30f} non può controllarne lo stato.
+Ordinato per ID!
+Ordinato per grado!
+Ordinato alfabeticamente!
+Le entry disponibili sono state spostate in cima alla lista!
+Continua a cercare. Dovrebbe essere da qualche parte nel recinto mostri.
+Prova a uscire dalla porta vicino al recinto mostri.
 
-Monsters with Trait:
+Mostri con il tratto:
 
 
 
@@ -189,14 +189,14 @@ Philiage
 
 
 
-Organise the monsters in your team.
-Form Favorite Parties.
-Check the monsters in your team.{315}You can also edit monster names and allocate skill points.
-Browse a wide range of monster data.
-Engage in Virtual Battles.
-Exit the monster pen.
-This feature is not available until you have more than {315}20 monsters.
-This feature is not available until you have more than {315}20 monsters.
+Organizza i mostri nella tua squadra.
+Forma squadre preferite.
+Controlla i mostri nella tua squadra.{315}Puoi anche modificare i nomi dei mostri e assegnare punti abilità.
+Consulta una vasta gamma di dati sui mostri.
+Partecipa a battaglie virtuali.
+Esci dal recinto mostri.
+Questa funzione non è disponibile finché non hai più di {315}20 mostri.
+Questa funzione non è disponibile finché non hai più di {315}20 mostri.
 
 
 
@@ -205,51 +205,50 @@ This feature is not available until you have more than {315}20 monsters.
 
 
 
-Unregistered
-Register Favorite members.{315}Please select monsters.
-Favorite Member Name
-Swap with Party
-Swap with Substitutes
-Change Members
-There monsters that are not{315}in the monster pen anymore.{315}They have been removed, so please register members again.
-Swap current party with{315}{30b}{00}?
-Swap substitutes with{315}{30b}{00}?
-Swapped current party with{315}{30b}{00}.
-Swapped substitutes with{315}{30b}{00}.
-Cannot swap because{315}the party would be empty.
-Completed registering favorite!
-Completed changing favorite!
-This monster cannot be{315}a favorite at the moment.
-F-D Rank Class
-C-A Rank Class
-S/X Rank Class
-This monster cannot enter the{315}World Monster Championship because it{315}is registered to {322}.
-You cannot fight with these{315}favorites now because they are{315}set to {322}.{315}Swap anyway?
-Swap with Sent Party
-Swap current Sent party with{315}{30b}{00}?
-Swapped current Sent party with{315}{30b}{00}.
-Cannot swap because{315}the Sent party would be empty.
+Non registrato
+Registra membri preferiti.{315}Seleziona i mostri.
+Nome del membro preferito
+Scambia con la squadra
+Scambia con le riserve
+Cambia membri
+Ci sono mostri che non sono più{315}nel recinto mostri.{315}Sono stati rimossi: registra di nuovo i membri.
+Scambiare la squadra attuale con{315}{30b}{00}?
+Scambiare le riserve con{315}{30b}{00}?
+Squadra attuale scambiata con{315}{30b}{00}.
+Riserve scambiate con{315}{30b}{00}.
+Impossibile scambiare perché{315}la squadra resterebbe vuota.
+Registrazione della squadra preferita completata!
+Modifica della squadra preferita completata!
+Questo mostro non può essere{315}un preferito in questo momento.
+Classe di grado F-D
+Classe di grado C-A
+Classe di grado S/X
+Questo mostro non può partecipare al{315}Campionato mondiale dei mostri perché{315}è registrato a {322}.
+Non puoi combattere ora con questi{315}preferiti perché sono{315}impostati su {322}.{315}Scambiare comunque?
+Scambia con la squadra inviata
+Scambiare la squadra inviata attuale con{315}{30b}{00}?
+Squadra inviata attuale scambiata con{315}{30b}{00}.
+Impossibile scambiare perché{315}la squadra inviata resterebbe vuota.
 
 
 
-Swap with Opponent Party
-Swap with Opponent Substitutes
-Swap opponent party with{315}{30b}{00}?
-Swap opponent substitutes with{315}{30b}{00}?
-Swapped opponent party with{315}{30b}{00}.
-Swapped opponent substitutes with{315}{30b}{00}.
-Cannot swap because{315}opponent party would be empty.
+Scambia con la squadra avversaria
+Scambia con le riserve avversarie
+Scambiare la squadra avversaria con{315}{30b}{00}?
+Scambiare le riserve avversarie con{315}{30b}{00}?
+Squadra avversaria scambiata con{315}{30b}{00}.
+Riserve avversarie scambiate con{315}{30b}{00}.
+Impossibile scambiare perché{315}la squadra avversaria resterebbe vuota.
 
 
 
-Here you can choose up to 3{315}monsters to register as favorites.
-You can swap these monsters{315}with your current party.
-First, choose 'Unregistered', then{315}register the monster of your choice.
+Qui puoi scegliere fino a 3{315}mostri da registrare come preferiti.
+Puoi scambiare questi mostri{315}con la squadra attuale.
+Per prima cosa scegli 'Non registrato', poi{315}registra il mostro che preferisci.
 
 
 
-When you return, 'Unregistered'{315}will be changed to the name you entered.
-It is useful to register favorites{315}for Wi-Fi or Tag Mode battles.
+Quando tornerai, 'Non registrato'{315}verrà sostituito dal nome inserito.
+È utile registrare preferiti{315}per le battaglie Wi-Fi o in Modalità Tag.
 
-Monsters with the 'Guest' mark{315}cannot enter the{315}World Monster Championship.
-
+I mostri con il contrassegno 'Ospite'{315}non possono partecipare al{315}Campionato mondiale dei mostri.

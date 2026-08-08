@@ -48,12 +48,12 @@ SYS_33 0x8
 STORE 0x18 0x0 0x40e00000 0x1 0x0
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SETNAME "Captain Crow"
-SAY "{VOICE=07}I take me hat off to ye, landlubber.{BREAK}But next time will be different!"
+SETNAME "Capitan Crow"
+SAY "{VOICE=07}{1F2B}i stato bravo... Ma la prossima {BREAK}volta le cose andranno diversamente!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Captain Crow"
-SAY "{VOICE=07}Next time we meet, I'll get ye a permanent address in Davy Jones' Locker!"
+SETNAME "Capitan Crow"
+SAY "{VOICE=07}Ti prometto che ti spedirò a far compagnia ai pesci in fondo al mare!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -74,7 +74,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Captain Crow and his crew fade into the darkness and are gone..."
+SAY "{COLOR=2}Capitan Crow e la sua ciurma si allontanano nell'oscurità..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -98,12 +98,12 @@ SYS_33 0x8
 STORE 0x18 0x0 0x40e00000 0x1 0x0
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SETNAME "Captain Crow"
-SAY "{VOICE=07}Yarrr! It be too miserable to contemplate - bein' beaten by a swab like ye!"
+SETNAME "Capitan Crow"
+SAY "{VOICE=07}Capitan Crow, il terrore dei mari, è stato battuto da un pesciolino d'acqua dolce..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Captain Crow"
-SAY "{VOICE=07}Next time, I'll make ye walk the plank! Yar har har!"
+SETNAME "Capitan Crow"
+SAY "{VOICE=07}Ma non finisce qui! La prossima volta che c'incontreremo ti darò in pasto agli squali!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -124,7 +124,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Captain Crow and his crew fade into the darkness and are gone..."
+SAY "{COLOR=2}Capitan Crow e la sua ciurma si allontanano nell'oscurità..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -148,16 +148,16 @@ SYS_33 0x8
 STORE 0x18 0x0 0x40e00000 0x1 0x0
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SETNAME "Captain Crow"
-SAY "{VOICE=07}Defeated by a lousy landlubber! It be too much for my pirate pride to take."
+SETNAME "Capitan Crow"
+SAY "{VOICE=07}Mi hai battuto! Non ci posso credere... Hai inferto un colpo mortale al mio orgoglio..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Captain Crow"
-SAY "{VOICE=07}Yarrr! I refuse to accept it. The mighty Cap'n Crow bows to no one."
+SETNAME "Capitan Crow"
+SAY "{VOICE=07}No! Capitan Crow non si piega davanti a nessuno! {1F35}no invincibile! Ehm, lo ero..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Captain Crow"
-SAY "{VOICE=07}Mark my words! I'll get ye a permanent address in Davy Jones' Locker for this!"
+SETNAME "Capitan Crow"
+SAY "{VOICE=07}La prossima volta che c'incontreremo, ti darò in pasto agli squali! Mi hai capito?!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -178,7 +178,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Captain Crow and his crew fade into the darkness and are gone..."
+SAY "{COLOR=2}Capitan Crow e la sua ciurma si allontanano nell'oscurità..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -202,16 +202,16 @@ SYS_33 0x8
 STORE 0x18 0x0 0x40e00000 0x1 0x0
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SETNAME "Captain Crow"
-SAY "{VOICE=07}Yarrrr!!! This can't be! The mighty Bilhaw has been defeated!"
+SETNAME "Capitan Crow"
+SAY "{VOICE=07}Il Marchese de Léon è stato sconfitto?! Non è possibile!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Captain Crow"
-SAY "{VOICE=07}After all that bread and water I gave him, this be how he repays me!?"
+SETNAME "Capitan Crow"
+SAY "{VOICE=07}Dopo che l'ho nutrito con generose razioni di acqua e pane raffermo mi ripaga così?!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Captain Crow"
-SAY "{VOICE=07}He'll walk the plank for this! Retreat! Retreat!{WAIT}{CLEAR}But remember ye this - I will have my revenge!"
+SETNAME "Capitan Crow"
+SAY "{VOICE=07}Lo metterò ai ferri, quel buono a nulla! Anzi, lo farò ai ferri e me lo mangerò...{WAIT}{CLEAR}E tu ricorda... Mi vendicherò! Ti faccio vedere io, ti faccio...!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -232,7 +232,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Captain Crow and his crew fade into the darkness and are gone..."
+SAY "{COLOR=2}Capitan Crow e la sua ciurma si allontanano nell'oscurità..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -256,20 +256,20 @@ SYS_33 0x8
 STORE 0x18 0x0 0x40e00000 0x1 0x0
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SETNAME "Captain Crow"
-SAY "{VOICE=07}Yarrr! I be growin' accustomed to the bitter taste of defeat..."
+SETNAME "Capitan Crow"
+SAY "{VOICE=07}{1F2F}gh... Ormai mi sto abituando all'amaro gusto della sconfitta... Che saporaccio!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Captain Crow"
-SAY "{VOICE=07}Why do ye stand in the way of Capt'n Crow and his chance at a new life?"
+SETNAME "Capitan Crow"
+SAY "{VOICE=07}Perché non vuoi che io cominci una nuova vita, eh? Perché ce l'hai tanto con me?!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Captain Crow"
-SAY "{VOICE=07}Yarrr!!! There be only one thing to do!"
+SETNAME "Capitan Crow"
+SAY "{VOICE=07}Temo che mi resti una sola cosa da fare..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Captain Crow"
-SAY "{VOICE=07}I be startin' a new life - as one of your team! Make room for me, matey!"
+SETNAME "Capitan Crow"
+SAY "{VOICE=07}Verrò con te! D'ora in poi sarò al tuo fianco, così la finirai di battermi..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -296,7 +296,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Captain Crow has forced his way onto {NAME}'s team!"
+SAY "{COLOR=2}Capitan Crow ha deciso di unirsi alla squadra di {NAME}!"
 WAIT 0x10 0x2 0x3f800000
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 

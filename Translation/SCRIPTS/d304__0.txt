@@ -193,19 +193,19 @@ STORE 0x18 0x1 0x0 0x2 0x41a00000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{VOICE=08}Gah! Is that the pipsqueak you{BREAK}were on about, Tiko!?"
+SAY "{VOICE=08}Uff! È questo il moccioso di cui{BREAK}parlavi, Tiko!?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SPAWN 0x10 L_3fa8
 DATA 0x00000005
-SAY "{VOICE=08}Wait, SERIOUSLY? They're human!{BREAK}Kya-ha-ha! I've won this match!"
+SAY "{VOICE=08}Aspetta, DAVVERO? È un umano!{BREAK}Kya-ha-ha! Ho vinto questa sfida!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Now, now, Kukri.{BREAK}Let's not get ahead of ourselves..."
+SAY "{VOICE=03}Calma, calma, Kukri.{BREAK}Non traiamo conclusioni affrettate..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x41a80000
@@ -216,11 +216,11 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x42700000
 SETNAME "Elder"
-SAY "{VOICE=03}You are {NAME}, no?{BREAK}I heard your story from Tiko."
+SAY "{VOICE=03}Tu sei {NAME}, vero?{BREAK}Tiko mi ha raccontato la tua storia."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}I am grateful that you have risen{BREAK}to our, the Pipit tribe's, aid."
+SAY "{VOICE=03}Ti siamo grati per essere accorso{BREAK}in aiuto della nostra tribù Pipit."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x41b00000
@@ -230,7 +230,7 @@ STORE 0x18 0x1 0x0 0x2 0x41b00000
 STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_17 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}I guess you're wondering what happened{BREAK}here? Why you were chosen? I'll explain."
+SAY "{VOICE=03}Immagino che tu ti chieda cosa sia successo{BREAK}qui e perché sia stato scelto proprio tu. Ti spiegherò tutto."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x41500000
@@ -248,27 +248,27 @@ STORE 0x18 0x1 0x3f800000 0x2 0x446d8000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}A little while ago, a giant monkey{BREAK}monster suddenly appeared on our island."
+SAY "{VOICE=03}Poco tempo fa, un gigantesco mostro scimmia{BREAK}è apparso all'improvviso sulla nostra isola."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}That monster threatened our peace,{BREAK}so we call them 'the uninvited guest'."
+SAY "{VOICE=03}Quel mostro ha messo in pericolo la nostra pace,{BREAK}così lo abbiamo chiamato "l'Ospite indesiderato'."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}Soon after he landed, he tore out of {BREAK}here, and went to the islands center."
+SAY "{VOICE=03}Poco dopo essere atterrato, è fuggito da qui{BREAK}ed è andato verso il centro dell'isola."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}Our king lives there, It's our{BREAK}holy land, known as 'Blanc Palace'."
+SAY "{VOICE=03}Là vive il nostro re. È la nostra{BREAK}terra sacra, conosciuta come \"Palazzo Blanc\"."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}...it's likely our power will soon fade out..."
+SAY "{VOICE=03}...è probabile che il nostro potere svanisca presto..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}No doubt caused by that creature{BREAK}wrecking havoc in our holy land..."
+SAY "{VOICE=03}Senza dubbio è colpa di quella creatura,{BREAK}che sta devastando la nostra terra sacra..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -289,11 +289,11 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43410000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Kukri"
-SAY "{VOICE=08}If more devastation occurs, we'll{BREAK}lose our power to connect worlds."
+SAY "{VOICE=08}Se la devastazione continuerà, perderemo{BREAK}il potere di collegare i vari mondi."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Kukri"
-SAY "{VOICE=08}And finally, the folks on this island{BREAK}will ALL disappear!"
+SAY "{VOICE=08}E alla fine, gli abitanti di quest'isola{BREAK}scompariranno TUTTI!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -317,11 +317,11 @@ STORE 0x18 0x1 0x3f800000 0x2 0x434a0000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}And so, before we lose the power{BREAK}to connect worlds to each other,"
+SAY "{VOICE=03}Perciò, prima di perdere il potere{BREAK}di collegare tra loro mondi diversi,"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}...our strategy was to scout warriors from{BREAK}other worlds who would lend us aid!"
+SAY "{VOICE=03}...abbiamo deciso di reclutare guerrieri da{BREAK}altri mondi che potessero aiutarci!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x41500000
@@ -342,7 +342,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x40e00000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}Thus, you have been scouted to{BREAK}serve as one of those warriors!"
+SAY "{VOICE=03}E così sei stato reclutato per{BREAK}diventare uno di quei guerrieri!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x41600000
@@ -360,15 +360,15 @@ STORE 0x18 0x1 0x0 0x2 0x42200000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}By the way, our scouters are these{BREAK}two here, Tiko and Kukri."
+SAY "{VOICE=03}A proposito, i nostri reclutatori sono{BREAK}questi due: Tiko e Kukri."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}They are having a little match{BREAK}between themselves..."
+SAY "{VOICE=03}Stanno disputando una piccola sfida{BREAK}tra loro..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}If the one to defeat the uninvited{BREAK}guest is the warrior they scouted,"
+SAY "{VOICE=03}Se il guerriero reclutato da uno di loro{BREAK}sconfiggerà l'Ospite indesiderato,"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x41600000
@@ -386,7 +386,7 @@ STORE 0x18 0x1 0x0 0x0 0x41600000
 STORE 0x18 0x1 0x3f800000 0x2 0x434a0000
 SYS_18 0x8 
 SETNAME "ELder"
-SAY "{VOICE=03}Then I vowed that the victor would{BREAK}become the next elder!"
+SAY "{VOICE=03}ho promesso che il vincitore{BREAK}diventerà il prossimo anziano!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -416,7 +416,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Now, Kukri. Please introduce me to{BREAK}the warrior you've brought here."
+SAY "{VOICE=03}Ora, Kukri. Presentami il guerriero{BREAK}che hai portato qui."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -429,7 +429,7 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
 SETNAME "Kukri"
-SAY "{VOICE=08}Tee-hee. That's fine.{BREAK}But don't get too depressed, Tiko."
+SAY "{VOICE=08}Ehe ehe. Va bene.{BREAK}Ma non essere troppo triste, Tiko."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SPAWN 0x10 L_3ccc
@@ -458,7 +458,7 @@ STORE 0x18 0x1 0x0 0x0 0x40400000
 STORE 0x18 0x1 0x3f800000 0x2 0x43410000
 SYS_18 0x8 
 SETNAME "Kukri"
-SAY "{VOICE=08}Okay, you may enter!{BREAK}Strongest swordsman in the land, Leokid!"
+SAY "{VOICE=08}Puoi entrare!{BREAK}Ecco a voi Leonix, il più forte spadaccino del paese!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -590,7 +590,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x434a0000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Oh my, he does look strong!{BREAK}Well done, Kukri!"
+SAY "{VOICE=03}Per tutti i mostri, sembra davvero forte!{BREAK}Ben fatto, Kukri!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -614,8 +614,8 @@ STORE 0x18 0x1 0x0 0x2 0x427c0000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Leokid"
-SAY "{VOICE=07}Hmph. So you're the other one?{BREAK}You got somethin' to say to me?"
+SETNAME "Leonix"
+SAY "{VOICE=07}Uhm. Tu sei l'altro guerriero?{BREAK}Hai qualcosa da dirmi?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -658,16 +658,16 @@ STORE 0x18 0x1 0x0 0x0 0x40e00000
 STORE 0x18 0x1 0x3f800000 0x2 0x437a0000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Leokid"
-SAY "{VOICE=07}What? You know someone who looks like{BREAK}me, but they're an ADULT me!?"
+SETNAME "Leonix"
+SAY "{VOICE=07}Cosa? Conosci qualcuno che mi somiglia,{BREAK}ma che è un me stesso ADULTO!?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Leokid"
-SAY "{VOICE=07}A-ha-ha! What're you sayin'!?{BREAK}You're tryin' to pull one over on me!"
+SETNAME "Leonix"
+SAY "{VOICE=07}Ah ah ah! Ma cosa stai dicendo!?{BREAK}Cerchi di prendermi in giro!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Leokid"
-SAY "{VOICE=07}I came here to test my blade as I{BREAK}was told some strong foes were here..."
+SETNAME "Leonix"
+SAY "{VOICE=07}Sono venuto qui per mettere alla prova la mia spada:{BREAK}mi hanno detto che c'erano avversari forti..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x41500000
@@ -688,8 +688,8 @@ STORE 0x18 0x1 0x0 0x2 0x428e0000
 STORE 0x18 0x1 0x3f800000 0x2 0x40e00000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Leokid"
-SAY "{VOICE=07}So are we done with the pleasantries?{BREAK}Now hurry up an' take me to that guy!"
+SETNAME "Leonix"
+SAY "{VOICE=07}Abbiamo finito con i convenevoli?{BREAK}Ora sbrigati e portami da quel tizio!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -736,7 +736,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Kukri"
-SAY "{VOICE=08}Ahh he's amazing!{BREAK}Please wait up, Leokid!"
+SAY "{VOICE=08}Ah, è incredibile!{BREAK}Aspettami, Leonix!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -788,7 +788,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Kukri's done a mighty fine job.{BREAK}They might even take this match..."
+SAY "{VOICE=03}Kukri ha fatto proprio un ottimo lavoro.{BREAK}Potrebbe perfino vincere questa sfida..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -798,15 +798,15 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}WHAT! Don't be silly, elder!{BREAK}I'm sure {NAME} will win!"
+SAY "{VOICE=08}COSA!? Non dire sciocchezze, anziano!{BREAK}Sono certo che vincerà {NAME}!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}Let's go, {NAME}! Our destination is{BREAK}the holy land, and the uninvited guest!"
+SAY "{VOICE=08}Andiamo, {NAME}! La nostra destinazione è{BREAK}la terra sacra, dove si trova l'Ospite indesiderato!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}I'll tell you how when we leave{BREAK}town! I'm not gonna lose to Kukri!"
+SAY "{VOICE=08}Ti spiegherò tutto quando usciremo{BREAK}dal villaggio! Non perderò contro Kukri!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

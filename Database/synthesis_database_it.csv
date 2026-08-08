@@ -1,0 +1,336 @@
+Risultato,Grado,Famiglia,Mostro 1,Mostro 2,Mostro 3,Mostro 4
+Slime maculato,E,Slime,Slime,Slimetta,,
+Gigaslime arancione,D,Slime,Gigaslime,Slimetta,,
+Metalcabal Slime,D,Slime,Slime metallico,Cavaliere feroce,,
+Metalcabal Slime,D,Slime,Slime metallico,Paladino Slime,,
+Re Slime maculato,D,Slime,Slime maculato,Slime maculato,Slime maculato,Slime maculato
+Re Slime maculato,D,Slime,Gigaslime,Gigaslime arancione,,
+Curaslime,C,Slime,Dottor Slime,Gigaslime arancione,,
+Re Slime,C,Slime,Gigaslime,Gigaslime,,
+Metaliquislime,C,Slime,Slime metallico,Slime metallico,,
+Milislime oscuro,B,Slime,Slime oscuro,Cavaliere feroce,,
+Milislime oscuro,B,Slime,Slime oscuro,Paladino Slime,,
+Re Curaslime,B,Slime,Re Slime,Re Slime,,
+Ovomarch,B,Slime,Maluovo,Re Slime maculato,,
+Re Bollaslime,A,Slime,Bollaslime,Bollaslime,Re Slime,Re Slime
+Metalslime regale,A,Slime,Metalcabal Slime,Metalcabal Slime,Re Curaslime,Re Curaslime
+Re Metalslime,A,Slime,Metaliquislime,Metaliquislime,Metaliquislime,Metaliquislime
+Cancerio,S,Slime,Prezioslime,Prezioslime,Granchio oscuro,Granchio oscuro
+Slime Darkonium,S,Slime,Gigaslime arancione,Gigaslime arancione,Re Metalslime,Re Metalslime
+Nonno Slime,S,Slime,Re Curaslime,Re Curaslime,Metalslime regale,Metalslime regale
+Slime Perbellum,S,Slime,Metalslime regale,Metalslime regale,,
+Sliamante,SS,Slime,Prezioslime,Prezioslime,Slime Darkonium,Slime Darkonium
+Prezioslime,SS,Slime,Nonno Slime,Nonno Slime,Centopetra,Centopetra
+Re Metaliquislime,SS,Slime,Slime Blaster,Sliamante,,
+Kurridor,E,Drago,Giallosauro,Dragocertola,,
+Kurridor,E,Drago,Giallosauro,Frufrina,,
+Verdrago,E,Drago,Lacertoflamma,Lacertoflamma,,
+Metaldragone,C,Drago,Porpordrago,Mechator grigio,,
+Drago marino,C,Drago,Drago d'acqua,Malanguilla,,
+Drago marino,C,Drago,Drago d'acqua,Sentripede,,
+Cavaliere dei Draghi,B,Drago,Dragarcio,Cavaliere feroce,,
+Cavaliere dei Draghi,B,Drago,Dragarcio,Paladino Slime,,
+Serpe eterea,B,Drago,Serpe boreale,Serpe boreale,Serpe boreale,Serpe boreale
+Frufrù,B,Drago,Frufrina,Frufrina,Frufrina,Frufrina
+Megacertola,B,Drago,Dragocertola,Dragocertola,Dragocertola,Dragocertola
+Mandragola soldato,B,Drago,Fantagnan,Porpordrago,,
+Gigadragone,A,Drago,Rashaverak,Alfino,,
+Gigadragone,A,Drago,Rashaverak,Ardimentauro,,
+Gigadragone,A,Drago,Rashaverak,Tartaculei,,
+Gigadragone,A,Drago,Rashaverak,Signore dei desideri,,
+Mechadrago,A,Drago,Metaldragone,Gigadragone,,
+Mechadrago,A,Drago,Metaldragone,Rashaverak,,
+Rashaverak,A,Drago,Megacertola,Megacertola,Frufrù,Frufrù
+Ardimentauro,A,Drago,Cavaliere Aberrante,Cavaliere dei Draghi,,
+Ardimentauro,A,Drago,Cavaliere Aberrante,Lardodragon,,
+Ardimentauro,A,Drago,Cavaliere Aberrante,Mandragola soldato,,
+Ardimentauro,A,Drago,Cavaliere Aberrante,Tartaculei,,
+Dragobastro,S,Drago,Mechadrago,Draku Lard,,
+Grifotauro,S,Drago,Centopetra,Scaradozer,,
+Grifotauro,S,Drago,Centopetra,Dragone nero,,
+Dragone nero,S,Drago,Gigadragone,Baron Skeletro,,
+Dragone nero,S,Drago,Gigadragone,Gemon,,
+Dragonlord,S,Drago,Gigadragone,Demone multimani,,
+Draku Lard,S,Drago,Lardodragon,Atlas,,
+Draku Lard,S,Drago,Lardodragon,Bestiah,,
+Draku Lard,S,Drago,Lardodragon,Rosapiteco,,
+Tri Aculeo,S,Drago,Polisentinella,Gigadragone,,
+Tri Aculeo,S,Drago,Polisentinella,Rashaverak,,
+Dragonlord,SS,Drago,Dragonlord,Dragobastro,,
+Sire Dragoviano,SS,Drago,Dragonlord,Rhapthorne II,,
+Dragriphon,SS,Drago,Barbarus,Sire Dragoviano,,
+Orochi,SS,Drago,Tri Aculeo,Tri Aculeo,Grifotauro,Grifotauro
+Xenlon,SS,Drago,Dragriphon,Drago dimensionale,,
+Xenlon,SS,Drago,Dragriphon,Pavone prismatico,,
+Xenlon,SS,Drago,Dragriphon,Yggdrasil,,
+Xiphos,SS,Drago,Capitan Crow,Nokturnus,,
+Drago di Zenithia,SS,Drago,Dragonlord,Xenlon,,
+Scaraforbici,F,Natura,Formica soldato,Magibambola,,
+Koguar,C,Natura,Baby Granzann,Baby Granzann,Baby Granzann,Baby Granzann
+Baleviatan,C,Natura,Drago marino,Lince alata,,
+Baleviatan,C,Natura,Drago marino,Vermex,,
+Faccia d'albero,C,Natura,Ceppo Geppo,Ceppo Geppo,Pepe & Rone,Pepe & Rone
+Faccia d'albero,C,Natura,Ceppo Geppo,Ceppo Geppo,Peracolosa,Peracolosa
+Crostaceus,C,Natura,Grankiolon,Grankiolon,,
+Scarafante nero,B,Natura,Scaraforbici,Scaraforbici,Scaraforbici,Scaraforbici
+Mantis composita,B,Natura,Skorpio,Sentripede,,
+Lanciafuoco,B,Natura,Custode tetro,Penna di fuoco,,
+Frigoforo,A,Natura,Custode tetro,Gelatile,,
+Garuda,A,Natura,Condor blu,Kaiman,,
+Fiore della morte,A,Natura,Marchese de Léon,Bulbo ramificato,,
+Kaiman,A,Natura,Pescelupo,Megalodonte,,
+Cavalliere,A,Natura,Baron Skeletro,Mandragola soldato,,
+Assalitore marino,A,Natura,Kaiman,Scarafante nero,,
+Assalitore marino,A,Natura,Kaiman,Sciakallo,,
+Assalitore marino,A,Natura,Kaiman,Jolly killer,,
+Scaradozer,S,Natura,Scarafante nero,Scarafante nero,Scarafante nero,Scarafante nero
+Scaradozer,S,Natura,Scarafante nero,Re Metalslime,,
+Generale Pardus,S,Natura,Koguar,Pope Skriterioska,Guardarosa,Demone multimani
+Piovron,S,Natura,Baby piovra,Baby piovra,Piovra regina,Piovra regina
+Piovra regina,S,Natura,Kaiman,Gigalunfo,,
+Piovra regina,S,Natura,Kaiman,Gracos,,
+Pavone prismatico,S,Natura,Penna di fuoco,Penna di fuoco,Gelatile,Gelatile
+Pavone prismatico,S,Natura,Pipit,Garuda,,
+Terrore alato,SS,Natura,Sire Dragoviano,Empyrea,,
+Leopold,SS,Natura,Dhoulmagus,Cerbero,,
+Leopold,SS,Natura,Dhoulmagus,Mastino guerriero,,
+Munchie,SS,Natura,Dragriphon,Ovattino,,
+Trode,SS,Natura,Darck,Don Mole,Rottney,Re Sanguini
+Yggdrasil,SS,Natura,Ovattino,Scruffy,,
+Gelatile,E,Bestia,Ghiandaia floreale,Serpe boreale,,
+Gelatile,E,Bestia,Ghiandaia floreale,Yeeteeh,,
+Gelatile,E,Bestia,Ghiandaia floreale,Homo nevis,,
+Dademone blu,C,Bestia,Monocolo,Monocolo,Monocolo,Monocolo
+Rospo blu,C,Bestia,Ranassassina,Dirigibilio,,
+Pollo d'attacco,B,Bestia,Fantagnan,Condor blu,,
+Pachidermico,B,Bestia,Dademone blu,Baleviatan,,
+Pachidermico,B,Bestia,Mezzo porco,Baleviatan,,
+Pachidermico,B,Bestia,Pocomacho,Baleviatan,,
+Penna di fuoco,B,Bestia,Condor blu,Fiamma danzante,,
+Sanguonicum,B,Bestia,Sanguinis,Sanguinis,Sanguinis,Sanguinis
+Tanamount,B,Bestia,Cavalier Mortimer,Penna di fuoco,,
+Alfino,A,Bestia,Marchese de Léon,Basettos,,
+Bufalorco,A,Bestia,Montone dannato,Montone dannato,Montone dannato,Montone dannato
+Gigante,A,Bestia,Baleviatan,Troll capo,,
+Gigante,A,Bestia,Baleviatan,Spiritocchio,,
+Generale Soinos,A,Bestia,Cresta furiosa,Slon la Torre,,
+Marchese de Léon,A,Bestia,Pachidermico,Pachidermico,,
+Marchese de Léon,A,Bestia,Cresta furiosa,Bufalorco,,
+Cresta furiosa,A,Bestia,Signore dei desideri,Koguar,,
+Cresta furiosa,A,Bestia,Signore dei desideri,Ardimentauro,,
+Cresta furiosa,A,Bestia,Signore dei desideri,Slimpunk,,
+Basettos,A,Bestia,Bufalorco,Montone dannato,,
+Slon la Torre,A,Bestia,Bufalorco,Mandragola soldato,,
+Taurus,A,Bestia,Bufalorco,Gigante,,
+Atlas,S,Bestia,Gigante,Gigante,Gigante,Gigante
+Atlas,S,Bestia,Gigante,Garuda,,
+Atlas,S,Bestia,Gigante,Basettos,,
+Balzack,S,Bestia,Gigante,Bestiah,,
+Balzack,S,Bestia,Gigante,Lardodragon,,
+Balzack,S,Bestia,Gigante,Megacertola,,
+Dhoulmagus,S,Bestia,Dragobastro,Tiranosfascia,,
+Don Mole,S,Bestia,Cattivalpa,Cattivalpa,Randellatore notturno,Randellatore notturno
+Re Sanguini,S,Bestia,Sanguonicum,Sanguinigenio,Pipit,Pipetto Anziano
+Musferatu,S,Bestia,Barone Von Bellycose,Gigalunfo,,
+Randellatore notturno,S,Bestia,Troll capo,Lardodragon,,
+Randellatore notturno,S,Bestia,Troll capo,Frufrù,,
+Randellatore notturno,S,Bestia,Troll capo,Rosapiteco,,
+Aquarion,SS,Bestia,Gracos,Nokturnus,,
+Pruslas,SS,Bestia,Rovina,Dragobastro,,
+Pruslas,SS,Bestia,Rovina,Atlas,,
+Pruslas,SS,Bestia,Rovina,Draku Lard,,
+Spirito gelido,F,Materiale,Fiamma danzante,Serpe boreale,,
+Spirito gelido,F,Materiale,Fiamma danzante,Yeeteeh,,
+Fiamma danzante,E,Materiale,Spirito gelido,Fuoco fatuo,,
+Fiamma danzante,E,Materiale,Spirito gelido,Sole & Soletto,,
+Sacco dentato,E,Materiale,Sacco golosone,Sacco golosone,,
+Cannibaule,D,Materiale,Sacco golosone,Esplo-sasso,,
+Gelmonio,D,Materiale,Gelatile,Golem,,
+Golem dorato,D,Materiale,Golem,Prezioslime,,
+Golem dorato,D,Materiale,Golem,Sacco dentato,,
+Cumulus Rex,C,Materiale,Fiamma danzante,Spirito gelido,,
+Golem,C,Materiale,Pu pazzo,Pu pazzo,Pu pazzo,Pu pazzo
+Octagos,C,Materiale,Montone dannato,Caneffu,,
+Burattinaio nero,C,Materiale,Slime,Blob bianco,,
+Automa,B,Materiale,Mechator grigio,Mechator grigio,,
+Corriere Corrotto,B,Materiale,Carrettiere,Carrettiere,Carrettiere,Carrettiere
+Magmalvagio,B,Materiale,Penna di fuoco,Golem,,
+Skrigno dentato,B,Materiale,Cannibaule,Cannibaule,Cannibaule,Cannibaule
+Signore dei desideri,B,Materiale,Dademone blu,Golem,,
+Signore dei desideri,B,Materiale,Mezzo porco,Golem,,
+Signore dei desideri,B,Materiale,Pocomacho,Golem,,
+Centopetra,A,Materiale,Golem,Golem,Golem dorato,Golem dorato
+Centopetra,A,Materiale,Magmalvagio,Gelmonio,Golem,Golem dorato
+Centopetra,A,Materiale,Magmalvagio,Magmalvagio,Gelmonio,Gelmonio
+Mechacentauro,A,Materiale,Mechator grigio,Mechator grigio,Mechator grigio,Mechator grigio
+Statua vivente,A,Materiale,Golem,Golem,Golem,Golem
+Borgomietitore,A,Materiale,Juggulare,Cyber Slime,,
+Guerriero di terracotta,A,Materiale,Magibambola,Magibambola,Magibambola,Magibambola
+Scudorkus,S,Materiale,Borgomietitore,Statua vivente,,
+Scudorkus,S,Materiale,Borgomietitore,Guerriero di terracotta,,
+Scudorkus,S,Materiale,Borgomietitore,Demonskrigno,,
+Mambu-Jambo,S,Materiale,Mam,Bu,Jam,Bo
+Robocentauro,S,Materiale,Centopetra,Centopetra,Mechacentauro,Mechacentauro
+Rovina,S,Materiale,Mambu-Jambo,Golem dorato,,
+Rovina,S,Materiale,Mambu-Jambo,Statua vivente,,
+Rovina,S,Materiale,Forte di Nadiria,Golem dorato,,
+Rovina,S,Materiale,Forte di Nadiria,Statua vivente,,
+Semper Actualis,S,Materiale,Druido del male,Druido del male,Anima torturata,Anima torturata
+Demonskrigno,S,Materiale,Skrigno dentato,Skrigno dentato,Cannibaule,Metalslime regale
+Demonskrigno,S,Materiale,Skrigno dentato,Skrigno dentato,Mechadrago,Mechadrago
+Estark,SS,Materiale,Titanis,Xiphos,,
+Psaro,SS,Materiale,Neromar,Rovina,,
+Sagitta,SS,Materiale,Traumatizzator,Robocentauro,Mechacentauro,Automa
+Sagitta,SS,Materiale,Traumatizzator,Robocentauro,Mechacentauro,Demonskrigno
+Sagitta,SS,Materiale,Cybercentauro,Cybercentauro,,
+Traumatizzator,SS,Materiale,Robocentauro,Rovina,,
+Grampistrello,C,Demone,Vampistrello,Vampistrello,Vampistrello,Vampistrello
+Custode tetro,C,Demone,Aggroscultura,Riditarra,,
+Custode tetro,C,Demone,Aggroscultura,Grifone,,
+Custode tetro,C,Demone,Aggroscultura,Polisentinella,,
+Custode tetro,C,Demone,Aggroscultura,Jolly killer,,
+Arcidemone,B,Demone,Dolcimonius,Dolcimonius,Dolcimonius,Dolcimonius
+Troll capo,B,Demone,Dademone blu,Groarilla,,
+Troll capo,B,Demone,Mezzo porco,Groarilla,,
+Troll capo,B,Demone,Pocomacho,Groarilla,,
+Druido del male,B,Demone,Destructore,Burattinaio nero,,
+Mago pancione,B,Demone,Malampada,Cumulus Rex,,
+Jamirus,B,Demone,Grifone,Custode tetro,,
+Cavaliere Aberrante,B,Demone,Armatura killer,Asciasauro,,
+Barone Von Bellycose,A,Demone,Mago pancione,Arcidemone,,
+Barone Von Bellycose,A,Demone,Mago pancione,Troll capo,,
+Barone Von Bellycose,A,Demone,Mago pancione,Druido del male,,
+Bestiah,A,Demone,Arcidemone,Arcidemone,Arcidemone,Arcidemone
+Bestiah,A,Demone,Arcidemone,Centopetra,,
+Bestiah,A,Demone,Arcidemone,Gigadragone,,
+Minitribù,A,Demone,Vegetribù,Scorpia,,
+Minitribù,A,Demone,Vegetribù,Virgax,,
+Duran,A,Demone,Lanciafuoco,Frigoforo,,
+Gemon,A,Demone,Jamirus,Atlas,,
+Gemon,A,Demone,Jamirus,Bestiah,,
+Gemon,A,Demone,Jamirus,Rosapiteco,,
+Gracos,A,Demone,Bestiah,Athlantos,,
+Gracos,A,Demone,Bestiah,Polisentinella,,
+Generale Gufus,A,Demone,Jamirus,Cavalliere,,
+Re Korol,A,Demone,Anima torturata,Gigadragone,,
+Re Korol,A,Demone,Anima torturata,Rashaverak,,
+Rosapiteco,A,Demone,Silvapiteco,Silvapiteco,Silvapiteco,Silvapiteco
+Rosapiteco,A,Demone,Silvapiteco,Terrorantula,,
+Rosapiteco,A,Demone,Silvapiteco,Rashaverak,,
+Aamon,S,Demone,Re Korol,Barone Von Bellycose,,
+Aamon,S,Demone,Re Korol,Guerriero di terracotta,,
+Padramos,S,Demone,Tartaculei,Scaradozer,,
+Padramos,S,Demone,Tartaculei,Semper Actualis,,
+Neromar,S,Demone,Aamon,Pope Skriterioska,,
+Hargon,S,Demone,Duran,Terrorantula,,
+Hargon,S,Demone,Duran,Druido supremo,,
+Malroth,S,Demone,Hargon,Demone multimani,,
+Malroth,S,Demone,Hargon,Piovron,,
+Lacertow,S,Demone,Wasen,Musferatu,,
+Lacertow,S,Demone,Wasen,Randellatore notturno,,
+Titanis,S,Demone,Basettos,Atlas,,
+Titanis,S,Demone,Basettos,Tri Aculeo,,
+Tiranosfascia,S,Demone,Hyperanemon,Kapurim,,
+Tiranosfascia,S,Demone,Hyperanemon,Taurus,,
+Nokturnus,SS,Demone,Duran,Prof Briskod,,
+Cobra cardinale,B,Non-morti,Serpe eterea,Druido del male,,
+Cavalier Terror,B,Non-morti,Soldaskeletro,Armatura letale,,
+Cavalier Mortimer,B,Non-morti,Dademone blu,Cavaliere feroce,,
+Cavalier Mortimer,B,Non-morti,Mezzo porco,Cavaliere feroce,,
+Cavalier Mortimer,B,Non-morti,Pocomacho,Cavaliere feroce,,
+Principe Spectros,B,Non-morti,Fantagnan,Fantagnan,Fantagnan,Fantagnan
+Epidemon,B,Non-morti,Zombeeh,Ira,,
+Soldaskeletro,B,Non-morti,Skeletro,Skeletro,Skeletro,Skeletro
+Ira,B,Non-morti,Fuoco fatuo,Fuoco fatuo,Fuoco fatuo,Fuoco fatuo
+Ira,B,Non-morti,Phantasma,Phantasma,Phantasma,Phantasma
+Cavaliere dell'Ombra,B,Non-morti,Cavalier Mortimer,Principe Spectros,,
+Baron Skeletro,A,Non-morti,Cavalier Mortimer,Cavalier Mortimer,,
+Terrorantula,A,Non-morti,Vermex,Fiore della morte,,
+Terrorantula,A,Non-morti,Vermex,Paladinorribilis,,
+Terrorantula,A,Non-morti,Vermex,Anima torturata,,
+Gigalunfo,A,Non-morti,Rospo blu,Rospo blu,,
+Verme delle Grotte,A,Non-morti,Epidemon,Gigadragone,,
+Verme delle Grotte,A,Non-morti,Epidemon,Rashaverak,,
+Kapurim,A,Non-morti,Basettos,Garuda,,
+Scimmia Zombie,A,Non-morti,Groarilla,Squigno,,
+Scimmia Zombie,A,Non-morti,Scimmia fracassona,Squigno,,
+Paladinorribilis,A,Non-morti,Cavalier Terror,Cavalier Terror,,
+Guardarosa,A,Non-morti,Armatura letale,Baron Skeletro,,
+Guardarosa,A,Non-morti,Armatura letale,Assalitore marino,,
+Anima torturata,A,Non-morti,Cavalier Terror,Cobra cardinale,,
+Anima torturata,A,Non-morti,Cavalier Terror,Epidemon,,
+Anima torturata,A,Non-morti,Cavalier Terror,Kantalga,,
+Anima torturata,A,Non-morti,Cavalier Terror,Cavaliere dell'Ombra,,
+Kantalga,A,Non-morti,Alga sovrana,Principe Spectros,,
+Kantalga,A,Non-morti,Alga sovrana,Soldaskeletro,,
+Dullahan,S,Non-morti,Baron Skeletro,Paladinorribilis,,
+Dullahan,S,Non-morti,Baron Skeletro,Rovina,,
+Dullahan,S,Non-morti,Baron Skeletro,Anima torturata,,
+Re Godwyn II,S,Non-morti,Generale Soinos,Generale Gufus,Generale Pardus,Barbarus
+Pope Skriterioska,S,Non-morti,Slon la Torre,Cavalliere,,
+Druido supremo,S,Non-morti,Anima torturata,Re Bollaslime,,
+Druido supremo,S,Non-morti,Anima torturata,Re Slime,,
+Prof Briskod,SS,Non-morti,Slime Darkonium,Lacertow,,
+Darck,S,???,Lacertow,Neromar,,
+Asso di picche,SS,???,Lupicche Asso,Leopold,,
+Re Babbuino,SS,???,Aquarion,Scimmia Zombie,Malevoleonex,Asso di picche
+Corvus,SS,???,Re Godwyn II,Magarugi,,
+Babbuincubo,SS,???,Re Babbuino,Corvus,,
+Gadis,SS,???,Xiphos,Sagitta,,
+Leonex,SS,???,Joker,Leonix,,
+Magarugi,SS,???,Rigor Mortex,Orochi,Pruslas,Scruffy
+Moltomort,SS,???,Psaro,Scudorkus,,
+Moltomort,SS,???,Psaro,Semper Actualis,,
+Nimzo,SS,???,Padramos,Piovron,,
+Nimzo,SS,???,Padramos,Musferatu,,
+Granvert,SS,???,Tiranosfascia,Grifotauro,,
+Granvert,SS,???,Tiranosfascia,Tri Aculeo,,
+Rhapthorne,SS,???,Zoma,Nimzo,Moltomort,Granvert
+Rhapthorne II,SS,???,Rhapthorne,Estark,,
+Rigor Mortex,SS,???,Leonex,Drago di Zenithia,,
+Joker,SS,???,Lupicche Asso,Terrore alato,,
+Zoma,SS,???,Malroth,Dullahan,,
+Zoma,SS,???,Malroth,Druido supremo,,
+___,,,,,,
+New Recipes,,,,,,
+Multifoglia,F,Slime,Ceppo Geppo,Slime,,
+Re Slime, C, Slime, Slime, Slime, Slime, Slime
+Multifoglia Klar,B,Slime,Ovomarch,Multifoglia,,
+Gang Slime,A,Slime,Re Curaslime,Magislime,Re Slime,Re Slime maculato
+Ultra Slime,A,Slime,Duran,Assalitore marino,Paladino Slime,Metalcabal Slime
+Slime Nemo,A,Slime,Duran,Cavaliere dell'Ombra,Milislime oscuro,Slime oscuro
+Tankissimus,S,Slime,Forte di Nadiria,Re Metalslime,Ultra Slime,Rospo blu
+Ragazza Slider,S,Slime,Slime Perbellum,Mechadrago,Scorpia,Slime angelico
+Slime Blaster,S,Slime,Tankissimus,Empyrea,Cancerio,Slime Darkonium
+Roboslime oscuro,SS,Slime,Sagitta,Carro Slival,Rhapthorne II,Sliamante
+Barbarus,SS,Drago,Orochi,Generale Soinos,Generale Pardus,Generale Gufus
+Drago dimensionale,SS,Drago,Barbarus,Granvert,Dragobastro,Dragone nero
+Ichtus verde,D,Natura,Cacciateste,Zanzakiller,,
+Vermex,D,Natura,Serpe d'ossa,Serpe d'ossa,Serpe boreale,Serpe boreale
+Pipit,C,Natura,Condor blu,Maluovo,,
+Empyrea,A,Natura,Garuda,Garuda,Stella,Stella
+Pipetto Anziano,S,Natura,Pipit,Nonno Slime,,
+Divino,SS,Natura,Ovattino,Re Sanguini,,
+Sanguinis,E,Bestia,Mastino guerriero,Vampistrello,,
+Lince alata,C,Bestia,Grifone,Grifone,Koguar,Koguar
+Rossotalpa,B,Bestia,Cattivalpa,Corriere Corrotto,,
+Wasen,B,Bestia,Pachidermico,Pachidermico,Grampistrello,Grampistrello
+Squigno,B,Bestia,Athos,Athos,Kan Kanide,Kan Kanide
+Robbin's Lady,SS,Bestia,Psaro,Malroth,Ruban Hood,Draku Lard
+Ovattino,SS,Bestia,Dhoulmagus,Sanguinigenio,,
+Mechator grigio,C,Materiale,Metalcabal Slime,Armatura letale,,
+Forte di Nadiria,A,Materiale,Guerriero di terracotta,Statua vivente,,
+Cybercentauro,S,Materiale,Robocentauro,Atlas,Tyrantosauro,Riditarra
+Carro Slival,SS,Materiale,Slime Blaster,Rovina,Scudorkus,Slime Nemo
+Vegetribù,F,Demone,Monocolo,Dragocertola,,
+Band,D,Demone,Vegetribù,Diavoletto,,
+Ruban Hood,A,Demone,Gigante,Band,,
+Principe Latrum,SS,Demone,Robbin's Lady,Sacco dentato,Ruban Hood,Sacco dentato
+Scruffy,SS,Demone,Pruslas,Zoma,,
+Droll Diabolista,E,Non-morti,Droll,Hipster swingante,,
+Capitan Crow,S,Non-morti,Baron Skeletro,Ossassassino,Mechacentauro,Demonstrum
+Leonix,B,？？？,Lince alata,Marchese de Léon,,
+Stella,A,？？？,Virgax,Garuda,,
+Mini Zoma,A,？？？,Baron Skeletro,Hargon,,
+Malevoleonex,SS,？？？,Leonix,Asso di picche,,
+Lupicche,SS,？？？,Empyrea,Leopold,,

@@ -740,19 +740,19 @@ SYS_55 0x8
 SYS_42 0x8 
 CMP_EQ 0x18 0x0 0x423c0000 0x2 0x43360000
 JMP_IFNOT 0xc L_26d8
-SAY "{COLOR=2}{NAME} obtains the Minus sceptre!"
+SAY "{COLOR=2}{NAME} ha ottenuto lo scettro Minus!"
 JMP_ABS 0xc L_2770
 L_26d8:
 CMP_EQ 0x18 0x0 0x423c0000 0x2 0x43350000
 JMP_IFNOT 0xc L_2730
-SAY "{COLOR=2}{NAME} obtains the Plus sceptre!"
+SAY "{COLOR=2}{NAME} ha ottenuto lo scettro Plus!"
 JMP_ABS 0xc L_2770
 L_2730:
 JMP_REL L_2738
 L_2738:
 JMP_ABS 0xc L_2744
 L_2744:
-SAY "{COLOR=2}{NAME} obtains {E328}!"
+SAY "{COLOR=2}{NAME} ha ottenuto {E328}!"
 JMP_ABS 0xc L_2770
 L_2770:
 WAIT 0x10 0x2 0x42340000
@@ -764,7 +764,7 @@ JMP_IFNOT 0xc L_2c5c
 SYS_42 0x8 
 CMP_EQ 0x18 0x0 0x42400000 0x2 0x40400000
 JMP_IFNOT 0xc L_293c
-SAY "{COLOR=2}The mysterious ore is actually a monster in disguise!"
+SAY "{COLOR=2}Il minerale misterioso è in realtà un mostro camuffato!"
 WAIT 0x10 0x2 0x42340000
 SYS_43 0x8 
 STORE 0x18 0x1 0x0 0x2 0x3f800000
@@ -783,7 +783,7 @@ JMP_ABS 0xc L_2c50
 L_293c:
 CMP_EQ 0x18 0x0 0x42400000 0x2 0x40800000
 JMP_IFNOT 0xc L_2c50
-SAY "{COLOR=2}The bag is actually a monster in disguise!"
+SAY "{COLOR=2}La borsa è in realtà un mostro sotto mentite spoglie!"
 WAIT 0x10 0x2 0x42340000
 SYS_43 0x8 
 STORE 0x18 0x1 0x0 0x2 0x42c80000
@@ -839,19 +839,19 @@ SYS_55 0x8
 SYS_42 0x8 
 CMP_EQ 0x18 0x0 0x423c0000 0x2 0x43360000
 JMP_IFNOT 0xc L_2d58
-SAY "{COLOR=2}{NAME} obtains the Minus sceptre!"
+SAY "{COLOR=2}{NAME} ha ottenuto lo scettro Minus!"
 JMP_ABS 0xc L_2df0
 L_2d58:
 CMP_EQ 0x18 0x0 0x423c0000 0x2 0x43350000
 JMP_IFNOT 0xc L_2db0
-SAY "{COLOR=2}{NAME} obtains the Plus sceptre!"
+SAY "{COLOR=2}{NAME} ha ottenuto lo scettro Plus!"
 JMP_ABS 0xc L_2df0
 L_2db0:
 JMP_REL L_2db8
 L_2db8:
 JMP_ABS 0xc L_2dc4
 L_2dc4:
-SAY "{COLOR=2}{NAME} obtains {E328}!"
+SAY "{COLOR=2}{NAME} ha ottenuto {E328}!"
 JMP_ABS 0xc L_2df0
 L_2df0:
 WAIT 0x10 0x2 0x42340000
@@ -1223,7 +1223,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3f19999a
 SYS_54 0x8 
 WAIT 0x10 0x2 0x42480000
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}'s team is healed."
+SAY "{COLOR=2}La squadra di {NAME} è tornata in perfetta forma!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1234,7 +1234,7 @@ L_44b0:
 JMP_ABS 0xc L_44bc
 L_44bc:
 SYS_42 0x8 
-SAY "{COLOR=2}There's no response. {NAME} cannot use this...for now."
+SAY "{COLOR=2}Non succede niente. {NAME} non può usare quest'oggetto per adesso..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1345,10 +1345,10 @@ STORE 0x18 0x0 0x426c0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x426c0000 0x2 0x0
 JMP_IFNOT 0xc L_4c7c
 SYS_42 0x8 
-SAY "{COLOR=2}Curiosity killed the cat, but not the monster scout!{WAIT}{CLEAR}Examine these curious stones to learn new abilities and commands."
+SAY "{COLOR=2}La curiosità può uccidere i gatti, ma non gli {1F29}out!{WAIT}{CLEAR}Esamina queste strane rocce per imparare tecniche e comandi nuovi."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}These Scout's Stones appear on the map as blue icons."
+SAY "{COLOR=2}Le "Pietre dello {1F29}out" sono indicate sulla mappa da icone azzurre."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1378,13 +1378,13 @@ SYS_A4 0x8
 CMP_EQ 0x18 0x0 0x42640000 0x2 0x41400000
 JMP_IFNOT 0xc L_4fb4
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} learns Zoom!"
+SAY "{COLOR=2}{NAME} ha imparato "Teletrasporto"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}This ability enables {NAME} to teleport to previously visited regions!"
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un attimo in qualsiasi area già visitata."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Apart from a few special locations, it can be used anywhere, including caves!"
+SAY "{COLOR=2}Fatte salve poche eccezioni, può essere utilizzata ovunque... Persino nelle grotte!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1401,10 +1401,10 @@ L_4fb4:
 CMP_EQ 0x18 0x0 0x42640000 0x2 0x41700000
 JMP_IFNOT 0xc L_50ec
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} learns Vanish!"
+SAY "{COLOR=2}{NAME} ha imparato "{1F36}arizione"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}This ability enables {NAME} to slink past enemy monsters undetected."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di passare sotto il naso dei nemici senza farsi notare."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1418,10 +1418,10 @@ L_50ec:
 CMP_EQ 0x18 0x0 0x42640000 0x2 0x40c00000
 JMP_IFNOT 0xc L_52a0
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} can now use Heal All!"
+SAY "{COLOR=2}{NAME} può ora usare "Guarisci tutti"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}This spell lets {NAME} restore the health of his entire team!"
+SAY "{COLOR=2}Quest'incantesimo di guarigione permette a {NAME} di curare tutti i membri della squadra."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1441,10 +1441,10 @@ L_52a0:
 CMP_EQ 0x18 0x0 0x42640000 0x2 0x41600000
 JMP_IFNOT 0xc L_53dc
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} learns Nose for Treasure!"
+SAY "{COLOR=2}{NAME} ha imparato "{1F2B}gugio"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}This ability lets {NAME} find out how many items are hidden nearby."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di scoprire quanti tesori sono nascosti nelle vicinanze."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1458,16 +1458,16 @@ L_53dc:
 CMP_EQ 0x18 0x0 0x42640000 0x2 0x41500000
 JMP_IFNOT 0xc L_5618
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} learns Zip!"
+SAY "{COLOR=2}{NAME} ha imparato "Velotrans"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}This ability lets {NAME} Zip to the local Zip Portal, quick as a flash!"
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un istante al più vicino portale Velotrans."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Of course, the portal must already be open for this to work."
+SAY "{COLOR=2}La tecnica funzionerà solo se il portale è già aperto."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}So if {NAME} finds a new portal, he should examine it right away."
+SAY "{COLOR=2}Quindi, è bene che {NAME} esamini subito i portali Velotrans situati sull'isola."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1485,13 +1485,13 @@ L_5618:
 CMP_EQ 0x18 0x0 0x42640000 0x2 0x41200000
 JMP_IFNOT 0xc L_589c
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} obtains the Monster Mender!"
+SAY "{COLOR=2}{NAME} ha ottenuto "Curamostri"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Use this bottle to restore the HP and MP of {NAME}'s entire team."
+SAY "{COLOR=2}Questa bevanda fa recuperare PV e PM a tutti i membri della squadra di {NAME}."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Good for three doses per outing. Once it runs out, head to the airship for a refill!"
+SAY "{COLOR=2}La bottiglia contiene tre dosi e può essere riempita di nuovo tornando alla nave."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3302,22 +3302,22 @@ SYS_42 0x8
 SETNAME "Eugene Poole"
 CMP_EQ 0x18 0x0 0x42b00000 0x2 0x0
 JMP_IFNOT 0xc L_cf8c
-SAY "{VOICE=03}Ohh, thanks for coming!{BREAK}I've been searching for you!"
+SAY "{VOICE=03}Ohh, grazie di essere venuto!{BREAK}Ti stavo cercando!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}When I first got lost here{BREAK}I didn't know what to do,"
+SAY "{VOICE=03}Quando mi sono perso qui per la prima volta{BREAK}non sapevo cosa fare,"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}but maybe 'cause I woke up{BREAK}I've wanted to fight you."
+SAY "{VOICE=03}ma forse perché mi sono risvegliato{BREAK}avevo voglia di sfidarti."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}I was a monster scout in my day.{BREAK}And I'm itching to give it a go again."
+SAY "{VOICE=03}Un tempo ero un Monster Scout.{BREAK}E non vedo l'ora di ricominciare."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}And so, how 'bout it?{BREAK}Won't you scout battle with me?"
+SAY "{VOICE=03}Allora, che ne dici?{BREAK}Vuoi affrontare una sfida da Monster Scout?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}If you beat me, I'll give you{BREAK}a prize! So won't you fight me now?{VOICE=09}"
+SAY "{VOICE=03}Se mi sconfiggi, ti darò{BREAK}un premio! Allora, vuoi sfidarmi adesso?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41d80000
@@ -3327,14 +3327,14 @@ JMP_ABS 0xc L_d0a8
 L_cf8c:
 CMP_EQ 0x18 0x0 0x42b00000 0x2 0x3f800000
 JMP_IFNOT 0xc L_d018
-SAY "{VOICE=03}Oh, you. So you do really{BREAK}want to scout battle?{VOICE=09}"
+SAY "{VOICE=03}Ohh, sei tu. Quindi vuoi davvero{BREAK}affrontare una sfida da Monster Scout?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_d0a8
 L_d018:
 CMP_EQ 0x18 0x0 0x42b00000 0x2 0x40000000
 JMP_IFNOT 0xc L_d0a8
-SAY "{VOICE=03}Ohh, it's you! We meet again!{BREAK}Well? fancy a battle?{VOICE=09}"
+SAY "{VOICE=03}Ohh, sei tu! Ci incontriamo di nuovo!{BREAK}Allora? Ti va di combattere?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_d0a8
@@ -3351,10 +3351,10 @@ L_d128:
 CMP_EQ 0x18 0x0 0x42b00000 0x2 0x3f800000
 JMP_IFNOT 0xc L_d230
 L_d14c:
-SAY "{VOICE=03}Really! That's great!"
+SAY "{VOICE=03}Davvero? Che bello!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}It's been a long time, so{BREAK}try to go easy on me..."
+SAY "{VOICE=03}È passato tanto tempo, quindi{BREAK}cerca di non andarci troppo pesante..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41d80000
@@ -3364,10 +3364,10 @@ JMP_ABS 0xc L_d2f4
 L_d230:
 CMP_EQ 0x18 0x0 0x42b00000 0x2 0x40000000
 JMP_IFNOT 0xc L_d2f4
-SAY "{VOICE=03}Ho-ho-ho!{BREAK}You really shouldn't."
+SAY "{VOICE=03}Ho-ho-ho!{BREAK}Non dovresti trattenerti."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Okay, let's go!{BREAK}Don't go easy on me!"
+SAY "{VOICE=03}D'accordo, si comincia!{BREAK}Non andarci piano!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_d2f4
@@ -3381,10 +3381,10 @@ JMP_REL L_d340
 L_d340:
 JMP_ABS 0xc L_d34c
 L_d34c:
-SAY "{VOICE=03}Ohh, I see.{BREAK}Well, you got other fish to fry."
+SAY "{VOICE=03}Oh, capisco.{BREAK}Beh, hai altro da fare."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}I was feelin' a bit sentimental,{BREAK}but, well, I don't really care."
+SAY "{VOICE=03}Mi ero lasciato prendere dalla nostalgia,{BREAK}ma non importa."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41d80000
@@ -3499,20 +3499,20 @@ SYS_24 0x8
 STORE 0x18 0x0 0x42bc0000 0x1 0x0
 SYS_42 0x8 
 SETNAME "Eugene Poole"
-SAY "{VOICE=03}Kah! I lost!{BREAK}You really are strong."
+SAY "{VOICE=03}Accidenti! Ho perso!{BREAK}Sei davvero forte."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}I'll ghive you a monster as{BREAK}a reward for showing me a good time."
+SAY "{VOICE=03}Ti darò un mostro come{BREAK}ricompensa per il bel combattimento."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Do you want one of the monsters{BREAK}in my lively collection?{VOICE=09}"
+SAY "{VOICE=03}Vuoi scegliere un mostro{BREAK}dalla mia vivace collezione?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ba0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ba0000 0x2 0x0
 JMP_IFNOT 0xc L_e0e8
-SAY "{VOICE=03}Good! Now go ahead{BREAK}and take them with you!"
+SAY "{VOICE=03}Bene! Ora vai avanti{BREAK}e portali con te!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3559,7 +3559,7 @@ SYS_A3 0x8
 JMP_ABS 0xc L_e088
 L_e088:
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} received{BREAK}{E322} from Eugene Poole!"
+SAY "{COLOR=2}{NAME} ha ricevuto{BREAK}{E322} da Eugene Poole!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
 SYS_43 0x8 
@@ -3569,14 +3569,14 @@ JMP_REL L_e0f0
 L_e0f0:
 JMP_ABS 0xc L_e0fc
 L_e0fc:
-SAY "{VOICE=03}Then how about a monster from{BREAK}my muscle collection?{VOICE=09}"
+SAY "{VOICE=03}Allora, che ne dici di un mostro dalla{BREAK}mia collezione di mostri muscolosi?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ba0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ba0000 0x2 0x0
 JMP_IFNOT 0xc L_e548
-SAY "{VOICE=03}Good! Now go ahead{BREAK}and take them with you!"
+SAY "{VOICE=03}Bene! Ora vai avanti{BREAK}e portali con te!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3623,7 +3623,7 @@ SYS_A3 0x8
 JMP_ABS 0xc L_e4e8
 L_e4e8:
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} received{BREAK}{E322} from Eugene Poole!"
+SAY "{COLOR=2}{NAME} ha ricevuto{BREAK}{E322} da Eugene Poole!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
 SYS_43 0x8 
@@ -3633,14 +3633,14 @@ JMP_REL L_e550
 L_e550:
 JMP_ABS 0xc L_e55c
 L_e55c:
-SAY "{VOICE=03}Hmm. Then how about one from{BREAK}my heart throb collection?{VOICE=09}"
+SAY "{VOICE=03}Hmm. Allora, che ne dici di uno della{BREAK}mia collezione di rubacuori?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ba0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ba0000 0x2 0x0
 JMP_IFNOT 0xc L_e9e8
-SAY "{VOICE=03}Good! Now go ahead{BREAK}and take them with you!"
+SAY "{VOICE=03}Bene! Ora vai avanti{BREAK}e portali con te!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3690,7 +3690,7 @@ SYS_A3 0x8
 JMP_ABS 0xc L_e988
 L_e988:
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} received{BREAK}{E322} from Eugene Poole!"
+SAY "{COLOR=2}{NAME} ha ricevuto{BREAK}{E322} da Eugene Poole!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
 SYS_43 0x8 
@@ -3700,7 +3700,7 @@ JMP_REL L_e9f0
 L_e9f0:
 JMP_ABS 0xc L_e9fc
 L_e9fc:
-SAY "{VOICE=03}What! I'm too old for these games!{BREAK}So I decide what you get! HERE!"
+SAY "{VOICE=03}Cosa?! Sono troppo vecchio per questi giochetti!{BREAK}Quindi decido io cosa riceverai! ECCO!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3834,7 +3834,7 @@ SYS_A3 0x8
 JMP_ABS 0xc L_f3a4
 L_f3a4:
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} was forced a{BREAK}{E322} by Eugene Poole!"
+SAY "{COLOR=2}{NAME} è stato costretto a ricevere{BREAK}{E322} da Eugene Poole!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
 SYS_43 0x8 
@@ -3851,13 +3851,13 @@ SYS_42 0x8
 SETNAME "Eugene Poole"
 CMP_LE 0x18 0x0 0x42b80000 0x2 0x40400000
 JMP_IFNOT 0xc L_f5b4
-SAY "{VOICE=03}Scout battles really are fun.{BREAK}Thanks for humoring an old man."
+SAY "{VOICE=03}Le sfide da Monster Scout sono davvero divertenti.{BREAK}Grazie per aver accontentato un vecchio come me."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Now, I want a strong monster{BREAK}so I guess I'll roam about for now."
+SAY "{VOICE=03}Ora voglio un mostro forte,{BREAK}quindi andrò in giro a cercarne uno."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Come see me again tomorrow.{BREAK}Fun times await."
+SAY "{VOICE=03}Torna a trovarmi domani.{BREAK}Ci divertiremo."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_f698
@@ -3866,10 +3866,10 @@ JMP_REL L_f5bc
 L_f5bc:
 JMP_ABS 0xc L_f5c8
 L_f5c8:
-SAY "{VOICE=03}Scout battles really are fun.{BREAK}Thanks for humoring an old man."
+SAY "{VOICE=03}Le sfide da Monster Scout sono davvero divertenti.{BREAK}Grazie per aver accontentato un vecchio come me."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Now, I guess it's about time{BREAK}to wake up after all those battles."
+SAY "{VOICE=03}Ora credo sia arrivato il momento{BREAK}di svegliarmi, dopo tutte queste sfide."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_f698
@@ -4677,11 +4677,11 @@ JMP_IFNOT 0xc L_12544
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x41600000
 JMP_IFNOT 0xc L_12538
 SYS_42 0x8 
-SETNAME "Leokid"
-SAY "{VOICE=07}What's goin' on? I looked EVERYWHERE,{BREAK}but the boss is nowhere to be found."
+SETNAME "Leonix"
+SAY "{VOICE=07}Che succede? Ho cercato OVUNQUE,{BREAK}ma il capo non si trova da nessuna parte."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}...Huh!?"
+SAY "{VOICE=07}...Eh!?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x40c00000
@@ -4725,7 +4725,7 @@ CMP_EQ 0x18 0x0 0x42ea0000 0x2 0x0
 JMP_IFNOT 0xc L_12650
 SYS_42 0x8 
 SETNAME "Sanguini"
-SAY "{VOICE=07}First tell your story to{BREAK}King Sanguini."
+SAY "{VOICE=07}Prima racconta tutto a{BREAK}Re Sanguini."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4749,8 +4749,8 @@ STORE 0x18 0x0 0x42ea0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ea0000 0x2 0x0
 JMP_IFNOT 0xc L_1279c
 SYS_42 0x8 
-SETNAME "Pink Sanguini"
-SAY "{VOICE=08}First tell your story{BREAK}to King Sanguini already."
+SETNAME "Sanguonicum"
+SAY "{VOICE=08}Prima racconta tutto{BREAK}a Re Sanguini, su."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4763,27 +4763,27 @@ STORE 0x18 0x1 0x0 0x2 0x429e0000
 STORE 0x18 0x1 0x3f800000 0x2 0x40000000
 SYS_28 0x8 
 SYS_42 0x8 
-SETNAME "Pink Sanguini"
-SAY "{VOICE=08}This is the Ultimate Scout Arena{BREAK}Information desk."
+SETNAME "Sanguonicum"
+SAY "{VOICE=08}Questo è l'ufficio informazioni{BREAK}dell'Arena Scout Suprema."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}First I will simply explain{BREAK}about the Ultimate Scout Arena."
+SAY "{VOICE=08}Prima ti spiegherò semplicemente{BREAK}cos'è l'Arena Scout Suprema."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 L_128d8:
-SAY "{VOICE=08}It is a dream arena to fight top-ranked{BREAK}scouts in the World Monster Championships."
+SAY "{VOICE=08}È un'arena da sogno per affrontare Scout di alto livello{BREAK}nei Campionati mondiali dei mostri."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}If you want to join, all you{BREAK}have to do is amble over here."
+SAY "{VOICE=08}Se vuoi partecipare, devi solo{BREAK}venire qui."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}And then you will face off{BREAK}against 3 renowned top-rank scouts."
+SAY "{VOICE=08}E poi affronterai{BREAK}3 Scout rinomati di alto livello."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}How does it sound to test{BREAK}your mettle with your own power?"
+SAY "{VOICE=08}Che ne dici di mettere alla prova{BREAK}il tuo valore con le tue sole forze?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Do you want to enter the{BREAK}Ultimate Scout Arena right away?{VOICE=09}"
+SAY "{VOICE=08}Vuoi entrare subito nell'{BREAK}Arena Scout Suprema?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -4797,7 +4797,7 @@ JMP_REL L_12b44
 L_12b44:
 JMP_ABS 0xc L_12b50
 L_12b50:
-SAY "{VOICE=08}Understood. I will wait here{BREAK}if you change your mind."
+SAY "{VOICE=08}Capito. Ti aspetterò qui{BREAK}se cambi idea."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4831,20 +4831,20 @@ JMP_ABS 0xc L_12d74
 L_12d74:
 CMP_EQ 0x18 0x0 0x42e80000 0x2 0x40400000
 JMP_IFNOT 0xc L_13000
-SAY "{VOICE=08}Umm, sir.{BREAK}It pains me to have to say this."
+SAY "{VOICE=08}Ehm, signore.{BREAK}Mi dispiace doverlo dire."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}But at present there are no{BREAK}opponents in the Ultimate Scout Arena."
+SAY "{VOICE=08}Ma al momento non ci sono{BREAK}avversari nell'Arena Scout Suprema."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Did you join the arena{BREAK}today already, sir?{VOICE=09}"
+SAY "{VOICE=08}Hai già partecipato all'arena{BREAK}oggi, signore?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ec0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ec0000 0x2 0x0
 JMP_IFNOT 0xc L_12f64
-SAY "{VOICE=08}And so please come tomorrow{BREAK}to join the Ultimate Scout Arena."
+SAY "{VOICE=08}Quindi torna domani{BREAK}per partecipare all'Arena Scout Suprema."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_12fec
@@ -4853,7 +4853,7 @@ JMP_REL L_12f6c
 L_12f6c:
 JMP_ABS 0xc L_12f78
 L_12f78:
-SAY "{VOICE=08}And so please come back later{BREAK}to join the Ultimate Scout Arena."
+SAY "{VOICE=08}Quindi torna più tardi{BREAK}per partecipare all'Arena Scout Suprema."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_12fec
@@ -4865,10 +4865,10 @@ JMP_REL L_13008
 L_13008:
 JMP_ABS 0xc L_13014
 L_13014:
-SAY "{VOICE=08}Understood. And now I will{BREAK}explain the Ultimate Scout Arena."
+SAY "{VOICE=08}Capito. Ora ti{BREAK}spiegherò l'Arena Scout Suprema."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}I pray that fortune finds{BREAK}you, sir!"
+SAY "{VOICE=08}Prego che la fortuna ti assista,{BREAK}signore!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4914,8 +4914,8 @@ L_13358:
 CMP_GE 0x18 0x0 0x42ea0000 0x2 0x40000000
 JMP_IFNOT 0xc L_136e0
 SYS_42 0x8 
-SETNAME "Pink Sanguini"
-SAY "{VOICE=08}This is the Ultimate Scout Arena{BREAK}information desk."
+SETNAME "Sanguonicum"
+SAY "{VOICE=08}Questo è l'ufficio informazioni{BREAK}dell'Arena Scout Suprema."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x44028000
@@ -4923,12 +4923,12 @@ SYS_29 0x8
 STORE 0x18 0x0 0x42e80000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42e80000 0x2 0x3f800000
 JMP_IFNOT 0xc L_134c8
-SAY "{VOICE=08}Sir! The opponents have changed{BREAK}since last time!"
+SAY "{VOICE=08}Signore! Gli avversari sono cambiati{BREAK}dall'ultima volta!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_134c8
 L_134c8:
-SAY "{VOICE=08}Will you be joining the{BREAK}World Monster Chamipionship now?{VOICE=09}"
+SAY "{VOICE=08}Parteciperai ora al{BREAK}Campionato mondiale dei mostri?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -4942,7 +4942,7 @@ JMP_REL L_13580
 L_13580:
 JMP_ABS 0xc L_1358c
 L_1358c:
-SAY "{VOICE=08}And now shall I explain{BREAK}one more time?{VOICE=09}"
+SAY "{VOICE=08}Vuoi che te lo spieghi{BREAK}ancora una volta?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -4956,7 +4956,7 @@ JMP_REL L_13654
 L_13654:
 JMP_ABS 0xc L_13660
 L_13660:
-SAY "{VOICE=08}Understood. I will wait for you{BREAK}to return."
+SAY "{VOICE=08}Capito. Ti aspetterò{BREAK}al tuo ritorno."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4971,16 +4971,16 @@ L_136ec:
 CMP_EQ 0x18 0x0 0x42e60000 0x0 0x42da0000
 JMP_IFNOT 0xc L_1388c
 SYS_42 0x8 
-SAY "{VOICE=07}Yaaay! We're back in our castle,{BREAK}Blanc Palace!"
+SAY "{VOICE=07}Evviva! Siamo tornati nel nostro castello,{BREAK}Palazzo Blanc!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I managed to hide away with{BREAK}King Sanguini during that ruckus."
+SAY "{VOICE=07}Sono riuscito a nascondermi con{BREAK}Re Sanguini durante quel trambusto."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}He was completely useless,{BREAK}just wobbling and shaking all over."
+SAY "{VOICE=07}Era completamente inutile,{BREAK}tremava tutto quanto."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}But watch out, he's got a REAL{BREAK}scary face when he's mad!"
+SAY "{VOICE=07}Ma attento: quando si arrabbia ha un volto{BREAK}DAVVERO spaventoso!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4997,10 +4997,10 @@ STORE 0x18 0x1 0x0 0x2 0x440fc000
 STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_2A 0x8 
 SYS_42 0x8 
-SAY "{VOICE=08}You're the hero who saved{BREAK}Blanc Palace, {NAME}, right?"
+SAY "{VOICE=08}Sei l'eroe che ha salvato{BREAK}Palazzo Blanc, {NAME}, vero?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Thanks! As a reward, would{BREAK}you like a fluff-fluff?{VOICE=09}"
+SAY "{VOICE=08}Grazie! Come ricompensa, vuoi un{BREAK}batuffolo-batuffolo?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 L_139f4:
@@ -5008,7 +5008,7 @@ SYS_7A 0x8
 STORE 0x18 0x0 0x42ec0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ec0000 0x2 0x0
 JMP_IFNOT 0xc L_13e10
-SAY "{VOICE=08}Okay, close your eyes...{BREAK}Here I go..."
+SAY "{VOICE=08}Bene, chiudi gli occhi...{BREAK}Ecco, comincio..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5031,7 +5031,7 @@ SYS_44 0x8
 SAY "{VOICE=08}Fluff... Fluff..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}And all out on the last one! Fluff-Fluff!"
+SAY "{VOICE=08}E ora tutto quel che ho! Batuffolo-batuffolo!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5049,12 +5049,12 @@ SYS_3E 0x8
 SYS_03 0x8 
 WAIT 0x10 0x2 0x41700000
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} was beset by fluffy fur, and{BREAK}briefly forgot about their troubles."
+SAY "{COLOR=2}{NAME} è stato avvolto dal pelo soffice e{BREAK}ha dimenticato per un attimo i suoi problemi."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{VOICE=08}Tee-hee-hee. How was my fluff-fluff?{BREAK}Come back again, if you want, 'kay!"
+SAY "{VOICE=08}Ih ih ih. Ti è piaciuto il mio batuffolo-batuffolo?{BREAK}Torna quando vuoi, d'accordo!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5064,7 +5064,7 @@ JMP_REL L_13e18
 L_13e18:
 JMP_ABS 0xc L_13e24
 L_13e24:
-SAY "{VOICE=08}Oh, really? Well, I won't push ya.{BREAK}Come back if you change your mind!"
+SAY "{VOICE=08}Oh, davvero? Beh, non insisterò.{BREAK}Torna se cambi idea!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5077,10 +5077,10 @@ L_13eac:
 JMP_ABS 0xc L_13eb8
 L_13eb8:
 SYS_42 0x8 
-SAY "{VOICE=08}Yeeeees! {NAME}!{BREAK}You look like you're quite tired..."
+SAY "{VOICE=08}Sììì! {NAME}!{BREAK}Sembri proprio stanco..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}What do ya say? Want a fluff-fluff?{VOICE=09}"
+SAY "{VOICE=08}Che ne dici? Vuoi un batuffolo-batuffolo?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_139f4
@@ -5189,13 +5189,13 @@ STORE 0x18 0x1 0x40000000 0x2 0x41700000
 SYS_02 0x8 
 SYS_42 0x8 
 SETNAME "King Sanguini"
-SAY "{VOICE=03}You should tell everyone in{BREAK}Pipit town you saved the island too."
+SAY "{VOICE=03}Dovresti dire a tutti gli abitanti{BREAK}del villaggio Pipit che hai salvato anche l'isola."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}I will continue preparations{BREAK}while you do so."
+SAY "{VOICE=03}Io continuerò a preparare tutto{BREAK}mentre lo fai."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}And so, {NAME}!{BREAK}We shall meet again!"
+SAY "{VOICE=03}E così, {NAME}!{BREAK}Ci rivedremo!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5248,7 +5248,7 @@ STORE 0x18 0x1 0x0 0x2 0x40c00000
 SYS_60 0x8 
 WAIT 0x10 0x2 0x41700000
 SYS_42 0x8 
-SAY "{COLOR=2}Something is floating in the sky.{BREAK}Will you take a closer look?{VOICE=09} "
+SAY "{COLOR=2}C'è qualcosa che fluttua nel cielo.{BREAK}Vuoi guardare più da vicino?{VOICE=09} "
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -5282,7 +5282,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41700000
 SYS_3E 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Some giant thing floating in{BREAK}the sky is staring at you."
+SAY "{COLOR=2}Qualcosa di enorme che fluttua{BREAK}nel cielo ti sta fissando."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5325,7 +5325,7 @@ STORE 0x18 0x1 0x40a00000 0x2 0x0
 SYS_51 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{VOICE=03}Monster scout detected ahead!{BREAK}I will monitor their power!"
+SAY "{VOICE=03}Rilevato un reclutatore di mostri in arrivo!{BREAK}Monitorerò la sua potenza!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5340,10 +5340,10 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3e800000
 SYS_B2 0x8 
 WAIT 0x10 0x2 0x42480000
 SYS_42 0x8 
-SAY "{VOICE=03}Bounce barrier ON!{BREAK}Counter barrier ON!"
+SAY "{VOICE=03}Barriera rimbalzo ATTIVA!{BREAK}Barriera contrattacco ATTIVA!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Scout {NAME}, LOCK ON!{BREAK}Forward, Galaxy Ship Slime Blaster!"
+SAY "{VOICE=03}Reclutatore {NAME}, AGGANCIO EFFETTUATO!{BREAK}Avanti, Galaxy Ship Slime Blaster!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5436,22 +5436,22 @@ CMP_EQ 0x18 0x0 0x43000000 0x2 0x0
 JMP_IFNOT 0xc L_159b4
 SYS_42 0x8 
 SETNAME "King Sanguini"
-SAY "{VOICE=03}Ohh, thanks for coming, {NAME}"
+SAY "{VOICE=03}Oh, grazie di essere venuto, {NAME}!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}I've prepared the Endless{BREAK}Battle and Ultimate Scout Arena!"
+SAY "{VOICE=03}Ho preparato la{BREAK}Battaglia infinita e l'Arena Scout Suprema!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}When you want to challenge{BREAK}Endless Battle, talk to Sanguini."
+SAY "{VOICE=03}Quando vuoi affrontare la{BREAK}Battaglia infinita, parla con Re Sanguini."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}And as for the Ultimate Scout{BREAK}Arena, talk to Pink Sanguini."
+SAY "{VOICE=03}Per l'Arena Scout Suprema,{BREAK}parla con Sanguonicum."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Listen carefully to them{BREAK}when you first do a challenge."
+SAY "{VOICE=03}Ascoltali attentamente{BREAK}quando affronti una sfida per la prima volta."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}And now let the fun times{BREAK}begin! Ho-ho-ho-ho."
+SAY "{VOICE=03}E ora che il divertimento{BREAK}abbia inizio! Ho-ho-ho-ho."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5469,13 +5469,13 @@ JMP_ABS 0xc L_159c8
 L_159c8:
 SYS_42 0x8 
 SETNAME "King Sanguini"
-SAY "{VOICE=03}Ohh, {NAME}, thanks for coming.{BREAK}Well? How does it look?"
+SAY "{VOICE=03}Oh, {NAME}, grazie di essere venuto.{BREAK}Allora? Che te ne pare?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Endless Battle and Ultimate{BREAK}Scout Arena are quite deep."
+SAY "{VOICE=03}La Battaglia infinita e l'Arena{BREAK}Scout Suprema sono molto impegnative."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Take your time and enjoy them.{BREAK}Ho-ho-ho-ho."
+SAY "{VOICE=03}Prenditi tutto il tempo che vuoi e divertiti.{BREAK}Ho-ho-ho-ho."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5866,21 +5866,21 @@ STORE 0x18 0x1 0x40400000 0x2 0x42040000
 SYS_FD 0x8 
 SYS_42 0x8 
 SETNAME "Sanguini"
-SAY "{VOICE=07}I haven't given you your{BREAK}prize for 100 victories yet."
+SAY "{VOICE=07}Non ti ho ancora dato il{BREAK}premio per 100 vittorie."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Okay, take this{BREAK}{E322}!"
+SAY "{VOICE=07}Bene, prendi questo{BREAK}{E322}!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{E322}{BREAK}joined!"
+SAY "{COLOR=2}{E322}{BREAK}si è unito!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
 SETNAME "Sanguini"
-SAY "{VOICE=07}Okay, you just wait and{BREAK}enjoy the next challenge!"
+SAY "{VOICE=07}Bene, ora aspetta e{BREAK}goditi la prossima sfida!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5905,10 +5905,10 @@ JMP_ABS 0xc L_17328
 L_17328:
 SYS_42 0x8 
 SETNAME "Sanguini"
-SAY "{VOICE=07}I haven't given you your{BREAK}prize for 100 victories yet."
+SAY "{VOICE=07}Non ti ho ancora dato il{BREAK}premio per 100 vittorie."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Come see me again when{BREAK}you have more room for a monster."
+SAY "{VOICE=07}Torna da me quando{BREAK}avrai più spazio per un mostro."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5925,10 +5925,10 @@ CMP_EQ 0x18 0x0 0x43180000 0x2 0x0
 JMP_IFNOT 0xc L_17558
 SYS_42 0x8 
 SETNAME "Sanguini"
-SAY "{VOICE=07}I'm so sorry.{BREAK}You can only try once per day."
+SAY "{VOICE=07}Mi dispiace tanto.{BREAK}Puoi tentare solo una volta al giorno."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Please wait and enjoy{BREAK}tomorrow's challenge!"
+SAY "{VOICE=07}Aspetta e goditi{BREAK}la sfida di domani!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5939,41 +5939,41 @@ CMP_EQ 0x18 0x0 0x43130000 0x2 0x3f800000
 JMP_IFNOT 0xc L_17b7c
 SYS_42 0x8 
 SETNAME "Sanguini"
-SAY "{VOICE=07}Welcome to Endless Battle!{BREAK}I will now explain right away."
+SAY "{VOICE=07}Benvenuto nella Battaglia infinita!{BREAK}Ora te la spiego subito."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}You will continue to fight foes one{BREAK}after another in this survival match."
+SAY "{VOICE=07}Continuerai ad affrontare i nemici uno{BREAK}dopo l'altro in questa sfida di sopravvivenza."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Your foes will get stronger, and you'll{BREAK}continue to fight until you lose!"
+SAY "{VOICE=07}I nemici diventeranno più forti e continuerai{BREAK}a combattere finché non perderai!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}You can Swap and Order freely,{BREAK}but you cannot Scout or use items."
+SAY "{VOICE=07}Puoi cambiare e riordinare i mostri liberamente,{BREAK}ma non puoi reclutarli né usare oggetti."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Even if you lose, you won't lose{BREAK}gold, so don't worry about losing!"
+SAY "{VOICE=07}Anche se perdi, non perderai{BREAK}oro, quindi non preoccuparti!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}And I'll gift you gold{BREAK}proportionate to your victories!"
+SAY "{VOICE=07}E ti regalerò oro{BREAK}in proporzione alle tue vittorie!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}AND! If you surpass 100 victories{BREAK}I'll give you a rare monster!"
+SAY "{VOICE=07}E INOLTRE! Se superi 100 vittorie{BREAK}ti darò un mostro raro!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}But you can only play once a day.{BREAK}So I want you to keep that in mind."
+SAY "{VOICE=07}Ma puoi giocare solo una volta al giorno.{BREAK}Ricordatelo bene."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}And that's all there is to it.{BREAK}Do you want to start now?{VOICE=09}"
+SAY "{VOICE=07}E questo è tutto.{BREAK}Vuoi iniziare ora?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x43160000 0x1 0x0
 CMP_EQ 0x18 0x0 0x43160000 0x2 0x0
 JMP_IFNOT 0xc L_17ab0
-SAY "{VOICE=07}'Kay! I'll open the Endless{BREAK}Battle door to those strong monsters!"
+SAY "{VOICE=07}Va bene! Aprirò la porta della{BREAK}Battaglia infinita ai mostri più forti!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Fight with the strongest{BREAK}you can muster!"
+SAY "{VOICE=07}Combatti con la squadra più forte{BREAK}che riesci a mettere insieme!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5989,7 +5989,7 @@ JMP_REL L_17ab8
 L_17ab8:
 JMP_ABS 0xc L_17ac4
 L_17ac4:
-SAY "{VOICE=07}Then if you change your mind,{BREAK}come back to me again."
+SAY "{VOICE=07}Se cambi idea,{BREAK}torna a trovarmi."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6010,7 +6010,7 @@ SYS_42 0x8
 SETNAME "Sanguini"
 CMP_LE 0x18 0x0 0x43100000 0x2 0x40000000
 JMP_IFNOT 0xc L_17c88
-SAY "{VOICE=07}You have yet to record any victories.{BREAK}Do you want to start now?{VOICE=09}"
+SAY "{VOICE=07}Non hai ancora registrato vittorie.{BREAK}Vuoi iniziare ora?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_17d0c
@@ -6019,7 +6019,7 @@ JMP_REL L_17c90
 L_17c90:
 JMP_ABS 0xc L_17c9c
 L_17c9c:
-SAY "{VOICE=07}You have {E322} victories.{BREAK}Do you want to start now?{VOICE=09}"
+SAY "{VOICE=07}Hai ottenuto {E322} vittorie.{BREAK}Vuoi iniziare ora?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_17d0c
@@ -6028,10 +6028,10 @@ SYS_7A 0x8
 STORE 0x18 0x0 0x43160000 0x1 0x0
 CMP_EQ 0x18 0x0 0x43160000 0x2 0x0
 JMP_IFNOT 0xc L_17e58
-SAY "{VOICE=07}'Kay! I'll open the Endless{BREAK}Battle door with to those strong monsters!"
+SAY "{VOICE=07}Va bene! Aprirò la porta della{BREAK}Battaglia infinita ai mostri più forti!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Fight with the strongest{BREAK}you can muster!"
+SAY "{VOICE=07}Combatti con la squadra più forte{BREAK}che riesci a mettere insieme!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6044,45 +6044,45 @@ JMP_REL L_17e60
 L_17e60:
 JMP_ABS 0xc L_17e6c
 L_17e6c:
-SAY "{VOICE=07}Then, do you want to hear{BREAK}an explanation of Endless Battle?{VOICE=09}"
+SAY "{VOICE=07}Allora, vuoi sentire{BREAK}la spiegazione della Battaglia infinita?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x43160000 0x1 0x0
 CMP_EQ 0x18 0x0 0x43160000 0x2 0x0
 JMP_IFNOT 0xc L_18414
-SAY "{VOICE=07}Endless Battle is a survival match{BREAK}where you fight foes one after another."
+SAY "{VOICE=07}La Battaglia infinita è una sfida di sopravvivenza{BREAK}in cui affronti i nemici uno dopo l'altro."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Your foes will get stronger, and you'll{BREAK}continue to fight until you lose!"
+SAY "{VOICE=07}I nemici diventeranno più forti e continuerai{BREAK}a combattere finché non perderai!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}You can Swap and Order freely,{BREAK}but you cannot Scout or use items."
+SAY "{VOICE=07}Puoi cambiare e riordinare i mostri liberamente,{BREAK}ma non puoi reclutarli né usare oggetti."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Even if you lose, you won't lose{BREAK}gold, so don't worry about losing!"
+SAY "{VOICE=07}Anche se perdi, non perderai{BREAK}oro, quindi non preoccuparti!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}And I'll gift you gold{BREAK}proportionate to your victories!"
+SAY "{VOICE=07}E ti regalerò oro{BREAK}in proporzione alle tue vittorie!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}AND! If you surpass 100 victories{BREAK}I'll give you a rare monster!"
+SAY "{VOICE=07}E INOLTRE! Se superi 100 vittorie{BREAK}ti darò un mostro raro!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}But you can only play once a day.{BREAK}So I want you to keep that in mind."
+SAY "{VOICE=07}Ma puoi giocare solo una volta al giorno.{BREAK}Ricordatelo bene."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}And that's all there is to it.{BREAK}Do you want to start now?{VOICE=09}"
+SAY "{VOICE=07}E questo è tutto.{BREAK}Vuoi iniziare ora?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x43160000 0x1 0x0
 CMP_EQ 0x18 0x0 0x43160000 0x2 0x0
 JMP_IFNOT 0xc L_1838c
-SAY "{VOICE=07}'Kay! I'll open the Endless{BREAK}Battle door to those strong monsters!"
+SAY "{VOICE=07}Va bene! Aprirò la porta della{BREAK}Battaglia infinita ai mostri più forti!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Fight with the strongest{BREAK}you can muster!"
+SAY "{VOICE=07}Combatti con la squadra più forte{BREAK}che riesci a mettere insieme!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6095,7 +6095,7 @@ JMP_REL L_18394
 L_18394:
 JMP_ABS 0xc L_183a0
 L_183a0:
-SAY "{VOICE=07}Then if you change your mind,{BREAK}come back to me again."
+SAY "{VOICE=07}Se cambi idea,{BREAK}torna a trovarmi."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6107,7 +6107,7 @@ JMP_REL L_1841c
 L_1841c:
 JMP_ABS 0xc L_18428
 L_18428:
-SAY "{VOICE=07}Got it, bud. If you change{BREAK}your mind, come back to me again."
+SAY "{VOICE=07}Capito, amico. Se cambi{BREAK}idea, torna a trovarmi."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6198,45 +6198,45 @@ STORE 0x18 0x1 0x3f800000 0x0 0x43110000
 SYS_A8 0x8 
 SYS_42 0x8 
 SETNAME "Sanguini"
-SAY "{VOICE=07}You've done a good job.{BREAK}Okay, your record is..."
+SAY "{VOICE=07}Hai fatto un buon lavoro.{BREAK}Bene, il tuo record è..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 CMP_EQ 0x18 0x0 0x431d0000 0x2 0x3f800000
 JMP_IFNOT 0xc L_18ae0
-SAY "{VOICE=07}Yep! {E322} fights!{BREAK}That's an incredible record!"
+SAY "{VOICE=07}Sì! {E322} scontri!{BREAK}È un record incredibile!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Endless Battle is a battle itself!{BREAK}Good luck on getting a higher score!"
+SAY "{VOICE=07}La Battaglia infinita è una sfida vera e propria!{BREAK}Buona fortuna per ottenere un punteggio più alto!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_18ea8
 L_18ae0:
 CMP_LE 0x18 0x0 0x43110000 0x2 0x41100000
 JMP_IFNOT 0xc L_18bcc
-SAY "{VOICE=07}Yipes. Only {E322} fights?{BREAK}You've got a long way to go."
+SAY "{VOICE=07}Accidenti. Solo {E322} scontri?{BREAK}Hai ancora molta strada da fare."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}How about leveling up your{BREAK}monsters a bit and then trying?"
+SAY "{VOICE=07}Che ne dici di far salire un po'{BREAK}di livello ai tuoi mostri e riprovare?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_18ea8
 L_18bcc:
 CMP_LE 0x18 0x0 0x43110000 0x2 0x42440000
 JMP_IFNOT 0xc L_18cbc
-SAY "{VOICE=07}Wow! {E322} fights!{BREAK}You really are something!"
+SAY "{VOICE=07}Wow! {E322} scontri!{BREAK}Sei davvero incredibile!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}But I know you can go higher!{BREAK}Make stronger monsters, and try again!"
+SAY "{VOICE=07}Ma so che puoi fare ancora meglio!{BREAK}Crea mostri più forti e riprova!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_18ea8
 L_18cbc:
 CMP_LE 0x18 0x0 0x43110000 0x2 0x42c60000
 JMP_IFNOT 0xc L_18db8
-SAY "{VOICE=07}Woah-ho! {E322} fights!{BREAK}100 is not just a dream!"
+SAY "{VOICE=07}Ohoho! {E322} scontri!{BREAK}100 non è solo un sogno!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Did you run out of MP?{BREAK}Think hard about what skills to learn!"
+SAY "{VOICE=07}Hai finito i PM?{BREAK}Pensa bene a quali abilità imparare!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_18ea8
@@ -6245,10 +6245,10 @@ JMP_REL L_18dc0
 L_18dc0:
 JMP_ABS 0xc L_18dcc
 L_18dcc:
-SAY "{VOICE=07}Powey-Wowie! An incredible {E322}!{BREAK}You are a brilliant professional!"
+SAY "{VOICE=07}Che potenza! Un incredibile {E322}!{BREAK}Sei un professionista brillante!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}There is nothing more I can{BREAK}tell you. Good luck going higher!"
+SAY "{VOICE=07}Non ho altro da dirti. Buona fortuna per salire ancora!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_18ea8
@@ -6267,7 +6267,7 @@ JMP_ABS 0xc L_18f34
 L_18f34:
 SYS_42 0x8 
 SETNAME "Sanguini"
-SAY "{VOICE=07}Endless battle is once per day.{BREAK}Come again tomorrow, 'kay?"
+SAY "{VOICE=07}La Battaglia infinita si può affrontare una volta al giorno.{BREAK}Torna domani, d'accordo?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6344,12 +6344,12 @@ STORE 0x18 0x1 0x3f800000 0x0 0x43120000
 SYS_A8 0x8 
 SYS_42 0x8 
 SETNAME "Sanguini"
-SAY "{VOICE=07}Okay, this your prize money.{BREAK}Thanks for playing."
+SAY "{VOICE=07}Bene, questi sono i tuoi soldi del premio.{BREAK}Grazie per aver giocato."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}With {E322} victories, {NAME}{BREAK}receives {E324}{COLOR=0}{226}{COLOR=2} gold!"
+SAY "{COLOR=2}Con {E322} vittorie, {NAME}{BREAK}riceve {E324}{COLOR=0}{226}{COLOR=2} oro!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
 SYS_43 0x8 
@@ -6377,10 +6377,10 @@ STORE 0x18 0x1 0x40400000 0x2 0x42040000
 SYS_FD 0x8 
 SYS_42 0x8 
 SETNAME "Sanguini"
-SAY "{VOICE=07}'Kay! And as promised, your{BREAK}prize for 100 victories is..."
+SAY "{VOICE=07}Va bene! E come promesso, il tuo{BREAK}premio per 100 vittorie è..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I present to you {E322}!"
+SAY "{VOICE=07}Ti presento {E322}!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6389,13 +6389,13 @@ STORE 0x18 0x0 0x43220000 0x1 0x0
 CMP_GE 0x18 0x0 0x43220000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1982c
 SYS_42 0x8 
-SAY "{COLOR=2}{E322} joined!"
+SAY "{COLOR=2}{E322} si è unito!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
 SETNAME "Sanguini"
-SAY "{VOICE=07}Now enjoy waiting for{BREAK}the next challenge!"
+SAY "{VOICE=07}Ora divertiti ad aspettare{BREAK}la prossima sfida!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6416,13 +6416,13 @@ JMP_ABS 0xc L_19840
 L_19840:
 SYS_42 0x8 
 SETNAME "Sanguini"
-SAY "{VOICE=07}Or so I thought, but{BREAK}you don't have enough space."
+SAY "{VOICE=07}O almeno così pensavo, ma{BREAK}non hai abbastanza spazio."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Free up some space, and{BREAK}then come back to me."
+SAY "{VOICE=07}Libera un po' di spazio e{BREAK}torna da me."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Now enjoy waiting for{BREAK}the next challenge!"
+SAY "{VOICE=07}Ora divertiti ad aspettare{BREAK}la prossima sfida!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6658,7 +6658,7 @@ STORE 0x18 0x0 0x432c0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x432c0000 0x2 0x0
 JMP_IFNOT 0xc L_1a6fc
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} defeated the{BREAK}Galaxy UFO Slime Blaster!"
+SAY "{COLOR=2}{NAME} ha sconfitto la{BREAK}Galaxy UFO Slime Blaster!"
 SYS_165 0x8 
 STORE 0x18 0x1 0x0 0x2 0x42780000
 SYS_A5 0x8 
@@ -6688,11 +6688,11 @@ STORE 0x18 0x1 0x0 0x2 0x429e0000
 STORE 0x18 0x1 0x3f800000 0x2 0x40000000
 SYS_28 0x8 
 SYS_42 0x8 
-SETNAME "Pink Sanguini"
-SAY "{VOICE=08}Welcome back, sir.{BREAK}How was the Ultimate Scout Arena?"
+SETNAME "Sanguonicum"
+SAY "{VOICE=08}Bentornato, signore.{BREAK}Com'è andata all'Arena Scout Suprema?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}I humbly await your{BREAK}next visit."
+SAY "{VOICE=08}Attendo umilmente{BREAK}la sua prossima visita."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6704,11 +6704,11 @@ STORE 0x18 0x1 0x0 0x2 0x429e0000
 STORE 0x18 0x1 0x3f800000 0x2 0x40400000
 SYS_28 0x8 
 SYS_42 0x8 
-SETNAME "Pink Sanguini"
-SAY "{VOICE=08}Welcome back, sir.{BREAK}How was the Ultimate Scout Arena?"
+SETNAME "Sanguonicum"
+SAY "{VOICE=08}Bentornato, signore.{BREAK}Com'è andata all'Arena Scout Suprema?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}I humbly await your{BREAK}next visit."
+SAY "{VOICE=08}Attendo umilmente{BREAK}la sua prossima visita."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

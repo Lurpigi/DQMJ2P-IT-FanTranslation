@@ -124,41 +124,41 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SETNAME "Archie Logg"
-SAY "{VOICE=07}Did you see it too? That colossal worm that just slithered past?"
+SETNAME "Marcus Logos"
+SAY "{VOICE=07}L'hai visto anche tu? Quel verme gigantesco che è appena strisciato via?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Archie Logg"
-SAY "{VOICE=07}They said they were just fairy tales, but this island proves every word was true!"
-SYS_44 0x8 
-SYS_43 0x8 
-WAIT 0x10 0x2 0x41200000
-WAIT 0x10 0x2 0x41200000
-SYS_42 0x8 
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}Och, what are ye blatherin' on aboot now, laddie?{WAIT}{CLEAR}We've more important things tae be worryin' aboot than a silly worm!"
-SYS_44 0x8 
-WAIT 0x10 0x2 0x41200000
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}Ye should be grateful yer head's still on yer shoulders! Now, let's get goin'!{WAIT}{CLEAR}The faithful auld Albatross awaits!"
+SETNAME "Marcus Logos"
+SAY "{VOICE=07}Dicevano che erano solo fiabe, ma quest'isola dimostra che era tutto vero!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Archie Logg"
-SAY "{VOICE=07}B-But I'm right in the middle of investigating this island!"
+SETNAME "Meck Nick"
+SAY "{VOICE=07}Oh, di cosa stai blaterando adesso, ragazzo?{WAIT}{CLEAR}Abbiamo problemi più importanti di un verme da quattro soldi!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Archie Logg"
-SAY "{VOICE=07}I can scarcely believe how fortunate we were to crash in such unexplored terrain!"
+SETNAME "Meck Nick"
+SAY "{VOICE=07}Dovresti essere grato di avere ancora la testa sulle spalle! Ora muoviamoci!{WAIT}{CLEAR}La fedele vecchia Albatross ci aspetta!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}'Fortunate'!? Are ye daft!? Have ye no got the sense ye were born with!?"
+SETNAME "Marcus Logos"
+SAY "{VOICE=07}M-ma sono nel bel mezzo delle mie indagini su quest'isola!"
+SYS_44 0x8 
+WAIT 0x10 0x2 0x41200000
+SETNAME "Marcus Logos"
+SAY "{VOICE=07}Stento a credere quanto siamo stati fortunati a precipitare in un territorio così inesplorato!"
+SYS_44 0x8 
+SYS_43 0x8 
+WAIT 0x10 0x2 0x41200000
+WAIT 0x10 0x2 0x41200000
+SYS_42 0x8 
+SETNAME "Meck Nick"
+SAY "{VOICE=07}'Fortunati'!? Sei impazzito!? Hai perso il senno!?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -250,8 +250,8 @@ STORE 0x18 0x1 0x0 0x2 0x41300000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}Look lively, laddie! Here comes trouble!"
+SETNAME "Meck Nick"
+SAY "{VOICE=07}Occhi aperti, ragazzo! Arrivano guai!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -420,8 +420,8 @@ STORE 0x18 0x1 0x40000000 0x2 0x40a00000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SETNAME "Archie Logg"
-SAY "{VOICE=07}Oh Goddess! Rory! Noooooo!!!"
+SETNAME "Marcus Logos"
+SAY "{VOICE=07}Oh, dea! Meck Nick! Noooooo!!!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -593,20 +593,20 @@ STORE 0x18 0x1 0x40000000 0x2 0x40a00000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Archie Logg"
-SAY "{VOICE=07}{E321}{NAME}! You're alive!"
+SETNAME "Marcus Logos"
+SAY "{VOICE=07}{E321}{NAME}! Sei vivo!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Archie Logg"
-SAY "{VOICE=07}You missed the most appalling event.{BREAK}A giant worm came straight at us and...{WAIT}{CLEAR}...Rory...heroically risked his life to protect me..."
+SETNAME "Marcus Logos"
+SAY "{VOICE=07}Ti sei perso l'evento più terribile.{BREAK}Un verme gigantesco ci è venuto addosso e...{WAIT}{CLEAR}...Meck Nick... ha rischiato eroicamente la vita per proteggermi..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Archie Logg"
-SAY "{VOICE=07}If I'd only done what I was told and returned to the ship...{WAIT}{CLEAR}...this never would have happened!"
+SETNAME "Marcus Logos"
+SAY "{VOICE=07}Se avessi fatto ciò che mi era stato detto e fossi tornata alla nave...{WAIT}{CLEAR}...tutto questo non sarebbe mai successo!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Archie Logg"
-SAY "{VOICE=07}We must follow that worm and rescue Rory!"
+SETNAME "Marcus Logos"
+SAY "{VOICE=07}Dobbiamo seguire quel verme e salvare Meck Nick!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -622,8 +622,8 @@ STORE 0x18 0x1 0x0 0x0 0x40c00000
 STORE 0x18 0x1 0x3f800000 0x2 0x41b00000
 SYS_1F 0x8 
 SYS_42 0x8 
-SETNAME "Archie Logg"
-SAY "{VOICE=07}It went that way. You've got to come with me, {NAME}. I'm begging you..."
+SETNAME "Marcus Logos"
+SAY "{VOICE=07}È andato da quella parte. Devi venire con me, {NAME}. Ti prego..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

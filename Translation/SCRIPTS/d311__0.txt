@@ -91,8 +91,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41980000
 SYS_18 0x8 
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SETNAME "Leokid"
-SAY "{VOICE=07}You don't have to go overboard.{BREAK}A pipsqeak like you is not who I want for a foe."
+SETNAME "Leonix"
+SAY "{VOICE=07}Non c'è bisogno di esagerare.{BREAK}Non voglio affrontare un moccioso come te."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

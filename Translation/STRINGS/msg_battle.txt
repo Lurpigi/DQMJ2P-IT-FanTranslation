@@ -1,95 +1,93 @@
 
 
-{30f} fled!
-You were defeated...
+{30f} è fuggito!
+Sei stato sconfitto...
 
-But you were surrounded!
-You surprised the enemy!
-Preemptive strike!
-This looks like a good time to scout!
+Ma eri circondato!
+Hai colto di sorpresa il nemico!
+Attacco preventivo!
+Sembra un buon momento per reclutare!
 {321}{328}
-And the result is...
-{321}{30f}'s team wins!
-{321}{30f}'s team loses!
-It's a draw!
-The opponent forfeits!
-{321}{30f}'s team forfeits!
-Both teams forfeit, so it's a draw!
-The Standby Team is here to help!
-The missing lynx wanders off.
-But they can't cast spells!
-A gigantic monster is nearby.
-The enemy flees!
-{30f} dropped {322}G!
-A gigantic monster attacks!
-The gigantic monster wandered off.
-The enemy is flustered!
-Everybody gets psyched up!
-The enemy is annihilated!
-The gigantic monster attacks!
-Everybody cowers in fear!
-Everybody is confused!
-{321}{30f}'s team prays...
-An enemy joined {30f}'s team!
-But the gigantic monster wanders off.
-{321}{30b}{00} has disappeared.
-The gigantic monster closes in!
-Insufficient MP!
-But the dance is sealed!
-But their mouth is shut!
-Abiliterated!
-Blade is blunted!
-Steals {328}!
-Steals {322}G!
-But nothing happens!
-Attack
-Defence
-Agility
-Wisdom
-The {322} bubbles furiously!
-The {322} roars fiercely!
-The {322} gets aggravated!
-The {322} flails angrily!
-The {322} starts slamming around!
-The {322} screams in anger!
-The {322} seems perturbed...
-The {322} bulks up!
-Do nothing
-Fight
-Order
-Tactics
-Scout
-Items
-Flee
+E il risultato è...
+{321}La squadra di {30f} vince!
+{321}La squadra di {30f} perde!
+È un pareggio!
+L'avversario si arrende!
+{321}La squadra di {30f} si arrende!
+Entrambe le squadre si arrendono: è un pareggio!
+La squadra di riserva è qui per aiutare!
+La lince scomparsa si allontana.
+Ma non possono usare magie!
+C'è un mostro gigantesco nelle vicinanze.
+Il nemico fugge!
+{30f} ha lasciato {322}G!
+Un mostro gigantesco attacca!
+Il mostro gigantesco si allontana.
+Il nemico è sconvolto!
+Tutti si caricano!
+Il nemico è stato annientato!
+Il mostro gigantesco attacca!
+Tutti tremano di paura!
+Tutti sono confusi!
+{321}La squadra di {30f} prega...
+Un nemico si è unito alla squadra di {30f}!
+Ma il mostro gigantesco si allontana.
+{321}{30b}{00} è scomparso.
+Il mostro gigantesco si avvicina!
+PM insufficienti!
+Ma la danza è stata sigillata!
+Ma la loro bocca è chiusa!
+Abilità annullata!
+La lama è stata smussata!
+Ruba {328}!
+Ruba {322}G!
+Ma non succede nulla!
+Attacco
+Difesa
+Agilità
+Intelligenza
+{322} ribolle di rabbia!
+{322} ruggisce furiosamente!
+{322} si agita!
+{322} si dimena furiosamente!
+{322} inizia a colpire tutto intorno!
+{322} urla di rabbia!
+{322} sembra turbato...
+{322} si gonfia!
+Non fare niente
+Combatti
+Ordine
+Tattiche
+Recluta
+Oggetti
+Fuggi
 
-You can't scout because the monster pen is full!
-Switch
-Forfeit
-Turns Remaining: {322}
-Time Remaining: {324}
-Waiting for opponent...
-Can't cast spells!
-Turn {322}
-Battle {324}
-{321}{30f} prepares to scout!
-A talented scouting!
+Non puoi reclutare: il recinto dei mostri è pieno!
+Cambia
+Arrenditi
+Turni rimanenti: {322}
+Tempo rimanente: {324}
+In attesa dell'avversario...
+Non puoi usare magie!
+Turno {322}
+Battaglia {324}
+{321}{30f} si prepara a reclutare!
+Un reclutamento eccezionale!
 
-Scouting successful!
-Failed to scout!
+Reclutamento riuscito!
+Reclutamento fallito!
 
-The monster is sizing things up.
-The monster took offense!
-
-
-Obtained {322} skill points!
-{322} has reached max level!
-Obtained {328}!
-Forfeit the current battle.
-Return to the current battle.
-This monster is special,{315}so it cannot be scouted!
-This monster is special,{315}so it cannot be scouted!
+Il mostro sta valutando la situazione.
+Il mostro si è offeso!
 
 
+Ottenuti {322} punti abilità!
+{322} ha raggiunto il livello massimo!
+Ottenuto {328}!
+Abbandona la battaglia in corso.
+Torna alla battaglia in corso.
+Questo mostro è speciale,{315}quindi non può essere reclutato!
+Questo mostro è speciale,{315}quindi non può essere reclutato!
 
 
 
@@ -100,52 +98,54 @@ This monster is special,{315}so it cannot be scouted!
 
 
 
-Message not supported
 
-Attack restored!
-Defence restored!
-Agility restored!
-Wisdom restored!
-The Insulatle has worn off!
-The poison has worn off!
-The monster is not offended!
-The monster has calmed down a bit!
-The paralysis has worn off!
-The monster woke up!
-The monster is no longer confused!
-The Tongue Lashing has worn off!
-The dance effect has worn off!
-The monster is no longer afraid!
-The monster is no longer afraid!
-The monster can cast spells again!
-The monster can dance again!
-The Gobstop effect has worn off!
-Accuracy restored!
-Accuracy restored!
-Accuracy restored!
-Resistance is restored!
-Resistance is restored!
-Critical Miss has worn off!
-Bounce has worn off!
-Deep Breath has worn off!
-Brake Wind has worn off!
-Mist Me has worn off!
-Resistance is restored!
-Reheal has worn off!
-Artful Dodger has worn off!
-Clang has worn off!
-Counter has worn off!
-Active again!
-The Amor Seco Rain has worn off!
-The Song of Salvation has worn off!
-Blowback has worn off!
-The effect has worn off!
-Prezing has worn off!
-Abiliterator has worn off!
-Blade Blunter has worn off!
-Aha has worn off!
-Selflessness has worn off!
-Tacticlamp has worn off!
-Resurrected!!
-Lingering Mahlhaze has worn off!
-Unnatural Order has worn off!
+
+Messaggio non supportato
+
+Attacco ripristinato!
+Difesa ripristinata!
+Agilità ripristinata!
+Intelligenza ripristinata!
+L'effetto Isolamento termico è svanito!
+L'effetto del veleno è svanito!
+Il mostro non è più offeso!
+Il mostro si è calmato!
+La paralisi è svanita!
+Il mostro si è svegliato!
+Il mostro non è più confuso!
+L'effetto Colpo di lingua è svanito!
+L'effetto della danza è svanito!
+Il mostro non ha più paura!
+Il mostro non ha più paura!
+Il mostro può usare di nuovo le magie!
+Il mostro può danzare di nuovo!
+L'effetto Gobstop è svanito!
+La precisione è stata ripristinata!
+La precisione è stata ripristinata!
+La precisione è stata ripristinata!
+La resistenza è stata ripristinata!
+La resistenza è stata ripristinata!
+L'effetto Zero critico è svanito!
+L'effetto Rimbalzo è svanito!
+L'effetto Respiro profondo è svanito!
+L'effetto Ventofresh è svanito!
+L'effetto Nebbiamica è svanito!
+La resistenza è stata ripristinata!
+L'effetto Cura perpetua è svanito!
+L'effetto Evasione totale è svanito!
+L'effetto Rintocco è svanito!
+L'effetto Counter è svanito!
+Di nuovo attivo!
+L'effetto Pioggia Amor Seco è svanito!
+L'effetto Canto salvifico è svanito!
+L'effetto Respiro riflesso è svanito!
+L'effetto è svanito!
+L'effetto Resurgerai è svanito!
+L'effetto Abiliterator è svanito!
+L'effetto Bloccacolpi è svanito!
+L'effetto Aha è svanito!
+L'effetto Capro espiatorio è svanito!
+L'effetto Tacticlamp è svanito!
+Rianimato!!
+L'effetto Mahlhaze persistente è svanito!
+L'effetto Ordine inverso è svanito!

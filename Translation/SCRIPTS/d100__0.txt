@@ -168,8 +168,8 @@ STORE 0x18 0x1 0x0 0x0 0x40800000
 STORE 0x18 0x1 0x3f800000 0x2 0x43250000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}Ladies and gentlemen!{BREAK}...And not forgetting monsters!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}{1F2F}gnore e signori...! {BREAK}Ehm... {1F2F}gnore, signori e mostri...!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -185,8 +185,8 @@ WAIT 0x10 0x2 0x41f00000
 STORE 0x18 0x1 0x0 0x2 0x42a20000
 SYS_32 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}It's finally time for the True Monster Scout Challenge to get under way!{WAIT}{CLEAR}Let's start by introducing our brave young scouts!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}{1F3A}a per avere inizio il Torneo {1F29}out Pro!{WAIT}{CLEAR}Ecco a voi i nostri coraggiosi {1F29}out!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -224,8 +224,8 @@ STORE 0x18 0x1 0x0 0x0 0x0
 STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}First up - he's a man of few words, but plenty of hair...{WAIT}{CLEAR}...our current champion, the moody, the brooding...{NAME}!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}Iniziamo con il primo concorrente! Parla poco e ha la chioma folta e ribelle...{WAIT}{CLEAR}È il campione in carica! È l'intrepido, impavido, indomito... {NAME}!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -263,8 +263,8 @@ STORE 0x18 0x1 0x0 0x0 0x40a00000
 STORE 0x18 0x1 0x3f800000 0x2 0x42e60000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}And facing him tonight, the Bunny-Eared Bruiser...Melonie!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}La sua avversaria di oggi è... {1F2E}eila, la {1F29}out con le orecchie da coniglietta!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -280,8 +280,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x40a00000
 SYS_1F 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}She's not the most experienced monster scout in the world...{WAIT}{CLEAR}In fact, she may be the least experienced monster scout in the world...{WAIT}{CLEAR}But let's see how she handles our champion!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}{1F2E}eila non è molto esperta...{WAIT}{CLEAR}Tutt'altro! Con ogni probabilità, è la {1F29}out con MENO esperienza al mondo!{WAIT}{CLEAR}Vediamo cosa riuscirà a fare contro il nostro campione...!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -300,8 +300,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43020000
 SYS_18 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Melonie"
-SAY "{VOICE=08}Blimey! Melonie's Mega Monster Troupe are {NAME}'s first opponents!{WAIT}{CLEAR}Oooh, me ol' mum would be so proud, bless 'er!"
+SETNAME "Sheila"
+SAY "{VOICE=08}Capperi! {1F35}no la prima avversaria di {NAME}!{WAIT}{CLEAR}Mia madre sarebbe fiera di me, se lo sapesse!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -313,8 +313,8 @@ STORE 0x18 0x1 0x0 0x0 0x40a00000
 STORE 0x18 0x1 0x3f800000 0x2 0x42e60000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}Strap yourselves in for the True Monster Scout Challenge's first qualifying round!{WAIT}{CLEAR}...Ready! ...Set! ...FIGHT!!!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}Tra pochi istanti inizierà il primo turno di qualificazione del Torneo {1F29}out Pro!{WAIT}{CLEAR}Ai vostri posti...! Pronti...? COMBATTETE!"
 SYS_44 0x8 
 SYS_43 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41a00000
@@ -375,8 +375,8 @@ STORE 0x18 0x1 0x0 0x0 0x40800000
 STORE 0x18 0x1 0x3f800000 0x2 0x43250000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}Ladies, gentlemen and monsters!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}{1F2F}gnore, signori e mostri...!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -392,8 +392,8 @@ WAIT 0x10 0x2 0x41f00000
 STORE 0x18 0x1 0x0 0x2 0x42a20000
 SYS_32 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}The True Monster Scout Challenge is back once again!{WAIT}{CLEAR}Let's start by meeting our contenders!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}{1F3A}a per riprendere il Torneo {1F29}out Pro!{WAIT}{CLEAR}{1F27}lutiamo con un bell'applauso i concorrenti!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -431,8 +431,8 @@ STORE 0x18 0x1 0x0 0x0 0x0
 STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}First up - he's a man of few words but no shortage of hair...{WAIT}{CLEAR}...our current champion, the moody, the brooding...{NAME}!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}Il primo combattente è un ragazzo di poche parole e dai bizzarri capelli...{WAIT}{CLEAR}È il campione in carica! Il fenomenale, sontuoso, immenso... {NAME}!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -470,8 +470,8 @@ STORE 0x18 0x1 0x0 0x0 0x40a00000
 STORE 0x18 0x1 0x3f800000 0x2 0x42e60000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}And facing him tonight, the Bunny-Eared Bruiser...Melonie!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}La sua avversaria di oggi è... {1F2E}eila, la {1F29}out con le orecchie da coniglietta!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -500,8 +500,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43020000
 SYS_18 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Melonie"
-SAY "{VOICE=08}C'mon! Melonie's Mega Monster Troupe are ready for anyfin'!"
+SETNAME "Sheila"
+SAY "{VOICE=08}Avanti, cominciamo! Il mio Team Mega Mostri è pronto per qualsiasi sfida!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -513,8 +513,8 @@ STORE 0x18 0x1 0x0 0x0 0x40a00000
 STORE 0x18 0x1 0x3f800000 0x2 0x42e60000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}Strap yourselves in for the True Monster Scout Challenge's first qualifying round!{WAIT}{CLEAR}...Ready! ...Set! ...FIGHT!!!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}Tra pochi istanti inizierà il primo turno di qualificazione del Torneo {1F29}out Pro!{WAIT}{CLEAR}Ai vostri posti...! Pronti...? COMBATTETE!"
 SYS_44 0x8 
 SYS_43 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41a00000
@@ -575,8 +575,8 @@ STORE 0x18 0x1 0x0 0x0 0x40800000
 STORE 0x18 0x1 0x3f800000 0x2 0x43250000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}And the winner of the first qualifier...{BREAK}Our reigning champion, {NAME}!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}{NAME}, il campione, si aggiudica il primo {BREAK}turno di qualificazione!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -592,8 +592,8 @@ WAIT 0x10 0x2 0x41f00000
 STORE 0x18 0x1 0x0 0x2 0x42a20000
 SYS_32 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}Let's head into the second qualifier, where THIS will be your opponent..."
+SETNAME "Arbitro"
+SAY "{VOICE=07}{1F2F}amo giunti al secondo turno di qualificazione, e dovrai vedertela con..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -635,8 +635,8 @@ STORE 0x18 0x1 0x0 0x0 0x40c00000
 STORE 0x18 0x1 0x3f800000 0x2 0x42880000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}He's kept the Albatross in the air for 25 years as Rex Mayday's trusty engineer...{WAIT}{CLEAR}...Rowdy Rory Bellows!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}Il miglior amico dell'Albatros, ossia l'abilissimo meccanico di Capitan Alex...{WAIT}{CLEAR}Ecco a voi il coriaceo Meck Nick!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -662,8 +662,8 @@ STORE 0x18 0x1 0x0 0x0 0x40c00000
 STORE 0x18 0x1 0x3f800000 0x2 0x428c0000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}When Rory massages his shoulder, it's not because he's getting old. Oh no!{WAIT}{CLEAR}He's getting ready to thump any opponent who dares to rile him!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}Meck Nick non dimentica mai di effettuare il riscaldamento prima di un incontro...{WAIT}{CLEAR}Un esperto come lui non sottovaluterebbe mai dettagli tanto importanti!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -675,8 +675,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41200000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}I'll give ye a wee taste of my scrappin' style if ye like, laddie!"
+SETNAME "Meck Nick"
+SAY "{VOICE=07}Ragazzo, ti ridurrò peggio di un rottame!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -688,8 +688,8 @@ STORE 0x18 0x1 0x0 0x0 0x40c00000
 STORE 0x18 0x1 0x3f800000 0x2 0x42880000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}Ha ha! Erm... Yes. Without further ado, let's get on with our second qualifier!{WAIT}{CLEAR}...Ready! ...Set! ...FIGHT!!!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}L'atmosfera è bollente, quindi... Via al secondo turno di qualificazione!{WAIT}{CLEAR}Ai vostri posti...! Pronti...? COMBATTETE!"
 SYS_44 0x8 
 SYS_43 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41a00000
@@ -747,8 +747,8 @@ STORE 0x18 0x1 0x0 0x0 0x40800000
 STORE 0x18 0x1 0x3f800000 0x2 0x43250000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}And the winner of the first qualifier... Our reigning champion, {NAME}!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}{NAME}, il nostro campione, vince il primo turno di qualificazione!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -764,8 +764,8 @@ WAIT 0x10 0x2 0x41f00000
 STORE 0x18 0x1 0x0 0x2 0x42a20000
 SYS_32 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}Let's head into the second qualifier, where THIS will be your opponent..."
+SETNAME "Arbitro"
+SAY "{VOICE=07}{1F2F}amo al secondo turno di qualificazione! Questa volta te la vedrai con..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -835,8 +835,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41200000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}The engineerin' on the Albatross may not have been perfect...{WAIT}{CLEAR}...but I know how tae engineer a tip-top team o' monsters!"
+SETNAME "Meck Nick"
+SAY "{VOICE=07}Conosco i motori e lo scafo dell'Albatros come le mie tasche...!{WAIT}{CLEAR}E so anche come si costruisce una squadra vincente!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -854,8 +854,8 @@ STORE 0x18 0x1 0x0 0x0 0x40c00000
 STORE 0x18 0x1 0x3f800000 0x2 0x42880000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}So without further ado, let's get on with our second qualifier!{WAIT}{CLEAR}...Ready! ...Set! ...FIGHT!!!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}Diamo il via al secondo turno di qualificazione!{WAIT}{CLEAR}Ai vostri posti...! Pronti...? COMBATTETE!"
 SYS_44 0x8 
 SYS_43 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41a00000
@@ -931,8 +931,8 @@ STORE 0x18 0x1 0x0 0x0 0x40800000
 STORE 0x18 0x1 0x3f800000 0x2 0x43250000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}And the winner of the second qualifier... Our reigning champion, {NAME}!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}Il grande {NAME} ha superato il secondo turno di qualificazione!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -948,8 +948,8 @@ WAIT 0x10 0x2 0x41f00000
 STORE 0x18 0x1 0x0 0x2 0x42a20000
 SYS_32 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}Now, without further ado, let's head into the third qualifier...{WAIT}{CLEAR}...where your opponent will be...TA-DA!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}Lo spettacolo continua! {1F2F}amo giunti al terzo turno di qualificazione...{WAIT}{CLEAR}{1F2B}i pronto per il tuo prossimo avversario...? {1F2F} tratta di... Uhm..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -991,8 +991,8 @@ STORE 0x18 0x1 0x0 0x0 0x40e00000
 STORE 0x18 0x1 0x3f800000 0x2 0x42d00000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}Now, according to my notes, our next contender's much loved teeny sanguini...{WAIT}{CLEAR}...erm...turned out to be a...GOD!?{BREAK}(Can that be right!?){WAIT}{CLEAR}Ahem. Well, I'm sure she's put that all behind her. I give you Lily...GILDER!!!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}Nei miei appunti c'è scritto che il {1F27}nguinis della prossima {WAIT}{CLEAR}concorrente... In realtà era una {BREAK}divinità...? Ma davvero?! {WAIT}{CLEAR}Eh, la vita riserva sempre tante sorprese... Ecco a voi... Lady Lidia!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1008,8 +1008,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x40a00000
 SYS_1F 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}Now, everyone's wondering who's taking the place of the Countess.{WAIT}{CLEAR}All eyes are on you and your monsters, Lily."
+SETNAME "Arbitro"
+SAY "{VOICE=07}{1F2F}amo curiosi di scoprire chi ha preso il posto di Contessa...{WAIT}{CLEAR}Gli occhi degli spettatori sono tutti puntati su di te e sui tuoi mostri, Lady Lidia."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1021,8 +1021,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41200000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SETNAME "Lily Gilder"
-SAY "{VOICE=08}Well, fresh from my prestigious role as the Divine Battler's chief consort...{WAIT}{CLEAR}...I'm all ready to reclaim my crown as Lily, Queen of Scouts!"
+SETNAME "Lady Lidia"
+SAY "{VOICE=08}In qualità di ex-mammina del \"cuore\" del Combattente Divino...{WAIT}{CLEAR}Giuro che vincerò il Torneo! Chiamatemi Lidia, la \"Regina degli {1F29}out\"!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1031,12 +1031,12 @@ SYS_13 0x8
 STORE 0x18 0x1 0x0 0x2 0x42700000
 SYS_14 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}If {NAME} wins this one, he'll have made it through the qualifiers."
+SETNAME "Arbitro"
+SAY "{VOICE=07}{1F2B} {NAME} vincerà la prossima sfida supererà la fase di qualificazione..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Referee"
-SAY "{VOICE=07}Now, let's get on with our third and final qualifier!{WAIT}{CLEAR}...Ready! ...Set! ...FIGHT!!!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}{1F27}rà uno scontro epico! {1F3A}a per iniziare il terzo e ultimo turno preliminare!{WAIT}{CLEAR}Ai vostri posti...! Pronti...? COMBATTETE!"
 SYS_44 0x8 
 SYS_43 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41a00000
@@ -1094,8 +1094,8 @@ STORE 0x18 0x1 0x0 0x0 0x40800000
 STORE 0x18 0x1 0x3f800000 0x2 0x43250000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}And the winner of the second qualifier... Our reigning champion, {NAME}!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}Il grande {NAME} si aggiudica il secondo turno di qualificazione!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1111,8 +1111,8 @@ WAIT 0x10 0x2 0x41f00000
 STORE 0x18 0x1 0x0 0x2 0x42a20000
 SYS_32 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}Now, without time to even draw breath, let's head into the third qualifier...{WAIT}{CLEAR}...where your opponent will be...TA-DA!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}La sfida prosegue! {1F3A}a per iniziare il terzo turno di qualificazione...{WAIT}{CLEAR}{1F2B}i pronto per il tuo prossimo avversario...? {1F2F} tratta di..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1172,8 +1172,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41200000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SETNAME "Lily Gilder"
-SAY "{VOICE=08}Oh! You again? Well, this time I'll trounce you soundly, let me assure you."
+SETNAME "Lady Lidia"
+SAY "{VOICE=08}Ancora tu?! {1F3A}avolta non hai scampo! Ti faccio vedere le stelle, ti faccio!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1188,12 +1188,12 @@ STORE 0x18 0x1 0x0 0x0 0x40e00000
 STORE 0x18 0x1 0x3f800000 0x2 0x40a00000
 SYS_1F 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}If {NAME} wins this one, he'll have made it to the final."
+SETNAME "Arbitro"
+SAY "{VOICE=07}{1F2B} {NAME} vincerà il prossimo scontro raggiungerà la fase finale..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Referee"
-SAY "{VOICE=07}Now, let's get on with our third and final qualifier!{WAIT}{CLEAR}...Ready! ...Set! ...FIGHT!!!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}Prepariamoci ad assistere al terzo e ultimo turno preliminare!{WAIT}{CLEAR}Ai vostri posti...! Pronti...? COMBATTETE!"
 SYS_44 0x8 
 SYS_43 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41a00000
@@ -1279,8 +1279,8 @@ STORE 0x18 0x1 0x0 0x0 0x40800000
 STORE 0x18 0x1 0x3f800000 0x2 0x43250000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}Ladies and gentlemen!{BREAK}...And not forgetting monsters!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}{1F2F}gnore e signori...! Ehm, {BREAK}volevo dire... {1F2F}gnore, signori e mostri...!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1296,8 +1296,8 @@ WAIT 0x10 0x2 0x41f00000
 STORE 0x18 0x1 0x0 0x2 0x42a20000
 SYS_32 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}At long last, it's time for the main event to get under way!{WAIT}{CLEAR}Let's start by meeting our contenders!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}{1F3A}a per avere inizio la parte più entusiasmante della competizione!{WAIT}{CLEAR}Vediamo subito quali sono i pretendenti al titolo...!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1335,8 +1335,8 @@ STORE 0x18 0x1 0x0 0x0 0x0
 STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}First up - he's a man of few words but no shortage of hair...{WAIT}{CLEAR}...our current champion, the moody, the brooding...{NAME}!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}Il primo concorrente è un ragazzo di poche parole e dalla pettinatura bizzarra...{WAIT}{CLEAR}È il campione in carica! Il fenomenale, sontuoso, immenso... {NAME}!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1378,8 +1378,8 @@ STORE 0x18 0x1 0x0 0x0 0x41000000
 STORE 0x18 0x1 0x3f800000 0x2 0x42680000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}And facing him, the man who always puts his passengers first...{WAIT}{CLEAR}...Captain...Rex...MAYDAY!!!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}Dovrà affrontare colui che darebbe la vita per la sicurezza dei suoi passeggeri...{WAIT}{CLEAR}{1F27}lutiamo con un caloroso applauso... Capitan Alex!!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1399,8 +1399,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x40a00000
 SYS_1F 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}Official Monster Scout Challenge records show that Rex was a talented scout...{WAIT}{CLEAR}...until he was sensationally exposed as a stowaway and disqualified!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}Forse non tutti sanno che Capitan Alex è stato uno {1F29}out di talento...{WAIT}{CLEAR}Poi, un giorno, fu squalificato perché s'era imbarcato come clandestino...!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1412,8 +1412,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41200000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}Well, I can't deny it. Listen to Rex, kids - don't run and hide, pay for your ride!"
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Ehm, è vero... Una volta viaggiai come clandestino... Ma è roba di tanti anni fa!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1422,8 +1422,8 @@ SYS_13 0x8
 STORE 0x18 0x1 0x0 0x2 0x42700000
 SYS_14 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}Now, let's see which scout will checkmate his opponent.{WAIT}{CLEAR}...Ready! ...Set! ...FIGHT!!!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}Ora scopriremo quale dei due concorrenti manderà al tappeto il rivale...!{WAIT}{CLEAR}Ai vostri posti...! Pronti...? COMBATTETE!"
 SYS_44 0x8 
 SYS_43 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41a00000
@@ -1476,8 +1476,8 @@ STORE 0x18 0x1 0x0 0x0 0x40800000
 STORE 0x18 0x1 0x3f800000 0x2 0x43250000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}Ladies, gentlemen and monsters!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}{1F2F}gnore, signori e mostri...!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1493,8 +1493,8 @@ WAIT 0x10 0x2 0x41f00000
 STORE 0x18 0x1 0x0 0x2 0x42a20000
 SYS_32 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}At long last, it's time for the main event to get under way!{WAIT}{CLEAR}Let's start by meeting our contenders!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}{1F3A}a per cominciare la fase più entusiasmante della competizione!{WAIT}{CLEAR}Vediamo quali sono i pretendenti al titolo...!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1532,8 +1532,8 @@ STORE 0x18 0x1 0x0 0x0 0x0
 STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}First up - he's a man of few words but no shortage of hair...{WAIT}{CLEAR}...our current champion, the moody, the brooding...{NAME}!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}Il primo concorrente è un tipo di poche parole e dai bizzarri capelli...{WAIT}{CLEAR}È il campione in carica! Il fenomenale, sontuoso, immenso... {NAME}!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1575,8 +1575,8 @@ STORE 0x18 0x1 0x0 0x0 0x41000000
 STORE 0x18 0x1 0x3f800000 0x2 0x42680000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}And facing him, the man who always puts his passengers first...{WAIT}{CLEAR}Captain...Rex...MAYDAY!!!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}{1F2C}iderà colui che darebbe la vita per la sicurezza dei suoi passeggeri...{WAIT}{CLEAR}Accogliamo con un caloroso applauso il grande... Capitan Alex!!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1602,8 +1602,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41200000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}I never get tired of facing you, Rookie. You're the real deal."
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}{1F2C}idarti a duello è un piacere, pivello... Mi divertirò ad affrontarti."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1618,8 +1618,8 @@ STORE 0x18 0x1 0x0 0x0 0x41000000
 STORE 0x18 0x1 0x3f800000 0x2 0x40a00000
 SYS_1F 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}Now, let's see which scout will checkmate his opponent.{WAIT}{CLEAR}...Ready! ...Set! ...FIGHT!!!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}Ora vedremo quale {1F29}out riuscirà a mandare al tappeto l'avversario...!{WAIT}{CLEAR}Ai vostri posti...! Pronti...? COMBATTETE!"
 SYS_44 0x8 
 SYS_43 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41a00000
@@ -1686,8 +1686,8 @@ STORE 0x18 0x1 0x0 0x0 0x40800000
 STORE 0x18 0x1 0x3f800000 0x2 0x43250000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}And the winner of the first bout is our reigning champion...{NAME}!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}{NAME}, il campione più amato dal pubblico, ha vinto il primo incontro!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1703,14 +1703,14 @@ WAIT 0x10 0x2 0x41f00000
 STORE 0x18 0x1 0x0 0x2 0x42a20000
 SYS_32 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}You could cut the tension here with a sludgehammer...{WAIT}{CLEAR}Will this be the final bout?"
+SETNAME "Arbitro"
+SAY "{VOICE=07}Non serve un telescopio per vedere che la tensione è alle stelle...!{WAIT}{CLEAR}Attenzione... Il prossimo potrebbe essere il duello decisivo!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}Now to reveal {NAME}'s final opponent. Who else could it be?"
+SETNAME "Arbitro"
+SAY "{VOICE=07}Chi sarà l'avversario finale di {NAME}? Andiamo a scoprirlo!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1752,8 +1752,8 @@ STORE 0x18 0x1 0x0 0x0 0x41100000
 STORE 0x18 0x1 0x3f800000 0x2 0x43120000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}A thorough-bred scout from a family with an unbroken record of excellence...{WAIT}{CLEAR}...Miss Ginny Rummy, AKA Solitaire!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}È una {1F29}out proveniente da una famiglia di grandi combattenti!{WAIT}{CLEAR}{1F2F}gnore, signori e mostri, ecco a voi Romina Ace, meglio nota come... {1F35}litaire!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1769,8 +1769,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x40a00000
 SYS_1F 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}Among her clan, only the mightiest earns the right to use the name Solitaire!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}Romina Ace, detta \"{1F35}litaire\", è la migliore {1F29}out del suo clan..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1783,15 +1783,15 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}Don't anyone EVER call me Ginny Rummy again! The name's Solitaire, got it?"
+SAY "{VOICE=08}Non chiamarmi mai più Romina Ace! Io sono \"{1F35}litaire\" e basta, chiaro?!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}I'm the crème de la crème alright. Where I'm from, losing twice isn't an option."
+SAY "{VOICE=08}{1F35}no la migliore. Nel mio vocabolario non esiste la parola \"sconfitta\"."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}I hope you don't mind if I use you as a spiky-headed stepping stone...{WAIT}{CLEAR}...and claim my place as the one true champion."
+SAY "{VOICE=08}{1F36}ero che non ti dispiaccia se ti cambio l'acconciatura a suon di mazzate...{WAIT}{CLEAR}La vittoria sarà mia! Preparati a ricevere una sonora lezione!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1800,12 +1800,12 @@ SYS_13 0x8
 STORE 0x18 0x1 0x0 0x2 0x42700000
 SYS_14 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}Could this bout decide the True Monster Scout Challenge?{WAIT}{CLEAR}If {NAME} can win here, he'll be crowned champion!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}Quest'incontro potrebbe decidere chi si aggiudicherà il Torneo {1F29}out Pro...!{WAIT}{CLEAR}{1F2B} {NAME} otterrà la vittoria, la competizione sarà sua!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Referee"
-SAY "{VOICE=07}Let's do this!{BREAK}...Ready! ...Set! ...FIGHT!!!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}Lasciamo spazio ai contendenti!{BREAK}Ai vostri posti...! Pronti...? COMBATTETE!"
 SYS_44 0x8 
 SYS_43 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41a00000
@@ -1863,8 +1863,8 @@ STORE 0x18 0x1 0x0 0x0 0x40800000
 STORE 0x18 0x1 0x3f800000 0x2 0x43250000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}And the winner of the first bout is our reigning champion...{NAME}!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}La prima sfida è stata vinta dal nostro campione... {NAME}!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1880,14 +1880,14 @@ WAIT 0x10 0x2 0x41f00000
 STORE 0x18 0x1 0x0 0x2 0x42a20000
 SYS_32 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}You could cut the tension here with a sludgehammer...{WAIT}{CLEAR}Will this be the final bout?"
+SETNAME "Arbitro"
+SAY "{VOICE=07}L'entusiasmo del pubblico sta raggiungendo picchi incredibili!{WAIT}{CLEAR}Il prossimo scontro potrebbe essere decisivo!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}Now to reveal {NAME}'s final opponent. Who else could it be?"
+SETNAME "Arbitro"
+SAY "{VOICE=07}{1F29}opriamo insieme chi sarà l'ultimo rivale di {NAME}...!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1948,19 +1948,19 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}What are you making that face for!? You look like a bulldog chewing a wasp!{WAIT}{CLEAR}Still can't work out how I failed to become champion even after beating you?"
+SAY "{VOICE=08}Beh?! Cos'è quella faccia?!{WAIT}{CLEAR}Ti stai chiedendo come ho fatto a non conquistare il titolo dopo averti battuto?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}Hmph. Well, after beating you so badly, I seemed to lose focus."
+SAY "{VOICE=08}Vedi, dopo avertele suonate di santa ragione, ho perso la concentrazione..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}But you can bet that's not a mistake I'm going to repeat."
+SAY "{VOICE=08}Ma puoi essere certo che non ripeterò quell'errore! Te lo garantisco!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}I hope you don't mind if I use you as a spiky-headed stepping stone...{WAIT}{CLEAR}...and claim my place as the one true champion."
+SAY "{VOICE=08}Ti suonerò come un tamburo...{WAIT}{CLEAR}E dopo avertene date un sacco e una sporta, sarò incoronata campionessa!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1969,12 +1969,12 @@ SYS_13 0x8
 STORE 0x18 0x1 0x0 0x2 0x42700000
 SYS_14 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}Could this bout decide the True Monster Scout Challenge?{WAIT}{CLEAR}If {NAME} can win here, he'll be crowned champion!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}Questa battaglia potrebbe decidere a chi andrà la vittoria nel Torneo {1F29}out Pro!{WAIT}{CLEAR}{1F2B} {NAME} si aggiudicherà la sfida, conquisterà il titolo di campione!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Referee"
-SAY "{VOICE=07}Let's do this!{BREAK}...Ready! ...Set! ...FIGHT!!!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}{1F2F} comincia!{BREAK}Ai vostri posti...! Pronti...? COMBATTETE!"
 SYS_44 0x8 
 SYS_43 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41a00000
@@ -2054,8 +2054,8 @@ STORE 0x18 0x1 0x0 0x0 0x40800000
 STORE 0x18 0x1 0x3f800000 0x2 0x43250000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}...We have a winner!!!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}{1F2F}gnore, signori e mostri... {1F35}no lieto di annunciare la fine della competizione...!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -2078,8 +2078,8 @@ STORE 0x18 0x1 0x0 0x2 0x0
 SYS_8C 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}The champion of the True Monster Scout Challenge is...{NAME}!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}Il campione del Torneo {1F29}out Pro è... {NAME}!"
 WAIT 0x10 0x2 0x3f800000
 STORE 0x18 0x1 0x0 0x2 0x427c0000
 SYS_A5 0x8 
@@ -2116,7 +2116,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42700000
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}Okay, so you beat me! Big deal! You don't have to look so darn smug about it!{WAIT}{CLEAR}I just haven't hit peak condition yet..."
+SAY "{VOICE=08}Va bene, va bene, hai vinto tu... Ma hai poco da vantarti, caro mio!{WAIT}{CLEAR}Mi hai battuta solo perché ero in un periodo di scarsa forma! Pfui!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -2144,15 +2144,15 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42700000
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}Just look at my hands! I'm trembling with...with...determination!"
+SAY "{VOICE=08}Guarda le mie mani! Tremano per l'indignazione!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}When you beat me, I got a vision of all the great monsters I could synthesise."
+SAY "{VOICE=08}Dopo che mi hai battuta, ho pensato a quali mostri potrò creare con la sintesi..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}Solitaire's not down for the count yet! I've still got some surprises up my sleeve!"
+SAY "{VOICE=08}Ho perso questa battaglia, ma vincerò la guerra! Ho molti assi nella manica!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -2175,15 +2175,15 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42700000
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}Next time we meet, you're going to be the loser, kiddo. That's a promise!"
+SAY "{VOICE=08}Ti schiaccerò come un pidocchio! Non te la caverai, bamboccio!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}In the meantime, let's find us some monsters we can really show off."
+SAY "{VOICE=08}In attesa che arrivi quel momento, cercheremo nuove belve per le nostre squadre."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}See you around, Mr Big Shot Champion."
+SAY "{VOICE=08}A presto, campionucolo dei miei stivali!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -2255,23 +2255,23 @@ STORE 0x18 0x1 0x0 0x2 0x428c0000
 STORE 0x18 0x1 0x3f800000 0x2 0x41200000
 SYS_17 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}For the first time in recorded history, Don Mole has been rendered speechless!"
+SAY "{VOICE=07}Non ricordo altre occasioni in cui sono rimasto senza parole..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
-SAY "{VOICE=07}{E321}{NAME}, I'm so proud of you!{WAIT}{CLEAR}You made it to the top! You're the True Monster Scout Challenge champion!"
+SAY "{VOICE=07}{E321}{NAME}, sono fiero di te! Ce l'hai fatta!{WAIT}{CLEAR}Hai centrato l'obiettivo! Hai vinto il Torneo {1F29}out Pro!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
-SAY "{VOICE=07}Gettin' your groove on in all those battles... Revivin' the Divine Battler... {WAIT}{CLEAR}The road to the top sure has been eventful."
+SAY "{VOICE=07}Hai lottato come un veterano. {1F2B}i riuscito a risvegliare il Combattente Divino...{WAIT}{CLEAR}Non è stato facile raggiungere la vetta, ma ce l'hai fatta!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
-SAY "{VOICE=07}On behalf of all molekind, I'd like to thank you for all you've done.{WAIT}{CLEAR}{E321}{NAME}, the most funky champion.{BREAK}It's got a ring to it all right!"
+SAY "{VOICE=07}A nome di tutte le talpe, ti ringrazio per ciò che hai fatto per noi. {WAIT}{CLEAR}{E321}{NAME}, il campionissimo! {BREAK}\"Campionissimo\" suona bene, no?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
-SAY "{VOICE=07}Now it's time to collect your due as champion. Here's your grand prize..."
+SAY "{VOICE=07}{1F35}no felice di consegnarti il meritatissimo premio..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -2285,13 +2285,13 @@ SYS_55 0x8
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x2 0x41200000
 SYS_A8 0x8 
-SAY "{COLOR=2}{E321}{NAME} obtains ten bags of beastie bites!"
+SAY "{COLOR=2}{E321}{NAME} ha ottenuto dieci deliziesche!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}And with that, I'd like to bring the True Monster Scout Challenge to a close..."
+SAY "{VOICE=07}E con questo, dichiaro ufficialmente concluso il Torneo {1F29}out Pro, e..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -2337,14 +2337,14 @@ JMP_ABS 0xc L_a1f8
 L_a2b4:
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Huh!?"
+SAY "{VOICE=07}Eh?!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Strangely familiar vibes are emanatin' from the Synthesis Research Facility."
+SAY "{VOICE=07}Dal Centro Ricerca & {1F2F}ntesi provengono vibrazioni che mi sembra di conoscere..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x0 0x41600000 0x2 0x0
@@ -2365,7 +2365,7 @@ L_a464:
 JMP_ABS 0xc L_a3b4
 L_a470:
 SETNAME "Don Mole"
-SAY "{VOICE=07}Why don't you groove on over there, {NAME} and check it out?"
+SAY "{VOICE=07}{NAME}, ti spiacerebbe recarti lì e dare un'occhiata in giro?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -2418,12 +2418,12 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}It's hard to believe, but our champion {NAME} has been defeated!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}Incredibile! {NAME}, il grande campione, è stato sconfitto!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Referee"
-SAY "{VOICE=07}But don't give up just yet!{WAIT}{CLEAR}If no rival can rack up consecutive victories, there'll be a rematch!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}Ma non è detto che per lui sia stata scritta la parola \"fine\" nella gara!{WAIT}{CLEAR}{1F2B} nessun rivale otterrà un certo numero di vittorie di fila, la sfida sarà ripetuta!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -2466,12 +2466,12 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SETNAME "Referee"
-SAY "{VOICE=07}It's hard to believe, but our champion {NAME} has been defeated!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}Incredibile! {NAME}, il grande campione, è stato sconfitto!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Referee"
-SAY "{VOICE=07}But don't give up just yet!{WAIT}{CLEAR}If Solitaire doesn't win the next bout, there'll be a rematch!"
+SETNAME "Arbitro"
+SAY "{VOICE=07}Ma non è detto che per lui sia stata scritta la parola \"fine\" nella gara!{WAIT}{CLEAR}{1F2B} {1F35}litaire non si aggiudicherà il prossimo incontro, la sfida sarà ripetuta!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -2486,11 +2486,11 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}He he! Looks like you just couldn't cut it, kiddo!"
+SAY "{VOICE=08}Eh eh eh! T'è andata male, bamboccio!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}Now I just have to wipe the floor with my next opponent and I'll be champion!"
+SAY "{VOICE=08}Ora non mi resta che sconfiggere il prossimo avversario e il titolo sarà mio!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

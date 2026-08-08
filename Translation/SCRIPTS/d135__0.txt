@@ -196,7 +196,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x40a00000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SAY "{VOICE=08}So you thought you could hitch a free ride to the Monster Scout Challenge, eh?"
+SAY "{VOICE=08}Pensavi di poter scroccare un viaggio gratis fino al Torneo Monster {1F29}out, eh?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -225,7 +225,7 @@ STORE 0x18 0x1 0x0 0x0 0x0
 STORE 0x18 0x1 0x3f800000 0x2 0x42d40000
 SYS_18 0x8 
 SYS_42 0x8 
-SAY "{VOICE=08}You're the captain of this rustbucket, right? {WAIT}{CLEAR}I insist you make this scruffy stowaway walk the plank this instant!"
+SAY "{VOICE=08}{1F28}aglio o sei il Capitano di questo \"volorottame\"?!{WAIT}{CLEAR}Esigo che il clandestino sia immediatamente lanciato fuori bordo!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -237,12 +237,12 @@ STORE 0x18 0x1 0x0 0x0 0x40400000
 STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}Woah there! Hold your horses!{BREAK}Let's not go crazy here."
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Calma, calma... Cerchiamo di non {BREAK}perdere la testa, d'accordo?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}C'mon, you're a monster scout yourself, Miss Gilder.{WAIT}{CLEAR}You must be able to understand where this kid's comin' from."
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Lady Lidia, la tua richiesta mi lascia senza parole. {1F2B}i una {1F29}out, vero?{WAIT}{CLEAR}Dovresti comprendere i motivi che hanno spinto il ragazzo a nascondersi a bordo..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x0
@@ -261,8 +261,8 @@ SYS_16 0x8
 STORE 0x18 0x1 0x0 0x2 0x424c0000
 STORE 0x18 0x1 0x3f800000 0x2 0x42a00000
 SYS_17 0x8 
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}That burnin' desire to compete that would make someone try to hitch a free ride..."
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}L'ha fatto perché desidera partecipare al Torneo, ma non ha un soldo in tasca..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -314,8 +314,8 @@ STORE 0x18 0x1 0x0 0x0 0x0
 STORE 0x18 0x1 0x3f800000 0x2 0x42d00000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Lily Gilder"
-SAY "{VOICE=08}Captain, in case you hadn't noticed, I am a woman of elegance and distinction. {WAIT}{CLEAR}I have not the faintest idea what is going on in this scruffy stowaway's head."
+SETNAME "Lady Lidia"
+SAY "{VOICE=08}Capitano, sono una donna di alto rango, io! {1F35}no una {1F15}GNORA!{WAIT}{CLEAR}Non so cosa passi per la testa di quel clandestino, e non m'interessa scoprirlo!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -327,12 +327,12 @@ STORE 0x18 0x1 0x0 0x0 0x40400000
 STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}Listen, I'm not sayin' he's gonna get away scot-free.{WAIT}{CLEAR}Stowin' away is a serious offence in Captain Rex Mayday's book."
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Intendiamoci... Il nostro amico sprovvisto di biglietto non la passerà liscia...{WAIT}{CLEAR}Non sono tenero con i clandestini. Nessuno viaggia gratis sulla nave di Capitan Alex."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}So here's the deal..."
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Ecco come metteremo a posto la situazione..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -401,12 +401,12 @@ STORE 0x18 0x1 0x40000000 0x2 0x41200000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}I'm happy to announce that we now have a new crew member on board the Albatross.{WAIT}{CLEAR}Our freeloadin' young friend's gonna pay his fare by workin' as a rookie deckhand."
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Vi annuncio che l'equipaggio dell'Albatros ha un nuovo membro!{WAIT}{CLEAR}Il clandestino svolgerà le mansioni di aiuto-vice-mozzo di terza categoria!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}He'll be at your beck and call for the duration of the flight. Sound fair?"
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}{1F27}rà al servizio dei passeggeri e dell'equipaggio per tutta la traversata."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -440,8 +440,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42680000
 SYS_18 0x8 
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}So, Rookie! Do we have a deal?"
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Allora, pivello? Che ne dici? Ti sta bene?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -460,12 +460,12 @@ STORE 0x18 0x1 0x0 0x0 0x0
 STORE 0x18 0x1 0x3f800000 0x2 0x42d40000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Lily Gilder"
-SAY "{VOICE=08}Hmph. Well, I still think he should have walked the plank..."
+SETNAME "Lady Lidia"
+SAY "{VOICE=08}Mah, secondo me sarebbe stato meglio lanciarlo fuori bordo..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Lily Gilder"
-SAY "{VOICE=08}But so be it. He'll just have to attend to my every whim!"
+SETNAME "Lady Lidia"
+SAY "{VOICE=08}Anche se mi alletta l'idea di avere uno schiavetto tutto per me! Ih ih ih!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -586,12 +586,12 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}Okay, Rookie..."
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Va bene, pivello..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}Hold on! I just realised you're workin' for me, and I don't know your name..."
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Ehi, aspetta... Non conosco nemmeno il tuo nome..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -604,12 +604,12 @@ STORE 0x18 0x1 0x0 0x0 0x40400000
 STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}What's that? {E321}{NAME}, huh?{BREAK}Well, I prefer 'Rookie'."
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}{E321}{NAME}, hai detto...? {BREAK}No, preferisco chiamarti \"pivello\"."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}I want you to give me a full debriefing. Let's head to the flightdeck."
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Voglio parlarti in privato. Andiamo nella cabina di comando."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

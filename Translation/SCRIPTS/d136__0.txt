@@ -53,12 +53,12 @@ STORE 0x18 0x1 0x0 0x0 0x40a00000
 STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}...I get it. You've got dreams but you don't have two gold coins to rub together.{WAIT}{CLEAR}That's why you had no choice but to travel Stowaway Class."
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Capisco... Non avevi i soldi per raggiungere la sede del Torneo...{WAIT}{CLEAR}Quindi non hai potuto fare altro che imbarcarti come clandestino..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}You know, you remind me a little of myself in my wild youth."
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Anch'io ho vissuto una situazione simile quand'ero giovane..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40800000
@@ -72,16 +72,16 @@ SYS_13 0x8
 STORE 0x18 0x1 0x0 0x2 0x42480000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}But don't think I'm gettin' soft!{BREAK}I'm gonna work you hard till we land."
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Ma ciò non ti giustifica affatto! {BREAK}Pagherai il viaggio lavorando fino all'arrivo!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}And your first job is to introduce yourself to everyone as our rookie deckhand."
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}{1F27}rai aiuto-vice-mozzo di terza categoria. Presentati ai passeggeri."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}The passengers plus the ship's engineer makes...ummm...five people to speak to.{WAIT}{CLEAR}You listen to what they say, got it? Okay, Rookie! Get to work!"
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Ci sono cinque persone a bordo, considerando i passeggeri e il meccanico.{WAIT}{CLEAR}Dovrai eseguire tutti i loro ordini, oltre ai miei! Mi hai capito, pivello?! Al lavoro!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -114,7 +114,7 @@ WAIT 0x10 0x2 0x41a00000
 STORE 0x18 0x1 0x0 0x2 0x434c0000
 SYS_33 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{E321}{NAME} is now employed as a rookie deckhand aboard the Albatross!"
+SAY "{COLOR=2}{E321}{NAME} è diventato aiuto-vice-mozzo di terza categoria!"
 SYS_44 0x8 
 SYS_43 0x8 
 STORE 0x18 0x1 0x0 0x2 0x3f800000

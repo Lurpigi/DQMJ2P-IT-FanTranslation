@@ -308,16 +308,16 @@ STORE 0x18 0x1 0x0 0x0 0x40a00000
 STORE 0x18 0x1 0x3f800000 0x2 0x42c20000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Eugene Poole"
-SAY "{VOICE=03}Your battles in the tournament were the most thrilling I've witnessed, dear boy!"
+SETNAME "Jim Jenius"
+SAY "{VOICE=03}Le sfide che hai sostenuto sono state le più intense a cui io abbia mai assistito."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Eugene Poole"
-SAY "{VOICE=03}I can't wait to see how you'll fare in the True Monster Scout Challenge."
+SETNAME "Jim Jenius"
+SAY "{VOICE=03}{1F35}no davvero curioso di scoprire come ti comporterai nel Torneo {1F29}out Pro!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Eugene Poole"
-SAY "{VOICE=03}It will give me great pleasure to witness your further development as a scout."
+SETNAME "Jim Jenius"
+SAY "{VOICE=03}{1F27}rà un piacere scoprire quanto in alto riuscirai ad arrivare!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -342,16 +342,16 @@ STORE 0x18 0x1 0x0 0x0 0x40e00000
 STORE 0x18 0x1 0x3f800000 0x2 0x42ea0000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Melonie"
-SAY "{VOICE=08}Thanks for savin' the Captain, {NAME}! You're my 'ero.{WAIT}{CLEAR}Now, if you don't mind, I've got important work to do..."
+SETNAME "Sheila"
+SAY "{VOICE=08}Ti ringrazio per aver salvato il Capitano. {1F2B}i il mio eroe, {NAME}!{WAIT}{CLEAR}Adesso scusami, ho qualche faccenda da sbrigare..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Melonie"
-SAY "{VOICE=08}The True Monster Scout Challenge needs tip-top bunny-eared staff, don't it?"
+SETNAME "Sheila"
+SAY "{VOICE=08}Al Torneo {1F29}out Pro serve personale qualificato e con orecchie da coniglietta!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Melonie"
-SAY "{VOICE=08}I'm 'opin' to become an idol adored by millions and make me ol' mum proud."
+SETNAME "Sheila"
+SAY "{VOICE=08}Diventerò un esempio di professionalità per tutti! Mia madre sarà fiera di me!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -376,16 +376,16 @@ STORE 0x18 0x1 0x0 0x0 0x40c00000
 STORE 0x18 0x1 0x3f800000 0x2 0x42d40000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Lily Gilder"
-SAY "{VOICE=08}You haven't forgotten our little agreement on that glacier, have you?{WAIT}{CLEAR}I promised to show you my power and give you a sound walloping."
+SETNAME "Lady Lidia"
+SAY "{VOICE=08}Non hai dimenticato la promessa che ti ho fatto su quel ghiacciaio, vero?{WAIT}{CLEAR}Avevo detto che ti avrei dimostrato la mia abilità, e che ti avrei dato una lezione."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Lily Gilder"
-SAY "{VOICE=08}But first I'll need to find a worthy successor to my Countess on that island."
+SETNAME "Lady Lidia"
+SAY "{VOICE=08}Prima, però, dovrò trovare sull'isola un sostituto per la mia amata Contessa."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Lily Gilder"
-SAY "{VOICE=08}I severely doubt there'll be any monster even half as cute as my pugsie-wugsie..."
+SETNAME "Lady Lidia"
+SAY "{VOICE=08}Anche se dubito che esista un'altra creatura dolce come la mia piccina..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -404,8 +404,8 @@ STORE 0x18 0x1 0x40000000 0x2 0x41700000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}Laddie, when I heard ye were hankerin' after another trip tae that island...{WAIT}{CLEAR}...I was so shocked I nearly dropped ma favourite antique spanner."
+SETNAME "Meck Nick"
+SAY "{VOICE=07}{1F35}no rimasto senza parole quando ho saputo che desideri tornare sull'isola...{WAIT}{CLEAR}La sorpresa è stata tale che m'è scivolato di mano il mio cacciavite preferito!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40400000
@@ -415,12 +415,12 @@ WAIT 0x10 0x2 0x423c0000
 STORE 0x18 0x1 0x0 0x0 0x40400000
 STORE 0x18 0x1 0x3f800000 0x2 0x428c0000
 SYS_18 0x8 
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}But if that's what ye want, ol' Rory willnae stand in yer way!{WAIT}{CLEAR}And ma top-class repair work means there'll be no repeats of that crash."
+SETNAME "Meck Nick"
+SAY "{VOICE=07}Beh, se è davvero ciò che vuoi, non sarò certo io a farti cambiare idea!{WAIT}{CLEAR}La nave è stata riparata, e stavolta non ci saranno incidenti di volo!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}...Though that unfortunate incident wasnae ma fault, of course.{WAIT}{CLEAR}It was due tae circumstances beyond Rory's control!"
+SETNAME "Meck Nick"
+SAY "{VOICE=07}Non che siamo precipitati a causa di un mio errore, sia chiaro!{WAIT}{CLEAR}L'inconveniente si verificò per circostanze indipendenti dalla mia volontà!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -455,16 +455,16 @@ STORE 0x18 0x1 0x0 0x0 0x40800000
 STORE 0x18 0x1 0x3f800000 0x2 0x42a40000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Archie Logg"
-SAY "{VOICE=07}...And I thought I was the only one who wanted to return to the island!"
+SETNAME "Marcus Logos"
+SAY "{VOICE=07}Credevo di essere l'unico a voler tornare sull'isola, ma mi sbagliavo di grosso!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Archie Logg"
-SAY "{VOICE=07}Well, great minds think alike,{BREAK}as they say!"
+SETNAME "Marcus Logos"
+SAY "{VOICE=07}Beh, meglio così! Più siamo, più {BREAK}ci divertiremo!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Archie Logg"
-SAY "{VOICE=07}I've got a hunch that if I stick with you, {NAME}...{WAIT}{CLEAR}...there'll be much more to discover!"
+SETNAME "Marcus Logos"
+SAY "{VOICE=07}E poi ho una sensazione, {NAME}...{WAIT}{CLEAR}{1F35}no certo che, se ti resterò accanto, scoprirò tante altre cose interessanti."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -492,8 +492,8 @@ STORE 0x18 0x1 0x0 0x0 0x40000000
 STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}Okay, Rookie! Are you fully prepared?"
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}{1F2B}i pronto, pivello?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -529,8 +529,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_18 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Captain Mayday"
-SAY "{VOICE=07}Well then, let's head back to the island where legendary scouts are born!"
+SETNAME "Capitan Alex"
+SAY "{VOICE=07}Allora andiamo! {1F2F} torna sull'isola che forgia gli {1F29}out della leggenda!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

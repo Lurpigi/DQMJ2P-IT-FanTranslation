@@ -1,0 +1,517 @@
+id,nome mostro
+0,
+1,Slime
+2,Bollaslime
+3,Guscioslime
+4,Dottor Slime
+5,Minidrago Slime
+6,Slime metallico
+7,Paladino Slime
+8,Slimpunk
+9,Metaliquislime
+10,Slime angelico
+11,Re Slime
+12,Re Bollaslime
+13,Re Metalslime
+14,Nonno Slime
+15,Prezioslime
+16,Trode
+17,Slimetta
+18,Slimaca
+19,Curaslime
+20,Gigaslime
+21,Gigaslime arancione
+22,Dragonslime
+23,Metalcabal Slime
+24,Metalslime regale
+25,Milislime oscuro
+26,Slime oscuro
+27,Re Curaslime
+28,Slime Darkonium
+29,Re Slime maculato
+30,
+31,Gang Slime
+32,Ragazza Slider
+33,Slime Blaster
+34,Roboslime oscuro
+35,Sliamante
+36,Re Metaliquislime
+37,Cavalliere
+38,Pavone prismatico
+39,
+40,Generale Pardus
+41,Yggdrasil
+42,Munchie
+43,Musferatu
+44,Balzack
+45,
+46,Pruslas
+47,Robbin's Lady
+48,Lacertoflamma
+49,Giallosauro
+50,Pallodrago
+51,Dragocertola
+52,
+53,Verdrago
+54,Dragarcio
+55,Jargon
+56,Metaldragone
+57,Kurridor
+58,Asciasauro
+59,Porpordrago
+60,Jargon verde
+61,Megacertola
+62,Serpe eterea
+63,Mechadrago
+64,Gigadragone
+65,Draku Lard
+66,Dragonlord
+67,
+68,Sire Dragoviano
+69,Mandragola soldato
+70,Skeledrago
+71,Dragospino
+72,Dragocorno
+73,Frufrina
+74,Drago marino
+75,Drago d'acqua
+76,Rapax
+77,Lardodragon
+78,Tyrantosauro
+79,Dragone nero
+80,Frufrù
+81,Dragoon
+82,Megalodonte
+83,Dragobastro
+84,
+85,Lacertoflamma
+86,Libellula
+87,Testuggine corazzata
+88,Cavaliere dei Draghi
+89,Rashaverak
+90,Tartaculei
+91,Ardimentauro
+92,Grifotauro
+93,Tri Aculeo
+94,Drago dimensionale
+95,Xiphos
+96,Ornitorink
+97,Baby Granzann
+98,Scaraforbici
+99,Corvoscuro
+100,Rigatto
+101,Baby piovra
+102,Pepe & Rone
+103,Infernape
+104,Chimera
+105,Condor blu
+106,Ranassassina
+107,Grankiolon
+108,Toro incavolato
+109,Pachidermico
+110,Falena gigante
+111,Faccia d'albero
+112,Crostaceus
+113,Groarilla
+114,Skorpio
+115,Kaiman
+116,Koguar
+117,Garuda
+118,Peso gallo
+119,Penna di fuoco
+120,Pipetto Anziano
+121,Piovra regina
+122,Piovron
+123,Leopold
+124,Empyrea
+125,Corniglio viola
+126,Yeeteeh
+127,Ichtus verde
+128,Malanguilla
+129,Assalitore marino
+130,Scaradozer
+131,Verdurfante
+132,Formica soldato
+133,Ghiandaia floreale
+134,Cactusfera
+135,Sentripede
+136,Pinguinrock
+137,Scimmia fracassona
+138,Baleviatan
+139,Pipit
+140,Mantis composita
+141,Lanciafuoco
+142,Frigoforo
+143,Guerreruspo
+144,Cattivalpa
+145,Anselmo Tell
+146,Martellus
+147,Satyro
+148,Sciakallo
+149,Sanguinigenio
+150,Mastino guerriero
+151,Burattinaio nero
+152,Scarafante nero
+153,Cinghialorco
+154,Cacciateste
+155,Druido del male
+156,Athos
+157,Pan
+158,
+159,Gargoyle
+160,Tigre mannara
+161,
+162,Gigante
+163,Pollo d'attacco
+164,Scimmia Zombie
+165,Pocomacho
+166,Re Sanguini
+167,Troll capo
+168,Atlas
+169,Don Mole
+170,Ruban Hood
+171,Dhoulmagus
+172,Rhapthorne
+173,Rhapthorne II
+174,Asso di picche
+175,Martellus magnus
+176,Leonix
+177,
+178,Kan Kanide
+179,Picchiune
+180,Gatto vampiro
+181,Cane di mare
+182,Montone dannato
+183,Lupomannaro
+184,Rospo blu
+185,Tigertaur
+186,Mezzo porco
+187,Tanamount
+188,Squigno
+189,Alfino
+190,Generale Soinos
+191,Slon la Torre
+192,Sacco golosone
+193,Ferocandela
+194,Fuoco fatuo
+195,Pettirobot
+196,Pu pazzo
+197,Campanella
+198,Sacco dentato
+199,Ombra
+200,Cannibaule
+201,Sole & Soletto
+202,Mechator grigio
+203,Esplo-sasso
+204,Mam
+205,Golem
+206,Bu
+207,Fiamma danzante
+208,Jam
+209,Spirito gelido
+210,Bo
+211,Alga sovrana
+212,Skrigno dentato
+213,Dademone blu
+214,Uberkilling Machine
+215,Golem dorato
+216,Statua vivente
+217,Demonskrigno
+218,Mechacentauro
+219,Mambu-Jambo
+220,Rovina
+221,Psaro
+222,Estark
+223,Ankora killer
+224,Ticking Timeburrm
+225,Corriere Corrotto
+226,Magibambola
+227,Axecutioner
+228,Carrettiere
+229,Menestrello Moai
+230,Armour
+231,Caneffu
+232,Cumulus Rex
+233,Octagos
+234,Signore dei desideri
+235,Automa
+236,Borgomietitore
+237,Guerriero di terracotta
+238,Scudorkus
+239,Semper Actualis
+240,Vampistrello
+241,Smacker
+242,Monocolo
+243,Diavoletto
+244,Blob bianco
+245,Re della notte
+246,Demone danzante
+247,Cavaliere Aberrante
+248,Athlantos
+249,Demone minore
+250,Grifone
+251,Aggroscultura
+252,Polisentinella
+253,Silvapiteco
+254,Malevoleonex
+255,Arcidemone
+256,Basettos
+257,Bufalorco
+258,Jamirus
+259,Cresta furiosa
+260,Rosapiteco
+261,Gracos
+262,Bestiah
+263,Randellatore notturno
+264,Malroth
+265,Zoma
+266,Nimzo
+267,Moltomort
+268,Granvert
+269,Riccio ribelle
+270,Dolcimonius
+271,Armatura letale
+272,Grampistrello
+273,Destructore
+274,Demone multimani
+275,Taglialbero
+276,Gruffone
+277,Jolly killer
+278,Custode tetro
+279,Capitan Catastrofe
+280,Mago pancione
+281,Juggulare
+282,Generale Gufus
+283,Barone Von Bellycose
+284,Re Korol
+285,Hyperanemon
+286,Neromar
+287,Aamon
+288,Cerbero
+289,Phantasma
+290,Ceppo Geppo
+291,Ghoul sbavante
+292,Mano
+293,Hipster swingante
+294,Nauseafungus
+295,Dirigibilio
+296,Zombeeh
+297,Cavaliere feroce
+298,Skeletro
+299,Armatura killer
+300,Cavalier Mortimer
+301,Cocco di mummia
+302,Ira
+303,Kantalga
+304,Fantagnan
+305,Guardarosa
+306,Baron Skeletro
+307,Dullahan
+308,Anima torturata
+309,Capitan Crow
+310,Prof Briskod
+311,Stivale matto
+312,Uomosca
+313,Lupo infernale
+314,Soldaskeletro
+315,Principe Spectros
+316,Druido supremo
+317,Granchio oscuro
+318,Cobra cardinale
+319,Cavaliere dell'Ombra
+320,Epidemon
+321,Gigalunfo
+322,Verme delle Grotte
+323,Pope Skriterioska
+324,
+325,Re Godwyn II
+326,
+327,
+328,
+329,
+330,
+331,
+332,
+333,
+334,
+335,
+336,Lupicche
+337,Cuordifalco
+338,Fiorango
+339,Quadrago
+340,Lupicche Asso
+341,Cuordifalco Asso
+342,Fiorango Asso
+343,Quadrago Asso
+344,Joker
+345,
+346,Darck
+347,Magarugi
+348,Beastly Baboorude
+349,Babbuincubo
+350,Mini Zoma
+351,Gadis
+352,Forte di Nadiria
+353,Lattaslime
+354,
+355,Dragonlord
+356,Stella
+357,Dragriphon
+358,Barbarus
+359,Corvus
+360,Wasen
+361,Vegetribù
+362,Peracolosa
+363,Mostradamus
+364,Maskerossa
+365,Zanzakiller
+366,Vermex
+367,Millecolpi
+368,Lince alata
+369,Scruffy
+370,Bulbo ramificato
+371,Maluovo
+372,Tentacolocchio
+373,Multifoglia
+374,Padramos
+375,Magmalvagio
+376,Cavalier Terror
+377,Hargon
+378,Titanis
+379,Slime maculato
+380,Slime polifemico
+381,Magislime
+382,Cyber Slime
+383,Ovomarch
+384,Homo nevis
+385,Gran Pallodrago
+386,Gladiatore marino
+387,Serpe boreale
+388,Orochi
+389,Drago di Zenithia
+390,Beck Beck
+391,Barracuda
+392,Zeck
+393,Fiore della morte
+394,Spiritocchio
+395,Pescelupo
+396,Gelatile
+397,Marchese de Léon
+398,Riditarra
+399,Robocentauro
+400,Malampada
+401,Gelmonio
+402,Centopetra
+403,Minitribù
+404,Multident
+405,Duran
+406,Nokturnus
+407,Gemon
+408,Lacertow
+409,Serpe d'ossa
+410,Ossassassino
+411,Droll
+412,Paladinorribilis
+413,Terrorantula
+414,Exorsus
+415,Taurus
+416,Gemines
+417,Demonstrum
+418,Virgax
+419,Kapurim
+420,Scorpia
+421,Rigor Mortex
+422,Cancerio
+423,Aquarion
+424,Sagitta
+425,
+426,Leonex
+427,Carro Slival
+428,Ultra Slime
+429,Traumatizzator
+430,Tiranosfascia
+431,Sanguinis
+432,Sanguonicum
+433,Slime Perbellum
+434,Torreslime
+435,Ovattino
+436,Divino
+437,Slime Nemo
+438,Principe Latrum
+439,Band
+440,Terrore alato
+441,Xenlon
+442,Rossotalpa
+443,Multifoglia Klar
+444,Droll Diabolista
+445,Tankissimus
+446,
+447,
+448,Bulbo ramificato
+449,Vermex
+450,Lince alata
+451,Coda lincea
+452,Wasinen
+453,Wasen
+454,Wasen
+455,Wasinen
+456,Tentack
+457,Lince alata
+458,Gemon
+459,Empyrea
+460,Piovron
+461,Robocentauro
+462,Sagitta
+463,
+464,Leonex
+465,Gigadragone
+466,Druido supremo
+467,Re Metalslime
+468,Grifotauro
+469,Capitan Crow
+470,Malevoleonex
+471,
+472,Tankissimus
+473,Dhoulmagus
+474,Barbarus
+475,Nokturnus
+476,Ultra Slime
+477,Slime Nemo
+478,Estark
+479,Drago dimensionale
+480,Stella
+481,Baboon Beast
+482,Evil Beast
+483,Don Mole
+484,Cancerio
+485,Armour
+486,Rigor Mortex
+487,Cavaliere dell'Ombra
+488,Cavaliere Aberrante
+489,Centopetra
+490,Serpe eterea
+491,Sire Dragoviano
+492,Leopold
+493,Robocentauro
+494,Demone multimani
+495,Metaliquislime
+496,Sagitta
+497,Traumatizzator
+498,Randellatore notturno
+499,Generale Gufus
+500,Sanguinis
+501,Sanguonicum
+502,Sanguinigenio
+503,Rovina
+504,Generale Pardus
+505,Generale Soinos
+506,Lupicche Asso
+507,Cuordifalco Asso
+508,Fiorango Asso
+509,Quadrago Asso
+510,Mambu-Jambo
+511,Atlas
+512,
+513,X
+514,XY
+515,

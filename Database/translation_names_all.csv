@@ -1,0 +1,1489 @@
+category,id,english,italian
+monsters,1,Slime,Slime
+monsters,2,Bubble Slime,Bollaslime
+monsters,3,Shell Slime,Guscioslime
+monsters,4,Healslime,Dottor Slime
+monsters,5,Drake Slime,Minidrago Slime
+monsters,6,Metal Slime,Slime metallico
+monsters,7,Slime Knight,Paladino Slime
+monsters,8,Wild Slime,Slimpunk
+monsters,9,Liquid Metal Slime,Metaliquislime
+monsters,10,Angel Slime,Slime angelico
+monsters,11,King Slime,Re Slime
+monsters,12,King Bubble Slime,Re Bollaslime
+monsters,13,Metal King Slime,Re Metalslime
+monsters,14,Grandpa Slime,Nonno Slime
+monsters,15,Gem Slime,Prezioslime
+monsters,16,Trode,Trode
+monsters,17,She Slime,Slimetta
+monsters,18,Snail Slime,Slimaca
+monsters,19,Cureslime,Curaslime
+monsters,20,Behemoth Slime,Gigaslime
+monsters,21,Beshemoth Slime,Gigaslime arancione
+monsters,22,Dragon Slime,Dragonslime
+monsters,23,Metal Slime Knight,Metalcabal Slime
+monsters,24,Metal Kaiser Slime,Metalslime regale
+monsters,25,Dark Slime Knight,Milislime oscuro
+monsters,26,Dark Slime,Slime oscuro
+monsters,27,King Cure Slime,Re Curaslime
+monsters,28,Darkonium Slime,Slime Darkonium
+monsters,29,SpotKing,Re Slime maculato
+monsters,31,Slime Gang,Gang Slime
+monsters,32,Girl Slider,Ragazza Slider
+monsters,33,Slime Blaster,Slime Blaster
+monsters,34,Robo slime,Roboslime oscuro
+monsters,35,Diamond Slime,Sliamante
+monsters,36,Liquid Metal King Slime,Re Metaliquislime
+monsters,37,Kon,Cavalliere
+monsters,38,Prism Peacock,Pavone prismatico
+monsters,40,Goresby-Purrvis,Generale Pardus
+monsters,41,Yggdrasil,Yggdrasil
+monsters,42,Munchie,Munchie
+monsters,43,Gamadius,Musferatu
+monsters,44,Baalzack,Balzack
+monsters,46,Pruslas,Pruslas
+monsters,47,x47,Robbin's Lady
+monsters,48,Small Fry,Lacertoflamma
+monsters,49,Komodo,Giallosauro
+monsters,50,Gasbagon,Pallodrago
+monsters,51,Argon Lizard,Dragocertola
+monsters,53,Green Dragon,Verdrago
+monsters,54,Drag-goof,Dragarcio
+monsters,55,Jargon,Jargon
+monsters,56,Metal Dragon,Metaldragone
+monsters,57,Chargon,Kurridor
+monsters,58,Hacksaurus,Asciasauro
+monsters,59,Red Dragon,Porpordrago
+monsters,60,Dragurn,Jargon verde
+monsters,61,Great Argon Lizard,Megacertola
+monsters,62,Ethereal Serpent,Serpe eterea
+monsters,63,Mechan-o-wyrm,Mechadrago
+monsters,64,Great dragon,Gigadragone
+monsters,65,Drakulard,Draku Lard
+monsters,66,Dragonlord,Dragonlord
+monsters,68,Dragovian Lord,Sire Dragoviano
+monsters,69,Mandrake Marshal,Mandragola soldato
+monsters,70,Skelegon,Skeledrago
+monsters,71,Dragonthorn,Dragospino
+monsters,72,Nardragon,Dragocorno
+monsters,73,Frou-Fry,Frufrina
+monsters,74,Sea Dragon,Drago marino
+monsters,75,Seasaur,Drago d'acqua
+monsters,76,Snap Dragon,Rapax
+monsters,77,Drakularge,Lardodragon
+monsters,78,Tyrantosaurus,Tyrantosauro
+monsters,79,Black Dragon,Dragone nero
+monsters,80,Frou-Frou,Frufrù
+monsters,81,Abyss Diver,Dragoon
+monsters,82,Megalodon,Megalodonte
+monsters,83,Alabast Dragon,Dragobastro
+monsters,85,LizardFly,Lacertoflamma
+monsters,86,Damselfly,Libellula
+monsters,87,Armoured Wartoise,Testuggine corazzata
+monsters,88,Dragon Rider,Cavaliere dei Draghi
+monsters,89,Rashaverak,Rashaverak
+monsters,90,Tortoceratops,Tartaculei
+monsters,91,Sintaur,Ardimentauro
+monsters,92,Bilhaw,Grifotauro
+monsters,93,Torai Wanda,Tri Aculeo
+monsters,94,Dimensional Dragon,Drago dimensionale
+monsters,95,Xiphos,Xiphos
+monsters,96,Platypunk,Ornitorink
+monsters,97,Great Sabrecub,Baby Granzann
+monsters,98,Scissor Beetle,Scaraforbici
+monsters,99,Stark Raven,Corvoscuro
+monsters,100,Jailcat,Rigatto
+monsters,101,Khalimari Kid,Baby piovra
+monsters,102,Capsichum,Pepe & Rone
+monsters,103,Hell Hornet,Infernape
+monsters,104,Chimaera,Chimera
+monsters,105,Hades Condor,Condor blu
+monsters,106,Frog Face,Ranassassina
+monsters,107,Crabid,Grankiolon
+monsters,108,Bullfinch,Toro incavolato
+monsters,109,Eyevory Tusk-tusk,Pachidermico
+monsters,110,Giant Moth,Falena gigante
+monsters,111,Treeface,Faccia d'albero
+monsters,112,Yabby,Crostaceus
+monsters,113,Gorerilla,Groarilla
+monsters,114,Scorpion,Skorpio
+monsters,115,Heligator,Kaiman
+monsters,116,Great Sabrecat,Koguar
+monsters,117,Garuda,Garuda
+monsters,118,Bantamweight,Peso gallo
+monsters,119,Firebird,Penna di fuoco
+monsters,120,Elder Pipit,Pipetto Anziano
+monsters,121,King Squid,Piovra regina
+monsters,122,Khalimari,Piovron
+monsters,123,Leopold,Leopold
+monsters,124,Empyrea,Empyrea
+monsters,125,Spiked Hare,Corniglio viola
+monsters,126,Powie Yowie,Yeeteeh
+monsters,127,Wild Boarfish,Ichtus verde
+monsters,128,Eveel,Malanguilla
+monsters,129,Riptide,Assalitore marino
+monsters,130,Beetlebully,Scaradozer
+monsters,131,Cruelcumber,Verdurfante
+monsters,132,ArmyAnt,Formica soldato
+monsters,133,Florajay,Ghiandaia floreale
+monsters,134,Cactiball,Cactusfera
+monsters,135,ArmorPede,Sentripede
+monsters,136,CragDevil,Pinguinrock
+monsters,137,Killer Ape,Scimmia fracassona
+monsters,138,Lleviathan,Baleviatan
+monsters,139,Pipit,Pipit
+monsters,140,Panickle,Mantis composita
+monsters,141,Flamethrower,Lanciafuoco
+monsters,142,Blizzybody,Frigoforo
+monsters,143,Wooper Trooper,Guerreruspo
+monsters,144,Mischievous Mole,Cattivalpa
+monsters,145,Bodkin Archer,Anselmo Tell
+monsters,146,Hammerhood,Martellus
+monsters,147,Satyr,Satyro
+monsters,148,Jumping Jackal,Sciakallo
+monsters,149,Genie Sanguini,Sanguinigenio
+monsters,150,Chainine,Mastino guerriero
+monsters,151,Puppeteer,Burattinaio nero
+monsters,152,Beetleboy,Scarafante nero
+monsters,153,Orc,Cinghialorco
+monsters,154,Head Hunter,Cacciateste
+monsters,155,Fallen Priest,Druido del male
+monsters,156,Fencing Fox,Athos
+monsters,157,Pan Piper,Pan
+monsters,159,Gargoyle,Gargoyle
+monsters,160,Weartiger,Tigre mannara
+monsters,162,Gigantes,Gigante
+monsters,163,Cockateer,Pollo d'attacco
+monsters,164,Monkey Zombie,Scimmia Zombie
+monsters,165,Notso-Macho,Pocomacho
+monsters,166,Kingy,Re Sanguini
+monsters,167,Boss Troll,Troll capo
+monsters,168,Atlas,Atlas
+monsters,169,Don Mole,Don Mole
+monsters,170,Robbin Hood,Ruban Hood
+monsters,171,Dhoulmagus,Dhoulmagus
+monsters,172,Rhapthorne,Rhapthorne
+monsters,173,Rhapthorne 2,Rhapthorne II
+monsters,174,Ace of Spades,Asso di picche
+monsters,175,Brownie,Martellus magnus
+monsters,176,LeoKid,Leonix
+monsters,178,Boppin` Badger,Kan Kanide
+monsters,179,Pickeerer,Picchiune
+monsters,180,Catfly,Gatto vampiro
+monsters,181,Seadog,Cane di mare
+monsters,182,Battering Ram,Montone dannato
+monsters,183,Bewarewolf,Lupomannaro
+monsters,184,Mortoad,Rospo blu
+monsters,185,Trigertaur,Trigertauro
+monsters,186,Inopp,Mezzo porco
+monsters,187,Tantamount,Tanamount
+monsters,188,Squign,Squigno
+monsters,189,Nodoph,Alfino
+monsters,190,Goreham-Hogg,Generale Soinos
+monsters,191,Slon,Slon la Torre
+monsters,192,Bag O` Laughs,Sacco golosone
+monsters,193,Wax Murderer,Ferocandela
+monsters,194,Firespirit,Fuoco fatuo
+monsters,195,Mecha-mynah,Pettirobot
+monsters,196,Mud Mannequin,Pu pazzo
+monsters,197,Dingaling,Campanella
+monsters,198,Goodybag,Sacco dentato
+monsters,199,Shadow,Ombra
+monsters,200,Cannibox,Cannibaule
+monsters,201,Spitnik,Sole & Soletto
+monsters,202,Hunter Mech,Mechator grigio
+monsters,203,Rockbomb,Esplo-sasso
+monsters,204,Mum,Mam
+monsters,205,Golem,Golem
+monsters,206,Boh,Bu
+monsters,207,Dancing Flame,Fiamma danzante
+monsters,208,Jum,Jam
+monsters,209,Frostburn,Spirito gelido
+monsters,210,Boe,Bo
+monsters,211,King Kelp,Alga sovrana
+monsters,212,Mimic,Skrigno dentato
+monsters,213,Diemon,Dademone blu
+monsters,214,UberKilling Machine,Cybercentauro
+monsters,215,Gold Golem,Golem dorato
+monsters,216,Living Statue,Statua vivente
+monsters,217,Trap Box,Demonskrigno
+monsters,218,Killing Machine,Mechacentauro
+monsters,219,Mumboh-Jumboe,Mambu-Jambo
+monsters,220,Ruin,Rovina
+monsters,221,Psaro,Psaro
+monsters,222,Estark,Estark
+monsters,223,Anchorman,Ankora killer
+monsters,224,Ticking Timeburrm,Ticking Timeburrm
+monsters,225,Corrupt Carter,Corriere Corrotto
+monsters,226,Pocus Poppet,Magibambola
+monsters,227,Butchoman,Axecutioner
+monsters,228,Chariot Chappie,Carrettiere
+monsters,229,Moai Minstrel,Menestrello Moai
+monsters,230,Harmour,Armour
+monsters,231,Foo Dog,Caneffu
+monsters,232,Cumulus Rex,Cumulus Rex
+monsters,233,Octagoon,Octagos
+monsters,234,Wishmaster,Signore dei desideri
+monsters,235,Protomech,Automa
+monsters,236,Scytheborg,Borgomietitore
+monsters,237,ClayNite,Guerriero di terracotta
+monsters,238,Shield Ogre,Scudorkus
+monsters,239,Time Sage,Semper Actualis
+monsters,240,Dracky,Vampistrello
+monsters,241,Lips,Smacker
+monsters,242,Winky,Monocolo
+monsters,243,Imp,Diavoletto
+monsters,244,Lump Wizard,Blob bianco
+monsters,245,Night Emperor,Re della notte
+monsters,246,Dancing Devil,Demone danzante
+monsters,247,Mad Knight,Cavaliere Aberrante
+monsters,248,Merman,Athlantos
+monsters,249,Lesser Demon,Demone minore
+monsters,250,Gryphon,Grifone
+monsters,251,Aggrosculpture,Aggroscultura
+monsters,252,Octavian Sentry,Polisentinella
+monsters,253,Silvapithecus,Silvapiteco
+monsters,254,Dark Leonyx,Malevoleonex
+monsters,255,Archdemon,Arcidemone
+monsters,256,Moosifer,Basettos
+monsters,257,Buffalogre,Bufalorco
+monsters,258,Jamirus,Jamirus
+monsters,259,Mohawker,Cresta furiosa
+monsters,260,Pazuzu,Rosapiteco
+monsters,261,Gracos,Gracos
+monsters,262,Belial,Bestiah
+monsters,263,Night Clubber,Randellatore notturno
+monsters,264,Malroth,Malroth
+monsters,265,Zoma,Zoma
+monsters,266,Nimzo,Nimzo
+monsters,267,Mortamor,Moltomort
+monsters,268,Orgodemir,Granvert
+monsters,269,See Urchin,Riccio ribelle
+monsters,270,Dessert Demon,Dolcimonius
+monsters,271,Lethal Armour,Armatura letale
+monsters,272,Great Dracky,Grampistrello
+monsters,273,Wrecktor,Destructore
+monsters,274,Demon-at-arms,Demone multimani
+monsters,275,Tree Feller,Taglialbero
+monsters,276,Gruffon,Gruffone
+monsters,277,Prickly Prankster,Jolly killer
+monsters,278,Grim Keeper,Custode tetro
+monsters,279,General,Capitan Catastrofe
+monsters,280,High Djinks,Mago pancione
+monsters,281,Juggular,Juggulare
+monsters,282,Hootingham Gore,Generale Gufus
+monsters,283,Demon King,Barone Von Bellycose
+monsters,284,King Korol,Re Korol
+monsters,285,Hyperanemon,Hyperanemon
+monsters,286,Blackmar,Neromar
+monsters,287,Aamon,Aamon
+monsters,288,Cerberus,Cerbero
+monsters,289,Ghost,Phantasma
+monsters,290,Stump Chump,Ceppo Geppo
+monsters,291,DemiGhoul,Ghoul sbavante
+monsters,292,Muddy Hand,Mano
+monsters,293,Swingin` Hipster,Hipster swingante
+monsters,294,Funghoul,Nauseafungus
+monsters,295,PomPom Bomb,Dirigibilio
+monsters,296,Walking Corpse,Zombeeh
+monsters,297,Demon Rider,Cavaliere feroce
+monsters,298,Skeleton,Skeletro
+monsters,299,Restless Armour,Armatura killer
+monsters,300,Grim Rider,Cavalier Mortimer
+monsters,301,Mummy Boy,Cocco di mummia
+monsters,302,Soulspawn,Ira
+monsters,303,Wailing Weed,Kantalga
+monsters,304,Phantom Fencer,Fantagnan
+monsters,305,Roseguardin,Guardarosa
+monsters,306,Bone Baro,Baron Skeletro
+monsters,307,Dullahan,Dullahan
+monsters,308,Tortured Soul,Anima torturata
+monsters,309,Captain Crow,Capitan Crow
+monsters,310,Dr Snapped,Prof Briskod
+monsters,311,Skipper,Stivale matto
+monsters,312,Flyguy,Uomosca
+monsters,313,Hellhound,Lupo infernale
+monsters,314,Skeleton Soldier,Soldaskeletro
+monsters,315,Phantom Swordsman,Principe Spectros
+monsters,316,Wight King,Druido supremo
+monsters,317,DarkCrab,Granchio oscuro
+monsters,318,Cobra Cardinal,Cobra cardinale
+monsters,319,Wight Knight,Cavaliere dell'Ombra
+monsters,320,Ragin` Contagion,Epidemon
+monsters,321,GigaMute,Gigalunfo
+monsters,322,Drakorpse,Verme delle Grotte
+monsters,323,Bishop Ladja,Pope Skriterioska
+monsters,325,King Godwyn,Re Godwyn II
+monsters,336,Wulfspade,Lupicche
+monsters,337,Hawkhart,Cuordifalco
+monsters,338,Cluboon,Fiorango
+monsters,339,Diamagon,Quadrago
+monsters,340,Wulfspade Ace,Lupicche Asso
+monsters,341,Hawkhart Ace,Cuordifalco Asso
+monsters,342,Cluboon Ace,Fiorango Asso
+monsters,343,Diamagon Ace,Quadrago Asso
+monsters,344,Wildcard,Joker
+monsters,346,Darck,Darck
+monsters,347,Magarugi,Magarugi
+monsters,348,Sitting lion beast,Re Babbuino
+monsters,349,Evil beast,Babbuincubo
+monsters,350,Zoma`s Devil,Mini Zoma
+monsters,351,Gadis,Gadis
+monsters,352,Stormsgate Citadel,Forte di Nadiria
+monsters,353,Mini Metal Slime,Lattaslime
+monsters,355,Dragonlord,Dragonlord
+monsters,356,Stella,Stella
+monsters,357,Greygnarl,Dragriphon
+monsters,358,Barbarus,Barbarus
+monsters,359,Corvus,Corvus
+monsters,360,Bjorn,Wasen
+monsters,361,Conklave,Vegetribù
+monsters,362,Mental Pitcher,Peracolosa
+monsters,363,Heedoo Voodoo,Mostradamus
+monsters,364,Cheeky Tiki,Maskerossa
+monsters,365,Swarm Troopers,Zanzakiller
+monsters,366,Wiggly,Vermex
+monsters,367,Killerpillar,Millecolpi
+monsters,368,Missing Lynx,Lince alata
+monsters,369,Warubou,Scruffy
+monsters,370,Hyper Heyedra,Bulbo ramificato
+monsters,371,Bad Egg,Maluovo
+monsters,372,Heyedra,Tentacolocchio
+monsters,373,Weedie,Multifoglia
+monsters,374,Baramos,Padramos
+monsters,375,Magmalice,Magmalvagio
+monsters,376,Fright Knight,Cavalier Terror
+monsters,377,Hargon,Hargon
+monsters,378,Titanis,Titanis
+monsters,379,Mottle Slime,Slime maculato
+monsters,380,Rubble Slime,Slime polifemico
+monsters,381,Magic Slime,Magislime
+monsters,382,Cyber Slime,Cyber Slime
+monsters,383,Rotten Egg,Ovomarch
+monsters,384,Snowmangler,Homo nevis
+monsters,385,Noble Gasbagon,Gran Pallodrago
+monsters,386,Aquestrian Gladiator,Gladiatore marino
+monsters,387,Boreal Serpent,Serpe boreale
+monsters,388,Orochi,Orochi
+monsters,389,Zenith Dragon,Drago di Zenithia
+monsters,390,Weaken Beakon,Beck Beck
+monsters,391,Barracuda,Barracuda
+monsters,392,Boring Bug,Zeck
+monsters,393,Gripevine,Fiore della morte
+monsters,394,Cross Eye,Spiritocchio
+monsters,395,Paws,Pescelupo
+monsters,396,Snowbird,Gelatile
+monsters,397,Marquis de Leon,Marchese de Léon
+monsters,398,Erazor Blade,Riditarra
+monsters,399,Overkilling Machine,Mega Mechator
+monsters,400,Malevolamp,Malampada
+monsters,401,Firn Fiend,Gelmonio
+monsters,402,Balhib,Centopetra
+monsters,403,Conkubines,Minitribù
+monsters,404,Dangler Fish,Multident
+monsters,405,Dhuran,Duran
+monsters,406,Nokturnus,Nokturnus
+monsters,407,Gemon,Gemon
+monsters,408,Murdaw,Lacertow
+monsters,409,Bona Constrictor,Serpe d'ossa
+monsters,410,Cross Bones,Ossassassino
+monsters,411,Drohl Drone,Droll
+monsters,412,Night Knight,Paladinorribilis
+monsters,413,Dierantula,Terrorantula
+monsters,414,Aerix,Exorsus
+monsters,415,Taurus,Taurus
+monsters,416,Geminex,Gemines
+monsters,417,Paizar,Demonstrum
+monsters,418,Virgella,Virgax
+monsters,419,Kap,Kapurim
+monsters,420,Scorpella,Scorpia
+monsters,421,Libranex,Rigor Mortex
+monsters,422,Canzar,Cancerio
+monsters,423,Aquarion,Aquarion
+monsters,424,Sagittar,Sagitta
+monsters,426,Leonyx,Leonex
+monsters,427,Schwarzman Tank,Carro Slival
+monsters,428,Ultra Slime,Ultra Slime
+monsters,429,Trauminator,Traumatizzator
+monsters,430,Tyrannosaurus Wrecks,Tiranosfascia
+monsters,431,Teeny Sanguini,Sanguinis
+monsters,432,Pink Sanguini,Sanguonicum
+monsters,433,Shogum,Slime Perbellum
+monsters,434,Slime Stack,Torreslime
+monsters,435,Fluffy,Ovattino
+monsters,436,Numen,Divino
+monsters,437,Nemeslime,Slime Nemo
+monsters,438,Prince O` Thieves,Principe Latrum
+monsters,439,Robbin Huddle,Band
+monsters,440,Great Godbird,Terrore alato
+monsters,441,Xenlon,Xenlon
+monsters,442,Maniacal Mole,Rossotalpa
+monsters,443,Seedy Weedie,Multifoglia Klar
+monsters,444,Drohl Diabolist,Droll Diabolista
+monsters,445,Schleiman Tank,Tankissimus
+monsters,448,Hyper Heyedra,Bulbo ramificato
+monsters,449,Wiggly,Vermex
+monsters,450,Missing Lynx,Lince alata
+monsters,451,Tails,Coda lincea
+monsters,452,Bjorn Jr{00}{00},Wasinen
+monsters,453,Bjorn,Wasen
+monsters,454,Bjorn,Wasen
+monsters,455,Bjorn Jr{00}{00},Wasinen
+monsters,456,Tentacle,Tentack
+monsters,457,Missing Lynx,Lince alata
+monsters,458,Gemon,Gemon
+monsters,459,Empyrea,Empyrea
+monsters,460,Khalimari,Piovron
+monsters,461,Overkilling Machine,Mega Mechator
+monsters,462,Sagittar,Sagitta
+monsters,464,Leonyx,Leonex
+monsters,465,Great dragon,Gigadragone
+monsters,466,Wight King,Druido supremo
+monsters,467,Metal King Slime,Re Metalslime
+monsters,468,Bilhaw,Grifotauro
+monsters,469,Captain Crow,Capitan Crow
+monsters,470,Dark Leonyx,Malevoleonex
+monsters,472,Schleiman Tank,Tankissimus
+monsters,473,Dhoulmagus,Dhoulmagus
+monsters,474,Barbarus,Barbarus
+monsters,475,Nokturnus,Nokturnus
+monsters,476,Ultra Slime,Ultra Slime
+monsters,477,Nemeslime,Slime Nemo
+monsters,478,Estark,Estark
+monsters,479,Dimensional Dragon,Drago dimensionale
+monsters,480,Stella,Stella
+monsters,481,Sitting lion beast,Re Babbuino
+monsters,482,Evil beast,Babbuincubo
+monsters,483,Don Mole,Don Mole
+monsters,484,Canzar,Cancerio
+monsters,485,Harmour,Armour
+monsters,486,Libranex,Rigor Mortex
+monsters,487,Wight Knight,Cavaliere dell'Ombra
+monsters,488,Mad Knight,Cavaliere Aberrante
+monsters,489,Balhib,Centopetra
+monsters,490,Ethereal Serpent,Serpe eterea
+monsters,491,Dragovian Lord,Sire Dragoviano
+monsters,492,Leopold,Leopold
+monsters,493,Overkilling Machine 2,Robocentauro
+monsters,494,Demon-at-arms,Demone multimani
+monsters,495,Liquid Metal Slime,Metaliquislime
+monsters,496,Sagittar,Sagitta
+monsters,497,Trauminator,Traumatizzator
+monsters,498,Night Clubber,Randellatore notturno
+monsters,499,Hootingham Gore,Generale Gufus
+monsters,500,Perfect Sanguini,Sanguinis
+monsters,501,Pink Sanguini,Sanguonicum
+monsters,502,Genie Sanguini,Sanguinigenio
+monsters,503,Ruin,Rovina
+monsters,504,Goresby-Purrvis,Generale Pardus
+monsters,505,Goreham-Hogg,Generale Soinos
+monsters,506,Wulfspade Ace,Lupicche Asso
+monsters,507,Hawkhart Ace,Cuordifalco Asso
+monsters,508,Cluboon Ace,Fiorango Asso
+monsters,509,Diamagon Ace,Quadrago Asso
+monsters,510,Mumboh-Jumboe,Mambu-Jambo
+monsters,511,Atlas,Atlas
+monsters,513,Better ,X
+monsters,514,Best ,XY
+moves,0,Attack,Attacco!
+moves,1,Defend,Difesa!
+moves,2,Tension,Carica!
+moves,3,High Tension,Alta tensione
+moves,4,Super High Tension,Tensione alle stelle
+moves,5,Flee,Fuggi
+moves,6,Nothing,Non fare niente
+moves,8,Giga Cross Break,Tempesta X
+moves,9,S9,Esplosione del domatore
+moves,10,Heaven Slash,Fendente impeccabile
+moves,11,S11,Fendente cosmico
+moves,12,Aurora Breath,Respiro dell'aurora
+moves,13,Calamity,Cataclisma
+moves,14,Kazapple,Fulmine supremo
+moves,15,Disrupt,Fenditura dimensionale
+moves,16,Frizz,Fiamma
+moves,17,Frizzle,Superfiamma
+moves,18,Kafrizz,Megafiamma
+moves,19,Kafrizzle,Fiamma suprema
+moves,20,Bang,Bang
+moves,21,Boom,Superbang
+moves,22,Kaboom,Megabang
+moves,23,Kaboomle,Bang supremo
+moves,24,Woosh,Vento
+moves,25,Swoosh,Supervento
+moves,26,Kaswoosh,Megavento
+moves,27,Kaswooshle,Vento supremo
+moves,28,Crack,Gelo
+moves,29,Crackle,Supergelo
+moves,30,Kacrack,Megagelo
+moves,31,Kacrackle,Gelo supremo
+moves,32,Zap,Fulmine
+moves,33,Zapple,Superfulmine
+moves,34,Kazap,Megafulmine
+moves,35,Kazapple,Fulmine supremo
+moves,36,Zam,Elektron
+moves,37,Zammle,Superelektron
+moves,38,Kazam,Megaelektron
+moves,39,Kazammle,Elektron supremo
+moves,40,NoSelf Seal,Sigillo del capro espiatorio
+moves,41,Smelly Slash,Fendente guardiano
+moves,42,Death Blow,Sigillo zero
+moves,43,Giga Drain Magic,Superpickmagic
+moves,44,Whack,Morte rapida
+moves,45,Thwack,Due in un colpo
+moves,46,Kamikaze,Kamikaze
+moves,47,Heal,Cura
+moves,48,Midheal,Medicura
+moves,49,Fullheal,Megacura
+moves,50,Multiheal,Multicura
+moves,51,Omniheal,Omnicura
+moves,52,Share Magic,Magidò
+moves,53,Give Magic,Donamagia
+moves,54,Zing,Lazzaro
+moves,55,Kazing,Resurge
+moves,56,Kerplunk,Sacrificio finale
+moves,57,Squelch,Detox
+moves,58,Tingle,Solletico
+moves,59,Oomph,Ooomph
+moves,60,Oomphle,Multiooomph
+moves,61,Sag,Depotenzia
+moves,62,Kasag,Multidepotenzia
+moves,63,Buff,Mono superdifesa
+moves,64,Kabuff,Poli superdifesa
+moves,65,Sap,Debilis
+moves,66,Kasap,Iperdebilis
+moves,67,Accelerate,Velocipiù
+moves,68,Acceleratle,Accelerazione
+moves,69,Decelerate,Velocimeno
+moves,70,Deceleratle,Decelerazione
+moves,71,Ping,Intellygo
+moves,72,Kaping,Multintellygo
+moves,73,Dim,Stoopid
+moves,74,Kadim,Omnistoopid
+moves,75,Dazzle,Illusyo
+moves,76,Snooze,Ninnananna
+moves,77,Kasnooze,Super ninnananna
+moves,78,Drain Magic,Rubamagia
+moves,79,Fizzle,Contromagia
+moves,80,Kafizzle,Bloccamagia
+moves,81,Bounce,Specchio riflesso
+moves,82,Fuddle,Caos
+moves,83,Kafuddle,Multicaos
+moves,84,Clang,Rintocco
+moves,85,Insulatle,Isolamento termico
+moves,86,Insulate,Monoisolamento termico
+moves,87,Fire Breath,Respiro caldo
+moves,88,Flame Breath,Respiro incendiario
+moves,89,Inferno,Inferi
+moves,90,Scorch,Bruchor
+moves,91,Cool Breath,Alito di ghiaccio
+moves,92,Chilly Breath,Respiro congelante
+moves,93,Cold Blizzard,Tempesta gelida
+moves,94,C-C-Cold Breath,Respiro g-ghiacciato
+moves,95,Magic Burst,Esplosione magica
+moves,96,Magic Barrier,Barriera magica
+moves,97,Magic Frailty,Magifragilis
+moves,98,Flame Slash,Fendente di fuoco
+moves,99,Inferno Slash,Fendente infernale
+moves,100,Boom Slash,Fendente bomba
+moves,101,Kaboom Slash,Fendente esplosivo
+moves,102,Gust Slash,Fendente eolico
+moves,103,Gale Slash,Fendente del tornado
+moves,104,Charring Slash,Fendente demoniaco
+moves,105,Singeing Slash,Fendente flambé
+moves,106,Frost Slash,Fendente freddo
+moves,107,Blizzard Slash,Fendente gelido
+moves,108,Hallowed Slash,Fendente divino
+moves,109,Sacred Slash,Fendente sacro
+moves,110,Shade Slash,Fendente oscuro
+moves,111,Shadow Slash,Fendente dell'ombra
+moves,112,Metal Slash,Spaccametallo
+moves,113,Dragon Slash,Colpo del drago
+moves,114,ZodianZap,Schiacciamisteri
+moves,115,Multi Slash,Multicolpo
+moves,116,Giga Slash,Mega fendente
+moves,117,Gigagash,Giga fendente
+moves,118,Helmet Splitter,Spaccaelmo
+moves,119,Hatchet Man,Colpo del sicario
+moves,120,Assassin`s Stab,Pugnalata dell'assassino
+moves,121,Double-edge Slash,Fendente traditore
+moves,122,Heart Break,Spezzacuore
+moves,123,Penny Pinch,Colpo del ladro
+moves,124,Klepto Clob,Attacco cleptomane
+moves,125,Poison,Stoccata velenosa
+moves,126,Venom,Raffica velenosa
+moves,127,Para,Pugno paralizzante
+moves,128,Sleep,Calzino del sonno
+moves,129,Conf,Colpo sconcertante
+moves,130,Weakening,Botta indebolente
+moves,131,Slowing,Colpo rallentante
+moves,132,Stupefying Strike,Colpo scioccante
+moves,133,Breathtaking Bash,Mozzafiato
+moves,134,Breakdance Beat,Ritmo spezza-danza
+moves,135,Blinding Blow,Ipoprecisione
+moves,136,Boulder Dash,Pioggia di pietre
+moves,137,Boulder Bash,Lanciaroccia
+moves,138,Waterspout,Schizzetto
+moves,139,Geyser,Geyser
+moves,140,Spark,Scintilla
+moves,141,Lightning,Saetta
+moves,142,Singe,Scottyno
+moves,143,Sear,Vampa
+moves,144,Boulder Toss,Lancio del masso
+moves,145,Tidal Wave,Megaonda
+moves,146,Lightning Storm,Tempesta di saette
+moves,147,Cremate,Inceneritore
+moves,148,Counter,Contrattacco
+moves,149,Defense Champ,Difesa poderosa
+moves,150,Double Up,Doppio rischio
+moves,151,One-on-One,Ultimo sangue
+moves,152,Body Slam,Attacco frontale
+moves,153,Sweet Breath,Dolce respiro
+moves,154,Burning Breath,Respiro di fuoco
+moves,155,Poison Breath,Alito velenoso
+moves,156,Venom Breath,Respiro letale
+moves,157,Bemusing Breath,Alito del caos
+moves,158,Weird Dance,Strandanza
+moves,159,Tap Dance,Danza magica
+moves,160,Fuddle Dance,Danza del caos
+moves,161,Death Dance,Danza della morte
+moves,162,Sultry Dance,Danza della passione
+moves,163,Kerplunk Dance,Danza sacrificale
+moves,164,Hustle Dance,Danza rinvigorente
+moves,165,Dodgy Dance,Danza evasiva
+moves,166,Sandstorm,Tempesta di sabbia
+moves,167,Dazzle flash,Danzaluce
+moves,168,Spooky Aura,Aura mostruosa
+moves,169,Wave of Relief,Onda guaritrice
+moves,170,Wave of Panic,Vento di terrore
+moves,171,Disruptive Wave,Onda distruttrice
+moves,172,Deep Breath,Respiro profondo
+moves,173,Tongue Lashing,Colpo di lingua
+moves,174,War Cry,Grido di guerra
+moves,175,Ban Dance,Danza ipnotica
+moves,176,Gobstopper,Boccachiusa
+moves,177,Brake Wind,Ventofresh
+moves,178,Mist Me,Nebbiamica
+moves,179,Blowback,Respiro riflesso
+moves,180,Meditation,Meditazione
+moves,181,Salvation,Canto salvifico
+moves,182,Rain,Pioggia Amor Seco
+moves,183,Critical Miss,Zero critico
+moves,184,Reheal,Cura perpetua
+moves,185,Mercurial,Colpo perforante
+moves,186,Predict slash,Fendente contrattacco
+moves,187,Predict strike,Contrattacco marziale
+moves,188,Predict cast,Contromagia
+moves,189,Predict breath,Controrespiro
+moves,190,Predict dance,Controdanza
+moves,191,Huge Magic Burst,Mega esplosione magica
+moves,192,Break Seal,Blocca-sigilli
+moves,193,Tension Passer,Trasferitensione
+moves,194,Anchor,Colpo in ritardo
+moves,195,S195,Valzer funesto
+moves,196,S196,Fendicielo
+moves,197,S197,Fendimare
+moves,198,S198,Fenditerra
+moves,199,S199,Tiro lucente
+moves,200,Take this,Prendi questo!
+moves,201,Wicked Dance,Danza degli inferi
+moves,202,S202,Fendente Damore
+moves,203,is confused,Ancora confuso!
+moves,204,Is confused,Ancora confuso!
+moves,205,cowers,Trema di paura!
+moves,206,wait,Valutazione della situazione.
+moves,207,is dazed,Fissa il vuoto.
+moves,208,is hesitant,Non sa cosa fare!
+moves,209,Mental Concentration,Hocus Pocus
+moves,210,Glob,GLOBLITERA TUTTI GLI INTRUSI!
+moves,211,Odd,L'Esplo-sasso si comporta in modo strano!
+moves,212,Wave,Megagravitas!
+moves,214,Salvation,Canto salvifico
+moves,215,Rain,Pioggia Amor Seco
+moves,216,Gulp,Glu glu!
+moves,217,Frenzy,Foga furiosa
+moves,218,Noself,Altruismo
+moves,219,Malhaze,Malocchio persistente
+moves,220,Aha,Matuguard
+moves,221,S221,Abilitatore
+moves,222,Song of Salvation,Canto salvifico
+moves,223,Round Zero,Round Zero
+moves,224,Strategy Seal,Lampada tattica
+moves,225,Slash Seal,Bloccacolpi
+moves,226,Rivers,Ordine inverso
+moves,227,Strategy Seal Breath,Respiro bloccatattiche
+moves,228,Slash Seal Breath,Respiro bloccafendenti
+moves,229,Strike Seal Breath,Respiro bloccaarti marziali
+moves,230,Swords Dance,Danza della spada
+moves,231,Underworld Fog,Nebbia degli inferi
+moves,232,Sizz,Pyro
+moves,233,Sizzle,Superpyro
+moves,234,Kasizz,Megapyro
+moves,235,Kasizzle,Pyro supremo
+moves,236,Pearly Gates,Amen
+moves,237,Miracle Slash,Colpo miracoloso
+moves,238,Slime Cut,Schiacciamoslime
+moves,239,Nature Cut,Indeboliscinatura
+moves,240,Beast Cut,Pesta-bestie
+moves,241,Material Cut,Turbine dei materiali
+moves,242,Demon Cut,Umiliademoni
+moves,243,Undead Cut,Disfa-nonmorti
+moves,244,Multifists,Kick boxing
+moves,245,Big Banga,Big Bang
+moves,246,Defuddle,Mentefresca
+moves,247,Magic Multp,Moltiplicamagia
+moves,248,Hocus Locust,Minus Magis
+moves,249,Wind Sickles,Vento di lame
+moves,250,Thin Air,Aria di guai
+moves,251,Wind Shear,Venti fendenti
+moves,252,Chain,Serial
+moves,253,Squash,Gravitas
+moves,254,S254,Megagravitas
+moves,255,S255,Spaccafiamma
+skills,1,Frizz ＆ Bang,Fiamma & Bang
+skills,2,Prince,Principe
+skills,3,Frizz ＆ Bang +,Fiamma & Bang II
+skills,4,Frizz ＆ Woosh,Fiamma & Vento
+skills,5,Princess,Principessa
+skills,6,Frizz ＆ Woosh +,Fiamma & Vento II
+skills,7,Frizz ＆ Zap,Fiamma & Fulmine
+skills,8,MetalCrush,Schiacciametallo
+skills,9,Frizz ＆ Zap +,Fiamma & Fulmine II
+skills,10,Frizz ＆ Zam,Fiamma & Elektron
+skills,11,G11 Seal,Sigillo zero
+skills,12,Frizz ＆ Zam +,Fiamma & Elektron II
+skills,13,Bang ＆ Woosh,Bang & Vento
+skills,14,Huge Crush,Ammazza Giganti
+skills,15,Bang ＆ Woosh +,Bang & Vento II
+skills,16,Bang ＆ Crack,Bang & Gelo
+skills,17,VS Breath +,Spezzafiato II
+skills,18,Bang ＆ Crack +,Bang & Gelo II
+skills,19,Bang ＆ Zap,Bang & Fulmine
+skills,20,VS Slash,Spezzaspade
+skills,21,Bang ＆ Zap +,Bang & Fulmine II
+skills,22,Bang ＆ Zam,Bang & Elektron
+skills,23,VS Slash +,Spezzaspade II
+skills,24,Bang ＆ Zam + ,Bang & Elektron II
+skills,25,Woosh ＆ Crack,Vento & Gelo
+skills,26,Mormon King,King Sanguini
+skills,27,Woosh ＆ Crack +,Vento & Gelo II
+skills,28,Woosh ＆ Zap,Vento & Fulmine
+skills,29,Warubou,Scruffy
+skills,30,Woosh ＆ Zap +,Vento & Fulmine II
+skills,31,Woosh ＆ Zam,Vento & Elektron
+skills,32,Kandata,Vecchia signora di Robbin
+skills,33,Woosh ＆ Zam +,Vento & Elektron II
+skills,34,Crack ＆ Zap,Gelo & Fulmine
+skills,35,Prism Peacock,Pavone prismatico
+skills,36,Crack ＆ Zap +,Gelo & Fulmine II
+skills,37,Crack ＆ Zam,Gelo & Elektron
+skills,38,Robo Slime,Dark Mecha-Slime
+skills,39,Crack ＆ Zam +,Gelo & Elektron II
+skills,40,Fire,Fuoco
+skills,41,Ballon Slime,Sparaslimes
+skills,42,Fire +,Fiamma II
+skills,43,Ice,Ghiaccio
+skills,44,Diamond Slime,Diamanteslime
+skills,45,Ice +,Gelo II
+skills,46,Breath,Respiro
+skills,47,Girl Slider,Ragazza Slider
+skills,48,Breath +,Respiro II
+skills,49,G49,Fendenti fuocovento
+skills,50,G50,Fendenti tuonovento
+skills,51,G51,Fendenti gelidi
+skills,52,G52,Fendenti luce oscura
+skills,53,Red Fighter,Combattifuoco
+skills,54,Yellow Fighter,Pugile del Bang
+skills,55,Green Fighter,Soffiavento
+skills,56,Blue Fighter,Guru del Gelo
+skills,57,White Fighter,Cavaliere bianco
+skills,58,Black Fighter,Cavaliere oscuro
+skills,59,HP Recovery,Guarigione
+skills,60,Full Recovery,Gran rimedio
+skills,61,Conditions Recovery,Purificazione
+skills,62,Samurai,Avanguardia
+skills,63,G63,Difensore
+skills,64,G64,Velocista
+skills,65,MP Recovery,Aiuto magico
+skills,66,Upper,Fortificazione
+skills,67,Downer,Indebolimento
+skills,68,Jamming,Sabotatore
+skills,69,VS Spell,Spezzamagie
+skills,70,VS Spell +,Spezzamagie II
+skills,71,VS Breath,Spezzafiato
+skills,72,Metal Hunter,Antimetallo
+skills,73,Guard,Guardia
+skills,74,G74,Barricata
+skills,75,G75,Sigillo
+skills,76,G76,Hypnos
+skills,77,Poison,Intoxicato
+skills,78,Horror,Terrormagis
+skills,79,Bad Breath,Respiro malefico
+skills,80,G80,Indebolente
+skills,81,Ranger,Guerrigliero
+skills,82,Assassin,Killer
+skills,83,Hunter,Cacciatore
+skills,84,Bounty Hunter,Caccia alla taglia
+skills,85,Holy God,Crociato
+skills,86,Haunting,Maledetto
+skills,87,G87,Flammascura
+skills,88,Dark,Niflheim
+skills,89,Dancers,Ballerino
+skills,90,Dynamite,Bombardiere
+skills,91,Wild,Tosto
+skills,92,Berserker,Assalto furioso
+skills,93,G93,Martire
+skills,94,G94 Death,Mietitore
+skills,95,Nightmare,Incubo
+skills,96,Cold Sleep,Sonno gelido
+skills,97,G97,Supporto sacro
+skills,98,G98,Acquafarmacista
+skills,99,Variety,Tuttofare
+skills,100,Inspire,Mimo
+skills,101,G101,Burlone
+skills,102,Slimer,Slimer
+skills,103,Animal,Via del bruto
+skills,104,Undead,Cuore tombale
+skills,105,Sorcery,Diabolista
+skills,106,Dragon Spirit,Sapienza draconica
+skills,107,Wind Feather,Cervello d'uccello
+skills,108,Ecology,Pollice verde
+skills,109,G109,Mente alveare
+skills,110,RockHead,Materialista
+skills,111,Wulfspade,Lupicche
+skills,112,Wulfspade +,Lupicche II
+skills,113,Hawkhart,Cuordifalco
+skills,114,Hawkhart +,Cuordifalco II
+skills,115,Diamagon,Quadrago
+skills,116,Diamagon +,Quadrago II
+skills,117,Cluboon,Fiorango
+skills,118,Cluboon +,Fiorango II
+skills,119,Dragonlord,Dragonlord
+skills,120,Dragovian,Sire Dragoviano
+skills,121,Leopold,Leopold
+skills,122,Dhoulmagus,Dhoulmagus
+skills,123,Rhapthorne,Rhapthorne
+skills,124,Rhapthorne,Rhapthorne Ⅱ
+skills,125,Estark,Estark
+skills,126,G126,Nimzo
+skills,127,G127,Moltomort
+skills,128,Cap{00}{00} Crow,Capitan Crow
+skills,129,SP Dark fire,Über Dark Dynamiter
+skills,130,SP Holy ice,Über Blessed Blizzardier
+skills,131,SP Magic,Über Mage
+skills,132,SP Breath,Über Breath
+skills,133,SP Slash,Über Knight
+skills,134,SP Recovery,Über Healer
+skills,135,SP Supporter,Über Helpful
+skills,136,SP G136,Über Charmer
+skills,137,King,Lupicche III
+skills,138,Ace,Quadrago III
+skills,139,Queen,Cuordifalco III
+skills,140,Jack,Fiorango III
+skills,141,Dr Snapped,Prof Briskod
+skills,142,Attk1,Bonus ATT
+skills,143,Attk2,Bonus ATT II
+skills,144,Attk3,Bonus ATT III
+skills,145,Def1,Bonus DIF
+skills,146,Def2,Bonus DIF II
+skills,147,Def3,Bonus DIF III
+skills,148,Agi1,Bonus AGI
+skills,149,Agi2,Bonus AGI II
+skills,150,Agi3,Bonus AGI III
+skills,151,Wis1,Bonus INT
+skills,152,Wis2,Bonus INT II
+skills,153,Wis3,Bonus INT III
+skills,154,Frizz Guard,Para-Fiamma
+skills,155,Bang Guard,Para-Bang
+skills,156,Woosh Guard,Para-Vento
+skills,157,Crack Guard,Para-Gelo
+skills,158,Zap Guard,Para-Fulmine
+skills,159,Zam Guard,Para-Elektron
+skills,160,Down Guard,Para-Debilis
+skills,161,Sag Guard,Para-Indebolente
+skills,162,Decelerate Guard,Para-Velocimeno
+skills,163,Fool Guard,Para-Stoopid
+skills,164,Fire Breath Guard,Para-Respiro di fuoco
+skills,165,Ice Breath Guard,Para-Respiro ghiacciato
+skills,166,Whack Guard,Para-K.O.
+skills,167,Dazzle Guard,Para-Danzaluce
+skills,168,Poison Guard,Para-Veleno
+skills,169,Drain Magic Guard,Para-PickMagic
+skills,170,Kafizzle Guard,Para-Sabotamagie
+skills,171,Breath Seal Guard,Para-Blocca-K.O.
+skills,172,Dance Seal Guard,Para-Danza proibita
+skills,173,Confusion Guard,Para-Confusione
+skills,174,Mind Guard,Para-Inazione
+skills,175,Paralysis Guard,Para-Paralisi
+skills,176,Sleep Guard,Para-Sonno
+skills,177,HP Up SP,Ultra Bonus PV
+skills,178,MP Up SP,Ultra Bonus PM
+skills,179,Attk Up SP,Ultra Bonus ATT
+skills,180,Def Up SP,Ultra Bonus DIF
+skills,181,Agi Up SP,Ultra Bonus AGI
+skills,182,Wis Up SP,Ultra Bonus INT
+skills,183,Fire Guard SP,Para-Calore supremo
+skills,184,Ice Guard SP,Para-Gelo supremo
+skills,185,G185 Guard SP,Para-Vento supremo
+skills,186,G186 Guard SP,Para-Luce oscura suprema
+skills,187,Warrior,Guerriero
+skills,188,G188,Mago
+skills,189,G189,Sacerdote
+skills,190,G190,Artista marziale
+skills,191,G191,Saggio
+skills,192,Thief,Ladro
+skills,193,Frizz ＆ Sizz,Fiamma & Pyro
+skills,194,Liquid Metal King,Re Metalslime
+skills,195,Frizz ＆ Sizz +,Fiamma & Pyro II
+skills,196,Bang ＆ Sizz,Bang & Pyro
+skills,197,Yggdrasil,Yggdrasil
+skills,198,Bang ＆ Sizz +,Bang & Pyro II
+skills,199,Woosh ＆ Sizz,Vento & Pyro
+skills,200,Pipit,Pipetto
+skills,201,Woosh ＆ Sizz +,Vento & Pyro II
+skills,202,Crack ＆ Sizz,Gelo & Pyro
+skills,203,UberKillingMachine,Cybercentauro
+skills,204,Crack ＆ Sizz +,Gelo & Pyro II
+skills,205,Sizz ＆ Zap,Pyro & Fulmine
+skills,206,King Godwyn,Re Godwyn II
+skills,207,Sizz ＆ Zap +,Pyro & Fulmine II
+skills,208,Sizz ＆ Zam,Pyro & Elektron
+skills,209,Munchie,Munchie
+skills,210,Sizz ＆ Zam +,Pyro & Elektron II
+skills,211,Sizz Guard,Para-Pyro
+skills,212,Aerix,Exorsus
+skills,213,Dimensional Dragon,Dimensaur
+skills,214,Geminex,Gemines
+skills,215,Paizar,Demonstrum
+skills,216,Virgella,Virgax
+skills,217,DarkLeonyx,Malevoleonex
+skills,218,Scorpella,Scorpia
+skills,219,Libranex,Rigor Mortex
+skills,220,Canzar,Cancerio
+skills,221,Aquarion,Aquarion
+skills,222,Saggitar,Sagitta
+skills,223,Leonyx,Leonex
+skills,224,Wiggly,Vermex
+skills,225,Bjorn,Wasen
+skills,226,MissingLynx,Lince alata
+skills,227,Khalimari,Piovron
+skills,228,Ruin,Rovina
+skills,229,Orochi,Orochi
+skills,230,ZenithDragon,Drago di Zenithia
+skills,231,Empyrea,Empyrea
+skills,232,Zoma,Zoma
+skills,233,G233 Guard,Para-Sabotamagie
+skills,234,Abiliterator Guard,Para-Abilitatore
+skills,235,Slashing Seal Guard,Para-Bloccacolpi
+skills,236,G236 Guard,Para-Gravitas
+skills,237,G237 SP,Über Zapologist
+skills,238,SchleimanTank,Guerriero del flauto
+skills,239,Wildcard,Joker
+skills,240,ManiacMole,Costruzione mitica
+skills,241,Molly Selection,Morrie's Melange
+skills,242,G242,Maestro della Via delle Sfide
+skills,243,Stella,Stella
+skills,244,G244,Eroe dei cieli
+skills,245,G245,Vuoto vile
+skills,246,Corvus,Corvus
+skills,247,GreatGodbird,Grande uccello divino
+skills,248,Stormsgate,Forte di Nadiria
+skills,249,Workshop,Carro Slival
+skills,250,Xiphos,Xiphos
+skills,251,Gadis,Gadis
+skills,252,Darck,Darck
+skills,253,Magarugi,Magarugi
+skills,254,Sittingbeast,Baboorood
+skills,255,Evilbeast,Babbuincubo
+traits,0,None,Nessuna
+traits,1,Dodger,Evasione totale
+traits,2,Metal Body,Corpo metallico
+traits,3,Psycho,Carica super
+traits,4,Double Trouble,Raddoppio mostruoso
+traits,5,Critical Massacre,Mitico critico
+traits,6,Metal Beater,Battimetallo
+traits,7,Fly Swatter,Centro perfetto
+traits,8,Last Word,Ultimatum
+traits,9,Early Bird,Prima e meglio
+traits,10,Counterstriker,Contrattaccante
+traits,11,Poisonous,Venenum
+traits,12,Paralysing,Paralys
+traits,13,Escape Artist,Fuga da maestro
+traits,14,Steady Recovery,Autoguarigione
+traits,15,Magic Regenerator,Rigenerazione magica
+traits,16,Health Professional,Recupera & risparmia
+traits,17,Frizz Master,Guru della Fiamma
+traits,18,Bang Master,Guru del Bang
+traits,19,Woosh Master,Guru del Vento
+traits,20,Crack Master,Guru del Gelo
+traits,21,Zap Master,Guru del Fulmine
+traits,22,Zam Master,Guru dell'Elektron
+traits,23,Desperado,Desperado
+traits,24,Ambusher,Agguato esperto
+traits,25,Magic Miser,Salvamagia
+traits,26,Magic Scrooge,Risparmio magico
+traits,27,Weapon Master,Maestro d'armi
+traits,28,Big Hitter,Danno grave
+traits,29,Grand Slammer,Super Slam
+traits,30,Hit Squad,Attacco multiplo
+traits,31,Giant Killer,Ammazzagiganti
+traits,32,Small Killer,Ammazzastandard
+traits,33,ParaTouch,Tocco paralizzante
+traits,34,PoisonTouch,Tocco velenoso
+traits,35,ConfTouch,Tocco confusivo
+traits,36,SleepTouch,Tocco soporifero
+traits,37,Comeback Kid,Ritorno a sorpresa
+traits,38,Alluring,Fascino strano
+traits,39,Coward,Codardo
+traits,40,Lucky,Fortunato
+traits,41,Unlucky,Sfortunato
+traits,42,Rabble Rouser,Alta tensione
+traits,43,Heckling Hector,Bassa tensione
+traits,44,Bouncer,Riflessione prolungata
+traits,45,Counter Act,Anticontrattaccante
+traits,46,Hope Hitter,Estremi opposti
+traits,47,Close Scraper,Salvezza stentata
+traits,48,Perilous Parrier,Danni sorprendenti
+traits,49,Gambling Counters,Contro Azzardato
+traits,50,Tension Downer,Brontolone
+traits,51,Talent Scout,Cacciatalenti
+traits,52,Fast Learner,Esperienza premiante
+traits,53,Gold Getter,Tocco di Mida
+traits,54,Lootist,Oggetti ritrovati
+traits,55,Late Riser,Sveglia ritardata
+traits,56,Loose Cannon,Gran confusione
+traits,57,Rival Riler,Tensione pericolosa
+traits,58,Disenchanted,Magia evanescente
+traits,59,T59,Guardia critica totale
+traits,60,Spell Splurger,Cari incantesimi
+traits,61,Attallergic,Attacchi da panico
+traits,62,Rolling Over,Rigirarsi nel sonno
+traits,63,T63,Statico
+traits,64,Berserker,Furioso
+traits,65,T65,Spirito indomito
+traits,66,Metal Killer,Ammazza Metallo
+traits,67,T67,Ruba magia
+traits,68,Drain Magic Attack,PickMagic
+traits,69,Deadly Touch,Ala della morte
+traits,70,Sizz Master,Guru del Pyro
+traits,71,Scare Stare,Gardameh
+traits,72,Imposing,Presenza ingombrante
+traits,73,Intimidating,Intimidazione
+traits,74,Timid,Timidezza
+traits,75,Foot Dragger,Pigrizia
+traits,76,1-2 Attk,Soldato tattico
+traits,77,1-3 Attk,Genio tattico
+traits,78,Pro Talent Scout,Grande Cacciatalenti
+traits,79,HP Gamble,Roulette dei PV
+traits,80,MP Gamble,Roulette del PM
+traits,81,Atk Gamble,Roulette dell'ATT
+traits,82,Def Gamble,Roulette del DIF
+traits,83,Agi Gamble,Roulette dell'AGI
+traits,84,Wis Gamble,Roulette dell'INT
+traits,85,HP Bubble,Azzardo PV
+traits,86,MP Bubble,Azzardo PM
+traits,87,Demagic,Onda distruttrice
+traits,88,Light wave,Onda di sollievo
+traits,89,Scout % +,Genio dei talenti
+traits,90,Frizz Break,Astuzia della Fiamma
+traits,91,Bang Break,Astuzia del Bang
+traits,92,Woosh Break,Astuzia del Vento
+traits,93,Crack Break,Astuzia del Gelo
+traits,94,Zap Break,Astuzia del Fulmine
+traits,95,Zam Break,Astuzia dell'Elektron
+traits,96,Hand-to-hand Seal Break,Astuzia dell'Abilitatore
+traits,97,Slashing Seal Break,Astuzia del Bloccacolpi
+traits,98,Flame Breath Break,Astuzia del Respiro di fuoco
+traits,99,Blizzard Breath Break,Astuzia del Respiro ghiacciato
+traits,100,Whack Break,Astuzia della Morte rapida
+traits,101,Dazzle Break,Astuzia della Danzaluce
+traits,102,Poison Break,Astuzia del Veleno
+traits,103,Drain Magic Break,Astuzia del PickMagic
+traits,104,Kafizzle Break,Astuzia dello Spruzzo
+traits,105,Breath Seal Break,Astuzia del Blocca-K.O.
+traits,106,Dance Seal Break,Astuzia della Danza proibita
+traits,107,Confusion Break,Astuzia del Confusore
+traits,108,T108 Break,Astuzia dell'Inazione
+traits,109,Paralysis Break,Astuzia del Paralizzante
+traits,110,Sleep Break,Astuzia del Sonnolento
+traits,111,Sag Break,Astuzia del Debilis
+traits,112,Sap Break,Astuzia dell'Indebolente
+traits,113,Decelerate Break,Astuzia del Velocimeno
+traits,114,Fool Break,Astuzia dello Stoopid
+traits,115,T115 Break,Astuzia del Sabotamagie
+traits,116,Sizz Break,Astuzia del Pyro
+traits,117,T117 Break,Astuzia della Gravitas
+traits,118,All Guard Break,Astuzia del Diavolo
+traits,119,2-3 attk,IA　2-3 azioni
+traits,120,0-4 attk,IA　0-4 azioni
+traits,121,Light Metal,Corpo Metallico Leggero
+traits,122,Hard Metal,Corpo Metallico Duro
+traits,123,Sudden Attk,Ooomph immediato
+traits,124,Sudden Def,Superdifesa immediata
+traits,125,Sudden Agi,Velocipiù immediato
+traits,126,Sudden Tension,Tensione immediata
+traits,127,Sudden Mist,Malocchio immediato
+traits,128,HP+5,PV max +5
+traits,129,HP+10,PV max +10
+traits,130,HP+15,PV max +15
+traits,131,HP+20,PV max +20
+traits,132,HP+22,PV max +22
+traits,133,HP+24,PV max +24
+traits,134,HP+26,PV max +26
+traits,135,HP+28,PV max +28
+traits,136,HP+30,PV max +30
+traits,137,HP+35,PV max +35
+traits,138,MP+5,PM max +5
+traits,139,MP+10,PM max +10
+traits,140,MP+15,PM max +15
+traits,141,MP+20,PM max +20
+traits,142,MP+22,PM max +22
+traits,143,MP+24,PM max +24
+traits,144,MP+26,PM max +26
+traits,145,MP+28,PM max +28
+traits,146,MP+30,PM max +30
+traits,147,MP+35,PM max +35
+traits,148,Atk+3,ATT +3
+traits,149,Atk+5,ATT +5
+traits,150,Atk+10,ATT +10
+traits,151,Atk+12,ATT +12
+traits,152,Atk+15,ATT +15
+traits,153,Atk+18,ATT +18
+traits,154,Atk+21,ATT +21
+traits,155,Atk+24,ATT +24
+traits,156,Atk+27,ATT +27
+traits,157,Atk+30,ATT +30
+traits,158,Def+3,DIF +3
+traits,159,Def+5,DIF +5
+traits,160,Def+10,DIF +10
+traits,161,Def+12,DIF +12
+traits,162,Def+15,DIF +15
+traits,163,Def+18,DIF +18
+traits,164,Def+21,DIF +21
+traits,165,Def+24,DIF +24
+traits,166,Def+27,DIF +27
+traits,167,Def+30,DIF +30
+traits,168,Agi+3,AGI +3
+traits,169,Agi+5,AGI +5
+traits,170,Agi+10,AGI +10
+traits,171,Agi+12,AGI +12
+traits,172,Agi+15,AGI +15
+traits,173,Agi+18,AGI +18
+traits,174,Agi+21,AGI +21
+traits,175,Agi+24,AGI +24
+traits,176,Agi+27,AGI +27
+traits,177,Agi+30,AGI +30
+traits,178,Wis+3,INT +3
+traits,179,Wis+5,INT +5
+traits,180,Wis+10,INT +10
+traits,181,Wis+12,INT +12
+traits,182,Wis+15,INT +15
+traits,183,Wis+18,INT +18
+traits,184,Wis+21,INT +21
+traits,185,Wis+24,INT +24
+traits,186,Wis+27,INT +27
+traits,187,Wis+30,INT +30
+traits,188,Sudden Wis Up,Intellygo immediato
+traits,189,Sudden Brake Wind,Vento frenante immediato
+traits,190,Sudden Kafizzle,Spruzzo supremo immediato
+traits,191,Occ{00}{00} Wis Up,Intellygo casuale
+traits,192,Occ{00}{00} Brake wind,Vento frenante casuale
+traits,193,Occ{00}{00} Kafizzle,Spruzzo supremo casuale
+traits,194,Rarely High Tension,Tensione casuale
+traits,195,Rarely Magic Barrier,Barriera magica casuale
+traits,196,Rarely Mist Me,Nebbiamica casuale
+traits,201,Frizz Guard + ,Para-Fiamma
+traits,202,Bang Guard +,Para-Bang
+traits,203,Woosh Guard +,Para-Vento
+traits,204,Crack Guard +,Para-Gelo
+traits,205,Zap Guard +,Para-Fulmine
+traits,206,Zam Guard +,Para-Elektron
+traits,207,Abiliterator Guard +,Para-Abilitatore
+traits,208,Sizz Guard +,Para-Pyro
+traits,209,Blade Blunter Guard +,Para-Bloccacolpi
+traits,210,T210 Guard +,Para-Gravitas
+traits,211,Fire Breath Guard +,Para-Respiro di fuoco
+traits,212,Ice Breath Guard +,Para-Respiro ghiacciato
+traits,213,Whack Guard +,Para-K.O.
+traits,214,Dazzle Guard +,Para-Danzaluce
+traits,215,Poison Guard +,Para-Veleno
+traits,216,Drain Magic Guard +,Para-PickMagic
+traits,217,Kafizzle Guard +,Para-Spruzzo
+traits,218,Gobstopper Guard +,Para-Blocca-K.O.
+traits,219,Ban Dance Guard +,Para-Danza proibita
+traits,220,Confusion Guard +,Para-Confusione
+traits,221,Inaction Guard +,Para-Inazione
+traits,222,Paralysis Guard +,Para-Paralisi
+traits,223,Sleep Guard +,Para-Sonno
+traits,224,Sag Guard +,Para-Debilis
+traits,225,Sap Guard +,Para-Indebolente
+traits,226,Decelerate Guard +,Para-Velocimeno
+traits,227,Dim Guard +,Para-Stoopid
+traits,228,T228 Guard +,Para-Sabotamagie
+traits,229,Mega 2-3 attk,2-3 azioni
+traits,230,Mega 2 attk,2 azioni
+traits,231,Mega 1-3 attk,1-3 azioni
+traits,232,Mega 0-4 attk,0-4 azioni
+traits,233,Mega 1-2 attk,1-2 azioni
+traits,234,T234,Soddisfazione magica
+traits,235,T235 - Satisfied by Death,Soddisfazione suicida
+traits,236,SuddenT236,Nebbia degli inferi immediata
+traits,237,Sudden Seal Break,Rompipersigilli immediato
+traits,238,Giga 2-3 attk,2-3 azioni
+traits,239,Giga 2 attk,2 azioni
+traits,240,Giga 1-3 attk,1-3 azioni
+traits,241,Giga 0-4 attk,0-4 azioni
+traits,242,Giga 1-2 attk,1-2 azioni
+traits,243,Occ{00}{00} Attk,Ooomph casuale
+traits,244,Occ{00}{00} Def,Superdifesa casuale
+traits,245,Occ{00}{00} Agi,Velocipiù casuale
+traits,246,Occ{00}{00} Tension,Tensione casuale
+traits,247,Occ{00}{00} Mist,Malocchio casuale
+traits,248,Occ{00}{00} T248,Nebbia degli inferi casuale
+traits,249,Occ{00}{00} Seal Break,Rompipersigilli casuale
+traits,250,T250 Master,Guru della Gravitas
+items,1,Herb,Erba medicinale
+items,2,Strong herb,Medicina forte
+items,3,Special Herb,Medicina speciale
+items,4,Strong Special herb,Medicina multipla
+items,5,Yggdrasil Dew,rugiada di Ygdrasil
+items,6,Magic Water,Elisir magico
+items,7,Sage Elixir,Elisir del saggio
+items,8,Elfin Elixir,elisir degli elfi
+items,9,Yggdrasil leaf,foglia di Ygdrasil
+items,10,Antidote,Erba antidoto
+items,11,Moonwort Bulb,bulbo di erbaluna
+items,12,Panacea,Panacea
+items,13,Fire Staff,Polvere antimagica
+items,14,Attack Boost,Polvere di Potenza
+items,15,Team Def Upper,Moneta del mago
+items,16,Team Wis Upper,Scellino del mago
+items,17,Wind Braker,Insulade
+items,18,I18,Insulade gigante
+items,19,Skill Seed,Seme dell'abilità
+items,20,HP Seed,Seme della vita
+items,21,MP Seed,Seme della magia
+items,22,Atk Seed,Seme della forza
+items,23,Def Seed,Seme della difesa
+items,24,Agi Seed,Seme dell'agilità
+items,25,Wis Seed,Seme della saggezza
+items,26,Dung,Letame mostruoso
+items,27,Level upper,Seme della speranza
+items,28,Gold Card,Carta fedeltà
+items,29,Gold Lump,Pepita d'oro
+items,30,{231} Scent,'Attrattore positivo'
+items,31,{232} Scent,'Pensa negativo'
+items,32,{233} Scent,'Terreno neutrale'
+items,33,Sagestone,Essenza di Amor Seco
+items,42,Metal Ticket,biglietto metallico
+items,45,Beef Jerky,Bocconcini per mostri
+items,46,Sobering Slap,Sali odorosi
+items,48,King`s Proof,Libro di Lupicche
+items,49,Queen`s Proof,Libro di Cuordifalco
+items,50,Ace`s Proof,Libro di Quadrago
+items,51,Jack`s Proof,Libro di Fiorango
+items,52,Warrior`s Proof,Pergamena del Guerriero
+items,53,Magic`s Proof,Pergamena del Mago
+items,54,Priest`s Proof,Pergamena del Sacerdote
+items,55,Monk`s Proof,Pergamena dell'Artista marziale
+items,56,Sage`s Proof,Pergamena del Saggio
+items,57,Thief`s Proof,Pergamena del Ladro
+items,58,Metal Stone,Palla da flipper
+items,59,Stone Bomb,Frammento di Esplo-sasso
+items,61,Doubtful medicine,Medicina d'errore
+items,66,Timbrel of tension,sonaglio di carica
+items,67,Attack Downer,Polvere di Sag
+items,68,Defense Downer,Sapperine
+items,69,Agility Downer,Deceleratonic
+items,70,Wisdom Downer,Dimium
+items,71,Defense Upper,Bufferine
+items,72,Agility Upper,Acceleratonic
+items,73,Wisdom Upper,Pingium
+items,74,HP Recovery Proof,'Tocco curativo'
+items,75,MP Recovery Proof,'Stregoneria segreta'
+items,76,Atk Proof,'Forza sulla mente'
+items,77,Def Proof,'Abbassati e copriti'
+items,78,Agi Proof,'La via rapida'
+items,79,Wis Proof,'Sapere è potere'
+items,80,Mysterious Plate,Medaglia misteriosa
+items,81,Ruins Key,Chiave del Mausoleum
+items,82,Scout ring,anello da Scout
+items,83,I83 Slime,Lettera bagnata
+items,84,Entire Recovery Proof,'Guarigione alla testa'
+items,93,Pebble,Ciottolo grazioso
+items,94,Bronze Lump,Frammento di bronzo
+items,95,Silver Lump,Scheggia d'argento
+items,107,Parts,Parti meccaniche
+items,109,Warrior`s Proof,Medaglia al merito
+items,111,Mud Heart,Cuore di fango
+items,112,Copper Sword,spada di rame
+items,113,Divine Dagger,daga divina
+items,114,Rapier,stocco
+items,115,Steel Broadsword,spada d'acciaio
+items,116,Zombiesbane,Ammazzazombie
+items,117,Dragonsbane,Ammazzadraghi
+items,118,Obsidian Sword,spada d'ossidiana
+items,119,Silver Broadsword,spada d'argento
+items,120,Zombiesblight,lama dello Zombie
+items,121,Dragonsblight,lama del drago
+items,122,Giant`s Sword,Spada del gigante
+items,123,Zombie Slayer,Stramazzazombie
+items,124,Dragon Slayer,Stramazzadraghi
+items,125,Lost Katana,katana perduta
+items,126,Metal King`s Sword,Spada del Re Metalslime
+items,127,Iron Lance,lancia di ferro
+items,128,Pitchfork,forcone della natura
+items,129,Sacred Spear,giavellotto celeste
+items,130,Partisan,partigiana
+items,131,Holy Lance,lancia sacra
+items,132,Hunting Spear,lancia da caccia
+items,133,Dragon Lance,lancia del drago
+items,134,Halberd,alabarda
+items,135,Hero Spear,lancia dell'eroe
+items,136,Gae Bolg,Gáe Bolg
+items,137,Stone Axe,ascia di pietra
+items,138,Woodcutter`s Axe,Ascia del boscaiolo
+items,139,Iron Axe,ascia di ferro
+items,140,Woodman`s Axe,Ascia del taglialegna
+items,141,Headman`s Axe,Ascia del boia
+items,142,Battle Axe,Ascia da battaglia
+items,143,Forester`s Axe,Ascia del guardaboschi
+items,144,King`s Axe,Ascia del re
+items,145,Ranger`s Axe ,Ascia del ranger
+items,146,Executioner`s Axe,Ascia del giustiziere
+items,147,Oaken Club,clava
+items,148,Slegehammer,Martello di melma
+items,149,Iron Hammer,testa di ferro
+items,150,War Hammer,martello da guerra
+items,151,Miracle Mallet,maglio miracoloso
+items,152,Giant Wrench,chiave gigante
+items,153,Atlas Hammer,Martello da fabbro
+items,154,Golden Mace,Mazza del predone
+items,155,Warlord`s Hammer,Martello del condottiero
+items,156,Miracle Mace,mazza miracolosa
+items,157,Leather Whip,frusta di cuoio
+items,158,Battle Whip,frusta da guerra
+items,159,Thorn Whip,frusta di spine
+items,160,Sidewinder,frusta Krotalo
+items,161,Snakeskin Whip,frusta Pyton
+items,162,Chain Whip,frusta di ferro
+items,163,Dragontail Whip,coda di drago
+items,164,Spiked Steel Whip,frusta d'acciaio
+items,165,Scourge Whip,frusta dentata
+items,166,Gringham Whip,frusta Gringham
+items,167,Stone Claws,artigli di pietra
+items,168,Metal Claws,artigli metallici
+items,169,Iron Claws,artigli di ferro
+items,170,Sacred Claws,artigli sacri
+items,171,Razor Claws,artigli ninja
+items,172,Steel Claws,artigli d'acciaio
+items,173,Metal Talons,artigli siderali
+items,174,Gryphon Talons,artigli del grifone
+items,175,Sacred Talons,artigli celesti
+items,176,Orichalcum Claws,artigli d'orichalcum
+items,177,Cypress Staff,mazza di cipresso
+items,178,Rune Staff,bastone runico
+items,179,Phoenix Sceptre,scettro della fenice
+items,181,{231} Sceptre,Scettro del più
+items,182,{232} Sceptre,Scettro del meno
+items,183,Crystal Staff,scettro di cristallo
+items,184,Staff of Darkness,bastone delle tenebre
+items,185,Sage`s Staff,Bastone del saggio
+items,186,Royal Rod,scettro reale
+items,187,Leonine Greatsword,spada del leone
+items,188,I188,Sparatankissimus
+items,189,I189,Malevomazza
+items,190,I190,Artigli d'ebano
+items,191,I191,Lancia di Diablo
+items,194,I194,Zampe
+items,195,Crushing Tower,Ammucchiata
+items,196,Miracle Sword,spada dei miracoli
+items,197,Falcon Nail,Artigli di falco
+items,198,Gent Staff,Bastone di Ghent
+items,199,Dragon Claw,Artigli di drago
+items,200,Jack-o`-lantern,Tridente di Gracos
+items,201,Chainsaw,Frusta magica
+items,212,Fire Crystal,Fiamma vivificante
+items,213,Water Crystal,Lacrime di drago
+items,214,Underworld Crystal,Cristallo del tempo
+items,215,Plain Plate,Piastra delle pianure
+items,216,Mountain Plate,Piastra delle montagne
+items,217,Cliff Plate,Piastra delle rocce
+items,218,Coast Plate,Piastra della costa
+items,219,Underworld Ruins Plate,Piastra del dio della guerra
+items,220,The Silver Sword,Spada ipernova
+items,221,I221,Lama ardente
+items,222,I222,Attizzatoio incandescente
+items,223,I223,Lancia Aha
+items,224,God`s Axe,Ascia galattica
+items,225,I225,Spezzaspade
+items,226,Fire Mace,Spaccastelle
+items,227,I227,Spaccatensione
+items,228,True Gringham Whip,Superfrusta di Gringham
+items,229,Witch Whip,Frusta della strega
+items,230,Ryuuzin Claw,Artigli di Xenlon
+items,231,Core drill,Trivella centrale
+items,232,Light staff,Bastone splendente
+items,233,Lucky Stick,Bastone slime
+items,234,Monster Egg,Uovo di mostro
+items,235,I235,Polvere di Potenza gigante
+items,236,I236,Bufferine gigante
+items,237,I237,Acceleratonic gigante
+items,238,I238,Pingium gigante
+items,239,I239,Polvere di Sag gigante
+items,240,I240,Sapperine gigante
+items,241,I241,Deceleratonic gigante
+items,242,I242,Dimium gigante
+items,243,I243,Soma benedetto
+items,244,Anti Slash Proof,Pergamena Spezzaspade
+items,245,Anti Spell Proof,Pergamena Spezzamagie
+items,246,Anti Breath Proof,Pergamena Spezzarespiro
+items,247,Anti Recovery Proof,Pergamena Purificatrice
+items,248,I248 Proof,Libro di Morrie
+items,249,I249 Proof,Pergamena del Maestro del Cammino di battaglia
+items,252,Crushed Metal Proof,'Manuale dell'ammazzametalli'
+items,253,I253 Proof,'Il sigillo dello zero'
+items,254,I254 Proof,'Manuale dell'ammazzagiganti'
+places,0,Treepidation,Selvascura
+places,1,Doubtback,Vastopiano
+places,2,Iceolation,Gelandia
+places,3,Cragravation,Precipizia
+places,4,Unshore,Costa Ignota
+places,5,Bemusoleum,Mausoleum
+places,6,Dark World,Terranira
+places,7,Pipisle,Isola Pipit
+places,8,Albatross,Albatros
+places,9,Monster Pen,Recinto mostri
+places,10,Monster Scout Tournament,Torneo Monster Scout
+places,11,World Monster Championship,Campionato mondiale dei mostri
+places,12,Ultimate Master Cup,Coppa suprema dei maestri
+places,13,Scout Arena,Arena Scout
+places,14,Scout Arena Supreme,Arena Scout Suprema
+places,15,Gold Bank,Banca Aurea
+places,16,Gold Bank ATM,Banca Aurea
+npcs,0,Archie Logg,Marcus Logos
+npcs,1,Baboorood,Baboorood
+npcs,2,Billie,Sira
+npcs,3,Captain Mayday,Capitan Alex
+npcs,4,Dr. Lump,Doc Syntex
+npcs,5,Duke,Halb
+npcs,6,ELder,ELder
+npcs,7,Elder,Elder
+npcs,8,Eugene Poole,Eugene Poole
+npcs,9,Incarnus,Incarnus
+npcs,10,Infantus,Infantus
+npcs,11,King Sanguini,King Sanguini
+npcs,12,Kukri,Kukri
+npcs,13,Lily Gilder,Lady Lidia
+npcs,14,Marsha,Pupa
+npcs,15,Maybellina,Maybellina
+npcs,16,Melonie,Sheila
+npcs,17,Miles,Rico
+npcs,18,Moles,Talpe
+npcs,19,Mynos the Elder,Mynos il Vecchio
+npcs,20,Referee,Arbitro
+npcs,21,Rory Bellows,Meck Nick
+npcs,22,Sanguini,Sanguini
+npcs,23,Solitaire,Solitaire
+npcs,24,TIko,TIko
+npcs,25,The Countess,Contessa
+npcs,26,Tiko,Tiko

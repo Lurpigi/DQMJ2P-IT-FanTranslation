@@ -84,16 +84,16 @@ STORE 0x18 0x1 0x0 0x0 0x0
 STORE 0x18 0x1 0x3f800000 0x2 0x42c20000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Mynos the Elder"
-SAY "{VOICE=03}Outstanding!"
+SETNAME "Mynos il Vecchio"
+SAY "{VOICE=03}Eccezionale!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Mynos the Elder"
-SAY "{VOICE=03}And what an intriguing way to defeat my monstrous masterpiece..."
+SETNAME "Mynos il Vecchio"
+SAY "{VOICE=03}E che modo intrigante di sconfiggere il mio capolavoro mostruoso..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Mynos the Elder"
-SAY "{VOICE=03}We have now seen ample evidence of your strength."
+SETNAME "Mynos il Vecchio"
+SAY "{VOICE=03}Abbiamo visto prove più che sufficienti della tua forza."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41200000
@@ -111,8 +111,8 @@ SYS_13 0x8
 STORE 0x18 0x1 0x0 0x2 0x41a80000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Mynos the Elder"
-SAY "{VOICE=03}With such power at your disposal, you can awaken the Divine Battler..."
+SETNAME "Mynos il Vecchio"
+SAY "{VOICE=03}Con una simile forza a tua disposizione, puoi risvegliare il Combattente divino..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -156,8 +156,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42be0000
 SYS_18 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Mynos the Elder"
-SAY "{VOICE=03}It is time to open the most sacred path.{WAIT}{CLEAR}I shall await you before the giant mural in the Bemusoleum."
+SETNAME "Mynos il Vecchio"
+SAY "{VOICE=03}È giunto il momento di aprire il sentiero più sacro.{WAIT}{CLEAR}Ti aspetterò davanti al grande murale del Mausoleum."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -170,8 +170,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SETNAME "Mynos the Elder"
-SAY "{VOICE=03}You represent our last hope, {NAME}.{WAIT}{CLEAR}Our final roll of the dice, if you will.{BREAK}Do not disappoint us."
+SETNAME "Mynos il Vecchio"
+SAY "{VOICE=03}Sei la nostra ultima speranza, {NAME}.{WAIT}{CLEAR}La nostra ultima possibilità, se preferisci.{BREAK}Non deluderci."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

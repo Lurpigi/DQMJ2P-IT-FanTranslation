@@ -46,16 +46,16 @@ STORE 0x18 0x1 0x40000000 0x2 0x42200000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
-SETNAME "Leonyx"
-SAY "{VOICE=07}Ah, {NAME}. So you have come."
+SETNAME "Leonex"
+SAY "{VOICE=07}Ah, {NAME}... {1F2B}i venuto..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Leonyx"
-SAY "{VOICE=07}As I promised, now is the time to gift you my power."
+SETNAME "Leonex"
+SAY "{VOICE=07}Come ti avevo promesso, ti presterò il mio potere."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Leonyx"
-SAY "{VOICE=07}Hold out your arm!"
+SETNAME "Leonex"
+SAY "{VOICE=07}{1F3A}endi il braccio...!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -147,7 +147,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41200000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SAY "{COLOR=2}{E321}{NAME}'s scout ring has been enhanced!"
+SAY "{COLOR=2}L'anello da {1F29}out di {E321}{NAME} è stato potenziato!"
 WAIT 0x10 0x2 0x3f800000
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
@@ -170,16 +170,16 @@ SYS_02 0x8
 SYS_03 0x8 
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SETNAME "Leonyx"
-SAY "{VOICE=07}From this day forth, you will be able to scout giant monsters!"
+SETNAME "Leonex"
+SAY "{VOICE=07}Da questo momento in poi potrai reclutare anche i mostri giganti."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Leonyx"
-SAY "{VOICE=07}Be they wormongers or missing lynxes...{WAIT}{CLEAR}...you can now use the Scout command to try to add them to your team."
+SETNAME "Leonex"
+SAY "{VOICE=07}Creature enormi come Vermex o le Linci alate, per esempio, e altre ancora...{WAIT}{CLEAR}Usa il comando \"Recluta\" e sarai in grado di farle entrare nella tua squadra!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Leonyx"
-SAY "{VOICE=07}When - and only when - you have sufficiently honed your skills..."
+SETNAME "Leonex"
+SAY "{VOICE=07}{1F35}lo dopo che avrai ulteriormente migliorato le tue qualità..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x41f80000
@@ -189,12 +189,12 @@ STORE 0x18 0x1 0x0 0x2 0x41f80000
 STORE 0x18 0x1 0x3f800000 0x2 0x41700000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41a00000
-SETNAME "Leonyx"
-SAY "{VOICE=07}...you will be able to take me on and let me witness your strength."
+SETNAME "Leonex"
+SAY "{VOICE=07}{1F35}lo allora ti concederò di affrontarmi e di mostrarmi tutto il tuo valore."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Leonyx"
-SAY "{VOICE=07}Now that I have returned to my true form, my power is even more formidable.{WAIT}{CLEAR}So you must train and train, and then train some more!"
+SETNAME "Leonex"
+SAY "{VOICE=07}Adesso che ho riacquistato la mia vera forma, sono ancora più potente...{WAIT}{CLEAR}Dovrai allenarti duramente, se vorrai essere alla mia altezza!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -213,16 +213,16 @@ STORE 0x18 0x1 0x0 0x2 0x42480000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SETNAME "Leonyx"
-SAY "{VOICE=07}My revival has brought about all manner of changes on this island."
+SETNAME "Leonex"
+SAY "{VOICE=07}In seguito al mio ritorno in vita, molte cose sono cambiate su quest'isola."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Leonyx"
-SAY "{VOICE=07}As part of your training, I heartily recommend you take a tour of the island."
+SETNAME "Leonex"
+SAY "{VOICE=07}Ti suggerisco di fare un giro. In questo modo potrai potenziare le tue capacità..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Leonyx"
-SAY "{VOICE=07}I eagerly await the day you face me as an even more powerful scout!"
+SETNAME "Leonex"
+SAY "{VOICE=07}Già pregusto il momento in cui diventerai ancora più abile... Allora potremo batterci!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

@@ -309,7 +309,7 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x428c0000
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}...Looks like you found me, kiddo."
+SAY "{VOICE=08}E così mi hai trovata, bamboccio..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -336,11 +336,11 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3e4ccccd
 SYS_54 0x8 
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}Just don't go getting the wrong idea.{BREAK}I didn't do this cos I'm short of money."
+SAY "{VOICE=08}{1F35} cosa stai pensando, ma sappi {BREAK}una cosa: non lo faccio per i soldi."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}That just wouldn't be my style..."
+SAY "{VOICE=08}Non sarebbe nel mio stile."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -360,7 +360,7 @@ SYS_53 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}Anyway, I'm new in town and I'm looking for the True Monster Scout Challenge..."
+SAY "{VOICE=08}Comunque sia, sto cercando il luogo dove si svolgerà il Torneo {1F29}out Pro..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -393,11 +393,11 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42480000
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}An underground arena in a place called the Doubtback, you say? Let's go!"
+SAY "{VOICE=08}Eh? Un'arena sotterranea situata in un posto chiamato \"Vastopiano\"? Andiamo!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}Yep, you're coming too. You think I'm going to let you get away without a fight?"
+SAY "{VOICE=08}Ovviamente, verrai anche tu! Non ti lascerò andare via senza combattere..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

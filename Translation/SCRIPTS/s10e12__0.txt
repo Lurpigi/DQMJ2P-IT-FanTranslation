@@ -726,19 +726,19 @@ SYS_55 0x8
 SYS_42 0x8 
 CMP_EQ 0x18 0x0 0x423c0000 0x2 0x43360000
 JMP_IFNOT 0xc L_26d8
-SAY "{COLOR=2}{NAME} obtains the Minus sceptre!"
+SAY "{COLOR=2}{NAME} ha ottenuto lo scettro Minus!"
 JMP_ABS 0xc L_2770
 L_26d8:
 CMP_EQ 0x18 0x0 0x423c0000 0x2 0x43350000
 JMP_IFNOT 0xc L_2730
-SAY "{COLOR=2}{NAME} obtains the Plus sceptre!"
+SAY "{COLOR=2}{NAME} ha ottenuto lo scettro Plus!"
 JMP_ABS 0xc L_2770
 L_2730:
 JMP_REL L_2738
 L_2738:
 JMP_ABS 0xc L_2744
 L_2744:
-SAY "{COLOR=2}{NAME} obtains {E328}!"
+SAY "{COLOR=2}{NAME} ha ottenuto {E328}!"
 JMP_ABS 0xc L_2770
 L_2770:
 WAIT 0x10 0x2 0x42340000
@@ -750,7 +750,7 @@ JMP_IFNOT 0xc L_2c5c
 SYS_42 0x8 
 CMP_EQ 0x18 0x0 0x42400000 0x2 0x40400000
 JMP_IFNOT 0xc L_293c
-SAY "{COLOR=2}The mysterious ore is actually a monster in disguise!"
+SAY "{COLOR=2}Il minerale misterioso è in realtà un mostro camuffato!"
 WAIT 0x10 0x2 0x42340000
 SYS_43 0x8 
 STORE 0x18 0x1 0x0 0x2 0x3f800000
@@ -769,7 +769,7 @@ JMP_ABS 0xc L_2c50
 L_293c:
 CMP_EQ 0x18 0x0 0x42400000 0x2 0x40800000
 JMP_IFNOT 0xc L_2c50
-SAY "{COLOR=2}The bag is actually a monster in disguise!"
+SAY "{COLOR=2}La borsa è in realtà un mostro sotto mentite spoglie!"
 WAIT 0x10 0x2 0x42340000
 SYS_43 0x8 
 STORE 0x18 0x1 0x0 0x2 0x42c80000
@@ -825,19 +825,19 @@ SYS_55 0x8
 SYS_42 0x8 
 CMP_EQ 0x18 0x0 0x423c0000 0x2 0x43360000
 JMP_IFNOT 0xc L_2d58
-SAY "{COLOR=2}{NAME} obtains the Minus sceptre!"
+SAY "{COLOR=2}{NAME} ha ottenuto lo scettro Minus!"
 JMP_ABS 0xc L_2df0
 L_2d58:
 CMP_EQ 0x18 0x0 0x423c0000 0x2 0x43350000
 JMP_IFNOT 0xc L_2db0
-SAY "{COLOR=2}{NAME} obtains the Plus sceptre!"
+SAY "{COLOR=2}{NAME} ha ottenuto lo scettro Plus!"
 JMP_ABS 0xc L_2df0
 L_2db0:
 JMP_REL L_2db8
 L_2db8:
 JMP_ABS 0xc L_2dc4
 L_2dc4:
-SAY "{COLOR=2}{NAME} obtains {E328}!"
+SAY "{COLOR=2}{NAME} ha ottenuto {E328}!"
 JMP_ABS 0xc L_2df0
 L_2df0:
 WAIT 0x10 0x2 0x42340000
@@ -1209,7 +1209,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3f19999a
 SYS_54 0x8 
 WAIT 0x10 0x2 0x42480000
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}'s team is healed."
+SAY "{COLOR=2}La squadra di {NAME} è tornata in perfetta forma!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1220,7 +1220,7 @@ L_44b0:
 JMP_ABS 0xc L_44bc
 L_44bc:
 SYS_42 0x8 
-SAY "{COLOR=2}There's no response. {NAME} cannot use this...for now."
+SAY "{COLOR=2}Non succede niente. {NAME} non può usare quest'oggetto per adesso..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1331,10 +1331,10 @@ STORE 0x18 0x0 0x426c0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x426c0000 0x2 0x0
 JMP_IFNOT 0xc L_4c7c
 SYS_42 0x8 
-SAY "{COLOR=2}Curiosity killed the cat, but not the monster scout!{WAIT}{CLEAR}Examine these curious stones to learn new abilities and commands."
+SAY "{COLOR=2}La curiosità può uccidere i gatti, ma non gli {1F29}out!{WAIT}{CLEAR}Esamina queste strane rocce per imparare tecniche e comandi nuovi."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}These Scout's Stones appear on the map as blue icons."
+SAY "{COLOR=2}Le "Pietre dello {1F29}out" sono indicate sulla mappa da icone azzurre."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1364,13 +1364,13 @@ SYS_A4 0x8
 CMP_EQ 0x18 0x0 0x42640000 0x2 0x41400000
 JMP_IFNOT 0xc L_4fb4
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} learns Zoom!"
+SAY "{COLOR=2}{NAME} ha imparato "Teletrasporto"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}This ability enables {NAME} to teleport to previously visited regions!"
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un attimo in qualsiasi area già visitata."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Apart from a few special locations, it can be used anywhere, including caves!"
+SAY "{COLOR=2}Fatte salve poche eccezioni, può essere utilizzata ovunque... Persino nelle grotte!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1387,10 +1387,10 @@ L_4fb4:
 CMP_EQ 0x18 0x0 0x42640000 0x2 0x41700000
 JMP_IFNOT 0xc L_50ec
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} learns Vanish!"
+SAY "{COLOR=2}{NAME} ha imparato "{1F36}arizione"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}This ability enables {NAME} to slink past enemy monsters undetected."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di passare sotto il naso dei nemici senza farsi notare."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1404,10 +1404,10 @@ L_50ec:
 CMP_EQ 0x18 0x0 0x42640000 0x2 0x40c00000
 JMP_IFNOT 0xc L_52a0
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} can now use Heal All!"
+SAY "{COLOR=2}{NAME} può ora usare "Guarisci tutti"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}This spell lets {NAME} restore the health of his entire team!"
+SAY "{COLOR=2}Quest'incantesimo di guarigione permette a {NAME} di curare tutti i membri della squadra."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1427,10 +1427,10 @@ L_52a0:
 CMP_EQ 0x18 0x0 0x42640000 0x2 0x41600000
 JMP_IFNOT 0xc L_53dc
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} learns Nose for Treasure!"
+SAY "{COLOR=2}{NAME} ha imparato "{1F2B}gugio"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}This ability lets {NAME} find out how many items are hidden nearby."
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di scoprire quanti tesori sono nascosti nelle vicinanze."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1444,16 +1444,16 @@ L_53dc:
 CMP_EQ 0x18 0x0 0x42640000 0x2 0x41500000
 JMP_IFNOT 0xc L_5618
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} learns Zip!"
+SAY "{COLOR=2}{NAME} ha imparato "Velotrans"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}This ability lets {NAME} Zip to the local Zip Portal, quick as a flash!"
+SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un istante al più vicino portale Velotrans."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Of course, the portal must already be open for this to work."
+SAY "{COLOR=2}La tecnica funzionerà solo se il portale è già aperto."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}So if {NAME} finds a new portal, he should examine it right away."
+SAY "{COLOR=2}Quindi, è bene che {NAME} esamini subito i portali Velotrans situati sull'isola."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1471,13 +1471,13 @@ L_5618:
 CMP_EQ 0x18 0x0 0x42640000 0x2 0x41200000
 JMP_IFNOT 0xc L_589c
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} obtains the Monster Mender!"
+SAY "{COLOR=2}{NAME} ha ottenuto "Curamostri"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Use this bottle to restore the HP and MP of {NAME}'s entire team."
+SAY "{COLOR=2}Questa bevanda fa recuperare PV e PM a tutti i membri della squadra di {NAME}."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Good for three doses per outing. Once it runs out, head to the airship for a refill!"
+SAY "{COLOR=2}La bottiglia contiene tre dosi e può essere riempita di nuovo tornando alla nave."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3707,13 +3707,13 @@ JMP_IFNOT 0xc L_e450
 L_e300:
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}The uninvited guest went towards{BREAK}Blanc Palace on the center island."
+SAY "{VOICE=03}L'Ospite indesiderato si è diretto{BREAK}verso Palazzo Blanc, sull'isola centrale."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}I humbly ask of you, {NAME}.{BREAK}Before we lose our power,"
+SAY "{VOICE=03}Ti supplico, {NAME}.{BREAK}Prima che perdiamo i nostri poteri,"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Please defeat the uninvited{BREAK}guest and save our holy land!"
+SAY "{VOICE=03}Sconfiggi l'Ospite indesiderato{BREAK}e salva la nostra terra sacra!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3733,34 +3733,34 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_2A 0x8 
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}To make the sainted soma to heal{BREAK}the Incarnus, I need these materials:"
+SAY "{VOICE=03}Per preparare la Soma benedetta per curare{BREAK}gli Incarnus, mi servono questi materiali:"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Vivifying Flame and Dragon's Tears.{BREAK}Oh, and a Time Crystal. Those 3."
+SAY "{VOICE=03}Fiamma vivificante e Lacrime di drago.{BREAK}Ah, e un Cristallo del tempo. Sono 3."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}I foresee that there are{BREAK}monsters that may have these items..."
+SAY "{VOICE=03}Prevedo che ci sono{BREAK}mostri che potrebbero avere questi oggetti..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}I ask you to please find them,{BREAK}and bring each one back to me."
+SAY "{VOICE=03}Ti chiedo di trovarli,{BREAK}e riportarmeli uno alla volta."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}It might help if I tell you{BREAK}which monster holds a Vivifying Flame..."
+SAY "{VOICE=03}Potrebbe aiutarti se ti dicessi{BREAK}quale mostro possiede una Fiamma vivificante..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}HRUMMMM! KAAAAAAAAH!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Yes. Do I sense a tail...?{BREAK}I see a tail, burning red..."
+SAY "{VOICE=03}Sì. Percepisco una coda...?{BREAK}Vedo una coda che brucia di rosso..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Above the clouds...{BREAK}Oh, and I can hear the fiercest of neighs!"
+SAY "{VOICE=03}Sopra le nuvole...{BREAK}E sento anche il nitrito di un cavallo feroce!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}They are ones that will{BREAK}carry a Vivifying Flame!"
+SAY "{VOICE=03}Sono i mostri che{BREAK}trasportano una Fiamma vivificante!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Hmm. Seems that is all that I can tell.{BREAK}I'll leave the rest up to you."
+SAY "{VOICE=03}Hmm. È tutto ciò che posso dirti.{BREAK}Il resto lo lascio a te."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3772,7 +3772,7 @@ JMP_ABS 0xc L_e918
 L_e918:
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Ohh, hello {NAME}.{BREAK}Did you manage to get the Vivifying Flame?{VOICE=09}"
+SAY "{VOICE=03}Oh, ciao {NAME}.{BREAK}Sei riuscito a trovare la Fiamma vivificante?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -3784,16 +3784,16 @@ SYS_74 0x8
 STORE 0x18 0x0 0x42c00000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42c00000 0x2 0x0
 JMP_IFNOT 0xc L_ebb0
-SAY "{VOICE=03}Huh? It seems you have yet{BREAK}to find one, {NAME}."
+SAY "{VOICE=03}Cosa? Non ne hai ancora trovata{BREAK}una, {NAME}."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}According to my foresight, the monster{BREAK}who holds the Vivifying Flame..."
+SAY "{VOICE=03}Secondo la mia premonizione, il mostro{BREAK}che possiede la Fiamma vivificante..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}...is a monster with a burning red tail{BREAK}above the clouds, with a fierce neigh."
+SAY "{VOICE=03}...è un mostro con una coda rossa e fiammeggiante{BREAK}sopra le nuvole, dal nitrito feroce."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}There are not many who hold it,{BREAK}so please keep trying until you get one."
+SAY "{VOICE=03}Non sono in molti a possederla,{BREAK}quindi continua a cercare finché non ne trovi una."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3805,7 +3805,7 @@ JMP_ABS 0xc L_ebc4
 L_ebc4:
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} handed over the{BREAK}Vivifying Flame to the elder!"
+SAY "{COLOR=2}{NAME} ha consegnato la{BREAK}Fiamma vivificante all'anziano!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3817,25 +3817,25 @@ STORE 0x18 0x1 0x3f800000 0x2 0xbf800000
 SYS_73 0x8 
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Ahh, this is definitely it for sure!{BREAK}Thank you, I'm very grateful for this."
+SAY "{VOICE=03}Ah, è proprio questa!{BREAK}Grazie, te ne sono molto grato."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}And now about the monster that{BREAK}has the Dragon's Tears..."
+SAY "{VOICE=03}E ora, riguardo al mostro che{BREAK}possiede le Lacrime di drago..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}HRUMMMM! KAAAAAAAAH!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Hmm... Is this water?{BREAK}I can see vast waters..."
+SAY "{VOICE=03}Hmm... È acqua?{BREAK}Vedo una distesa d'acqua..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Yes, yes, it's clear to me...{BREAK}there's a cave by the coast..."
+SAY "{VOICE=03}Sì, sì, ora mi è chiaro...{BREAK}c'è una grotta vicino alla costa..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Oh my... is that... 3 legs...?{BREAK}I can see 3 wiggling legs!"
+SAY "{VOICE=03}Oh cielo... sono... 3 zampe...?{BREAK}Vedo tre zampe che si agitano!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Hmm... Sorry I can't help any further.{BREAK}I'll leave the rest up to you again."
+SAY "{VOICE=03}Hmm... Mi dispiace, non posso aiutarti oltre.{BREAK}Lascio di nuovo il resto a te."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3847,16 +3847,16 @@ JMP_REL L_ef4c
 L_ef4c:
 JMP_ABS 0xc L_ef58
 L_ef58:
-SAY "{VOICE=03}Is that so? Then please{BREAK}hurry and fetch me one."
+SAY "{VOICE=03}È così? Allora ti prego,{BREAK}fa' presto a portarmene una."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}According to my foresight, the monster{BREAK}who holds the Vivifying Flame..."
+SAY "{VOICE=03}Secondo la mia premonizione, il mostro{BREAK}che possiede la Fiamma vivificante..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}...is a monster with a burning red tail{BREAK}above the clouds, with a fierce neigh."
+SAY "{VOICE=03}...è un mostro con una coda rossa e fiammeggiante{BREAK}sopra le nuvole, dal nitrito feroce."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}There are not many who hold it,{BREAK}so please keep trying until you get one."
+SAY "{VOICE=03}Non sono in molti a possederla,{BREAK}quindi continua a cercare finché non ne trovi una."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3870,7 +3870,7 @@ CMP_EQ 0x18 0x0 0x42c20000 0x2 0x3f800000
 JMP_IFNOT 0xc L_f7e0
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Hello again, {NAME}.{BREAK}Did you manage get the Dragon's Tears?{VOICE=09}"
+SAY "{VOICE=03}Ciao di nuovo, {NAME}.{BREAK}Sei riuscito a trovare le Lacrime di drago?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -3882,13 +3882,13 @@ SYS_74 0x8
 STORE 0x18 0x0 0x42c00000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42c00000 0x2 0x0
 JMP_IFNOT 0xc L_f34c
-SAY "{VOICE=03}Huh? It seems you have yet{BREAK}to find one, {NAME}."
+SAY "{VOICE=03}Cosa? Non ne hai ancora trovata{BREAK}una, {NAME}."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}According to my foresight, the{BREAK}monster who holds the Dragon's Tears..."
+SAY "{VOICE=03}Secondo la mia premonizione, il{BREAK}mostro che possiede le Lacrime di drago..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}...is a monster with 3 legs, that wiggles,{BREAK}and lives in a cave by the coast."
+SAY "{VOICE=03}...è un mostro con 3 zampe che si agita,{BREAK}e vive in una grotta vicino alla costa."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3900,7 +3900,7 @@ JMP_ABS 0xc L_f360
 L_f360:
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} handed the Dragon's{BREAK}Tears to the elder!"
+SAY "{COLOR=2}{NAME} ha consegnato le{BREAK}Lacrime di drago all'anziano!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3912,22 +3912,22 @@ STORE 0x18 0x1 0x3f800000 0x2 0xbf800000
 SYS_73 0x8 
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Brilliant, this is most certainly the{BREAK}Dragon's Tears. Thank you again."
+SAY "{VOICE=03}Magnifico, queste sono senza dubbio le{BREAK}Lacrime di drago. Grazie ancora."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}And now about the monster that{BREAK}has the final item, the Time Crystal."
+SAY "{VOICE=03}E ora, riguardo al mostro che{BREAK}possiede l'ultimo oggetto, il Cristallo del tempo."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}HRUMMMM! KAAAAAAAAH!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}I see a sinister dungeon...{BREAK}...located deep in the demon world..."
+SAY "{VOICE=03}Vedo una prigione sinistra...{BREAK}...situata nelle profondità del mondo dei demoni..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}...very deep in the demon world...{BREAK}Oh, I can see a spinning gear!"
+SAY "{VOICE=03}...molto in profondità nel mondo dei demoni...{BREAK}Oh, vedo un ingranaggio che gira!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Sorry. That's all that I know.{BREAK}Seems the rest is up to you again."
+SAY "{VOICE=03}Mi dispiace. È tutto ciò che so.{BREAK}Sembra che il resto spetti ancora a te."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3939,13 +3939,13 @@ JMP_REL L_f6a8
 L_f6a8:
 JMP_ABS 0xc L_f6b4
 L_f6b4:
-SAY "{VOICE=03}Is that so? Then please{BREAK}hurry and fetch me one."
+SAY "{VOICE=03}È così? Allora ti prego,{BREAK}fa' presto a portarmene uno."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}According to my foresight, the{BREAK}monster who holds the Dragon's Tears..."
+SAY "{VOICE=03}Secondo la mia premonizione, il{BREAK}mostro che possiede le Lacrime di drago..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}...is a monster with 3 legs, that wiggles,{BREAK}and lives in a cave by the coast."
+SAY "{VOICE=03}...è un mostro con 3 zampe che si agita,{BREAK}e vive in una grotta vicino alla costa."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3957,7 +3957,7 @@ CMP_EQ 0x18 0x0 0x42c20000 0x2 0x40000000
 JMP_IFNOT 0xc L_ffbc
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}You're back, {NAME}.{BREAK}Did you manage to get the Time Crystal?{VOICE=09}"
+SAY "{VOICE=03}Sei tornato, {NAME}.{BREAK}Sei riuscito a trovare il Cristallo del tempo?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -3969,13 +3969,13 @@ SYS_74 0x8
 STORE 0x18 0x0 0x42c00000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42c00000 0x2 0x0
 JMP_IFNOT 0xc L_fa34
-SAY "{VOICE=03}Huh? It seems you have yet{BREAK}to find one, {NAME}."
+SAY "{VOICE=03}Cosa? Non ne hai ancora trovata{BREAK}una, {NAME}."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}According to my foresight,{BREAK}the one with the Time Crystal..."
+SAY "{VOICE=03}Secondo la mia premonizione,{BREAK}colui che possiede il Cristallo del tempo..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Is a monster with spinning gears,{BREAK}located deep inside demon world..."
+SAY "{VOICE=03}È un mostro con ingranaggi rotanti,{BREAK}situato nel profondo del mondo dei demoni..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3987,7 +3987,7 @@ JMP_ABS 0xc L_fa48
 L_fa48:
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} handed the Time{BREAK}Crystal to the elder!"
+SAY "{COLOR=2}{NAME} ha consegnato il{BREAK}Cristallo del tempo all'anziano!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4005,13 +4005,13 @@ STORE 0x18 0x1 0x3f800000 0x2 0x0
 SYS_2A 0x8 
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Amazing! this is the last piece{BREAK}of the puzzle! Thank you."
+SAY "{VOICE=03}Incredibile! Questo è l'ultimo pezzo{BREAK}del puzzle! Grazie."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Now I have all the materials{BREAK}to craft the sainted soma!"
+SAY "{VOICE=03}Ora ho tutti i materiali{BREAK}per preparare la Soma benedetta!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}I will hurry and synthesize it so{BREAK}we can give it to the Incarnus!"
+SAY "{VOICE=03}Farò in fretta a sintetizzarla, così{BREAK}potremo darla agli Incarnus!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4046,13 +4046,13 @@ JMP_REL L_fe80
 L_fe80:
 JMP_ABS 0xc L_fe8c
 L_fe8c:
-SAY "{VOICE=03}Is that so? Then please take care{BREAK}with this one..."
+SAY "{VOICE=03}È così? Allora fai attenzione{BREAK}con questo..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}According to my foresight,{BREAK}the one with the Time Crystal..."
+SAY "{VOICE=03}Secondo la mia premonizione,{BREAK}colui che possiede il Cristallo del tempo..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Is a monster with spinning gears,{BREAK}located deep inside demon world..."
+SAY "{VOICE=03}È un mostro con ingranaggi rotanti,{BREAK}situato nel profondo del mondo dei demoni..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4107,19 +4107,19 @@ CMP_EQ 0x18 0x0 0x42b40000 0x2 0x0
 JMP_IFNOT 0xc L_10444
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}The duty of the Incarnus is to seal{BREAK}monsters inside the dark world."
+SAY "{VOICE=03}Il compito degli Incarnus è sigillare{BREAK}i mostri nel mondo oscuro."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Our uninvited guest who escaped{BREAK}from there is called Baboorood."
+SAY "{VOICE=03}Il nostro Ospite indesiderato, fuggito{BREAK}da lì, si chiama Baboorood."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Phew. Anyways, that has taken{BREAK}a lot out of me than I thought."
+SAY "{VOICE=03}Uff. Comunque, tutto questo mi ha stancato{BREAK}più di quanto pensassi."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}It is proof of the devastation{BREAK}that Baboorood has brought upon us."
+SAY "{VOICE=03}È la prova della devastazione{BREAK}che Baboorood ha portato su di noi."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}I'm counting on you, {NAME}.{BREAK}Please defeat him before it's too late."
+SAY "{VOICE=03}Conto su di te, {NAME}.{BREAK}Sconfiggilo prima che sia troppo tardi."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4134,13 +4134,13 @@ JMP_ABS 0xc L_10458
 L_10458:
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Phew. Anyway that has taken a lot{BREAK}out of me than I thought."
+SAY "{VOICE=03}Uff. Comunque, tutto questo mi ha stancato{BREAK}più di quanto pensassi."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}It is proof of the devestation{BREAK}that Baboorood has wrought on the holy land."
+SAY "{VOICE=03}È la prova della devastazione{BREAK}che Baboorood ha causato nella terra sacra."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}I'm counting on you, {NAME}.{BREAK}Please defeat him before it's too late."
+SAY "{VOICE=03}Conto su di te, {NAME}.{BREAK}Sconfiggilo prima che sia troppo tardi."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4193,16 +4193,16 @@ CMP_EQ 0x18 0x0 0x42b40000 0x2 0x0
 JMP_IFNOT 0xc L_10a44
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}{NAME}.{BREAK}Please take care of Tiko."
+SAY "{VOICE=03}{NAME}.{BREAK}Prenditi cura di Tiko."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}She'll be gone if you{BREAK}synthesise her, so don't do that..."
+SAY "{VOICE=03}Scomparirà se la{BREAK}sintetizzi, quindi non farlo..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}How about checking out the{BREAK}Blanc Palace rooftop now?"
+SAY "{VOICE=03}Che ne dici di controllare ora il{BREAK}tetto del Palazzo Blanc?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}They'll have finished the{BREAK}Endless Battle and Ultimate Scout Arena."
+SAY "{VOICE=03}Avranno terminato la{BREAK}Battaglia infinita e l'Arena Scout Suprema."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4214,10 +4214,10 @@ JMP_ABS 0xc L_10a58
 L_10a58:
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}{NAME}.{BREAK}Please take care of Tiko."
+SAY "{VOICE=03}{NAME}.{BREAK}Prenditi cura di Tiko."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}She'll be lost if you{BREAK}synthesise her, so please watch out."
+SAY "{VOICE=03}Scomparirà se la{BREAK}sintetizzi, quindi fai attenzione."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4233,13 +4233,13 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x40000000
 JMP_IFNOT 0xc L_10cdc
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Leokid's pretty good,{BREAK}But I'm not gonna lose to Kukri!"
+SAY "{VOICE=08}Leonix è davvero forte,{BREAK}ma non perderò contro Kukri!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Okay, let's go, {NAME}!{BREAK}To the uninvited guest in the holy land!"
+SAY "{VOICE=08}D'accordo, andiamo, {NAME}!{BREAK}Verso l'Ospite indesiderato nella terra sacra!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}So first, leave town on the south road.{BREAK}I'll tell you the way from there!"
+SAY "{VOICE=08}Per prima cosa, esci dalla città dalla strada sud.{BREAK}Da lì ti mostrerò la strada!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4249,13 +4249,13 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x40800000
 JMP_IFNOT 0xc L_10e50
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Okay, let's go, {NAME}!{BREAK}To the uninvited guest in the holy land!"
+SAY "{VOICE=08}D'accordo, andiamo, {NAME}!{BREAK}Verso l'Ospite indesiderato nella terra sacra!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}While walking across the floating islands,{BREAK}if we continue up, we'll reach the holy land."
+SAY "{VOICE=08}Attraversando le isole fluttuanti,{BREAK}se continui a salire raggiungeremo la terra sacra."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}So first leave town and keep{BREAK}straight on the road."
+SAY "{VOICE=08}Per prima cosa esci dalla città e{BREAK}prosegui dritto sulla strada."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4265,13 +4265,13 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x40c00000
 JMP_IFNOT 0xc L_10fa8
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Kukri's an idiot to ignore such an{BREAK}important, divine beast as the Incarnus."
+SAY "{VOICE=08}Kukri è un'idiota a ignorare una{BREAK}bestia divina e importante come l'Incarnus."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Anyway, before we go and{BREAK}defeat that horrible uninvited guest,"
+SAY "{VOICE=08}Comunque, prima di andare a{BREAK}sconfiggere quell'orribile Ospite indesiderato,"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}We need to focus our attention on{BREAK}restoring the Incarnus back to health!"
+SAY "{VOICE=08}dobbiamo concentrarci sul{BREAK}far tornare in salute l'Incarnus!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4281,13 +4281,13 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x40e00000
 JMP_IFNOT 0xc L_1110c
 SYS_42 0x8 
 SETNAME "TIko"
-SAY "{VOICE=08}This is the first time I've{BREAK}heard the term 'monster scout',"
+SAY "{VOICE=08}È la prima volta che{BREAK}sento il termine "Monster Scout","
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}But to be relied on by the Incarnus,{BREAK}you must be amazing, {NAME}!"
+SAY "{VOICE=08}Ma per essere degno della fiducia dell'Incarnus{BREAK}devi essere incredibile, {NAME}!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}I guess my eyes were spot on!{BREAK}Okay, let's go to the barrier!"
+SAY "{VOICE=08}I miei occhi ci avevano visto giusto!{BREAK}D'accordo, andiamo alla barriera!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4297,13 +4297,13 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x41000000
 JMP_IFNOT 0xc L_11268
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}The barrier has been broken{BREAK}thanks to the Incarnus."
+SAY "{VOICE=08}La barriera è stata spezzata{BREAK}grazie all'Incarnus."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Let's hurry towards Blanc Palace,{BREAK}the holy land where Baboorood is."
+SAY "{VOICE=08}Affrettiamoci verso Palazzo Blanc,{BREAK}la terra sacra dove si trova Baboorood."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}We're gonna lose the trail{BREAK}of that Leoynx who went ahead!"
+SAY "{VOICE=08}Perderemo le tracce di quel{BREAK}Leonix che è andato avanti!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4324,10 +4324,10 @@ JMP_IFNOT 0xc L_113f0
 L_11304:
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}We've finally arrived at our holy{BREAK}land, Blanc Palace."
+SAY "{VOICE=08}Siamo finalmente arrivati nella nostra terra{BREAK}sacra, Palazzo Blanc."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}The final battle with Baboorood{BREAK}awaits! Just one final push, {NAME}!"
+SAY "{VOICE=08}Ci attende la battaglia finale con Baboorood!{BREAK}Ancora un ultimo sforzo, {NAME}!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4342,19 +4342,19 @@ CMP_EQ 0x18 0x0 0x42b40000 0x2 0x0
 JMP_IFNOT 0xc L_116a0
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Oh! Welcome back, {NAME}!{BREAK}We've all been waiting for you!"
+SAY "{VOICE=08}Oh! Bentornato, {NAME}!{BREAK}Ti stavamo aspettando tutti!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Since you beat Baboorood, I've{BREAK}won the match against Kukri!"
+SAY "{VOICE=08}Da quando hai sconfitto Baboorood,{BREAK}ho vinto la sfida contro Kukri!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}When I scouted you on the surface,{BREAK}I didn't know what to think..."
+SAY "{VOICE=08}Quando ti ho reclutato in superficie,{BREAK}non sapevo cosa pensare..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}But you turned out surprisingly strong!{BREAK}Thanks for everything, {NAME}!"
+SAY "{VOICE=08}Ma si è scoperto che sei sorprendentemente forte!{BREAK}Grazie di tutto, {NAME}!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}'Kay, let's speak to the elder.{BREAK}I'm sure he'll reward you."
+SAY "{VOICE=08}Bene, parliamo con l'anziano.{BREAK}Sono sicura che ti ricompenserà."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4369,13 +4369,13 @@ JMP_ABS 0xc L_116b4
 L_116b4:
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}I didn't know what to think{BREAK}when I scouted you on the surface."
+SAY "{VOICE=08}Non sapevo cosa pensare{BREAK}quando ti ho reclutato in superficie."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}But you turned out surprisingly{BREAK}strong! Thanks for everything, {NAME}!"
+SAY "{VOICE=08}Ma si è scoperto che sei sorprendentemente{BREAK}forte! Grazie di tutto, {NAME}!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}'Kay, let's ask the elder.{BREAK}I'm sure he'll reward you."
+SAY "{VOICE=08}Bene, chiediamo all'anziano.{BREAK}Sono sicura che ti ricompenserà."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4387,7 +4387,7 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x41e80000
 JMP_IFNOT 0xc L_11db4
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}'Kay, {NAME}!{BREAK}Will you scout me?{VOICE=09}"
+SAY "{VOICE=08}Bene, {NAME}!{BREAK}Vuoi reclutarmi?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -4404,17 +4404,17 @@ SYS_2A 0x8
 STORE 0x18 0x1 0x0 0x0 0x42b00000
 STORE 0x18 0x1 0x3f800000 0x2 0x43470000
 SYS_4C 0x8 
-SAY "{VOICE=08}Yay! Now I can become one{BREAK}of your party too!"
+SAY "{VOICE=08}Evviva! Ora posso entrare anch'io{BREAK}nel tuo gruppo!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Tiko the Pipit joined!"
+SAY "{COLOR=2}Tiko, il Pipit, si è unito!"
 STORE 0x18 0x1 0x0 0x2 0x42780000
 SYS_A5 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{VOICE=08}You can call me what you want{BREAK}now. It's up to you, {NAME}!"
+SAY "{VOICE=08}Ora puoi chiamarmi come vuoi.{BREAK}Dipende da te, {NAME}!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4443,10 +4443,10 @@ JMP_REL L_11c18
 L_11c18:
 JMP_ABS 0xc L_11c24
 L_11c24:
-SAY "{VOICE=08}Ahh! That answer makes me happy,{BREAK}but you have no space left."
+SAY "{VOICE=08}Ah! Mi fa piacere che tu abbia risposto così,{BREAK}ma non hai più spazio."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Come back when you do, 'kay?{BREAK}I'll be waiting right here!"
+SAY "{VOICE=08}Torna quando ne avrai, d'accordo?{BREAK}Ti aspetterò proprio qui!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4461,7 +4461,7 @@ L_11d18:
 STORE 0x18 0x1 0x0 0x0 0x42b00000
 STORE 0x18 0x1 0x3f800000 0x2 0x43460000
 SYS_4C 0x8 
-SAY "{VOICE=08}No way... And we could've had{BREAK}so much fun..."
+SAY "{VOICE=08}Non è possibile... Avremmo potuto{BREAK}divertirci così tanto..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4477,13 +4477,13 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x40e00000
 JMP_IFNOT 0xc L_11f64
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}You remind me of someone I once knew.{BREAK}Someone I used to travel with long ago."
+SAY "{VOICE=07}Mi ricordi qualcuno che conoscevo.{BREAK}Qualcuno con cui viaggiavo tanto tempo fa."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}It is very clear to me that{BREAK}you are indeed a monster scout."
+SAY "{VOICE=07}Per me è chiarissimo che{BREAK}sei davvero un reclutatore di mostri."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Now, let us head to the barrier{BREAK}Baboorood erected. I can break it now."
+SAY "{VOICE=07}Ora andiamo alla barriera eretta da{BREAK}Baboorood. Adesso posso distruggerla."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4497,13 +4497,13 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x41e00000
 JMP_IFNOT 0xc L_120f4
 SYS_42 0x8 
 SETNAME "Kukri"
-SAY "{VOICE=08}I can't believe you actually{BREAK}defeated that stupid monkey..."
+SAY "{VOICE=08}Non posso credere che tu abbia davvero{BREAK}sconfitto quella stupida scimmia..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Well, don't I look like a fool for{BREAK}running away in the face of danger!"
+SAY "{VOICE=08}E io che scappavo di fronte al pericolo!{BREAK}Che figura da sciocco..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}And now the next elder will{BREAK}be Tiko. Awww."
+SAY "{VOICE=08}E ora il prossimo anziano sarà{BREAK}Tiko. Awww."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4513,10 +4513,10 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x41e80000
 JMP_IFNOT 0xc L_12214
 SYS_42 0x8 
 SETNAME "Kukri"
-SAY "{VOICE=08}What!? If Tiko won't be the next{BREAK}next elder, then it's gotta be me, right!?"
+SAY "{VOICE=08}Cosa!? Se Tiko non sarà il prossimo{BREAK}anziano, allora toccherà a me, giusto!?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}I thought I'd be able work everyone{BREAK}hard. That elder's so stubborn!"
+SAY "{VOICE=08}Pensavo che avrei potuto far lavorare sodo tutti.{BREAK}Quell'anziano è così testardo!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4559,12 +4559,12 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x40c00000
 JMP_IFNOT 0xc L_12480
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Huff... Puff..."
+SAY "{VOICE=07}Anf... Anf..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}The Incarnus is exhausted."
+SAY "{COLOR=2}L'Incarnus è esausto."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4579,10 +4579,10 @@ SYS_49 0x8
 STORE 0x18 0x1 0x0 0x2 0x41200000
 SYS_AD 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}It's a book called 'Priest Potionpedia'.{BREAK}{NAME} starts to read..."
+SAY "{COLOR=2}C'è un libro intitolato 'L'enciclopedia delle pozioni del sacerdote'.{BREAK}{NAME} inizia a leggerlo..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}But {NAME} cannot read the ancient script in which it is written."
+SAY "{COLOR=2}Ma {NAME} non sa leggere l'antico idioma in cui è scritto."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4595,16 +4595,16 @@ SYS_49 0x8
 STORE 0x18 0x1 0x0 0x2 0x41300000
 SYS_AD 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}It's a book called 'Cradletree'.{BREAK}{NAME} starts to read..."
+SAY "{COLOR=2}C'è un libro intitolato 'Albero culla'.{BREAK}{NAME} inizia a leggerlo..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}'A great tree once stood in this{BREAK}world, gently embracing all things.'"
+SAY "{COLOR=2}'Un tempo in questo mondo c'era un albero gigantesco,{BREAK}che abbracciava dolcemente ogni cosa.'"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}'People built their lives beside it,{BREAK}living in peace and plenty.'"
+SAY "{COLOR=2}'Le persone costruirono le loro vite accanto a esso,{BREAK}vivendo in pace e prosperità.'"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}'Within its cradle-like warmth, it's{BREAK}said countless lives were born.'"
+SAY "{COLOR=2}'Si dice che nel suo tepore simile a una culla{BREAK}siano nate innumerevoli vite.'"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4617,15 +4617,15 @@ SYS_49 0x8
 STORE 0x18 0x1 0x0 0x2 0x41400000
 SYS_AD 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}It's a book called 'Elders Fusion{BREAK}Diary'. {NAME} starts to read..."
+SAY "{COLOR=2}C'è un libro intitolato 'Diario della sintesi{BREAK}degli anziani'. {NAME} inizia a leggerlo..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}'It's been troubling times recently,{BREAK}I've forgotten lots of things.'"
+SAY "{COLOR=2}'Ultimamente sono tempi difficili,{BREAK}e ho dimenticato molte cose.'"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 CMP_LT 0x18 0x0 0x42a60000 0x2 0x41e00000
 JMP_IFNOT 0xc L_12968
-SAY "{COLOR=2}'Just what happens when you synthesise{BREAK}a Buffalogre and a Mandrake Marshal?'"
+SAY "{COLOR=2}'Che cosa succede sintetizzando{BREAK}un Bufalorco e una Mandragola soldato?'"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_12ab8
@@ -4634,13 +4634,13 @@ JMP_REL L_12970
 L_12970:
 JMP_ABS 0xc L_1297c
 L_1297c:
-SAY "{COLOR=2}'Just what happens when you synthesise{BREAK}a Buffalogre and a Mandrake Marshal?'"
+SAY "{COLOR=2}'Che cosa succede sintetizzando{BREAK}un Bufalorco e una Mandragola soldato?'"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}'Wait, or did I forget the result{BREAK}of a Hyperanemon and a Kapurigon!'"
+SAY "{COLOR=2}'Aspetta, o ho dimenticato il risultato{BREAK}di un Hyperanemon e un Kapurigon!'"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}'I feel like something incredible{BREAK}would result. I really am getting old.'"
+SAY "{COLOR=2}'Ho la sensazione che ne uscirebbe qualcosa di incredibile.{BREAK}Sto proprio invecchiando.'"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_12ab8

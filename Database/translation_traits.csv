@@ -1,0 +1,248 @@
+id,english,italian
+0,None,Nessuna
+1,Dodger,Evasione totale
+2,Metal Body,Corpo metallico
+3,Psycho,Carica super
+4,Double Trouble,Raddoppio mostruoso
+5,Critical Massacre,Mitico critico
+6,Metal Beater,Battimetallo
+7,Fly Swatter,Centro perfetto
+8,Last Word,Ultimatum
+9,Early Bird,Prima e meglio
+10,Counterstriker,Contrattaccante
+11,Poisonous,Venenum
+12,Paralysing,Paralys
+13,Escape Artist,Fuga da maestro
+14,Steady Recovery,Autoguarigione
+15,Magic Regenerator,Rigenerazione magica
+16,Health Professional,Recupera & risparmia
+17,Frizz Master,Guru della Fiamma
+18,Bang Master,Guru del Bang
+19,Woosh Master,Guru del Vento
+20,Crack Master,Guru del Gelo
+21,Zap Master,Guru del Fulmine
+22,Zam Master,Guru dell'Elektron
+23,Desperado,Desperado
+24,Ambusher,Agguato esperto
+25,Magic Miser,Salvamagia
+26,Magic Scrooge,Risparmio magico
+27,Weapon Master,Maestro d'armi
+28,Big Hitter,Danno grave
+29,Grand Slammer,Super Slam
+30,Hit Squad,Attacco multiplo
+31,Giant Killer,Ammazzagiganti
+32,Small Killer,Ammazzastandard
+33,ParaTouch,Tocco paralizzante
+34,PoisonTouch,Tocco velenoso
+35,ConfTouch,Tocco confusivo
+36,SleepTouch,Tocco soporifero
+37,Comeback Kid,Ritorno a sorpresa
+38,Alluring,Fascino strano
+39,Coward,Codardo
+40,Lucky,Fortunato
+41,Unlucky,Sfortunato
+42,Rabble Rouser,Alta tensione
+43,Heckling Hector,Bassa tensione
+44,Bouncer,Riflessione prolungata
+45,Counter Act,Anticontrattaccante
+46,Hope Hitter,Estremi opposti
+47,Close Scraper,Salvezza stentata
+48,Perilous Parrier,Danni sorprendenti
+49,Gambling Counters,Contro Azzardato
+50,Tension Downer,Brontolone
+51,Talent Scout,Cacciatalenti
+52,Fast Learner,Esperienza premiante
+53,Gold Getter,Tocco di Mida
+54,Lootist,Oggetti ritrovati
+55,Late Riser,Sveglia ritardata
+56,Loose Cannon,Gran confusione
+57,Rival Riler,Tensione pericolosa
+58,Disenchanted,Magia evanescente
+59,T59,Guardia critica totale
+60,Spell Splurger,Cari incantesimi
+61,Attallergic,Attacchi da panico
+62,Rolling Over,Rigirarsi nel sonno
+63,T63,Statico
+64,Berserker,Furioso
+65,T65,Spirito indomito
+66,Metal Killer,Ammazza Metallo
+67,T67,Ruba magia
+68,Drain Magic Attack,PickMagic
+69,Deadly Touch,Ala della morte
+70,Sizz Master,Guru del Pyro
+71,Scare Stare,Gardameh
+72,Imposing,Presenza ingombrante
+73,Intimidating,Intimidazione
+74,Timid,Timidezza
+75,Foot Dragger,Pigrizia
+76,1-2 Attk,Soldato tattico
+77,1-3 Attk,Genio tattico
+78,Pro Talent Scout,Grande Cacciatalenti
+79,HP Gamble,Roulette dei PV
+80,MP Gamble,Roulette del PM
+81,Atk Gamble,Roulette dell'ATT
+82,Def Gamble,Roulette del DIF
+83,Agi Gamble,Roulette dell'AGI
+84,Wis Gamble,Roulette dell'INT
+85,HP Bubble,Azzardo PV
+86,MP Bubble,Azzardo PM
+87,Demagic,Onda distruttrice
+88,Light wave,Onda di sollievo
+89,Scout % +,Genio dei talenti
+90,Frizz Break,Astuzia della Fiamma
+91,Bang Break,Astuzia del Bang
+92,Woosh Break,Astuzia del Vento
+93,Crack Break,Astuzia del Gelo
+94,Zap Break,Astuzia del Fulmine
+95,Zam Break,Astuzia dell'Elektron
+96,Hand-to-hand Seal Break,Astuzia dell'Abilitatore
+97,Slashing Seal Break,Astuzia del Bloccacolpi
+98,Flame Breath Break,Astuzia del Respiro di fuoco
+99,Blizzard Breath Break,Astuzia del Respiro ghiacciato
+100,Whack Break,Astuzia della Morte rapida
+101,Dazzle Break,Astuzia della Danzaluce
+102,Poison Break,Astuzia del Veleno
+103,Drain Magic Break,Astuzia del PickMagic
+104,Kafizzle Break,Astuzia dello Spruzzo
+105,Breath Seal Break,Astuzia del Blocca-K.O.
+106,Dance Seal Break,Astuzia della Danza proibita
+107,Confusion Break,Astuzia del Confusore
+108,T108 Break,Astuzia dell'Inazione
+109,Paralysis Break,Astuzia del Paralizzante
+110,Sleep Break,Astuzia del Sonnolento
+111,Sag Break,Astuzia del Debilis
+112,Sap Break,Astuzia dell'Indebolente
+113,Decelerate Break,Astuzia del Velocimeno
+114,Fool Break,Astuzia dello Stoopid
+115,T115 Break,Astuzia del Sabotamagie
+116,Sizz Break,Astuzia del Pyro
+117,T117 Break,Astuzia della Gravitas
+118,All Guard Break,Astuzia del Diavolo
+119,2-3 attk,IA　2-3 azioni
+120,0-4 attk,IA　0-4 azioni
+121,Light Metal,Corpo Metallico Leggero
+122,Hard Metal,Corpo Metallico Duro
+123,Sudden Attk,Ooomph immediato
+124,Sudden Def,Superdifesa immediata
+125,Sudden Agi,Velocipiù immediato
+126,Sudden Tension,Tensione immediata
+127,Sudden Mist,Malocchio immediato
+128,HP+5,PV max +5
+129,HP+10,PV max +10
+130,HP+15,PV max +15
+131,HP+20,PV max +20
+132,HP+22,PV max +22
+133,HP+24,PV max +24
+134,HP+26,PV max +26
+135,HP+28,PV max +28
+136,HP+30,PV max +30
+137,HP+35,PV max +35
+138,MP+5,PM max +5
+139,MP+10,PM max +10
+140,MP+15,PM max +15
+141,MP+20,PM max +20
+142,MP+22,PM max +22
+143,MP+24,PM max +24
+144,MP+26,PM max +26
+145,MP+28,PM max +28
+146,MP+30,PM max +30
+147,MP+35,PM max +35
+148,Atk+3,ATT +3
+149,Atk+5,ATT +5
+150,Atk+10,ATT +10
+151,Atk+12,ATT +12
+152,Atk+15,ATT +15
+153,Atk+18,ATT +18
+154,Atk+21,ATT +21
+155,Atk+24,ATT +24
+156,Atk+27,ATT +27
+157,Atk+30,ATT +30
+158,Def+3,DIF +3
+159,Def+5,DIF +5
+160,Def+10,DIF +10
+161,Def+12,DIF +12
+162,Def+15,DIF +15
+163,Def+18,DIF +18
+164,Def+21,DIF +21
+165,Def+24,DIF +24
+166,Def+27,DIF +27
+167,Def+30,DIF +30
+168,Agi+3,AGI +3
+169,Agi+5,AGI +5
+170,Agi+10,AGI +10
+171,Agi+12,AGI +12
+172,Agi+15,AGI +15
+173,Agi+18,AGI +18
+174,Agi+21,AGI +21
+175,Agi+24,AGI +24
+176,Agi+27,AGI +27
+177,Agi+30,AGI +30
+178,Wis+3,INT +3
+179,Wis+5,INT +5
+180,Wis+10,INT +10
+181,Wis+12,INT +12
+182,Wis+15,INT +15
+183,Wis+18,INT +18
+184,Wis+21,INT +21
+185,Wis+24,INT +24
+186,Wis+27,INT +27
+187,Wis+30,INT +30
+188,Sudden Wis Up,Intellygo immediato
+189,Sudden Brake Wind,Vento frenante immediato
+190,Sudden Kafizzle,Spruzzo supremo immediato
+191,Occ{00}{00} Wis Up,Intellygo casuale
+192,Occ{00}{00} Brake wind,Vento frenante casuale
+193,Occ{00}{00} Kafizzle,Spruzzo supremo casuale
+194,Rarely High Tension,Tensione casuale
+195,Rarely Magic Barrier,Barriera magica casuale
+196,Rarely Mist Me,Nebbiamica casuale
+201,Frizz Guard + ,Para-Fiamma
+202,Bang Guard +,Para-Bang
+203,Woosh Guard +,Para-Vento
+204,Crack Guard +,Para-Gelo
+205,Zap Guard +,Para-Fulmine
+206,Zam Guard +,Para-Elektron
+207,Abiliterator Guard +,Para-Abilitatore
+208,Sizz Guard +,Para-Pyro
+209,Blade Blunter Guard +,Para-Bloccacolpi
+210,T210 Guard +,Para-Gravitas
+211,Fire Breath Guard +,Para-Respiro di fuoco
+212,Ice Breath Guard +,Para-Respiro ghiacciato
+213,Whack Guard +,Para-K.O.
+214,Dazzle Guard +,Para-Danzaluce
+215,Poison Guard +,Para-Veleno
+216,Drain Magic Guard +,Para-PickMagic
+217,Kafizzle Guard +,Para-Spruzzo
+218,Gobstopper Guard +,Para-Blocca-K.O.
+219,Ban Dance Guard +,Para-Danza proibita
+220,Confusion Guard +,Para-Confusione
+221,Inaction Guard +,Para-Inazione
+222,Paralysis Guard +,Para-Paralisi
+223,Sleep Guard +,Para-Sonno
+224,Sag Guard +,Para-Debilis
+225,Sap Guard +,Para-Indebolente
+226,Decelerate Guard +,Para-Velocimeno
+227,Dim Guard +,Para-Stoopid
+228,T228 Guard +,Para-Sabotamagie
+229,Mega 2-3 attk,2-3 azioni
+230,Mega 2 attk,2 azioni
+231,Mega 1-3 attk,1-3 azioni
+232,Mega 0-4 attk,0-4 azioni
+233,Mega 1-2 attk,1-2 azioni
+234,T234,Soddisfazione magica
+235,T235 - Satisfied by Death,Soddisfazione suicida
+236,SuddenT236,Nebbia degli inferi immediata
+237,Sudden Seal Break,Rompipersigilli immediato
+238,Giga 2-3 attk,2-3 azioni
+239,Giga 2 attk,2 azioni
+240,Giga 1-3 attk,1-3 azioni
+241,Giga 0-4 attk,0-4 azioni
+242,Giga 1-2 attk,1-2 azioni
+243,Occ{00}{00} Attk,Ooomph casuale
+244,Occ{00}{00} Def,Superdifesa casuale
+245,Occ{00}{00} Agi,Velocipiù casuale
+246,Occ{00}{00} Tension,Tensione casuale
+247,Occ{00}{00} Mist,Malocchio casuale
+248,Occ{00}{00} T248,Nebbia degli inferi casuale
+249,Occ{00}{00} Seal Break,Rompipersigilli casuale
+250,T250 Master,Guru della Gravitas

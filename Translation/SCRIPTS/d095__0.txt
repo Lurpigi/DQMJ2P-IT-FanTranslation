@@ -68,8 +68,8 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SETNAME "Leonyx"
-SAY "{VOICE=07}...Graaargh! An extraordinary performance!"
+SETNAME "Leonex"
+SAY "{VOICE=07}Groar... Una prestazione eccellente...!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -92,7 +92,7 @@ STORE 0x18 0x1 0x0 0x2 0x41200000
 SYS_A7 0x8 
 SYS_AC 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} obtained the War God's Plate!"
+SAY "{COLOR=2}{NAME} ha ottenuto la Piastra del dio della guerra!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -129,12 +129,12 @@ STORE 0x18 0x1 0x40000000 0x2 0x42200000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x42480000
 SYS_42 0x8 
-SETNAME "Leonyx"
-SAY "{VOICE=07}I have witnessed your power. Hmmm... Perhaps you are ready..."
+SETNAME "Leonex"
+SAY "{VOICE=07}{1F61}, dentro di te c'è un'immensa potenza... Forse sei pronto..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Leonyx"
-SAY "{VOICE=07}...Listen to me, {NAME}. I have a request to make of you."
+SETNAME "Leonex"
+SAY "{VOICE=07}Ho una richiesta da farti, {NAME}..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -153,12 +153,12 @@ STORE 0x18 0x1 0x40000000 0x2 0x41200000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SETNAME "Leonyx"
-SAY "{VOICE=07}This is all I desire - that wicked being that stained my soul with evil..."
+SETNAME "Leonex"
+SAY "{VOICE=07}Desidero che tu sconfigga l'essere che ha corrotto il mio spirito..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Leonyx"
-SAY "{VOICE=07}...Its name is Rigor Mortex. I want you to destroy it once and for all."
+SETNAME "Leonex"
+SAY "{VOICE=07}Voglio che tu lo elimini una volta per sempre. Il suo nome è Rigor Mortex."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -179,24 +179,24 @@ STORE 0x18 0x1 0x0 0x2 0x42b60000
 STORE 0x18 0x1 0x3f800000 0x2 0x43480000
 SYS_17 0x8 
 SYS_42 0x8 
-SETNAME "Leonyx"
-SAY "{VOICE=07}Rigor Mortex was a weapon foolish humans built to surpass my power."
+SETNAME "Leonex"
+SAY "{VOICE=07}Rigor Mortex è l'arma che gli umani costruirono per superarmi in potenza."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Leonyx"
-SAY "{VOICE=07}But those humans could not control their creation, and many lives were lost."
+SETNAME "Leonex"
+SAY "{VOICE=07}Rigor Mortex, però, sfuggì al controllo dei suoi creatori. Ci furono molti morti..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Leonyx"
-SAY "{VOICE=07}Rigor Mortex created its own magic realm where it now skulks...{WAIT}{CLEAR}...licking the wounds I inflicted upon it. "
+SETNAME "Leonex"
+SAY "{VOICE=07}Quell'orribile essere ha costruito un regno magico nel quale si è insediato...{WAIT}{CLEAR}Rigor Mortex si è ritirato nel suo mondo per leccarsi le ferite che gli avevo inferto..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Leonyx"
-SAY "{VOICE=07}If we leave it to its own demonic devices, it will surely return."
+SETNAME "Leonex"
+SAY "{VOICE=07}{1F2B} lo lasceremo libero di agire, non passerà molto prima che torni tra noi."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Leonyx"
-SAY "{VOICE=07}I will now open the door to its realm of illusion."
+SETNAME "Leonex"
+SAY "{VOICE=07}Adesso aprirò la porta che conduce nel suo mondo fatto di illusioni."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -400,8 +400,8 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x42700000
 SYS_42 0x8 
-SETNAME "Leonyx"
-SAY "{VOICE=07}Beyond lies the dark and twisted world where it lurks."
+SETNAME "Leonex"
+SAY "{VOICE=07}Oltre questa soglia inizia il mondo buio e malvagio dove dimora Rigor Mortex."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -418,12 +418,12 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43160000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SETNAME "Leonyx"
-SAY "{VOICE=07}I beg of you. Take up the gauntlet and destroy Rigor Mortex."
+SETNAME "Leonex"
+SAY "{VOICE=07}Affronta quell'essere malefico! Accetta la mia richiesta, te ne prego..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Leonyx"
-SAY "{VOICE=07}Do not quail. By defeating me, you have shown yourself worthy of this task."
+SETNAME "Leonex"
+SAY "{VOICE=07}Non fallirai: battendomi hai dimostrato di essere all'altezza del compito."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

@@ -58,28 +58,28 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41200000
 SYS_1F 0x8 
 WAIT 0x10 0x2 0x43200000
 SYS_42 0x8 
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}Listen well, laddie. It's up tae you tae find the missin' passengers."
+SETNAME "Meck Nick"
+SAY "{VOICE=07}Ascolta bene, ragazzo. Sta a te trovare i passeggeri scomparsi."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}Yer gonna haftae become a right professional! A real monster scout!"
+SETNAME "Meck Nick"
+SAY "{VOICE=07}Dovrai diventare un vero professionista! Un autentico Scout!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}This place'll be ripe with beasties ye've never seen."
+SETNAME "Meck Nick"
+SAY "{VOICE=07}Questo posto pullulerà di bestie che non hai mai visto."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}Full a' beasties stronger'n ye can believe."
+SETNAME "Meck Nick"
+SAY "{VOICE=07}Bestie molto più forti di quanto tu possa immaginare."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}But ye can't give up!"
+SETNAME "Meck Nick"
+SAY "{VOICE=07}Ma non puoi arrenderti!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}The path tae bein' a professional is tough."
+SETNAME "Meck Nick"
+SAY "{VOICE=07}La strada per diventare un professionista è dura."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x3f800000
@@ -89,12 +89,12 @@ WAIT 0x10 0x2 0x42380000
 STORE 0x18 0x1 0x0 0x0 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x2 0x428c0000
 SYS_18 0x8 
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}Right, laddie! Let's see if ye can match ol' Rory's pace. Follow me!"
+SETNAME "Meck Nick"
+SAY "{VOICE=07}Bene, ragazzo! Vediamo se riesci a tenere il passo del vecchio Meck Nick. Seguimi!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}If yer beasties get bruised or battered,{BREAK}jest head back tae the ship.{WAIT}{CLEAR}They'll be patched up and made right as rain!"
+SETNAME "Meck Nick"
+SAY "{VOICE=07}Se le tue bestie si fanno male,{BREAK}torna semplicemente alla nave.{WAIT}{CLEAR}Le rimetteremo in sesto in un attimo!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

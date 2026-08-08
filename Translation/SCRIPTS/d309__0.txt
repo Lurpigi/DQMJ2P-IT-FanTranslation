@@ -139,7 +139,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}We have arrived."
+SAY "{VOICE=07}Siamo arrivati."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -212,7 +212,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Stand back, I will now{BREAK}break the barrier."
+SAY "{VOICE=07}Fatti da parte, ora{BREAK}abbatterò la barriera."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x0
@@ -375,13 +375,13 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Okay, now we can go{BREAK}and find Baboorood."
+SAY "{VOICE=07}Bene, ora possiamo andare{BREAK}a cercare Baboorood."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Leokid"
-SAY "{VOICE=07}Ohh! Barrier's down!"
+SETNAME "Leonix"
+SAY "{VOICE=07}Oh! La barriera è caduta!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x3f800000
@@ -444,8 +444,8 @@ SYS_18 0x8
 STORE 0x18 0x1 0x0 0x2 0x44044000
 SYS_33 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Leokid"
-SAY "{VOICE=07}Well then, finally!{BREAK}Looks like I can continue on."
+SETNAME "Leonix"
+SAY "{VOICE=07}Finalmente!{BREAK}Ora posso proseguire."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -490,7 +490,7 @@ STORE 0x18 0x0 0x41300000 0x2 0x3f800000
 STORE 0x18 0x0 0x41700000 0x2 0x3f800000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Hey, you!{BREAK}You better say thank you!"
+SAY "{VOICE=08}Ehi, tu!{BREAK}Ringrazia almeno!"
 WAIT 0x10 0x2 0x42c80000
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -536,8 +536,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x433e0000
 SYS_18 0x8 
 STORE 0x18 0x0 0x41700000 0x2 0x3f800000
 SYS_42 0x8 
-SETNAME "Leokid"
-SAY "{VOICE=07}A thank you? If ya could've broke the{BREAK}barrier, ya should've done that first!"
+SETNAME "Leonix"
+SAY "{VOICE=07}Ringraziare? Se potevi abbattere la{BREAK}barriera, dovevi farlo subito!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -576,12 +576,12 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43780000
 SYS_18 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Leokid"
-SAY "{VOICE=07}But rather than that... YOU."
+SETNAME "Leonix"
+SAY "{VOICE=07}E invece hai aspettato... TU."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Leokid"
-SAY "{VOICE=07}Have ya no pride palin' around{BREAK}with a human?"
+SETNAME "Leonix"
+SAY "{VOICE=07}Non ti vergogni a girare{BREAK}insieme a un umano?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -595,7 +595,7 @@ WAIT 0x10 0x2 0x42700000
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Sigh. There's nothing wrong with{BREAK}hanging around humans."
+SAY "{VOICE=07}Uff. Non c'è niente di male{BREAK}a stare insieme agli umani."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -620,12 +620,12 @@ STORE 0x18 0x1 0x0 0x0 0x41000000
 STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_4E 0x8 
 SYS_42 0x8 
-SETNAME "Leokid"
-SAY "{VOICE=07}What'd you say?"
+SETNAME "Leonix"
+SAY "{VOICE=07}Che cosa hai detto?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Leokid"
-SAY "{VOICE=07}Ugh. Despite lookin' so regal an' all,{BREAK}you're really just a pathetic loser."
+SETNAME "Leonix"
+SAY "{VOICE=07}Ugh. Nonostante il tuo aspetto regale,{BREAK}sei solo un perdente patetico."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -661,7 +661,7 @@ SPAWN 0x10 L_416c
 DATA 0x0000000d
 SYS_42 0x8 
 SETNAME "Kukri"
-SAY "{VOICE=08}Ahh! Wait for me,{BREAK}Leokid!"
+SAY "{VOICE=08}Ah! Aspettami,{BREAK}Leonix!"
 WAIT 0x10 0x2 0x42f00000
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -716,7 +716,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43410000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}What is with that guy, {NAME}!{BREAK}We're NOT gonna lose to him!"
+SAY "{VOICE=08}Che problema ha quel tipo, {NAME}!{BREAK}NON perderemo contro di lui!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -749,11 +749,11 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}{NAME}. The presence of evil grows{BREAK}much stronger from here on out."
+SAY "{VOICE=07}{NAME}. La presenza del male diventa{BREAK}molto più forte da qui in poi."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}Let us take much care as we continue.{BREAK}I will be following after you."
+SAY "{VOICE=07}Procediamo con molta cautela.{BREAK}Ti seguirò."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

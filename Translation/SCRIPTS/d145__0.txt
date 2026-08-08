@@ -97,7 +97,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_18 0x8 
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SAY "{VOICE=07}...I-Is someone th-there!?"
+SAY "{VOICE=07}Chi è là?!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -139,8 +139,8 @@ STORE 0x18 0x1 0x40000000 0x2 0x41200000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}Hoots! It's the wee stowaway! I'm glad tae see yer still drawin' breath."
+SETNAME "Meck Nick"
+SAY "{VOICE=07}Guarda un po' chi c'è... Il clandestino! Per fortuna stai bene..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -197,20 +197,20 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}Yer lookin' right as rain, laddie. Let's thank the Goddess for small mercies."
+SETNAME "Meck Nick"
+SAY "{VOICE=07}{1F2B} fossi in te, ringrazierei la dea... T'è andata di lusso, sai?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}There's not a soul on board the ship and yer the first survivor I've foond."
+SETNAME "Meck Nick"
+SAY "{VOICE=07}Oltre te, non c'è anima viva sulla nave. Non ho visto nessuno dei passeggeri..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}Och, it's grand that we're alive, but we're still stuck in a big auld jungle."
+SETNAME "Meck Nick"
+SAY "{VOICE=07}Temo che non sarà facile uscire da questa dannata giungla..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}Now we jest need tae find the others."
+SETNAME "Meck Nick"
+SAY "{VOICE=07}Dobbiamo trovare gli altri."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -249,8 +249,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x40c00000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41c80000
 SYS_42 0x8 
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}Jings! What's happenin'!?"
+SETNAME "Meck Nick"
+SAY "{VOICE=07}Per tutti i bulloni! Che accidenti sta succedendo?!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -424,12 +424,12 @@ STORE 0x18 0x1 0x40000000 0x2 0x41200000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x42700000
 SYS_42 0x8 
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}What could that have been? It didnae look good, whatever it was..."
+SETNAME "Meck Nick"
+SAY "{VOICE=07}Cos'è stato...? Uhm, ho un brutto presentimento..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}Jest what manner of place have we landed up in?"
+SETNAME "Meck Nick"
+SAY "{VOICE=07}In che razza di postaccio siamo precipitati...?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -460,16 +460,16 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42880000
 SYS_18 0x8 
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}This island's a rough place. We'll need tae work together tae stand a chance."
+SETNAME "Meck Nick"
+SAY "{VOICE=07}Dovremo fare gioco di squadra, se vogliamo cavarcela..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}Anyhoo, it doesnae look like the time tae be doin' any explorin'."
+SETNAME "Meck Nick"
+SAY "{VOICE=07}Ormai è buio..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Rory Bellows"
-SAY "{VOICE=07}Let's rest up and consider our options on the morrow."
+SETNAME "Meck Nick"
+SAY "{VOICE=07}Cerchiamo di riposare un po'. Domani penseremo al da farsi."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

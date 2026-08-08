@@ -1,20 +1,20 @@
 
-Spells and Abilities
-Items
-Equipment
-Switch Monsters
-Change Tactics
-Skill Allocation
-Heal All
-Save
-Scouting Skills
-Scout's Handbook
-Monster Mender
-Tag Mode
+Abilità
+Oggetti
+Equipaggiamento
+Cambia mostri
+Cambia tattica
+Assegnazione abilità
+Cura tutti
+Salva
+Abilità
+Manuale del reclutatore
+Curatore di mostri
+Modalità Tag
 Zoom
 Zip
-Nose for Treasure
-Vanish
+Fiuto del tesoro
+Sparizione
 
 
 
@@ -30,106 +30,106 @@ Vanish
 
 
 
-Status
-Lv
-HP
-MP
+Stato
+Liv
+PV
+PM
 Att.
-Def.
+Dif.
 Agi.
-Wis.
-Rank
-Size
-Exp
-Max. HP
-Max. MP
+Int.
+Grado
+Dimens.
+Esp
+PV max
+PM max
 {224}
 {225}
-Type
-Traits
-Resistances
-Skills
+Tipo
+Tratti
+Resistenze
+Abilità
 E
-None
-Monster
-New Monster Status
-Next Lv
-Next
-Family
-Sort
+Nessuno
+Mostro
+Stato nuovo mostro
+Prossimo liv.
+Prossimo
+Famiglia
+Ordina
 Info
-Attrb.
-Yes
+Attributi
+Sì
 No
-Skills
-Discard
-Play Time
+Abilità
+Scarta
+Tempo di gioco
 OK
 Cancel
-Monster A
-Monster B
-Confirm
-Points
-Need {322} points to learn {315}{324}
-{31c}1Skill boosted!{31c}{00}{315}{30b}T
-Points
-Strongest Weapon
-Master
-MP Needed
-Master!
-Can't use
-Amount
-Use
-Learned
-Can Learn
-Points
+Mostro A
+Mostro B
+Conferma
+Punti
+Servono {322} punti per apprendere {315}{324}
+{31c}1Abilità potenziata!{31c}{00}{315}{30b}T
+Punti
+Arma più potente
+MAX
+PM necessari
+MASSIMA!
+Non utilizzabile
+Quantità
+Usa
+Appresa
+Può apprendere
+Punti
 →
-Switch
-Continue
-Cancel
-End
-Save
-End the Adventure
-Party Rank
+Scambia
+Continua
+Annulla
+Fine
+Salva
+Termina avventura
+Grado squadra
 
 
 →
 -
-Substitutes
-Your offer:
-You will receive:
-Team {322}
-Standard Battle
-None
-Please name the hero.
-Please name this {30b}{00}.
-Change {30b}{00}'s name.
-Please name your team.
-Continue
-New Game
-DS Wireless Play
-Nintendo Wi-Fi Connection
-Profile Settings
-Friend Roster
-Location:
-Load
-{238} Team
-{239} Substitutes
-{23a} Monster Pen
+Riserve
+La tua offerta:
+Riceverai:
+Squadra {322}
+Battaglia standard
+Nessuno
+Dai un nome all'eroe.
+Dai un nome a questo {30b}{00}.
+Cambia il nome di {30b}{00}.
+Dai un nome alla tua squadra.
+Continua
+Avvio
+Gioco wireless DS
+Connessione Wi-Fi Nintendo
+Impostazioni profilo
+Lista amici
+Luogo:
+Carica
+{238} Squadra
+{239} Riserve
+{23a} Recinto mostri
 OK
 Cancel
 DQM: Joker 2 Professional
-No Data
-You have {322}
-etc.
-Unknown
-Monsters with this skill:
-Other
+Nessun dato
+Hai {322}
+ecc.
+Sconosciuto
+Mostri con questa abilità:
+Altre informazioni
 Habitat
-Nobody has
-None
-Possessed by wild monsters.
-Equipped
+Nessuno possiede
+Nessuno
+Posseduto da mostri selvatici.
+Presente nell'equipaggiamento
 ☆
 ☆☆
 ☆☆☆
@@ -138,71 +138,71 @@ Equipped
 ☆☆☆☆☆☆
 ☆☆☆☆☆☆☆
 ☆PROFESSIONAL☆
-Status
-Attack
-Defence
-Agility
-Wisdom
-Insulatle
-Poisoned
-Offended
-Tension
-Paralysed
-Asleep
-Confused
-Tongue Lashed
-Dancing
-Frightened
-Frightened
-Fizzled
-Dance Banned
+Stato
+Attacco
+Difesa
+Agilità
+Intelligenza
+Isolamento termico
+Avvelenato
+Offeso
+Tensione
+Paralizzato
+Addormentato
+Confuso
+Colpo di lingua
+Danzante
+Impaurito
+Impaurito
+Inabilitato
+Danza sigillata
 Gobstopped
-Inaccurate
-Inaccurate
-Inaccurate
-Resist. Down
-Resist. Down
-Critical Miss
-Bounce
-Deep Breath
-Brake Wind
-Mist Me
-Resistance Up
-Reheal
-Artful Dodger
-Clang
-Counter
-Inactive
+Impreciso
+Impreciso
+Impreciso
+Resistenza giù
+Resistenza giù
+Colpo critico mancato
+Rimbalzo
+Respiro profondo
+{378}Ventrofreshato{379}Ventofreshata{37a}{37b}
+Nebbiamica
+Resistenza su
+Cura perpetua
+Evasione totale
+Rintocco
+Contrattacco
+Inattivo
 Amor Seco
-Salvation
-Blowback
+Salvezza
+Contraccolpo
 
-Prezinged
-Abiliterated
-Blade Blunted
-Aha-ed
-Selflessness
-Tacticlamped
-Dead
-Malhazed
-Disordered
-Counter Slash
-Counter Physical
-Counter Spell
-Counter Breath
-Counter Dance
-Break Seal
-Waltz of Binding
-Meditating
-Underworld Fog
-Chain
-Cover Seal
+Resurgerai
+Abilità annullata
+Bloccacolpi
+Aha
+Capro espiatorio
+Tacticlamp
+Morto
+Mahlhaze
+Disordinato
+Contrattacco da fendente
+Contrattacco fisico
+Contrattacco magico
+Contrattacco da respiro
+Contrattacco da danza
+Sigillo infranto
+Danza vincolante
+Meditazione
+Nebbia degli inferi
+Catena
+Sigillo di protezione
 Zero Shock
 
 
-Envenomated
-None
-Place new monster:
+Avvelenato gravemente
+Nessuno
+Inserisci nuovo mostro:
 
 OK
 Cancel
@@ -222,91 +222,88 @@ S
 X
 ??
 Any
-RANK
+Grado
 F-D
 C-A
 S/X
-Equipped {328}!
-This can be used {322} more times!{315}Use now?
-{321}{30f}'s team's HP restored!
-No one on {30f}'s team can use healing magic.
-{321}{30f}'s team already has maximum HP!
-{321}{30f}'s team fully recover HP and MP!
-{321}{30f}'s team already have maximum HP and MP!
-This can't be used until {30f} returns to the Albatross.
-Now saving.{315}Please do not turn power OFF.
-Save completed!
-Thanks for playing.{315}Returning to title screen.
-{321}{30b}{00} learns{315}{31c}1{30b}T{31c}{00}.
-{321}{30b}{00}'s {30b}z becomes {31c}1{30b}T{31c}{00}!
-{321}{30b}{00} already knows {31c}T{30b}T{31c}{00}.
-{321}{30b}{00} already knows {31c}T{30b}z{31c}{00}.
+Equipaggiato {328}!
+Può essere usato ancora {322} volte!{315}Usarlo ora?
+{321}I PV della squadra di {30f} sono stati ripristinati!
+Nessun membro della squadra di {30f} può usare magie curative.
+{321}La squadra di {30f} ha già i PV al massimo!
+{321}I PV e i PM della squadra di {30f} sono stati ripristinati!
+{321}La squadra di {30f} ha già PV e PM al massimo!
+Non puoi usarlo finché {30f} non torna sull'Albatros.
+Salvataggio in corso.{315}Non spegnere la console.
+Salvataggio completato!
+Grazie per aver giocato.{315}Ritorno alla schermata del titolo.
+{321}{30b}{00} apprende{315}{31c}1{30b}T{31c}{00}.
+{321}{30b}{00}: {30b}z diventa {31c}1{30b}T{31c}{00}!
+{321}{30b}{00} conosce già {31c}T{30b}T{31c}{00}.
+{321}{30b}{00} conosce già {31c}T{30b}z{31c}{00}.
 
 
-This can't be used now.
-{321}{30b}{00} does not have any skills that can be used outside battle.
+Non puoi usarlo ora.
+{321}{30b}{00} non ha abilità utilizzabili fuori dalla battaglia.
 
-Insufficient MP!
-
-
-
-But {30b}{00} could not be revived.
-
-
-Sorted by family.
-Sorted by level.
-Sorted by rank.
-Now loading...{315}Please do not turn power OFF.
-Data loaded successfully!
-Loading failed! Please turn off the power and reinsert the DS Game Card.
-Warning: A new adventure log will overwrite the old adventure log.
-There are still {322} items hidden in this area.
-Invalid data detected in monster data.{315}Please reorganise your team.
-There are no hidden items remaining in this area.
-The adventure log is corrupt,{315}and has been deleted.{315}Returning to title screen.{315}Press A to continue.
-Save failed!{315}Please turn off the power and reinsert the DS Game Card.
-
-You cannot save your game at the moment.
-You cannot engage in Tag Mode battles at the moment.
-You cannot remove this monster from pen {23a} at the moment.
-You cannot create this monster at the moment.
-You cannot add this monster to your team at the moment.
+PM insufficienti!
 
 
 
-Sorted from smallest to largest.
-The adventure log is corrupt.{315}It may be possible to revert to a previous version.{315}Attempt recovery?
-The adventure log will be deleted.{315}Are you really sure?
-Corrupt adventure log deleted.{315}Returning to the title screen.{315}Press A to continue.
-Recovering adventure log...
-Unfortunately the adventure log{315}could not be recovered.
-Successfully recovered the{315}adventure log!
-This monster cannot be traded{315}due to its high rank.
-This monster cannot be traded{315}because it is a Professional version{315}only monster.
-Please select the monster you{315}want to release.
-Release {30b}{00}?
-You may never find another one again.{315}Are you sure?
-How could you want to trade away{315}this monster!?
+Ma {30b}{00} non può essere rianimato.
+
+
+Ordinato per famiglia.
+Ordinato per livello.
+Ordinato per grado.
+Caricamento in corso...{315}Non spegnere la console.
+Dati caricati correttamente!
+Caricamento fallito! Spegni la console e reinserisci la scheda di gioco DS.
+Attenzione: un nuovo diario d'avventura sovrascriverà quello vecchio.
+In questa zona ci sono ancora {322} oggetti nascosti.
+Dati del mostro non validi.{315}Riorganizza la tua squadra.
+Non ci sono più oggetti nascosti in questa zona.
+Il diario d'avventura è danneggiato,{315}ed è stato eliminato.{315}Ritorno alla schermata del titolo.{315}Premi A per continuare.
+Salvataggio fallito!{315}Spegni la console e reinserisci la scheda di gioco DS.
+
+Non puoi salvare la partita in questo momento.
+Non puoi partecipare a battaglie in Modalità Tag in questo momento.
+Non puoi rimuovere questo mostro dal recinto {23a} in questo momento.
+Non puoi creare questo mostro in questo momento.
+Non puoi aggiungere questo mostro alla tua squadra in questo momento.
 
 
 
-Spells and Abilities
-Items
-Equipment
-Switch Monsters
-Change Tactics
-Skill Allocation
-Heal All
-Save
-Scouting Skills
-Scout's Handbook
-Monster Mender
-Tag Mode Battles
-View information about the team.
-End skill point allocation.
+Ordinato dal più piccolo al più grande.
+Il diario d'avventura è danneggiato.{315}Potrebbe essere possibile ripristinare una versione precedente.{315}Tentare il recupero?
+Il diario d'avventura verrà eliminato.{315}Sei davvero sicuro?
+Diario d'avventura danneggiato eliminato.{315}Ritorno alla schermata del titolo.{315}Premi A per continuare.
+Recupero del diario d'avventura in corso...
+Purtroppo il diario d'avventura{315}non può essere recuperato.
+Diario d'avventura{315}recuperato!
+Questo mostro non può essere scambiato{315}perché il suo grado è troppo alto.
+Questo mostro non può essere scambiato{315}perché è disponibile solo nella versione Professional{315}.
+Seleziona il mostro che{315}vuoi liberare.
+Liberare {30b}{00}?
+Potresti non trovarne mai più uno uguale.{315}Sei sicuro?
+Come puoi voler scambiare via{315}questo mostro!?
 
 
 
+Magie e abilità
+Oggetti
+Equipaggiamento
+Cambia mostri
+Cambia tattica
+Assegnazione abilità
+Cura tutti
+Salva
+Abilità di reclutamento
+Manuale del reclutatore
+Curatore di mostri
+Battaglie in Modalità Tag
+Visualizza le informazioni sulla squadra.
+Termina l'assegnazione dei punti abilità.
 
 
 
@@ -322,17 +319,20 @@ End skill point allocation.
 
 
 
-Under construction...
-Travel to any previously-visited area.
-Use in area with an opened Zip Portal to travel directly there.
-Use to reveal how many items are nearby.
-Use to hide yourself, and enemies can't find you. but it can't be used in some areas.
+
+
+
+In costruzione...
+Viaggia verso una zona già visitata.
+Usalo in una zona con un Portale Zip aperto per raggiungerlo direttamente.
+Usalo per scoprire quanti oggetti ci sono nelle vicinanze.
+Usalo per nasconderti e impedire ai nemici di trovarti. Non può essere usato in alcune zone.
 
 
 
 
 
-????????
+???
 ???
 
 
@@ -340,38 +340,35 @@ Use to hide yourself, and enemies can't find you. but it can't be used in some a
 
 
 
-{238} Select up to 3 monsters{315}to add to the active team.
-{239} Select up to 3 monsters{315}to add as substitutes.
-{23a} Select monsters{315}to send to the monster pen.
+{238} Seleziona fino a 3 mostri{315}da aggiungere alla squadra attiva.
+{239} Seleziona fino a 3 mostri{315}da aggiungere alle riserve.
+{23a} Seleziona i mostri{315}da mandare nel recinto.
 
 
-Equip the most powerful weapon available.
-Finish selecting a weapon.
-Form a team by selecting up to 3 monsters.
-Organise substitutes to take with you on your adventure.
-Organise monsters to send to the monster pen.
-Confirm team setup.
-Cancel changes and revert to the original setup.
-Return to the previous screen.
-
-
-
+Equipaggia l'arma più potente disponibile.
+Termina la selezione dell'arma.
+Forma una squadra selezionando fino a 3 mostri.
+Organizza le riserve da portare con te nell'avventura.
+Organizza i mostri da mandare nel recinto.
+Conferma la formazione della squadra.
+Annulla le modifiche e ripristina la formazione originale.
+Torna alla schermata precedente.
 
 
 
-{321}{30b}{00} got {322} skill points!
-{321}{30b}{00}'s {30b}T increased by {322} points.
 
 
 
-A {30b}{00} monster should appear next.
-{321}{30b}{00} learns{315}{30b}T!
-{321}{30b}{00} has too many skills. Please choose a skill to forget.
-
-{321}{30b}{00} forgets {30b}T, and learns {30b}z!
+{321}{30b}{00} ha ottenuto {322} punti abilità!
+{321}{30b}{00}: {30b}T è aumentato di {322} punti.
 
 
 
+A questo punto dovrebbe apparire un mostro {30b}{00}.
+{321}{30b}{00} apprende{315}{30b}T!
+{321}{30b}{00} ha troppe abilità. Scegli un'abilità da dimenticare.
+
+{321}{30b}{00} dimentica {30b}T e apprende {30b}z!
 
 
 
@@ -387,20 +384,23 @@ A {30b}{00} monster should appear next.
 
 
 
-Sorted by name.
-Sorted by type.
-Sorted by weapon type.
-{30b}{00}'s EXP is{315}just 1 point away from the next level!
 
 
 
-Use a metal ticket to unlock the Metal menagerie?
-{30f} used a metal ticket!
-The metal ticket cannot be used here.{315}Try using it somewhere else!
-Yes
+Ordinato per nome.
+Ordinato per tipo.
+Ordinato per tipo di arma.
+L'ESP di {30b}{00} è{315}a solo 1 punto dal livello successivo!
+
+
+
+Usare un biglietto metallico per sbloccare il Serraglio metallico?
+{30f} ha usato un biglietto metallico!
+Il biglietto metallico non può essere usato qui.{315}Prova a usarlo altrove!
+Sì
 No
-Start
-Cancel
+Avvio
+Annulla
 
 
 

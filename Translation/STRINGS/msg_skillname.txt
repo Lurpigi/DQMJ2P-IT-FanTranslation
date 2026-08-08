@@ -1,132 +1,132 @@
 
-Frizz & Bang
-Prince
-Frizz & Bang II
-Frizz & Woosh
-Princess
-Frizz & Woosh II
-Frizz & Zap
-Metal Crusher
-Frizz & Zap II
-Frizz & Zam
-Zero Seal
-Frizz & Zam II
-Bang & Woosh
-Giant Killer
-Bang & Woosh II
-Bang & Crack
-Breathbreaker II
-Bang & Crack II
-Bang & Zap
-Swordbreaker
-Bang & Zap II
-Bang & Zam
-Swordbreaker II
-Bang & Zam II
-Woosh & Crack
+Fiamma & Bang
+Principe
+Fiamma & Bang II
+Fiamma & Vento
+Principessa
+Fiamma & Vento II
+Fiamma & Fulmine
+Schiacciametallo
+Fiamma & Fulmine II
+Fiamma & Elektron
+Sigillo zero
+Fiamma & Elektron II
+Bang & Vento
+Ammazza Giganti
+Bang & Vento II
+Bang & Gelo
+Spezzafiato II
+Bang & Gelo II
+Bang & Fulmine
+Spezzaspade
+Bang & Fulmine II
+Bang & Elektron
+Spezzaspade II
+Bang & Elektron II
+Vento & Gelo
 King Sanguini
-Woosh & Crack II
-Woosh & Zap
+Vento & Gelo II
+Vento & Fulmine
 Scruffy
-Woosh & Zap II
-Woosh & Zam
-Robbin's Old Lady
-Woosh & Zam II
-Crack & Zap
-Prism Peacock
-Crack & Zap II
-Crack & Zam
+Vento & Fulmine II
+Vento & Elektron
+Vecchia signora di Robbin
+Vento & Elektron II
+Gelo & Fulmine
+Pavone prismatico
+Gelo & Fulmine II
+Gelo & Elektron
 Dark Mecha-Slime
-Crack & Zam II
-Fire
-Slime Blaster
-Fire II
-Ice
-Diamond Slime
-Ice II
-Breath
-Slider Girl
-Breath II
-Firewind Slashes
-Thunderwind Slashes
-Iceplosion Slashes
-Darklight Slashes
-Fire Fighter
-Boom Boxer
-Wind Blower
-Icemeister
-White Knight
-Dark Knight
-Healer
-Cure-all
-Cleanser
-Champion
-Defender
-Speedster
-Mage Aid
-Fortifier
-Enfeebler
-Saboteur
-Spellbreaker
-Spellbreaker II
-Breathbreaker
-Anti-metal
-Guard
-Barricade
-Seal
-Hypnotist
-Toxifier
-Fear-monger
-Bad Breath
-Diminisher
-Guerrilla
-Assassin
-Huntsman
-Bounty Hunter
-Crusader
-Cursader
-Muspell
+Gelo & Elektron II
+Fuoco
+Sparaslimes
+Fiamma II
+Ghiaccio
+Diamanteslime
+Gelo II
+Respiro
+Ragazza Slider
+Respiro II
+Fendenti fuocovento
+Fendenti tuonovento
+Fendenti gelidi
+Fendenti luce oscura
+Combattifuoco
+Pugile del Bang
+Soffiavento
+Guru del Gelo
+Cavaliere bianco
+Cavaliere oscuro
+Guarigione
+Gran rimedio
+Purificazione
+Avanguardia
+Difensore
+Velocista
+Aiuto magico
+Fortificazione
+Indebolimento
+Sabotatore
+Spezzamagie
+Spezzamagie II
+Spezzafiato
+Antimetallo
+Guardia
+Barricata
+Sigillo
+Hypnos
+Intoxicato
+Terrormagis
+Respiro malefico
+Indebolente
+Guerrigliero
+Killer
+Cacciatore
+Caccia alla taglia
+Crociato
+Maledetto
+Flammascura
 Niflheim
-Dancer
-Bombardier
-Toughie
-Berserker
-Martyr
-Reaper
-Nightmare
-Cold Sleep
-Cleric
-Aquapothecary
-All-Rounder
-Mime
-Trickster
+Ballerino
+Bombardiere
+Tosto
+Assalto furioso
+Martire
+Mietitore
+Incubo
+Sonno gelido
+Supporto sacro
+Acquafarmacista
+Tuttofare
+Mimo
+Burlone
 Slimer
-Brute Road
-Graveheart
-Diabolist
-Dragon Lore
-Bird Brain
-Green Finger
-Hive Mind
-Materialist
-Wulfspade
-Wulfspade II
-Hawkhart
-Hawkhart II
-Diamagon
-Diamagon II
-Cluboon
-Cluboon II
+Via del bruto
+Cuore tombale
+Diabolista
+Sapienza draconica
+Cervello d'uccello
+Pollice verde
+Mente alveare
+Materialista
+Lupicche
+Lupicche II
+Cuordifalco
+Cuordifalco II
+Quadrago
+Quadrago II
+Fiorango
+Fiorango II
 Dragonlord
-Dragovian Lord
+Sire Dragoviano
 Leopold
 Dhoulmagus
 Rhapthorne
 Rhapthorne Ⅱ
 Estark
 Nimzo
-Mortamor
-Captain Crow
+Moltomort
+Capitan Crow
 Über Dark Dynamiter
 Über Blessed Blizzardier
 Über Mage
@@ -135,122 +135,122 @@ Captain Crow
 Über Healer
 Über Helpful
 Über Charmer
-Wulfspade III
-Diamagon III
-Hawkhart III
-Cluboon III
-Dr Snapped
-Attack Boost
-Attack Boost II
-Attack Boost III
-Defense Boost
-Defense Boost II
-Defense Boost III
-Agility Boost
-Agility Boost II
-Agility Boost III
-Wisdom Boost
-Wisdom Boost II
-Wisdom Boost III
-Frizz Ward
-Bang Ward
-Woosh Ward
-Crack Ward
-Zap Ward
-Zam Ward
-Sag Ward
-Sap Ward
-Decelerate Ward
-Dim Ward
-Fire Breath Ward
-Ice Breath Ward
-Whack Ward
-Dazzle Ward
-Poison Ward
-Drain Magic Ward
-Antimagic Ward
-Gobstopper Ward
-Ban Dance Ward
-Confusion Ward
-Inaction Ward
-Paralysis Ward
-Sleep Ward
-Über Health Boost
-Über Magic Boost
-Über Attack Boost
-Über Defence Boost
-Über Agility Boost
-Über Wisdom Boost
-Über Heat Ward
-Über Cold Ward
-Über Windblast Ward
-Über Darklight Ward
-Warrior
-Mage
-Priest
-Martial Artist
-Sage
-Thief
-Frizz & Sizz
-Liquid Metal King Slime
-Frizz & Sizz II
-Bang & Sizz
+Lupicche III
+Quadrago III
+Cuordifalco III
+Fiorango III
+Prof Briskod
+Bonus ATT
+Bonus ATT II
+Bonus ATT III
+Bonus DIF
+Bonus DIF II
+Bonus DIF III
+Bonus AGI
+Bonus AGI II
+Bonus AGI III
+Bonus INT
+Bonus INT II
+Bonus INT III
+Para-Fiamma
+Para-Bang
+Para-Vento
+Para-Gelo
+Para-Fulmine
+Para-Elektron
+Para-Debilis
+Para-Indebolente
+Para-Velocimeno
+Para-Stoopid
+Para-Respiro di fuoco
+Para-Respiro ghiacciato
+Para-K.O.
+Para-Danzaluce
+Para-Veleno
+Para-PickMagic
+Para-Sabotamagie
+Para-Blocca-K.O.
+Para-Danza proibita
+Para-Confusione
+Para-Inazione
+Para-Paralisi
+Para-Sonno
+Ultra Bonus PV
+Ultra Bonus PM
+Ultra Bonus ATT
+Ultra Bonus DIF
+Ultra Bonus AGI
+Ultra Bonus INT
+Para-Calore supremo
+Para-Gelo supremo
+Para-Vento supremo
+Para-Luce oscura suprema
+Guerriero
+Mago
+Sacerdote
+Artista marziale
+Saggio
+Ladro
+Fiamma & Pyro
+Re Metalslime
+Fiamma & Pyro II
+Bang & Pyro
 Yggdrasil
-Bang & Sizz II
-Woosh & Sizz
-Pipit
-Woosh & Sizz II
-Crack & Sizz
-Überkilling Machine
-Crack & Sizz II
-Sizz & Zap
-King Godwyn
-Sizz & Zap II
-Sizz & Zam
+Bang & Pyro II
+Vento & Pyro
+Pipetto
+Vento & Pyro II
+Gelo & Pyro
+Cybercentauro
+Gelo & Pyro II
+Pyro & Fulmine
+Re Godwyn II
+Pyro & Fulmine II
+Pyro & Elektron
 Munchie
-Sizz & Zam II
-Sizz Ward
+Pyro & Elektron II
+Para-Pyro
 Exorsus
 Dimensaur
-Dual Duellers
-Dorsal Fiend
-Thornella
-Malevolynx
-Mortella
+Gemines
+Demonstrum
+Virgax
+Malevoleonex
+Scorpia
 Rigor Mortex
-Canzar
+Cancerio
 Aquarion
-Sagittar
-Leonyx
-Wormonger
-Bjorn
-Missing Lynx
-Khalamari
-Ruin
+Sagitta
+Leonex
+Vermex
+Wasen
+Lince alata
+Piovron
+Rovina
 Orochi
-Zenith Dragon
+Drago di Zenithia
 Empyrea
 Zoma
-Magical Sabotage Ward
-Abiliterator Ward
-Blade Blunter Ward
-Donk Ward
+Para-Sabotamagie
+Para-Abilitatore
+Para-Bloccacolpi
+Para-Gravitas
 Über Zapologist
-Flute Warrior
-Wildcard
-Wonder Construction
+Guerriero del flauto
+Joker
+Costruzione mitica
 Morrie's Melange
-Battle Road Master
+Maestro della Via delle Sfide
 Stella
-Hero of the Heavens
-Vile Void
+Eroe dei cieli
+Vuoto vile
 Corvus
-Great Godbird
-Stormsgate Citadel
-Schwarzman Tank
+Grande uccello divino
+Forte di Nadiria
+Carro Slival
 Xiphos
 Gadis
 Darck
 Magarugi
 Baboorood
-Baboodread
+Babbuincubo

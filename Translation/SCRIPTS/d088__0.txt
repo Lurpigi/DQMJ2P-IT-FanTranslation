@@ -86,11 +86,11 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x42480000
 SYS_42 0x8 
-SAY "{VOICE=07}...I am Leonyx, the Divine Battler."
+SAY "{VOICE=07}{1F35}no Leonex, il Combattente Divino."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Leonyx"
-SAY "{VOICE=07}It is your power that has revived me.{BREAK}A power that is pure and true.{WAIT}{CLEAR}You have my gratitude."
+SETNAME "Leonex"
+SAY "{VOICE=07}La tua forza è grande e pura. Essa {BREAK}mi ha risvegliato. Ti sono {WAIT}{CLEAR}infinitamente grato."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -120,8 +120,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_3C 0x8 
 WAIT 0x10 0x2 0x42700000
 SYS_42 0x8 
-SETNAME "Mynos the Elder"
-SAY "{VOICE=03}(gasp) Behold! That blinding aura!{BREAK}It can be no other..."
+SETNAME "Mynos il Vecchio"
+SAY "{VOICE=03}Non credo ai miei occhi...! Quell'aura {BREAK}abbagliante... Non può che essere..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40000000
@@ -159,8 +159,8 @@ STORE 0x18 0x1 0x0 0x2 0x41b00000
 STORE 0x18 0x1 0x3f800000 0x2 0x42480000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41f00000
-SETNAME "Mynos the Elder"
-SAY "{VOICE=03}O Great One... You have returned!"
+SETNAME "Mynos il Vecchio"
+SAY "{VOICE=03}Grande Creatura, sei tornata...! {1F2B}i tornata!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -181,8 +181,8 @@ STORE 0x18 0x1 0x0 0x2 0x42700000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SETNAME "Leonyx"
-SAY "{VOICE=07}...Mynos! It's been a while. I trust you will forgive my...recent behaviour."
+SETNAME "Leonex"
+SAY "{VOICE=07}Da quanto tempo, Mynos... Perdona il mio recente comportamento."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -193,22 +193,22 @@ STORE 0x18 0x1 0x0 0x2 0x41a00000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Mynos the Elder"
-SAY "{VOICE=03}O Great One, can it be? Can that humble teeny sanguini really be...?"
+SETNAME "Mynos il Vecchio"
+SAY "{VOICE=03}Grande Creatura, è vero...? Davvero quel {1F27}nguinis...?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Leonyx"
-SAY "{VOICE=07}It is true. That frail creature was an incarnation of my true heart..."
+SETNAME "Leonex"
+SAY "{VOICE=07}{1F61}. Quella piccola creatura era l'incarnazione del mio cuore."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Leonyx"
-SAY "{VOICE=07}As the evil cast its baneful shadow over my soul...{WAIT}{CLEAR}...I managed to sever my true heart from my stricken body."
+SETNAME "Leonex"
+SAY "{VOICE=07}Quando il male mi avvolse, riuscii a separare il cuore dal resto del corpo.{WAIT}{CLEAR}In questo modo, il cuore mantenne la purezza originaria."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Leonyx"
-SAY "{VOICE=07}That incarnation of my heart awoke in a far-off land.{WAIT}{CLEAR}It was unaware that it had once belonged to a god."
+SETNAME "Leonex"
+SAY "{VOICE=07}Il mio cuore si risvegliò in una terra lontana...{WAIT}{CLEAR}Esso non sapeva che, un tempo, era appartenuto a un dio..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -230,8 +230,8 @@ SYS_02 0x8
 SYS_03 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SETNAME "Leonyx"
-SAY "{VOICE=07}How long it spent in that form, how many scouts' hands it passed through...{WAIT}{CLEAR}...that I do not know."
+SETNAME "Leonex"
+SAY "{VOICE=07}Non so quanto tempo abbia trascorso in quella forma...{WAIT}{CLEAR}Non ho idea del numero di {1F29}out per le mani dei quali esso è passato..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x3f800000
@@ -251,8 +251,8 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 SYS_03 0x8 
 WAIT 0x10 0x2 0x41f00000
-SETNAME "Leonyx"
-SAY "{VOICE=07}All the while, my heart sought its body, dimly aware that it was incomplete."
+SETNAME "Leonex"
+SAY "{VOICE=07}Il cuore non smetteva di cercare il corpo al quale era appartenuto..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -288,16 +288,16 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SETNAME "Leonyx"
-SAY "{VOICE=07}Until that fateful day when your airship passed over this island."
+SETNAME "Leonex"
+SAY "{VOICE=07}Poi, un giorno, la vostra nave ha sorvolato quest'isola."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Leonyx"
-SAY "{VOICE=07}My evil body and true heart called out to each other."
+SETNAME "Leonex"
+SAY "{VOICE=07}Il cuore puro e il corpo devastato dal male si sono \"sentiti\" e si sono chiamati."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Leonyx"
-SAY "{VOICE=07}That is why your airship crashed.{BREAK}For that, I apologise sincerely."
+SETNAME "Leonex"
+SAY "{VOICE=07}Ecco perché siete precipitati. Mi spiace {BREAK}di essere stato la causa dell'incidente."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -313,16 +313,16 @@ STORE 0x18 0x1 0x0 0x2 0x42700000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Leonyx"
-SAY "{VOICE=07}That airship was taking you to the humans' Monster Scout Challenge."
+SETNAME "Leonex"
+SAY "{VOICE=07}La nave vi stava portando al Torneo Monster {1F29}out organizzato dagli umani."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Leonyx"
-SAY "{VOICE=07}Now, I wish to help you reach your destination.{WAIT}{CLEAR}Think of it as a way of atoning for my sins."
+SETNAME "Leonex"
+SAY "{VOICE=07}È mio desiderio aiutarvi a raggiungere la vostra destinazione.{WAIT}{CLEAR}In questo modo potrò farmi perdonare per i problemi che vi ho causato."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Leonyx"
-SAY "{VOICE=07}I will send a certain someone to meet you. Please await them in the airship."
+SETNAME "Leonex"
+SAY "{VOICE=07}Manderò qualcuno alla volonave. Aspetta lì il suo arrivo."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -337,16 +337,16 @@ STORE 0x18 0x1 0x0 0x2 0x42480000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SETNAME "Leonyx"
-SAY "{VOICE=07}You are a paragon of scouts.{BREAK}You have both true strength...{WAIT}{CLEAR}...and a heart that is pure."
+SETNAME "Leonex"
+SAY "{VOICE=07}Non c'è alcun dubbio: sei uno {BREAK}{1F29}out straordinario... Non solo {WAIT}{CLEAR}sei forte, ma il tuo cuore è puro."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Leonyx"
-SAY "{VOICE=07}There will doubtless come a time when I shall lend you my power."
+SETNAME "Leonex"
+SAY "{VOICE=07}Verrà il momento in cui ti presterò il mio potere..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Leonyx"
-SAY "{VOICE=07}Until that time, I bid you farewell.{BREAK}I await the day I meet you again."
+SETNAME "Leonex"
+SAY "{VOICE=07}Adesso ti saluto, ma sono certo {BREAK}che ci incontreremo di nuovo."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -426,20 +426,20 @@ STORE 0x18 0x1 0x0 0x0 0x0
 STORE 0x18 0x1 0x3f800000 0x2 0x42c20000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Mynos the Elder"
-SAY "{VOICE=03}...{E321}{NAME}, you have revived our god. {WAIT}{CLEAR}For that, you have our eternal gratitude."
+SETNAME "Mynos il Vecchio"
+SAY "{VOICE=03}{E321}{NAME}, hai riportato in vita il nostro dio.{WAIT}{CLEAR}Ti saremo eternamente grati per ciò che hai fatto."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Mynos the Elder"
-SAY "{VOICE=03}You will no doubt be spoken of as a legend in your own right."
+SETNAME "Mynos il Vecchio"
+SAY "{VOICE=03}{1F2B}i un eroe per noi... No, di più! {1F2B}i una leggenda!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41a00000
-SETNAME "Mynos the Elder"
-SAY "{VOICE=03}Ah, what a journey this has been.{BREAK}Now we can finally rest in peace."
+SETNAME "Mynos il Vecchio"
+SAY "{VOICE=03}Il viaggio è stato lungo, ma è finalmente {BREAK}terminato. Ora possiamo riposare in pace."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Mynos the Elder"
-SAY "{VOICE=03}Please thank Don Mole and co. for all their - ahem - most funky efforts."
+SETNAME "Mynos il Vecchio"
+SAY "{VOICE=03}Per favore, ringrazia Don Mole e la sua gente per l'aiuto che ci hanno dato."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -461,8 +461,8 @@ STORE 0x18 0x1 0x40000000 0x2 0x41200000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Mynos the Elder"
-SAY "{VOICE=03}...Farewell then, young {NAME}...{WAIT}{CLEAR}Thank you for all you've done..."
+SETNAME "Mynos il Vecchio"
+SAY "{VOICE=03}Addio, {NAME}...{WAIT}{CLEAR}Ti ringrazio per tutto ciò che hai fatto per noi..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
