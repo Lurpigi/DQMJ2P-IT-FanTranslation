@@ -6,7 +6,7 @@ Sì.
 
 ### Posso aggiornare applicando la nuova patch sopra una ROM già modificata?
 
-No. Per ogni aggiornamento usa sempre una ROM originale e pulita.
+No. Per ogni aggiornamento usa sempre una ROM originale.
 
 ### Devo installare Python?
 
@@ -37,4 +37,3 @@ Con R4CCE puoi importare il database, trovare Joker 2 Professional, premere il p
 ### Posso usare questo progetto per una traduzione in un'altra lingua?
 
 Sì. Il progetto è libero e open source: puoi modificarne e distribuirne il codice nel rispetto delle licenze, mantenendo i crediti a Ceris White, al progetto di traduzione inglese e agli altri autori indicati nel README.
-

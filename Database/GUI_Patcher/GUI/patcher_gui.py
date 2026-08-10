@@ -27,8 +27,10 @@ def app_root():
         return Path.cwd()
     return Path(__file__).resolve().parents[3]
 
+
 ROOT = app_root()
 PATCHER_VERSION = "1.2.1-it.1"
+
 
 def open_url(url):
     if sys.platform.startswith("linux"):
@@ -65,7 +67,6 @@ def open_url(url):
         webbrowser.open(url)
     except Exception:
         pass
-
 
 
 class ToolTip:
@@ -150,11 +151,11 @@ def add_value_option_with_info(parent, label, variable, value_var, width, info):
     row.pack(anchor="w", padx=10, pady=3)
 
     ttk.Checkbutton(row, text=label, variable=variable).pack(side="left")
-    ttk.Entry(row, textvariable=value_var, width=width).pack(side="left", padx=(6, 5))
+    ttk.Entry(row, textvariable=value_var, width=width).pack(
+        side="left", padx=(6, 5))
     add_info_icon(row, info).pack(side="left")
 
     return row
-
 
 
 def configure_linux_appimage_scaling(root):
@@ -164,11 +165,14 @@ def configure_linux_appimage_scaling(root):
     def detect_font():
         # KDE: "Noto Sans,10,-1,5,50,0,0,0,0,0"
         for cmd in (
-            ["kreadconfig6", "--file", "kdeglobals", "--group", "General", "--key", "font"],
-            ["kreadconfig5", "--file", "kdeglobals", "--group", "General", "--key", "font"],
+            ["kreadconfig6", "--file", "kdeglobals",
+                "--group", "General", "--key", "font"],
+            ["kreadconfig5", "--file", "kdeglobals",
+                "--group", "General", "--key", "font"],
         ):
             try:
-                out = subprocess.check_output(cmd, text=True, stderr=subprocess.DEVNULL).strip()
+                out = subprocess.check_output(
+                    cmd, text=True, stderr=subprocess.DEVNULL).strip()
                 if out:
                     parts = out.split(",")
                     if len(parts) >= 2:
@@ -248,14 +252,16 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
     def __init__(self):
         super().__init__()
         configure_linux_appimage_scaling(self)
-        self.title(f"Patcher della traduzione italiana di DQMJ2P v{PATCHER_VERSION}")
+        self.title(
+            f"Patcher della traduzione italiana di DQMJ2P v{PATCHER_VERSION}")
         self.geometry("900x680")
         self.minsize(820, 620)
 
         self.log_queue = queue.Queue()
 
         self.rom_var = tk.StringVar()
-        self.out_var = tk.StringVar(value=str(Path.home() / f"DQMJ2P_IT_Patched_v{PATCHER_VERSION}.nds"))
+        self.out_var = tk.StringVar(
+            value=str(Path.home() / f"DQMJ2P_IT_Patched_v{PATCHER_VERSION}.nds"))
 
         self.new_synths_var = tk.BooleanVar(value=True)
         self.postgame_pipit_vendor_var = tk.BooleanVar(value=True)
@@ -308,26 +314,32 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
 
         self.drop_box = ttk.Label(
             frm,
-            text="Trascina qui una ROM originale e pulita di DQMJ2P",
+            text="Trascina qui una ROM originale di DQMJ2P",
             anchor="center",
             relief="ridge",
             padding=18,
         )
-        self.drop_box.grid(row=0, column=0, columnspan=3, sticky="ew", padx=10, pady=10)
+        self.drop_box.grid(row=0, column=0, columnspan=3,
+                           sticky="ew", padx=10, pady=10)
 
-        ttk.Label(frm, text="ROM originale DQMJ2P:").grid(row=1, column=0, sticky="w", **pad)
+        ttk.Label(frm, text="ROM originale DQMJ2P:").grid(
+            row=1, column=0, sticky="w", **pad)
         self.rom_entry = ttk.Entry(frm, textvariable=self.rom_var)
         self.rom_entry.grid(row=1, column=1, sticky="ew", **pad)
-        ttk.Button(frm, text="Sfoglia", command=self.browse_rom).grid(row=1, column=2, **pad)
+        ttk.Button(frm, text="Sfoglia", command=self.browse_rom).grid(
+            row=1, column=2, **pad)
 
         if TKDND_AVAILABLE:
             for widget in (self.drop_box, self.rom_entry):
                 widget.drop_target_register(DND_FILES)
                 widget.dnd_bind("<<Drop>>", self.handle_rom_drop)
 
-        ttk.Label(frm, text="ROM di destinazione:").grid(row=2, column=0, sticky="w", **pad)
-        ttk.Entry(frm, textvariable=self.out_var).grid(row=2, column=1, sticky="ew", **pad)
-        ttk.Button(frm, text="Sfoglia", command=self.browse_output).grid(row=2, column=2, **pad)
+        ttk.Label(frm, text="ROM di destinazione:").grid(
+            row=2, column=0, sticky="w", **pad)
+        ttk.Entry(frm, textvariable=self.out_var).grid(
+            row=2, column=1, sticky="ew", **pad)
+        ttk.Button(frm, text="Sfoglia", command=self.browse_output).grid(
+            row=2, column=2, **pad)
 
         tabs = ttk.Notebook(frm)
         tabs.grid(row=3, column=0, columnspan=3, sticky="nsew", **pad)
@@ -344,13 +356,13 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
             recommended,
             "Aggiungi nuove ricette di sintesi",
             self.new_synths_var,
-            "Nella versione originale alcuni mostri sono esclusivi del Wi-Fi o non sono ottenibili. Aggiunge nuove ricette di sintesi per renderli disponibili.",
+            "Nella versione originale alcuni mostri sono Wi-Fi exclusives o non sono ottenibili. Aggiunge nuove ricette di sintesi per renderli disponibili.",
         )
         add_check_with_info(
             recommended,
             "Aggiungi gli oggetti non più ottenibili",
             self.postgame_pipit_vendor_var,
-            "Il torneo Wi-Fi originale sbloccava un negozio speciale a Pipit. Sposta quegli oggetti esclusivi nel negozio normale dopo aver sconfitto il boss finale del post-game.",
+            "Il torneo Wi-Fi originale sbloccava un negozio speciale nell'isola dei Pipit. Sposta quegli oggetti esclusivi nel negozio normale dopo aver sconfitto il boss finale del post-game.",
         )
         add_check_with_info(
             recommended,
@@ -428,7 +440,8 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
             command=self.toggle_randomizer_controls,
         )
         master_cb.pack(side="left")
-        add_info_icon(master_row, enable_randomiser_info).pack(side="left", padx=(5, 0))
+        add_info_icon(master_row, enable_randomiser_info).pack(
+            side="left", padx=(5, 0))
 
         self.randomizer_widgets = []
 
@@ -450,12 +463,16 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         monsters.pack(fill="x", expand=False, padx=8, pady=8)
 
         randomizer_checks = [
-            ("Randomizza i mostri negli incontri", self.randomizer_monsters_var, None),
+            ("Randomizza i mostri negli incontri",
+             self.randomizer_monsters_var, None),
             ("Genera un file spoiler", self.randomizer_spoiler_var, None),
-            ("Randomizza le ricette di sintesi", self.randomizer_generic_synthesis_var, synth_randomiser_info),
-            ("Consenti Fuga/Scout nelle battaglie randomizzate", self.randomizer_allow_flee_var, None),
+            ("Randomizza le ricette di sintesi",
+             self.randomizer_generic_synthesis_var, synth_randomiser_info),
+            ("Consenti Fuga/Scout nelle battaglie randomizzate",
+             self.randomizer_allow_flee_var, None),
             ("Sfida senza fuga", self.randomizer_no_flee_var, None),
-            ("Mostri randomizzati più forti (statistiche al 150%)", self.randomizer_stronger_var, None),
+            ("Mostri randomizzati più forti (statistiche al 150%)",
+             self.randomizer_stronger_var, None),
         ]
 
         for label, var, info in randomizer_checks:
@@ -471,7 +488,8 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         self.randomizer_widgets.append(seed_row)
 
         ttk.Label(seed_row, text="Seed:").pack(side="left")
-        seed_entry = ttk.Entry(seed_row, textvariable=self.randomizer_seed_value, width=12)
+        seed_entry = ttk.Entry(
+            seed_row, textvariable=self.randomizer_seed_value, width=12)
         seed_entry.pack(side="left", padx=(6, 6))
         self.randomizer_widgets.append(seed_entry)
         ttk.Label(seed_row, text="0 = seed casuale").pack(side="left")
@@ -479,7 +497,8 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         level = ttk.Frame(level_tab)
         level.pack(fill="x", padx=8, pady=8)
 
-        battle_xp_cb = ttk.Checkbutton(level, text="Randomizza i PE ottenuti in battaglia", variable=self.randomizer_xp_var)
+        battle_xp_cb = ttk.Checkbutton(
+            level, text="Randomizza i PE ottenuti in battaglia", variable=self.randomizer_xp_var)
         battle_xp_cb.pack(anchor="w", padx=8, pady=(2, 8))
         self.randomizer_widgets.append(battle_xp_cb)
 
@@ -488,7 +507,8 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
             ("Scambia le curve dei PE", "swap"),
             ("Randomizza le curve dei PE", "random"),
         ]:
-            rb = ttk.Radiobutton(level, text=text, variable=self.randomizer_level_up_mode, value=value)
+            rb = ttk.Radiobutton(
+                level, text=text, variable=self.randomizer_level_up_mode, value=value)
             rb.pack(anchor="w", padx=8, pady=2)
             self.randomizer_widgets.append(rb)
 
@@ -497,7 +517,8 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         self.randomizer_widgets.append(variance_row)
 
         ttk.Label(variance_row, text="Variazione PE %:").pack(side="left")
-        variance_entry = ttk.Entry(variance_row, textvariable=self.randomizer_level_up_variance, width=8)
+        variance_entry = ttk.Entry(
+            variance_row, textvariable=self.randomizer_level_up_variance, width=8)
         variance_entry.pack(side="left", padx=(6, 0))
         self.randomizer_widgets.append(variance_entry)
 
@@ -509,23 +530,27 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
             ("Scambia i livelli dei punti abilità", "swap"),
             ("Randomizza i punti abilità", "random"),
         ]:
-            rb = ttk.Radiobutton(skill, text=text, variable=self.randomizer_skill_points_mode, value=value)
+            rb = ttk.Radiobutton(
+                skill, text=text, variable=self.randomizer_skill_points_mode, value=value)
             rb.pack(anchor="w", padx=8, pady=2)
             self.randomizer_widgets.append(rb)
 
         filters = ttk.Frame(filters_tab)
         filters.pack(fill="x", padx=8, pady=8)
 
-        ttk.Label(filters, text="Gradi consentiti:").pack(anchor="w", padx=8, pady=(8, 2))
+        ttk.Label(filters, text="Gradi consentiti:").pack(
+            anchor="w", padx=8, pady=(8, 2))
         rank_row = ttk.Frame(filters)
         rank_row.pack(anchor="w", padx=18, pady=2)
         self.randomizer_widgets.append(rank_row)
         for rank in ("F", "E", "D", "C", "B", "A", "S", "SS"):
-            cb = ttk.Checkbutton(rank_row, text=rank, variable=self.randomizer_rank_vars[rank])
+            cb = ttk.Checkbutton(rank_row, text=rank,
+                                 variable=self.randomizer_rank_vars[rank])
             cb.pack(side="left")
             self.randomizer_widgets.append(cb)
 
-        ttk.Label(filters, text="Famiglie consentite:").pack(anchor="w", padx=8, pady=(8, 2))
+        ttk.Label(filters, text="Famiglie consentite:").pack(
+            anchor="w", padx=8, pady=(8, 2))
         family_row = ttk.Frame(filters)
         family_row.pack(anchor="w", padx=18, pady=2)
         self.randomizer_widgets.append(family_row)
@@ -540,22 +565,26 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
             "???": "???",
         }
         for family in ("Slime", "Dragon", "Nature", "Beast", "Material", "Demon", "Zombie", "???"):
-            cb = ttk.Checkbutton(family_row, text=family_labels[family], variable=self.randomizer_family_vars[family])
+            cb = ttk.Checkbutton(
+                family_row, text=family_labels[family], variable=self.randomizer_family_vars[family])
             cb.pack(side="left")
             self.randomizer_widgets.append(cb)
 
-        ttk.Label(filters, text="Dimensioni consentite:").pack(anchor="w", padx=8, pady=(8, 2))
+        ttk.Label(filters, text="Dimensioni consentite:").pack(
+            anchor="w", padx=8, pady=(8, 2))
         size_row = ttk.Frame(filters)
         size_row.pack(anchor="w", padx=18, pady=2)
         self.randomizer_widgets.append(size_row)
         for size, label in [("1", "1-slot"), ("2", "2-slot"), ("3", "3-slot")]:
-            cb = ttk.Checkbutton(size_row, text=label, variable=self.randomizer_size_vars[size])
+            cb = ttk.Checkbutton(size_row, text=label,
+                                 variable=self.randomizer_size_vars[size])
             cb.pack(side="left")
             self.randomizer_widgets.append(cb)
 
         self.toggle_randomizer_controls()
 
-        self.run_btn = ttk.Button(frm, text="Applica la patch", command=self.start_patch)
+        self.run_btn = ttk.Button(
+            frm, text="Applica la patch", command=self.start_patch)
         self.run_btn.grid(row=4, column=0, columnspan=3, pady=10)
 
         self.progress = ttk.Progressbar(frm, mode="indeterminate")
@@ -569,7 +598,8 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         ).grid(row=6, column=0, sticky="w", padx=10, pady=6)
 
         link_row = ttk.Frame(frm)
-        link_row.grid(row=7, column=0, columnspan=3, sticky="ew", padx=10, pady=(0, 6))
+        link_row.grid(row=7, column=0, columnspan=3,
+                      sticky="ew", padx=10, pady=(0, 6))
         link_row.columnconfigure(1, weight=1)
 
         link_font = (
@@ -583,7 +613,8 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
             text="Controlla l'ultima release",
             cursor="hand2",
             foreground="blue",
-            font=(tkfont.nametofont("TkDefaultFont").cget("family"), tkfont.nametofont("TkDefaultFont").cget("size"), "bold"),
+            font=(tkfont.nametofont("TkDefaultFont").cget("family"),
+                  tkfont.nametofont("TkDefaultFont").cget("size"), "bold"),
         )
         release_link.grid(row=0, column=0, sticky="w")
         release_link.bind(
@@ -598,7 +629,8 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
             text="Apri la pagina del progetto",
             cursor="hand2",
             foreground="blue",
-            font=(tkfont.nametofont("TkDefaultFont").cget("family"), tkfont.nametofont("TkDefaultFont").cget("size"), "bold"),
+            font=(tkfont.nametofont("TkDefaultFont").cget("family"),
+                  tkfont.nametofont("TkDefaultFont").cget("size"), "bold"),
         )
         info_link.grid(row=0, column=2, sticky="e")
         info_link.bind(
@@ -626,7 +658,8 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
 
     def toggle_log(self):
         if self.show_log_var.get():
-            self.log_frame.grid(row=8, column=0, columnspan=3, sticky="nsew", padx=10, pady=6)
+            self.log_frame.grid(row=8, column=0, columnspan=3,
+                                sticky="nsew", padx=10, pady=6)
         else:
             self.log_frame.grid_forget()
 
@@ -647,18 +680,19 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         path = self.clean_dropped_path(event.data)
         if path:
             self.rom_var.set(path)
-            self.out_var.set(str(Path(path).with_name(f"DQMJ2P_IT_Patched_v{PATCHER_VERSION}.nds")))
+            self.out_var.set(str(Path(path).with_name(
+                f"DQMJ2P_IT_Patched_v{PATCHER_VERSION}.nds")))
             self.update_randomised_output_name()
-
 
     def browse_rom(self):
         path = filedialog.askopenfilename(
-            title="Seleziona una ROM originale e pulita di DQMJ2P",
+            title="Seleziona una ROM originale di DQMJ2P",
             filetypes=[("ROM Nintendo DS", "*.nds"), ("Tutti i file", "*.*")]
         )
         if path:
             self.rom_var.set(path)
-            self.out_var.set(str(Path(path).with_name(f"DQMJ2P_IT_Patched_v{PATCHER_VERSION}.nds")))
+            self.out_var.set(str(Path(path).with_name(
+                f"DQMJ2P_IT_Patched_v{PATCHER_VERSION}.nds")))
             self.update_randomised_output_name()
 
     def browse_output(self):
@@ -673,8 +707,6 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
     def append_log(self, text):
         self.log_text.insert("end", text)
         self.log_text.see("end")
-
-
 
     def update_randomised_output_name(self):
         out = self.out_var.get().strip()
@@ -697,13 +729,15 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         out = self.out_var.get().strip()
 
         if not rom:
-            messagebox.showerror("ROM mancante", "Seleziona prima una ROM .nds originale e pulita.")
+            messagebox.showerror(
+                "ROM mancante", "Seleziona prima una ROM .nds originale.")
             return
         if not Path(rom).is_file():
             messagebox.showerror("ROM non trovata", rom)
             return
         if not out:
-            messagebox.showerror("Destinazione mancante", "Scegli dove salvare la ROM .nds patchata.")
+            messagebox.showerror("Destinazione mancante",
+                                 "Scegli dove salvare la ROM .nds patchata.")
             return
 
         if self.randomizer_enabled_var.get():
@@ -740,7 +774,8 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
             try:
                 int(seed)
             except ValueError:
-                messagebox.showerror("Seed non valido", "Il seed del randomizzatore deve essere un numero intero.")
+                messagebox.showerror(
+                    "Seed non valido", "Il seed del randomizzatore deve essere un numero intero.")
                 return
 
             args.extend(["--randomizer-seed", seed])
@@ -748,26 +783,35 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
             if self.randomizer_monsters_var.get():
                 args.append("--randomizer-monsters")
 
-                rank_excludes = [rank for rank, var in self.randomizer_rank_vars.items() if not var.get()]
-                family_excludes = [family for family, var in self.randomizer_family_vars.items() if not var.get()]
-                size_excludes = [size for size, var in self.randomizer_size_vars.items() if not var.get()]
+                rank_excludes = [
+                    rank for rank, var in self.randomizer_rank_vars.items() if not var.get()]
+                family_excludes = [
+                    family for family, var in self.randomizer_family_vars.items() if not var.get()]
+                size_excludes = [
+                    size for size, var in self.randomizer_size_vars.items() if not var.get()]
 
                 if len(rank_excludes) == len(self.randomizer_rank_vars):
-                    messagebox.showerror("Filtri non validi", "Deve essere consentito almeno un grado dei mostri.")
+                    messagebox.showerror(
+                        "Filtri non validi", "Deve essere consentito almeno un grado dei mostri.")
                     return
                 if len(family_excludes) == len(self.randomizer_family_vars):
-                    messagebox.showerror("Filtri non validi", "Deve essere consentita almeno una famiglia di mostri.")
+                    messagebox.showerror(
+                        "Filtri non validi", "Deve essere consentita almeno una famiglia di mostri.")
                     return
                 if len(size_excludes) == len(self.randomizer_size_vars):
-                    messagebox.showerror("Filtri non validi", "Deve essere consentita almeno una dimensione dei mostri.")
+                    messagebox.showerror(
+                        "Filtri non validi", "Deve essere consentita almeno una dimensione dei mostri.")
                     return
 
                 if rank_excludes:
-                    args.extend(["--randomizer-rank-excludes", ",".join(rank_excludes)])
+                    args.extend(["--randomizer-rank-excludes",
+                                ",".join(rank_excludes)])
                 if family_excludes:
-                    args.extend(["--randomizer-family-excludes", ",".join(family_excludes)])
+                    args.extend(["--randomizer-family-excludes",
+                                ",".join(family_excludes)])
                 if size_excludes:
-                    args.extend(["--randomizer-size-excludes", ",".join(size_excludes)])
+                    args.extend(["--randomizer-size-excludes",
+                                ",".join(size_excludes)])
 
             if self.randomizer_spoiler_var.get():
                 args.append("--randomizer-spoiler")
@@ -788,14 +832,17 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
                 try:
                     variance_i = int(variance)
                 except ValueError:
-                    messagebox.showerror("Variazione non valida", "La variazione dei PE per livello deve essere un numero intero.")
+                    messagebox.showerror(
+                        "Variazione non valida", "La variazione dei PE per livello deve essere un numero intero.")
                     return
                 if variance_i < 100 or variance_i > 300:
-                    messagebox.showerror("Variazione non valida", "La variazione dei PE per livello deve essere compresa tra 100 e 300.")
+                    messagebox.showerror(
+                        "Variazione non valida", "La variazione dei PE per livello deve essere compresa tra 100 e 300.")
                     return
 
                 args.extend(["--randomizer-level-up", level_up_mode])
-                args.extend(["--randomizer-level-up-variance", str(variance_i)])
+                args.extend(
+                    ["--randomizer-level-up-variance", str(variance_i)])
 
             if skill_points_mode != "none":
                 args.extend(["--randomizer-skill-points", skill_points_mode])
@@ -809,7 +856,8 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         self.run_btn.config(state="disabled")
         self.progress.start(10)
 
-        threading.Thread(target=self.run_backend, args=(args,), daemon=True).start()
+        threading.Thread(target=self.run_backend,
+                         args=(args,), daemon=True).start()
 
     def run_backend(self, args):
         writer = QueueWriter(self.log_queue)
@@ -837,9 +885,11 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
                     self.progress.stop()
                     self.run_btn.config(state="normal")
                     if code == 0:
-                        messagebox.showinfo("Completato", "La ROM patchata è stata creata correttamente.")
+                        messagebox.showinfo(
+                            "Completato", "La ROM patchata è stata creata correttamente.")
                     else:
-                        messagebox.showerror("Operazione fallita", f"Il patcher è terminato con il codice di errore {code}.")
+                        messagebox.showerror(
+                            "Operazione fallita", f"Il patcher è terminato con il codice di errore {code}.")
                 else:
                     self.append_log(item)
         except queue.Empty:

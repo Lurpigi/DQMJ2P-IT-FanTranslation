@@ -199,7 +199,7 @@ def apply_antipiracy_patch(input_rom, work_dir):
         if cur != old:
             raise SystemExit(
                 f"Dati inattesi durante la patch anti-pirateria all'indirizzo 0x{off:08X}. "
-                "La ROM non corrisponde alla versione pulita prevista di DQMJ2P "
+                "La ROM non corrisponde alla versione originale prevista di DQMJ2P "
                 "oppure è già stata modificata in modo differente."
             )
 
