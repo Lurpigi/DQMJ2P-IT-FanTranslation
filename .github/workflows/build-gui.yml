@@ -54,7 +54,7 @@ jobs:
             --noconfirm `
             --onefile `
             --windowed `
-            --name DQMJ2Patcher `
+            --name DQMJ2P-IT-Patcher `
             --hidden-import tkinterdnd2 `
             --hidden-import json `
             --hidden-import csv `
@@ -69,13 +69,13 @@ jobs:
         shell: pwsh
         run: |
           New-Item -ItemType Directory -Force release-assets
-          Copy-Item dist/DQMJ2Patcher.exe "release-assets/DQMJ2PPatcher-${{ steps.version.outputs.version }}-x86_64-windows.exe"
+          Copy-Item dist/DQMJ2P-IT-Patcher.exe "release-assets/DQMJ2P-IT-Patcher-${{ steps.version.outputs.version }}-x86_64-windows.exe"
 
       - name: Upload Windows artifact
         uses: actions/upload-artifact@v4
         with:
-          name: DQMJ2PPatcher-${{ steps.version.outputs.version }}-x86_64-windows
-          path: release-assets/DQMJ2PPatcher-${{ steps.version.outputs.version }}-x86_64-windows.exe
+          name: DQMJ2P-IT-Patcher-${{ steps.version.outputs.version }}-x86_64-windows
+          path: release-assets/DQMJ2P-IT-Patcher-${{ steps.version.outputs.version }}-x86_64-windows.exe
 
   linux:
     runs-on: ubuntu-latest
@@ -117,7 +117,7 @@ jobs:
             --noconfirm \
             --onefile \
             --windowed \
-            --name DQMJ2Patcher \
+            --name DQMJ2P-IT-Patcher \
             --hidden-import tkinterdnd2 \
             --hidden-import json \
             --hidden-import csv \
@@ -131,28 +131,28 @@ jobs:
       - name: Make AppImage
         run: |
           mkdir -p AppDir/usr/bin
-          cp dist/DQMJ2Patcher AppDir/usr/bin/DQMJ2Patcher
+          cp dist/DQMJ2P-IT-Patcher AppDir/usr/bin/DQMJ2P-IT-Patcher
 
           cat > AppDir/AppRun <<'SH'
           #!/bin/sh
           HERE="$(dirname "$(readlink -f "$0")")"
-          exec "$HERE/usr/bin/DQMJ2Patcher" "$@"
+          exec "$HERE/usr/bin/DQMJ2P-IT-Patcher" "$@"
           SH
           chmod +x AppDir/AppRun
 
-          cat > AppDir/DQMJ2Patcher.desktop <<'EOF'
+          cat > AppDir/DQMJ2P-IT-Patcher.desktop <<'EOF'
           [Desktop Entry]
           Type=Application
-          Name=DQMJ2Patcher
-          Exec=DQMJ2Patcher
-          Icon=DQMJ2Patcher
+          Name=DQMJ2P IT Patcher
+          Exec=DQMJ2P-IT-Patcher
+          Icon=DQMJ2P-IT-Patcher
           Categories=Game;Utility;
           Terminal=false
           EOF
 
           python - <<'PY'
           from pathlib import Path
-          Path("AppDir/DQMJ2Patcher.png").write_bytes(bytes.fromhex(
+          Path("AppDir/DQMJ2P-IT-Patcher.png").write_bytes(bytes.fromhex(
               "89504e470d0a1a0a0000000d4948445200000001000000010806000000"
               "1f15c4890000000a49444154789c63000100000500010d0a2db40000000049454e44ae426082"
           ))
@@ -162,13 +162,13 @@ jobs:
             https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage
           chmod +x appimagetool-x86_64.AppImage
 
-          ARCH=x86_64 ./appimagetool-x86_64.AppImage AppDir DQMJ2PPatcher-${{ steps.version.outputs.version }}-x86_64-linux.AppImage
+          ARCH=x86_64 ./appimagetool-x86_64.AppImage AppDir DQMJ2P-IT-Patcher-${{ steps.version.outputs.version }}-x86_64-linux.AppImage
 
       - name: Upload Linux AppImage
         uses: actions/upload-artifact@v4
         with:
-          name: DQMJ2PPatcher-${{ steps.version.outputs.version }}-x86_64-linux
-          path: DQMJ2PPatcher-${{ steps.version.outputs.version }}-x86_64-linux.AppImage
+          name: DQMJ2P-IT-Patcher-${{ steps.version.outputs.version }}-x86_64-linux
+          path: DQMJ2P-IT-Patcher-${{ steps.version.outputs.version }}-x86_64-linux.AppImage
 
   macos:
     runs-on: macos-latest
@@ -215,7 +215,7 @@ jobs:
           python -m PyInstaller \
             --noconfirm \
             --windowed \
-            --name DQMJ2Patcher \
+            --name DQMJ2P-IT-Patcher \
             --hidden-import tkinterdnd2 \
             --hidden-import json \
             --hidden-import csv \
@@ -229,13 +229,13 @@ jobs:
       - name: Zip macOS app
         run: |
           mkdir -p release-assets
-          ditto -c -k --sequesterRsrc --keepParent dist/DQMJ2Patcher.app release-assets/DQMJ2PPatcher-${{ steps.version.outputs.version }}-x86_64-macos.zip
+          ditto -c -k --sequesterRsrc --keepParent dist/DQMJ2P-IT-Patcher.app release-assets/DQMJ2P-IT-Patcher-${{ steps.version.outputs.version }}-x86_64-macos.zip
 
       - name: Upload macOS app
         uses: actions/upload-artifact@v4
         with:
-          name: DQMJ2PPatcher-${{ steps.version.outputs.version }}-x86_64-macos
-          path: release-assets/DQMJ2PPatcher-${{ steps.version.outputs.version }}-x86_64-macos.zip
+          name: DQMJ2P-IT-Patcher-${{ steps.version.outputs.version }}-x86_64-macos
+          path: release-assets/DQMJ2P-IT-Patcher-${{ steps.version.outputs.version }}-x86_64-macos.zip
 
   publish-release:
     name: Publish GitHub Release assets
@@ -258,5 +258,5 @@ jobs:
           GH_REPO: ${{ github.repository }}
         run: |
           TAG="${GITHUB_REF_NAME}"
-          gh release view "$TAG" >/dev/null 2>&1 || gh release create "$TAG" --title "DQMJ2P Patcher ${TAG#gui-}" --notes ""
+          gh release view "$TAG" >/dev/null 2>&1 || gh release create "$TAG" --title "DQMJ2P Patcher italiano ${TAG#gui-}" --notes ""
           gh release upload "$TAG" release-assets/* --clobber

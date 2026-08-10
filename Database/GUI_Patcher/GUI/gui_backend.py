@@ -60,7 +60,7 @@ def run_py_script(script_path, argv):
 def inject_splash_assets(root, data_dir):
     splash_dir = root / "splash"
     if not splash_dir.is_dir():
-        print(f"WARNING: splash asset folder missing: {splash_dir}")
+        print(f"AVVISO: cartella delle grafiche iniziali mancante: {splash_dir}")
         return
 
     files = [
@@ -70,14 +70,14 @@ def inject_splash_assets(root, data_dir):
         "warning_up.scrn",
     ]
 
-    print("Injecting custom splash graphics...")
+    print("Inserimento delle grafiche iniziali personalizzate...")
 
     for name in files:
         src = splash_dir / name
         dst = Path(data_dir) / name
 
         if not src.is_file():
-            raise SystemExit(f"Missing splash asset: {src}")
+            raise SystemExit(f"Grafica iniziale mancante: {src}")
 
         shutil.copy2(src, dst)
         print(f"  {name} -> {dst}")
@@ -90,9 +90,9 @@ TILE_SIZE_4BPP = 32
 def ncgr_tile_data_offset(data: bytes) -> int:
     block = data.find(b"RGCN")
     if block < 0:
-        raise RuntimeError("RGCN block not found")
+        raise RuntimeError("Blocco RGCN non trovato")
     if data[block + 16:block + 20] != b"RAHC":
-        raise RuntimeError("unexpected NCGR block magic")
+        raise RuntimeError("Firma del blocco NCGR non valida")
     return block + 16 + 32
 
 
@@ -108,21 +108,21 @@ def copy_ncgr_tiles(path: Path, src_tile: int, dst_tile: int, n_tiles: int, labe
     path.write_bytes(bytes(data))
 
     print(
-        f"  {label}: patched tiles {dst_tile}-{dst_tile + n_tiles - 1} "
-        f"<- tiles {src_tile}-{src_tile + n_tiles - 1} in {path}"
+        f"  {label}: tile modificate {dst_tile}-{dst_tile + n_tiles - 1} "
+        f"<- tile {src_tile}-{src_tile + n_tiles - 1} in {path}"
     )
 
 
 def apply_baked_graphic_text_fixes(data_dir: Path) -> None:
     """Copy already-present English baked glyph tiles over Japanese baked glyph tiles."""
-    print("Applying baked graphic text fixes...")
+    print("Applicazione delle correzioni al testo incorporato nelle grafiche...")
 
     copy_ncgr_tiles(
         data_dir / "d2_ObjBattleData.bin",
         src_tile=136,
         dst_tile=128,
         n_tiles=8,
-        label="battle MISS popup",
+        label="messaggio MISS in battaglia",
     )
 
     copy_ncgr_tiles(
@@ -130,7 +130,7 @@ def apply_baked_graphic_text_fixes(data_dir: Path) -> None:
         src_tile=17,
         dst_tile=4,
         n_tiles=3,
-        label="navi-map Menu button",
+        label="pulsante Menu della mappa",
     )
 
 def find_ndstool(root, repo):
@@ -153,7 +153,7 @@ def find_ndstool(root, repo):
     if found:
         return Path(found)
 
-    raise SystemExit("ndstool not found.")
+    raise SystemExit("ndstool non è stato trovato.")
 
 AP_PATCHES = [
     (0x00004500,
@@ -185,7 +185,7 @@ def apply_antipiracy_patch(input_rom, work_dir):
 
     data = bytearray(dst.read_bytes())
 
-    print("Applying anti-piracy patch for official hardware...")
+    print("Applicazione della patch anti-pirateria per l'hardware originale...")
 
     for off, old_hex, new_hex in AP_PATCHES:
         old = _hexbytes(old_hex)
@@ -193,18 +193,18 @@ def apply_antipiracy_patch(input_rom, work_dir):
         cur = bytes(data[off:off + len(old)])
 
         if cur == new:
-            print(f"  0x{off:08X}: already patched")
+            print(f"  0x{off:08X}: già modificato")
             continue
 
         if cur != old:
             raise SystemExit(
-                f"Anti-piracy patch mismatch at 0x{off:08X}. "
-                "This ROM does not match the expected clean DQMJ2P ROM, "
-                "or it was already modified differently."
+                f"Dati inattesi durante la patch anti-pirateria all'indirizzo 0x{off:08X}. "
+                "La ROM non corrisponde alla versione pulita prevista di DQMJ2P "
+                "oppure è già stata modificata in modo differente."
             )
 
         data[off:off + len(old)] = new
-        print(f"  0x{off:08X}: patched")
+        print(f"  0x{off:08X}: modificato")
 
     dst.write_bytes(data)
     return dst
@@ -214,14 +214,14 @@ def apply_antipiracy_patch(input_rom, work_dir):
 def apply_overlay4_antipiracy_patch(ov4_path, overlay_decompress, overlay_compress):
     ov4_path = Path(ov4_path)
     if not ov4_path.is_file():
-        raise SystemExit(f"overlay_0004.bin not found: {ov4_path}")
+        raise SystemExit(f"overlay_0004.bin non trovato: {ov4_path}")
 
-    print("Applying anti-piracy patch to overlay_0004...")
+    print("Applicazione della patch anti-pirateria a overlay_0004...")
 
     dec = overlay_decompress(ov4_path)
 
     if len(dec) < 0x1F8:
-        raise SystemExit("overlay_0004.bin is smaller than expected after decompression")
+        raise SystemExit("Dopo la decompressione overlay_0004.bin è più piccolo del previsto")
 
     ptr_154 = dec[0x154:0x158]
     ptr_1f4 = dec[0x1F4:0x1F8]
@@ -244,36 +244,37 @@ def _csv_set(value):
 
 
 def build_randomizer_settings_summary(args):
+    state = lambda enabled: "attivo" if enabled else "disattivato"
     lines = [
         "",
-        "--- Patcher Settings ---",
-        "Patch options:",
-        "- Anti-piracy: on",
-        f"- New synthesis recipes: {'on' if args.new_synths else 'off'}",
-        f"- Post-game Pipit vendor items: {'on' if args.postgame_pipit_vendor_items else 'off'}",
-        f"- X/XY monster suffixes: {'on' if args.xvariant_suffix else 'off'}",
-        f"- Gender icons: {'on' if args.gender_icons else 'off'}",
-        f"- XP multiplier: {'on' if bool(args.xp_mult) else 'off'}",
-        f"- Scout offense boost: {'on' if args.scout_offense else 'off'}",
-        f"- Scout penalty changes: {'on' if args.scout_penalty else 'off'}",
-        f"- Synthesis level changes: {'on' if args.synthesis_level else 'off'}",
-        f"- Synthesis polarity changes: {'on' if args.synthesis_polarity else 'off'}",
+        "--- Impostazioni del patcher ---",
+        "Opzioni della patch:",
+        "- Anti-pirateria: attiva",
+        f"- Nuove ricette di sintesi: {state(args.new_synths)}",
+        f"- Oggetti del mercante Pipit nel post-game: {state(args.postgame_pipit_vendor_items)}",
+        f"- Suffissi X/XY dei mostri: {state(args.xvariant_suffix)}",
+        f"- Icone del sesso: {state(args.gender_icons)}",
+        f"- Moltiplicatore PE: {state(bool(args.xp_mult))}",
+        f"- Scouting dopo l'offesa: {state(args.scout_offense)}",
+        f"- Modifiche alle penalità di scouting: {state(args.scout_penalty)}",
+        f"- Modifiche al livello di sintesi: {state(bool(args.synthesis_level))}",
+        f"- Modifiche alla polarità di sintesi: {state(args.synthesis_polarity)}",
         "",
-        "Randomiser settings:",
-        f"- Battle monsters: {'on' if args.randomizer_monsters else 'off'}",
-        f"- Battle XP rewards: {'on' if args.randomizer_xp else 'off'}",
-        f"- Spoiler log: {'on' if args.randomizer_spoiler else 'off'}",
-        f"- Allow Flee/Scout: {'on' if args.randomizer_allow_flee else 'off'}",
-        f"- Stronger monsters: {'on' if args.randomizer_stronger else 'off'}",
-        f"- No flee: {'on' if args.randomizer_no_flee else 'off'}",
-        f"- Level Up XP mode: {args.randomizer_level_up}",
-        f"- Level Up XP variance: {args.randomizer_level_up_variance}",
-        f"- Skill Points mode: {args.randomizer_skill_points}",
-        f"- Generic synthesis: {'on' if args.randomizer_generic_synthesis else 'off'}",
-        f"- Excluded ranks: {args.randomizer_rank_excludes or 'none'}",
-        f"- Excluded families: {args.randomizer_family_excludes or 'none'}",
-        f"- Excluded sizes: {args.randomizer_size_excludes or 'none'}",
-        "- 0-XP battle entries: always skipped",
+        "Impostazioni del randomizzatore:",
+        f"- Mostri negli incontri: {state(args.randomizer_monsters)}",
+        f"- PE delle battaglie: {state(args.randomizer_xp)}",
+        f"- Registro spoiler: {state(args.randomizer_spoiler)}",
+        f"- Consenti Fuga/Scout: {state(args.randomizer_allow_flee)}",
+        f"- Mostri più forti: {state(args.randomizer_stronger)}",
+        f"- Vietata la fuga: {state(args.randomizer_no_flee)}",
+        f"- Modalità PE per livello: {args.randomizer_level_up}",
+        f"- Variazione PE per livello: {args.randomizer_level_up_variance}",
+        f"- Modalità punti abilità: {args.randomizer_skill_points}",
+        f"- Sintesi generica: {state(args.randomizer_generic_synthesis)}",
+        f"- Gradi esclusi: {args.randomizer_rank_excludes or 'nessuno'}",
+        f"- Famiglie escluse: {args.randomizer_family_excludes or 'nessuna'}",
+        f"- Dimensioni escluse: {args.randomizer_size_excludes or 'nessuna'}",
+        "- Incontri da 0 PE: sempre ignorati",
         "",
     ]
 
@@ -284,13 +285,13 @@ def apply_postgame_pipit_vendor_items(repo: Path, pro_rom: Path):
     store_path = pro_rom / "data_dir" / "StoreTbl_B.bin"
 
     if not csv_path.is_file():
-        raise SystemExit(f"Post-game Pipit vendor CSV not found: {csv_path}")
+        raise SystemExit(f"CSV del mercante Pipit nel post-game non trovato: {csv_path}")
     if not store_path.is_file():
-        raise SystemExit(f"StoreTbl_B.bin not found: {store_path}")
+        raise SystemExit(f"StoreTbl_B.bin non trovato: {store_path}")
 
     data = bytearray(store_path.read_bytes())
     if data[:4] != b"STRE":
-        raise SystemExit(f"Unexpected StoreTbl_B magic in {store_path}")
+        raise SystemExit(f"Firma di StoreTbl_B inattesa in {store_path}")
 
     count = struct.unpack_from("<I", data, 4)[0]
 
@@ -304,7 +305,7 @@ def apply_postgame_pipit_vendor_items(repo: Path, pro_rom: Path):
         for_sale = int(row["ForSale"], 0)
 
         if item_id < 0 or item_id >= count:
-            raise SystemExit(f"Post-game Pipit vendor item ID out of range: {item_id}")
+            raise SystemExit(f"ID oggetto del mercante Pipit fuori intervallo: {item_id}")
 
         off = 8 + item_id * 4
         old = struct.unpack_from("<HBB", data, off)
@@ -316,15 +317,15 @@ def apply_postgame_pipit_vendor_items(repo: Path, pro_rom: Path):
             print(f"  item {item_id:>3} {row.get('Name', '')}: {old[0]},{old[1]} -> {rank},{for_sale}")
 
     store_path.write_bytes(data)
-    print(f"  updated {changed} StoreTbl_B entries")
+    print(f"  aggiornate {changed} voci di StoreTbl_B")
 
 
 def main(argv=None):
-    ap = argparse.ArgumentParser(description="DQMJ2P GUI patch backend")
+    ap = argparse.ArgumentParser(description="Backend del patcher grafico di DQMJ2P")
     ap.add_argument("--rom", required=True)
     ap.add_argument("--output", required=True)
     ap.add_argument("--work", default=None)
-    ap.add_argument("--keep-work", action="store_true", help="Do not delete GUI_WORK after patching")
+    ap.add_argument("--keep-work", action="store_true", help="Non eliminare GUI_WORK dopo la patch")
     ap.add_argument("--repo", default="AUTO")
 
     ap.add_argument("--new-synths", action="store_true")
@@ -375,14 +376,14 @@ def main(argv=None):
 
     def _cleanup_work():
         if args.keep_work:
-            print(f"Keeping work dir: {work}")
+            print(f"Cartella di lavoro conservata: {work}")
             return
         try:
             if work.exists():
                 shutil.rmtree(work)
-                print(f"Cleaned work dir: {work}")
+                print(f"Cartella di lavoro eliminata: {work}")
         except Exception as e:
-            print(f"WARNING: failed to clean work dir {work}: {e}")
+            print(f"AVVISO: impossibile eliminare la cartella di lavoro {work}: {e}")
 
     atexit.register(_cleanup_work)
 
@@ -409,7 +410,7 @@ def main(argv=None):
     )
 
     if not rom.is_file():
-        raise SystemExit(f"ROM not found: {rom}")
+        raise SystemExit(f"ROM non trovata: {rom}")
 
     ndstool = find_ndstool(root, repo)
 
@@ -451,9 +452,9 @@ def main(argv=None):
             find_rom,
         )
 
-    print(f"Input ROM: {rom}")
-    print(f"Output ROM: {output}")
-    print(f"Work dir: {work}")
+    print(f"ROM di origine: {rom}")
+    print(f"ROM di destinazione: {output}")
+    print(f"Cartella di lavoro: {work}")
     print()
 
     rom_for_extract = rom
@@ -474,24 +475,24 @@ def main(argv=None):
     inject_splash_assets(root, pro_rom / "data_dir")
     apply_baked_graphic_text_fixes(pro_rom / "data_dir")
 
-    print("Decompressing ARM9 for text tools...")
+    print("Decompressione di ARM9 per gli strumenti testuali...")
     run_py_script(tools_repo / "Pro_Tools" / "arm9tool.py", [
         "decompress",
         pro_rom / "arm9.bin",
         tools_repo / "Pro_Tools" / "Pro_ARM9.bin",
     ])
 
-    print("Repacking strings...")
+    print("Ricostruzione delle stringhe...")
     msgtool.cmd_repack(str(repo / "Translation" / "STRINGS"), str(pro_rom / "data_dir"))
 
-    print("Assembling scripts...")
+    print("Assemblaggio degli script...")
     storytool.cmd_asm(str(repo / "Translation" / "SCRIPTS"), str(pro_rom / "data_dir"))
 
     files = find_rom(pro_rom)
 
-    print("Applying ARM9 patches...")
+    print("Applicazione delle modifiche ad ARM9...")
     if "arm9" not in files:
-        raise SystemExit("arm9.bin not found")
+        raise SystemExit("arm9.bin non trovato")
     arm9 = files["arm9"]
     dec = arm9_decompress(arm9)
     apply_grow_msg_pool(dec, 0x35000)
@@ -499,9 +500,9 @@ def main(argv=None):
         apply_xvariant_suffix(dec)
     arm9.write_bytes(arm9_compress(dec))
 
-    print("Applying overlay_0001 patches...")
+    print("Applicazione delle modifiche a overlay_0001...")
     if "ov0001" not in files or "y9" not in files:
-        raise SystemExit("overlay_0001.bin or y9.bin not found")
+        raise SystemExit("overlay_0001.bin o y9.bin non trovato")
     ov1 = files["ov0001"]
     orig = ov1.stat().st_size
     dec = overlay_decompress(ov1)
@@ -522,9 +523,9 @@ def main(argv=None):
         update_y9(files["y9"], 1, len(comp))
 
     if args.synthesis_level is not None or args.synthesis_polarity:
-        print("Applying overlay_0000 patches...")
+        print("Applicazione delle modifiche a overlay_0000...")
         if "ov0000" not in files:
-            raise SystemExit("overlay_0000.bin not found")
+            raise SystemExit("overlay_0000.bin non trovato")
         ov0 = files["ov0000"]
         orig = ov0.stat().st_size
         dec = overlay_decompress(ov0)
@@ -540,13 +541,13 @@ def main(argv=None):
             update_y9(files["y9"], 0, len(comp))
 
     if args.gender_icons:
-        print("Applying gender icon replacement...")
+        print("Sostituzione delle icone del sesso...")
         if "nftr" not in files:
-            raise SystemExit("font_16x16.NFTR not found")
+            raise SystemExit("font_16x16.NFTR non trovato")
         apply_gender_icons(files["nftr"])
 
     if args.new_synths:
-        print("Adding new synthesis recipes...")
+        print("Aggiunta delle nuove ricette di sintesi...")
 
         kind_csv = work / "Kind.csv"
         fourg_csv = work / "4g.csv"
@@ -580,7 +581,7 @@ def main(argv=None):
         ])
 
     if args.postgame_pipit_vendor_items:
-        print("Adding post-game Pipit vendor items...")
+        print("Aggiunta degli oggetti del mercante Pipit nel post-game...")
         apply_postgame_pipit_vendor_items(repo, pro_rom)
 
     if (
@@ -625,13 +626,13 @@ def main(argv=None):
         ov4 = pro_rom / "overlay_dir" / "overlay_0004.bin"
         y9 = pro_rom / "y9.bin"
         if not ov4.is_file() or not y9.is_file():
-            raise SystemExit("overlay_0004.bin or y9.bin not found")
+            raise SystemExit("overlay_0004.bin o y9.bin non trovato")
         orig = ov4.stat().st_size
         apply_overlay4_antipiracy_patch(ov4, overlay_decompress, overlay_compress)
         if ov4.stat().st_size != orig:
             update_y9(y9, 4, ov4.stat().st_size)
 
-    print("Rebuilding ROM...")
+    print("Ricostruzione della ROM...")
     run([
         str(ndstool), "-c", str(output),
         "-7", str(pro_rom / "arm7.bin"),
@@ -646,7 +647,7 @@ def main(argv=None):
     ])
 
     print()
-    print(f"Done: {output}")
+    print(f"Completato: {output}")
 
 
 if __name__ == "__main__":

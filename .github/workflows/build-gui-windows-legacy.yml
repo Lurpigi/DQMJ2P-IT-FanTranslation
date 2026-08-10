@@ -7,9 +7,9 @@ on:
   workflow_dispatch:
     inputs:
       release_tag:
-        description: "Release tag to upload to, e.g. gui-v1.0.3"
+        description: "Tag della release a cui aggiungere l'eseguibile, es. gui-v1.2.1-it.1"
         required: true
-        default: "gui-v1.0.3"
+        default: "gui-v1.2.1-it.1"
 
 jobs:
   windows-legacy:
@@ -145,7 +145,7 @@ jobs:
             --noconfirm `
             --onefile `
             --windowed `
-            --name DQMJ2Patcher-Windows-Legacy `
+            --name DQMJ2P-IT-Patcher-Windows-Legacy `
             --hidden-import tkinterdnd2 `
             --hidden-import json `
             --hidden-import csv `
@@ -160,10 +160,10 @@ jobs:
         shell: pwsh
         run: |
           New-Item -ItemType Directory -Force release-assets
-          Copy-Item dist/DQMJ2Patcher-Windows-Legacy.exe "release-assets/DQMJ2PPatcher-${{ steps.version.outputs.version }}-x86_64-windows-legacy.exe"
+          Copy-Item dist/DQMJ2P-IT-Patcher-Windows-Legacy.exe "release-assets/DQMJ2P-IT-Patcher-${{ steps.version.outputs.version }}-x86_64-windows-legacy.exe"
 
       - name: Upload Windows Legacy exe to release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ github.event.inputs.release_tag }}
-          files: release-assets/DQMJ2PPatcher-${{ steps.version.outputs.version }}-x86_64-windows-legacy.exe
+          files: release-assets/DQMJ2P-IT-Patcher-${{ steps.version.outputs.version }}-x86_64-windows-legacy.exe

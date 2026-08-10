@@ -78,6 +78,36 @@ def _load_monster_catalog(repo: Path) -> dict[int, dict[str, str]]:
     """Load J2P catalog metadata keyed by monster ID."""
     import csv
 
+    italian_db = repo / "Database" / "monster_database_it.csv"
+    if italian_db.is_file():
+        family_map = {
+            "slime": "slime",
+            "drago": "dragon",
+            "natura": "nature",
+            "bestia": "beast",
+            "materiale": "material",
+            "demone": "demon",
+            "zombie": "zombie",
+            "non-morti": "zombie",
+            "???": "???",
+            "？？？系": "???",
+        }
+        catalog = {}
+        with italian_db.open("r", encoding="utf-8-sig", errors="replace", newline="") as f:
+            for row in csv.DictReader(f):
+                try:
+                    monster_id = int((row.get("#") or "").strip())
+                except ValueError:
+                    continue
+                family = (row.get("Famiglia") or "").strip().lower()
+                catalog[monster_id] = {
+                    "rank": (row.get("Grado") or "").strip().upper(),
+                    "family": family_map.get(family, family),
+                    "size": (row.get("Dim.") or "").strip(),
+                }
+        if catalog:
+            return catalog
+
     db_path = Path(__file__).resolve().parent / "monster_database.csv"
     names_path = repo / "Translation" / "STRINGS" / "msg_monstername.txt"
 
@@ -167,18 +197,18 @@ def _randomized_xp(original_xp: int) -> int:
 def randomize_battle_monsters(data_dir: Path, output_dir: Path, repo: Path, config: ProRandomizerConfig, log=print) -> None:
     battle_path = data_dir / "BtlEnmyPrm2.bin"
     if not battle_path.is_file():
-        raise FileNotFoundError(f"Missing battle monster table: {battle_path}")
+        raise FileNotFoundError(f"Tabella dei mostri degli incontri mancante: {battle_path}")
 
     raw = bytearray(battle_path.read_bytes())
     header_size = 8
     entry_size = 100
 
     if len(raw) < header_size:
-        raise ValueError(f"Invalid BtlEnmyPrm2.bin: too small ({len(raw)} bytes)")
+        raise ValueError(f"BtlEnmyPrm2.bin non valido: troppo piccolo ({len(raw)} byte)")
 
     body_size = len(raw) - header_size
     if body_size % entry_size != 0:
-        raise ValueError(f"Invalid BtlEnmyPrm2.bin size: body {body_size} not divisible by {entry_size}")
+        raise ValueError(f"Dimensione di BtlEnmyPrm2.bin non valida: corpo {body_size} non divisibile per {entry_size}")
 
     num_entries = body_size // entry_size
     entries = [
@@ -202,7 +232,7 @@ def randomize_battle_monsters(data_dir: Path, output_dir: Path, repo: Path, conf
         valid_indices.append(i)
 
     if not valid_indices:
-        raise ValueError("No valid battle monster entries found")
+        raise ValueError("Non è stata trovata alcuna voce valida per i mostri degli incontri")
 
     candidate_indices = []
     for i, entry in enumerate(entries):
@@ -217,7 +247,7 @@ def randomize_battle_monsters(data_dir: Path, output_dir: Path, repo: Path, conf
             candidate_indices.append(i)
 
     if not candidate_indices:
-        raise ValueError("No valid battle monster candidates after rank/family/size filtering")
+        raise ValueError("Nessun mostro valido dopo i filtri per grado, famiglia e dimensione")
 
     filtered = len(candidate_indices) != len(valid_indices)
     replacement_pool = [bytes(entries[i]) for i in candidate_indices]
@@ -263,11 +293,11 @@ def randomize_battle_monsters(data_dir: Path, output_dir: Path, repo: Path, conf
 
         entries[target_i] = new_entry
 
-        old_name = monster_names.get(old_id, f"Monster {old_id}")
-        new_name = monster_names.get(new_id, f"Monster {new_id}")
+        old_name = monster_names.get(old_id, f"Mostro {old_id}")
+        new_name = monster_names.get(new_id, f"Mostro {new_id}")
         spoiler_lines.append(
-            f"Entry {target_i + 1:04d}: {old_name} ({old_id}) -> {new_name} ({new_id}), "
-            f"XP {old_xp} -> {new_xp}"
+            f"Voce {target_i + 1:04d}: {old_name} ({old_id}) -> {new_name} ({new_id}), "
+            f"PE {old_xp} -> {new_xp}"
         )
 
     out = bytearray(raw[:header_size])
@@ -275,43 +305,43 @@ def randomize_battle_monsters(data_dir: Path, output_dir: Path, repo: Path, conf
         out.extend(entry)
     battle_path.write_bytes(out)
 
-    log(f"Randomized battle monster table: {len(valid_indices)} entries from {num_entries} total")
+    log(f"Tabella dei mostri randomizzata: {len(valid_indices)} voci su {num_entries}")
     if filtered:
-        log(f"Filtered replacement candidate pool: {len(candidate_indices)} entries")
+        log(f"Candidati dopo i filtri: {len(candidate_indices)} voci")
     if config.randomize_xp:
-        log("Randomized battle monster XP")
+        log("PE dei mostri negli incontri randomizzati")
     else:
-        log("Preserved original battle-entry XP")
-    log(f"Changed battle monster entries: {changed}")
+        log("PE originali degli incontri conservati")
+    log(f"Voci dei mostri modificate: {changed}")
 
     if config.generate_spoiler:
         output_dir.mkdir(parents=True, exist_ok=True)
         spoiler = output_dir / f"randomizer_spoiler_{config.seed}.txt"
 
         header = [
-            "--- Battle Monster Randomisation ---",
-            f"BtlEnmyPrm2 entries randomized: {len(valid_indices)} / {num_entries}",
-            f"Replacement candidate pool: {len(candidate_indices)} entries",
-            f"XP randomisation: {'on' if config.randomize_xp else 'off; original battle-entry XP preserved'}",
+            "--- Randomizzazione dei mostri negli incontri ---",
+            f"Voci di BtlEnmyPrm2 randomizzate: {len(valid_indices)} / {num_entries}",
+            f"Candidati per la sostituzione: {len(candidate_indices)}",
+            f"Randomizzazione PE: {'attiva' if config.randomize_xp else 'disattivata; PE originali conservati'}",
         ]
 
         if config.rank_excludes:
-            header.append(f"Excluded ranks: {', '.join(sorted(config.rank_excludes))}")
+            header.append(f"Gradi esclusi: {', '.join(sorted(config.rank_excludes))}")
         if config.family_excludes:
-            header.append(f"Excluded families: {', '.join(sorted(config.family_excludes))}")
+            header.append(f"Famiglie escluse: {', '.join(sorted(config.family_excludes))}")
         if config.size_excludes:
-            header.append(f"Excluded sizes: {', '.join(sorted(config.size_excludes))}")
+            header.append(f"Dimensioni escluse: {', '.join(sorted(config.size_excludes))}")
 
-        by_entry = ["", "--- By battle entry order ---", *spoiler_lines]
-        by_name = ["", "--- By original monster name ---", *sorted(spoiler_lines, key=lambda x: x.split(": ", 1)[1].lower())]
+        by_entry = ["", "--- Ordine delle voci degli incontri ---", *spoiler_lines]
+        by_name = ["", "--- Nome originale del mostro ---", *sorted(spoiler_lines, key=lambda x: x.split(": ", 1)[1].lower())]
 
         _append_spoiler(spoiler, "\n".join(header + by_entry + by_name) + "\n")
-        log(f"Spoiler file: {spoiler}")
+        log(f"File spoiler: {spoiler}")
 
 def randomize_battle_xp_only(data_dir: Path, output_dir: Path, config: ProRandomizerConfig, log=print) -> None:
     battle_path = data_dir / "BtlEnmyPrm2.bin"
     if not battle_path.is_file():
-        raise FileNotFoundError(f"Missing battle monster table: {battle_path}")
+        raise FileNotFoundError(f"Tabella dei mostri degli incontri mancante: {battle_path}")
 
     raw = bytearray(battle_path.read_bytes())
     header_size = 8
@@ -319,7 +349,7 @@ def randomize_battle_xp_only(data_dir: Path, output_dir: Path, config: ProRandom
     body_size = len(raw) - header_size
 
     if body_size % entry_size != 0:
-        raise ValueError(f"Invalid BtlEnmyPrm2.bin size: body {body_size} not divisible by {entry_size}")
+        raise ValueError(f"Dimensione di BtlEnmyPrm2.bin non valida: corpo {body_size} non divisibile per {entry_size}")
 
     num_entries = body_size // entry_size
     changed = 0
@@ -342,22 +372,22 @@ def randomize_battle_xp_only(data_dir: Path, output_dir: Path, config: ProRandom
 
         _set_xp(entry, new_xp)
         raw[off:off + entry_size] = entry
-        spoiler_lines.append(f"Entry {i + 1:04d}: Monster {monster_id}, XP {old_xp} -> {new_xp}")
+        spoiler_lines.append(f"Voce {i + 1:04d}: Mostro {monster_id}, PE {old_xp} -> {new_xp}")
 
     battle_path.write_bytes(raw)
-    log(f"Randomized battle monster XP: {changed} entries from {num_entries} total")
+    log(f"PE dei mostri randomizzati: {changed} voci su {num_entries}")
 
     if config.generate_spoiler:
         output_dir.mkdir(parents=True, exist_ok=True)
         spoiler = output_dir / f"randomizer_spoiler_{config.seed}.txt"
         text = "\n".join([
-            "--- Battle XP Randomisation ---",
-            f"BtlEnmyPrm2 XP entries randomized: {changed} / {num_entries}",
+            "--- Randomizzazione dei PE degli incontri ---",
+            f"Voci PE di BtlEnmyPrm2 randomizzate: {changed} / {num_entries}",
             "",
             *spoiler_lines,
         ]) + "\n"
         _append_spoiler(spoiler, text)
-        log(f"Spoiler file: {spoiler}")
+        log(f"File spoiler: {spoiler}")
 
 
 
@@ -374,7 +404,7 @@ def randomize_level_up(data_dir: Path, output_dir: Path, config: ProRandomizerCo
     body = data[400:]
 
     if len(body) % 400:
-        raise ValueError(f"LevelUpTbl.bin unexpected size: body remainder {len(body) % 400}")
+        raise ValueError(f"Dimensione inattesa di LevelUpTbl.bin: resto del corpo {len(body) % 400}")
 
     curves = [bytearray(body[i * 400:(i + 1) * 400]) for i in range(len(body) // 400)]
 
@@ -384,12 +414,12 @@ def randomize_level_up(data_dir: Path, output_dir: Path, config: ProRandomizerCo
         shuffled = curves[:]
         random.shuffle(shuffled)
         curves = shuffled
-        spoiler_lines.append("Level Up XP curve mode: swap\n")
-        spoiler_lines.append(f"Curves shuffled: {before}\n")
+        spoiler_lines.append("Modalità curve PE per livello: scambio\n")
+        spoiler_lines.append(f"Curve mescolate: {before}\n")
 
     elif config.level_up_mode == "random":
         variance_factor = max(100, min(config.level_up_variance, 300)) / 100.0
-        spoiler_lines.append(f"Level Up XP curve mode: random, variance {config.level_up_variance}%\n")
+        spoiler_lines.append(f"Modalità curve PE per livello: casuale, variazione {config.level_up_variance}%\n")
 
         for ci, curve in enumerate(curves):
             amounts = [int.from_bytes(curve[j * 4:(j + 1) * 4], "little") for j in range(100)]
@@ -408,15 +438,15 @@ def randomize_level_up(data_dir: Path, output_dir: Path, config: ProRandomizerCo
             curves[ci] = bytearray().join(int(x).to_bytes(4, "little") for x in new_amounts)
 
     else:
-        raise ValueError(f"Unknown level up randomiser mode: {config.level_up_mode}")
+        raise ValueError(f"Modalità del randomizzatore PE sconosciuta: {config.level_up_mode}")
 
     path.write_bytes(header + b"".join(bytes(c) for c in curves))
-    log(f"Randomized LevelUpTbl.bin: mode={config.level_up_mode}")
+    log(f"LevelUpTbl.bin randomizzato: modalità={config.level_up_mode}")
 
     if config.generate_spoiler:
         output_dir.mkdir(parents=True, exist_ok=True)
         spoiler = output_dir / f"randomizer_spoiler_{config.seed}.txt"
-        _write_spoiler(spoiler, "\n--- Level Up XP Randomisation ---\n")
+        _write_spoiler(spoiler, "\n--- Randomizzazione dei PE per livello ---\n")
         _write_spoiler(spoiler, "".join(spoiler_lines))
 
 
@@ -448,12 +478,12 @@ def randomize_generic_synthesis(data_dir: Path, output_dir: Path, repo: Path, co
 
     family_names = {
         1: "Slime",
-        2: "Dragon",
-        3: "Nature",
-        4: "Beast",
-        5: "Material",
-        6: "Demon",
-        7: "Zombie",
+        2: "Drago",
+        3: "Natura",
+        4: "Bestia",
+        5: "Materiale",
+        6: "Demone",
+        7: "Non-morti",
     }
 
     original_size = ov0_path.stat().st_size
@@ -468,7 +498,7 @@ def randomize_generic_synthesis(data_dir: Path, output_dir: Path, repo: Path, co
         expected = bytes.fromhex(expected_hex)
         old = bytes(dec[off:off + len(expected)])
         if old != expected:
-            raise ValueError(f"overlay_0000 patch mismatch at 0x{addr:08X}: {old.hex()} != {expected.hex()}")
+            raise ValueError(f"Dati inattesi nella patch di overlay_0000 a 0x{addr:08X}: {old.hex()} != {expected.hex()}")
         dec[off:off + len(expected)] = bytes.fromhex(new_hex)
 
     shift = random.randint(40, 96)
@@ -480,12 +510,12 @@ def randomize_generic_synthesis(data_dir: Path, output_dir: Path, repo: Path, co
     patch_arm(0x02228FB0, "0a 00 a0 e1", add_r0_sl_imm.hex())
 
     if table_off < 0 or table_off + record_count * record_size + record_size > len(dec):
-        raise ValueError("Generic synthesis table offset is outside overlay_0000.bin")
+        raise ValueError("L'offset della tabella di sintesi generica è esterno a overlay_0000.bin")
 
     terminator = dec[table_off + record_count * record_size:table_off + (record_count + 1) * record_size]
     if terminator != b"\xff\xff\xff\xff\xff\xff":
         raise ValueError(
-            "Generic synthesis table terminator mismatch; overlay_0000 layout is not as expected"
+            "Terminatore della tabella di sintesi generica non valido; la struttura di overlay_0000 è inattesa"
         )
 
     records = []
@@ -498,7 +528,7 @@ def randomize_generic_synthesis(data_dir: Path, output_dir: Path, repo: Path, co
         r = int.from_bytes(dec[off + 4:off + 6], "little")
 
         if not (1 <= a <= 7 and 1 <= b <= 7 and 1 <= r <= 7):
-            raise ValueError(f"Generic synthesis table record {i} has unexpected values: {a}, {b}, {r}")
+            raise ValueError(f"La voce {i} della tabella di sintesi generica contiene valori inattesi: {a}, {b}, {r}")
 
         records.append((off, a, b, r))
         results.append(r)
@@ -506,12 +536,12 @@ def randomize_generic_synthesis(data_dir: Path, output_dir: Path, repo: Path, co
     shuffled = results[:]
     random.shuffle(shuffled)
 
-    spoiler_lines = ["--- Generic Synthesis Randomisation ---", ""]
-    spoiler_lines.append("--- Generic Synthesis Result Shift ---")
-    spoiler_lines.append(f"Common selector return shift: +{shift}")
-    spoiler_lines.append("Known quirk: some SS display text may appear as X.")
+    spoiler_lines = ["--- Randomizzazione della sintesi generica ---", ""]
+    spoiler_lines.append("--- Spostamento dei risultati della sintesi generica ---")
+    spoiler_lines.append(f"Spostamento restituito dal selettore comune: +{shift}")
+    spoiler_lines.append("Problema noto: alcuni testi SS potrebbero apparire come X.")
     spoiler_lines.append("")
-    spoiler_lines.append("Generic family-pair result table:")
+    spoiler_lines.append("Tabella dei risultati per coppia di famiglie:")
 
     for (off, a, b, old_r), new_r in zip(records, shuffled):
         dec[off + 4:off + 6] = int(new_r).to_bytes(2, "little")
@@ -533,13 +563,13 @@ def randomize_generic_synthesis(data_dir: Path, output_dir: Path, repo: Path, co
     if ov0_path.stat().st_size != original_size:
         update_y9(y9_path, 0, ov0_path.stat().st_size)
 
-    log(f"Randomized generic synthesis family table: {record_count} rules")
+    log(f"Tabella delle famiglie per la sintesi generica randomizzata: {record_count} regole")
 
     if config.generate_spoiler:
         output_dir.mkdir(parents=True, exist_ok=True)
         spoiler = output_dir / f"randomizer_spoiler_{config.seed}.txt"
         _append_spoiler(spoiler, "\n".join(spoiler_lines) + "\n")
-        log(f"Spoiler file: {spoiler}")
+        log(f"File spoiler: {spoiler}")
 
 
 def randomize_skill_points(data_dir: Path, output_dir: Path, config: ProRandomizerConfig, log=print):
@@ -552,7 +582,7 @@ def randomize_skill_points(data_dir: Path, output_dir: Path, config: ProRandomiz
 
     data = bytearray(path.read_bytes())
     if len(data) != 100:
-        raise ValueError(f"SkillPointTbl.bin unexpected size: {len(data)}")
+        raise ValueError(f"Dimensione inattesa di SkillPointTbl.bin: {len(data)}")
 
     values = [data[i] for i in range(100)]
 
@@ -569,18 +599,18 @@ def randomize_skill_points(data_dir: Path, output_dir: Path, config: ProRandomiz
         ]
         values = [_weighted_choice(weights) for _ in range(100)]
     else:
-        raise ValueError(f"Unknown skill point randomiser mode: {config.skill_points_mode}")
+        raise ValueError(f"Modalità del randomizzatore dei punti abilità sconosciuta: {config.skill_points_mode}")
 
     path.write_bytes(bytes(values))
-    log(f"Randomized SkillPointTbl.bin: mode={config.skill_points_mode}")
+    log(f"SkillPointTbl.bin randomizzato: modalità={config.skill_points_mode}")
 
     if config.generate_spoiler:
         output_dir.mkdir(parents=True, exist_ok=True)
         spoiler = output_dir / f"randomizer_spoiler_{config.seed}.txt"
-        _write_spoiler(spoiler, "\n--- Skill Point Randomisation ---\n")
-        _write_spoiler(spoiler, f"Mode: {config.skill_points_mode}\n")
+        _write_spoiler(spoiler, "\n--- Randomizzazione dei punti abilità ---\n")
+        _write_spoiler(spoiler, f"Modalità: {config.skill_points_mode}\n")
         for i, points in enumerate(values, start=1):
-            _write_spoiler(spoiler, f"Level {i}: {points} skill points\n")
+            _write_spoiler(spoiler, f"Livello {i}: {points} punti abilità\n")
 
 
 def run_pro_randomizer(pro_rom: Path, output_dir: Path, repo: Path, config: ProRandomizerConfig, log=print):
@@ -591,14 +621,14 @@ def run_pro_randomizer(pro_rom: Path, output_dir: Path, repo: Path, config: ProR
     config.seed = seed
     random.seed(seed)
 
-    log("Running DQMJ2P randomizer...")
+    log("Avvio del randomizzatore di DQMJ2P...")
     log(f"Seed: {seed}")
 
     if config.generate_spoiler:
         Path(output_dir).mkdir(parents=True, exist_ok=True)
         spoiler = Path(output_dir) / f"randomizer_spoiler_{seed}.txt"
         if not spoiler.exists():
-            initial = f"Randomization Seed: {seed}\n"
+            initial = f"Seed della randomizzazione: {seed}\n"
             if config.settings_summary:
                 initial += "\n" + config.settings_summary.strip() + "\n"
             _write_spoiler(spoiler, initial)
@@ -626,4 +656,4 @@ def run_pro_randomizer(pro_rom: Path, output_dir: Path, repo: Path, config: ProR
         did_anything = True
 
     if not did_anything:
-        log("Randomiser enabled, but no randomiser modules selected")
+        log("Randomizzatore abilitato, ma nessun modulo è stato selezionato")
