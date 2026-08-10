@@ -1,5 +1,8 @@
 # Dragon Quest Monsters: Joker 2 Professional – Traduzione italiana
 
+[![](https://img.shields.io/github/v/release/Lurpigi/DQMJ2Pro_Translation?include_prereleases&label=Release)](https://github.com/Lurpigi/DQMJ2Pro_Translation/releases/latest)
+[![](https://img.shields.io/github/downloads/Lurpigi/DQMJ2Pro_Translation/total.svg)](https://github.com/Lurpigi/DQMJ2Pro_Translation/releases)
+
 [Original English README](README_EN.md)
 
 Questa repository contiene la traduzione italiana amatoriale di **Dragon Quest Monsters: Joker 2 Professional** e viene mantenuta anche per integrare gli aggiornamenti tecnici del progetto inglese.
@@ -98,7 +101,7 @@ I database inglesi originali sono stati mantenuti. Le copie con suffisso `_it` p
 
 - [`monster_database_it.csv`](Database/monster_database_it.csv): statistiche, grado, famiglia, abilità e tratti.
 - [`monster_resistance_database_it.csv`](Database/monster_resistance_database_it.csv): resistenze dei mostri.
-- [`synthesis_database_it.html`](Database/synthesis_database_it.html): ricette consultabili e ricercabili nel browser.
+- [`synthesis_database_it.html`](Database/synthesis_database_it.html): ricette consultabili e ricercabili nel browser; disponibile direttamente [Qui](https://lurpigi.github.io/DQMJ2Pro_Translation/).
 - [`synthesis_database_it.csv`](Database/synthesis_database_it.csv): ricette in formato CSV.
 - [`monster_ids_it.csv`](Database/monster_ids_it.csv): corrispondenza fra ID e nomi italiani.
 - [`new_synths_4g_it.csv`](Database/new_synths_4g_it.csv) e [`new_synths_kind_it.csv`](Database/new_synths_kind_it.csv): ricette aggiuntive.
