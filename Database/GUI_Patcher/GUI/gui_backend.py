@@ -12,6 +12,14 @@ from pathlib import Path
 import tempfile
 
 
+# Il backend può essere eseguito dalla console Windows, che spesso usa cp1252.
+# Le utility condivise riportano alcuni simboli Unicode; usa UTF-8 quando
+# l'output supporta la riconfigurazione, evitando che il log interrompa il patch.
+for _stream in (sys.stdout, sys.stderr):
+    if _stream is not None and hasattr(_stream, "reconfigure"):
+        _stream.reconfigure(encoding="utf-8", errors="replace")
+
+
 def run(cmd, cwd=None):
     print("> " + " ".join(map(str, cmd)), flush=True)
 
@@ -564,10 +572,10 @@ def main(argv=None):
         ])
 
         with open(kind_csv, "a", encoding="utf-8", newline="") as out:
-            out.write((repo / "Database" / "new_synths_kind.csv").read_text(encoding="utf-8"))
+            out.write((repo / "Database" / "new_synths_kind_it.csv").read_text(encoding="utf-8"))
 
         with open(fourg_csv, "a", encoding="utf-8", newline="") as out:
-            out.write((repo / "Database" / "new_synths_4g.csv").read_text(encoding="utf-8"))
+            out.write((repo / "Database" / "new_synths_4g_it.csv").read_text(encoding="utf-8"))
 
         run_py_script(tools_repo / "Pro_Tools" / "synthesis_parser.py", [
             "--in", kind_csv,
