@@ -3299,7 +3299,7 @@ STORE 0x18 0x1 0x0 0x2 0x41d80000
 SYS_27 0x8 
 STORE 0x18 0x0 0x42b00000 0x1 0x0
 SYS_42 0x8 
-SETNAME "Eugene Poole"
+SETNAME "Jim Jenius"
 CMP_EQ 0x18 0x0 0x42b00000 0x2 0x0
 JMP_IFNOT 0xc L_cf8c
 SAY "{VOICE=03}Ohh, grazie di essere venuto! Ti stavo cercando!"
@@ -3498,7 +3498,7 @@ STORE 0x18 0x1 0x0 0x2 0x40400000
 SYS_24 0x8 
 STORE 0x18 0x0 0x42bc0000 0x1 0x0
 SYS_42 0x8 
-SETNAME "Eugene Poole"
+SETNAME "Jim Jenius"
 SAY "{VOICE=03}Accidenti! Ho perso! Sei davvero forte."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
@@ -3559,7 +3559,7 @@ SYS_A3 0x8
 JMP_ABS 0xc L_e088
 L_e088:
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} ha ricevuto {E322} da Eugene Poole!"
+SAY "{COLOR=2}{NAME} ha ricevuto {E322} da Jim Jenius!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
 SYS_43 0x8 
@@ -3623,7 +3623,7 @@ SYS_A3 0x8
 JMP_ABS 0xc L_e4e8
 L_e4e8:
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} ha ricevuto {E322} da Eugene Poole!"
+SAY "{COLOR=2}{NAME} ha ricevuto {E322} da Jim Jenius!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
 SYS_43 0x8 
@@ -3690,7 +3690,7 @@ SYS_A3 0x8
 JMP_ABS 0xc L_e988
 L_e988:
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} ha ricevuto {E322} da Eugene Poole!"
+SAY "{COLOR=2}{NAME} ha ricevuto {E322} da Jim Jenius!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
 SYS_43 0x8 
@@ -3834,7 +3834,7 @@ SYS_A3 0x8
 JMP_ABS 0xc L_f3a4
 L_f3a4:
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} è stato costretto a ricevere {E322} da Eugene Poole!"
+SAY "{COLOR=2}{NAME} è stato costretto a ricevere {E322} da Jim Jenius!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
 SYS_43 0x8 
@@ -3848,7 +3848,7 @@ STORE 0x18 0x1 0x0 0x2 0x41e00000
 SYS_27 0x8 
 STORE 0x18 0x0 0x42b80000 0x1 0x0
 SYS_42 0x8 
-SETNAME "Eugene Poole"
+SETNAME "Jim Jenius"
 CMP_LE 0x18 0x0 0x42b80000 0x2 0x40400000
 JMP_IFNOT 0xc L_f5b4
 SAY "{VOICE=03}Le sfide da Monster Scout sono davvero divertenti. Grazie per aver accontentato{WAIT}{CLEAR}un vecchio come me."

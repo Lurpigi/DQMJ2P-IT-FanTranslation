@@ -3293,7 +3293,7 @@ STORE 0x18 0x1 0x0 0x2 0x41d80000
 SYS_27 0x8 
 STORE 0x18 0x0 0x42b00000 0x1 0x0
 SYS_42 0x8 
-SETNAME "Eugene Poole"
+SETNAME "Jim Jenius"
 CMP_EQ 0x18 0x0 0x42b00000 0x2 0x0
 JMP_IFNOT 0xc L_cf8c
 SAY "{VOICE=03}Ohh, grazie di essere venuto! Ti stavo cercando!"
@@ -3492,7 +3492,7 @@ STORE 0x18 0x1 0x0 0x2 0x40400000
 SYS_24 0x8 
 STORE 0x18 0x0 0x42bc0000 0x1 0x0
 SYS_42 0x8 
-SETNAME "Eugene Poole"
+SETNAME "Jim Jenius"
 SAY "{VOICE=03}Accidenti! Ho perso! Sei davvero forte."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
@@ -3553,7 +3553,7 @@ SYS_A3 0x8
 JMP_ABS 0xc L_e088
 L_e088:
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} ha ricevuto {E322} da Eugene Poole!"
+SAY "{COLOR=2}{NAME} ha ricevuto {E322} da Jim Jenius!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
 SYS_43 0x8 
@@ -3617,7 +3617,7 @@ SYS_A3 0x8
 JMP_ABS 0xc L_e4e8
 L_e4e8:
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} ha ricevuto {E322} da Eugene Poole!"
+SAY "{COLOR=2}{NAME} ha ricevuto {E322} da Jim Jenius!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
 SYS_43 0x8 
@@ -3684,7 +3684,7 @@ SYS_A3 0x8
 JMP_ABS 0xc L_e988
 L_e988:
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} ha ricevuto {E322} da Eugene Poole!"
+SAY "{COLOR=2}{NAME} ha ricevuto {E322} da Jim Jenius!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
 SYS_43 0x8 
@@ -3828,7 +3828,7 @@ SYS_A3 0x8
 JMP_ABS 0xc L_f3a4
 L_f3a4:
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} è stato costretto a ricevere {E322} da Eugene Poole!"
+SAY "{COLOR=2}{NAME} è stato costretto a ricevere {E322} da Jim Jenius!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
 SYS_43 0x8 
@@ -3842,7 +3842,7 @@ STORE 0x18 0x1 0x0 0x2 0x41e00000
 SYS_27 0x8 
 STORE 0x18 0x0 0x42b80000 0x1 0x0
 SYS_42 0x8 
-SETNAME "Eugene Poole"
+SETNAME "Jim Jenius"
 CMP_LE 0x18 0x0 0x42b80000 0x2 0x40400000
 JMP_IFNOT 0xc L_f5b4
 SAY "{VOICE=03}Le sfide da Monster Scout sono davvero divertenti. Grazie per aver accontentato{WAIT}{CLEAR}un vecchio come me."
@@ -4664,7 +4664,7 @@ STORE 0x18 0x0 0x42f80000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42f80000 0x2 0x0
 JMP_IFNOT 0xc L_1253c
 SYS_42 0x8 
-SETNAME "Eugene Poole"
+SETNAME "Jim Jenius"
 SAY "{VOICE=03}Ohh, finalmente un essere umano! Sai dove ci troviamo?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
@@ -4688,7 +4688,7 @@ L_12544:
 JMP_ABS 0xc L_12550
 L_12550:
 SYS_42 0x8 
-SETNAME "Eugene Poole"
+SETNAME "Jim Jenius"
 SAY "{VOICE=03}Hm? Guardandoti attentamente, mi sembra di averti già visto."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
@@ -4749,7 +4749,7 @@ STORE 0x18 0x0 0x42f80000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42f80000 0x2 0x0
 JMP_IFNOT 0xc L_12a80
 SYS_42 0x8 
-SETNAME "Eugene Poole"
+SETNAME "Jim Jenius"
 SAY "{VOICE=03}Ohh! Un altro essere umano! Wow! Sai dove ci troviamo?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
@@ -4773,7 +4773,7 @@ L_12a88:
 JMP_ABS 0xc L_12a94
 L_12a94:
 SYS_42 0x8 
-SETNAME "Eugene Poole"
+SETNAME "Jim Jenius"
 SAY "{VOICE=03}Che ne sarà di me quando tutti i Pipit saranno spariti...?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
@@ -4977,7 +4977,7 @@ L_13874:
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x41e00000
 JMP_IFNOT 0xc L_13980
 SYS_42 0x8 
-SAY "{VOICE=07}Quel vecchio Eugene Poole che era qui prima è tornato nel suo mondo."
+SAY "{VOICE=07}Quel vecchio Jim Jenius che era qui prima è tornato nel suo mondo."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Ti siamo grati per averci restituito i nostri poteri."
@@ -4994,7 +4994,7 @@ STORE 0x18 0x0 0x42f80000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42f80000 0x2 0x0
 JMP_IFNOT 0xc L_13ae8
 SYS_42 0x8 
-SAY "{VOICE=07}Quel vecchio Eugene Poole che era qui prima è tornato nel suo mondo."
+SAY "{VOICE=07}Quel vecchio Jim Jenius che era qui prima è tornato nel suo mondo."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Ti siamo grati per averci restituito i nostri poteri."
@@ -5013,7 +5013,7 @@ STORE 0x18 0x0 0x42f80000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42f80000 0x2 0x0
 JMP_IFNOT 0xc L_13c34
 SYS_42 0x8 
-SAY "{VOICE=07}Eh? Ho appena visto quel vecchio Eugene Poole che era venuto qui uscire dalla{WAIT}{CLEAR}città."
+SAY "{VOICE=07}Eh? Ho appena visto quel vecchio Jim Jenius che era venuto qui uscire dalla{WAIT}{CLEAR}città."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}È strano che sia tornato sulla nostra isola."
@@ -5027,7 +5027,7 @@ L_13c3c:
 JMP_ABS 0xc L_13c48
 L_13c48:
 SYS_42 0x8 
-SAY "{VOICE=07}Quel vecchio Eugene Poole che si era perso qui è tornato nel suo mondo."
+SAY "{VOICE=07}Quel vecchio Jim Jenius che si era perso qui è tornato nel suo mondo."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}È strano che sia tornato sulla nostra isola."
