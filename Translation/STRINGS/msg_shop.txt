@@ -196,8 +196,7 @@ Consulta una vasta gamma di dati sui mostri.
 Partecipa a battaglie virtuali.
 Esci dal recinto mostri.
 Questa funzione non è disponibile finché non hai più di {315}20 mostri.
-Questa funzione non è disponibile finché non hai più di {315}20 mostri.
-
+Questa funzione non è disponibile finché non hai più di {315}30 mostri.
 
 
 
