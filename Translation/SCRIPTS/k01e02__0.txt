@@ -7620,7 +7620,7 @@ JMP_ABS 0xc L_1df00
 L_1df00:
 SYS_42 0x8 
 SETNAME "Meck Nick"
-SAY "{VOICE=07}Senti, non è che per caso hai visto quella ragazza, Melonie, con il Capitano?"
+SAY "{VOICE=07}Senti, non è che per caso hai visto quella ragazza, Sheila, con il Capitano?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}L'hai vista?! Favoloso! Questo vuol dire che presto saremo di nuovo tutti insieme!"
@@ -9312,7 +9312,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x40000000
 STORE 0x18 0x1 0x40000000 0x2 0x0
 STORE 0x18 0x1 0x40400000 0x0 0x433f0000
 SYS_FD 0x8 
-SAY "{VOICE=03}Ah! Come sospettavo, persino {E322} laggiù sembra essere d'accordo."
+SAY "{VOICE=03}Come sospettavo! persino {E322} laggiù sembra essere d'accordo."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}Ecco, è deciso! Andate d'accordo, mi raccomando!"

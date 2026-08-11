@@ -4181,7 +4181,7 @@ CMP_EQ 0x18 0x0 0x42d00000 0x2 0x0
 JMP_IFNOT 0xc L_1038c
 SYS_42 0x8 
 SETNAME "Halb"
-SAY "{VOICE=07}Vedi quel Pu pazzo vicino agli scaffali? È Marsha."
+SAY "{VOICE=07}Vedi quel Pu pazzo vicino agli scaffali? È Pupa."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Se vuoi mettere alla prova le tue abilità, parla con lei e affronta il test di abilità{WAIT}{CLEAR}del reclutatore."
@@ -4248,7 +4248,7 @@ CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x437b0000
 JMP_IFNOT 0xc L_10e38
 SYS_42 0x8 
 SETNAME "Halb"
-SAY "{VOICE=07}Non posso credere che Marsha sia scappata con te..."
+SAY "{VOICE=07}Non posso credere che Pupa sia scappata con te..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Pensavo che, una volta finito il suo test... finalmente mi avrebbe dato una{WAIT}{CLEAR}chance."
@@ -4273,12 +4273,12 @@ STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Duke, la talpa maniaca, si è unito alla tua squadra."
+SAY "{COLOR=2}Halb, la talpa maniaca, si è unito alla tua squadra."
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{VOICE=07}Ti seguirò fino ai confini del mondo, Marsha!"
+SAY "{VOICE=07}Ti seguirò fino ai confini del mondo, Pupa!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4393,7 +4393,7 @@ SYS_44 0x8
 SAY "{VOICE=08}{1F35}no felice di rivederti! Ora potrò ricambiare il favore che mi hai fatto..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Mi chiamo Marsha e sono responsabile del test di abilità del reclutatore."
+SAY "{VOICE=08}Mi chiamo Pupa e sono responsabile del test di abilità del reclutatore."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SETNAME "Pupa"
@@ -4468,7 +4468,7 @@ STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Marsha, la Pu pazzo, si è unita alla tua squadra."
+SAY "{COLOR=2}Pupa, la Pu pazzo, si è unita alla tua squadra."
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
 SYS_43 0x8 
@@ -4539,7 +4539,7 @@ CMP_EQ 0x18 0x0 0x42d40000 0x2 0x0
 JMP_IFNOT 0xc L_11fd8
 SYS_42 0x8 
 SETNAME "Pupa"
-SAY "{VOICE=08}Ciao! Sei qui per affrontare il test di abilità del reclutatore di Marsha?{VOICE=09}"
+SAY "{VOICE=08}Ciao! Sei qui per affrontare il test di abilità del reclutatore di Pupa?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 

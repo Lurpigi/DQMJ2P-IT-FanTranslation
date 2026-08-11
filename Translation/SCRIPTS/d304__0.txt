@@ -204,7 +204,7 @@ SYS_43 0x8
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Elder"
+SETNAME "Anziano"
 SAY "{VOICE=03}Calma, calma, Kukri. Non traiamo conclusioni affrettate..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -215,11 +215,11 @@ STORE 0x18 0x1 0x0 0x2 0x41a80000
 STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x42700000
-SETNAME "Elder"
+SETNAME "Anziano"
 SAY "{VOICE=03}Tu sei {NAME}, vero? Tiko mi ha raccontato la tua storia."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Elder"
+SETNAME "Anziano"
 SAY "{VOICE=03}Ti siamo grati per essere accorso in aiuto della nostra tribù Pipit."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -229,7 +229,7 @@ SYS_16 0x8
 STORE 0x18 0x1 0x0 0x2 0x41b00000
 STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_17 0x8 
-SETNAME "Elder"
+SETNAME "Anziano"
 SAY "{VOICE=03}Immagino che tu ti chieda cosa sia successo qui e perché sia stato scelto{WAIT}{CLEAR}proprio tu. Ti spiegherò tutto."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -247,27 +247,27 @@ STORE 0x18 0x1 0x0 0x2 0x41f80000
 STORE 0x18 0x1 0x3f800000 0x2 0x446d8000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Elder"
+SETNAME "Anziano"
 SAY "{VOICE=03}Poco tempo fa, un gigantesco mostro scimmia è apparso all'improvviso sulla{WAIT}{CLEAR}nostra isola."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Elder"
+SETNAME "Anziano"
 SAY "{VOICE=03}Quel mostro ha messo in pericolo la nostra pace, così lo abbiamo chiamato{WAIT}{CLEAR}"l'Ospite indesiderato'."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Elder"
+SETNAME "Anziano"
 SAY "{VOICE=03}Poco dopo essere atterrato, è fuggito da qui ed è andato verso il centro{WAIT}{CLEAR}dell'isola."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Elder"
+SETNAME "Anziano"
 SAY "{VOICE=03}Là vive il nostro re. È la nostra terra sacra, conosciuta come \"Palazzo{WAIT}{CLEAR}Blanc\"."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Elder"
+SETNAME "Anziano"
 SAY "{VOICE=03}...è probabile che il nostro potere svanisca presto..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Elder"
+SETNAME "Anziano"
 SAY "{VOICE=03}Senza dubbio è colpa di quella creatura, che sta devastando la nostra terra{WAIT}{CLEAR}sacra..."
 SYS_44 0x8 
 SYS_43 0x8 
@@ -316,11 +316,11 @@ STORE 0x18 0x1 0x0 0x0 0x41600000
 STORE 0x18 0x1 0x3f800000 0x2 0x434a0000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Elder"
+SETNAME "Anziano"
 SAY "{VOICE=03}Perciò, prima di perdere il potere di collegare tra loro mondi diversi,"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Elder"
+SETNAME "Anziano"
 SAY "{VOICE=03}...abbiamo deciso di reclutare guerrieri da altri mondi che potessero aiutarci!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -341,7 +341,7 @@ STORE 0x18 0x1 0x0 0x2 0x42b60000
 STORE 0x18 0x1 0x3f800000 0x2 0x40e00000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Elder"
+SETNAME "Anziano"
 SAY "{VOICE=03}E così sei stato reclutato per diventare uno di quei guerrieri!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -359,15 +359,15 @@ SYS_13 0x8
 STORE 0x18 0x1 0x0 0x2 0x42200000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Elder"
+SETNAME "Anziano"
 SAY "{VOICE=03}A proposito, i nostri reclutatori sono questi due: Tiko e Kukri."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Elder"
+SETNAME "Anziano"
 SAY "{VOICE=03}Stanno disputando una piccola sfida tra loro..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Elder"
+SETNAME "Anziano"
 SAY "{VOICE=03}Se il guerriero reclutato da uno di loro sconfiggerà l'Ospite indesiderato,"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -385,7 +385,7 @@ WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x41600000
 STORE 0x18 0x1 0x3f800000 0x2 0x434a0000
 SYS_18 0x8 
-SETNAME "ELder"
+SETNAME "Anziano"
 SAY "{VOICE=03}ho promesso che il vincitore diventerà il prossimo anziano!"
 SYS_44 0x8 
 SYS_43 0x8 
@@ -415,7 +415,7 @@ STORE 0x18 0x1 0x0 0x2 0x42480000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Elder"
+SETNAME "Anziano"
 SAY "{VOICE=03}Ora, Kukri. Presentami il guerriero che hai portato qui."
 SYS_44 0x8 
 SYS_43 0x8 
@@ -589,7 +589,7 @@ STORE 0x18 0x1 0x0 0x0 0x41600000
 STORE 0x18 0x1 0x3f800000 0x2 0x434a0000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Elder"
+SETNAME "Anziano"
 SAY "{VOICE=03}Per tutti i mostri, sembra davvero forte! Ben fatto, Kukri!"
 SYS_44 0x8 
 SYS_43 0x8 
@@ -787,7 +787,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SETNAME "Elder"
+SETNAME "Anziano"
 SAY "{VOICE=03}Kukri ha fatto proprio un ottimo lavoro. Potrebbe perfino vincere questa sfida..."
 SYS_44 0x8 
 SYS_43 0x8 

@@ -5188,7 +5188,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x40000000
 STORE 0x18 0x1 0x40000000 0x2 0x41700000
 SYS_02 0x8 
 SYS_42 0x8 
-SETNAME "King Sanguini"
+SETNAME "Re Sanguini"
 SAY "{VOICE=03}Dovresti dire a tutti gli abitanti del villaggio Pipit che hai salvato anche{WAIT}{CLEAR}l'isola."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
@@ -5435,7 +5435,7 @@ SYS_03 0x8
 CMP_EQ 0x18 0x0 0x43000000 0x2 0x0
 JMP_IFNOT 0xc L_159b4
 SYS_42 0x8 
-SETNAME "King Sanguini"
+SETNAME "Re Sanguini"
 SAY "{VOICE=03}Oh, grazie di essere venuto, {NAME}!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
@@ -5468,7 +5468,7 @@ L_159bc:
 JMP_ABS 0xc L_159c8
 L_159c8:
 SYS_42 0x8 
-SETNAME "King Sanguini"
+SETNAME "Re Sanguini"
 SAY "{VOICE=03}Oh, {NAME}, grazie di essere venuto. Allora? Che te ne pare?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
