@@ -6,14 +6,14 @@ This fork of Ceris White's Joker 2 Professional repository includes a completed 
 
 [Patcher Program](https://github.com/Saneezore/DQMJ2Pro_Translation/releases) with friendly user interface for patching your legally obtained rom. Select your rom, check which patch options you want, then run the program.<br>
 <img src="./Database/GUI_Patcher/gui.png" width="300"><br>
-Additionally, a [web-based patcher](https://mistpatcher.cherrymint.live/) has been provided by Ceris White.
+Additionally, a [web-based patcher](https://mistpatcher.cherrymint.live/) has been provided by Ceris White. **<< Recommended for Android/iOS users**
 
 Database of Monster [Synthesis](https://saneezore.github.io/DQMJ2Pro_Translation/Database/synthesis_database.html) Recipes.<br>
 (New custom Synthesis Recipes are at the bottom of the list)<br>
 Database of Monster [Stats and Traits](https://github.com/Saneezore/DQMJ2Pro_Translation/blob/master/Database/monster_database.csv).<br>
 Database of Monster [Resistances](https://github.com/Saneezore/DQMJ2Pro_Translation/blob/master/Database/monster_resistance_database.csv). <br>
 
-Our **emulator of choice** for this translation patch is [melonDS](https://github.com/melonDS-emu/melonDS/releases). **<< Recommended for Android/iOS users**
+Our **emulator of choice** for this translation patch is [melonDS](https://github.com/melonDS-emu/melonDS/releases).
 
 ### Features
 - In-game menus, story dialogue, and post-game dialogue have been translated/localised from its original Japanese to English.
