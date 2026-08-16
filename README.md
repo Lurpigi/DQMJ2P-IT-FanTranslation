@@ -13,7 +13,7 @@ Database of Monster [Synthesis](https://saneezore.github.io/DQMJ2Pro_Translation
 Database of Monster [Stats and Traits](https://github.com/Saneezore/DQMJ2Pro_Translation/blob/master/Database/monster_database.csv).<br>
 Database of Monster [Resistances](https://github.com/Saneezore/DQMJ2Pro_Translation/blob/master/Database/monster_resistance_database.csv). <br>
 
-Our **emulator of choice** for this translation patch is [melonDS](https://github.com/melonDS-emu/melonDS/releases).
+Our **emulator of choice** for this translation patch is [melonDS](https://github.com/melonDS-emu/melonDS/releases). **<< Recommended for Android/iOS users**
 
 ### Features
 - In-game menus, story dialogue, and post-game dialogue have been translated/localised from its original Japanese to English.
