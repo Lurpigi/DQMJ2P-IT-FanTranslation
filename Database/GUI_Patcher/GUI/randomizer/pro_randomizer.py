@@ -20,6 +20,7 @@ class ProRandomizerConfig:
     level_up_mode: str = "none"  # none, swap, random
     level_up_variance: int = 110
     skill_points_mode: str = "none"  # none, swap, random
+    randomize_skillsets: bool = False
     randomize_generic_synthesis: bool = False
     settings_summary: str = ""
 
@@ -583,6 +584,70 @@ def randomize_skill_points(data_dir: Path, output_dir: Path, config: ProRandomiz
             _write_spoiler(spoiler, f"Level {i}: {points} skill points\n")
 
 
+def randomize_skillsets(data_dir: Path, output_dir: Path, config: ProRandomizerConfig, log=print):
+    """Shuffle complete three-record skillset families while preserving Pro's extra record."""
+    path = data_dir / "SkillTbl.bin"
+    if not path.is_file():
+        raise FileNotFoundError(path)
+
+    data = path.read_bytes()
+    header_size = 8
+    record_size = 60
+    records_per_group = 3
+    group_size = record_size * records_per_group
+
+    if len(data) < header_size or data[:4] != b"SKIL":
+        raise ValueError("SkillTbl.bin has an unexpected header")
+
+    record_count = int.from_bytes(data[4:8], "little")
+    body = data[header_size:]
+    if len(body) != record_count * record_size:
+        raise ValueError(
+            f"SkillTbl.bin unexpected size: header says {record_count} records, "
+            f"body contains {len(body)} bytes"
+        )
+
+    complete_group_count = record_count // records_per_group
+    grouped_size = complete_group_count * group_size
+    groups = [
+        body[i * group_size:(i + 1) * group_size]
+        for i in range(complete_group_count)
+    ]
+    shuffled_order = list(range(complete_group_count))
+    random.shuffle(shuffled_order)
+    preserved_tail = body[grouped_size:]
+
+    path.write_bytes(
+        data[:header_size]
+        + b"".join(groups[source] for source in shuffled_order)
+        + preserved_tail
+    )
+    trailing_records = record_count % records_per_group
+    log(
+        f"Randomized SkillTbl.bin: {complete_group_count} three-record skillset groups shuffled; "
+        f"{trailing_records} trailing Pro record preserved"
+    )
+
+    if config.generate_spoiler:
+        output_dir.mkdir(parents=True, exist_ok=True)
+        spoiler = output_dir / f"randomizer_spoiler_{config.seed}.txt"
+        mappings = [
+            f"Skillset group {target + 1:02d} <- group {source + 1:02d}"
+            for target, source in enumerate(shuffled_order)
+        ]
+        _append_spoiler(
+            spoiler,
+            "\n".join([
+                "--- Skillset Randomisation ---",
+                f"Three-record skillset groups shuffled: {complete_group_count}",
+                f"Trailing Pro records preserved: {trailing_records}",
+                "",
+                *mappings,
+            ]) + "\n",
+        )
+        log(f"Spoiler file: {spoiler}")
+
+
 def run_pro_randomizer(pro_rom: Path, output_dir: Path, repo: Path, config: ProRandomizerConfig, log=print):
     pro_rom = Path(pro_rom)
     data_dir = pro_rom / "data_dir"
@@ -623,6 +688,10 @@ def run_pro_randomizer(pro_rom: Path, output_dir: Path, repo: Path, config: ProR
 
     if config.skill_points_mode != "none":
         randomize_skill_points(data_dir, Path(output_dir), config, log=log)
+        did_anything = True
+
+    if config.randomize_skillsets:
+        randomize_skillsets(data_dir, Path(output_dir), config, log=log)
         did_anything = True
 
     if not did_anything:

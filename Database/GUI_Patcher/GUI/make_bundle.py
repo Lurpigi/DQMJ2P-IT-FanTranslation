@@ -8,7 +8,7 @@ BUNDLE = Path(__file__).resolve().parent / "bundled" / "repo"
 
 REMOVE_DIRS = [
     ".git",
-    "GUI/bundled",
+    "Database/GUI_Patcher/GUI/bundled",
     "GUI_WORK",
     "Pro_ROM",
     "Pro_ROM_YT",

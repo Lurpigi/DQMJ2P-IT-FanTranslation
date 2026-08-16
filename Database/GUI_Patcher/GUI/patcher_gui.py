@@ -28,7 +28,7 @@ def app_root():
     return Path(__file__).resolve().parents[3]
 
 ROOT = app_root()
-PATCHER_VERSION = "1.2.1"
+PATCHER_VERSION = "1.2.2"
 
 def open_url(url):
     if sys.platform.startswith("linux"):
@@ -280,6 +280,7 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         self.randomizer_level_up_mode = tk.StringVar(value="none")
         self.randomizer_level_up_variance = tk.StringVar(value="140")
         self.randomizer_skill_points_mode = tk.StringVar(value="none")
+        self.randomizer_skillsets_var = tk.BooleanVar(value=False)
         self.randomizer_generic_synthesis_var = tk.BooleanVar(value=False)
 
         self.randomizer_rank_vars = {
@@ -440,11 +441,13 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         monsters_tab = ttk.Frame(rand_tabs)
         level_tab = ttk.Frame(rand_tabs)
         skill_tab = ttk.Frame(rand_tabs)
+        skillsets_tab = ttk.Frame(rand_tabs)
         filters_tab = ttk.Frame(rand_tabs)
 
         rand_tabs.add(monsters_tab, text="Monsters")
         rand_tabs.add(level_tab, text="Level Up XP")
         rand_tabs.add(skill_tab, text="Skill Points")
+        rand_tabs.add(skillsets_tab, text="Skillsets")
         rand_tabs.add(filters_tab, text="Battle monster replacement filters")
 
         monsters = ttk.Frame(monsters_tab)
@@ -513,6 +516,20 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
             rb = ttk.Radiobutton(skill, text=text, variable=self.randomizer_skill_points_mode, value=value)
             rb.pack(anchor="w", padx=8, pady=2)
             self.randomizer_widgets.append(rb)
+
+        skillsets = ttk.Frame(skillsets_tab)
+        skillsets.pack(fill="x", padx=8, pady=8)
+        skillsets_cb = ttk.Checkbutton(
+            skillsets,
+            text="Randomise skillsets",
+            variable=self.randomizer_skillsets_var,
+        )
+        skillsets_cb.pack(anchor="w", padx=8, pady=2)
+        add_tooltip(
+            skillsets_cb,
+            "Shuffles what each skillset does while keeping related three-stage skillset records together.",
+        )
+        self.randomizer_widgets.append(skillsets_cb)
 
         filters = ttk.Frame(filters_tab)
         filters.pack(fill="x", padx=8, pady=8)
@@ -796,6 +813,9 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
 
             if skill_points_mode != "none":
                 args.extend(["--randomizer-skill-points", skill_points_mode])
+
+            if self.randomizer_skillsets_var.get():
+                args.append("--randomizer-skillsets")
 
             if self.randomizer_generic_synthesis_var.get():
                 args.append("--randomizer-generic-synthesis")
