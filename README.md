@@ -1,4 +1,4 @@
-## [V1.0.0 Release Announcement](https://github.com/Saneezore/DQMJ2Pro_Translation/blob/master/Guide/v1.0_announcement_post.md) & [F.A.Q](Guide/faq.md)
+### [F.A.Q](Guide/faq.md)
 
 This fork of Ceris White's Joker 2 Professional repository includes a completed translation and localisation by the English Translation Project team.
 
@@ -54,19 +54,6 @@ Our **emulator of choice** for this translation patch is [melonDS](https://githu
 - For hosting collaboration efforts.
 
 ---
-
-<details>
-<summary>Manually Patching the Translation</summary>
-
-[Manual Guide](https://github.com/Saneezore/DQMJ2Pro_Translation/blob/master/Guide/step-by-step.md) to patch your legally obtained rom. [Linux](https://github.com/Saneezore/DQMJ2Pro_Translation/blob/master/Guide/linux_guide.md).<br>
-Note: The windows guide tells the patcher to independently source `ndstool.exe`. Since `ndstool` is a [GPL3](https://github.com/Saneezore/DQMJ2Pro_Translation/blob/master/Database/ndstool_license_COPYING.gpl3)+[MIT](https://github.com/Saneezore/DQMJ2Pro_Translation/blob/master/Database/ndstool_license_COPYING.mit) project, a compiled windows binary has been provided in this repository, dated to March 2026. <br>
-Before patching: [New synthesis recipes](https://github.com/Saneezore/DQMJ2Pro_Translation/blob/master/Guide/adding_new_synths.md) has been added to the game for monsters that exist in the game files, but were either wi-fi exclusive monsters or otherwise not obtainable in gameplay.
-
-Eugene Pool \(the old man on the airship\) missing is an anti-piracy measure \(among others\) by the developers.<br>
-This can be circumvented by [pre-applying an anti-piracy \(AP\) patch](https://github.com/Saneezore/DQMJ2Pro_Translation/blob/master/Guide/ap_patching.md) before applying the translation patch.<br>
-This happens on hardware \(DS, 3DS\), but not emulation \(desume, melonDS\).
-
-</details>
 
 <details>
 <summary>Ceris White's Technical Tools</summary>
