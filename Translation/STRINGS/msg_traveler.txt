@@ -3,7 +3,7 @@ Professionisti
 La tua squadra
 Cura i tuoi mostri
 Grado della squadra
-Zoom
+Teletrasporto
 Saving
 Oggetti e armi
 Campionato dei mostri
@@ -51,52 +51,52 @@ Memo 13
 32
 ????????
 I professionisti sono anime impavide{315}che piegano i mostri alla propria volontà.{315}{315}Un reclutatore che padroneggia quest'arte{315}può comandare persino i mostri{315}che minacciano il mondo.
-I mostri sono i tuoi alleati più fedeli{315}e combattono coraggiosamente al tuo fianco.{315}Puoi combattere con un massimo di tre mostri{315}alla volta nella squadra attiva. È{315}possibile reclutare e conservare fino a 100{315}mostri contemporaneamente.
+I mostri sono i tuoi alleati più fedeli{315}e combattono coraggiosamente al tuo{315}fianco.{315}Puoi combattere con un massimo di tre{315}mostri{315}alla volta nella squadra attiva. È{315}possibile reclutare e conservare fino a{315}100{315}mostri contemporaneamente.
 Riporta i mostri feriti sull'{315}Albatros e recupereranno completamente.{315}I mostri sconfitti torneranno{315}in vita. Puoi usare oggetti in battaglia{315}per aiutare i tuoi mostri a recuperare{315}PV e PM.{315}
 Il grado della squadra dipende dalle{315}statistiche dei tuoi mostri, come PV e{315}Attacco. Anche alcune abilità e tratti{315}influenzano il grado.{315}{315}Il grado viene mostrato con stelle sopra{315}la tua squadra.
-Zoom è un'abilità che permette all'eroe di{315}raggiungere istantaneamente le zone già{315}visitate.{315}Può essere usato anche nelle grotte,{315}ma ci sono alcune aree in cui{315}non funziona.
+Teletrasporto è un'abilità che permette{315}all'eroe di{315}raggiungere istantaneamente le zone già{315}visitate.{315}Può essere usato anche nelle grotte,{315}ma ci sono alcune aree in cui{315}non funziona.
 Puoi salvare la partita quasi in ogni{315}momento o punto dell'avventura.{315}Tuttavia, ci sono alcune scene in cui{315}non è possibile salvare.
-Premi il pulsante Y per leggere gli effetti{315}degli oggetti. Alcuni oggetti possono essere{315}usati durante il viaggio,{315}altri in battaglia.{315}Le armi vengono equipaggiate dai mostri.{315}Servono soprattutto ad aumentare l'Attacco.
-Il torneo supremo dei reclutatori di mostri{315}si svolge tramite Nintendo WFC.{315}I partecipanti di tutto il mondo vengono{315}classificati dopo le sfide giornaliere in casa e fuori casa.
-Usa la comunicazione wireless per combattere{315}contro i giocatori che incontri.{315}Puoi salvare gli avversari come battaglie{315}memorizzate e inviarle ad altri.{315}{315}I mostri di grado S o superiore{315}non possono essere reclutati.
-Puoi scambiare mostri cresciuti da{315}altri giocatori o in DQM Joker 2{315}usando la comunicazione wireless.{315}{315}Solo i mostri di grado A o inferiore possono essere{315}scambiati con DQM Joker 2,{315}e il loro livello diventa 1.
-I mostri reclutati nelle battaglie in Modalità Tag{315}sono mostri ospiti e ricevono il contrassegno{315}'Ospite' accanto al nome.{315}Puoi aggiungerli alla squadra{315}e usarli nelle battaglie in Modalità Tag,{315}ma non nella{315}Coppa suprema dei maestri Wi-Fi.
-Quando il contrassegno 'Ospite' lascia l'{315}albero genealogico, lascia anche il mostro.{315}Continua quindi a sintetizzarlo con mostri{315}senza il contrassegno 'Ospite': alla fine{315}diventerà tuo.{315}{315}Quando il contrassegno scompare, il mostro può partecipare alla{315}Coppa suprema dei maestri Wi-Fi.
+Premi il pulsante Y per leggere gli{315}effetti{315}degli oggetti. Alcuni oggetti possono{315}essere{315}usati durante il viaggio,{315}altri in battaglia.{315}Le armi vengono equipaggiate dai mostri.{315}Servono soprattutto ad aumentare{315}l'Attacco.
+Il torneo supremo dei reclutatori di{315}mostri{315}si svolge tramite Nintendo WFC.{315}I partecipanti di tutto il mondo vengono{315}classificati dopo le sfide giornaliere in{315}casa e fuori casa.
+Usa la comunicazione wireless per{315}combattere{315}contro i giocatori che incontri.{315}Puoi salvare gli avversari come battaglie{315}memorizzate e inviarle ad altri.{315}{315}I mostri di grado S o superiore{315}non possono essere reclutati.
+Puoi scambiare mostri cresciuti da{315}altri giocatori o in DQM Joker 2{315}usando la comunicazione wireless.{315}{315}Solo i mostri di grado A o inferiore{315}possono essere{315}scambiati con DQM Joker 2,{315}e il loro livello diventa 1.
+I mostri reclutati nelle battaglie in{315}Modalità Tag{315}sono mostri ospiti e ricevono il{315}contrassegno{315}'Ospite' accanto al nome.{315}Puoi aggiungerli alla squadra{315}e usarli nelle battaglie in Modalità Tag,{315}ma non nella{315}Coppa suprema dei maestri Wi-Fi.
+Quando il contrassegno 'Ospite' lascia l'{315}albero genealogico, lascia anche il{315}mostro.{315}Continua quindi a sintetizzarlo con mostri{315}senza il contrassegno 'Ospite': alla fine{315}diventerà tuo.{315}{315}Quando il contrassegno scompare, il mostro{315}può partecipare alla{315}Coppa suprema dei maestri Wi-Fi.
 Seleziona 'Recluta' in battaglia: i tuoi{315}mostri useranno un attacco di reclutamento{315}per conquistare il mostro nemico.{315}{315}Puoi provare a reclutarlo finché il nemico{315}non si arrabbia.
-Il numero indica la probabilità{315}di successo.{315}Più è alto,{315}più è facile reclutare il mostro.{315}Indebolire il nemico{315}vicino alla sconfitta aumenta le probabilità.{315}Se resta basso,{315}fai salire i mostri e riprova.
-I tre mostri mostrati a destra in 'Cambia'{315}sono mostri di riserva.{315}Viaggiano con te separati dalla squadra attiva{315}e possono essere sostituiti in battaglia.
-Durante la battaglia, premi Y per cambiare{315}tra mostri attivi e di riserva.{315}{315}Fai riposare i mostri feriti e usa bene{315}le riserve: le battaglie saranno molto più facili.{315}Prova tattiche diverse.
-I pilastri di pietra azzurra sono punti{315}di cura.{315}Ripristinano completamente PV e PM{315}della squadra e rianimano i mostri sconfitti.{315}{315}Dopo averne usato uno, lascia la zona{315}per renderlo nuovamente utilizzabile.
-Alcuni mostri, come Peso gallo,{315}sono molto più grandi del normale.{315}I nuovi maestri probabilmente non possono competere{315}con la loro forza schiacciante.{315}{315}Se ne incontri uno,{315}puoi anche scegliere di fuggire.
+Il numero indica la probabilità{315}di successo.{315}Più è alto,{315}più è facile reclutare il mostro.{315}Indebolire il nemico{315}vicino alla sconfitta aumenta le{315}probabilità.{315}Se resta basso,{315}fai salire i mostri e riprova.
+I tre mostri mostrati a destra in 'Cambia'{315}sono mostri di riserva.{315}Viaggiano con te separati dalla squadra{315}attiva{315}e possono essere sostituiti in battaglia.
+Durante la battaglia, premi Y per cambiare{315}tra mostri attivi e di riserva.{315}{315}Fai riposare i mostri feriti e usa bene{315}le riserve: le battaglie saranno molto più{315}facili.{315}Prova tattiche diverse.
+I pilastri di pietra azzurra sono punti{315}di cura.{315}Ripristinano completamente PV e PM{315}della squadra e rianimano i mostri{315}sconfitti.{315}{315}Dopo averne usato uno, lascia la zona{315}per renderlo nuovamente utilizzabile.
+Alcuni mostri, come Peso gallo,{315}sono molto più grandi del normale.{315}I nuovi maestri probabilmente non possono{315}competere{315}con la loro forza schiacciante.{315}{315}Se ne incontri uno,{315}puoi anche scegliere di fuggire.
 Su quest'isola{315}vivono mostri giganti{315}oltre ogni immaginazione.{315}Combatterli normalmente{315}finirebbe probabilmente male.{315}{315}Quando sarai più forte potrai affrontarli,{315}ma per ora stai alla larga.
 Assegna ai tratti e alle abilità i punti{315}ottenuti salendo di livello{315}per apprendere nuove abilità e tratti.
 Compra e vendi oggetti e armi.{315}Forse esistono modi per ampliare{315}la scelta del negozio...?
 Qui puoi depositare l'oro.{315}Se la squadra viene sconfitta,{315}l'oro trasportato si dimezza,{315}ma quello depositato resta al sicuro.
-Le squadre preferite permettono di salvare{315}le formazioni di mostri che ti piacciono.{315}I membri salvati possono essere scambiati{315}con la squadra o con le riserve.{315}Registrare squadre è utile per le battaglie{315}Wireless, Wi-Fi o in Modalità Tag.
-La battaglia virtuale permette di{315}combattere liberamente usando i tuoi mostri.{315}{315}Puoi modificare liberamente le impostazioni{315}di nemici e alleati,{315}per studiare gli schemi{315}o mettere alla prova i tuoi mostri.
+Le squadre preferite permettono di salvare{315}le formazioni di mostri che ti piacciono.{315}I membri salvati possono essere scambiati{315}con la squadra o con le riserve.{315}Registrare squadre è utile per le{315}battaglie{315}Wireless, Wi-Fi o in Modalità Tag.
+La battaglia virtuale permette di{315}combattere liberamente usando i tuoi{315}mostri.{315}{315}Puoi modificare liberamente le{315}impostazioni{315}di nemici e alleati,{315}per studiare gli schemi{315}o mettere alla prova i tuoi mostri.
 Quando entri in una zona già completata,{315}il meteo può essere cambiato,{315}alterando anche la zona.{315}{315}Il meteo può cambiare ogni volta{315}che entri nella mappa del mondo.
 I mostri sono divisi in 8 famiglie:{315}slime, drago, natura, bestia,{315}materiale, demone, non-morti e ???.{315}{315}Ogni famiglia ha un fattore che può{315}aumentarne la tensione in battaglia.
-Per esempio, gli slime possono aumentare la tensione{315}quando vengono indeboliti da Sap o abilità simili.{315}I non-morti possono aumentarla{315}quando qualcuno{315}cade in battaglia.{315}{315}Scopri da solo il fattore di ogni famiglia.
+Per esempio, gli slime possono aumentare{315}la tensione{315}quando vengono indeboliti da Sap o abilità{315}simili.{315}I non-morti possono aumentarla{315}quando qualcuno{315}cade in battaglia.{315}{315}Scopri da solo il fattore di ogni{315}famiglia.
 La sintesi è un'arte miracolosa che{315}combina 2 mostri per crearne uno nuovo.{315}{315}I 2 mostri usati sono i genitori,{315}e il nuovo mostro è il loro figlio.{315}I figli possono superare i genitori,{315}quindi sintetizza spesso.
-Per sintetizzare, servono mostri {231} e {232}{315}come genitori del figlio.{315}I genitori devono avere almeno il livello 10.{315}{315}I mostri diventano più forti quando il grado{315}sale da F ad A.{315}Sintetizza mostri di grado superiore.
-Un mostro sintetizzato può di solito{315}ereditare fino a 3 abilità dai genitori.{315}{315}Eredita anche metà dei punti abilità{315}dei genitori.{315}Che siano stati assegnati o meno,{315}tutti i punti vengono dimezzati e trasmessi.
-Il limite di crescita di un mostro è il livello 50.{315}Sintesi ripetute e genitori di alto livello{315}possono produrre mostri che crescono ulteriormente.
-La sintesi evolutiva crea mostri Forti{315}o Fortissimi.{315}Fondi un mostro di grado F, E o D{315}al livello 20 o superiore con la stessa specie{315}per creare un mostro Forte.{315}Fondi un mostro di grado C, B o A{315}al livello 50 o superiore con la stessa specie{315}per creare un mostro Fortissimo.
+Per sintetizzare, servono mostri {231} e{315}{232}{315}come genitori del figlio.{315}I genitori devono avere almeno il livello{315}10.{315}{315}I mostri diventano più forti quando il{315}grado{315}sale da F ad A.{315}Sintetizza mostri di grado superiore.
+Un mostro sintetizzato può di solito{315}ereditare fino a 3 abilità dai genitori.{315}{315}Eredita anche metà dei punti abilità{315}dei genitori.{315}Che siano stati assegnati o meno,{315}tutti i punti vengono dimezzati e{315}trasmessi.
+Il limite di crescita di un mostro è il{315}livello 50.{315}Sintesi ripetute e genitori di alto{315}livello{315}possono produrre mostri che crescono{315}ulteriormente.
+La sintesi evolutiva crea mostri Forti{315}o Fortissimi.{315}Fondi un mostro di grado F, E o D{315}al livello 20 o superiore con la stessa{315}specie{315}per creare un mostro Forte.{315}Fondi un mostro di grado C, B o A{315}al livello 50 o superiore con la stessa{315}specie{315}per creare un mostro Fortissimo.
 Usa le abilità dei mostri per ripristinare{315}completamente i PV di tutti gli alleati.{315}Se i PM finiscono a metà,{315}la cura si interrompe.
-Ripristina completamente PV e PM dei mostri.{315}Puoi usarlo fino a 3 volte quando sei fuori.{315}Torna sull'aeronave per ricaricarlo.
-Il test di abilità del reclutatore 1 richiede{315}il tratto Brontolone!{315}{315}Kan Kanide e Testuggine corazzata{315}possiedono questo tratto.
-Il test di abilità del reclutatore 2 richiede{315}2 mostri della famiglia drago!{315}{315}Metti 2 draghi nella squadra{315}e parla con Marsha.{315}Giallosauro, Dragospino e{315}Kurridor sono mostri della famiglia drago.
-Il test di abilità del reclutatore 3 richiede{315}un mostro con il contrassegno Ospite!{315}{315}Portane uno dalla Modalità Tag{315}o dai download per superarlo.{315}{315}Va bene qualsiasi mostro.
-Il test di abilità del reclutatore 4 richiede{315}i tratti Potenziamento immediato e{315}Potenziamento casuale!{315}{315}Un mostro può averli entrambi,{315}oppure due mostri possono averne uno ciascuno.{315}Formica soldato e Axecutioner{315}possiedono questi tratti.
-Il test di abilità del reclutatore 5 richiede{315}il tratto Soddisfazione magica!{315}{315}Hipster swingante e Montone dannato{315}possiedono questo tratto.
-Il test di abilità del reclutatore 6 richiede{315}un mostro della variante X!{315}{315}Porta un mostro F-D oltre il livello 20{315}e sintetizzalo con lo stesso mostro{315}per creare un mostro Forte!{315}L'altro genitore deve solo essere al livello 10.
-Il test di abilità del reclutatore 7 richiede{315}il tratto Fortunato!{315}{315}Un mostro con questo tratto{315}potrebbe trovarsi nella zona Costa Ignota.
-Il test di abilità del reclutatore 8 richiede{315}l'abilità Para-Sonno ↑!{315}{315}Assegna a un mostro Para-Sonno{315}o Incubo, poi usa abbastanza{315}punti abilità per apprendere{315}Para-Sonno ↑.
-Il test di abilità del reclutatore 9 richiede{315}il tratto Statico!{315}{315}Corriere Corrotto e Mechacentauro{315}possiedono questo tratto.
-Il test di abilità del reclutatore 10 richiede{315}una squadra di grado ☆6 o superiore!{315}{315}Imposta una squadra ☆6 o superiore e parla con Marsha.{315}Controlla il grado della squadra nel{315}menu principale con X.
-Il test di abilità del reclutatore 11 richiede{315}il tratto Ammazzastandard!{315}{315}Balzack e Jargon X{315}possiedono questo tratto.
-Il test di abilità del reclutatore 12 richiede{315}il tratto Ammazza Metallo!{315}{315}Cacciateste X e{315}Pettirobot XY{315}possiedono questo tratto.
-Il test di abilità del reclutatore 13 richiede{315}una squadra di grado ☆7 o superiore!{315}{315}Imposta una squadra ☆7 o superiore e parla con Marsha.{315}Controlla il grado della squadra nel{315}menu principale con X.
+Ripristina completamente PV e PM dei{315}mostri.{315}Puoi usarlo fino a 3 volte quando sei{315}fuori.{315}Torna sull'aeronave per ricaricarlo.
+Il test di abilità del reclutatore 1{315}richiede{315}il tratto Brontolone!{315}{315}Kan Kanide e Testuggine corazzata{315}possiedono questo tratto.
+Il test di abilità del reclutatore 2{315}richiede{315}2 mostri della famiglia drago!{315}{315}Metti 2 draghi nella squadra{315}e parla con Marsha.{315}Giallosauro, Dragospino e{315}Kurridor sono mostri della famiglia drago.
+Il test di abilità del reclutatore 3{315}richiede{315}un mostro con il contrassegno Ospite!{315}{315}Portane uno dalla Modalità Tag{315}o dai download per superarlo.{315}{315}Va bene qualsiasi mostro.
+Il test di abilità del reclutatore 4{315}richiede{315}i tratti Potenziamento immediato e{315}Potenziamento casuale!{315}{315}Un mostro può averli entrambi,{315}oppure due mostri possono averne uno{315}ciascuno.{315}Formica soldato e Axecutioner{315}possiedono questi tratti.
+Il test di abilità del reclutatore 5{315}richiede{315}il tratto Soddisfazione magica!{315}{315}Hipster swingante e Montone dannato{315}possiedono questo tratto.
+Il test di abilità del reclutatore 6{315}richiede{315}un mostro della variante X!{315}{315}Porta un mostro F-D oltre il livello 20{315}e sintetizzalo con lo stesso mostro{315}per creare un mostro Forte!{315}L'altro genitore deve solo essere al{315}livello 10.
+Il test di abilità del reclutatore 7{315}richiede{315}il tratto Fortunato!{315}{315}Un mostro con questo tratto{315}potrebbe trovarsi nella zona Costa Ignota.
+Il test di abilità del reclutatore 8{315}richiede{315}l'abilità Para-Sonno ↑!{315}{315}Assegna a un mostro Para-Sonno{315}o Incubo, poi usa abbastanza{315}punti abilità per apprendere{315}Para-Sonno ↑.
+Il test di abilità del reclutatore 9{315}richiede{315}il tratto Statico!{315}{315}Corriere Corrotto e Mechacentauro{315}possiedono questo tratto.
+Il test di abilità del reclutatore 10{315}richiede{315}una squadra di grado ☆6 o superiore!{315}{315}Imposta una squadra ☆6 o superiore e parla{315}con Marsha.{315}Controlla il grado della squadra nel{315}menu principale con X.
+Il test di abilità del reclutatore 11{315}richiede{315}il tratto Ammazzastandard!{315}{315}Balzack e Jargon X{315}possiedono questo tratto.
+Il test di abilità del reclutatore 12{315}richiede{315}il tratto Ammazza Metallo!{315}{315}Cacciateste X e{315}Pettirobot XY{315}possiedono questo tratto.
+Il test di abilità del reclutatore 13{315}richiede{315}una squadra di grado ☆7 o superiore!{315}{315}Imposta una squadra ☆7 o superiore e parla{315}con Marsha.{315}Controlla il grado della squadra nel{315}menu principale con X.
 
 
 
