@@ -5369,7 +5369,7 @@ SYS_42 0x8
 SAY "{VOICE=08}C'è qualcosa di strano in tutti gli abitanti del villaggio, squitt."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Uff... Sembra che anch'io abbia perso le forze e mi sia stancato, squitt."
+SAY "{VOICE=08}Uff... Sembra che anch'io abbia perso le forze e mi sia stancata, squitt."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5409,7 +5409,7 @@ SYS_42 0x8
 SAY "{VOICE=08}Sono davvero felice che Kukri non sarà il prossimo anziano, squitt."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Se fosse successo, sarei stato il suo servitore fino alla morte."
+SAY "{VOICE=08}Se fosse successo, sarei stata la sua servitrice fino alla morte."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

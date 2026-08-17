@@ -85,7 +85,7 @@ La sintesi evolutiva crea mostri Forti{315}o Fortissimi.{315}Fondi un mostro di 
 Usa le abilità dei mostri per ripristinare{315}completamente i PV di tutti gli alleati.{315}Se i PM finiscono a metà,{315}la cura si interrompe.
 Ripristina completamente PV e PM dei{315}mostri.{315}Puoi usarlo fino a 3 volte quando sei{315}fuori.{315}Torna sull'aeronave per ricaricarlo.
 Il test di abilità del reclutatore 1{315}richiede{315}il tratto Brontolone!{315}{315}Kan Kanide e Testuggine corazzata{315}possiedono questo tratto.
-Il test di abilità del reclutatore 2{315}richiede{315}2 mostri della famiglia drago!{315}{315}Metti 2 draghi nella squadra{315}e parla con Marsha.{315}Giallosauro, Dragospino e{315}Kurridor sono mostri della famiglia drago.
+Il test di abilità del reclutatore 2{315}richiede{315}2 mostri della famiglia drago!{315}{315}Metti 2 draghi nella squadra{315}e parla con Pupa.{315}Giallosauro, Dragospino e{315}Kurridor sono mostri della famiglia drago.
 Il test di abilità del reclutatore 3{315}richiede{315}un mostro con il contrassegno Ospite!{315}{315}Portane uno dalla Modalità Tag{315}o dai download per superarlo.{315}{315}Va bene qualsiasi mostro.
 Il test di abilità del reclutatore 4{315}richiede{315}i tratti Potenziamento immediato e{315}Potenziamento casuale!{315}{315}Un mostro può averli entrambi,{315}oppure due mostri possono averne uno{315}ciascuno.{315}Formica soldato e Axecutioner{315}possiedono questi tratti.
 Il test di abilità del reclutatore 5{315}richiede{315}il tratto Soddisfazione magica!{315}{315}Hipster swingante e Montone dannato{315}possiedono questo tratto.
@@ -93,15 +93,14 @@ Il test di abilità del reclutatore 6{315}richiede{315}un mostro della variante 
 Il test di abilità del reclutatore 7{315}richiede{315}il tratto Fortunato!{315}{315}Un mostro con questo tratto{315}potrebbe trovarsi nella zona Costa Ignota.
 Il test di abilità del reclutatore 8{315}richiede{315}l'abilità Para-Sonno ↑!{315}{315}Assegna a un mostro Para-Sonno{315}o Incubo, poi usa abbastanza{315}punti abilità per apprendere{315}Para-Sonno ↑.
 Il test di abilità del reclutatore 9{315}richiede{315}il tratto Statico!{315}{315}Corriere Corrotto e Mechacentauro{315}possiedono questo tratto.
-Il test di abilità del reclutatore 10{315}richiede{315}una squadra di grado ☆6 o superiore!{315}{315}Imposta una squadra ☆6 o superiore e parla{315}con Marsha.{315}Controlla il grado della squadra nel{315}menu principale con X.
+Il test di abilità del reclutatore 10{315}richiede{315}una squadra di grado ☆6 o superiore!{315}{315}Imposta una squadra ☆6 o superiore e parla{315}con Pupa.{315}Controlla il grado della squadra nel{315}menu principale con X.
 Il test di abilità del reclutatore 11{315}richiede{315}il tratto Ammazzastandard!{315}{315}Balzack e Jargon X{315}possiedono questo tratto.
 Il test di abilità del reclutatore 12{315}richiede{315}il tratto Ammazza Metallo!{315}{315}Cacciateste X e{315}Pettirobot XY{315}possiedono questo tratto.
-Il test di abilità del reclutatore 13{315}richiede{315}una squadra di grado ☆7 o superiore!{315}{315}Imposta una squadra ☆7 o superiore e parla{315}con Marsha.{315}Controlla il grado della squadra nel{315}menu principale con X.
+Il test di abilità del reclutatore 13{315}richiede{315}una squadra di grado ☆7 o superiore!{315}{315}Imposta una squadra ☆7 o superiore e parla{315}con Pupa.{315}Controlla il grado della squadra nel{315}menu principale con X.
 
 
 
 {30b}{00}.{30b}D{30b}T
-
 
 
 

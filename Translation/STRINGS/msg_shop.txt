@@ -33,7 +33,7 @@ Libera
 Fine
 
 OK
-Cancel
+Cancella
 Punti rimanenti
 
 

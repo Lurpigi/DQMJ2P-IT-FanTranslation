@@ -24,7 +24,7 @@ F,22,Bollaslime,1,Slime,,,,,^50%,-25%,,,,,,Immune,Immune,,-25%,,,^50%,,-25%,,,,,
 F,23,Dragospino,1,Dragon,-25%,,,,,,^50%,,,-25%,,^50%,-25%,,,,,,-25%,,^50%,Immune,,Immune,,Immune,,
 F,24,Killarpillar,1,Nature,Immune,^50%,,-25%,,,-25%,,,,,,,,-25%,Immune,-25%,,,-25%,^50%,,Immune,,Immune,,,
 F,25,Satyro,1,Beast,^50%,,,-25%,,,,,,,,,Immune,,^50%,,^50%,-25%,,^50%,-25%,,,,,,Immune,
-F,26,Ticking Timeburrm,1,Material,,Absorb,-25%,,,,,,,^50%,Immune,,,-25%,,,^50%,^50%,-25%,,Immune,,,,,,,
+F,26,Burrm a orologeria,1,Material,,Absorb,-25%,,,,,,,^50%,Immune,,,-25%,,,^50%,^50%,-25%,,Immune,,,,,,,
 F,27,Taglialbero,1,Demon,,,Immune,^50%,-25%,,,,,,,,,^50%,Immune,-25%,,,,^50%,-25%,,,,,Immune,,
 F,28,Nauseafungus,1,Zombie,-25%,,,,,^50%,,,,,,,Immune,Immune,,Immune,,,^50%,,-25%,,,,,,,
 F,29,Dottor Slime,1,Slime,,,,,^50%,-25%,,,,,,Immune,,,,,,^50%,,-25%,,,,,-25%,Immune,,Immune
@@ -362,7 +362,7 @@ S,360,Piovron,3,Nature,,^50%,,,,,-25%,,-25%,,Immune,,Immune,Immune,Immune,Immune
 S,361,Dholmagus,1,Beast,^50%,^50%,Immune,-25%,-25%,Reflect,,,,,Immune,,,,^50%,,-25%,-25%,,^50%,,,,,,,,
 S,362,Cybercentauro,1,Material,Immune,,-25%,,,,,,,^50%,Immune,,Immune,-25%,Immune,,^50%,^50%,-25%,,,,,Immune,,,,
 S,363,Slime Blaster,3,Slime,Immune,,,Immune,^50%,-25%,,-25%,-25%,,Immune,,Immune,Immune,Immune,Immune,Immune,^50%,,-25%,,,,,-25%,^50%,,
-S,364,Re Godwyn II,3,Zombie,-25%,Immune,,Immune,,Immune,,,Immune,,Immune,-25%,^50%,Immune,Immune,Immune,Immune,,^50%,,-25%,,,,,,,
+S,364,Re Godwyn,3,Zombie,-25%,Immune,,Immune,,Immune,,,Immune,,Immune,-25%,^50%,Immune,Immune,Immune,Immune,,^50%,,-25%,,,,,,,
 S,365,Rovina,3,Material,,,-25%,,,,,,,Immune,Immune,,Immune,Immune,Immune,Immune,Immune,^50%,-25%,,,,,,,,,
 SS,366,Prezioslime,2,Slime,Immune,Immune,Immune,Immune,Immune,Immune,Immune,Immune,Immune,Immune,Immune,,Immune,Immune,,Immune,Immune,^50%,,,,Immune,Immune,Immune,,^25%,Immune,Immune
 SS,367,Dragonlord,2,Dragon,,,,,,,^50%,Immune,Immune,-25%,Immune,^50%,-25%,Immune,Immune,^50%,Immune,,-25%,,^50%,,,,,,,

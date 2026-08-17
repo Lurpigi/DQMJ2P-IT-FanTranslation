@@ -6286,7 +6286,7 @@ SYS_44 0x8
 SAY "{VOICE=08}Non preoccuparti, ho trovato qualcosa che farà al caso nostro..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Ho trovato un falò acceso da un mostro e sono riuscito a prendere una torcia."
+SAY "{VOICE=08}Ho trovato un falò acceso da un mostro e sono riuscita a prendere una torcia."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}Ora fatevi da parte, mentre la accendo..."

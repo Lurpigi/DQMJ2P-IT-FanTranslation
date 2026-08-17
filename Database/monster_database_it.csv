@@ -24,7 +24,7 @@ F,22,Bollaslime,1,Slime,680,460,620,680,580,520,Poison Body,Astuzia dell'Elektro
 F,23,Dragospino,1,Drago,780,240,580,820,630,380,Evasione totale,Astuzia del Veleno,Sleep Attack,Astuzia del PickMagic
 F,24,Killarpillar,1,Natura,700,380,620,690,620,580,Desperado,Poison Attack,Superdifesa immediata,Contrattaccante
 F,25,Satyro,1,Bestia,740,340,640,700,520,520,Scout Chance Up,Random Fizzle,Astuzia del Sonnolento,Astuzia del Confusore
-F,26,Ticking Timeburrm,1,Materiale,710,360,720,720,480,400,Guru della Gravitas,Ooomph casuale,Tensione casuale,Random Nether Fog
+F,26,Burrm a orologeria,1,Materiale,710,360,720,720,480,400,Guru della Gravitas,Ooomph casuale,Tensione casuale,Random Nether Fog
 F,27,Taglialbero,1,Demone,640,480,620,680,710,500,Evasione totale,Hit Squad (4),Astuzia del Confusore,1-2 Moves
 F,28,Nauseafungus,1,Non-morti,680,400,660,700,600,520,Astuzia del Veleno,Confusion Attack,Astuzia della Danzaluce,Counterslammer
 F,29,Dottor Slime,1,Slime,640,480,490,660,840,800,Recupera & risparmia,Astuzia del PickMagic,Magic Drain Attack,Gardameh
@@ -362,7 +362,7 @@ S,360,Piovron,3,Natura,2300,400,900,760,440,800,2 Giga Moves,Hit Squad (2),Incre
 S,361,Dholmagus,1,Bestia,800,560,800,860,720,1000,Attacco multiplo,Increase Tension,Contrattaccante,Guru dell'Elektron
 S,362,Cybercentauro,1,Materiale,800,200,900,900,600,200,1-2 Moves,Hit Squad (3),Magic Counter,Ooomph casuale
 S,363,Slime Blaster,3,Slime,2000,600,500,1000,200,1200,1-3 Giga Moves,Magic Counter,Anticontrattaccante,Sveglia ritardata
-S,364,Re Godwyn II,3,Non-morti,1900,700,550,500,800,1000,2-3 Giga Moves,Magic Drain Attack,Onda distruttrice,Magia evanescente
+S,364,Re Godwyn,3,Non-morti,1900,700,550,500,800,1000,2-3 Giga Moves,Magic Drain Attack,Onda distruttrice,Magia evanescente
 S,365,Rovina,3,Materiale,2150,200,800,1000,200,400,2 Giga Moves,Estremi opposti,Magia evanescente,Ultimatum
 SS,366,Prezioslime,2,Slime,80,800,640,1800,1800,1400,1-2 Mega Moves,Corpo metallico,Hit Squad (3),Enemy Tension Rise
 SS,367,Dragonlord,2,Drago,1100,520,1000,900,600,820,1-3 Mega Moves,Increase Tension,Salvezza stentata,Sfortunato

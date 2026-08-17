@@ -4981,7 +4981,7 @@ SYS_42 0x8
 SAY "{VOICE=08}{1F61}, certo. Abbiamo tutti slimascoltato la storia di Mynos il Vecchio..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}I Gooman che vivevano qui erano persone sciocche, sciocche, SCIOCCHISSIME. Sono{WAIT}{CLEAR}contento che abbiano deciso di andarsene."
+SAY "{VOICE=08}I Gooman che vivevano qui erano persone sciocche, sciocche, SCIOCCHISSIME. Sono{WAIT}{CLEAR}contenta che abbiano deciso di andarsene."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4997,7 +4997,7 @@ SYS_42 0x8
 SAY "{VOICE=08}{1F61}, certo. Abbiamo tutti slimascoltato la storia di Mynos il Vecchio..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}I Gooman che vivevano qui erano persone sciocche, sciocche, SCIOCCHISSIME. Sono{WAIT}{CLEAR}contento che abbiano deciso di andarsene."
+SAY "{VOICE=08}I Gooman che vivevano qui erano persone sciocche, sciocche, SCIOCCHISSIME. Sono{WAIT}{CLEAR}contenta che abbiano deciso di andarsene."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

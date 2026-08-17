@@ -798,7 +798,7 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}COSA!? Non dire sciocchezze, anziano! Sono certo che vincerà {NAME}!"
+SAY "{VOICE=08}COSA!? Non dire sciocchezze, anziano! Sono certa che vincerà {NAME}!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"

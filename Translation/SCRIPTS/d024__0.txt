@@ -1184,7 +1184,7 @@ STORE 0x18 0x1 0x0 0x2 0x42780000
 SYS_A5 0x8 
 WAIT 0x10 0x2 0x42340000
 WAIT 0x10 0x2 0x41200000
-SAY "{COLOR=2}Apri la mappa principale e vedrai la nuova regione! Da quel momento potrai{WAIT}{CLEAR}usare Zoom per raggiungerla direttamente."
+SAY "{COLOR=2}Apri la mappa principale e vedrai la nuova regione! Da quel momento potrai{WAIT}{CLEAR}usare Teletrasporto per raggiungerla direttamente."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

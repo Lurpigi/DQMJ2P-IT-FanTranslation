@@ -213,7 +213,7 @@ monsters,220,Ruin,Rovina
 monsters,221,Psaro,Psaro
 monsters,222,Estark,Estark
 monsters,223,Anchorman,Ankora killer
-monsters,224,Ticking Timeburrm,Ticking Timeburrm
+monsters,224,Ticking Timeburrm,Burrm a orologeria
 monsters,225,Corrupt Carter,Corriere Corrotto
 monsters,226,Pocus Poppet,Magibambola
 monsters,227,Butchoman,Axecutioner
@@ -313,7 +313,7 @@ monsters,320,Ragin` Contagion,Epidemon
 monsters,321,GigaMute,Gigalunfo
 monsters,322,Drakorpse,Verme delle Grotte
 monsters,323,Bishop Ladja,Pope Skriterioska
-monsters,325,King Godwyn,Re Godwyn II
+monsters,325,King Godwyn,Re Godwyn
 monsters,336,Wulfspade,Lupicche
 monsters,337,Hawkhart,Cuordifalco
 monsters,338,Cluboon,Fiorango
@@ -764,7 +764,7 @@ skills,22,Bang ＆ Zam,Bang & Elektron
 skills,23,VS Slash +,Spezzaspade II
 skills,24,Bang ＆ Zam + ,Bang & Elektron II
 skills,25,Woosh ＆ Crack,Vento & Gelo
-skills,26,Mormon King,King Sanguini
+skills,26,Mormon King,Re Sanguini
 skills,27,Woosh ＆ Crack +,Vento & Gelo II
 skills,28,Woosh ＆ Zap,Vento & Fulmine
 skills,29,Warubou,Scruffy
@@ -944,7 +944,7 @@ skills,202,Crack ＆ Sizz,Gelo & Pyro
 skills,203,UberKillingMachine,Cybercentauro
 skills,204,Crack ＆ Sizz +,Gelo & Pyro II
 skills,205,Sizz ＆ Zap,Pyro & Fulmine
-skills,206,King Godwyn,Re Godwyn II
+skills,206,King Godwyn,Re Godwyn
 skills,207,Sizz ＆ Zap +,Pyro & Fulmine II
 skills,208,Sizz ＆ Zam,Pyro & Elektron
 skills,209,Munchie,Munchie
@@ -1314,7 +1314,7 @@ items,94,Bronze Lump,Frammento di bronzo
 items,95,Silver Lump,Scheggia d'argento
 items,107,Parts,Parti meccaniche
 items,109,Warrior`s Proof,Medaglia al merito
-items,111,Mud Heart,Cuore di fango
+items,111,Mud Heart,anima del pazzo
 items,112,Copper Sword,spada di rame
 items,113,Divine Dagger,daga divina
 items,114,Rapier,stocco

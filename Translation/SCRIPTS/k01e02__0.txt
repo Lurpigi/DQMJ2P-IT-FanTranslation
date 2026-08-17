@@ -8027,7 +8027,7 @@ SYS_44 0x8
 SAY "{VOICE=08}Per tua fortuna, Capitan Alex è una persona fin troppo gentile...{WAIT}{CLEAR}Fosse stato per me, ti avrei scaraventato fuori dalla nave..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Comunque sono sicuro che troveremo un modo per farti guadagnare il passaggio...{WAIT}{CLEAR}In effetti, puoi contare su di noi."
+SAY "{VOICE=08}Comunque sono sicura che troveremo un modo per farti guadagnare il passaggio...{WAIT}{CLEAR}In effetti, puoi contare su di noi."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -8083,7 +8083,7 @@ SETNAME "Lady Lidia"
 SAY "{VOICE=08}Per tua fortuna, Capitan Alex è una persona fin troppo gentile...{WAIT}{CLEAR}Fosse stato per me, ti avrei scaraventato fuori dalla nave..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Comunque sono sicuro che troveremo un modo per farti guadagnare il passaggio...{WAIT}{CLEAR}In effetti, puoi contare su di noi."
+SAY "{VOICE=08}Comunque sono sicura che troveremo un modo per farti guadagnare il passaggio...{WAIT}{CLEAR}In effetti, puoi contare su di noi."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -8098,7 +8098,7 @@ SETNAME "Lady Lidia"
 SAY "{VOICE=08}Per tua fortuna, Capitan Alex è una persona fin troppo gentile...{WAIT}{CLEAR}Fosse stato per me, ti avrei scaraventato fuori dalla nave..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Comunque sono sicuro che troveremo un modo per farti guadagnare il passaggio...{WAIT}{CLEAR}In effetti, puoi contare su di noi."
+SAY "{VOICE=08}Comunque sono sicura che troveremo un modo per farti guadagnare il passaggio...{WAIT}{CLEAR}In effetti, puoi contare su di noi."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

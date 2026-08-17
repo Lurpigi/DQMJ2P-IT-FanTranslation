@@ -11,7 +11,7 @@ Abilità
 Manuale del reclutatore
 Curatore di mostri
 Modalità Tag
-Zoom
+Teletrasporto
 Zip
 Fiuto del tesoro
 Sparizione
@@ -65,7 +65,7 @@ Abilità
 Scarta
 Tempo di gioco
 OK
-Cancel
+Cancella
 Mostro A
 Mostro B
 Conferma
@@ -117,7 +117,7 @@ Carica
 {239} Riserve
 {23a} Recinto mostri
 OK
-Cancel
+Cancella
 DQM: Joker 2 Professional
 Nessun dato
 Hai {322}
@@ -205,7 +205,7 @@ Nessuno
 Inserisci nuovo mostro:
 
 OK
-Cancel
+Cancella
 Info
 
 

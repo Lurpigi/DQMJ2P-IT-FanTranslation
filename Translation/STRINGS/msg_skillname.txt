@@ -24,7 +24,7 @@ Bang & Elektron
 Spezzaspade II
 Bang & Elektron II
 Vento & Gelo
-King Sanguini
+Re Sanguini
 Vento & Gelo II
 Vento & Fulmine
 Scruffy
@@ -204,7 +204,7 @@ Gelo & Pyro
 Cybercentauro
 Gelo & Pyro II
 Pyro & Fulmine
-Re Godwyn II
+Re Godwyn
 Pyro & Fulmine II
 Pyro & Elektron
 Munchie
