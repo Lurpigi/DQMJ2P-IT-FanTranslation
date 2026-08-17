@@ -63,7 +63,7 @@ Puoi scambiare mostri cresciuti da{315}altri giocatori o in DQM Joker 2{315}usan
 I mostri reclutati nelle battaglie in Modalità Tag{315}sono mostri ospiti e ricevono il contrassegno{315}'Ospite' accanto al nome.{315}Puoi aggiungerli alla squadra{315}e usarli nelle battaglie in Modalità Tag,{315}ma non nella{315}Coppa suprema dei maestri Wi-Fi.
 Quando il contrassegno 'Ospite' lascia l'{315}albero genealogico, lascia anche il mostro.{315}Continua quindi a sintetizzarlo con mostri{315}senza il contrassegno 'Ospite': alla fine{315}diventerà tuo.{315}{315}Quando il contrassegno scompare, il mostro può partecipare alla{315}Coppa suprema dei maestri Wi-Fi.
 Seleziona 'Recluta' in battaglia: i tuoi{315}mostri useranno un attacco di reclutamento{315}per conquistare il mostro nemico.{315}{315}Puoi provare a reclutarlo finché il nemico{315}non si arrabbia.
-Il numero mostrato durante un attacco di reclutamento{315}indica la probabilità di successo.{315}Più è alto,{315}più è facile conquistare il mostro.{315}Si dice che indebolire il nemico{315}quando è vicino alla sconfitta aumenti le probabilità.{315}Se il numero resta basso,{315}fai salire di livello i mostri e riprova.
+Il numero indica la probabilità{315}di successo.{315}Più è alto,{315}più è facile reclutare il mostro.{315}Indebolire il nemico{315}vicino alla sconfitta aumenta le probabilità.{315}Se resta basso,{315}fai salire i mostri e riprova.
 I tre mostri mostrati a destra in 'Cambia'{315}sono mostri di riserva.{315}Viaggiano con te separati dalla squadra attiva{315}e possono essere sostituiti in battaglia.
 Durante la battaglia, premi Y per cambiare{315}tra mostri attivi e di riserva.{315}{315}Fai riposare i mostri feriti e usa bene{315}le riserve: le battaglie saranno molto più facili.{315}Prova tattiche diverse.
 I pilastri di pietra azzurra sono punti{315}di cura.{315}Ripristinano completamente PV e PM{315}della squadra e rianimano i mostri sconfitti.{315}{315}Dopo averne usato uno, lascia la zona{315}per renderlo nuovamente utilizzabile.
@@ -101,6 +101,8 @@ Il test di abilità del reclutatore 13 richiede{315}una squadra di grado ☆7 o 
 
 
 {30b}{00}.{30b}D{30b}T
+
+
 
 
 
