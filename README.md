@@ -3,6 +3,8 @@
 [![](https://img.shields.io/github/v/release/Lurpigi/DQMJ2Pro_Translation?include_prereleases&label=Release)](https://github.com/Lurpigi/DQMJ2Pro_Translation/releases/latest)
 [![](https://img.shields.io/github/downloads/Lurpigi/DQMJ2Pro_Translation/total.svg)](https://github.com/Lurpigi/DQMJ2Pro_Translation/releases)
 
+# PATCH IN FASE PRELIMINARE DI TESTING - NON E' ANCORA PER NULLA PRONTA PER L'UTILIZZO
+
 [Original English README](README_EN.md)
 
 Questa repository contiene la traduzione italiana amatoriale di **Dragon Quest Monsters: Joker 2 Professional** e viene mantenuta anche per integrare gli aggiornamenti tecnici del progetto inglese.
