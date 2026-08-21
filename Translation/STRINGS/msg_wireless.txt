@@ -2,7 +2,7 @@ Gioco wireless DS
 Battaglia
 Scambio di mostri
 Sfida giocatori vicini tramite la comunicazione wireless DS.
-Scambia mostri con giocatori vicini tramite la comunicazione wireless DS.
+Scambia i mostri con giocatori vicini tramite la comunicazione wireless DS.
 Regole di battaglia
 Battaglia uno contro uno
 Torneo
@@ -42,12 +42,12 @@ Inizia battaglia
 Impostazioni squadra
 Controlla regole
 
-Cambia mostri
+Cambia i mostri
 Cambia equipaggiamento
 Cambia tattiche
 Durata
 Ordini
-Cambia mostri
+Cambia i mostri
 Stessa famiglia
 Durata del turno
 Conferma impostazioni

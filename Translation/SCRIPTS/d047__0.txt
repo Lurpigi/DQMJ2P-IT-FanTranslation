@@ -202,7 +202,7 @@ SAY "{VOICE=08}Quel mostro è un idiota. Quindi persino tu potresti riuscire a m
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Lady Lidia"
-SAY "{VOICE=08}Io, Lady Lidia, la Regina degli Scout, voglio che tu batta quella belva. Lo{WAIT}{CLEAR}esigo!"
+SAY "{VOICE=08}Io, Lady Lidia, la Regina degli Scout, voglio che tu batta quella belva. Lo esigo!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -603,7 +603,7 @@ SAY "{VOICE=08}Quel mostro è un idiota, quindi persino tu potresti riuscire a m
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Lady Lidia"
-SAY "{VOICE=08}Io, Lady Lidia, la Regina degli Scout, voglio che tu batta quella belva. Lo{WAIT}{CLEAR}esigo!"
+SAY "{VOICE=08}Io, Lady Lidia, la Regina degli Scout, voglio che tu batta quella belva. Lo esigo!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

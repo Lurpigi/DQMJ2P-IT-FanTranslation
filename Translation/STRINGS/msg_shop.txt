@@ -23,7 +23,7 @@ OK
 Seleziona le abilità di {30b}{00} che il nuovo mostro erediterà.
 Fine
 Recinto mostri
-Cambia mostri
+Cambia i mostri
 Elenco dei membri
 Annulla
 Spazi liberi nel recinto:
@@ -118,7 +118,7 @@ All
 {213}Famiglia Demoni
 {214}Famiglia Non-morti
 {215}Famiglia ???
-Magie e abilità
+Incantesimi e tecniche
 Bonus agli attributi
 Effetti speciali
 Modifiche ai parametri
@@ -248,6 +248,6 @@ Per prima cosa scegli 'Non registrato', poi{315}registra il mostro che preferisc
 
 
 Quando tornerai, 'Non registrato'{315}verrà sostituito dal nome inserito.
-È utile registrare preferiti{315}per le battaglie Wi-Fi o in Modalità Tag.
+È utile registrare preferiti{315}per le battaglie Wi-Fi o negli Scontri casuali.
 
 I mostri con il contrassegno 'Ospite'{315}non possono partecipare al{315}Campionato mondiale dei mostri.

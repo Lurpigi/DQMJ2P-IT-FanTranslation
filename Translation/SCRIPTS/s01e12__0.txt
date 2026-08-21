@@ -1309,7 +1309,7 @@ STORE 0x18 0x0 0x426c0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x426c0000 0x2 0x0
 JMP_IFNOT 0xc L_4c7c
 SYS_42 0x8 
-SAY "{COLOR=2}La curiosità può uccidere i gatti, ma non gli {1F29}out! Esamina queste strane rocce{WAIT}{CLEAR}per imparare tecniche e comandi nuovi."
+SAY "{COLOR=2}La curiosità può uccidere i gatti, ma non gli {1F29}out! Esamina queste strane rocce per{WAIT}{CLEAR}imparare tecniche e comandi nuovi."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}Le "Pietre dello {1F29}out" sono indicate sulla mappa da icone azzurre."
@@ -1348,7 +1348,7 @@ SYS_A5 0x8
 SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un attimo in qualsiasi area{WAIT}{CLEAR}già visitata."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Fatte salve poche eccezioni, può essere utilizzata ovunque... Persino nelle{WAIT}{CLEAR}grotte!"
+SAY "{COLOR=2}Fatte salve poche eccezioni, può essere utilizzata ovunque... Persino nelle grotte!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1385,7 +1385,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} può ora usare "Guarisci tutti"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Quest'incantesimo di guarigione permette a {NAME} di curare tutti i{WAIT}{CLEAR}membri della squadra."
+SAY "{COLOR=2}Quest'incantesimo di guarigione permette a {NAME} di curare tutti i membri della squadra."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1431,7 +1431,7 @@ SYS_44 0x8
 SAY "{COLOR=2}La tecnica funzionerà solo se il portale è già aperto."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Quindi, è bene che {NAME} esamini subito i portali Velotrans situati{WAIT}{CLEAR}sull'isola."
+SAY "{COLOR=2}Quindi, è bene che {NAME} esamini subito i portali Velotrans{WAIT}{CLEAR}situati sull'isola."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1452,7 +1452,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha ottenuto "Curamostri"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa bevanda fa recuperare PV e PM a tutti i membri della squadra di {NAME}{WAIT}{CLEAR}."
+SAY "{COLOR=2}Questa bevanda fa recuperare PV e PM a tutti i membri della squadra di {NAME}."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}La bottiglia contiene tre dosi e può essere riempita di nuovo tornando alla nave."
@@ -3813,7 +3813,7 @@ SYS_42 0x8
 SAY "{COLOR=2}Cosa?! {NAME} ha sconfitto gli Scout di grado Supremo!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}{NAME} ha ottenuto {E322} punti come bonus per il Campionato mondiale dei{WAIT}{CLEAR}mostri!"
+SAY "{COLOR=2}{NAME} ha ottenuto {E322} punti come bonus per il Campionato mondiale{WAIT}{CLEAR}dei mostri!"
 STORE 0x18 0x1 0x0 0x2 0x42780000
 SYS_A5 0x8 
 SYS_43 0x8 
@@ -4022,7 +4022,7 @@ L_f9a8:
 SAY "{VOICE=07}Ah-ah-ah-ah! Sembra proprio che la vittoria sia mia!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Però hai una certa stoffa! Se ci incontreremo di nuovo, faremo un'altra{WAIT}{CLEAR}sfida!"
+SAY "{VOICE=07}Però hai una certa stoffa! Se ci incontreremo di nuovo, faremo{WAIT}{CLEAR}un'altra sfida!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4289,7 +4289,7 @@ JMP_REL L_10b8c
 L_10b8c:
 JMP_ABS 0xc L_10b98
 L_10b98:
-SAY "{VOICE=07}Scusami. Volevo solo affrontare uno Scout di grado superiore, ma a quanto{WAIT}{CLEAR}pare ho vinto."
+SAY "{VOICE=07}Scusami. Volevo solo affrontare uno Scout di grado superiore, ma a quanto pare{WAIT}{CLEAR}ho vinto."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}N-Non scoraggiarti! Ci incontreremo di nuovo da qualche parte. A presto!"
@@ -4337,7 +4337,7 @@ L_10e8c:
 SAY "{VOICE=07}Scusa! Non so quanto sono forte, quindi ho dato tutto e ti ho battuto, tesoro!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}È stata una sfida davvero esaltante, sai? Mi sono divertita un sacco! Grazie,{WAIT}{CLEAR}tesoro!"
+SAY "{VOICE=07}È stata una sfida davvero esaltante, sai? Mi sono divertita un sacco! Grazie, tesoro!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4408,7 +4408,7 @@ SYS_44 0x8
 SAY "{VOICE=07}Riceverai dei punti bonus che potrai usare contro il prossimo Scout Supremo!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Ricorda: che tu vinca o perda, potrai affrontare lo stesso Scout una sola{WAIT}{CLEAR}volta!"
+SAY "{VOICE=07}Ricorda: che tu vinca o perda, potrai affrontare lo stesso Scout una sola volta!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4496,7 +4496,7 @@ SYS_A8 0x8
 SAY "{VOICE=07}Finora hai ottenuto {E322} punti bonus."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I punti bonus vengono assegnati quando affronti le sfide dell'Arena Scout{WAIT}{CLEAR}Suprema!"
+SAY "{VOICE=07}I punti bonus vengono assegnati quando affronti le sfide dell'Arena{WAIT}{CLEAR}Scout Suprema!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Vuoi tornare a Palazzo Blanc?{VOICE=09}"
@@ -4845,7 +4845,7 @@ SYS_44 0x8
 SAY "{VOICE=07}E ultimamente, nella classifica {E30B}T/{E30B}j, la MIA SQUADRA è salita di grado."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Pensi di poter combattere CONTRO DI ME indossando l'abito della mia città natale {E30B}{00}{WAIT}{CLEAR}?{VOICE=09}"
+SAY "{VOICE=07}Pensi di poter combattere CONTRO DI ME indossando l'abito della mia città natale {E30B}{00}?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -4892,7 +4892,7 @@ SYS_44 0x8
 SAY "{VOICE=07}Ma nella classifica {E30B}T/{E30B}j, la mia squadra è salita splendidamente di grado!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Uff. Sembri anche tu uno Scout. Ti andrebbe di affrontarmi in una sfida{WAIT}{CLEAR}brillante?{VOICE=09}"
+SAY "{VOICE=07}Uff. Sembri anche tu uno Scout. Ti andrebbe di affrontarmi in una sfida brillante?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -5033,14 +5033,14 @@ SYS_44 0x8
 SAY "{VOICE=07}Ma nella classifica {E30B}T/{E30B}j, la mia squadra {E30B}z è salita di grado!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Pensi che una ragazza chiacchierona come me possa essere tua amica? Allora,{WAIT}{CLEAR}combattiamo??{VOICE=09}"
+SAY "{VOICE=07}Pensi che una ragazza chiacchierona come me possa essere tua amica?{WAIT}{CLEAR}Allora, combattiamo??{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ca0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x0
 JMP_IFNOT 0xc L_14318
-SAY "{VOICE=07}Sono un po' sorpresa che tu abbia detto sì così in fretta. Forse non sono ancora{WAIT}{CLEAR}pronta."
+SAY "{VOICE=07}Sono un po' sorpresa che tu abbia detto sì così in fretta. Forse non sono{WAIT}{CLEAR}ancora pronta."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Ma ora la tensione è salita, quindi ti mostrerò di che pasta sono fatta!"
@@ -5060,7 +5060,7 @@ JMP_REL L_14320
 L_14320:
 JMP_ABS 0xc L_1432c
 L_1432c:
-SAY "{VOICE=07}Sono un po' sorpresa che tu abbia rifiutato. Mi preoccuperei quando vorrai{WAIT}{CLEAR}farlo, però."
+SAY "{VOICE=07}Sono un po' sorpresa che tu abbia rifiutato. Mi preoccuperei quando vorrai farlo, però."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

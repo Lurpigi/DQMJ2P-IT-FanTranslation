@@ -758,7 +758,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42b40000
 SYS_42 0x8 
 SETNAME "Marcus Logos"
-SAY "{VOICE=07}Non c'è dubbio su quell'emblema. Significa che le leggende sono vere. LO{WAIT}{CLEAR}SAPEVO!"
+SAY "{VOICE=07}Non c'è dubbio su quell'emblema. Significa che le leggende sono vere. LO SAPEVO!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -830,7 +830,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42a00000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Marcus Logos"
-SAY "{VOICE=07}Appena ho visto quel mostro gigantesco, mi sono ricordato di qualcosa che avevo{WAIT}{CLEAR}letto..."
+SAY "{VOICE=07}Appena ho visto quel mostro gigantesco, mi sono ricordato di qualcosa che{WAIT}{CLEAR}avevo letto..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40c00000
@@ -844,7 +844,7 @@ STORE 0x18 0x1 0x0 0x0 0x40c00000
 STORE 0x18 0x1 0x3f800000 0x2 0x42a40000
 SYS_18 0x8 
 SETNAME "Marcus Logos"
-SAY "{VOICE=07}Secondo la leggenda, un tempo viveva uno straordinario maestro degli Scout. Si{WAIT}{CLEAR}dice che riuscisse a piegare al suo volere persino i mostri più potenti..."
+SAY "{VOICE=07}Secondo la leggenda, un tempo viveva uno straordinario maestro degli Scout. Si dice{WAIT}{CLEAR}che riuscisse a piegare al suo volere persino i mostri più potenti..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1002,7 +1002,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x428c0000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Meck Nick"
-SAY "{VOICE=07}Quindi vuoi continuare a indagare su questo posto!? Non hai ancora imparato{WAIT}{CLEAR}la lezione, ragazzo?"
+SAY "{VOICE=07}Quindi vuoi continuare a indagare su questo posto!? Non hai ancora imparato la{WAIT}{CLEAR}lezione, ragazzo?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1184,7 +1184,7 @@ STORE 0x18 0x1 0x0 0x2 0x42780000
 SYS_A5 0x8 
 WAIT 0x10 0x2 0x42340000
 WAIT 0x10 0x2 0x41200000
-SAY "{COLOR=2}Apri la mappa principale e vedrai la nuova regione! Da quel momento potrai{WAIT}{CLEAR}usare Teletrasporto per raggiungerla direttamente."
+SAY "{COLOR=2}Apri la mappa principale e vedrai la nuova regione! Da quel momento potrai usare{WAIT}{CLEAR}Teletrasporto per raggiungerla direttamente."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

@@ -1,37 +1,37 @@
 
-Erba medicinale
-Medicina forte
-Medicina speciale
-Medicina multipla
+erba medicinale
+medicina potente
+medicina speciale
+multimedicina
 rugiada di Ygdrasil
-Elisir magico
-Elisir del saggio
+elisir magico
+elisir di saggezza
 elisir degli elfi
 foglia di Ygdrasil
-Erba antidoto
+erba per antidoti
 bulbo di erbaluna
 Panacea
-Polvere antimagica
-Polvere di Potenza
-Moneta del mago
-Scellino del mago
-Insulade
-Insulade gigante
-Seme dell'abilità
-Seme della vita
-Seme della magia
-Seme della forza
-Seme della difesa
-Seme dell'agilità
-Seme della saggezza
-Letame mostruoso
+Sortilmina
+medicina Ooomph
+moneta del mago
+scellino del mago
+Isolade
+Isolade Maxi
+seme dell'abilità
+seme della vita
+seme della magia
+seme della potenza
+seme della difesa
+seme dell'agilità
+seme della saggezza
+sterco di mostro
 Seme della speranza
-Carta fedeltà
-Pepita d'oro
-'Attrattore positivo'
-'Pensa negativo'
-'Terreno neutrale'
-Essenza di Amor Seco
+tessera Pagomeno
+pepita d'oro
+"Pensiero Positivo"
+"Unione e Negatività"
+"Zona Neutrale"
+essenza Pluvis
 
 
 
@@ -43,46 +43,46 @@ Essenza di Amor Seco
 biglietto metallico
 
 
-Bocconcini per mostri
-Sali odorosi
+deliziesca
+sali magici
 
-Libro di Lupicche
-Libro di Cuordifalco
-Libro di Quadrago
-Libro di Fiorango
-Pergamena del Guerriero
-Pergamena del Mago
-Pergamena del Sacerdote
-Pergamena dell'Artista marziale
-Pergamena del Saggio
-Pergamena del Ladro
-Palla da flipper
-Frammento di Esplo-sasso
+libro di Lupicche
+libro di Cuordifalco
+libro di Quadrago
+libro di Fiorango
+testo del guerriero
+testo del mago
+testo del sacerdote
+testo del lottatore
+testo del saggio
+testo del ladro
+Dannosfera
+pezzo di Esplo-sasso
 
-Medicina d'errore
+Malicina
 
 
 
 
 sonaglio di carica
-Polvere di Sag
-Sapperine
-Deceleratonic
-Dimium
-Bufferine
-Acceleratonic
-Pingium
-'Tocco curativo'
-'Stregoneria segreta'
-'Forza sulla mente'
-'Abbassati e copriti'
-'La via rapida'
-'Sapere è potere'
-Medaglia misteriosa
-Chiave del Mausoleum
+Depotens
+Debolina
+Deceleratonico
+Stupidamina
+Defendix
+Acceleratonico
+Intellex
+"Teoria della cura"
+"Teoria stregonesca"
+"Teoria d'attacco"
+"Teoria difensiva"
+"Teoria dell'agilità"
+"Teoria saggia"
+medaglia misteriosa
+chiave del Mausoleum
 anello da Scout
-Lettera bagnata
-'Guarigione alla testa'
+lettera appiccicosa
+"Prontuario medico"
 
 
 
@@ -91,9 +91,9 @@ Lettera bagnata
 
 
 
-Ciottolo grazioso
-Frammento di bronzo
-Scheggia d'argento
+ciottolo pregiato
+frammento di bronzo
+pepita d'argento
 
 
 
@@ -105,11 +105,11 @@ Scheggia d'argento
 
 
 
-Parti meccaniche
+frammento meccanico
 
-Medaglia al merito
+Medaglia del Valore
 
-anima del pazzo
+Anima del pazzo
 spada di rame
 daga divina
 stocco
@@ -120,11 +120,11 @@ spada d'ossidiana
 spada d'argento
 lama dello Zombie
 lama del drago
-Spada del gigante
+spada del gigante
 Stramazzazombie
 Stramazzadraghi
 katana perduta
-Spada del Re Metalslime
+spada regale
 lancia di ferro
 forcone della natura
 giavellotto celeste
@@ -136,24 +136,24 @@ alabarda
 lancia dell'eroe
 Gáe Bolg
 ascia di pietra
-Ascia del boscaiolo
+ascia da taglialegna
 ascia di ferro
-Ascia del taglialegna
-Ascia del boia
-Ascia da battaglia
-Ascia del guardaboschi
-Ascia del re
-Ascia del ranger
-Ascia del giustiziere
+accetta del boscaiolo
+ascia di Hela
+ascia da battaglia
+Distruttrice oscura
+ascia del re
+ascia vulcanica
+lama del boia
 clava
-Martello di melma
+maglio gigante
 testa di ferro
 martello da guerra
 maglio miracoloso
 chiave gigante
-Martello da fabbro
-Mazza del predone
-Martello del condottiero
+martello
+mazza del predatore
+megamartello
 mazza miracolosa
 frusta di cuoio
 frusta da guerra
@@ -179,27 +179,27 @@ mazza di cipresso
 bastone runico
 scettro della fenice
 
-Scettro del più
-Scettro del meno
+scettro Plus
+scettro Minus
 scettro di cristallo
 bastone delle tenebre
-Bastone del saggio
+bastone del saggio
 scettro reale
 spada del leone
-Sparatankissimus
-Malevomazza
-Artigli d'ebano
-Lancia di Diablo
+cannone Tankissimus
+Malamazza
+artigli d'ebano
+lancia Diabolus
 
 
-Zampe
-Ammucchiata
+zampe
+pilaslime
 spada dei miracoli
-Artigli di falco
-Bastone di Ghent
-Artigli di drago
-Tridente di Gracos
-Frusta magica
+artigli del falco
+bastone di Ghent
+artigli del drago
+tridente di Gracos
+frusta stregata
 
 
 

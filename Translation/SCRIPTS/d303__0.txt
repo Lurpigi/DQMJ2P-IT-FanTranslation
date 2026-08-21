@@ -534,7 +534,7 @@ SAY "{VOICE=08}Perciò spetta a te, {NAME}, salvarci da questa crisi!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}Per quanto riguarda il tuo compito, chiedi all'anziano di spiegarti tutto nei{WAIT}{CLEAR}dettagli."
+SAY "{VOICE=08}Per quanto riguarda il tuo compito, chiedi all'anziano di spiegarti tutto nei dettagli."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x42480000

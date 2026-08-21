@@ -1402,7 +1402,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} può ora usare \"Guarisci tutti\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Quest'incantesimo di guarigione permette a {NAME} di curare tutti i{WAIT}{CLEAR}membri della squadra."
+SAY "{COLOR=2}Quest'incantesimo di guarigione permette a {NAME} di curare tutti i membri della squadra."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1448,7 +1448,7 @@ SYS_44 0x8
 SAY "{COLOR=2}La tecnica funzionerà solo se il portale è già aperto."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Quindi, è bene che {NAME} esamini subito i portali Velotrans situati{WAIT}{CLEAR}sull'isola."
+SAY "{COLOR=2}Quindi, è bene che {NAME} esamini subito i portali Velotrans{WAIT}{CLEAR}situati sull'isola."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1469,7 +1469,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha ottenuto \"Curamostri\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa bevanda fa recuperare PV e PM a tutti i membri della squadra di {NAME}{WAIT}{CLEAR}."
+SAY "{COLOR=2}Questa bevanda fa recuperare PV e PM a tutti i membri della squadra di {NAME}."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}La bottiglia contiene tre dosi e può essere riempita di nuovo tornando alla nave."
@@ -4324,7 +4324,7 @@ CMP_EQ 0x18 0x0 0x42d20000 0x2 0x0
 JMP_IFNOT 0xc L_10a08
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}Quindi le talpe hanno finalmente messo in funzione questo Vero Torneo Monster{WAIT}{CLEAR}Scout."
+SAY "{VOICE=08}Quindi le talpe hanno finalmente messo in funzione questo Vero Torneo Monster Scout."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}Non dovresti prepararti invece di stare qui a chiacchierare con me?"
@@ -4340,7 +4340,7 @@ CMP_EQ 0x18 0x0 0x42d20000 0x2 0x3f800000
 JMP_IFNOT 0xc L_10b78
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}Questo è il Vero Torneo Monster Scout, quindi la concorrenza è DAVVERO{WAIT}{CLEAR}agguerrita."
+SAY "{VOICE=08}Questo è il Vero Torneo Monster Scout, quindi la concorrenza è{WAIT}{CLEAR}DAVVERO agguerrita."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}Non dovresti prepararti invece di stare qui a chiacchierare con me?"
@@ -4569,7 +4569,7 @@ SETNAME "Capitan Alex"
 SAY "{VOICE=07}Toh, ecco il mio caro pivello..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Scusa se ti abbiamo lasciato indietro, ma dovevo andare avanti per controllare il{WAIT}{CLEAR}territorio."
+SAY "{VOICE=07}Scusa se ti abbiamo lasciato indietro, ma dovevo andare avanti per controllare{WAIT}{CLEAR}il territorio."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Questo posto è davvero straordinario...!{WAIT}{CLEAR}Chissà di quali incredibili scontri è stato teatro nel corso della sua storia..."
@@ -4671,7 +4671,7 @@ SYS_44 0x8
 SAY "{VOICE=07}Non dirmi che vuoi sentirti chiamare ancora \"campione\"...? Detto... fatto!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}È quiiiii! È {NAME}... ...il campione del Torneo Monster Scout{WAIT}{CLEAR}dell'isola!!!!"
+SAY "{VOICE=07}È quiiiii! È {NAME}... ...il campione del Torneo Monster{WAIT}{CLEAR}Scout dell'isola!!!!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

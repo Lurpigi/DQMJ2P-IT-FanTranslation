@@ -31,7 +31,7 @@ Seleziona regione
 
 
 Puoi cambiare il nome visualizzato.{315}Se inserisci un nome inappropriato,{315}non potrai usare le comunicazioni Wi-Fi.{315}Se il nome non è appropriato,{315}cambialo prima di giocare.
-Imposta la tua regione o il tuo Paese.{315}Apparirà nelle battaglie in Modalità Tag,{315}nelle battaglie wireless e nelle comunicazioni Wi-Fi.
+Imposta la tua regione o il tuo Paese.{315}Apparirà negli Scontri casuali,{315}nelle battaglie wireless e nelle comunicazioni Wi-Fi.
 Conferma le modifiche e salva.
 
 

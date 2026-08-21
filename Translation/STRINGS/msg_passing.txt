@@ -1,4 +1,4 @@
-Battaglie in Modalità Tag
+Scontri casuali
 Cerca avversario
 Sfide memorabili
 Modifica membri
@@ -32,10 +32,10 @@ Non inviare
 Baffling Bandits
 Terry
 Tara and Cobi
-Cerca avversari tramite la Modalità Tag.
-Visualizza i dati degli avversari della Modalità Tag{315}e affrontali di nuovo.{315}Puoi reclutare un mostro{315}da ogni avversario registrato!
-Modifica la squadra usata{315}per le battaglie in Modalità Tag.
-Esci dalla Modalità Tag e torna{315}alla schermata di gioco.
+Cerca avversari tramite la modalità "Scontri casuali".
+Visualizza i dati degli avversari della modalità "Scontri casuali"{315}e affrontali di nuovo.{315}Puoi reclutare un mostro{315}da ogni avversario registrato!
+Modifica la squadra usata{315}per gli Scontri casuali.
+Esci dalla modalità "Scontri casuali" e torna{315}alla schermata di gioco.
 
 
 Combatti contro questo avversario.{315}Potresti riuscire a reclutare mostri.
@@ -49,21 +49,21 @@ Vinci la battaglia per visualizzare{315}lo stato dei mostri{315}usati dall'avver
 Elimina questo avversario dalle{315}Sfide memorabili.
 
 
-Usa la squadra principale impostata{315}nel campo per la Modalità Tag.
-Imposta la squadra usata per le{315}battaglie in Modalità Tag da Modifica membri.
-Imposta la squadra usata per la Modalità Tag{315}dai membri preferiti.{315}Puoi anche modificare i membri preferiti.
+Usa la squadra principale impostata{315}nel campo per la modalità "Scontri casuali".
+Imposta la squadra usata per gli{315}Scontri casuali da Modifica membri.
+Imposta la squadra usata per la modalità "Scontri casuali"{315}dai membri preferiti.{315}Puoi anche modificare i membri preferiti.
 
-Attivare la Modalità Tag?
-Ricerca di un avversario.{315}Puoi chiudere la console DS.{315}Premi B per terminare la Modalità Tag.
+Attivare la modalità "Scontri casuali"?
+Ricerca di un avversario.{315}Puoi chiudere la console DS.{315}Premi B per terminare la modalità "Scontri casuali".
 Scegli cosa fare con{315}ogni avversario incontrato.
-Trovati {322} avversari!{315}Premi B per uscire dalla Modalità Tag.
+Trovati {322} avversari!{315}Premi B per uscire dalla modalità "Scontri casuali".
 {322} ha lanciato una sfida!
 {322} di DQM Joker 2{315}ha lanciato una sfida!
 
 Congratulazioni per la splendida vittoria!
 Congratulazioni per le {322} vittorie!{315}Ritira il tuo premio.
 Ah! Il sapore amaro della sconfitta.
-Reclutamento riuscito!{315}I mostri reclutati nelle Sfide memorabili{315}sono trattati come ospiti.{315}Per i dettagli, consulta Mostri ospiti{315}nel Manuale del reclutatore.
+Reclutamento riuscito!{315}I mostri reclutati nelle Sfide memorabili{315}sono trattati come ospiti.{315}Per i dettagli, consulta Mostri ospiti{315}nel Manuale degli Scout.
 Ah! È scappato.
 La prossima volta punta a {322} vittorie!
 Ti aspettano altri premi speciali.{315}Punta al primo posto!
@@ -83,7 +83,7 @@ Eliminare {322}{315}senza combattere?
 {322} è stato eliminato.
 Combattere contro {322}?
 {322} è stato rimosso dalle{315}Sfide memorabili.
-Imposta i membri della squadra per le{315}battaglie in Modalità Tag.
+Imposta i membri della squadra per gli{315}Scontri casuali.
 Disconnessione dal wireless DS.
 
 
@@ -109,7 +109,7 @@ Invia la squadra di {322}{315}insieme alla tua.
 Non puoi inviare una squadra{315}che non hai sconfitto.
 Usare il wireless senza inviare{315}una squadra delle Sfide memorabili?
 Sanguini sembra aver trovato qualcosa.
-Modalità Tag
+Scontri casuali
 Inizia invio
 Vittorie
 Volte

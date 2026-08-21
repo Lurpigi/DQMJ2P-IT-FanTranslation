@@ -8,13 +8,13 @@ Ripristina 30 PM a un alleato.
 Ripristina 90 PM a un alleato.
 Ripristina completamente i PM di un alleato.
 Una foglia mistica che rianima un alleato sconfitto.
-Cura un alleato dagli effetti{315}del veleno.
-Cura un alleato dagli effetti{315}della paralisi.
+Cura un alleato dagli effetti del veleno.
+Cura un alleato dagli effetti della paralisi.
 Cura un alleato da veleno, paralisi, sonno e confusione.
-Polvere incantata che sigilla la magia{315}di un nemico.
+Polvere incantata che sigilla la magia di un nemico.
 Aumenta notevolmente l'Attacco di un alleato per 2-5 turni.
 Aumenta la resistenza alla magia di un alleato.
-Aumenta la resistenza alla magia nemica{315}di tutti gli alleati.
+Aumenta la resistenza alla magia nemica di tutti gli alleati.
 Aumenta la resistenza di un alleato ai soffi di fuoco e ghiaccio.
 Aumenta la resistenza di tutti gli alleati ai soffi di fuoco e ghiaccio.
 Assegna 3 punti abilità a un alleato.
@@ -26,7 +26,7 @@ Aumenta permanentemente l'Agilità di un alleato di 1-2 punti.
 Aumenta permanentemente l'Intelligenza di un alleato di 1-2 punti.
 Puzza da morire, ma puoi lanciarlo contro i nemici in battaglia. Infligge solo 0 o 1 punto di danno a un nemico, ma è efficace contro i mostri metallici.
 Porta il bersaglio a 1 ESP dal livello successivo.
-Permette di acquistare oggetti a un prezzo{315}più basso.
+Permette di acquistare oggetti a un prezzo più basso.
 Un pesante pezzo d'oro massiccio.
 Attira i mostri {231} in battaglia. L'effetto svanisce dopo la battaglia.
 Attira i mostri {232} in battaglia. L'effetto svanisce dopo la battaglia.
@@ -53,7 +53,7 @@ Un libro che conferisce l'abilità Fiorango.
 Una pergamena che conferisce l'abilità Warrior.
 Una pergamena che conferisce l'abilità Mago.
 Una pergamena che conferisce l'abilità Priest.
-Una pergamena che conferisce l'abilità{315}Martial Artist.
+Una pergamena che conferisce l'abilità Martial Artist.
 Una pergamena che conferisce l'abilità Sage.
 Una pergamena che conferisce l'abilità Thief.
 Pietre dure da lanciare in battaglia. Infliggono solo da 1 a 3 punti di danno a un nemico, ma sono efficaci contro i mostri metallici.
@@ -73,11 +73,11 @@ Aumenta notevolmente la Difesa di un alleato per 4-7 turni.
 Aumenta notevolmente l'Agilità di un alleato per 4-7 turni.
 Aumenta notevolmente l'Intelligenza di un alleato per 4-7 turni.
 Un libro che conferisce l'abilità Guarigione.
-Un libro che conferisce l'abilità{315}Aiuto magico.
-Un libro che conferisce l'abilità{315}Bonus ATT.
-Un libro che conferisce l'abilità{315}Bonus DIF.
+Un libro che conferisce l'abilità Aiuto magico.
+Un libro che conferisce l'abilità Bonus ATT.
+Un libro che conferisce l'abilità Bonus DIF.
 Un libro che conferisce l'abilità Bonus AGI.
-Un libro che conferisce l'abilità{315}Bonus INT.
+Un libro che conferisce l'abilità Bonus INT.
 Una grande medaglia con il volto di un leone inciso.
 Una chiave che permette di accedere alle rovine del Mausoleum.
 Un accessorio essenziale per ogni reclutatore di mostri: permette a chi lo indossa di reclutare mostri e aggiungerli alla squadra.
@@ -92,7 +92,7 @@ Un libro che conferisce l'abilità Gran rimedio.
 
 
 Ciottoli da lanciare in battaglia. Infliggono solo da 0 a 1 punto di danno a un nemico, ma sono efficaci contro i mostri metallici.
-Un oggetto che dovrebbe valere qualche{315}moneta d'oro.
+Un oggetto che dovrebbe valere qualche moneta d'oro.
 Un oggetto che dovrebbe valere un buon numero di monete d'oro.
 
 
@@ -109,7 +109,7 @@ Ha lo stesso logo del mercante di oggetti a bordo dell'Albatros.
 
 La medaglia che dà al possessore il diritto di partecipare alla fase finale della Sfida dei reclutatori di mostri delle talpe.
 
-Un oggetto magico che può infondere un'anima{315}nel fango.
+Un oggetto magico che può infondere un'anima nel fango.
 Attacco +10
 Attacco +13{315}Piuttosto efficace contro i non-morti.
 Attacco +18{315}Piuttosto efficace contro i draghi.
@@ -146,12 +146,12 @@ Attacco +81
 Attacco +90{315}Molto efficace contro bestie e mostri della natura.
 Attacco +93{315}Facilita i colpi critici.
 Attacco +3{315}Aumenta la Difesa.
-Attacco +12{315}Piuttosto efficace contro mostri materiali{315}e slime.
+Attacco +12{315}Piuttosto efficace contro mostri materiali e slime.
 Attacco +24{315}Aumenta la Difesa.
 Attacco +31{315}Occasionalmente sconfigge i nemici in un colpo.
 Attacco +37{315}Ripristina alcuni PV di chi lo impugna.
 Attacco +49{315}Aumenta la Difesa.
-Attacco +97{315}Molto efficace contro mostri materiali{315}e slime.
+Attacco +97{315}Molto efficace contro mostri materiali e slime.
 Attacco +80{315}Aumenta la Difesa.
 Attacco +58{315}Occasionalmente sconfigge i nemici in un colpo.
 Attacco +87{315}Ripristina alcuni PV di chi lo impugna.

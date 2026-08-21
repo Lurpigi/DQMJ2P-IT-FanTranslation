@@ -90,11 +90,11 @@ STORE 0x18 0x1 0x0 0x0 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x2 0x428c0000
 SYS_18 0x8 
 SETNAME "Meck Nick"
-SAY "{VOICE=07}Bene, ragazzo! Vediamo se riesci a tenere il passo del vecchio Meck Nick.{WAIT}{CLEAR}Seguimi!"
+SAY "{VOICE=07}Bene, ragazzo! Vediamo se riesci a tenere il passo del vecchio Meck Nick. Seguimi!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Meck Nick"
-SAY "{VOICE=07}Se le tue bestie si fanno male, torna semplicemente alla nave. Le rimetteremo{WAIT}{CLEAR}in sesto in un attimo!"
+SAY "{VOICE=07}Se le tue bestie si fanno male, torna semplicemente alla nave. Le rimetteremo in{WAIT}{CLEAR}sesto in un attimo!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

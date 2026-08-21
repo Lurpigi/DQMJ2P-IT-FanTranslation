@@ -492,7 +492,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42480000
 SYS_42 0x8 
 SETNAME "Capitan Alex"
-SAY "{VOICE=07}Maledizione! L'hanno presa! Chi poteva immaginare che Jamirus avesse dei{WAIT}{CLEAR}rinforzi?"
+SAY "{VOICE=07}Maledizione! L'hanno presa! Chi poteva immaginare che Jamirus avesse dei rinforzi?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Capitan Alex"

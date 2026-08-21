@@ -2,10 +2,11 @@
 """Wrap DQMJ2P SAY strings to the game's two-line dialogue window.
 
 The original Italian DQMJ2 scripts use a variable-width font.  This tool uses
-the actual glyph advances from font_16x16.NFTR and a calibrated limit of 230
-pixels per rendered line.  It leaves line wrapping to the game and uses two
-lines per page, inserting WAIT+CLEAR only when a SAY would otherwise need a
-third visible line.
+the actual glyph advances from font_16x16.NFTR and a limit of 240 pixels per
+rendered line, measured against the longest two-line windows in the original
+Italian scripts.  It leaves line wrapping to the game and uses two lines per
+page, inserting WAIT+CLEAR only when a SAY would otherwise need a third
+visible line.
 
 Usage:
     python Pro_Tools/format_dialogues.py --check
@@ -20,10 +21,9 @@ import re
 from pathlib import Path
 
 
-# The official-font measurements and the screenshot review establish a safe
-# interval of 226..232 px: "...con il" fits, adding "nome" does not, while
-# the quoted second line ends at "la".  230 px reproduces that wrapping.
-DEFAULT_WIDTH = 230.0
+# The original Italian scripts contain two-line windows whose balanced wrap
+# needs 240 px.  At 230 px, 214 official windows need a spurious third line.
+DEFAULT_WIDTH = 240.0
 DEFAULT_LINES = 2
 PAGE_CLEAR = "{WAIT}{CLEAR}"
 
@@ -136,15 +136,35 @@ BOUNDARY_RE = re.compile(r"(\{WAIT\}\{CLEAR\}|\{PAGE\})")
 # body is the correct parser for this disassembly format.
 SAY_RE = re.compile(r'^(SAY)\s+"(.*)"\s*$')
 
+# Punctuation immediately following a placeholder is part of the same
+# rendered word.  It must never become a one-character page by itself when
+# the conservative placeholder width reaches the line limit.
+ATTACHED_PUNCTUATION_RE = re.compile(r"^[.,!?;:%'\"…»”’)}\]]")
+
+# Runtime substitutions do not have a literal width in the script.  These
+# values are deliberately conservative and are based on the widest Italian
+# names/numbers used by the corresponding message tables.  E321 is a
+# formatting/name prefix and E323/E326/E327 are conditional grammar controls.
+VARIABLE_WIDTHS = {
+    "NAME": 96.0,
+    "E321": 0.0,
+    "E322": 42.0,
+    "E323": 0.0,
+    "E326": 0.0,
+    "E327": 0.0,
+    "E32A": 128.0,
+    "E328": 128.0,
+    "E33A": 128.0,
+    "E3DF": 128.0,
+}
+
 
 def control_width(token: str) -> float:
     """Return the approximate visible width of a script token."""
     inner = token[1:-1]
     upper = inner.upper()
-    if upper == "NAME":
-        # Player names are variable-width placeholders.  This is deliberately
-        # conservative for the maximum name length accepted by the game.
-        return 96.0
+    if upper in VARIABLE_WIDTHS:
+        return VARIABLE_WIDTHS[upper]
     if upper in {"BREAK", "PAGE", "WAIT", "CLEAR", "END"}:
         return 0.0
     if upper.startswith("VOICE=") or upper.startswith("COLOR="):
@@ -311,9 +331,15 @@ class PageBuilder:
         word_width = text_width(word)
         separator = " " if self.pending_space and self.line_has_text else ""
         separator_width = text_width(separator)
+        attaches_to_previous = (
+            self.line_has_text
+            and not separator
+            and ATTACHED_PUNCTUATION_RE.match(word) is not None
+        )
         if (
             self.line_has_text
             and self.line_width + separator_width + word_width > self.width_limit
+            and not attaches_to_previous
         ):
             self.line_count += 1
             if self.line_count > self.max_lines:
@@ -334,6 +360,46 @@ class PageBuilder:
 
     def render(self) -> str:
         return "".join(self.parts).rstrip()
+
+
+def _visible_words(page: str) -> list[str]:
+    """Return visible whitespace-separated words in one rendered page."""
+    plain = CONTROL_RE.sub(" ", page)
+    return [word for word in re.split(r"\s+", plain.strip()) if word]
+
+
+def _rebalance_short_pages(pages: list[str]) -> list[str]:
+    """Avoid a page containing only the final word of a sentence.
+
+    Greedy wrapping can leave ``... una cosa{PAGE_CLEAR}finale`` even though
+    moving ``cosa`` to the next page produces a much better ``una`` /
+    ``cosa finale`` split.  A previous page ending in sentence punctuation
+    followed by an uppercase word is treated as an intentional dialogue beat
+    and is left untouched.
+    """
+    for index in range(1, len(pages)):
+        previous = pages[index - 1]
+        following = pages[index]
+        if len(_visible_words(following)) != 1:
+            continue
+        if len(_visible_words(previous)) < 2:
+            continue
+
+        next_word = _visible_words(following)[0]
+        if (
+            previous.rstrip().endswith((".", "!", "?"))
+            and next_word[:1].isupper()
+            and not next_word.startswith("...")
+        ):
+            continue
+
+        match = re.search(r"\s+(\S+)\s*$", previous)
+        if not match:
+            continue
+        moved = match.group(1)
+        pages[index - 1] = previous[:match.start()].rstrip()
+        pages[index] = moved + " " + following.lstrip()
+    return pages
 
 
 def wrap_segment(segment: str, width: float, max_lines: int) -> str:
@@ -369,7 +435,8 @@ def wrap_segment(segment: str, width: float, max_lines: int) -> str:
     final = builder.render()
     if final or not pages:
         pages.append(final)
-    return PAGE_CLEAR.join(page for page in pages if page)
+    pages = [page for page in pages if page]
+    return PAGE_CLEAR.join(_rebalance_short_pages(pages))
 
 
 def format_body(body: str, width: float, max_lines: int) -> str:
@@ -378,7 +445,23 @@ def format_body(body: str, width: float, max_lines: int) -> str:
     # compensate for English/Italian line lengths.  Flatten it to whitespace
     # and let the real two-line renderer decide whether a page is needed.
     body = normalize_dte_spacing(body)
-    body = BOUNDARY_RE.sub(" ", body)
+    def flatten_boundary(match: re.Match[str]) -> str:
+        # A boundary before closing punctuation is layout-only.  Replacing it
+        # with a space would turn ``{NAME}{WAIT}{CLEAR}!`` into ``{NAME} !``
+        # and make the punctuation look like a separate final word.
+        following = body[match.end():].lstrip()
+        # Three dots are a deliberate continuation marker (``... ...``), not
+        # closing punctuation.  Keep its separating space intact.
+        if following.startswith("..."):
+            return " "
+        # A double quote here is usually an opening quote (``chiamato
+        # \"l'Ospite...``), so it needs the separating space and is not
+        # treated like closing punctuation.
+        if re.match(r"[.!?,;:%'…»”’)}\]]", following):
+            return ""
+        return " "
+
+    body = BOUNDARY_RE.sub(flatten_boundary, body)
     body = body.replace("{BREAK}", " ")
     return wrap_segment(body, width, max_lines)
 

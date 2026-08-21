@@ -7,7 +7,7 @@ Teletrasporto
 Saving
 Oggetti e armi
 Campionato dei mostri
-Battaglie in Modalità Tag
+Scontri casuali
 Scambio di mostri
 I mostri ospiti
 Il contrassegno 'Ospite'
@@ -18,7 +18,7 @@ Cambio in battaglia
 Punti di cura
 Mostri potenti
 Mostri giganti
-Assegnazione abilità
+Distribuzione dei Punti Abilità
 Mercante di oggetti
 La Banca Aurea
 Squadre preferite
@@ -31,8 +31,8 @@ Come sintetizzare
 Ereditare abilità
 Limiti di livello
 Come evolvere con la sintesi
-Cura tutti
-Curatore di mostri
+Guarisci tutti
+Curamostri
 Memo 1
 Memo 2
 Memo 3
@@ -60,10 +60,10 @@ Premi il pulsante Y per leggere gli{315}effetti{315}degli oggetti. Alcuni oggett
 Il torneo supremo dei reclutatori di{315}mostri{315}si svolge tramite Nintendo WFC.{315}I partecipanti di tutto il mondo vengono{315}classificati dopo le sfide giornaliere in{315}casa e fuori casa.
 Usa la comunicazione wireless per{315}combattere{315}contro i giocatori che incontri.{315}Puoi salvare gli avversari come battaglie{315}memorizzate e inviarle ad altri.{315}{315}I mostri di grado S o superiore{315}non possono essere reclutati.
 Puoi scambiare mostri cresciuti da{315}altri giocatori o in DQM Joker 2{315}usando la comunicazione wireless.{315}{315}Solo i mostri di grado A o inferiore{315}possono essere{315}scambiati con DQM Joker 2,{315}e il loro livello diventa 1.
-I mostri reclutati nelle battaglie in{315}Modalità Tag{315}sono mostri ospiti e ricevono il{315}contrassegno{315}'Ospite' accanto al nome.{315}Puoi aggiungerli alla squadra{315}e usarli nelle battaglie in Modalità Tag,{315}ma non nella{315}Coppa suprema dei maestri Wi-Fi.
+I mostri reclutati negli Scontri casuali{315}sono mostri ospiti e ricevono il{315}contrassegno{315}'Ospite' accanto al nome.{315}Puoi aggiungerli alla squadra{315}e usarli negli Scontri casuali,{315}ma non nella{315}Coppa suprema dei maestri Wi-Fi.
 Quando il contrassegno 'Ospite' lascia l'{315}albero genealogico, lascia anche il{315}mostro.{315}Continua quindi a sintetizzarlo con mostri{315}senza il contrassegno 'Ospite': alla fine{315}diventerà tuo.{315}{315}Quando il contrassegno scompare, il mostro{315}può partecipare alla{315}Coppa suprema dei maestri Wi-Fi.
 Seleziona 'Recluta' in battaglia: i tuoi{315}mostri useranno un attacco di reclutamento{315}per conquistare il mostro nemico.{315}{315}Puoi provare a reclutarlo finché il nemico{315}non si arrabbia.
-Il numero indica la probabilità{315}di successo.{315}Più è alto,{315}più è facile reclutare il mostro.{315}Indebolire il nemico{315}vicino alla sconfitta aumenta le{315}probabilità.{315}Se resta basso,{315}fai salire i mostri e riprova.
+Il numero indica la probabilità{315}di successo.{315}Più è alto, più è facile reclutare il mostro.{315}Indebolire il nemico vicino{315}alla sconfitta aumenta le probabilità.{315}Se resta basso, carica i mostri{315}e riprova.
 I tre mostri mostrati a destra in 'Cambia'{315}sono mostri di riserva.{315}Viaggiano con te separati dalla squadra{315}attiva{315}e possono essere sostituiti in battaglia.
 Durante la battaglia, premi Y per cambiare{315}tra mostri attivi e di riserva.{315}{315}Fai riposare i mostri feriti e usa bene{315}le riserve: le battaglie saranno molto più{315}facili.{315}Prova tattiche diverse.
 I pilastri di pietra azzurra sono punti{315}di cura.{315}Ripristinano completamente PV e PM{315}della squadra e rianimano i mostri{315}sconfitti.{315}{315}Dopo averne usato uno, lascia la zona{315}per renderlo nuovamente utilizzabile.
@@ -72,7 +72,7 @@ Su quest'isola{315}vivono mostri giganti{315}oltre ogni immaginazione.{315}Comba
 Assegna ai tratti e alle abilità i punti{315}ottenuti salendo di livello{315}per apprendere nuove abilità e tratti.
 Compra e vendi oggetti e armi.{315}Forse esistono modi per ampliare{315}la scelta del negozio...?
 Qui puoi depositare l'oro.{315}Se la squadra viene sconfitta,{315}l'oro trasportato si dimezza,{315}ma quello depositato resta al sicuro.
-Le squadre preferite permettono di salvare{315}le formazioni di mostri che ti piacciono.{315}I membri salvati possono essere scambiati{315}con la squadra o con le riserve.{315}Registrare squadre è utile per le{315}battaglie{315}Wireless, Wi-Fi o in Modalità Tag.
+Le squadre preferite permettono di salvare{315}le formazioni di mostri che ti piacciono.{315}I membri salvati possono essere scambiati{315}con la squadra o con le riserve.{315}Registrare squadre è utile per le{315}battaglie{315}Wireless, Wi-Fi o negli Scontri casuali.
 La battaglia virtuale permette di{315}combattere liberamente usando i tuoi{315}mostri.{315}{315}Puoi modificare liberamente le{315}impostazioni{315}di nemici e alleati,{315}per studiare gli schemi{315}o mettere alla prova i tuoi mostri.
 Quando entri in una zona già completata,{315}il meteo può essere cambiato,{315}alterando anche la zona.{315}{315}Il meteo può cambiare ogni volta{315}che entri nella mappa del mondo.
 I mostri sono divisi in 8 famiglie:{315}slime, drago, natura, bestia,{315}materiale, demone, non-morti e ???.{315}{315}Ogni famiglia ha un fattore che può{315}aumentarne la tensione in battaglia.
@@ -86,8 +86,8 @@ Usa le abilità dei mostri per ripristinare{315}completamente i PV di tutti gli 
 Ripristina completamente PV e PM dei{315}mostri.{315}Puoi usarlo fino a 3 volte quando sei{315}fuori.{315}Torna sull'aeronave per ricaricarlo.
 Il test di abilità del reclutatore 1{315}richiede{315}il tratto Brontolone!{315}{315}Kan Kanide e Testuggine corazzata{315}possiedono questo tratto.
 Il test di abilità del reclutatore 2{315}richiede{315}2 mostri della famiglia drago!{315}{315}Metti 2 draghi nella squadra{315}e parla con Pupa.{315}Giallosauro, Dragospino e{315}Kurridor sono mostri della famiglia drago.
-Il test di abilità del reclutatore 3{315}richiede{315}un mostro con il contrassegno Ospite!{315}{315}Portane uno dalla Modalità Tag{315}o dai download per superarlo.{315}{315}Va bene qualsiasi mostro.
-Il test di abilità del reclutatore 4{315}richiede{315}i tratti Potenziamento immediato e{315}Potenziamento casuale!{315}{315}Un mostro può averli entrambi,{315}oppure due mostri possono averne uno{315}ciascuno.{315}Formica soldato e Axecutioner{315}possiedono questi tratti.
+Il test di abilità del reclutatore 3{315}richiede{315}un mostro con il contrassegno Ospite!{315}{315}Portane uno dalla modalità "Scontri casuali"{315}o dai download per superarlo.{315}{315}Va bene qualsiasi mostro.
+Il test di abilità del reclutatore 4{315}richiede{315}i tratti Potenziamento immediato e{315}Potenziamento casuale!{315}{315}Un mostro può averli entrambi,{315}oppure due mostri possono averne uno ciascuno.{315}Formica soldato e Asciaboia{315}possiedono questi tratti.
 Il test di abilità del reclutatore 5{315}richiede{315}il tratto Soddisfazione magica!{315}{315}Hipster swingante e Montone dannato{315}possiedono questo tratto.
 Il test di abilità del reclutatore 6{315}richiede{315}un mostro della variante X!{315}{315}Porta un mostro F-D oltre il livello 20{315}e sintetizzalo con lo stesso mostro{315}per creare un mostro Forte!{315}L'altro genitore deve solo essere al{315}livello 10.
 Il test di abilità del reclutatore 7{315}richiede{315}il tratto Fortunato!{315}{315}Un mostro con questo tratto{315}potrebbe trovarsi nella zona Costa Ignota.
@@ -101,8 +101,6 @@ Il test di abilità del reclutatore 13{315}richiede{315}una squadra di grado ☆
 
 
 {30b}{00}.{30b}D{30b}T
-
-
 
 
 

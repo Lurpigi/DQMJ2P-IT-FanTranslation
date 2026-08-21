@@ -438,7 +438,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Mynos il Vecchio"
-SAY "{VOICE=03}Purtroppo, la sete di potere soffocò l'anima di alcuni abitanti dell'isola.{WAIT}{CLEAR}Essi avrebbero voluto diventare più forti del Combattente Divino."
+SAY "{VOICE=03}Purtroppo, la sete di potere soffocò l'anima di alcuni abitanti dell'isola. Essi{WAIT}{CLEAR}avrebbero voluto diventare più forti del Combattente Divino."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Mynos il Vecchio"
@@ -493,7 +493,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Mynos il Vecchio"
-SAY "{VOICE=03}La bontà e la purezza del Combattente Divino si trasformarono in malvagità.{WAIT}{CLEAR}Fummo costretti a imprigionare quell'essere divenuto malefico e ad{WAIT}{CLEAR}attendere..."
+SAY "{VOICE=03}La bontà e la purezza del Combattente Divino si trasformarono in malvagità. Fummo{WAIT}{CLEAR}costretti a imprigionare quell'essere divenuto malefico e ad attendere..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Mynos il Vecchio"

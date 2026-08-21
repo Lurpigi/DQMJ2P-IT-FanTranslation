@@ -116,7 +116,7 @@ SYS_43 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Ehi, la lealtà è il mio secondo nome, fratello! Ora devo riposarmi dietro le{WAIT}{CLEAR}quinte."
+SAY "{VOICE=07}Ehi, la lealtà è il mio secondo nome, fratello! Ora devo riposarmi dietro{WAIT}{CLEAR}le quinte."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -172,7 +172,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42700000
 SYS_42 0x8 
 SETNAME "Mynos il Vecchio"
-SAY "{VOICE=03}Grazie all'eccellente lavoro di Don Mole, ora ho un'idea chiara delle tue{WAIT}{CLEAR}capacità."
+SAY "{VOICE=03}Grazie all'eccellente lavoro di Don Mole, ora ho un'idea chiara delle tue capacità."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

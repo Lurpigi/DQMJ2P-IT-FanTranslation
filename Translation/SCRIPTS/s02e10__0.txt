@@ -1426,7 +1426,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} può ora usare \"Guarisci tutti\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Quest'incantesimo di guarigione permette a {NAME} di curare tutti i{WAIT}{CLEAR}membri della squadra."
+SAY "{COLOR=2}Quest'incantesimo di guarigione permette a {NAME} di curare tutti i membri della squadra."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1472,7 +1472,7 @@ SYS_44 0x8
 SAY "{COLOR=2}La tecnica funzionerà solo se il portale è già aperto."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Quindi, è bene che {NAME} esamini subito i portali Velotrans situati{WAIT}{CLEAR}sull'isola."
+SAY "{COLOR=2}Quindi, è bene che {NAME} esamini subito i portali Velotrans{WAIT}{CLEAR}situati sull'isola."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1493,7 +1493,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha ottenuto \"Curamostri\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa bevanda fa recuperare PV e PM a tutti i membri della squadra di {NAME}{WAIT}{CLEAR}."
+SAY "{COLOR=2}Questa bevanda fa recuperare PV e PM a tutti i membri della squadra di {NAME}."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}La bottiglia contiene tre dosi e può essere riempita di nuovo tornando alla nave."

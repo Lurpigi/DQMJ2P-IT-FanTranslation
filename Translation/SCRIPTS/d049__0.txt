@@ -242,7 +242,7 @@ STORE 0x18 0x1 0x0 0x2 0x42240000
 STORE 0x18 0x1 0x3f800000 0x2 0x41200000
 SYS_17 0x8 
 SETNAME "Marcus Logos"
-SAY "{VOICE=07}Pare che, molti anni fa, alcune persone riuscirono a fuggire dall'isola. Per{WAIT}{CLEAR}farlo, salirono in groppa a un gigantesco pennuto. Incredibile, eh?"
+SAY "{VOICE=07}Pare che, molti anni fa, alcune persone riuscirono a fuggire dall'isola. Per farlo,{WAIT}{CLEAR}salirono in groppa a un gigantesco pennuto. Incredibile, eh?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Marcus Logos"

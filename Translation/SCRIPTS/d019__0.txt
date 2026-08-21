@@ -82,7 +82,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x428c0000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Meck Nick"
-SAY "{VOICE=07}Riesci a tenere il passo, ragazzo? ...Finora non abbiamo visto nemmeno{WAIT}{CLEAR}l'ombra dei nostri compagni scomparsi..."
+SAY "{VOICE=07}Riesci a tenere il passo, ragazzo? ...Finora non abbiamo visto nemmeno l'ombra{WAIT}{CLEAR}dei nostri compagni scomparsi..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

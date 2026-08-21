@@ -230,7 +230,7 @@ STORE 0x18 0x1 0x0 0x2 0x41b00000
 STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_17 0x8 
 SETNAME "Anziano"
-SAY "{VOICE=03}Immagino che tu ti chieda cosa sia successo qui e perché sia stato scelto{WAIT}{CLEAR}proprio tu. Ti spiegherò tutto."
+SAY "{VOICE=03}Immagino che tu ti chieda cosa sia successo qui e perché sia stato scelto proprio tu. Ti{WAIT}{CLEAR}spiegherò tutto."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x41500000
@@ -256,11 +256,11 @@ SAY "{VOICE=03}Quel mostro ha messo in pericolo la nostra pace, così lo abbiamo
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Anziano"
-SAY "{VOICE=03}Poco dopo essere atterrato, è fuggito da qui ed è andato verso il centro{WAIT}{CLEAR}dell'isola."
+SAY "{VOICE=03}Poco dopo essere atterrato, è fuggito da qui ed è andato verso il centro dell'isola."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Anziano"
-SAY "{VOICE=03}Là vive il nostro re. È la nostra terra sacra, conosciuta come \"Palazzo{WAIT}{CLEAR}Blanc\"."
+SAY "{VOICE=03}Là vive il nostro re. È la nostra terra sacra, conosciuta come \"Palazzo Blanc\"."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Anziano"
@@ -268,7 +268,7 @@ SAY "{VOICE=03}...è probabile che il nostro potere svanisca presto..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Anziano"
-SAY "{VOICE=03}Senza dubbio è colpa di quella creatura, che sta devastando la nostra terra{WAIT}{CLEAR}sacra..."
+SAY "{VOICE=03}Senza dubbio è colpa di quella creatura, che sta devastando la nostra{WAIT}{CLEAR}terra sacra..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -289,7 +289,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43410000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Kukri"
-SAY "{VOICE=08}Se la devastazione continuerà, perderemo il potere di collegare i vari{WAIT}{CLEAR}mondi."
+SAY "{VOICE=08}Se la devastazione continuerà, perderemo il potere di collegare i vari mondi."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Kukri"

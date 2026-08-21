@@ -1533,7 +1533,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Arbitro"
-SAY "{VOICE=07}Il primo concorrente è un tipo di poche parole e dai bizzarri capelli... È il{WAIT}{CLEAR}campione in carica! Il fenomenale, sontuoso, immenso... {NAME}!"
+SAY "{VOICE=07}Il primo concorrente è un tipo di poche parole e dai bizzarri capelli... È il campione{WAIT}{CLEAR}in carica! Il fenomenale, sontuoso, immenso... {NAME}!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -2179,7 +2179,7 @@ SAY "{VOICE=08}Ti schiaccerò come un pidocchio! Non te la caverai, bamboccio!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}In attesa che arrivi quel momento, cercheremo nuove belve per le nostre{WAIT}{CLEAR}squadre."
+SAY "{VOICE=08}In attesa che arrivi quel momento, cercheremo nuove belve per le{WAIT}{CLEAR}nostre squadre."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"

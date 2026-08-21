@@ -124,7 +124,7 @@ SAY "{VOICE=08}Il tuo aiuto era del tutto superfluo, sai. Non avrei avuto il min
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Lady Lidia"
-SAY "{VOICE=08}Sono comunque piuttosto sorpresa di non essere stata l'unica superstite dello{WAIT}{CLEAR}schianto."
+SAY "{VOICE=08}Sono comunque piuttosto sorpresa di non essere stata l'unica superstite{WAIT}{CLEAR}dello schianto."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Lady Lidia"
@@ -172,7 +172,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42d40000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Lady Lidia"
-SAY "{VOICE=08}Per lo più vivi e in salute, dici? Ma alcuni mancano ancora all'appello? Che{WAIT}{CLEAR}orrore... Comunque, basta parlare di loro."
+SAY "{VOICE=08}Per lo più vivi e in salute, dici? Ma alcuni mancano ancora all'appello? Che orrore...{WAIT}{CLEAR}Comunque, basta parlare di loro."
 SYS_44 0x8 
 SETNAME "Lady Lidia"
 SAY "{VOICE=08}Io non ho assolutamente intenzione di tornare subito su quel rottame. E sai{WAIT}{CLEAR}perché, vero?"
@@ -228,7 +228,7 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Lady Lidia"
-SAY "{VOICE=08}Certo! Gli ordini del Capitano! Dovrai essere sempre a mia completa{WAIT}{CLEAR}disposizione!"
+SAY "{VOICE=08}Certo! Gli ordini del Capitano! Dovrai essere sempre a mia completa disposizione!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x42200000
 STORE 0x18 0x1 0x0 0x0 0x40000000

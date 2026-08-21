@@ -463,7 +463,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43410000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Sì. Ti seguirò, {NAME}, va bene? C'è così tanto da esplorare{WAIT}{CLEAR}insieme a te."
+SAY "{VOICE=08}Sì. Ti seguirò, {NAME}, va bene? C'è così tanto da esplorare insieme{WAIT}{CLEAR}a te."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
@@ -641,7 +641,7 @@ SAY "{VOICE=08}...quindi ora recluterai ME!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}Non ti servono nemmeno i Bocconcini per mostri! Sono già dalla tua parte!"
+SAY "{VOICE=08}Non ti servono nemmeno la deliziesca! Sono già dalla tua parte!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x41300000

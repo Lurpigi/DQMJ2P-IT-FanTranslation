@@ -15,131 +15,131 @@
 
 
 
-Raddoppia la probabilità di schivare{315}gli attacchi nemici.
-Riduce a un terzo i danni subiti dagli{315}attacchi nemici.
+Raddoppia la probabilità{315}di schivare gli attacchi nemici.
+Riduce a un terzo i danni{315}subiti dagli attacchi nemici.
 Permette ai mostri di aumentare la tensione in battaglia.
 Il mostro agirà due volte di seguito{315}quando non riceve ordini specifici.
-Raddoppia la probabilità di mettere a segno un{315}colpo critico.
+Raddoppia la probabilità{315}di mettere a segno un colpo critico.
 I danni inflitti ai nemici con il corpo{315}metallico aumentano di 1 punto.
-Impedisce ai nemici di usare{315}Artful Evasione totale.
+Impedisce ai nemici di usare{315}Evasione totale.
 Il mostro attaccherà per ultimo in battaglia.
 Il mostro attaccherà per primo in battaglia.
 Il mostro può contrattaccare{315}quando viene attaccato.
 Il mostro può avvelenare i nemici{315}quando viene attaccato.
 Il mostro può paralizzare i nemici{315}quando viene attaccato.
-Il mostro potrà sempre fuggire{315}da una battaglia.
-Il mostro recupera alcuni PV ogni volta{315}che agisce in battaglia.
-Il mostro recupera alcuni PM ogni volta{315}che agisce in battaglia.
-Aumenta gli effetti delle magie curative{315}riducendo il consumo di PM.
-Aumenta gli effetti delle magie di tipo Fiamma{315}riducendo il consumo di PM.
-Aumenta gli effetti delle magie di tipo Bang{315}riducendo il consumo di PM.
-Aumenta gli effetti delle magie di tipo Vento{315}riducendo il consumo di PM.
-Aumenta gli effetti delle magie di tipo Gelo{315}riducendo il consumo di PM.
-Aumenta gli effetti delle magie di tipo Fulmine{315}riducendo il consumo di PM.
-Aumenta gli effetti delle magie di tipo Elektron{315}riducendo il consumo di PM.
-Aumenta la probabilità di mettere a segno un{315}colpo critico quando i PV sono bassissimi.
+Il mostro potrà sempre{315}fuggire da una battaglia.
+Il mostro recupera alcuni PV ogni{315}volta che agisce in battaglia.
+Il mostro recupera alcuni PM ogni{315}volta che agisce in battaglia.
+Aumenta gli effetti delle magie{315}curative riducendo il consumo di PM.
+Aumenta gli effetti delle magie di tipo{315}Fiamma riducendo il consumo di PM.
+Aumenta gli effetti delle magie{315}di tipo Bang riducendo il consumo di PM.
+Aumenta gli effetti delle magie{315}di tipo Vento riducendo il consumo di PM.
+Aumenta gli effetti delle magie{315}di tipo Gelo riducendo il consumo di PM.
+Aumenta gli effetti delle magie di tipo{315}Fulmine riducendo il consumo di PM.
+Aumenta gli effetti delle magie di tipo{315}Elektron riducendo il consumo di PM.
+Aumenta la probabilità di mettere{315}a segno un colpo critico{315}quando i PV sono bassissimi.
 Raddoppia la probabilità di sferrare{315}attacchi preventivi.
 Riduce il consumo di PM a 3/4.
 Riduce il consumo di PM a 1/2.
-Permette al mostro di equipaggiare ogni tipo{315}di arma.
+Permette al mostro di equipaggiare{315}ogni tipo di arma.
 Aumenta i danni inflitti da attacchi,{315}abilità e mosse.
-Gli attacchi colpiscono tutti i nemici e aumentano{315}i danni inflitti da abilità e mosse.
-Il mostro può sferrare più attacchi{315}di seguito.
-Il mostro può infliggere danni ingenti ai{315}mostri grandi.
-Il mostro può infliggere danni ingenti ai{315}mostri di taglia normale.
+Gli attacchi colpiscono{315}tutti i nemici e aumentano i danni{315}inflitti da abilità e mosse.
+Il mostro può sferrare{315}più attacchi di seguito.
+Il mostro può infliggere danni{315}ingenti ai mostri grandi.
+Il mostro può infliggere danni{315}ingenti ai mostri di taglia normale.
 Il mostro può paralizzare i nemici{315}quando attacca.
 Il mostro può avvelenare i nemici{315}quando attacca.
 Il mostro può confondere i nemici{315}quando attacca.
 Il mostro può addormentare i nemici{315}con un attacco andato a segno.
-Il mostro ha una piccola probabilità di{315}essere rianimato dopo essere morto.
-Il mostro può abbagliare e immobilizzare i nemici{315}all'inizio di una{315}battaglia.
-Il mostro può occasionalmente agitarsi{315}e non riuscire ad agire.
+Il mostro ha una piccola probabilità{315}di essere rianimato dopo essere morto.
+Il mostro può abbagliare e immobilizzare{315}i nemici all'inizio di una battaglia.
+Il mostro può occasionalmente{315}agitarsi e non riuscire ad agire.
 La Fortuna aumenta quando i PV sono bassi.
 La Fortuna diminuisce quando i PV sono alti.
-Può aumentare la tensione di tutti gli alleati{315}all'inizio di una battaglia.
+Può aumentare la tensione di tutti{315}gli alleati all'inizio di una battaglia.
 Quando la tensione di un nemico aumenta{315}in battaglia, la tensione di tutti i nemici{315}diminuirà automaticamente.
-Rimbalzo è sempre attivo e{315}non può essere rimosso.
-Contrattacco è sempre attivo e{315}non può essere rimosso.
-Gli attacchi mancano spesso il bersaglio, ma possono{315}mettere a segno colpi critici.
-Permette al mostro di sopravvivere a danni letali{315}con 1 PV.
-Il mostro di solito subisce più{315}danni, ma occasionalmente non ne subisce{315}affatto.
-Quando viene attaccato, il mostro può{315}reagire con un potente contrattacco.
-In battaglia, il mostro può{315}ridurre la tensione di tutti i nemici.
-La barra del reclutamento può aumentare quando{315}viene usata una prova di forza.
-I punti esperienza ricevuti dopo una battaglia{315}aumentano del 10%.{315}Se più mostri della squadra possiedono{315}questo tratto, la percentuale aumenta.
-Le monete d'oro ricevute dopo una{315}battaglia aumentano del 20%.{315}Se più mostri della squadra possiedono{315}questo tratto, la percentuale aumenta.
-Aumenta la probabilità di ricevere oggetti dopo{315}una battaglia.{315}Se più mostri della squadra{315}possiedono questo tratto, la probabilità{315}aumenta ulteriormente.
-Il mostro può occasionalmente addormentarsi{315}all'inizio della battaglia.
-Il mostro può occasionalmente confondersi{315}all'inizio della battaglia.
-Il mostro può occasionalmente aumentare la tensione{315}di tutti i nemici all'inizio della{315}battaglia.
-I PM diminuiscono gradualmente durante{315}la battaglia.
-Annulla i colpi critici e le magie critiche{315}dei nemici.
+Rimbalzo è sempre{315}attivo e non può essere rimosso.
+Contrattacco è sempre{315}attivo e non può essere rimosso.
+Gli attacchi mancano{315}spesso il bersaglio, ma possono{315}mettere a segno colpi critici.
+Permette al mostro di sopravvivere{315}a danni letali con 1 PV.
+Il mostro di solito subisce più danni, ma{315}occasionalmente non ne subisce affatto.
+Quando viene attaccato, il mostro{315}può reagire con un potente contrattacco.
+In battaglia, il mostro può ridurre{315}la tensione di tutti i nemici.
+La barra del reclutamento{315}può aumentare quando viene{315}usata una prova di forza.
+I punti esperienza ricevuti dopo{315}una battaglia aumentano del 10%. Se{315}più mostri della squadra possiedono{315}questo tratto, la percentuale aumenta.
+Le monete d'oro ricevute dopo{315}una battaglia aumentano del 20%. Se{315}più mostri della squadra possiedono{315}questo tratto, la percentuale aumenta.
+Aumenta la probabilità di ricevere{315}oggetti dopo una battaglia. Se più{315}mostri della squadra possiedono{315}questo tratto, la probabilità{315}aumenta ulteriormente.
+Il mostro può occasionalmente{315}addormentarsi all'inizio{315}della battaglia.
+Il mostro può occasionalmente{315}confondersi all'inizio della battaglia.
+Il mostro può occasionalmente{315}aumentare la tensione di tutti i nemici{315}all'inizio della battaglia.
+I PM diminuiscono gradualmente{315}durante la battaglia.
+Annulla i colpi critici e le magie{315}critiche dei nemici.
 Raddoppia il consumo di PM del mostro.
 Aumenta i danni subiti dal mostro.
-Quando è addormentato, il mostro può attaccare{315}tutti i nemici.
+Quando è addormentato, il mostro{315}può attaccare tutti i nemici.
 Quando è paralizzato, il mostro può{315}paralizzare i nemici che lo attaccano.
-Quando è confuso, il mostro può{315}attaccare chiunque a caso con un{315}colpo spietato.
+Quando è confuso, il mostro{315}può attaccare chiunque a caso{315}con un colpo spietato.
 Quando è ammaliato, il mostro{315}aumenta la propria tensione.
-Infligge danni ingenti ai mostri{315}di tipo Metallo.
-Può assorbire PM dai nemici{315}che attaccano il mostro.
+Infligge danni{315}ingenti ai mostri di tipo Metallo.
+Può assorbire PM dai{315}nemici che attaccano il mostro.
 Può assorbire PM dal nemico{315}che attacca il mostro.
-Può mandare nell'aldilà un nemico{315}che lo ha attaccato.
-Aumenta gli effetti delle magie di tipo Pyro{315}riducendo il consumo di PM.
-Il mostro può terrorizzare i nemici con uno{315}sguardo penetrante e immobilizzarli{315}all'inizio della battaglia.
-La presenza imponente del mostro{315}può immobilizzare i nemici all'inizio{315}della battaglia.
-Il mostro può intimidire i nemici e{315}immobilizzarli all'inizio della battaglia.
-Il mostro può diventare occasionalmente{315}eccessivamente timido e rifiutarsi di agire.
-Il mostro può occasionalmente rifiutarsi di{315}obbedire agli ordini e non agire.
-Il mostro eseguirà un'azione{315}una o due volte di seguito quando non{315}riceve ordini specifici.
-Il mostro eseguirà un'azione{315}da 1 a 3 volte di seguito quando non riceve{315}ordini specifici.
-La barra del reclutamento aumenterà{315}notevolmente quando viene usata una prova di{315}forza.
-I PV massimi possono aumentare o diminuire{315}in battaglia.
-I PM massimi possono aumentare o diminuire{315}in battaglia.
-L'Attacco può aumentare o diminuire{315}in battaglia.
-La Difesa può aumentare o diminuire{315}in battaglia.
-L'Agilità può aumentare o diminuire{315}in battaglia.
-L'Intelligenza può aumentare o diminuire{315}in battaglia.
-In battaglia i PV aumentano a 1,5 volte il massimo,{315}ma Attacco e Difesa vengono{315}entrambi ridotti a 1.
-In battaglia i PM aumentano a 1,5 volte il massimo,{315}ma Attacco e Intelligenza vengono{315}entrambi ridotti a 1.
-Può lanciare automaticamente Onda dirompente{315}durante le battaglie.
-Può lanciare automaticamente Onda di sollievo{315}durante le battaglie.
-L'unico tratto apprendibile del set di tratti{315}Cacciatalenti.{315}La barra del reclutamento aumenta molto{315}leggermente quando viene usata una prova di{315}forza.
-Riduce la resistenza dei nemici alla{315}magia di tipo Fiamma.{315}Non ha effetto sui nemici{315}immuni alla magia di tipo Fiamma.
-Riduce la resistenza dei nemici alla{315}magia di tipo Bang.{315}Non ha effetto sui nemici{315}immuni alla magia di tipo Bang.
-Riduce la resistenza dei nemici alla{315}magia di tipo Vento.{315}Non ha effetto sui nemici{315}immuni alla magia di tipo Vento.
-Riduce la resistenza dei nemici alla{315}magia di tipo Gelo.{315}Non ha effetto sui nemici{315}immuni alla magia di tipo Gelo.
-Riduce la resistenza dei nemici alla{315}magia di tipo Fulmine.{315}Non ha effetto sui nemici{315}immuni alla magia di tipo Fulmine.
-Riduce la resistenza dei nemici alla{315}magia di tipo Elektron.{315}Non ha effetto sui nemici{315}immuni alla magia di tipo Elektron.
-Riduce la resistenza dei nemici a{315}Abiliterator.{315}Non ha effetto sui nemici{315}immuni ad Abiliterator.
-Riduce la resistenza dei nemici a{315}Blade Blunter.{315}Non ha effetto sui nemici{315}immuni a Blade Blunter.
-Riduce la resistenza dei nemici al{315}Respiro di fuoco.{315}Non ha effetto sui nemici{315}immuni al Respiro di fuoco.
-Riduce la resistenza dei nemici al{315}Respiro di ghiaccio.{315}Non ha effetto sui nemici{315}immuni al Respiro di ghiaccio.
-Riduce la resistenza dei nemici alla{315}magia di tipo Morte rapida.{315}Non ha effetto sui nemici{315}immuni alla magia di tipo Morte rapida.
-Riduce la resistenza dei nemici alla{315}magia di tipo Illusyo.{315}Non ha effetto sui nemici{315}immuni alla magia di tipo Illusyo.
-Riduce la resistenza dei nemici al veleno.{315}Non ha effetto sui nemici{315}immuni al veleno.
-Riduce la resistenza dei nemici alle magie{315}Rubamagia.{315}Non ha effetto sui nemici{315}immuni a Rubamagia.
-Riduce la resistenza dei nemici alla{315}magia di tipo Contromagia.{315}Non ha effetto sui nemici{315}immuni alla magia di tipo Contromagia.
-Riduce la resistenza dei nemici a{315}Boccachiusa.{315}Non ha effetto sui nemici{315}immuni a Boccachiusa.
-Riduce la resistenza dei nemici a{315}Danza ipnotica.{315}Non ha effetto sui nemici{315}immuni a Danza ipnotica.
-Riduce la resistenza dei nemici alla{315}confusione.{315}Non ha effetto sui nemici{315}immuni alla confusione.
-Riduce la resistenza dei nemici alla{315}perdita di un turno.{315}Non ha effetto sui nemici{315}resistenti alla perdita di un turno.
-Riduce la resistenza dei nemici alla{315}paralisi.{315}Non ha effetto sui nemici{315}immuni alla paralisi.
-Riduce la resistenza dei nemici al{315}sonno.{315}Non ha effetto sui nemici{315}immuni al sonno.
-Riduce la resistenza dei nemici alla{315}magia di tipo Sag.{315}Non ha effetto sui nemici{315}immuni alla magia di tipo Sag.
-Riduce la resistenza dei nemici alla{315}magia di tipo Sap.{315}Non ha effetto sui nemici{315}immuni alla magia di tipo Sap.
-Riduce la resistenza dei nemici alla{315}magia di tipo Velocimeno.{315}Non ha effetto sui nemici{315}immuni alla magia di tipo Velocimeno.
-Riduce la resistenza dei nemici alla{315}magia di tipo Dim.{315}Non ha effetto sui nemici{315}immuni alla magia di tipo Dim.
-Riduce la resistenza dei nemici a{315}Magifragilis.{315}Non ha effetto sui nemici{315}immuni a Magifragilis.
-Riduce la resistenza dei nemici alla{315}magia di tipo Pyro.{315}Non ha effetto sui nemici{315}immuni alla magia di tipo Pyro.
-Riduce la resistenza dei nemici alla{315}magia di tipo Donk.{315}Non ha effetto sui nemici{315}immuni alla magia di tipo Donk.
-Riduce la resistenza dei nemici a tutte le{315}magie, abilità e alterazioni di stato.
-Agisce da 2 a 3 volte di seguito.{315}Le azioni rimanenti non vengono annullate{315}anche se vengono impartiti ordini.
-Agisce da 0 a 4 volte di seguito.{315}Le azioni rimanenti non vengono annullate{315}anche se vengono impartiti ordini.
+Può mandare nell'aldilà{315}un nemico che lo ha attaccato.
+Aumenta gli effetti delle magie{315}di tipo Pyro riducendo il consumo di PM.
+Il mostro può terrorizzare i nemici con{315}uno sguardo penetrante e immobilizzarli{315}all'inizio della battaglia.
+La presenza imponente del mostro{315}può immobilizzare i nemici{315}all'inizio della battaglia.
+Il mostro può intimidire{315}i nemici e immobilizzarli{315}all'inizio della battaglia.
+Il mostro può diventare{315}occasionalmente eccessivamente{315}timido e rifiutarsi di agire.
+Il mostro può occasionalmente rifiutarsi{315}di obbedire agli ordini e non agire.
+Il mostro eseguirà un'azione una o due{315}volte di seguito quando{315}non riceve ordini specifici.
+Il mostro eseguirà un'azione da 1 a 3{315}volte di seguito quando{315}non riceve ordini specifici.
+La barra del reclutamento{315}aumenterà notevolmente quando{315}viene usata una prova di forza.
+I PV massimi possono{315}aumentare o diminuire in battaglia.
+I PM massimi possono{315}aumentare o diminuire in battaglia.
+L'Attacco può aumentare{315}o diminuire in battaglia.
+La Difesa può aumentare{315}o diminuire in battaglia.
+L'Agilità può aumentare{315}o diminuire in battaglia.
+L'Intelligenza può aumentare{315}o diminuire in battaglia.
+In battaglia i PV aumentano a 1,5{315}volte il massimo, ma Attacco e Difesa{315}vengono entrambi ridotti a 1.
+In battaglia i PM aumentano a 1,5{315}volte il massimo, ma Attacco{315}e Intelligenza vengono{315}entrambi ridotti a 1.
+Può lanciare automaticamente{315}Onda dirompente durante le battaglie.
+Può lanciare automaticamente{315}Onda di sollievo durante le battaglie.
+L'unico tratto apprendibile del set{315}di tratti Cacciatalenti. La barra del{315}reclutamento aumenta molto leggermente{315}quando viene usata una prova di forza.
+Riduce la resistenza dei nemici alla{315}magia di tipo Fiamma. Non ha effetto sui{315}nemici immuni alla magia di tipo Fiamma.
+Riduce la resistenza dei nemici{315}alla magia di tipo Bang. Non ha effetto{315}sui nemici immuni alla magia di tipo Bang.
+Riduce la resistenza dei nemici alla{315}magia di tipo Vento. Non ha effetto sui{315}nemici immuni alla magia di tipo Vento.
+Riduce la resistenza dei nemici{315}alla magia di tipo Gelo. Non ha effetto{315}sui nemici immuni alla magia di tipo Gelo.
+Riduce la resistenza dei nemici alla{315}magia di tipo Fulmine. Non ha effetto sui{315}nemici immuni alla magia di tipo Fulmine.
+Riduce la resistenza dei nemici{315}alla magia di tipo Elektron.{315}Non ha effetto sui nemici{315}immuni alla magia di tipo Elektron.
+Riduce la resistenza dei nemici{315}a Abiliterator. Non ha effetto{315}sui nemici immuni ad Abiliterator.
+Riduce la resistenza dei nemici{315}a Blade Blunter. Non ha effetto{315}sui nemici immuni a Blade Blunter.
+Riduce la resistenza dei nemici{315}al Respiro di fuoco. Non ha effetto{315}sui nemici immuni al Respiro di fuoco.
+Riduce la resistenza dei nemici{315}al Respiro di ghiaccio. Non ha effetto{315}sui nemici immuni al Respiro di ghiaccio.
+Riduce la resistenza dei nemici{315}alla magia di tipo Morte rapida.{315}Non ha effetto sui nemici{315}immuni alla magia di tipo Morte rapida.
+Riduce la resistenza dei nemici alla{315}magia di tipo Illusyo. Non ha effetto sui{315}nemici immuni alla magia di tipo Illusyo.
+Riduce la resistenza dei nemici{315}al veleno. Non ha effetto{315}sui nemici immuni al veleno.
+Riduce la resistenza dei nemici{315}alle magie Rubamagia. Non ha effetto{315}sui nemici immuni a Rubamagia.
+Riduce la resistenza dei nemici{315}alla magia di tipo Contromagia.{315}Non ha effetto sui nemici{315}immuni alla magia di tipo Contromagia.
+Riduce la resistenza dei nemici{315}a Boccachiusa. Non ha effetto{315}sui nemici immuni a Boccachiusa.
+Riduce la resistenza dei nemici{315}a Danza ipnotica. Non ha effetto{315}sui nemici immuni a Danza ipnotica.
+Riduce la resistenza dei nemici{315}alla confusione. Non ha effetto{315}sui nemici immuni alla confusione.
+Riduce la resistenza dei nemici{315}alla perdita di un turno.{315}Non ha effetto sui nemici{315}resistenti alla perdita di un turno.
+Riduce la resistenza dei nemici{315}alla paralisi. Non ha effetto{315}sui nemici immuni alla paralisi.
+Riduce la resistenza dei nemici{315}al sonno. Non ha effetto{315}sui nemici immuni al sonno.
+Riduce la resistenza dei nemici{315}alla magia di tipo Sag. Non ha effetto{315}sui nemici immuni alla magia di tipo Sag.
+Riduce la resistenza dei nemici{315}alla magia di tipo Sap. Non ha effetto{315}sui nemici immuni alla magia di tipo Sap.
+Riduce la resistenza dei nemici{315}alla magia di tipo Velocimeno.{315}Non ha effetto sui nemici{315}immuni alla magia di tipo Velocimeno.
+Riduce la resistenza dei nemici{315}alla magia di tipo Dim. Non ha effetto{315}sui nemici immuni alla magia di tipo Dim.
+Riduce la resistenza dei nemici{315}a Magifragilis. Non ha effetto{315}sui nemici immuni a Magifragilis.
+Riduce la resistenza dei nemici{315}alla magia di tipo Pyro. Non ha effetto{315}sui nemici immuni alla magia di tipo Pyro.
+Riduce la resistenza dei nemici{315}alla magia di tipo Donk. Non ha effetto{315}sui nemici immuni alla magia di tipo Donk.
+Riduce la resistenza dei nemici a tutte{315}le magie, abilità e alterazioni di stato.
+Agisce da 2 a 3 volte di seguito. Le{315}azioni rimanenti non vengono annullate{315}anche se vengono impartiti ordini.
+Agisce da 0 a 4 volte di seguito. Le{315}azioni rimanenti non vengono annullate{315}anche se vengono impartiti ordini.
 I danni subiti dagli attacchi nemici{315}sono dimezzati, ma il consumo di PM{315}è raddoppiato.
-I danni subiti dagli attacchi nemici{315}sono ridotti a un quarto, ma il consumo di PM{315}è quadruplicato.
+I danni subiti dagli attacchi{315}nemici sono ridotti a un quarto,{315}ma il consumo di PM è quadruplicato.
 All'inizio della battaglia,{315}può lanciare Ooomph su se stesso.
-All'inizio della battaglia,{315}può lanciare Poli superdifesa su se stesso.
-All'inizio della battaglia,{315}può lanciare Accelerazione su se stesso.
+All'inizio della battaglia, può{315}lanciare Poli superdifesa su se stesso.
+All'inizio della battaglia, può{315}lanciare Accelerazione su se stesso.
 All'inizio della battaglia,{315}può aumentare la propria tensione.
 All'inizio della battaglia,{315}può lanciare Malocchio persistente.
 I PV massimi aumentano di 5.
@@ -205,65 +205,63 @@ L'Intelligenza aumenta di 30.
 All'inizio della battaglia,{315}può lanciare Intellygo su se stesso.
 All'inizio della battaglia,{315}può lanciare Ventofresh.
 All'inizio della battaglia,{315}può lanciare Bloccamagia.
-Il mostro può lanciare Intellygo su se stesso{315}durante la battaglia.
-Il mostro può lanciare Ventofresh{315}durante la battaglia.
-Il mostro può lanciare Bloccamagia{315}durante la battaglia.
-Il mostro può aumentare la propria tensione{315}fino ad Alta tensione durante la battaglia.
-Il mostro può lanciare Barriera magica{315}durante la battaglia.
-Il mostro può lanciare Nebbiamica{315}durante la battaglia.
+Il mostro può lanciare Intellygo su se{315}stesso durante la battaglia.
+Il mostro può lanciare{315}Ventofresh durante la battaglia.
+Il mostro può lanciare{315}Bloccamagia durante la battaglia.
+Il mostro può aumentare la propria{315}tensione fino ad Alta tensione{315}durante la battaglia.
+Il mostro può lanciare Barriera{315}magica durante la battaglia.
+Il mostro può lanciare{315}Nebbiamica durante la battaglia.
 
 
 
 
-Aumenta la resistenza alla magia di tipo Fiamma{315}.
-Aumenta la resistenza alla magia di tipo Bang{315}.
-Aumenta la resistenza alla magia di tipo Vento{315}.
-Aumenta la resistenza alla magia di tipo Gelo{315}.
-Aumenta la resistenza alla magia di tipo Fulmine{315}.
-Aumenta la resistenza alla magia di tipo Elektron{315}.
+Aumenta la resistenza{315}alla magia di tipo Fiamma.
+Aumenta la resistenza{315}alla magia di tipo Bang.
+Aumenta la resistenza{315}alla magia di tipo Vento.
+Aumenta la resistenza{315}alla magia di tipo Gelo.
+Aumenta la resistenza{315}alla magia di tipo Fulmine.
+Aumenta la resistenza{315}alla magia di tipo Elektron.
 Aumenta la resistenza ad Abiliterator.
-Aumenta la resistenza alla magia di tipo Pyro{315}.
+Aumenta la resistenza{315}alla magia di tipo Pyro.
 Aumenta la resistenza a Blade Blunter.
-Aumenta la resistenza alla magia di tipo Donk{315}.
+Aumenta la resistenza{315}alla magia di tipo Donk.
 Aumenta la resistenza al Respiro di fuoco.
 Aumenta la resistenza al Respiro di ghiaccio.
-Aumenta la resistenza alla magia di tipo Morte rapida{315}.
-Aumenta la resistenza alla magia di tipo Illusyo{315}.
+Aumenta la resistenza{315}alla magia di tipo Morte rapida.
+Aumenta la resistenza{315}alla magia di tipo Illusyo.
 Aumenta la resistenza al veleno.
 Aumenta la resistenza a Rubamagia.
-Aumenta la resistenza alla magia di tipo Contromagia{315}.
+Aumenta la resistenza{315}alla magia di tipo Contromagia.
 Aumenta la resistenza a Boccachiusa.
 Aumenta la resistenza a Danza ipnotica.
 Aumenta la resistenza alla confusione.
 Riduce la probabilità di perdere un turno.
 Aumenta la resistenza alla paralisi.
 Aumenta la resistenza al sonno.
-Aumenta la resistenza alla magia di tipo Sag{315}.
-Aumenta la resistenza alla magia di tipo Sap{315}.
+Aumenta la resistenza{315}alla magia di tipo Sag.
+Aumenta la resistenza{315}alla magia di tipo Sap.
 Aumenta la resistenza a Velocimeno.
-Aumenta la resistenza alla magia di tipo Dim{315}.
-Aumenta la resistenza a Magifragilis{315}e Aura mostruosa.
-I danni inflitti da attacchi{315}e abilità aumentano.{315}Inoltre, agisce da 2 a 3 volte{315}di seguito e le azioni rimanenti{315}non vengono annullate anche se vengono impartiti ordini.
-I danni inflitti da attacchi{315}e abilità aumentano.{315}Inoltre, agisce due volte{315}di seguito e le azioni rimanenti{315}non vengono annullate anche se vengono impartiti ordini.
-I danni inflitti da attacchi{315}e abilità aumentano.{315}Inoltre, agisce da 1 a 3 volte{315}di seguito e le azioni rimanenti{315}non vengono annullate anche se vengono impartiti ordini.
-I danni inflitti da attacchi{315}e abilità aumentano.{315}Inoltre, agisce da 0 a 4 volte{315}di seguito e le azioni rimanenti{315}non vengono annullate anche se vengono impartiti ordini.
-I danni inflitti da attacchi{315}e abilità aumentano.{315}Inoltre, agisce da 1 a 2 volte{315}di seguito e le azioni rimanenti{315}non vengono annullate anche se vengono impartiti ordini.
-Raddoppia la probabilità di colpo critico delle magie{315}.
-Quando è in fin di vita, aumenta la probabilità{315}di colpo critico delle magie.
+Aumenta la resistenza{315}alla magia di tipo Dim.
+Aumenta la resistenza{315}a Magifragilis e Aura mostruosa.
+I danni inflitti da attacchi e abilità{315}aumentano. Inoltre, agisce da 2 a 3{315}volte di seguito e le azioni{315}rimanenti non vengono annullate{315}anche se vengono impartiti ordini.
+I danni inflitti da attacchi e abilità{315}aumentano. Inoltre, agisce{315}due volte di seguito e le azioni{315}rimanenti non vengono annullate{315}anche se vengono impartiti ordini.
+I danni inflitti da attacchi e abilità{315}aumentano. Inoltre, agisce da 1 a 3{315}volte di seguito e le azioni{315}rimanenti non vengono annullate{315}anche se vengono impartiti ordini.
+I danni inflitti da attacchi e abilità{315}aumentano. Inoltre, agisce da 0 a 4{315}volte di seguito e le azioni{315}rimanenti non vengono annullate{315}anche se vengono impartiti ordini.
+I danni inflitti da attacchi e abilità{315}aumentano. Inoltre, agisce da 1 a 2{315}volte di seguito e le azioni{315}rimanenti non vengono annullate{315}anche se vengono impartiti ordini.
+Raddoppia la probabilità di colpo{315}critico delle magie.
+Quando è in fin di vita, aumenta la{315}probabilità di colpo critico delle magie.
 All'inizio della battaglia,{315}può lanciare Nebbia degli inferi.
 All'inizio della battaglia,{315}può lanciare Blocca-sigilli.
-Diventa un attaccante a bersaglio multiplo{315}e aumenta i danni inflitti dalle abilità.{315}Inoltre, agisce da 2 a 3 volte{315}di seguito e le azioni rimanenti{315}non vengono annullate anche se vengono impartiti ordini.
-Diventa un attaccante a bersaglio multiplo{315}e aumenta i danni inflitti dalle abilità.{315}Inoltre, agisce due volte{315}di seguito e le azioni rimanenti{315}non vengono annullate anche se vengono impartiti ordini.
-Diventa un attaccante a bersaglio multiplo{315}e aumenta i danni inflitti dalle abilità.{315}Inoltre, agisce da 1 a 3 volte{315}di seguito e le azioni rimanenti{315}non vengono annullate anche se vengono impartiti ordini.
-Diventa un attaccante a bersaglio multiplo{315}e aumenta i danni inflitti dalle abilità.{315}Inoltre, agisce da 0 a 4 volte{315}di seguito e le azioni rimanenti{315}non vengono annullate anche se vengono impartiti ordini.
-Diventa un attaccante a bersaglio multiplo{315}e aumenta i danni inflitti dalle abilità.{315}Inoltre, agisce da 1 a 2 volte{315}di seguito e le azioni rimanenti{315}non vengono annullate anche se vengono impartiti ordini.
-Il mostro può lanciare Ooomph{315}su se stesso durante la battaglia.
+Diventa un attaccante a bersaglio{315}multiplo e aumenta i danni inflitti{315}dalle abilità. Inoltre, agisce da 2 a 3{315}volte di seguito e le azioni{315}rimanenti non vengono annullate{315}anche se vengono impartiti ordini.
+Diventa un attaccante a bersaglio{315}multiplo e aumenta i danni{315}inflitti dalle abilità. Inoltre, agisce{315}due volte di seguito e le azioni{315}rimanenti non vengono annullate{315}anche se vengono impartiti ordini.
+Diventa un attaccante a bersaglio{315}multiplo e aumenta i danni inflitti{315}dalle abilità. Inoltre, agisce da 1 a 3{315}volte di seguito e le azioni{315}rimanenti non vengono annullate{315}anche se vengono impartiti ordini.
+Diventa un attaccante a bersaglio{315}multiplo e aumenta i danni inflitti{315}dalle abilità. Inoltre, agisce da 0 a 4{315}volte di seguito e le azioni{315}rimanenti non vengono annullate{315}anche se vengono impartiti ordini.
+Diventa un attaccante a bersaglio{315}multiplo e aumenta i danni inflitti{315}dalle abilità. Inoltre, agisce da 1 a 2{315}volte di seguito e le azioni{315}rimanenti non vengono annullate{315}anche se vengono impartiti ordini.
+Il mostro può lanciare Ooomph su se{315}stesso durante la battaglia.
 Il mostro può lanciare Poli superdifesa{315}su se stesso durante la battaglia.
 Il mostro può lanciare Accelerazione{315}su se stesso durante la battaglia.
 Il mostro può aumentare la propria{315}tensione durante la battaglia.
-Il mostro può lanciare Malocchio persistente{315}durante la battaglia.
-Il mostro può lanciare Nebbia degli inferi{315}durante la battaglia.
-Il mostro può lanciare Blocca-sigilli{315}durante la battaglia.
-Gli effetti di tipo Donk sono potenziati{315}e il costo in PM è ridotto.
-
-
+Il mostro può lanciare{315}Malocchio persistente{315}durante la battaglia.
+Il mostro può lanciare{315}Nebbia degli inferi durante la battaglia.
+Il mostro può lanciare{315}Blocca-sigilli durante la battaglia.
+Gli effetti di tipo Donk sono{315}potenziati e il costo in PM è ridotto.

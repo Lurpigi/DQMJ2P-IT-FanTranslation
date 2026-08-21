@@ -1413,7 +1413,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} può ora usare \"Guarisci tutti\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Quest'incantesimo di guarigione permette a {NAME} di curare tutti i{WAIT}{CLEAR}membri della squadra."
+SAY "{COLOR=2}Quest'incantesimo di guarigione permette a {NAME} di curare tutti i membri della squadra."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1459,7 +1459,7 @@ SYS_44 0x8
 SAY "{COLOR=2}La tecnica funzionerà solo se il portale è già aperto."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Quindi, è bene che {NAME} esamini subito i portali Velotrans situati{WAIT}{CLEAR}sull'isola."
+SAY "{COLOR=2}Quindi, è bene che {NAME} esamini subito i portali Velotrans{WAIT}{CLEAR}situati sull'isola."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1480,7 +1480,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha ottenuto \"Curamostri\"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa bevanda fa recuperare PV e PM a tutti i membri della squadra di {NAME}{WAIT}{CLEAR}."
+SAY "{COLOR=2}Questa bevanda fa recuperare PV e PM a tutti i membri della squadra di {NAME}."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}La bottiglia contiene tre dosi e può essere riempita di nuovo tornando alla nave."
@@ -5198,7 +5198,7 @@ STORE 0x18 0x0 0x42d20000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42d20000 0x2 0x0
 JMP_IFNOT 0xc L_14664
 SYS_42 0x8 
-SAY "{VOICE=07}Okay, è davvero fantastico. Il Vero Torneo Monster Scout sta per iniziare sul{WAIT}{CLEAR}serio!"
+SAY "{VOICE=07}Okay, è davvero fantastico. Il Vero Torneo Monster Scout sta per iniziare sul serio!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5447,7 +5447,7 @@ SYS_44 0x8
 SAY "{VOICE=07}Lo stesso vale per cristalli e pianticelle sull'isola. Ricrescono sempre."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Quindi ricordati di scavare in cerca di nuovi oggetti ogni volta che torni in un{WAIT}{CLEAR}luogo."
+SAY "{VOICE=07}Quindi ricordati di scavare in cerca di nuovi oggetti ogni volta che torni in un luogo."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Gli abitanti dell'isola conoscono bene questo segreto... e ora lo sai anche tu!"
@@ -5650,7 +5650,7 @@ SYS_42 0x8
 SAY "{COLOR=2}'AVVISO URGENTE: il Vero Torneo Monster Scout sta per iniziare!'"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}\"La partecipazione è consentita esclusivamente ale squadre di alto{WAIT}{CLEAR}livello.\""
+SAY "{COLOR=2}\"La partecipazione è consentita esclusivamente ale squadre di{WAIT}{CLEAR}alto livello.\""
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5677,10 +5677,10 @@ L_1673c:
 JMP_ABS 0xc L_16748
 L_16748:
 SYS_42 0x8 
-SAY "{COLOR=2}'{E321}{NAME} è diventato il campione del Vero Torneo Monster{WAIT}{CLEAR}Scout!'"
+SAY "{COLOR=2}'{E321}{NAME} è diventato il campione del Vero Torneo Monster Scout!'"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}'Il suo nome risuonerà per tutte le epoche... '...l'unico e solo campione del{WAIT}{CLEAR}Vero Torneo Monster Scout!'"
+SAY "{COLOR=2}'Il suo nome risuonerà per tutte le epoche... '...l'unico e solo campione del Vero Torneo{WAIT}{CLEAR}Monster Scout!'"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5735,7 +5735,7 @@ L_16af0:
 JMP_ABS 0xc L_16afc
 L_16afc:
 SYS_42 0x8 
-SAY "{COLOR=2}'Le iscrizioni al Torneo Monster Scout sono aperte! 'Per informazioni,{WAIT}{CLEAR}rivolgersi a Don Mole, presidente.'"
+SAY "{COLOR=2}'Le iscrizioni al Torneo Monster Scout sono aperte! 'Per informazioni, rivolgersi a Don{WAIT}{CLEAR}Mole, presidente.'"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

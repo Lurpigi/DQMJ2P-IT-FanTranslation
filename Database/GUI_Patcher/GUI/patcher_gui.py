@@ -29,7 +29,7 @@ def app_root():
 
 
 ROOT = app_root()
-PATCHER_VERSION = "1.2.1-it.3"
+PATCHER_VERSION = "1.2.1-it.5"
 
 
 def open_url(url):

@@ -81,7 +81,7 @@ Sfida in casa precedente
 Sfida fuori casa precedente
 Controlla dati utente
 Imposta dati utente
-Cambia mostri
+Cambia i mostri
 Forma squadra
 Cambia tattiche
 Registra nome squadra

@@ -1345,7 +1345,7 @@ STORE 0x18 0x0 0x426c0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x426c0000 0x2 0x0
 JMP_IFNOT 0xc L_4c7c
 SYS_42 0x8 
-SAY "{COLOR=2}La curiosità può uccidere i gatti, ma non gli {1F29}out! Esamina queste strane rocce{WAIT}{CLEAR}per imparare tecniche e comandi nuovi."
+SAY "{COLOR=2}La curiosità può uccidere i gatti, ma non gli {1F29}out! Esamina queste strane rocce per{WAIT}{CLEAR}imparare tecniche e comandi nuovi."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}Le "Pietre dello {1F29}out" sono indicate sulla mappa da icone azzurre."
@@ -1384,7 +1384,7 @@ SYS_A5 0x8
 SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un attimo in qualsiasi area{WAIT}{CLEAR}già visitata."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Fatte salve poche eccezioni, può essere utilizzata ovunque... Persino nelle{WAIT}{CLEAR}grotte!"
+SAY "{COLOR=2}Fatte salve poche eccezioni, può essere utilizzata ovunque... Persino nelle grotte!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1421,7 +1421,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} può ora usare "Guarisci tutti"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Quest'incantesimo di guarigione permette a {NAME} di curare tutti i{WAIT}{CLEAR}membri della squadra."
+SAY "{COLOR=2}Quest'incantesimo di guarigione permette a {NAME} di curare tutti i membri della squadra."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1467,7 +1467,7 @@ SYS_44 0x8
 SAY "{COLOR=2}La tecnica funzionerà solo se il portale è già aperto."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Quindi, è bene che {NAME} esamini subito i portali Velotrans situati{WAIT}{CLEAR}sull'isola."
+SAY "{COLOR=2}Quindi, è bene che {NAME} esamini subito i portali Velotrans{WAIT}{CLEAR}situati sull'isola."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1488,7 +1488,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha ottenuto "Curamostri"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa bevanda fa recuperare PV e PM a tutti i membri della squadra di {NAME}{WAIT}{CLEAR}."
+SAY "{COLOR=2}Questa bevanda fa recuperare PV e PM a tutti i membri della squadra di {NAME}."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}La bottiglia contiene tre dosi e può essere riempita di nuovo tornando alla nave."
@@ -3851,7 +3851,7 @@ SYS_42 0x8
 SETNAME "Jim Jenius"
 CMP_LE 0x18 0x0 0x42b80000 0x2 0x40400000
 JMP_IFNOT 0xc L_f5b4
-SAY "{VOICE=03}Le sfide da Monster Scout sono davvero divertenti. Grazie per aver accontentato{WAIT}{CLEAR}un vecchio come me."
+SAY "{VOICE=03}Le sfide da Monster Scout sono davvero divertenti. Grazie per aver accontentato un{WAIT}{CLEAR}vecchio come me."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}Ora voglio un mostro forte, quindi andrò in giro a cercarne uno."
@@ -3866,7 +3866,7 @@ JMP_REL L_f5bc
 L_f5bc:
 JMP_ABS 0xc L_f5c8
 L_f5c8:
-SAY "{VOICE=03}Le sfide da Monster Scout sono davvero divertenti. Grazie per aver accontentato{WAIT}{CLEAR}un vecchio come me."
+SAY "{VOICE=03}Le sfide da Monster Scout sono davvero divertenti. Grazie per aver accontentato un{WAIT}{CLEAR}vecchio come me."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}Ora credo sia arrivato il momento di svegliarmi, dopo tutte queste sfide."
@@ -4771,7 +4771,7 @@ SAY "{VOICE=08}Prima ti spiegherò semplicemente cos'è l'Arena Scout Suprema."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 L_128d8:
-SAY "{VOICE=08}È un'arena da sogno per affrontare Scout di alto livello nei Campionati{WAIT}{CLEAR}mondiali dei mostri."
+SAY "{VOICE=08}È un'arena da sogno per affrontare Scout di alto livello nei Campionati mondiali{WAIT}{CLEAR}dei mostri."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}Se vuoi partecipare, devi solo venire qui."
@@ -5049,7 +5049,7 @@ SYS_3E 0x8
 SYS_03 0x8 
 WAIT 0x10 0x2 0x41700000
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} è stato avvolto dal pelo soffice e ha dimenticato per un{WAIT}{CLEAR}attimo i suoi problemi."
+SAY "{COLOR=2}{NAME} è stato avvolto dal pelo soffice e ha dimenticato per un attimo i{WAIT}{CLEAR}suoi problemi."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5189,7 +5189,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41700000
 SYS_02 0x8 
 SYS_42 0x8 
 SETNAME "Re Sanguini"
-SAY "{VOICE=03}Dovresti dire a tutti gli abitanti del villaggio Pipit che hai salvato anche{WAIT}{CLEAR}l'isola."
+SAY "{VOICE=03}Dovresti dire a tutti gli abitanti del villaggio Pipit che hai salvato{WAIT}{CLEAR}anche l'isola."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}Io continuerò a preparare tutto mentre lo fai."
@@ -5343,7 +5343,7 @@ SYS_42 0x8
 SAY "{VOICE=03}Barriera rimbalzo ATTIVA! Barriera contrattacco ATTIVA!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Reclutatore {NAME}, AGGANCIO EFFETTUATO! Avanti, Galaxy Ship Slime{WAIT}{CLEAR}Blaster!"
+SAY "{VOICE=03}Reclutatore {NAME}, AGGANCIO EFFETTUATO! Avanti, Galaxy Ship{WAIT}{CLEAR}Slime Blaster!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5942,10 +5942,10 @@ SETNAME "Sanguini"
 SAY "{VOICE=07}Benvenuto nella Battaglia infinita! Ora te la spiego subito."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Continuerai ad affrontare i nemici uno dopo l'altro in questa sfida di{WAIT}{CLEAR}sopravvivenza."
+SAY "{VOICE=07}Continuerai ad affrontare i nemici uno dopo l'altro in questa sfida di sopravvivenza."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I nemici diventeranno più forti e continuerai a combattere finché non{WAIT}{CLEAR}perderai!"
+SAY "{VOICE=07}I nemici diventeranno più forti e continuerai a combattere finché non perderai!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Puoi cambiare e riordinare i mostri liberamente, ma non puoi reclutarli né{WAIT}{CLEAR}usare oggetti."
@@ -6054,7 +6054,7 @@ JMP_IFNOT 0xc L_18414
 SAY "{VOICE=07}La Battaglia infinita è una sfida di sopravvivenza in cui affronti i nemici uno{WAIT}{CLEAR}dopo l'altro."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I nemici diventeranno più forti e continuerai a combattere finché non{WAIT}{CLEAR}perderai!"
+SAY "{VOICE=07}I nemici diventeranno più forti e continuerai a combattere finché non perderai!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Puoi cambiare e riordinare i mostri liberamente, ma non puoi reclutarli né{WAIT}{CLEAR}usare oggetti."
@@ -6267,7 +6267,7 @@ JMP_ABS 0xc L_18f34
 L_18f34:
 SYS_42 0x8 
 SETNAME "Sanguini"
-SAY "{VOICE=07}La Battaglia infinita si può affrontare una volta al giorno. Torna domani,{WAIT}{CLEAR}d'accordo?"
+SAY "{VOICE=07}La Battaglia infinita si può affrontare una volta al giorno. Torna domani, d'accordo?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

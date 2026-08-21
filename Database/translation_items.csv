@@ -1,78 +1,78 @@
 id,english,italian
-1,Herb,Erba medicinale
-2,Strong herb,Medicina forte
-3,Special Herb,Medicina speciale
-4,Strong Special herb,Medicina multipla
+1,Herb,erba medicinale
+2,Strong herb,medicina potente
+3,Special Herb,medicina speciale
+4,Strong Special herb,multimedicina
 5,Yggdrasil Dew,rugiada di Ygdrasil
-6,Magic Water,Elisir magico
-7,Sage Elixir,Elisir del saggio
+6,Magic Water,elisir magico
+7,Sage Elixir,elisir di saggezza
 8,Elfin Elixir,elisir degli elfi
 9,Yggdrasil leaf,foglia di Ygdrasil
-10,Antidote,Erba antidoto
+10,Antidote,erba per antidoti
 11,Moonwort Bulb,bulbo di erbaluna
 12,Panacea,Panacea
-13,Fire Staff,Polvere antimagica
-14,Attack Boost,Polvere di Potenza
-15,Team Def Upper,Moneta del mago
-16,Team Wis Upper,Scellino del mago
-17,Wind Braker,Insulade
-18,I18,Insulade gigante
-19,Skill Seed,Seme dell'abilità
-20,HP Seed,Seme della vita
-21,MP Seed,Seme della magia
-22,Atk Seed,Seme della forza
-23,Def Seed,Seme della difesa
-24,Agi Seed,Seme dell'agilità
-25,Wis Seed,Seme della saggezza
-26,Dung,Letame mostruoso
+13,Fire Staff,Sortilmina
+14,Attack Boost,medicina Ooomph
+15,Team Def Upper,moneta del mago
+16,Team Wis Upper,scellino del mago
+17,Wind Braker,Isolade
+18,I18,Isolade Maxi
+19,Skill Seed,seme dell'abilità
+20,HP Seed,seme della vita
+21,MP Seed,seme della magia
+22,Atk Seed,seme della potenza
+23,Def Seed,seme della difesa
+24,Agi Seed,seme dell'agilità
+25,Wis Seed,seme della saggezza
+26,Dung,sterco di mostro
 27,Level upper,Seme della speranza
-28,Gold Card,Carta fedeltà
-29,Gold Lump,Pepita d'oro
-30,{231} Scent,'Attrattore positivo'
-31,{232} Scent,'Pensa negativo'
-32,{233} Scent,'Terreno neutrale'
-33,Sagestone,Essenza di Amor Seco
+28,Gold Card,tessera Pagomeno
+29,Gold Lump,pepita d'oro
+30,{231} Scent,"""Pensiero Positivo"""
+31,{232} Scent,"""Unione e Negatività"""
+32,{233} Scent,"""Zona Neutrale"""
+33,Sagestone,essenza Pluvis
 42,Metal Ticket,biglietto metallico
-45,Beef Jerky,Bocconcini per mostri
-46,Sobering Slap,Sali odorosi
-48,King`s Proof,Libro di Lupicche
-49,Queen`s Proof,Libro di Cuordifalco
-50,Ace`s Proof,Libro di Quadrago
-51,Jack`s Proof,Libro di Fiorango
-52,Warrior`s Proof,Pergamena del Guerriero
-53,Magic`s Proof,Pergamena del Mago
-54,Priest`s Proof,Pergamena del Sacerdote
-55,Monk`s Proof,Pergamena dell'Artista marziale
-56,Sage`s Proof,Pergamena del Saggio
-57,Thief`s Proof,Pergamena del Ladro
-58,Metal Stone,Palla da flipper
-59,Stone Bomb,Frammento di Esplo-sasso
-61,Doubtful medicine,Medicina d'errore
+45,Beef Jerky,deliziesca
+46,Sobering Slap,sali magici
+48,King`s Proof,libro di Lupicche
+49,Queen`s Proof,libro di Cuordifalco
+50,Ace`s Proof,libro di Quadrago
+51,Jack`s Proof,libro di Fiorango
+52,Warrior`s Proof,testo del guerriero
+53,Magic`s Proof,testo del mago
+54,Priest`s Proof,testo del sacerdote
+55,Monk`s Proof,testo del lottatore
+56,Sage`s Proof,testo del saggio
+57,Thief`s Proof,testo del ladro
+58,Metal Stone,Dannosfera
+59,Stone Bomb,pezzo di Esplo-sasso
+61,Doubtful medicine,Malicina
 66,Timbrel of tension,sonaglio di carica
-67,Attack Downer,Polvere di Sag
-68,Defense Downer,Sapperine
-69,Agility Downer,Deceleratonic
-70,Wisdom Downer,Dimium
-71,Defense Upper,Bufferine
-72,Agility Upper,Acceleratonic
-73,Wisdom Upper,Pingium
-74,HP Recovery Proof,'Tocco curativo'
-75,MP Recovery Proof,'Stregoneria segreta'
-76,Atk Proof,'Forza sulla mente'
-77,Def Proof,'Abbassati e copriti'
-78,Agi Proof,'La via rapida'
-79,Wis Proof,'Sapere è potere'
-80,Mysterious Plate,Medaglia misteriosa
-81,Ruins Key,Chiave del Mausoleum
+67,Attack Downer,Depotens
+68,Defense Downer,Debolina
+69,Agility Downer,Deceleratonico
+70,Wisdom Downer,Stupidamina
+71,Defense Upper,Defendix
+72,Agility Upper,Acceleratonico
+73,Wisdom Upper,Intellex
+74,HP Recovery Proof,"""Teoria della cura"""
+75,MP Recovery Proof,"""Teoria stregonesca"""
+76,Atk Proof,"""Teoria d'attacco"""
+77,Def Proof,"""Teoria difensiva"""
+78,Agi Proof,"""Teoria dell'agilità"""
+79,Wis Proof,"""Teoria saggia"""
+80,Mysterious Plate,medaglia misteriosa
+81,Ruins Key,chiave del Mausoleum
 82,Scout ring,anello da Scout
-83,I83 Slime,Lettera bagnata
-84,Entire Recovery Proof,'Guarigione alla testa'
-93,Pebble,Ciottolo grazioso
-94,Bronze Lump,Frammento di bronzo
-95,Silver Lump,Scheggia d'argento
-107,Parts,Parti meccaniche
-109,Warrior`s Proof,Medaglia al merito
-111,Mud Heart,anima del pazzo
+83,I83 Slime,lettera appiccicosa
+84,Entire Recovery Proof,"""Prontuario medico"""
+93,Pebble,ciottolo pregiato
+94,Bronze Lump,frammento di bronzo
+95,Silver Lump,pepita d'argento
+107,Parts,frammento meccanico
+109,Warrior`s Proof,Medaglia del Valore
+111,Mud Heart,Anima del pazzo
 112,Copper Sword,spada di rame
 113,Divine Dagger,daga divina
 114,Rapier,stocco
@@ -83,11 +83,11 @@ id,english,italian
 119,Silver Broadsword,spada d'argento
 120,Zombiesblight,lama dello Zombie
 121,Dragonsblight,lama del drago
-122,Giant`s Sword,Spada del gigante
+122,Giant`s Sword,spada del gigante
 123,Zombie Slayer,Stramazzazombie
 124,Dragon Slayer,Stramazzadraghi
 125,Lost Katana,katana perduta
-126,Metal King`s Sword,Spada del Re Metalslime
+126,Metal King`s Sword,spada regale
 127,Iron Lance,lancia di ferro
 128,Pitchfork,forcone della natura
 129,Sacred Spear,giavellotto celeste
@@ -99,24 +99,24 @@ id,english,italian
 135,Hero Spear,lancia dell'eroe
 136,Gae Bolg,Gáe Bolg
 137,Stone Axe,ascia di pietra
-138,Woodcutter`s Axe,Ascia del boscaiolo
+138,Woodcutter`s Axe,ascia da taglialegna
 139,Iron Axe,ascia di ferro
-140,Woodman`s Axe,Ascia del taglialegna
-141,Headman`s Axe,Ascia del boia
-142,Battle Axe,Ascia da battaglia
-143,Forester`s Axe,Ascia del guardaboschi
-144,King`s Axe,Ascia del re
-145,Ranger`s Axe ,Ascia del ranger
-146,Executioner`s Axe,Ascia del giustiziere
+140,Woodman`s Axe,accetta del boscaiolo
+141,Headman`s Axe,ascia di Hela
+142,Battle Axe,ascia da battaglia
+143,Forester`s Axe,Distruttrice oscura
+144,King`s Axe,ascia del re
+145,Ranger`s Axe ,ascia vulcanica
+146,Executioner`s Axe,lama del boia
 147,Oaken Club,clava
-148,Slegehammer,Martello di melma
+148,Slegehammer,maglio gigante
 149,Iron Hammer,testa di ferro
 150,War Hammer,martello da guerra
 151,Miracle Mallet,maglio miracoloso
 152,Giant Wrench,chiave gigante
-153,Atlas Hammer,Martello da fabbro
-154,Golden Mace,Mazza del predone
-155,Warlord`s Hammer,Martello del condottiero
+153,Atlas Hammer,martello
+154,Golden Mace,mazza del predatore
+155,Warlord`s Hammer,megamartello
 156,Miracle Mace,mazza miracolosa
 157,Leather Whip,frusta di cuoio
 158,Battle Whip,frusta da guerra
@@ -141,25 +141,25 @@ id,english,italian
 177,Cypress Staff,mazza di cipresso
 178,Rune Staff,bastone runico
 179,Phoenix Sceptre,scettro della fenice
-181,{231} Sceptre,Scettro del più
-182,{232} Sceptre,Scettro del meno
+181,{231} Sceptre,scettro Plus
+182,{232} Sceptre,scettro Minus
 183,Crystal Staff,scettro di cristallo
 184,Staff of Darkness,bastone delle tenebre
-185,Sage`s Staff,Bastone del saggio
+185,Sage`s Staff,bastone del saggio
 186,Royal Rod,scettro reale
 187,Leonine Greatsword,spada del leone
-188,I188,Sparatankissimus
-189,I189,Malevomazza
-190,I190,Artigli d'ebano
-191,I191,Lancia di Diablo
-194,I194,Zampe
-195,Crushing Tower,Ammucchiata
+188,I188,cannone Tankissimus
+189,I189,Malamazza
+190,I190,artigli d'ebano
+191,I191,lancia Diabolus
+194,I194,zampe
+195,Crushing Tower,pilaslime
 196,Miracle Sword,spada dei miracoli
-197,Falcon Nail,Artigli di falco
-198,Gent Staff,Bastone di Ghent
-199,Dragon Claw,Artigli di drago
-200,Jack-o`-lantern,Tridente di Gracos
-201,Chainsaw,Frusta magica
+197,Falcon Nail,artigli del falco
+198,Gent Staff,bastone di Ghent
+199,Dragon Claw,artigli del drago
+200,Jack-o`-lantern,tridente di Gracos
+201,Chainsaw,frusta stregata
 212,Fire Crystal,Fiamma vivificante
 213,Water Crystal,Lacrime di drago
 214,Underworld Crystal,Cristallo del tempo

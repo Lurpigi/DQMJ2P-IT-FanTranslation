@@ -1,19 +1,19 @@
 
-Abilità
+Incantesimi e tecniche
 Oggetti
 Equipaggiamento
-Cambia mostri
-Cambia tattica
-Assegnazione abilità
-Cura tutti
+Cambia i mostri
+Cambia le tattiche
+Distribuzione dei Punti Abilità
+Guarisci tutti
 Salva
-Abilità
-Manuale del reclutatore
-Curatore di mostri
-Modalità Tag
+Abilità dello Scout
+Manuale degli Scout
+Curamostri
+Scontri casuali
 Teletrasporto
-Zip
-Fiuto del tesoro
+Velotrans
+Segugio
 Sparizione
 
 
@@ -267,7 +267,7 @@ Il diario d'avventura è danneggiato,{315}ed è stato eliminato.{315}Ritorno all
 Salvataggio fallito!{315}Spegni la console e reinserisci la scheda di gioco DS.
 
 Non puoi salvare la partita in questo momento.
-Non puoi partecipare a battaglie in Modalità Tag in questo momento.
+Non puoi partecipare agli Scontri casuali in questo momento.
 Non puoi rimuovere questo mostro dal recinto {23a} in questo momento.
 Non puoi creare questo mostro in questo momento.
 Non puoi aggiungere questo mostro alla tua squadra in questo momento.
@@ -290,20 +290,20 @@ Come puoi voler scambiare via{315}questo mostro!?
 
 
 
-Magie e abilità
+Incantesimi e tecniche
 Oggetti
 Equipaggiamento
-Cambia mostri
-Cambia tattica
-Assegnazione abilità
-Cura tutti
+Cambia i mostri
+Cambia le tattiche
+Distribuzione dei Punti Abilità
+Guarisci tutti
 Salva
-Abilità di reclutamento
-Manuale del reclutatore
-Curatore di mostri
-Battaglie in Modalità Tag
-Visualizza le informazioni sulla squadra.
-Termina l'assegnazione dei punti abilità.
+Abilità dello Scout
+Manuale degli Scout
+Curamostri
+Scontri casuali
+Informazioni relative al team.
+Termina la distribuzione{315}dei Punti Abilità.
 
 
 
@@ -324,7 +324,7 @@ Termina l'assegnazione dei punti abilità.
 
 In costruzione...
 Viaggia verso una zona già visitata.
-Usalo in una zona con un Portale Zip aperto per raggiungerlo direttamente.
+Usalo in una zona con un Portale Velotrans aperto per raggiungerlo direttamente.
 Usalo per scoprire quanti oggetti ci sono nelle vicinanze.
 Usalo per nasconderti e impedire ai nemici di trovarti. Non può essere usato in alcune zone.
 
@@ -401,7 +401,6 @@ Sì
 No
 Avvio
 Annulla
-
 
 
 

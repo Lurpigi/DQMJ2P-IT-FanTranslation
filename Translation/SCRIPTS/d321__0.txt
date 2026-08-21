@@ -840,7 +840,7 @@ STORE 0x18 0x1 0x0 0x2 0x42ce0000
 STORE 0x18 0x1 0x3f800000 0x2 0x41f00000
 SYS_17 0x8 
 SETNAME "Leonix"
-SAY "{VOICE=07}Ma immagino che gli umani nascondano la loro vera forza: quella di combattere{WAIT}{CLEAR}insieme."
+SAY "{VOICE=07}Ma immagino che gli umani nascondano la loro vera forza: quella di{WAIT}{CLEAR}combattere insieme."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x41600000
@@ -867,7 +867,7 @@ SAY "{VOICE=07}D'ora in poi mi allenerò con loro e imparerò le loro tecniche."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonix"
-SAY "{VOICE=07}Ehe ehe. Sarà divertente quando ci sarà una festa in cui potrò confrontarmi con gli{WAIT}{CLEAR}umani!"
+SAY "{VOICE=07}Ehe ehe. Sarà divertente quando ci sarà una festa in cui potrò confrontarmi con{WAIT}{CLEAR}gli umani!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40c00000
@@ -944,7 +944,7 @@ SYS_13 0x8
 STORE 0x18 0x1 0x0 0x2 0x42de0000
 SYS_14 0x8 
 SETNAME "Re Sanguini"
-SAY "{VOICE=03}Quando affronterai di nuovo un pericolo, sono certo che il nostro potere ti{WAIT}{CLEAR}raggiungerà."
+SAY "{VOICE=03}Quando affronterai di nuovo un pericolo, sono certo che il nostro potere{WAIT}{CLEAR}ti raggiungerà."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x42e00000

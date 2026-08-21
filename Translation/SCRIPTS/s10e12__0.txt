@@ -1331,7 +1331,7 @@ STORE 0x18 0x0 0x426c0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x426c0000 0x2 0x0
 JMP_IFNOT 0xc L_4c7c
 SYS_42 0x8 
-SAY "{COLOR=2}La curiosità può uccidere i gatti, ma non gli {1F29}out! Esamina queste strane rocce{WAIT}{CLEAR}per imparare tecniche e comandi nuovi."
+SAY "{COLOR=2}La curiosità può uccidere i gatti, ma non gli {1F29}out! Esamina queste strane rocce per{WAIT}{CLEAR}imparare tecniche e comandi nuovi."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}Le "Pietre dello {1F29}out" sono indicate sulla mappa da icone azzurre."
@@ -1370,7 +1370,7 @@ SYS_A5 0x8
 SAY "{COLOR=2}Questa tecnica permette a {NAME} di recarsi in un attimo in qualsiasi area{WAIT}{CLEAR}già visitata."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Fatte salve poche eccezioni, può essere utilizzata ovunque... Persino nelle{WAIT}{CLEAR}grotte!"
+SAY "{COLOR=2}Fatte salve poche eccezioni, può essere utilizzata ovunque... Persino nelle grotte!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1407,7 +1407,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} può ora usare "Guarisci tutti"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Quest'incantesimo di guarigione permette a {NAME} di curare tutti i{WAIT}{CLEAR}membri della squadra."
+SAY "{COLOR=2}Quest'incantesimo di guarigione permette a {NAME} di curare tutti i membri della squadra."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1453,7 +1453,7 @@ SYS_44 0x8
 SAY "{COLOR=2}La tecnica funzionerà solo se il portale è già aperto."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Quindi, è bene che {NAME} esamini subito i portali Velotrans situati{WAIT}{CLEAR}sull'isola."
+SAY "{COLOR=2}Quindi, è bene che {NAME} esamini subito i portali Velotrans{WAIT}{CLEAR}situati sull'isola."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1474,7 +1474,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} ha ottenuto "Curamostri"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Questa bevanda fa recuperare PV e PM a tutti i membri della squadra di {NAME}{WAIT}{CLEAR}."
+SAY "{COLOR=2}Questa bevanda fa recuperare PV e PM a tutti i membri della squadra di {NAME}."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}La bottiglia contiene tre dosi e può essere riempita di nuovo tornando alla nave."
@@ -3733,7 +3733,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_2A 0x8 
 SYS_42 0x8 
 SETNAME "Anziano"
-SAY "{VOICE=03}Per preparare la Soma benedetta per curare gli Incarnus, mi servono questi{WAIT}{CLEAR}materiali:"
+SAY "{VOICE=03}Per preparare la Soma benedetta per curare gli Incarnus, mi servono questi materiali:"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}Fiamma vivificante e Lacrime di drago. Ah, e un Cristallo del tempo. Sono 3."
@@ -3793,7 +3793,7 @@ SYS_44 0x8
 SAY "{VOICE=03}...è un mostro con una coda rossa e fiammeggiante sopra le nuvole, dal{WAIT}{CLEAR}nitrito feroce."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Non sono in molti a possederla, quindi continua a cercare finché non ne trovi{WAIT}{CLEAR}una."
+SAY "{VOICE=03}Non sono in molti a possederla, quindi continua a cercare finché non ne trovi una."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3856,7 +3856,7 @@ SYS_44 0x8
 SAY "{VOICE=03}...è un mostro con una coda rossa e fiammeggiante sopra le nuvole, dal{WAIT}{CLEAR}nitrito feroce."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Non sono in molti a possederla, quindi continua a cercare finché non ne trovi{WAIT}{CLEAR}una."
+SAY "{VOICE=03}Non sono in molti a possederla, quindi continua a cercare finché non ne trovi una."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3924,7 +3924,7 @@ SYS_44 0x8
 SAY "{VOICE=03}Vedo una prigione sinistra... ...situata nelle profondità del mondo dei demoni..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}...molto in profondità nel mondo dei demoni... Oh, vedo un ingranaggio che{WAIT}{CLEAR}gira!"
+SAY "{VOICE=03}...molto in profondità nel mondo dei demoni... Oh, vedo un ingranaggio che gira!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}Mi dispiace. È tutto ciò che so. Sembra che il resto spetti ancora a te."
@@ -3975,7 +3975,7 @@ SYS_44 0x8
 SAY "{VOICE=03}Secondo la mia premonizione, colui che possiede il Cristallo del tempo..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}È un mostro con ingranaggi rotanti, situato nel profondo del mondo dei{WAIT}{CLEAR}demoni..."
+SAY "{VOICE=03}È un mostro con ingranaggi rotanti, situato nel profondo del mondo dei demoni..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4052,7 +4052,7 @@ SYS_44 0x8
 SAY "{VOICE=03}Secondo la mia premonizione, colui che possiede il Cristallo del tempo..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}È un mostro con ingranaggi rotanti, situato nel profondo del mondo dei{WAIT}{CLEAR}demoni..."
+SAY "{VOICE=03}È un mostro con ingranaggi rotanti, situato nel profondo del mondo dei demoni..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4236,7 +4236,7 @@ SETNAME "Tiko"
 SAY "{VOICE=08}Leonix è davvero forte, ma non perderò contro Kukri!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}D'accordo, andiamo, {NAME}! Verso l'Ospite indesiderato nella terra{WAIT}{CLEAR}sacra!"
+SAY "{VOICE=08}D'accordo, andiamo, {NAME}! Verso l'Ospite indesiderato nella{WAIT}{CLEAR}terra sacra!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}Per prima cosa, esci dalla città dalla strada sud. Da lì ti mostrerò la strada!"
@@ -4249,10 +4249,10 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x40800000
 JMP_IFNOT 0xc L_10e50
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}D'accordo, andiamo, {NAME}! Verso l'Ospite indesiderato nella terra{WAIT}{CLEAR}sacra!"
+SAY "{VOICE=08}D'accordo, andiamo, {NAME}! Verso l'Ospite indesiderato nella{WAIT}{CLEAR}terra sacra!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Attraversando le isole fluttuanti, se continui a salire raggiungeremo la terra{WAIT}{CLEAR}sacra."
+SAY "{VOICE=08}Attraversando le isole fluttuanti, se continui a salire raggiungeremo la{WAIT}{CLEAR}terra sacra."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}Per prima cosa esci dalla città e prosegui dritto sulla strada."
@@ -4284,7 +4284,7 @@ SETNAME "Tiko"
 SAY "{VOICE=08}È la prima volta che sento il termine "Monster Scout","
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Ma per essere degno della fiducia dell'Incarnus devi essere incredibile, {NAME}{WAIT}{CLEAR}!"
+SAY "{VOICE=08}Ma per essere degno della fiducia dell'Incarnus devi essere incredibile, {NAME}!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}I miei occhi ci avevano visto giusto! D'accordo, andiamo alla barriera!"
@@ -4327,7 +4327,7 @@ SETNAME "Tiko"
 SAY "{VOICE=08}Siamo finalmente arrivati nella nostra terra sacra, Palazzo Blanc."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Ci attende la battaglia finale con Baboorood! Ancora un ultimo sforzo, {NAME}{WAIT}{CLEAR}!"
+SAY "{VOICE=08}Ci attende la battaglia finale con Baboorood! Ancora un ultimo sforzo, {NAME}!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4351,7 +4351,7 @@ SYS_44 0x8
 SAY "{VOICE=08}Quando ti ho reclutato in superficie, non sapevo cosa pensare..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Ma si è scoperto che sei sorprendentemente forte! Grazie di{WAIT}{CLEAR}tutto, {NAME}!"
+SAY "{VOICE=08}Ma si è scoperto che sei sorprendentemente forte! Grazie di tutto, {NAME}!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}Bene, parliamo con l'anziano. Sono sicura che ti ricompenserà."
@@ -4372,7 +4372,7 @@ SETNAME "Tiko"
 SAY "{VOICE=08}Non sapevo cosa pensare quando ti ho reclutato in superficie."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Ma si è scoperto che sei sorprendentemente forte! Grazie di{WAIT}{CLEAR}tutto, {NAME}!"
+SAY "{VOICE=08}Ma si è scoperto che sei sorprendentemente forte! Grazie di tutto, {NAME}!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}Bene, chiediamo all'anziano. Sono sicura che ti ricompenserà."
@@ -4477,7 +4477,7 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x40e00000
 JMP_IFNOT 0xc L_11f64
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Mi ricordi qualcuno che conoscevo. Qualcuno con cui viaggiavo tanto tempo{WAIT}{CLEAR}fa."
+SAY "{VOICE=07}Mi ricordi qualcuno che conoscevo. Qualcuno con cui viaggiavo tanto tempo fa."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Per me è chiarissimo che sei davvero un reclutatore di mostri."
@@ -4516,7 +4516,7 @@ SETNAME "Kukri"
 SAY "{VOICE=08}Cosa!? Se Tiko non sarà il prossimo anziano, allora toccherà a me, giusto!?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Pensavo che avrei potuto far lavorare sodo tutti. Quell'anziano è così{WAIT}{CLEAR}testardo!"
+SAY "{VOICE=08}Pensavo che avrei potuto far lavorare sodo tutti. Quell'anziano è così testardo!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4598,10 +4598,10 @@ SYS_42 0x8
 SAY "{COLOR=2}C'è un libro intitolato 'Albero culla'. {NAME} inizia a leggerlo..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}'Un tempo in questo mondo c'era un albero gigantesco, che abbracciava{WAIT}{CLEAR}dolcemente ogni cosa.'"
+SAY "{COLOR=2}'Un tempo in questo mondo c'era un albero gigantesco, che abbracciava dolcemente{WAIT}{CLEAR}ogni cosa.'"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}'Le persone costruirono le loro vite accanto a esso, vivendo in pace e{WAIT}{CLEAR}prosperità.'"
+SAY "{COLOR=2}'Le persone costruirono le loro vite accanto a esso, vivendo in pace{WAIT}{CLEAR}e prosperità.'"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}'Si dice che nel suo tepore simile a una culla siano nate innumerevoli vite.'"
@@ -4617,7 +4617,7 @@ SYS_49 0x8
 STORE 0x18 0x1 0x0 0x2 0x41400000
 SYS_AD 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}C'è un libro intitolato 'Diario della sintesi degli anziani'. {NAME}{WAIT}{CLEAR}inizia a leggerlo..."
+SAY "{COLOR=2}C'è un libro intitolato 'Diario della sintesi degli anziani'. {NAME} inizia{WAIT}{CLEAR}a leggerlo..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}'Ultimamente sono tempi difficili, e ho dimenticato molte cose.'"
@@ -4640,7 +4640,7 @@ SYS_44 0x8
 SAY "{COLOR=2}'Aspetta, o ho dimenticato il risultato di un Hyperanemon e un Kapurigon!'"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}'Ho la sensazione che ne uscirebbe qualcosa di incredibile. Sto proprio{WAIT}{CLEAR}invecchiando.'"
+SAY "{COLOR=2}'Ho la sensazione che ne uscirebbe qualcosa di incredibile. Sto{WAIT}{CLEAR}proprio invecchiando.'"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_12ab8

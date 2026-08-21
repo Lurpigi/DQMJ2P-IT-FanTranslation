@@ -489,7 +489,7 @@ SAY "{VOICE=07}Questo piccoletto si chiama Doc Syntex. È il sultano della sinte
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
-SAY "{VOICE=07}La sintesi è la cosa più bella, naturale e fantastica del mondo. Due mostri si{WAIT}{CLEAR}fondono per generare un figlio più forte e più speciale!"
+SAY "{VOICE=07}La sintesi è la cosa più bella, naturale e fantastica del mondo. Due mostri si fondono{WAIT}{CLEAR}per generare un figlio più forte e più speciale!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
@@ -521,7 +521,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Comunque, io e la mia squadra ci metteremo al lavoro per preparare tutto.{WAIT}{CLEAR}Perché non torni alla nave e ti rilassi un po'?"
+SAY "{VOICE=07}Comunque, io e la mia squadra ci metteremo al lavoro per preparare tutto. Perché non{WAIT}{CLEAR}torni alla nave e ti rilassi un po'?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"

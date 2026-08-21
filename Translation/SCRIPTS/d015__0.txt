@@ -189,7 +189,7 @@ SYS_17 0x8
 SAY "{VOICE=07}Devi vincere..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SAY "{VOICE=07}Devi vincere... e vincere... e vincere ancora. È la tua unica speranza di{WAIT}{CLEAR}sopravvivere..."
+SAY "{VOICE=07}Devi vincere... e vincere... e vincere ancora. È la tua unica speranza{WAIT}{CLEAR}di sopravvivere..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SAY "{VOICE=07}Devi vincere... e vincere... e vincere ancora..."
@@ -391,7 +391,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x428c0000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Meck Nick"
-SAY "{VOICE=07}...Oh, scusa se ho urlato, ragazzo. Mi sono lasciato prendere un po'{WAIT}{CLEAR}dall'emozione."
+SAY "{VOICE=07}...Oh, scusa se ho urlato, ragazzo. Mi sono lasciato prendere un{WAIT}{CLEAR}po' dall'emozione."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Meck Nick"

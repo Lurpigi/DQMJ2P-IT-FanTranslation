@@ -10,7 +10,7 @@ Infligge ingenti{315}danni magici da fendente{315}a tutti i nemici.
 Due tornado infliggono danni ingenti a tutti i nemici.
 Colpo extra contro Demoni,{315}Non-morti, Materiali e ???.
 Colpo extra contro Slime,{315}Draghi, Natura e Bestie.
-Infligge ingenti danni da Fuoco e Ghiaccio{315}a tutti.
+Infligge ingenti danni di Fuoco e{315}Ghiaccio a tutti.
 I massi infliggono danni massicci ai nemici.
 Consuma tutti i PM del gruppo per infliggere danni da Fulmine.
 
@@ -56,7 +56,7 @@ A volte rianima un alleato con metà dei PV.
 Rianima un alleato con metà dei PV.
 L'utilizzatore muore per rianimare tutti gli alleati.
 Cura un alleato dal veleno.
-Cura tutti gli alleati da sonno{315}e paralisi.
+Cura tutti gli alleati da sonno e paralisi.
 Aumenta notevolmente l'attacco di un alleato.
 Aumenta l'attacco di tutti gli alleati.
 Riduce notevolmente l'attacco di un nemico.
