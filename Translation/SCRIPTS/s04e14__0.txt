@@ -6564,10 +6564,10 @@ SYS_42 0x8
 SAY "{COLOR=2}It's a monument shaped like a thick{BREAK}jungle. There is a hole on the altar."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}It seems the plate you got{BREAK}from Treepidation will fit."
+SAY "{COLOR=2}It seems the medal you got{BREAK}from Treepidation will fit."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Will you insert the jungle plate?{VOICE=09}"
+SAY "{COLOR=2}Will you insert the mysterious medal?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
