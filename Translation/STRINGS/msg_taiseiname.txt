@@ -1,67 +1,67 @@
 Vuln. to Frizz
 
-Frizz Damage ↓25%
-Frizz Damage ↓50%
-Frizz Damage ↓75%
+Frizz Dmg. ↓25%
+Frizz Dmg. ↓50%
+Frizz Dmg. ↓75%
 Frizzproof
 Reflects Frizz
 Healed by Frizz
 Vuln. to Bang
 
-Bang Damage ↓25%
-Bang Damage ↓50%
-Bang Damage ↓75%
+Bang Dmg. ↓25%
+Bang Dmg. ↓50%
+Bang Dmg. ↓75%
 Bangproof
 Reflects Bang
 Healed by Bang
 Vuln. to Woosh
 
-Woosh Damage ↓25%
-Woosh Damage ↓50%
-Woosh Damage ↓75%
+Woosh Dmg. ↓25%
+Woosh Dmg. ↓50%
+Woosh Dmg. ↓75%
 Wooshproof
 Reflects Woosh
 Healed by Woosh
 Vuln. to Crack
 
-Crack Damage ↓25%
-Crack Damage ↓50%
-Crack Damage ↓75%
+Crack Dmg. ↓25%
+Crack Dmg. ↓50%
+Crack Dmg. ↓75%
 Crackproof
 Reflects Crack
 Healed by Crack
 Vuln. to Zap
 
-Zap Damage ↓25%
-Zap Damage ↓50%
-Zap Damage ↓75%
+Zap Dmg. ↓25%
+Zap Dmg. ↓50%
+Zap Dmg. ↓75%
 Zapproof
 Reflects Zap
 Healed by Zap
 Vuln. to Zam
 
-Zam Damage ↓25%
-Zam Damage ↓50%
-Zam Damage ↓75%
+Zam Dmg. ↓25%
+Zam Dmg. ↓50%
+Zam Dmg. ↓75%
 Zamproof
 Reflects Zam
 Healed by Zam
-Vuln. to Fire Breath
+Vuln. to Fire Brth.
 
-Fire Breath Damage ↓25%
-Fire Breath Damage ↓50%
-Fire Breath Damage ↓75%
+Fire Brth. Dmg. ↓25%
+Fire Brth. Dmg. ↓50%
+Fire Brth. Dmg. ↓75%
 Fire Breathproof
-Reflects Fire Breath
-Healed by Fire Breath
-Vuln. to Ice Breath
+Reflects Fire Brth.
+Healed by Fire Brth.
+Vuln. to Ice Brth.
 
-Ice Breath Damage ↓25%
-Ice Breath Damage ↓50%
-Ice Breath Damage ↓75%
+Ice Brth. Dmg. ↓25%
+Ice Brth. Dmg. ↓50%
+Ice Brth. Dmg. ↓75%
 Ice Breathproof
-Reflects Ice Breath
-Healed by Ice Breath
+Reflects Ice Brth.
+Healed by Ice Brth.
 Vuln. to Whack
 
 Whack Res. ↑25%
@@ -86,14 +86,14 @@ Poison Res. ↑75%
 Poisonproof
 Reflects Poison
 Poisonproof
-Vuln. to Drain Magic
+Vuln. to Drn. Magic
 
-Drain Magic Res. ↑25%
-Drain Magic Res. ↑50%
-Drain Magic Res. ↑75%
-Drain Magicproof
-Reflects Drain Magic
-Drain Magicproof
+Drn. Magic Res. ↑25%
+Drn. Magic Res. ↑50%
+Drn. Magic Res. ↑75%
+Drn. Magicproof
+Reflects Drn. Magic
+Drn. Magicproof
 Vuln. to Fizzle
 
 Fizzle Res. ↑25%
@@ -184,20 +184,20 @@ Reflects Dim
 Dimproof
 Vuln. to Sizz
 
-Sizz Damage ↓25%
-Sizz Damage ↓50%
-Sizz Damage ↓75%
+Sizz Dmg. ↓25%
+Sizz Dmg. ↓50%
+Sizz Dmg. ↓75%
 Sizzproof
 Reflects Sizz
 Healed by Sizz
-Vuln. to Magical Sabotage
+Vuln. to Mgcl. Sabotage
 
-Magical Sabotage Res. ↑25%
-Magical Sabotage Res. ↑50%
-Magical Sabotage Res. ↑75%
-Magical Sabotageproof
-Reflects Magical Sabotage
-Magical Sabotageproof
+Mgcl. Sabotage Res. ↑25%
+Mgcl. Sabotage Res. ↑50%
+Mgcl. Sabotage Res. ↑75%
+Mgcl. Sabotageproof
+Reflects Mgcl. Sabotage
+Mgcl. Sabotageproof
 Vuln. to Abiliterator
 
 Abiliterator Res. ↑25%
@@ -206,19 +206,19 @@ Abiliterator Res. ↑75%
 Abiliteratorproof
 Reflects Abiliterator
 Abiliteratorproof
-Vuln. to Blade Blunter
+Vuln. to Blade Blntr.
 
-Blade Blunter Res. ↑25%
-Blade Blunter Res. ↑50%
-Blade Blunter Res. ↑75%
+Blade Blntr. Res. ↑25%
+Blade Blntr. Res. ↑50%
+Blade Blntr. Res. ↑75%
 Blade Blunterproof
-Reflects Blade Blunter
+Reflects Blade Blntr.
 Blade Blunterproof
 Vuln. to Donk
 
-Donk Damage ↓25%
-Donk Damage ↓50%
-Donk Damage ↓75%
+Donk Dmg. ↓25%
+Donk Dmg. ↓50%
+Donk Dmg. ↓75%
 Donkproof
 Reflects Donk
 Donkproof
