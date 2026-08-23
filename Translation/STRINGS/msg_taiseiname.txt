@@ -1,224 +1,224 @@
-Vuln. to Frizz
+Vuln to Frizz
 
-Frizz Dmg.↓25%
-Frizz Dmg.↓50%
-Frizz Dmg.↓75%
+Frizz Dmg↓25%
+Frizz Dmg↓50%
+Frizz Dmg↓75%
 Frizzproof
 Reflects Frizz
 Healed by Frizz
-Vuln. to Bang
+Vuln to Bang
 
-Bang Dmg.↓25%
-Bang Dmg.↓50%
-Bang Dmg.↓75%
+Bang Dmg↓25%
+Bang Dmg↓50%
+Bang Dmg↓75%
 Bangproof
 Reflects Bang
 Healed by Bang
-Vuln. to Woosh
+Vuln to Woosh
 
-Woosh Dmg.↓25%
-Woosh Dmg.↓50%
-Woosh Dmg.↓75%
+Woosh Dmg↓25%
+Woosh Dmg↓50%
+Woosh Dmg↓75%
 Wooshproof
 Reflects Woosh
 Healed by Woosh
-Vuln. to Crack
+Vuln to Crack
 
-Crack Dmg.↓25%
-Crack Dmg.↓50%
-Crack Dmg.↓75%
+Crack Dmg↓25%
+Crack Dmg↓50%
+Crack Dmg↓75%
 Crackproof
 Reflects Crack
 Healed by Crack
-Vuln. to Zap
+Vuln to Zap
 
-Zap Dmg.↓25%
-Zap Dmg.↓50%
-Zap Dmg.↓75%
+Zap Dmg↓25%
+Zap Dmg↓50%
+Zap Dmg↓75%
 Zapproof
 Reflects Zap
 Healed by Zap
-Vuln. to Zam
+Vuln to Zam
 
-Zam Dmg.↓25%
-Zam Dmg.↓50%
-Zam Dmg.↓75%
+Zam Dmg↓25%
+Zam Dmg↓50%
+Zam Dmg↓75%
 Zamproof
 Reflects Zam
 Healed by Zam
-Vuln. to Fire Brth.
+Vuln to Fire Brth
 
-Fire Brth. Dmg.↓25%
-Fire Brth. Dmg.↓50%
-Fire Brth. Dmg.↓75%
+Fire Brth Dmg↓25%
+Fire Brth Dmg↓50%
+Fire Brth Dmg↓75%
 Fire Breathproof
-Reflects Fire Brth.
-Healed by Fire Brth.
-Vuln. to Ice Brth.
+Reflects Fire Brth
+Healed by Fire Brth
+Vuln to Ice Brth
 
-Ice Brth. Dmg.↓25%
-Ice Brth. Dmg.↓50%
-Ice Brth. Dmg.↓75%
+Ice Brth Dmg↓25%
+Ice Brth Dmg↓50%
+Ice Brth Dmg↓75%
 Ice Breathproof
-Reflects Ice Brth.
-Healed by Ice Brth.
-Vuln. to Whack
+Reflects Ice Brth
+Healed by Ice Brth
+Vuln to Whack
 
-Whack Res.↑25%
-Whack Res.↑50%
-Whack Res.↑75%
+Whack Res↑25%
+Whack Res↑50%
+Whack Res↑75%
 Whackproof
 Reflects Whack
 Whackproof
-Vuln. to Dazzle
+Vuln to Dazzle
 
-Dazzle Res.↑25%
-Dazzle Res.↑50%
-Dazzle Res.↑75%
+Dazzle Res↑25%
+Dazzle Res↑50%
+Dazzle Res↑75%
 Dazzleproof
 Reflects Dazzle
 Dazzleproof
-Vuln. to Poison
+Vuln to Poison
 
-Poison Res.↑25%
-Poison Res.↑50%
-Poison Res.↑75%
+Poison Res↑25%
+Poison Res↑50%
+Poison Res↑75%
 Poisonproof
 Reflects Poison
 Poisonproof
-Vuln. to Drn. Magic
+Vuln to Drain Mgc
 
-Drn. Magic Res.↑25%
-Drn. Magic Res.↑50%
-Drn. Magic Res.↑75%
-Drn. Magicproof
-Reflects Drn. Magic
-Drn. Magicproof
-Vuln. to Fizzle
+Drain Mgc Res↑25%
+Drain Mgc Res↑50%
+Drain Mgc Res↑75%
+Drain Mgcproof
+Reflects Drain Mgc
+Drain Mgcproof
+Vuln to Fizzle
 
-Fizzle Res.↑25%
-Fizzle Res.↑50%
-Fizzle Res.↑75%
+Fizzle Res↑25%
+Fizzle Res↑50%
+Fizzle Res↑75%
 Fizzleproof
 Reflects Fizzle
 Fizzleproof
-Vuln. to Gobstopper
+Vuln to Gobstopper
 
-Gobstopper Res.↑25%
-Gobstopper Res.↑50%
-Gobstopper Res.↑75%
+Gobstopper Res↑25%
+Gobstopper Res↑50%
+Gobstopper Res↑75%
 Gobstopperproof
 Reflects Gobstopper
 Gobstopperproof
-Vuln. to Ban Dance
+Vuln to Ban Dance
 
-Ban Dance Res.↑25%
-Ban Dance Res.↑50%
-Ban Dance Res.↑75%
+Ban Dance Res↑25%
+Ban Dance Res↑50%
+Ban Dance Res↑75%
 Ban Danceproof
 Reflects Ban Dance
 Ban Danceproof
-Vuln. to Confusion
+Vuln to Confusion
 
-Confusion Res.↑25%
-Confusion Res.↑50%
-Confusion Res.↑75%
+Confusion Res↑25%
+Confusion Res↑50%
+Confusion Res↑75%
 Confusionproof
 Reflects Confusion
 Confusionproof
-Vuln. to Inaction
+Vuln to Inaction
 
-Inaction Res.↑25%
-Inaction Res.↑50%
-Inaction Res.↑75%
+Inaction Res↑25%
+Inaction Res↑50%
+Inaction Res↑75%
 Inactionproof
 Reflects Inaction
 Inactionproof
-Vuln. to Paralysis
+Vuln to Paralysis
 
-Paralysis Res.↑25%
-Paralysis Res.↑50%
-Paralysis Res.↑75%
+Paralysis Res↑25%
+Paralysis Res↑50%
+Paralysis Res↑75%
 Paralysisproof
 Reflects Paralysis
 Paralysisproof
-Vuln. to Sleep
+Vuln to Sleep
 
-Sleep Res.↑25%
-Sleep Res.↑50%
-Sleep Res.↑75%
+Sleep Res↑25%
+Sleep Res↑50%
+Sleep Res↑75%
 Sleepproof
 Reflects Sleep
 Sleepproof
-Vuln. to Sag
+Vuln to Sag
 
-Sag Res.↑25%
-Sag Res.↑50%
-Sag Res.↑75%
+Sag Res↑25%
+Sag Res↑50%
+Sag Res↑75%
 Sagproof
 Reflects Sag
 Sagproof
-Vuln. to Sap
+Vuln to Sap
 
-Sap Res.↑25%
-Sap Res.↑50%
-Sap Res.↑75%
+Sap Res↑25%
+Sap Res↑50%
+Sap Res↑75%
 Sapproof
 Reflects Sap
 Sapproof
-Vuln. to Decelerate
+Vuln to Decelerate
 
-Decelerate Res.↑25%
-Decelerate Res.↑50%
-Decelerate Res.↑75%
+Decelerate Res↑25%
+Decelerate Res↑50%
+Decelerate Res↑75%
 Decelerateproof
 Reflects Decelerate
 Decelerateproof
-Vuln. to Dim
+Vuln to Dim
 
-Dim Res.↑25%
-Dim Res.↑50%
-Dim Res.↑75%
+Dim Res↑25%
+Dim Res↑50%
+Dim Res↑75%
 Dimproof
 Reflects Dim
 Dimproof
-Vuln. to Sizz
+Vuln to Sizz
 
-Sizz Dmg.↓25%
-Sizz Dmg.↓50%
-Sizz Dmg.↓75%
+Sizz Dmg↓25%
+Sizz Dmg↓50%
+Sizz Dmg↓75%
 Sizzproof
 Reflects Sizz
 Healed by Sizz
-Vuln. to Mgcl. Sabotage
+Vuln to Mgc Sabotage
 
-Mgcl. Sabotage Res.↑25%
-Mgcl. Sabotage Res.↑50%
-Mgcl. Sabotage Res.↑75%
-Mgcl. Sabotageproof
-Reflects Mgcl. Sabotage
-Mgcl. Sabotageproof
-Vuln. to Abiliterator
+Mgc Sabotage Res↑25%
+Mgc Sabotage Res↑50%
+Mgc Sabotage Res↑75%
+Mgc Sabotageproof
+Reflects Mgc Sabotage
+Mgc Sabotageproof
+Vuln to Abiliterator
 
-Abiliterator Res.↑25%
-Abiliterator Res.↑50%
-Abiliterator Res.↑75%
+Abiliterator Res↑25%
+Abiliterator Res↑50%
+Abiliterator Res↑75%
 Abiliteratorproof
 Reflects Abiliterator
 Abiliteratorproof
-Vuln. to Blade Blntr.
+Vuln to Blade Blntr
 
-Blade Blntr. Res.↑25%
-Blade Blntr. Res.↑50%
-Blade Blntr. Res.↑75%
+Blade Blntr Res↑25%
+Blade Blntr Res↑50%
+Blade Blntr Res↑75%
 Blade Blunterproof
-Reflects Blade Blntr.
+Reflects Blade Blntr
 Blade Blunterproof
-Vuln. to Donk
+Vuln to Donk
 
-Donk Dmg.↓25%
-Donk Dmg.↓50%
-Donk Dmg.↓75%
+Donk Dmg↓25%
+Donk Dmg↓50%
+Donk Dmg↓75%
 Donkproof
 Reflects Donk
 Donkproof
