@@ -84,7 +84,7 @@ Megalodonte
 Dragobastro
 
 Lacertoflamma
-Libellula
+Libruttula
 Testuggine corazzata
 Cavaliere dei Draghi
 Rashaverak
@@ -450,10 +450,10 @@ Bulbo ramificato
 Vermex
 Lince alata
 Coda lincea
-Wasinen
 Wasen
 Wasen
-Wasinen
+Wasen
+Wasen
 Tentack
 Lince alata
 Gemon

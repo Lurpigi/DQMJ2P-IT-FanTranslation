@@ -1412,7 +1412,7 @@ SYS_42 0x8
 SAY "{COLOR=2}{NAME} può ora usare "Guarisci tutti"!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
-SAY "{COLOR=2}Quest'incantesimo di guarigione permette a {NAME} di curare tutti i membri della squadra."
+SAY "{COLOR=2}Quest'incantesimo permette a {NAME} di curare tutti i membri della squadra."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
