@@ -299,16 +299,16 @@ Seedy Weedie,B,Slime,Rotten Egg,Weedie,,
 Slime Gang,A,Slime,King Cureslime,Magic Slime,King Slime,Mottle King Slime
 Ultra Slime,A,Slime,Dhuran,Riptide,Slime Knight,Metal Slime Knight
 Nemeslime,A,Slime,Dhuran,Wight Knight,Dark Slime Knight,Dark Slime
-Schleiman Tank,S,Slime,Stormsgate Citadel,Metal King Slime,Ultra Slime,Mortoad
+Schleiman Tank,S,Slime,Stormsgate Citadel,Darkonium Slime,Ultra Slime,Mortoad
 Slider Girl,S,Slime,Shogum,Mechanowyrm,Mortella,Angel Slime
-Slime Blaster,S,Slime,Schleiman Tank,Empyrea,Canzar,Darkonium Slime
-Dark Mecha-Slime,SS,Slime,Sagittar,Schwarzman Tank,Rhapthorne II,Diamond Slime
+Slime Blaster,S,Slime,Schleiman Tank,Empyrea,Canzar,Slider Girl
+Dark Mecha-Slime,SS,Slime,Sagittar,Schwarzman Tank,Rhapthorne II,Trode
 Barbarus,SS,Dragon,Orochi,Goreham-Hogg,Goresby-Purrvis,Hootingham-Gore
 Dimensional Dragon,SS,Dragon,Barbarus,Orgodemir,Alabast Dragon,Black Dragon
 Wild Boarfish,D,Nature,Headhunter,Swarmtroop,,
 Wormonger,D,Nature,Bona Constrictor,Bona Constrictor,Boreal Serpent,Boreal Serpent
 Pipit,C,Nature,Hades Condor,Bad Egg,,
-Empyrea,A,Nature,Garuda,Garuda,Stella,Stella
+Empyrea,A,Nature,Garuda,Gemon,,
 Elder Pipit,S,Nature,Pipit,Grandpa Slime,,
 Numen,SS,Nature,Fluffy,King Sanguini,,
 Teeny Sanguini,E,Beast,Chainine,Dracky,,
@@ -325,12 +325,13 @@ Schwarzman Tank,SS,Material,Slime Blaster,Ruin,Escudogre,Nemeslime
 Conklave,F,Demon,Winky,Argon Lizard,,
 Robbin' Huddle,D,Demon,Conklave,Imp,,
 Robbin' Hood,A,Demon,Gigantes,Robbin' Huddle,,
-Prince O' Thieves,SS,Demon,Robbin's Old Lady,Goodybag,Robbin' Hood,Goodybag
-Scruffy,SS,Demon,Pruslas,Zoma,,
-Drohl Diabolist,E,Zombie,Drohl Drone,Swingin' Hipster,,
-Captain Crow,S,Zombie,Bone Baron,Cross Bones,Killing Machine,Dorsal Fiend
+Prince O' Thieves,SS,Demon,Robbin's Old Lady,Trap Box,Robbin' Hood,Goodybag
+Prince O' Thieves,SS,Demon,Robbin' Hood,Diamond Slime,,
+Scruffy,SS,Demon,Darck,Genie Sanguini,,
+Drohl Diabolist,E,Zombie,Drohl Drone,Lump Wizard,,
+Captain Crow,S,Zombie,Bone Baron,Cross Bones,King Squid,Dorsal Fiend
 Leokid,B,？？？,Missing Lynx,Marquis De Léon,,
-Stella,A,？？？,Thornella,Garuda,,
+Stella,A,？？？,Conkettes,Teeny Sanguini,,
 Zoma's Devil,A,？？？,Bone Baron,Hargon,,
 Malevolynx,SS,？？？,Leokid,Ace Of Spades,,
 Wulfspade,SS,？？？,Empyrea,Leopold,,
