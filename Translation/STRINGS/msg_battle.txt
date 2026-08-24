@@ -46,14 +46,14 @@ Attack
 Defence
 Agility
 Wisdom
-The {322} bubbles furiously!
-The {322} roars fiercely!
-The {322} gets aggravated!
-The {322} flails angrily!
-The {322} starts slamming around!
-The {322} screams in anger!
-The {322} seems perturbed...
-The {322} bulks up!
+{322} bubbles furiously!
+{322} roars fiercely!
+{322} gets aggravated!
+{322} flails angrily!
+{322} starts slamming around!
+{322} screams in anger!
+{322} seems perturbed...
+{322} bulks up!
 Do nothing
 Fight
 Order
