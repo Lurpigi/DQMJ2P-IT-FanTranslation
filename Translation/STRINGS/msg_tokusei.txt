@@ -192,7 +192,7 @@ Immediate Kafizzle
 Random Ping
 Random Brake Wind
 Random Kafizzle
-Random Tension
+Random High Tension
 Random Magic Barrier
 Random Mist Me
 
