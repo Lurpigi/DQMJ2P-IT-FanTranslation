@@ -28,9 +28,9 @@ id,english,italian
 27,Level upper,Seme della speranza
 28,Gold Card,tessera Pagomeno
 29,Gold Lump,pepita d'oro
-30,{231} Scent,"""Pensiero Positivo"""
-31,{232} Scent,"""Unione e Negatività"""
-32,{233} Scent,"""Zona Neutrale"""
+30,{231} Scent,Pensiero Positivo
+31,{232} Scent,Unione e Negatività
+32,{233} Scent,Zona Neutrale
 33,Sagestone,essenza Pluvis
 42,Metal Ticket,biglietto metallico
 45,Beef Jerky,deliziesca
@@ -56,17 +56,17 @@ id,english,italian
 71,Defense Upper,Defendix
 72,Agility Upper,Acceleratonico
 73,Wisdom Upper,Intellex
-74,HP Recovery Proof,"""Teoria della cura"""
-75,MP Recovery Proof,"""Teoria stregonesca"""
-76,Atk Proof,"""Teoria d'attacco"""
-77,Def Proof,"""Teoria difensiva"""
-78,Agi Proof,"""Teoria dell'agilità"""
-79,Wis Proof,"""Teoria saggia"""
+74,HP Recovery Proof,Teoria della cura
+75,MP Recovery Proof,Teoria stregonesca
+76,Atk Proof,Teoria d'attacco
+77,Def Proof,Teoria difensiva
+78,Agi Proof,Teoria dell'agilità
+79,Wis Proof,Teoria saggia
 80,Mysterious Plate,medaglia misteriosa
 81,Ruins Key,chiave del Mausoleum
 82,Scout ring,anello da Scout
 83,I83 Slime,lettera appiccicosa
-84,Entire Recovery Proof,"""Prontuario medico"""
+84,Entire Recovery Proof,Prontuario medico
 93,Pebble,ciottolo pregiato
 94,Bronze Lump,frammento di bronzo
 95,Silver Lump,pepita d'argento
@@ -198,6 +198,6 @@ id,english,italian
 247,Anti Recovery Proof,Pergamena Purificatrice
 248,I248 Proof,Libro di Morrie
 249,I249 Proof,Pergamena del Maestro del Cammino di battaglia
-252,Crushed Metal Proof,'Manuale dell'ammazzametalli'
-253,I253 Proof,'Il sigillo dello zero'
-254,I254 Proof,'Manuale dell'ammazzagiganti'
+252,Crushed Metal Proof,Manuale dell'ammazzametalli
+253,I253 Proof,Il sigillo dello zero
+254,I254 Proof,Manuale dell'ammazzagiganti

@@ -1270,9 +1270,9 @@ items,26,Dung,sterco di mostro
 items,27,Level upper,Seme della speranza
 items,28,Gold Card,tessera Pagomeno
 items,29,Gold Lump,pepita d'oro
-items,30,{231} Scent,"""Pensiero Positivo"""
-items,31,{232} Scent,"""Unione e Negatività"""
-items,32,{233} Scent,"""Zona Neutrale"""
+items,30,{231} Scent,Pensiero Positivo
+items,31,{232} Scent,Unione e Negatività
+items,32,{233} Scent,Zona Neutrale
 items,33,Sagestone,essenza Pluvis
 items,42,Metal Ticket,biglietto metallico
 items,45,Beef Jerky,deliziesca
@@ -1298,17 +1298,17 @@ items,70,Wisdom Downer,Stupidamina
 items,71,Defense Upper,Defendix
 items,72,Agility Upper,Acceleratonico
 items,73,Wisdom Upper,Intellex
-items,74,HP Recovery Proof,"""Teoria della cura"""
-items,75,MP Recovery Proof,"""Teoria stregonesca"""
-items,76,Atk Proof,"""Teoria d'attacco"""
-items,77,Def Proof,"""Teoria difensiva"""
-items,78,Agi Proof,"""Teoria dell'agilità"""
-items,79,Wis Proof,"""Teoria saggia"""
+items,74,HP Recovery Proof,Teoria della cura
+items,75,MP Recovery Proof,Teoria stregonesca
+items,76,Atk Proof,Teoria d'attacco
+items,77,Def Proof,Teoria difensiva
+items,78,Agi Proof,Teoria dell'agilità
+items,79,Wis Proof,Teoria saggia
 items,80,Mysterious Plate,medaglia misteriosa
 items,81,Ruins Key,chiave del Mausoleum
 items,82,Scout ring,anello da Scout
 items,83,I83 Slime,lettera appiccicosa
-items,84,Entire Recovery Proof,"""Prontuario medico"""
+items,84,Entire Recovery Proof,Prontuario medico
 items,93,Pebble,ciottolo pregiato
 items,94,Bronze Lump,frammento di bronzo
 items,95,Silver Lump,pepita d'argento
@@ -1440,9 +1440,9 @@ items,246,Anti Breath Proof,Pergamena Spezzarespiro
 items,247,Anti Recovery Proof,Pergamena Purificatrice
 items,248,I248 Proof,Libro di Morrie
 items,249,I249 Proof,Pergamena del Maestro del Cammino di battaglia
-items,252,Crushed Metal Proof,'Manuale dell'ammazzametalli'
-items,253,I253 Proof,'Il sigillo dello zero'
-items,254,I254 Proof,'Manuale dell'ammazzagiganti'
+items,252,Crushed Metal Proof,Manuale dell'ammazzametalli
+items,253,I253 Proof,Il sigillo dello zero
+items,254,I254 Proof,Manuale dell'ammazzagiganti
 places,0,Treepidation,Selvascura
 places,1,Doubtback,Vastopiano
 places,2,Iceolation,Gelandia

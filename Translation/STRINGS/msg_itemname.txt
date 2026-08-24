@@ -28,9 +28,9 @@ sterco di mostro
 Seme della speranza
 tessera Pagomeno
 pepita d'oro
-"Pensiero Positivo"
-"Unione e Negatività"
-"Zona Neutrale"
+Pensiero Positivo
+Unione e Negatività
+Zona Neutrale
 essenza Pluvis
 
 
@@ -72,17 +72,17 @@ Stupidamina
 Defendix
 Acceleratonico
 Intellex
-"Teoria della cura"
-"Teoria stregonesca"
-"Teoria d'attacco"
-"Teoria difensiva"
-"Teoria dell'agilità"
-"Teoria saggia"
+Teoria della cura
+Teoria stregonesca
+Teoria d'attacco
+Teoria difensiva
+Teoria dell'agilità
+Teoria saggia
 medaglia misteriosa
 chiave del Mausoleum
 anello da Scout
 lettera appiccicosa
-"Prontuario medico"
+Prontuario medico
 
 
 
@@ -250,8 +250,7 @@ Libro di Morrie
 Pergamena del Maestro del Cammino di battaglia
 
 
-'Manuale dell'ammazzametalli'
-'Il sigillo dello zero'
-'Manuale dell'ammazzagiganti'
-
+Manuale dell'ammazzametalli
+Il sigillo dello zero
+Manuale dell'ammazzagiganti
 

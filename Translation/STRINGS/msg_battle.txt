@@ -56,7 +56,7 @@ Intelligenza
 {322} si gonfia!
 Non fare niente
 Combatti
-Ordine
+Dai Ordini
 Tattiche
 Recluta
 Oggetti
