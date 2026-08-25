@@ -96,7 +96,7 @@ Arena dei mostri
 Deposita
 Ritira
 Annulla
-All
+Tutti
 1000
 10000
 {226} In Hand
@@ -109,7 +109,7 @@ Fine
 
 
 
-All
+Tutti
 {20e}Famiglia Slime
 {20f}Famiglia Draghi
 {210}Famiglia Naturali
