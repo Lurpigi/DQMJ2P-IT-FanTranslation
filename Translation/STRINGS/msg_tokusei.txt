@@ -227,20 +227,20 @@ Sap Guard
 Decelerate Guard
 Dim Guard
 Magical Sabotage Guard
-2-3 Actions
-2 Actions
-1-3 Actions
-0-4 Actions
-1-2 Actions
+Mega 2-3 Actions
+Mega 2 Actions
+Mega 1-3 Actions
+Mega 0-4 Actions
+Mega 1-2 Actions
 Spell Satisfaction
 Suicidal Satisfaction
 Immediate Netherfog
 Immediate Break Seal
-2-3 Actions
-2 Actions
-1-3 Actions
-0-4 Actions
-1-2 Actions
+Giga 2-3 Actions
+Giga 2 Actions
+Giga 1-3 Actions
+Giga 0-4 Actions
+Giga 1-2 Actions
 Random Oomph
 Random Buff
 Random Accelerate
