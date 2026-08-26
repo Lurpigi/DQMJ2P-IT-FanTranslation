@@ -400,6 +400,7 @@ def main(argv=None):
         update_y9,
         apply_grow_msg_pool,
         apply_grow_actionhelp,
+        apply_cheat_taint,
         apply_xp_mult,
         apply_xvariant_suffix,
         apply_gender_icons,
@@ -443,6 +444,7 @@ def main(argv=None):
             update_y9,
             apply_grow_msg_pool,
             apply_grow_actionhelp,
+            apply_cheat_taint,
             apply_xp_mult,
             apply_xvariant_suffix,
             apply_gender_icons,
@@ -497,6 +499,15 @@ def main(argv=None):
     arm9 = files["arm9"]
     dec = arm9_decompress(arm9)
     apply_grow_msg_pool(dec, 0x35000)
+    taint_save = any((
+        args.xp_mult is not None,
+        args.scout_offense,
+        args.scout_penalty,
+        args.synthesis_level is not None,
+        args.synthesis_polarity,
+    ))
+    if taint_save:
+        apply_cheat_taint(dec)
     if args.xvariant_suffix:
         apply_xvariant_suffix(dec)
     arm9.write_bytes(arm9_compress(dec))

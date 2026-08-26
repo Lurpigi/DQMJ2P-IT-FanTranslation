@@ -25,6 +25,25 @@ Y9_COMPRESS_FLAG = 0x01 << 24
 
 OV_RAM_BASE = 0x021d7240
 
+# RetroAchievements anti-cheat marker.  The chosen bit is the otherwise-unused
+# Rigor Mortex XY "seen" flag in the checksummed save data.  A marked ROM sets
+# it whenever the game's main save-data accessor is used; the next normal save
+# therefore makes the marker persistent.
+CHEAT_TAINT_HOOK   = 0x020633BC
+CHEAT_TAINT_CAVE   = 0x020DC708
+CHEAT_TAINT_ADDR   = 0x021C0AB8
+CHEAT_TAINT_MASK   = 0x20
+SAVE_PAYLOAD_BASE  = 0x021BD51C
+
+# Cosmetic fixes intentionally do not taint a save.
+CHEAT_TAINT_PATCHES = frozenset({
+    'xp_mult',
+    'scout_offense',
+    'scout_penalty',
+    'synthesis_level',
+    'synthesis_polarity',
+})
+
 
 # ── BLZ helpers ───────────────────────────────────────────────────────────────
 
@@ -114,6 +133,55 @@ def apply_grow_actionhelp(dec: bytearray):
     # No binary patch needed if msg_actionhelp fits the original 0x3000 buffer.
     # Direct-calling 0x0205d9e8 corrupts battle monster/action state.
     print("  grow_actionhelp: using original 0x3000 actionhelp buffer")
+
+
+def apply_cheat_taint(dec: bytearray):
+    """Make gameplay-option use permanently visible to RetroAchievements.
+
+    The hook replaces the tiny accessor at 0x020633bc.  Its trampoline preserves
+    the accessor's original return value while ORing the marker into save-backed
+    RAM.  It never clears the marker.
+    """
+    hook_off = CHEAT_TAINT_HOOK - ARM9_BASE
+    cave_off = CHEAT_TAINT_CAVE - ARM9_BASE
+    expected_hook = (0xE59F0000, 0xE12FFF1E)
+    current_hook = struct.unpack_from('<II', dec, hook_off)
+    if current_hook != expected_hook:
+        sys.exit(
+            f'cheat_taint: unexpected code at 0x{CHEAT_TAINT_HOOK:08x}: '
+            f'{current_hook[0]:08x} {current_hook[1]:08x}'
+        )
+
+    cave_size = 0x20
+    if cave_off < 0 or cave_off + cave_size > len(dec):
+        sys.exit('cheat_taint: ARM9 code cave is outside the decompressed image')
+    if any(dec[cave_off:cave_off + cave_size]):
+        sys.exit(f'cheat_taint: code cave at 0x{CHEAT_TAINT_CAVE:08x} is not empty')
+
+    # ldr r1, [pc, #0x10]       ; marker byte address
+    # ldrb r2, [r1]
+    # orr r2, r2, #0x20
+    # strb r2, [r1]
+    # ldr r0, [pc, #4]          ; original accessor return value
+    # bx lr
+    # .word CHEAT_TAINT_ADDR, SAVE_PAYLOAD_BASE
+    cave_words = (
+        0xE59F1010,
+        0xE5D12000,
+        0xE3822020,
+        0xE5C12000,
+        0xE59F0004,
+        0xE12FFF1E,
+        CHEAT_TAINT_ADDR,
+        SAVE_PAYLOAD_BASE,
+    )
+    struct.pack_into('<8I', dec, cave_off, *cave_words)
+    branch = 0xEA000000 | (((CHEAT_TAINT_CAVE - CHEAT_TAINT_HOOK - 8) // 4) & 0xFFFFFF)
+    struct.pack_into('<I', dec, hook_off, branch)
+    print(
+        f'  cheat_taint: gameplay options mark RAM 0x{CHEAT_TAINT_ADDR:08x} '
+        f'with mask 0x{CHEAT_TAINT_MASK:02x}'
+    )
 
 
 
@@ -398,6 +466,8 @@ def main():
     def sel(key): return state[key]['selected']
     def val(key): return state[key]['value']
 
+    taint_save = any(sel(key) for key in CHEAT_TAINT_PATCHES)
+
     print()
     print('Applying patches...')
     print()
@@ -408,6 +478,8 @@ def main():
         arm9_path = files['arm9']
         dec = arm9_decompress(arm9_path)
         apply_grow_msg_pool(dec, val('grow_msg_pool'))
+        if taint_save:
+            apply_cheat_taint(dec)
         if sel('xvariant_suffix'):
             apply_xvariant_suffix(dec)
         final = arm9_compress(dec)
@@ -415,6 +487,8 @@ def main():
         print(f'  wrote {arm9_path} ({len(final):#x} bytes)')
         print()
     else:
+        if taint_save:
+            sys.exit('arm9.bin not found — refusing to create an unmarked gameplay-patched ROM')
         print('WARNING: arm9.bin not found — skipping arm9 patches')
 
     # ── overlay_0001 ──────────────────────────────────────────────────────────
