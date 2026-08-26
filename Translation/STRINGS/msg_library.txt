@@ -16,7 +16,7 @@
 
 
 Doubles the chance of evading{315}enemy attacks.
-Cuts damage sustained from enemy{315}attacks to 1/3.
+Reduces damage taken from enemy attacks{315}to 1/3, but MP consumption{315}is tripled.
 Allows monsters to psyche up in battle.
 Monster will act twice in succession{315}when not given specific orders.
 Doubles the chance of landing a{315}critical hit.
@@ -135,8 +135,8 @@ Reduces enemies' resistance to{315}Donk-type magic.{315}Has no effect on enemies
 Reduces enemies' resistance to all{315}spells, abilities and status ailments.
 Acts 2-3 times in a row.{315}Remaining actions are not cancelled{315}even if orders are given.
 Acts 0-4 times in a row.{315}Remaining actions are not cancelled{315}even if orders are given.
-Damage taken from enemy attacks{315}are halved, but MP consumption{315}is doubled.
-Damage taken from enemy attacks{315}are quartered, but MP consumption{315}is quadrupled.
+Reduces damage taken from enemy attacks{315}to 1/2, but MP consumption{315}is doubled.
+Reduces damage taken from enemy attacks{315}to 1/4, but MP consumption{315}is quadrupled.
 At the start of battle,{315}may cast Oomph on itself.
 At the start of battle,{315}may cast Kabuff on itself.
 At the start of battle,{315}may cast Acceleratle on itself.
