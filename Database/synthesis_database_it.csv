@@ -28,8 +28,8 @@ Verdrago,E,Drago,Lacertoflamma,Lacertoflamma,,
 Metaldragone,C,Drago,Porpordrago,Mechator grigio,,
 Drago marino,C,Drago,Drago d'acqua,Malanguilla,,
 Drago marino,C,Drago,Drago d'acqua,Sentripede,,
-Cavaliere dei Draghi,B,Drago,Dragarcio,Cavaliere feroce,,
-Cavaliere dei Draghi,B,Drago,Dragarcio,Paladino Slime,,
+Cavalier dei Draghi,B,Drago,Dragarcio,Cavaliere feroce,,
+Cavalier dei Draghi,B,Drago,Dragarcio,Paladino Slime,,
 Serpe eterea,B,Drago,Serpe boreale,Serpe boreale,Serpe boreale,Serpe boreale
 Frufrù,B,Drago,Frufrina,Frufrina,Frufrina,Frufrina
 Megacertola,B,Drago,Dragocertola,Dragocertola,Dragocertola,Dragocertola
@@ -37,11 +37,11 @@ Mandragola soldato,B,Drago,Fantagnan,Porpordrago,,
 Gigadragone,A,Drago,Rashaverak,Alfino,,
 Gigadragone,A,Drago,Rashaverak,Ardimentauro,,
 Gigadragone,A,Drago,Rashaverak,Tartaculei,,
-Gigadragone,A,Drago,Rashaverak,Signore dei desideri,,
+Gigadragone,A,Drago,Rashaverak,Sire dei desideri,,
 Mechadrago,A,Drago,Metaldragone,Gigadragone,,
 Mechadrago,A,Drago,Metaldragone,Rashaverak,,
 Rashaverak,A,Drago,Megacertola,Megacertola,Frufrù,Frufrù
-Ardimentauro,A,Drago,Cavaliere Aberrante,Cavaliere dei Draghi,,
+Ardimentauro,A,Drago,Cavaliere Aberrante,Cavalier dei Draghi,,
 Ardimentauro,A,Drago,Cavaliere Aberrante,Lardodragon,,
 Ardimentauro,A,Drago,Cavaliere Aberrante,Mandragola soldato,,
 Ardimentauro,A,Drago,Cavaliere Aberrante,Tartaculei,,
@@ -116,9 +116,9 @@ Gigante,A,Bestia,Baleviatan,Spiritocchio,,
 Generale Soinos,A,Bestia,Cresta furiosa,Slon la Torre,,
 Marchese de Léon,A,Bestia,Pachidermico,Pachidermico,,
 Marchese de Léon,A,Bestia,Cresta furiosa,Bufalorco,,
-Cresta furiosa,A,Bestia,Signore dei desideri,Koguar,,
-Cresta furiosa,A,Bestia,Signore dei desideri,Ardimentauro,,
-Cresta furiosa,A,Bestia,Signore dei desideri,Slimpunk,,
+Cresta furiosa,A,Bestia,Sire dei desideri,Koguar,,
+Cresta furiosa,A,Bestia,Sire dei desideri,Ardimentauro,,
+Cresta furiosa,A,Bestia,Sire dei desideri,Slimpunk,,
 Basettos,A,Bestia,Bufalorco,Montone dannato,,
 Slon la Torre,A,Bestia,Bufalorco,Mandragola soldato,,
 Taurus,A,Bestia,Bufalorco,Gigante,,
@@ -129,12 +129,12 @@ Balzack,S,Bestia,Gigante,Bestiah,,
 Balzack,S,Bestia,Gigante,Lardodragon,,
 Balzack,S,Bestia,Gigante,Megacertola,,
 Dhoulmagus,S,Bestia,Dragobastro,Tiranosfascia,,
-Don Mole,S,Bestia,Cattivalpa,Cattivalpa,Randellatore notturno,Randellatore notturno
+Don Mole,S,Bestia,Cattivalpa,Cattivalpa,Randellatore oscuro,Randellatore oscuro
 Re Sanguini,S,Bestia,Sanguonicum,Sanguinigenio,Pipit,Pipetto Anziano
-Musferatu,S,Bestia,Barone Von Bellycose,Gigalunfo,,
-Randellatore notturno,S,Bestia,Troll capo,Lardodragon,,
-Randellatore notturno,S,Bestia,Troll capo,Frufrù,,
-Randellatore notturno,S,Bestia,Troll capo,Rosapiteco,,
+Musferatu,S,Bestia,Barone Bellycose,Gigalunfo,,
+Randellatore oscuro,S,Bestia,Troll capo,Lardodragon,,
+Randellatore oscuro,S,Bestia,Troll capo,Frufrù,,
+Randellatore oscuro,S,Bestia,Troll capo,Rosapiteco,,
 Aquarion,SS,Bestia,Gracos,Nokturnus,,
 Pruslas,SS,Bestia,Rovina,Dragobastro,,
 Pruslas,SS,Bestia,Rovina,Atlas,,
@@ -156,18 +156,18 @@ Rottame d'acciaio,B,Materiale,Mechator grigio,Mechator grigio,,
 Corriere Corrotto,B,Materiale,Carrettiere,Carrettiere,Carrettiere,Carrettiere
 Magmalvagio,B,Materiale,Penna di fuoco,Golem,,
 Skrigno dentato,B,Materiale,Cannibaule,Cannibaule,Cannibaule,Cannibaule
-Signore dei desideri,B,Materiale,Dademone blu,Golem,,
-Signore dei desideri,B,Materiale,Mezzo porco,Golem,,
-Signore dei desideri,B,Materiale,Pocomacho,Golem,,
+Sire dei desideri,B,Materiale,Dademone blu,Golem,,
+Sire dei desideri,B,Materiale,Mezzo porco,Golem,,
+Sire dei desideri,B,Materiale,Pocomacho,Golem,,
 Centopetra,A,Materiale,Golem,Golem,Golem dorato,Golem dorato
 Centopetra,A,Materiale,Magmalvagio,Gelmonio,Golem,Golem dorato
 Centopetra,A,Materiale,Magmalvagio,Magmalvagio,Gelmonio,Gelmonio
 Mechacentauro,A,Materiale,Mechator grigio,Mechator grigio,Mechator grigio,Mechator grigio
 Statua vivente,A,Materiale,Golem,Golem,Golem,Golem
 Borgomietitore,A,Materiale,Juggulare,Cyber Slime,,
-Guerriero di terracotta,A,Materiale,Magibambola,Magibambola,Magibambola,Magibambola
+Condottierracotto,A,Materiale,Magibambola,Magibambola,Magibambola,Magibambola
 Scudorkus,S,Materiale,Borgomietitore,Statua vivente,,
-Scudorkus,S,Materiale,Borgomietitore,Guerriero di terracotta,,
+Scudorkus,S,Materiale,Borgomietitore,Condottierracotto,,
 Scudorkus,S,Materiale,Borgomietitore,Demonskrigno,,
 Mambu-Jambo,S,Materiale,Mam,Bu,Jam,Bo
 Robocentauro,S,Materiale,Centopetra,Centopetra,Mechacentauro,Mechacentauro
@@ -197,9 +197,9 @@ Druido del male,B,Demone,Destructore,Burattinaio nero,,
 Mago pancione,B,Demone,Malampada,Cumulus Rex,,
 Jamirus,B,Demone,Grifone,Custode tetro,,
 Cavaliere Aberrante,B,Demone,Armatura killer,Asciasauro,,
-Barone Von Bellycose,A,Demone,Mago pancione,Arcidemone,,
-Barone Von Bellycose,A,Demone,Mago pancione,Troll capo,,
-Barone Von Bellycose,A,Demone,Mago pancione,Druido del male,,
+Barone Bellycose,A,Demone,Mago pancione,Arcidemone,,
+Barone Bellycose,A,Demone,Mago pancione,Troll capo,,
+Barone Bellycose,A,Demone,Mago pancione,Druido del male,,
 Bestiah,A,Demone,Arcidemone,Arcidemone,Arcidemone,Arcidemone
 Bestiah,A,Demone,Arcidemone,Centopetra,,
 Bestiah,A,Demone,Arcidemone,Gigadragone,,
@@ -217,8 +217,8 @@ Re Korol,A,Demone,Anima torturata,Rashaverak,,
 Rosapiteco,A,Demone,Silvapiteco,Silvapiteco,Silvapiteco,Silvapiteco
 Rosapiteco,A,Demone,Silvapiteco,Terrorantula,,
 Rosapiteco,A,Demone,Silvapiteco,Rashaverak,,
-Aamon,S,Demone,Re Korol,Barone Von Bellycose,,
-Aamon,S,Demone,Re Korol,Guerriero di terracotta,,
+Aamon,S,Demone,Re Korol,Barone Bellycose,,
+Aamon,S,Demone,Re Korol,Condottierracotto,,
 Padramos,S,Demone,Tartaculei,Scaradozer,,
 Padramos,S,Demone,Tartaculei,Semper Actualis,,
 Neromar,S,Demone,Aamon,Pope Skriterioska,,
@@ -227,7 +227,7 @@ Hargon,S,Demone,Duran,Druido supremo,,
 Malroth,S,Demone,Hargon,Demone multimani,,
 Malroth,S,Demone,Hargon,Piovron,,
 Lacertow,S,Demone,Wasen,Musferatu,,
-Lacertow,S,Demone,Wasen,Randellatore notturno,,
+Lacertow,S,Demone,Wasen,Randellatore oscuro,,
 Titanis,S,Demone,Basettos,Atlas,,
 Titanis,S,Demone,Basettos,Tri Aculeo,,
 Tiranosfascia,S,Demone,Hyperanemon,Kapurim,,
@@ -243,7 +243,7 @@ Epidemon,B,Non-morti,Zombeeh,Ira,,
 Soldaskeletro,B,Non-morti,Skeletro,Skeletro,Skeletro,Skeletro
 Ira,B,Non-morti,Fuoco fatuo,Fuoco fatuo,Fuoco fatuo,Fuoco fatuo
 Ira,B,Non-morti,Phantasma,Phantasma,Phantasma,Phantasma
-Cavaliere dell'Ombra,B,Non-morti,Cavalier Mortimer,Principe Spectros,,
+Cavalier dell'Ombra,B,Non-morti,Cavalier Mortimer,Principe Spectros,,
 Baron Skeletro,A,Non-morti,Cavalier Mortimer,Cavalier Mortimer,,
 Terrorantula,A,Non-morti,Vermex,Fiore della morte,,
 Terrorantula,A,Non-morti,Vermex,Paladinorribilis,,
@@ -260,7 +260,7 @@ Guardarosa,A,Non-morti,Armatura letale,Assalitore marino,,
 Anima torturata,A,Non-morti,Cavalier Terror,Cobra cardinale,,
 Anima torturata,A,Non-morti,Cavalier Terror,Epidemon,,
 Anima torturata,A,Non-morti,Cavalier Terror,Kantalga,,
-Anima torturata,A,Non-morti,Cavalier Terror,Cavaliere dell'Ombra,,
+Anima torturata,A,Non-morti,Cavalier Terror,Cavalier dell'Ombra,,
 Kantalga,A,Non-morti,Alga sovrana,Principe Spectros,,
 Kantalga,A,Non-morti,Alga sovrana,Soldaskeletro,,
 Dullahan,S,Non-morti,Baron Skeletro,Paladinorribilis,,
@@ -298,7 +298,7 @@ Re Slime, C, Slime, Slime, Slime, Slime, Slime
 Multifoglia Klar,B,Slime,Ovomarch,Multifoglia,,
 Gang Slime,A,Slime,Re Curaslime,Magislime,Re Slime,Re Slime maculato
 Ultra Slime,A,Slime,Duran,Assalitore marino,Paladino Slime,Metalcabal Slime
-Slime Nemo,A,Slime,Duran,Cavaliere dell'Ombra,Milislime oscuro,Slime oscuro
+Slime Nemo,A,Slime,Duran,Cavalier dell'Ombra,Milislime oscuro,Slime oscuro
 Tankissimus,S,Slime,Forte di Nadiria,Slime Darkonium,Ultra Slime,Rospo blu
 Ragazza Slider,S,Slime,Slime Perbellum,Mechadrago,Scorpia,Slime angelico
 Slime Blaster,S,Slime,Tankissimus,Empyrea,Cancerio,Ragazza Slider
@@ -319,7 +319,7 @@ Squigno,B,Bestia,Athos,Athos,Kan Kanide,Kan Kanide
 Robbin's Lady,SS,Bestia,Psaro,Malroth,Ruban Hood,Draku Lard
 Ovattino,SS,Bestia,Dhoulmagus,Sanguinigenio,,
 Mechator grigio,C,Materiale,Metalcabal Slime,Armatura letale,,
-Forte di Nadiria,A,Materiale,Guerriero di terracotta,Statua vivente,,
+Forte di Nadiria,A,Materiale,Condottierracotto,Statua vivente,,
 Cybercentauro,S,Materiale,Robocentauro,Atlas,Tyrantosauro,Riditarra
 Carro Slival,SS,Materiale,Slime Blaster,Rovina,Scudorkus,Slime Nemo
 Vegetribù,F,Demone,Monocolo,Dragocertola,,

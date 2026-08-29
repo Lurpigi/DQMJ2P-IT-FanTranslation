@@ -86,8 +86,8 @@ id,nome mostro
 84,
 85,Lacertoflamma
 86,Libruttula
-87,Testuggine corazzata
-88,Cavaliere dei Draghi
+87,Tartaruga corazzata
+88,Cavalier dei Draghi
 89,Rashaverak
 90,Tartaculei
 91,Ardimentauro
@@ -233,10 +233,10 @@ id,nome mostro
 231,Caneffu
 232,Cumulus Rex
 233,Octagos
-234,Signore dei desideri
+234,Sire dei desideri
 235,Rottame d'acciaio
 236,Borgomietitore
-237,Guerriero di terracotta
+237,Condottierracotto
 238,Scudorkus
 239,Semper Actualis
 240,Vampistrello
@@ -262,7 +262,7 @@ id,nome mostro
 260,Rosapiteco
 261,Gracos
 262,Bestiah
-263,Randellatore notturno
+263,Randellatore oscuro
 264,Malroth
 265,Zoma
 266,Nimzo
@@ -282,7 +282,7 @@ id,nome mostro
 280,Mago pancione
 281,Juggulare
 282,Generale Gufus
-283,Barone Von Bellycose
+283,Barone Bellycose
 284,Re Korol
 285,Hyperanemon
 286,Neromar
@@ -318,7 +318,7 @@ id,nome mostro
 316,Druido supremo
 317,Granchio oscuro
 318,Cobra cardinale
-319,Cavaliere dell'Ombra
+319,Cavalier dell'Ombra
 320,Epidemon
 321,Gigalunfo
 322,Verme delle Grotte
@@ -486,7 +486,7 @@ id,nome mostro
 484,Cancerio
 485,Armour
 486,Rigor Mortex
-487,Cavaliere dell'Ombra
+487,Cavalier dell'Ombra
 488,Cavaliere Aberrante
 489,Centopetra
 490,Serpe eterea
@@ -497,7 +497,7 @@ id,nome mostro
 495,Metaliquislime
 496,Sagitta
 497,Traumatizzator
-498,Randellatore notturno
+498,Randellatore oscuro
 499,Generale Gufus
 500,Sanguinis
 501,Sanguonicum

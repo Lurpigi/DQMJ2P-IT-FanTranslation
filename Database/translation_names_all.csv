@@ -79,8 +79,8 @@ monsters,82,Megalodon,Megalodonte
 monsters,83,Alabast Dragon,Dragobastro
 monsters,85,LizardFly,Lacertoflamma
 monsters,86,Damselfly,Libruttula
-monsters,87,Armoured Wartoise,Testuggine corazzata
-monsters,88,Dragon Rider,Cavaliere dei Draghi
+monsters,87,Armoured Wartoise,Tartaruga corazzata
+monsters,88,Dragon Rider,Cavalier dei Draghi
 monsters,89,Rashaverak,Rashaverak
 monsters,90,Tortoceratops,Tartaculei
 monsters,91,Sintaur,Ardimentauro
@@ -223,10 +223,10 @@ monsters,230,Harmour,Armour
 monsters,231,Foo Dog,Caneffu
 monsters,232,Cumulus Rex,Cumulus Rex
 monsters,233,Octagoon,Octagos
-monsters,234,Wishmaster,Signore dei desideri
+monsters,234,Wishmaster,Sire dei desideri
 monsters,235,Stainless Scrapper,Rottame d'acciaio
 monsters,236,Scytheborg,Borgomietitore
-monsters,237,ClayNite,Guerriero di terracotta
+monsters,237,ClayNite,Condottierracotto
 monsters,238,Shield Ogre,Scudorkus
 monsters,239,Time Sage,Semper Actualis
 monsters,240,Dracky,Vampistrello
@@ -252,7 +252,7 @@ monsters,259,Mohawker,Cresta furiosa
 monsters,260,Pazuzu,Rosapiteco
 monsters,261,Gracos,Gracos
 monsters,262,Belial,Bestiah
-monsters,263,Night Clubber,Randellatore notturno
+monsters,263,Night Clubber,Randellatore oscuro
 monsters,264,Malroth,Malroth
 monsters,265,Zoma,Zoma
 monsters,266,Nimzo,Nimzo
@@ -272,7 +272,7 @@ monsters,279,General,Capitan Catastrofe
 monsters,280,High Djinks,Mago pancione
 monsters,281,Juggular,Juggulare
 monsters,282,Hootingham Gore,Generale Gufus
-monsters,283,Demon King,Barone Von Bellycose
+monsters,283,Demon King,Barone Bellycose
 monsters,284,King Korol,Re Korol
 monsters,285,Hyperanemon,Hyperanemon
 monsters,286,Blackmar,Neromar
@@ -308,7 +308,7 @@ monsters,315,Phantom Swordsman,Principe Spectros
 monsters,316,Wight King,Druido supremo
 monsters,317,DarkCrab,Granchio oscuro
 monsters,318,Cobra Cardinal,Cobra cardinale
-monsters,319,Wight Knight,Cavaliere dell'Ombra
+monsters,319,Wight Knight,Cavalier dell'Ombra
 monsters,320,Ragin` Contagion,Epidemon
 monsters,321,GigaMute,Gigalunfo
 monsters,322,Drakorpse,Verme delle Grotte
@@ -458,7 +458,7 @@ monsters,483,Don Mole,Don Mole
 monsters,484,Canzar,Cancerio
 monsters,485,Harmour,Armour
 monsters,486,Libranex,Rigor Mortex
-monsters,487,Wight Knight,Cavaliere dell'Ombra
+monsters,487,Wight Knight,Cavalier dell'Ombra
 monsters,488,Mad Knight,Cavaliere Aberrante
 monsters,489,Balhib,Centopetra
 monsters,490,Ethereal Serpent,Serpe eterea
@@ -469,7 +469,7 @@ monsters,494,Demon-at-arms,Demone multimani
 monsters,495,Liquid Metal Slime,Metaliquislime
 monsters,496,Sagittar,Sagitta
 monsters,497,Trauminator,Traumatizzator
-monsters,498,Night Clubber,Randellatore notturno
+monsters,498,Night Clubber,Randellatore oscuro
 monsters,499,Hootingham Gore,Generale Gufus
 monsters,500,Perfect Sanguini,Sanguinis
 monsters,501,Pink Sanguini,Sanguonicum

@@ -79,8 +79,8 @@ id,english,italian
 83,Alabast Dragon,Dragobastro
 85,LizardFly,Lacertoflamma
 86,Damselfly,Libruttula
-87,Armoured Wartoise,Testuggine corazzata
-88,Dragon Rider,Cavaliere dei Draghi
+87,Armoured Wartoise,Tartaruga corazzata
+88,Dragon Rider,Cavalier dei Draghi
 89,Rashaverak,Rashaverak
 90,Tortoceratops,Tartaculei
 91,Sintaur,Ardimentauro
@@ -223,10 +223,10 @@ id,english,italian
 231,Foo Dog,Caneffu
 232,Cumulus Rex,Cumulus Rex
 233,Octagoon,Octagos
-234,Wishmaster,Signore dei desideri
+234,Wishmaster,Sire dei desideri
 235,Stainless Scrapper,Rottame d'acciaio
 236,Scytheborg,Borgomietitore
-237,ClayNite,Guerriero di terracotta
+237,ClayNite,Condottierracotto
 238,Shield Ogre,Scudorkus
 239,Time Sage,Semper Actualis
 240,Dracky,Vampistrello
@@ -252,7 +252,7 @@ id,english,italian
 260,Pazuzu,Rosapiteco
 261,Gracos,Gracos
 262,Belial,Bestiah
-263,Night Clubber,Randellatore notturno
+263,Night Clubber,Randellatore oscuro
 264,Malroth,Malroth
 265,Zoma,Zoma
 266,Nimzo,Nimzo
@@ -272,7 +272,7 @@ id,english,italian
 280,High Djinks,Mago pancione
 281,Juggular,Juggulare
 282,Hootingham Gore,Generale Gufus
-283,Demon King,Barone Von Bellycose
+283,Demon King,Barone Bellycose
 284,King Korol,Re Korol
 285,Hyperanemon,Hyperanemon
 286,Blackmar,Neromar
@@ -308,7 +308,7 @@ id,english,italian
 316,Wight King,Druido supremo
 317,DarkCrab,Granchio oscuro
 318,Cobra Cardinal,Cobra cardinale
-319,Wight Knight,Cavaliere dell'Ombra
+319,Wight Knight,Cavalier dell'Ombra
 320,Ragin` Contagion,Epidemon
 321,GigaMute,Gigalunfo
 322,Drakorpse,Verme delle Grotte
@@ -458,7 +458,7 @@ id,english,italian
 484,Canzar,Cancerio
 485,Harmour,Armour
 486,Libranex,Rigor Mortex
-487,Wight Knight,Cavaliere dell'Ombra
+487,Wight Knight,Cavalier dell'Ombra
 488,Mad Knight,Cavaliere Aberrante
 489,Balhib,Centopetra
 490,Ethereal Serpent,Serpe eterea
@@ -469,7 +469,7 @@ id,english,italian
 495,Liquid Metal Slime,Metaliquislime
 496,Sagittar,Sagitta
 497,Trauminator,Traumatizzator
-498,Night Clubber,Randellatore notturno
+498,Night Clubber,Randellatore oscuro
 499,Hootingham Gore,Generale Gufus
 500,Perfect Sanguini,Sanguinis
 501,Pink Sanguini,Sanguonicum

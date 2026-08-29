@@ -85,8 +85,8 @@ Dragobastro
 
 Lacertoflamma
 Libruttula
-Testuggine corazzata
-Cavaliere dei Draghi
+Tartaruga corazzata
+Cavalier dei Draghi
 Rashaverak
 Tartaculei
 Ardimentauro
@@ -232,10 +232,10 @@ Armour
 Caneffu
 Cumulus Rex
 Octagos
-Signore dei desideri
+Sire dei desideri
 Rottame d'acciaio
 Borgomietitore
-Guerriero di terracotta
+Condottierracotto
 Scudorkus
 Semper Actualis
 Vampistrello
@@ -261,7 +261,7 @@ Cresta furiosa
 Rosapiteco
 Gracos
 Bestiah
-Randellatore notturno
+Randellatore oscuro
 Malroth
 Zoma
 Nimzo
@@ -281,7 +281,7 @@ Capitan Catastrofe
 Mago pancione
 Juggulare
 Generale Gufus
-Barone Von Bellycose
+Barone Bellycose
 Re Korol
 Hyperanemon
 Neromar
@@ -317,7 +317,7 @@ Principe Spectros
 Druido supremo
 Granchio oscuro
 Cobra cardinale
-Cavaliere dell'Ombra
+Cavalier dell'Ombra
 Epidemon
 Gigalunfo
 Verme delle Grotte
@@ -485,7 +485,7 @@ Don Mole
 Cancerio
 Armour
 Rigor Mortex
-Cavaliere dell'Ombra
+Cavalier dell'Ombra
 Cavaliere Aberrante
 Centopetra
 Serpe eterea
@@ -496,7 +496,7 @@ Demone multimani
 Metaliquislime
 Sagitta
 Traumatizzator
-Randellatore notturno
+Randellatore oscuro
 Generale Gufus
 Sanguinis
 Sanguonicum

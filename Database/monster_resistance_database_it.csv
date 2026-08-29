@@ -156,7 +156,7 @@ C,154,Burattinaio nero,1,Material,,,-25%,,,,,,,^50%,Immune,,,-25%,-25%,,Immune,^
 C,155,Aggroscultura,1,Demon,,Immune,Immune,^50%,-25%,,,,,,,,,^50%,Immune,-25%,,,,^50%,-25%,,,,,Immune,,
 C,156,Granchio oscuro,1,Zombie,-25%,Immune,,,,^50%,,,,,Immune,-25%,^50%,Immune,,Immune,,,^50%,,-25%,,,,,,,
 C,157,Torreslime,1,Slime,,-25%,,,^50%,-25%,,,,,,Immune,,,,,,^50%,,-25%,Immune,,,,Immune,^25%,,Immune
-C,158,Testuggine corazzata,1,Dragon,,,,Immune,,,^50%,,,-25%,,^50%,-25%,,,,,,-25%,,^50%,Immune,,Immune,,,,Immune
+C,158,Tartaruga corazzata,1,Dragon,,,,Immune,,,^50%,,,-25%,,^50%,-25%,,,,,,-25%,,^50%,Immune,,Immune,,,,Immune
 C,159,Scimmia fracassona,1,Nature,,^50%,,,,,-25%,,,Immune,,,,,-25%,^50%,,,,-25%,^50%,,Immune,,Immune,,Immune,
 C,160,Great Sabercat,1,Nature,,^50%,^50%,,,,-25%,,,,,,,,-25%,^50%,,,,^50%,^50%,,Immune,,Immune,,,
 C,161,Trigertauro,1,Beast,^50%,,,-25%,,,,,,,Immune,,Immune,Immune,^50%,Immune,-25%,-25%,,^50%,,,,,,,Immune,
@@ -235,7 +235,7 @@ B,233,Cavalier Terror,1,Zombie,-25%,,,Immune,-25%,^50%,,,,,,-25%,^50%,Immune,,Im
 B,234,Ragin' Contagion ,1,Zombie,-25%,,,,,^50%,,,,,Immune,-25%,Immune,Immune,,Immune,,,^50%,,-25%,,,,,,,
 B,235,Multifoglia Klar,1,Slime,,,,,^50%,-25%,,,,,,Immune,,,,,,^50%,Immune,-25%,Immune,,Immune,,-25%,^50%,,Immune
 B,236,Dragoon,1,Dragon,,,,,,,Immune,,,-25%,,^50%,-25%,,,,Immune,,-25%,,^50%,Immune,,Immune,,,,
-B,237,Cavaliere dei Draghi,1,Dragon,,,Immune,,,,^50%,,,-25%,Immune,^50%,-25%,,,,,,-25%,,^50%,Immune,,Immune,,,,
+B,237,Cavalier dei Draghi,1,Dragon,,,Immune,,,,^50%,,,-25%,Immune,^50%,-25%,,,,,,-25%,,^50%,Immune,,Immune,,,,
 B,238,Corvoscuro,1,Nature,,^50%,,,,,-25%,,,,Immune,,,,-25%,^50%,,,,-25%,^50%,,Immune,,Immune,,,
 B,239,Tanamount,1,Beast,Immune,,,-25%,,,Immune,Immune,,,,,Immune,,^50%,,-25%,-25%,,^50%,,,,,,,Immune,
 B,240,Jam,1,Material,,,-25%,,,,,,,^50%,Immune,,^50%,-25%,,,Immune,^50%,-25%,,Immune,,Immune,-25%,,,,
@@ -246,9 +246,9 @@ B,244,Lardodragon,1,Dragon,,Immune,,,,,^50%,,,-25%,Immune,^50%,-25%,,,,,,-25%,,^
 B,245,Lanciafuoco,1,Nature,Immune,^50%,,,,,-25%,Immune,,,,,,,-25%,^50%,,,,-25%,^50%,,Immune,,Immune,,,
 B,246,Pachidermico,2,Beast,^50%,Immune,,-25%,,,,,,,^50%,,Immune,^50%,Immune,,-25%,-25%,,^50%,,,,,,,Immune,
 B,247,Wasen,3,Beast,^50%,,,-25%,Immune,,,,,Immune,Immune,,Immune,Immune,Immune,Immune,Immune,-25%,,^50%,,-25%,,,,,Immune,
-B,248,Signore dei desideri,2,Material,Immune,,-25%,,,,^50%,,,^50%,Immune,,,-25%,^50%,^50%,Immune,^50%,-25%,,Immune,,,Immune,,,,
+B,248,Sire dei desideri,2,Material,Immune,,-25%,,,,^50%,,,^50%,Immune,,,-25%,^50%,^50%,Immune,^50%,-25%,,Immune,,,Immune,,,,
 B,249,Mago pancione,1,Demon,,,Immune,^50%,-25%,,,,,Immune,,,,^50%,Immune,-25%,,,,^50%,-25%,,,,,Immune,,
-B,250,Cavaliere dell'Ombra,1,Zombie,-25%,,,,,^50%,,,,,,-25%,^50%,Immune,Immune,Immune,,,^50%,,-25%,,,Immune,,,,
+B,250,Cavalier dell'Ombra,1,Zombie,-25%,,,,,^50%,,,,,,-25%,^50%,Immune,Immune,Immune,,,^50%,,-25%,,,Immune,,,,
 B,251,Leonix,1,？？？系,^50%,-25%,^50%,,-25%,,,,,,Immune,,^50%,^50%,,^50%,^50%,-25%,^50%,,-25%,,,^50%,^50%,-25%,-25%,
 A,252,Tortaceratops,1,Dragon,,Immune,,,,,^50%,,,-25%,,^50%,-25%,,,,,,-25%,,^50%,Immune,,Immune,,,Immune,
 A,253,Frigoforo,1,Nature,,^50%,Immune,,,,-25%,,Immune,,,,,,-25%,^50%,,,,-25%,^50%,,Immune,,Immune,,,
@@ -288,7 +288,7 @@ A,286,Ultra Slime,1,Slime,,,Immune,,^50%,-25%,,,,,-25%,,-25%,-25%,-25%,-25%,-25%
 A,287,Garuda,1,Nature,,^50%,,,,,-25%,,,,,,,,-25%,^50%,,,,-25%,^50%,,Immune,,Immune,Immune,,Immune
 A,288,Basettos,1,Beast,^50%,,,-25%,,,Immune,,,,Immune,,,,^50%,,-25%,-25%,,^50%,,,,,,,Immune,
 A,289,Mam,1,Material,,,-25%,,,,,,,^50%,Immune,,^50%,-25%,,,^50%,^50%,-25%,Immune,Immune,,,,,,,
-A,290,Barone Von Bellycose,2,Demon,,,Immune,^50%,-25%,Immune,,,,,^50%,,,Immune,^50%,-25%,^50%,,,^50%,-25%,,,,,Immune,,
+A,290,Barone Bellycose,2,Demon,,,Immune,^50%,-25%,Immune,,,,,^50%,,,Immune,^50%,-25%,^50%,,,^50%,-25%,,,,,Immune,,
 A,291,Gemon,2,Demon,,,,^50%,-25%,Immune,,,,,^50%,,,Immune,^50%,-25%,^50%,,,Immune,,Immune,,,,Immune,,
 A,292,Guardarosa,1,Zombie,-25%,,,,,^50%,,,,Immune,-25%,-25%,^50%,Immune,,Immune,,,^50%,,-25%,,,,,Immune,,
 A,293,Paladinorribilis,1,Zombie,-25%,,,Immune,,^50%,,,Immune,,,-25%,^50%,Immune,,Immune,,Immune,^50%,,-25%,,,,,,,
@@ -303,7 +303,7 @@ A,301,Scimmia Zombie,1,Zombie,-25%,,,^50%,,^50%,,,^50%,,Immune,-25%,^50%,Immune,
 A,302,Baron Skeletro,1,Zombie,-25%,,,,,^50%,,,,,Immune,-25%,^50%,Immune,Immune,Immune,,,^50%,,-25%,,,,,,,
 A,303,Kon ,1,Nature,,^50%,Immune,,,,-25%,,Immune,,,,,,-25%,^50%,,,,-25%,^50%,,Immune,,Immune,,,
 A,304,Drosal Fiend,2,Beast,^50%,,,-25%,,,,,,,Immune,,,Immune,Immune,,-25%,-25%,,^50%,Immune,,,,,,Immune,
-A,305,Guerriero di terracotta,2,Material,,,-25%,,,,,,,^50%,Immune,,Immune,-25%,Immune,^50%,Immune,^50%,-25%,,Immune,,,,,,,
+A,305,Condottierracotto,2,Material,,,-25%,,,,,,,^50%,Immune,,Immune,-25%,Immune,^50%,Immune,^50%,-25%,,Immune,,,,,,,
 A,306,Rosapiteco,1,Demon,,,,Immune,,,,,,,Immune,,,^50%,Immune,-25%,,,,^50%,-25%,,,,,Immune,,
 A,307,Terrorantula,2,Zombie,-25%,,,^50%,,Immune,,,^50%,-25%,Immune,-25%,^50%,^50%,^50%,^50%,^50%,,^50%,,,,,,,,,
 A,308,Re Metalslime,1,Slime,Immune,Immune,Immune,Immune,Immune,Immune,Immune,Immune,Immune,Immune,Immune,Immune,Immune,Immune,,Immune,Immune,^50%,,,,Immune,Immune,Immune,,^25%,Immune,Immune
@@ -332,7 +332,7 @@ S,330,Aamon,2,Demon,,,,^50%,-25%,,,,,,Immune,,,Immune,^50%,-25%,^50%,,,^50%,-25%
 S,331,Pope Skriterioska,1,Zombie,-25%,,,,,Immune,,,,,Immune,-25%,^50%,,,,,,^50%,Immune,-25%,,,,,,,
 S,332,Tri Aculeo,2,Dragon,,,,,,,^50%,,,-25%,Immune,^50%,-25%,Immune,Immune,Immune,Immune,,-25%,,^50%,,,,,,,
 S,333,Pipetto Anziano,1,Nature,,^50%,Immune,,Immune,,-25%,,,,,,,,-25%,^50%,,,,-25%,^50%,,,,,Immune,,
-S,334,Randellatore notturno,1,Beast,^50%,,,-25%,,,,,,,Immune,,,,^50%,,-25%,-25%,,^50%,,,,,,,,
+S,334,Randellatore oscuro,1,Beast,^50%,,,-25%,,,,,,,Immune,,,,^50%,,-25%,-25%,,^50%,,,,,,,,
 S,335,Scudorkus,1,Material,,Immune,-25%,,,,Immune,,,^50%,Immune,,,-25%,,,^50%,^50%,-25%,,,,,,,,Immune,
 S,336,Neromar,1,Demon,,Immune,,^50%,-25%,,,,,,Immune,,,^50%,,-25%,,,,^50%,-25%,,,,,,Immune,
 S,337,Druido supremo,1,Zombie,-25%,Immune,Immune,Immune,^50%,Immune,Immune,,,,Immune,-25%,^50%,,,,Immune,,^50%,,-25%,,,,,,,
