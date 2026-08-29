@@ -1188,7 +1188,7 @@ traits,190,Sudden Kafizzle,Spruzzo supremo immediato
 traits,191,Occ{00}{00} Wis Up,Intellygo casuale
 traits,192,Occ{00}{00} Brake wind,Vento frenante casuale
 traits,193,Occ{00}{00} Kafizzle,Spruzzo supremo casuale
-traits,194,Rarely High Tension,Tensione casuale
+traits,194,Random High Tension,Alta tensione casuale
 traits,195,Rarely Magic Barrier,Barriera magica casuale
 traits,196,Rarely Mist Me,Nebbiamica casuale
 traits,201,Frizz Guard + ,Para-Fiamma
@@ -1219,20 +1219,20 @@ traits,225,Sap Guard +,Para-Indebolente
 traits,226,Decelerate Guard +,Para-Velocimeno
 traits,227,Dim Guard +,Para-Stoopid
 traits,228,T228 Guard +,Para-Sabotamagie
-traits,229,Mega 2-3 attk,2-3 azioni
-traits,230,Mega 2 attk,2 azioni
-traits,231,Mega 1-3 attk,1-3 azioni
-traits,232,Mega 0-4 attk,0-4 azioni
-traits,233,Mega 1-2 attk,1-2 azioni
+traits,229,Mega 2-3 Actions,Mega 2-3 azioni
+traits,230,Mega 2 Actions,Mega 2 azioni
+traits,231,Mega 1-3 Actions,Mega 1-3 azioni
+traits,232,Mega 0-4 Actions,Mega 0-4 azioni
+traits,233,Mega 1-2 Actions,Mega 1-2 azioni
 traits,234,T234,Soddisfazione magica
 traits,235,T235 - Satisfied by Death,Soddisfazione suicida
 traits,236,SuddenT236,Nebbia degli inferi immediata
 traits,237,Sudden Seal Break,Rompipersigilli immediato
-traits,238,Giga 2-3 attk,2-3 azioni
-traits,239,Giga 2 attk,2 azioni
-traits,240,Giga 1-3 attk,1-3 azioni
-traits,241,Giga 0-4 attk,0-4 azioni
-traits,242,Giga 1-2 attk,1-2 azioni
+traits,238,Giga 2-3 Actions,Giga 2-3 azioni
+traits,239,Giga 2 Actions,Giga 2 azioni
+traits,240,Giga 1-3 Actions,Giga 1-3 azioni
+traits,241,Giga 0-4 Actions,Giga 0-4 azioni
+traits,242,Giga 1-2 Actions,Giga 1-2 azioni
 traits,243,Occ{00}{00} Attk,Ooomph casuale
 traits,244,Occ{00}{00} Def,Superdifesa casuale
 traits,245,Occ{00}{00} Agi,Velocipiù casuale
@@ -1240,7 +1240,7 @@ traits,246,Occ{00}{00} Tension,Tensione casuale
 traits,247,Occ{00}{00} Mist,Malocchio casuale
 traits,248,Occ{00}{00} T248,Nebbia degli inferi casuale
 traits,249,Occ{00}{00} Seal Break,Rompipersigilli casuale
-traits,250,T250 Master,Guru della Gravitas
+traits,250,Donkmeister,Guru della Gravitas
 items,1,Herb,erba medicinale
 items,2,Strong herb,medicina potente
 items,3,Special Herb,medicina speciale

@@ -193,7 +193,7 @@ id,english,italian
 191,Occ{00}{00} Wis Up,Intellygo casuale
 192,Occ{00}{00} Brake wind,Vento frenante casuale
 193,Occ{00}{00} Kafizzle,Spruzzo supremo casuale
-194,Rarely High Tension,Tensione casuale
+194,Random High Tension,Alta tensione casuale
 195,Rarely Magic Barrier,Barriera magica casuale
 196,Rarely Mist Me,Nebbiamica casuale
 201,Frizz Guard + ,Para-Fiamma
@@ -224,20 +224,20 @@ id,english,italian
 226,Decelerate Guard +,Para-Velocimeno
 227,Dim Guard +,Para-Stoopid
 228,T228 Guard +,Para-Sabotamagie
-229,Mega 2-3 attk,2-3 azioni
-230,Mega 2 attk,2 azioni
-231,Mega 1-3 attk,1-3 azioni
-232,Mega 0-4 attk,0-4 azioni
-233,Mega 1-2 attk,1-2 azioni
+229,Mega 2-3 Actions,Mega 2-3 azioni
+230,Mega 2 Actions,Mega 2 azioni
+231,Mega 1-3 Actions,Mega 1-3 azioni
+232,Mega 0-4 Actions,Mega 0-4 azioni
+233,Mega 1-2 Actions,Mega 1-2 azioni
 234,T234,Soddisfazione magica
 235,T235 - Satisfied by Death,Soddisfazione suicida
 236,SuddenT236,Nebbia degli inferi immediata
 237,Sudden Seal Break,Rompipersigilli immediato
-238,Giga 2-3 attk,2-3 azioni
-239,Giga 2 attk,2 azioni
-240,Giga 1-3 attk,1-3 azioni
-241,Giga 0-4 attk,0-4 azioni
-242,Giga 1-2 attk,1-2 azioni
+238,Giga 2-3 Actions,Giga 2-3 azioni
+239,Giga 2 Actions,Giga 2 azioni
+240,Giga 1-3 Actions,Giga 1-3 azioni
+241,Giga 0-4 Actions,Giga 0-4 azioni
+242,Giga 1-2 Actions,Giga 1-2 azioni
 243,Occ{00}{00} Attk,Ooomph casuale
 244,Occ{00}{00} Def,Superdifesa casuale
 245,Occ{00}{00} Agi,Velocipiù casuale
@@ -245,4 +245,4 @@ id,english,italian
 247,Occ{00}{00} Mist,Malocchio casuale
 248,Occ{00}{00} T248,Nebbia degli inferi casuale
 249,Occ{00}{00} Seal Break,Rompipersigilli casuale
-250,T250 Master,Guru della Gravitas
+250,Donkmeister,Guru della Gravitas

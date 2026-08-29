@@ -299,16 +299,16 @@ Multifoglia Klar,B,Slime,Ovomarch,Multifoglia,,
 Gang Slime,A,Slime,Re Curaslime,Magislime,Re Slime,Re Slime maculato
 Ultra Slime,A,Slime,Duran,Assalitore marino,Paladino Slime,Metalcabal Slime
 Slime Nemo,A,Slime,Duran,Cavaliere dell'Ombra,Milislime oscuro,Slime oscuro
-Tankissimus,S,Slime,Forte di Nadiria,Re Metalslime,Ultra Slime,Rospo blu
+Tankissimus,S,Slime,Forte di Nadiria,Slime Darkonium,Ultra Slime,Rospo blu
 Ragazza Slider,S,Slime,Slime Perbellum,Mechadrago,Scorpia,Slime angelico
-Slime Blaster,S,Slime,Tankissimus,Empyrea,Cancerio,Slime Darkonium
-Roboslime oscuro,SS,Slime,Sagitta,Carro Slival,Rhapthorne II,Sliamante
+Slime Blaster,S,Slime,Tankissimus,Empyrea,Cancerio,Ragazza Slider
+Roboslime oscuro,SS,Slime,Sagitta,Carro Slival,Rhapthorne II,Trode
 Barbarus,SS,Drago,Orochi,Generale Soinos,Generale Pardus,Generale Gufus
 Drago dimensionale,SS,Drago,Barbarus,Granvert,Dragobastro,Dragone nero
 Ichtus verde,D,Natura,Cacciateste,Zanzakiller,,
 Vermex,D,Natura,Serpe d'ossa,Serpe d'ossa,Serpe boreale,Serpe boreale
 Pipit,C,Natura,Condor blu,Maluovo,,
-Empyrea,A,Natura,Garuda,Garuda,Stella,Stella
+Empyrea,A,Natura,Garuda,Gemon,,
 Pipetto Anziano,S,Natura,Pipit,Nonno Slime,,
 Divino,SS,Natura,Ovattino,Re Sanguini,,
 Sanguinis,E,Bestia,Mastino guerriero,Vampistrello,,
@@ -325,12 +325,13 @@ Carro Slival,SS,Materiale,Slime Blaster,Rovina,Scudorkus,Slime Nemo
 Vegetribù,F,Demone,Monocolo,Dragocertola,,
 Band,D,Demone,Vegetribù,Diavoletto,,
 Ruban Hood,A,Demone,Gigante,Band,,
-Principe Latrum,SS,Demone,Robbin's Lady,Sacco dentato,Ruban Hood,Sacco dentato
-Scruffy,SS,Demone,Pruslas,Zoma,,
-Droll Diabolista,E,Non-morti,Droll,Hipster swingante,,
-Capitan Crow,S,Non-morti,Baron Skeletro,Ossassassino,Mechacentauro,Demonstrum
+Principe Latrum,SS,Demone,Robbin's Lady,Demonskrigno,Ruban Hood,Sacco dentato
+Principe Latrum,SS,Demone,Ruban Hood,Sliamante,,
+Scruffy,SS,Demone,Darck,Sanguinigenio,,
+Droll Diabolista,E,Non-morti,Droll,Blob bianco,,
+Capitan Crow,S,Non-morti,Baron Skeletro,Ossassassino,Piovra regina,Demonstrum
 Leonix,B,？？？,Lince alata,Marchese de Léon,,
-Stella,A,？？？,Virgax,Garuda,,
+Stella,A,？？？,Minitribù,Sanguinis,,
 Mini Zoma,A,？？？,Baron Skeletro,Hargon,,
 Malevoleonex,SS,？？？,Leonix,Asso di picche,,
 Lupicche,SS,？？？,Empyrea,Leopold,,

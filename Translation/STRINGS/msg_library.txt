@@ -16,7 +16,7 @@
 
 
 Raddoppia la probabilità{315}di schivare gli attacchi nemici.
-Riduce a un terzo i danni{315}subiti dagli attacchi nemici.
+Riduce a un terzo i danni subiti{315}dagli attacchi nemici, ma triplica{315}il consumo di PM.
 Permette ai mostri di aumentare la tensione in battaglia.
 Il mostro agirà due volte di seguito{315}quando non riceve ordini specifici.
 Raddoppia la probabilità{315}di mettere a segno un colpo critico.

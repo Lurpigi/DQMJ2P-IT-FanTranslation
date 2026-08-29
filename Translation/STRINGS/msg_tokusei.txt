@@ -192,7 +192,7 @@ Spruzzo supremo immediato
 Intellygo casuale
 Vento frenante casuale
 Spruzzo supremo casuale
-Tensione casuale
+Alta tensione casuale
 Barriera magica casuale
 Nebbiamica casuale
 
@@ -227,20 +227,20 @@ Para-Indebolente
 Para-Velocimeno
 Para-Stoopid
 Para-Sabotamagie
-2-3 azioni
-2 azioni
-1-3 azioni
-0-4 azioni
-1-2 azioni
+Mega 2-3 azioni
+Mega 2 azioni
+Mega 1-3 azioni
+Mega 0-4 azioni
+Mega 1-2 azioni
 Soddisfazione magica
 Soddisfazione suicida
 Nebbia degli inferi immediata
 Rompipersigilli immediato
-2-3 azioni
-2 azioni
-1-3 azioni
-0-4 azioni
-1-2 azioni
+Giga 2-3 azioni
+Giga 2 azioni
+Giga 1-3 azioni
+Giga 0-4 azioni
+Giga 1-2 azioni
 Ooomph casuale
 Superdifesa casuale
 Velocipiù casuale

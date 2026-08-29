@@ -6564,10 +6564,10 @@ SYS_42 0x8
 SAY "{COLOR=2}È un monumento a forma di giungla rigogliosa. C'è un foro sull'altare."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Sembra che il piatto ottenuto da Selvascura possa entrarci."
+SAY "{COLOR=2}Sembra che la medaglia ottenuta da Selvascura possa entrarci."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Vuoi inserire il piatto della giungla?{VOICE=09}"
+SAY "{COLOR=2}Vuoi inserire la medaglia misteriosa?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
