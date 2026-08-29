@@ -46,7 +46,7 @@ SYS_42 0x8
 SAY "{COLOR=2}Esistono individui in grado di trasformare mostri pericolosi in leali alleati.{WAIT}{CLEAR}Essi possono controllare le belve come se fossero parte del proprio corpo."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SAY "{COLOR=2}Queste persone sono conosciute con il nome di \"Scout\". Sta per avere inizio la sfida{WAIT}{CLEAR}che deciderà chi è il migliore Scout del mondo..."
+SAY "{COLOR=2}Queste persone sono conosciute con il nome di \"Scout\". Sta per avere inizio{WAIT}{CLEAR}la sfida che deciderà chi è il migliore Scout del mondo..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_43 0x8 
