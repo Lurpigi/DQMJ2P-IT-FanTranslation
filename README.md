@@ -13,7 +13,9 @@ Database of Monster [Synthesis](https://saneezore.github.io/DQMJ2Pro_Translation
 Database of Monster [Stats and Traits](https://github.com/Saneezore/DQMJ2Pro_Translation/blob/master/Database/monster_database.csv).<br>
 Database of Monster [Resistances](https://github.com/Saneezore/DQMJ2Pro_Translation/blob/master/Database/monster_resistance_database.csv). <br>
 
-Our **emulator of choice** for this translation patch is [melonDS](https://github.com/melonDS-emu/melonDS/releases).
+Our **emulator of choice** for this translation patch is [melonDS](https://github.com/melonDS-emu/melonDS/releases).<br>
+Stock R4 firmware may or may not play well with the patch, depending on your particular card. [Read this](Guide/playing_on_r4.md) for how to update your R4 to be compatible.
+
 
 ### Features
 - In-game menus, story dialogue, and post-game dialogue have been translated/localised from its original Japanese to English.
@@ -24,13 +26,16 @@ Our **emulator of choice** for this translation patch is [melonDS](https://githu
 - Game databases have been provided for synthesis, traits, skills and resistances.
 - Game randomiser, with rank/family/size filtering, XP randomisation, and challenge options.
 
-### Known Issues
+<details>
+<summary>**Known Issues**</summary>
+
 - Some in-game graphics with Japanese text remain. Unlike plain text, which is trivial to replace with English, graphics are a far more a complex asset which we do not have a solution to currently.
 - The randomiser is naturally going to introduce game instability.
 - For example, what was previously fighting three slimes for a total of three enemy slots may become three of a 3-slot monster for a total of nine enemy monster slots. This will probably crash the game. For a more stable randomiser run, consider filtering out 3-slot monsters when you configure your randomiser. Or simply flee if it is an optional battle.
 - With `Randomise synthesis recipes`, ??? family results are sometimes not able to be synthesised, and will sometimes crash the game when viewed. If you see synthesis results with no name displayed, avoid selecting or viewing that option to avoid crashing.
 - When naming a scouted monster, if the monsters original name is longer than 13 characters (e.g. Liquid Metal King Slime = 23 characters), the bottom screen's keyboard will experience a visual bug when you attempt to revert the nickname to the default. Since this is just a visual bug, you are able to continue naming your mon without issue.
-- Stock R4 firmware may or may not play well with the patch, depending on your particular card. [Read this](Guide/playing_on_r4.md) for how to update your R4 to be compatible.
+
+</details>
 
 ### Credits
 **Technical Development:**
@@ -42,21 +47,19 @@ Our **emulator of choice** for this translation patch is [melonDS](https://githu
 **Translation and Localisation:**
 - Ceris White, Ilario, Reflex: Importing of existing English text and translation of game menus.
 - Gerb: Post-game translation and localisation.
-- GemSlimee, TheTwistery, monkeyboy: Proofreading and editing.<br>
+- GemSlimee, TheTwistery, monkeyboy, Darko: Proofreading and editing.<br>
 
 **New Synthesis Recipes:**
 - Darko, Hoodiniebobeenie, Anthcny: Creation of new recipes and game balancing.<br>
 
 **Playtesting:**
-- Ilario, Reflex, Gerb, Darko, GemSlimee, Hoodinibobeenie, Mad Raigo, Matthew McConville, Nurfed, Chris, diortememirp, Nightaura, Sloppydeck, Anti-Tank Guided Missile, Ghostface, Blark, Tifa'sLover, Samwise, oho.<br>
+- Ilario, Reflex, Gerb, Darko, GemSlimee, Hoodinibobeenie, Mad Raigo, Matthew McConville, Nurfed, Chris, diortememirp, Nightaura, Sloppydeck, Anti-Tank Guided Missile, Ghostface, Blark, Tifa'sLover, Samwise, oho, retho.<br>
 
 **The [Dragon Quest Translations](https://discord.gg/aX6Ac8cC84) discord server:**
 - For hosting collaboration efforts.
 
----
-
 <details>
-<summary>Ceris White's Technical Tools</summary>
+<summary>###Ceris White's Technical Tools</summary>
 
 You will need the J2P ROM, BLZ, ndstool (<https://github.com/devkitpro/ndstool>), and python. A compiled build of BLZ is provided for Windows as blz_win.exe; The scripts expect it to be named blz.exe when used.
 You will have to find a compiled ndstool or build it yourself.
