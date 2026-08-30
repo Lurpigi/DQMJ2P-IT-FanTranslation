@@ -27,7 +27,7 @@ Stock R4 firmware may or may not play well with the patch, depending on your par
 - Game randomiser, with rank/family/size filtering, XP randomisation, and challenge options.
 
 <details>
-<summary>**Known Issues**</summary>
+<summary><h3>Known Issues</h3></summary>
 
 - Some in-game graphics with Japanese text remain. Unlike plain text, which is trivial to replace with English, graphics are a far more a complex asset which we do not have a solution to currently.
 - The randomiser is naturally going to introduce game instability.
@@ -59,7 +59,7 @@ Stock R4 firmware may or may not play well with the patch, depending on your par
 - For hosting collaboration efforts.
 
 <details>
-<summary>###Ceris White's Technical Tools</summary>
+<summary><h3>Ceris White's Technical Tools</h3></summary>
 
 You will need the J2P ROM, BLZ, ndstool (<https://github.com/devkitpro/ndstool>), and python. A compiled build of BLZ is provided for Windows as blz_win.exe; The scripts expect it to be named blz.exe when used.
 You will have to find a compiled ndstool or build it yourself.
