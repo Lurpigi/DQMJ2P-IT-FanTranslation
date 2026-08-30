@@ -490,15 +490,15 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x42700000
 SYS_42 0x8 
-SAY "{VOICE=03}Ho-ho-ho. Ben fatto. Sono il Re dell'Isola Pipit, Re Sanguini."
+SAY "{VOICE=03}Ho-ho-ho! Ben fatto. Sono Re Sanguini, re dell'Isola Pipit."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Re Sanguini"
-SAY "{VOICE=03}Calma, calma, mi dispiace averti sorpreso. Ma come vedi sto bene."
+SAY "{VOICE=03}Tranquilla, Tiko. Scusa se ti ho spaventata. Come vedi, sto bene."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Re Sanguini"
-SAY "{VOICE=03}Mi nascondevo laggiù, vicino alla porta del mondo da cui è arrivato Baboorood."
+SAY "{VOICE=03}Mi ero nascosto laggiù, vicino al portale da cui è arrivato Baboorood."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -522,7 +522,7 @@ WAIT 0x10 0x2 0x41700000
 STORE 0x18 0x0 0x40a00000 0x2 0x3f800000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Come pensavo... Non c'era nulla di cui preoccuparsi!"
+SAY "{VOICE=08}Come immaginavo... non c'era nulla da temere!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -545,7 +545,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Re Sanguini"
-SAY "{VOICE=03}Ho-ho-ho. Capisco, capisco. Grazie, cara Tiko."
+SAY "{VOICE=03}Ho-ho-ho! Capisco. Grazie, cara Tiko."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -590,15 +590,15 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x428c0000
 SYS_42 0x8 
 SETNAME "Re Sanguini"
-SAY "{VOICE=03}Dunque, avete fatto tutti un lavoro splendido."
+SAY "{VOICE=03}Avete fatto tutti un lavoro magnifico."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Re Sanguini"
-SAY "{VOICE=03}Soprattutto tu, {NAME}. Sono rimasto stupito dal lavoro che hai svolto."
+SAY "{VOICE=03}Soprattutto tu, {NAME}: il tuo coraggio mi ha colpito."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Re Sanguini"
-SAY "{VOICE=03}Pensavo a una ricompensa, ma sei uno Scout, giusto?"
+SAY "{VOICE=03}Stavo pensando a una ricompensa. Sei uno Scout, giusto?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x422c0000
@@ -607,7 +607,7 @@ STORE 0x18 0x1 0x0 0x2 0x422c0000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41a00000
 SETNAME "Re Sanguini"
-SAY "{VOICE=03}E quindi puoi usare il potere conosciuto solo dalla nostra tribù..."
+SAY "{VOICE=03}Allora puoi usare il potere che solo la nostra tribù conosce..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x439c8000
@@ -632,7 +632,7 @@ SAY "{VOICE=03}Aprirò la porta delle Battaglie infinite e dell'Arena Scout supr
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Re Sanguini"
-SAY "{VOICE=03}Ti spiegherò tutto quando sarai pronto. Torna qui più tardi."
+SAY "{VOICE=03}Quando sarai pronto, ti spiegherò tutto. Torna più tardi."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -687,11 +687,11 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Re Sanguini"
-SAY "{VOICE=03}No, no, sei un ottimo guerriero. Sarai ricompensato."
+SAY "{VOICE=03}No, sei un ottimo guerriero. Meriti una ricompensa."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Re Sanguini"
-SAY "{VOICE=03}Aprirò il portale così potrai tornare nel tuo mondo."
+SAY "{VOICE=03}Aprirò il portale, così potrai tornare nel tuo mondo."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -813,11 +813,11 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43780000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Leonix"
-SAY "{VOICE=07}Grazie, {NAME}. Grazie a te ho aperto gli occhi."
+SAY "{VOICE=07}Grazie, {NAME}. Mi hai aiutato ad aprire gli occhi."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonix"
-SAY "{VOICE=07}Non stavo giudicando gli umani... Pensavo solo che foste deboli."
+SAY "{VOICE=07}Non volevo giudicare gli umani... pensavo solo che foste deboli."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40c00000
@@ -840,7 +840,7 @@ STORE 0x18 0x1 0x0 0x2 0x42ce0000
 STORE 0x18 0x1 0x3f800000 0x2 0x41f00000
 SYS_17 0x8 
 SETNAME "Leonix"
-SAY "{VOICE=07}Ma immagino che gli umani nascondano la loro vera forza: quella di{WAIT}{CLEAR}combattere insieme."
+SAY "{VOICE=07}Ora capisco: la vera forza degli umani è combattere insieme."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x41600000
@@ -867,7 +867,7 @@ SAY "{VOICE=07}D'ora in poi mi allenerò con loro e imparerò le loro tecniche."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonix"
-SAY "{VOICE=07}Ehe ehe. Sarà divertente quando ci sarà una festa in cui potrò confrontarmi con{WAIT}{CLEAR}gli umani!"
+SAY "{VOICE=07}Ah ah! Sarà divertente sfidare gli umani alla prossima festa!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40c00000
@@ -884,7 +884,7 @@ SYS_13 0x8
 STORE 0x18 0x1 0x0 0x2 0x42dc0000
 SYS_14 0x8 
 SETNAME "Leonix"
-SAY "{VOICE=07}Ci vediamo, {NAME}! Spero che ci incontreremo di nuovo un giorno."
+SAY "{VOICE=07}A presto, {NAME}! Spero di rivederti."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

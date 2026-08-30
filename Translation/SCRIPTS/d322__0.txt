@@ -121,7 +121,7 @@ SAY "{VOICE=03}Oh! Sei tu, {NAME}! Bentornato!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Anziano"
-SAY "{VOICE=03}Tiko mi ha raccontato tutto! Avete fatto un lavoro splendido!"
+SAY "{VOICE=03}Tiko mi ha raccontato tutto! Avete fatto un lavoro eccezionale!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x41400000
@@ -183,7 +183,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42700000
 SYS_42 0x8 
 SETNAME "Anziano"
-SAY "{VOICE=03}Dunque, Tiko e Kukri. So che non avete dimenticato la sfida..."
+SAY "{VOICE=03}Bene, Tiko e Kukri. La vostra sfida non è ancora finita..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -196,7 +196,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43410000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Sì, certo... La sfida per scegliere il nuovo anziano!"
+SAY "{VOICE=08}Sì, certo... la sfida per scegliere il prossimo anziano!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -208,7 +208,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42f00000
 SYS_17 0x8 
 SYS_42 0x8 
 SETNAME "Anziano"
-SAY "{VOICE=03}Sì, proprio così. E quindi il prossimo anziano sarà..."
+SAY "{VOICE=03}Proprio così. Dunque, il prossimo anziano sarà..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -283,7 +283,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x434a0000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Anziano"
-SAY "{VOICE=03}Cosa? Stavo proprio per indicare te! Hai vinto!"
+SAY "{VOICE=03}Cosa? Stavo per nominare proprio te! Hai vinto!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -296,7 +296,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43410000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Ehm, anziano... A proposito di questo..."
+SAY "{VOICE=08}Ehm, anziano... a proposito..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x3f800000
@@ -463,7 +463,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43410000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Sì. Ti seguirò, {NAME}, va bene? C'è così tanto da esplorare insieme{WAIT}{CLEAR}a te."
+SAY "{VOICE=08}Sì. Ti seguirò, {NAME}, se per te va bene. C'è così tanto da{WAIT}{CLEAR}esplorare insieme!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
@@ -498,7 +498,7 @@ STORE 0x18 0x1 0x0 0x2 0x41a00000
 SYS_14 0x8 
 SYS_42 0x8 
 SETNAME "Anziano"
-SAY "{VOICE=03}Oh, cielo... Se è questo che senti..."
+SAY "{VOICE=03}Oh, cielo... se è davvero ciò che vuoi..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -506,7 +506,7 @@ SPAWN 0x10 L_3290
 DATA 0x00000004
 SYS_42 0x8 
 SETNAME "Kukri"
-SAY "{VOICE=08}Oh, anziano! Vuol dire che sarò io il prossimo anziano?"
+SAY "{VOICE=08}Oh, anziano! Quindi sarò io il prossimo anziano?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -526,7 +526,7 @@ WAIT 0x10 0x2 0x41700000
 STORE 0x18 0x0 0x40e00000 0x2 0x3f800000
 WAIT 0x10 0x2 0x41200000
 SETNAME "Anziano"
-SAY "{VOICE=03}A quanto pare resterò anziano ancora per un po'. Tiko, parti e torna presto."
+SAY "{VOICE=03}A quanto pare resterò anziano ancora per un po'. Tiko, vai e torna presto."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x41b00000
@@ -664,7 +664,7 @@ SYS_14 0x8
 SPAWN 0x10 L_2ff0
 DATA 0x00000001
 SETNAME "Tiko"
-SAY "{VOICE=08}Ma cosa sto dicendo... Bene. Parleremo più tardi. A presto!"
+SAY "{VOICE=08}Ma cosa dico... Bene, ne riparleremo. A presto!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

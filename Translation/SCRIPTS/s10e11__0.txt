@@ -3529,7 +3529,7 @@ L_d63c:
 CMP_EQ 0x18 0x0 0x42a60000 0x2 0x41e00000
 JMP_IFNOT 0xc L_d730
 SYS_42 0x8 
-SAY "{VOICE=07}Grazie, {NAME}! Sei l'eroe dell'isola Pipit!"
+SAY "{VOICE=07}Grazie, {NAME}! Sei l'eroe dell'Isola Pipit!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}I Monster Scout sono forti! Scommetto che ora andranno di moda!"

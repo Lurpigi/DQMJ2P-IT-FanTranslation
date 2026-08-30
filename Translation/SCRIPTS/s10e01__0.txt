@@ -4774,7 +4774,7 @@ JMP_ABS 0xc L_12a94
 L_12a94:
 SYS_42 0x8 
 SETNAME "Jim Jenius"
-SAY "{VOICE=03}Che ne sarà di me quando tutti i Pipit saranno spariti...?"
+SAY "{VOICE=03}Che ne sarà di me, quando tutti i Pipit saranno scomparsi...?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}Morirò oppure mi risveglierò nel mondo da cui venivo?"
@@ -4914,7 +4914,7 @@ SYS_42 0x8
 SAY "{VOICE=07}Si dice che il vento da qui trasporti persone da altri mondi."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Per questo chiamiamo quest'isola Pipit, "La Via del vento"."
+SAY "{VOICE=07}Per questo l'isola si chiama Pipit, "la Via del vento"."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Forse è solo una leggenda, ma poco fa è arrivato qui un vecchio..."
@@ -5606,10 +5606,10 @@ L_16408:
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x41e80000
 JMP_IFNOT 0xc L_1655c
 SYS_42 0x8 
-SAY "{VOICE=07}Grazie a te, {NAME}, oggi nel villaggio Pipit regna di nuovo la pace!"
+SAY "{VOICE=07}Grazie a te, {NAME}, la pace è tornata nel villaggio Pipit!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Senza Baboorood, anche l'Isola Pipit è cambiata parecchio."
+SAY "{VOICE=07}Senza Baboorood, l'Isola Pipit è tornata a vivere."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Se esplori tutta l'isola potresti scoprire cose interessanti."
@@ -5720,7 +5720,7 @@ SYS_44 0x8
 SAY "{VOICE=07}Hai affrontato quel Baboorood grande come un castello senza battere ciglio!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Wow. Sei incredibile, {NAME}. Sei l'eroe dell'Isola Pipit!"
+SAY "{VOICE=07}Incredibile, {NAME}! Sei l'eroe dell'Isola Pipit!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

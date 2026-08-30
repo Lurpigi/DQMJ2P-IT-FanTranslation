@@ -60,19 +60,19 @@ STORE 0x18 0x0 0x0 0x2 0x3f800000
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Ehe ehe ehe. Sorpreso? È bellissimo, vero?"
+SAY "{VOICE=08}Eheh... Sorpreso? È splendido, vero?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}L'Isola Pipit è un'isola che fluttua nel cielo, un luogo dove molti si radunano."
+SAY "{VOICE=08}L'Isola Pipit fluttua nel cielo: è un luogo dove molti si riuniscono."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}La strada per raggiungere l'Ospite indesiderato attraversa le isole{WAIT}{CLEAR}fluttuanti circostanti."
+SAY "{VOICE=08}Per raggiungere l'Ospite indesiderato, attraverseremo le isole fluttuanti{WAIT}{CLEAR}qui intorno."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}Attraversandole saliremo sempre più in alto fino a raggiungere la terra sacra."
+SAY "{VOICE=08}Di isola in isola saliremo fino alla terra sacra."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x41400000
@@ -109,7 +109,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_4E 0x8 
 WAIT 0x10 0x2 0x41a00000
 SETNAME "Tiko"
-SAY "{VOICE=08}Prima continuiamo in questa direzione. Poi potremo salire ancora usando l'edera."
+SAY "{VOICE=08}Andiamo prima in questa direzione. Poi saliremo ancora, usando l'edera."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
@@ -117,7 +117,7 @@ SAY "{VOICE=08}Bene, andiamo, {NAME}! Ti seguirò."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}Torna al villaggio quando la tua squadra è ferita. Li cureremo quando arriverai."
+SAY "{VOICE=08}Se la squadra è ferita, torna al villaggio. La cureremo al tuo arrivo."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

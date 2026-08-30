@@ -123,7 +123,7 @@ STORE 0x18 0x0 0x0 0x2 0x3f800000
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Anziano"
-SAY "{VOICE=03}Oh, siete voi due, Tiko e {NAME}. Come ve la passate?"
+SAY "{VOICE=03}Oh, eccovi! Tiko, {NAME}, come state?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -148,7 +148,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Anziano, non molto bene. Abbiamo trovato questo mostro svenuto fuori dal villaggio."
+SAY "{VOICE=08}Anziano, non c'è da stare allegri. Abbiamo trovato questo mostro svenuto fuori{WAIT}{CLEAR}dal villaggio."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -264,15 +264,15 @@ SYS_43 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Anziano"
-SAY "{VOICE=03}Sì. È una creatura divina e sacra, con un importante dovere da compiere."
+SAY "{VOICE=03}Sì: è una creatura divina, investita di un compito sacro."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Anziano"
-SAY "{VOICE=03}Il suo dovere sacro è vagare per il mondo oscuro dove dimorano i mostri malvagi."
+SAY "{VOICE=03}Il suo compito è vagare nel mondo oscuro, dove dimorano i mostri malvagi."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Anziano"
-SAY "{VOICE=03}Il fatto che sia ferito significa che deve aver affrontato qualcosa di{WAIT}{CLEAR}davvero pericoloso."
+SAY "{VOICE=03}Le sue ferite indicano che ha affrontato un pericolo terribile."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -296,11 +296,11 @@ SYS_43 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Anziano"
-SAY "{VOICE=03}Uhm... sì, certo. Non credo affatto che sia una coincidenza."
+SAY "{VOICE=03}Mmm... sì. Non è affatto una coincidenza."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Anziano"
-SAY "{VOICE=03}Per prima cosa cureremo subito l'Incarnus e poi gli faremo qualche domanda."
+SAY "{VOICE=03}Prima cureremo l'Incarnus, poi gli faremo qualche domanda."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41200000
@@ -344,11 +344,11 @@ SAY "{VOICE=03}Mi dispiace chiedertelo, ma potresti aiutarci ancora una volta, {
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Anziano"
-SAY "{VOICE=03}È piuttosto difficile procurarsi gli ingredienti per il Soma benedetto."
+SAY "{VOICE=03}Procurarsi gli ingredienti per il Soma benedetto non è facile."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Anziano"
-SAY "{VOICE=03}Vorrei che li raccogliessi per noi, se non ti dispiace."
+SAY "{VOICE=03}Se non ti dispiace, potresti raccoglierli per noi?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Anziano"

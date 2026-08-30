@@ -13782,7 +13782,7 @@ MATH_SUB 0x20 0x0 0x43180000 0x0 0x43180000 0x2 0x3f800000
 JMP_ABS 0xc L_3d6dc
 L_3d6dc:
 SYS_42 0x8 
-SAY "{COLOR=2}Somewhere, a strange, terrible voice calls out."
+SAY "{COLOR=2}Da qualche parte risuona una voce strana e terribile."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -13790,7 +13790,7 @@ SYS_42 0x8
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x0 0x43180000
 SYS_A8 0x8 
-SAY "{VOICE=08}Per raggiungere Rigor Mortex è necessario distruggere ancora {E322} {E323}gemma{E326}gemme{E327}..."
+SAY "{VOICE=08}Per raggiungere Rigor Mortex devi distruggere ancora {E322} {E323}gemma del male{E326}{WAIT}{CLEAR}gemme del male{E327}..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -13886,7 +13886,7 @@ JMP_ABS 0xc L_3df3c
 JMP_ABS 0xc L_3dd94
 L_3dd94:
 SYS_42 0x8 
-SAY "{COLOR=2}Somewhere, a strange, terrible voice calls out."
+SAY "{COLOR=2}Da qualche parte risuona una voce strana e terribile."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -13894,7 +13894,7 @@ SYS_42 0x8
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x0 0x43180000
 SYS_A8 0x8 
-SAY "{VOICE=08}Per raggiungere Rigor Mortex è necessario distruggere ancora {E322} {E323}gemma{E326}gemme{E327}..."
+SAY "{VOICE=08}Per raggiungere Rigor Mortex devi distruggere ancora {E322} {E323}gemma del male{E326}{WAIT}{CLEAR}gemme del male{E327}..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -13916,7 +13916,7 @@ L_3df30:
 JMP_ABS 0xc L_3e110
 L_3df3c:
 SYS_42 0x8 
-SAY "{COLOR=2}Somewhere, a strange, terrible voice calls out."
+SAY "{COLOR=2}Da qualche parte risuona una voce strana e terribile."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

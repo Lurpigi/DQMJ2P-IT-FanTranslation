@@ -6667,10 +6667,10 @@ SYS_42 0x8
 SAY "{COLOR=2}È un monumento scolpito a forma di pianura. C'è un foro sull'altare."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Sembra che il piatto ottenuto da Vastopiano possa entrarci."
+SAY "{COLOR=2}Sembra che la piastra ottenuta da Vastopiano possa entrarci."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Vuoi inserire il piatto della pianura?{VOICE=09}"
+SAY "{COLOR=2}Vuoi inserire la piastra delle pianure?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -6770,10 +6770,10 @@ SYS_42 0x8
 SAY "{COLOR=2}È un monumento a forma di vetta ghiacciata. C'è un foro sull'altare."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Sembra che il piatto ottenuto da Gelandia possa entrarci."
+SAY "{COLOR=2}Sembra che la piastra ottenuta da Gelandia possa entrarci."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Vuoi inserire il piatto della montagna?{VOICE=09}"
+SAY "{COLOR=2}Vuoi inserire la piastra delle montagne?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -6873,10 +6873,10 @@ SYS_42 0x8
 SAY "{COLOR=2}È un monumento a forma di rupe. C'è un foro sull'altare."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Sembra che il piatto ottenuto da Precipizia possa entrarci."
+SAY "{COLOR=2}Sembra che la piastra ottenuta da Precipizia possa entrarci."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Vuoi inserire il piatto della rupe?{VOICE=09}"
+SAY "{COLOR=2}Vuoi inserire la piastra delle rocce?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -6976,10 +6976,10 @@ SYS_42 0x8
 SAY "{COLOR=2}È un monumento a forma di costa. C'è un foro sull'altare."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Sembra che il piatto ottenuto da Costa Ignota possa entrarci."
+SAY "{COLOR=2}Sembra che la piastra ottenuta da Costa Ignota possa entrarci."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Vuoi inserire il piatto della costa?{VOICE=09}"
+SAY "{COLOR=2}Vuoi inserire la piastra della costa?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -7079,10 +7079,10 @@ SYS_42 0x8
 SAY "{COLOR=2}È un monumento a forma di leone gigante. C'è un foro sull'altare."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Sembra che il piatto ottenuto dal Mausoleum possa entrarci."
+SAY "{COLOR=2}Sembra che la piastra ottenuta dal Mausoleum possa entrarci."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Vuoi inserire il piatto del dio della guerra? {VOICE=09}"
+SAY "{COLOR=2}Vuoi inserire la piastra del dio della guerra? {VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 

@@ -181,7 +181,7 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Uuuh... Uuuh... Dove mi trovo...?"
+SAY "{VOICE=07}Uuuh... dove mi trovo...?"
 WAIT 0x10 0x2 0x41a00000
 STORE 0x18 0x1 0x0 0x2 0x41800000
 STORE 0x18 0x1 0x3f800000 0x2 0x42480000
@@ -330,19 +330,19 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Il mio dovere è viaggiare nelle terre invase dai mostri e sigillarli."
+SAY "{VOICE=07}Il mio compito è viaggiare nelle terre invase dai mostri e sigillarli."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}Per compiere il mio dovere, ho combattuto contro innumerevoli orde di mostri."
+SAY "{VOICE=07}Per riuscirci, ho affrontato innumerevoli orde di mostri."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}Ma quando credevo di aver finalmente portato a termine il mio compito..."
+SAY "{VOICE=07}Quando pensavo di aver finalmente compiuto la mia missione..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}Un solo mostro era riuscito a fuggire ed era volato nel tuo mondo..."
+SAY "{VOICE=07}Un solo mostro era riuscito a fuggire, raggiungendo il tuo mondo..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
@@ -412,7 +412,7 @@ SAY "{VOICE=07}...Ho inseguito Baboorood e sono arrivato qui, ma..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}Non riesco a oltrepassare la sua barriera. È molto al di là delle mie possibilità."
+SAY "{VOICE=07}Non riesco a superare la sua barriera. È ben oltre le mie possibilità."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40800000
@@ -539,7 +539,7 @@ WAIT 0x10 0x2 0x42200000
 STORE 0x18 0x0 0x40000000 0x2 0x3f800000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Ehi! È la prima volta che sento il termine "Scout'."
+SAY "{VOICE=08}Ehi! È la prima volta che sento parlare di Scout."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"

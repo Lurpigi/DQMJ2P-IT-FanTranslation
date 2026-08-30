@@ -205,7 +205,7 @@ WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Anziano"
-SAY "{VOICE=03}Calma, calma, Kukri. Non traiamo conclusioni affrettate..."
+SAY "{VOICE=03}Calma, Kukri. Non traiamo conclusioni affrettate..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x41a80000
@@ -220,7 +220,7 @@ SAY "{VOICE=03}Tu sei {NAME}, vero? Tiko mi ha raccontato la tua storia."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Anziano"
-SAY "{VOICE=03}Ti siamo grati per essere accorso in aiuto della nostra tribù Pipit."
+SAY "{VOICE=03}Ti siamo grati per essere venuto in aiuto alla tribù Pipit."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x41b00000
@@ -230,7 +230,7 @@ STORE 0x18 0x1 0x0 0x2 0x41b00000
 STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_17 0x8 
 SETNAME "Anziano"
-SAY "{VOICE=03}Immagino che tu ti chieda cosa sia successo qui e perché sia stato scelto proprio tu. Ti{WAIT}{CLEAR}spiegherò tutto."
+SAY "{VOICE=03}Ti chiederai cos'è successo e perché abbiamo scelto te. Te lo spiegherò."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x41500000
@@ -256,15 +256,15 @@ SAY "{VOICE=03}Quel mostro ha messo in pericolo la nostra pace, così lo abbiamo
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Anziano"
-SAY "{VOICE=03}Poco dopo essere atterrato, è fuggito da qui ed è andato verso il centro dell'isola."
+SAY "{VOICE=03}Dopo essere atterrato, è fuggito verso il centro dell'isola."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Anziano"
-SAY "{VOICE=03}Là vive il nostro re. È la nostra terra sacra, conosciuta come \"Palazzo Blanc\"."
+SAY "{VOICE=03}Là vive il nostro re, nella terra sacra chiamata \"Palazzo Blanc\"."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Anziano"
-SAY "{VOICE=03}...è probabile che il nostro potere svanisca presto..."
+SAY "{VOICE=03}...Da quel giorno il nostro potere ha iniziato a svanire..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Anziano"
@@ -293,7 +293,7 @@ SAY "{VOICE=08}Se la devastazione continuerà, perderemo il potere di collegare 
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Kukri"
-SAY "{VOICE=08}E alla fine, gli abitanti di quest'isola scompariranno TUTTI!"
+SAY "{VOICE=08}E alla fine, tutti gli abitanti dell'isola scompariranno!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -342,7 +342,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x40e00000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Anziano"
-SAY "{VOICE=03}E così sei stato reclutato per diventare uno di quei guerrieri!"
+SAY "{VOICE=03}Ed eccoti qui, reclutato come uno di quei guerrieri!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x41600000
@@ -386,7 +386,7 @@ STORE 0x18 0x1 0x0 0x0 0x41600000
 STORE 0x18 0x1 0x3f800000 0x2 0x434a0000
 SYS_18 0x8 
 SETNAME "Anziano"
-SAY "{VOICE=03}ho promesso che il vincitore diventerà il prossimo anziano!"
+SAY "{VOICE=03}Ho promesso che il vincitore diventerà il prossimo anziano!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -458,7 +458,7 @@ STORE 0x18 0x1 0x0 0x0 0x40400000
 STORE 0x18 0x1 0x3f800000 0x2 0x43410000
 SYS_18 0x8 
 SETNAME "Kukri"
-SAY "{VOICE=08}Puoi entrare! Ecco a voi Leonix, il più forte spadaccino del paese!"
+SAY "{VOICE=08}Avanti! Vi presento Leonix, il più forte spadaccino del paese!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -798,7 +798,7 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}COSA!? Non dire sciocchezze, anziano! Sono certa che vincerà {NAME}!"
+SAY "{VOICE=08}Sciocchezze, anziano! Sono certa che {NAME} vincerà!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
@@ -806,7 +806,7 @@ SAY "{VOICE=08}Andiamo, {NAME}! La nostra destinazione è la terra sacra, dove s
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}Ti spiegherò tutto quando usciremo dal villaggio! Non perderò contro Kukri!"
+SAY "{VOICE=08}Te lo spiegherò fuori dal villaggio! Non perderò contro Kukri!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

@@ -3492,7 +3492,7 @@ SYS_42 0x8
 SAY "{VOICE=07}Ehi, benvenuto! Grazie per essere passato!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Ora che Pipit è in pace, posso finalmente aprire il negozio!"
+SAY "{VOICE=07}Ora che l'Isola Pipit è in pace, posso aprire il negozio!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}La specialità del mio negozio sono le: uova di mostro!"

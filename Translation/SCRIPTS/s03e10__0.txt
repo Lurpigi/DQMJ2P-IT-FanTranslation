@@ -5708,7 +5708,7 @@ SETNAME "Don Mole"
 SAY "{VOICE=07}Mi spiace averti tenuto all'oscuro di tutto, ma non potevo fare altrimenti."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I mostri giganti sono scatenati e il male minaccia la terra...{WAIT}{CLEAR}Il sonno del dio ha messo in pericolo tutti noi."
+SAY "{VOICE=07}I mostri giganti sono scatenati e il male minaccia la terra...{WAIT}{CLEAR}Il suo sonno ha messo in pericolo tutti noi."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Aiutaci, amico umano... Risveglia il Combattente Divino e salva l'isola!"

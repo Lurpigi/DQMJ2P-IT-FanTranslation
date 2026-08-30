@@ -303,11 +303,11 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Non sei affatto debole. È solo che..."
+SAY "{VOICE=07}Non sei debole. È solo che..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}La tua forza non è ancora all'altezza di ciò che significa essere davvero forti."
+SAY "{VOICE=07}Ti manca ancora la forza necessaria per dirti davvero forte."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -320,7 +320,7 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
 SETNAME "Leonix"
-SAY "{VOICE=07}Stai dicendo che vuoi collaborare con me?"
+SAY "{VOICE=07}Vuoi davvero combattere al mio fianco?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40c00000
@@ -331,11 +331,11 @@ STORE 0x18 0x1 0x0 0x0 0x40c00000
 STORE 0x18 0x1 0x3f800000 0x2 0x437a0000
 SYS_18 0x8 
 SETNAME "Leonix"
-SAY "{VOICE=07}Mi dispiace. Diventerò più forte a modo mio."
+SAY "{VOICE=07}No. Diventerò forte a modo mio."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonix"
-SAY "{VOICE=07}Vedi, preferisco stare da solo."
+SAY "{VOICE=07}Preferisco cavarmela da solo."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x41700000
@@ -377,7 +377,7 @@ STORE 0x18 0x1 0x0 0x0 0x40c00000
 STORE 0x18 0x1 0x3f800000 0x2 0x43780000
 SYS_18 0x8 
 SETNAME "Leonix"
-SAY "{VOICE=07}Non ho intenzione di cambiare. Continuerò da solo."
+SAY "{VOICE=07}Non cambierò idea. Continuerò da solo."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -402,7 +402,7 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Kukri"
-SAY "{VOICE=08}COSA!? Ah, aspetta! Non sarebbe fantastico? Fare squadra, intendo!"
+SAY "{VOICE=08}COSA!? Aspetta! Non sarebbe fantastico fare squadra?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -570,7 +570,7 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41700000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Oh, quel Leonix. Ha ancora molta strada da fare."
+SAY "{VOICE=08}Ah, quel Leonix... ne ha ancora di strada da fare."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -599,14 +599,14 @@ DATA 0x0000000c
 WAIT 0x10 0x2 0x42a00000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}{NAME}. Finalmente siamo arrivati. Questa è la nostra terra sacra,{WAIT}{CLEAR}Palazzo Blanc."
+SAY "{VOICE=08}{NAME}. Finalmente. Eccoci nella nostra terra sacra: Palazzo Blanc."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Quando lo avremo sconfitto, tornerò soddisfatto nel mondo dove mi aspetta il{WAIT}{CLEAR}mio amico."
+SAY "{VOICE=07}Quando lo sconfiggeremo, tornerò nel mio mondo dal mio amico, a testa alta."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
