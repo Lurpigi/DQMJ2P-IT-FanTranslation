@@ -3733,7 +3733,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_2A 0x8 
 SYS_42 0x8 
 SETNAME "Anziano"
-SAY "{VOICE=03}Per preparare la Soma benedetta per curare gli Incarnus, mi servono questi materiali:"
+SAY "{VOICE=03}Per preparare la Soma benedetta per curarlo, mi servono questi materiali:"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}Fiamma vivificante e Lacrime di drago. Ah, e un Cristallo del tempo. Sono 3."
@@ -4011,7 +4011,7 @@ SYS_44 0x8
 SAY "{VOICE=03}Ora ho tutti i materiali per preparare la Soma benedetta!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Farò in fretta a sintetizzarla, così potremo darla agli Incarnus!"
+SAY "{VOICE=03}Farò in fretta a sintetizzarla, così potremo darla all'Incarnus!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

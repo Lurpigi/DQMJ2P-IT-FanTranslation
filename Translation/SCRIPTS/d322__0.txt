@@ -516,7 +516,7 @@ WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x0 0x40a00000 0x2 0x3f800000
 SYS_42 0x8 
 SETNAME "Anziano"
-SAY "{VOICE=03}Stupido! Non può diventare anziano chi è fuggito nel bel mezzo della battaglia!"
+SAY "{VOICE=03}Sciocca! Non può diventare anziano chi è fuggito nel bel mezzo della battaglia!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41200000

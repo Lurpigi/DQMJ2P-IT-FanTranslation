@@ -5000,7 +5000,7 @@ SYS_42 0x8
 SAY "{VOICE=08}Sei l'eroe che ha salvato Palazzo Blanc, {NAME}, vero?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Grazie! Come ricompensa, vuoi un batuffolo-batuffolo?{VOICE=09}"
+SAY "{VOICE=08}Grazie! Come ricompensa, vuoi un puff-puff?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 L_139f4:
@@ -5025,13 +5025,13 @@ SYS_3E 0x8
 SYS_03 0x8 
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SAY "{VOICE=08}Fluff... Fluff..."
+SAY "{VOICE=08}Puff... Puff..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Fluff... Fluff..."
+SAY "{VOICE=08}Puff... Puff..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}E ora tutto quel che ho! Batuffolo-batuffolo!"
+SAY "{VOICE=08}E ora tutto quel che ho! Puff puff!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5054,7 +5054,7 @@ STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{VOICE=08}Ih ih ih. Ti è piaciuto il mio batuffolo-batuffolo? Torna quando{WAIT}{CLEAR}vuoi, d'accordo!"
+SAY "{VOICE=08}Ih ih ih. Ti è piaciuto il mio puff-puff? Torna quando vuoi, d'accordo!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5080,7 +5080,7 @@ SYS_42 0x8
 SAY "{VOICE=08}Sììì! {NAME}! Sembri proprio stanco..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Che ne dici? Vuoi un batuffolo-batuffolo?{VOICE=09}"
+SAY "{VOICE=08}Che ne dici? Vuoi un puff-puff?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_139f4
@@ -5442,7 +5442,7 @@ SYS_44 0x8
 SAY "{VOICE=03}Ho preparato la Battaglia infinita e l'Arena Scout Suprema!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Quando vuoi affrontare la Battaglia infinita, parla con Re Sanguini."
+SAY "{VOICE=03}Quando vuoi affrontare la Battaglia infinita, parla con il Sanguini."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}Per l'Arena Scout Suprema, parla con Sanguonicum."
