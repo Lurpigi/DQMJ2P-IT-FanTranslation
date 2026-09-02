@@ -132,7 +132,7 @@ I glossari `translation_*.csv` documentano le corrispondenze inglese→italiano 
 
 ### Test del progetto originale
 
-Ilario, Reflex, Gerb, Darko, GemSlimee, Hoodinibobeenie, Mad Raigo, Matthew McConville, Nurfed, Chris, diortememirp, Nightaura, Sloppydeck, Anti-Tank Guided Missile, Ghostface, Blark, Tifa'sLover, Samwise e oho.
+Ilario, Reflex, Gerb, Darko, GemSlimee, Hoodinibobeenie, Mad Raigo, Matthew McConville, Nurfed, Chris, diortememirp, Nightaura, Sloppydeck, Anti-Tank Guided Missile, Ghostface, Blark, Tifa'sLover, Samwise, oho e retho.
 
 ### Traduzione italiana
 
