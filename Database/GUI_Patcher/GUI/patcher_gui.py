@@ -29,7 +29,7 @@ def app_root():
 
 
 ROOT = app_root()
-PATCHER_VERSION = "1.3.1-it.1"
+PATCHER_VERSION = "1.3.1-it.2"
 
 def open_url(url):
     if sys.platform.startswith("linux"):

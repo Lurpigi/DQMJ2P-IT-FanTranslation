@@ -3,8 +3,6 @@
 [![](https://img.shields.io/github/v/release/Lurpigi/DQMJ2Pro_Translation?include_prereleases&label=Release)](https://github.com/Lurpigi/DQMJ2Pro_Translation/releases/latest)
 [![](https://img.shields.io/github/downloads/Lurpigi/DQMJ2Pro_Translation/total.svg)](https://github.com/Lurpigi/DQMJ2Pro_Translation/releases)
 
-# PATCH IN FASE PRELIMINARE DI TESTING - NON E' ANCORA PER NULLA PRONTA PER L'UTILIZZO
-
 [Original English README](README_EN.md)
 
 Questa repository contiene la traduzione italiana amatoriale di **Dragon Quest Monsters: Joker 2 Professional** e viene mantenuta anche per integrare gli aggiornamenti tecnici del progetto inglese.
@@ -84,6 +82,7 @@ Le versioni inglesi originali degli stessi documenti sono conservate nella carte
 - Randomizzando le ricette di sintesi, alcuni risultati della famiglia `???` potrebbero non essere sintetizzabili. Se un risultato non mostra il nome, non selezionarlo.
 - Quando il nome originale di un mostro reclutato supera i 13 caratteri, la tastiera inferiore può mostrare un difetto grafico durante il ripristino del nome predefinito. Il problema è soltanto visivo.
 - Alcuni vecchi firmware R4 non sono compatibili con la patch. Consulta la [guida italiana per R4](Guide/playing_on_r4_it.md).
+- Sembra esserci un problema con l'emulatore PC `Melons`, testando con `Desmume` invece sembra funzionare perfettamente.
 
 ## Struttura dei file
 
