@@ -47,6 +47,8 @@ I codici di controllo e i segnaposto, come `{NAME}`, `{E321}`, `{COLOR=...}`, `{
 
 Il patcher grafico è disponibile per Windows, Linux e macOS nella pagina [Releases](https://github.com/Lurpigi/DQMJ2Pro_Translation/releases). Seleziona una ROM originale, scegli le opzioni desiderate e premi **Applica la patch**. La versione distribuita è autonoma e non richiede Python.
 
+L'**emulatore consigliato** per questa traduzione è [melonDS](https://github.com/melonDS-emu/melonDS/releases).
+
 <img src="./Database/GUI_Patcher/gui.png" width="420" alt="Interfaccia grafica del patcher">
 
 Per costruire e pubblicare personalmente il programma consulta la [guida italiana alle release](Guide/releasing_patcher_it.md).
