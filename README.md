@@ -47,8 +47,6 @@ I codici di controllo e i segnaposto, come `{NAME}`, `{E321}`, `{COLOR=...}`, `{
 
 Il patcher grafico è disponibile per Windows, Linux e macOS nella pagina [Releases](https://github.com/Lurpigi/DQMJ2Pro_Translation/releases). Seleziona una ROM originale, scegli le opzioni desiderate e premi **Applica la patch**. La versione distribuita è autonoma e non richiede Python.
 
-L'**emulatore consigliato** per questa traduzione è [melonDS](https://github.com/melonDS-emu/melonDS/releases), come per il progetto inglese originale.
-
 <img src="./Database/GUI_Patcher/gui.png" width="420" alt="Interfaccia grafica del patcher">
 
 Per costruire e pubblicare personalmente il programma consulta la [guida italiana alle release](Guide/releasing_patcher_it.md).
@@ -90,9 +88,6 @@ Le versioni inglesi originali degli stessi documenti sono conservate nella carte
 - `Translation/SCRIPTS/`: dialoghi, eventi, tutorial e post-game; vengono tradotti sia i testi `SAY` sia i nomi `SETNAME`.
 - `Translation/STRINGS/`: interfaccia, tabelle, nomi, descrizioni e messaggi di gioco.
 - `Pro_Tools/`: strumenti per estrarre, modificare, ricostruire e verificare ROM, stringhe e script. `format_dialogues.py` controlla l'impaginazione usando le larghezze reali dei glifi NFTR e conserva i controlli originali quando possibile.
-- `game/rom/`: estrazione della versione normale usata come riferimento per l'italiano ufficiale.
-- `game/romP/`: estrazione della versione Professional usata per individuare differenze e contenuti aggiuntivi.
-- `game/tmp/`: strumenti riproducibili di confronto, importazione e controllo. In particolare, `import_legend_terms.py` importa soltanto corrispondenze esatte dalla legenda italiana di DQMJ3P ed esclude intenzionalmente i luoghi; `make_italian_databases.py` rigenera le copie italiane dei database; gli altri script documentano verifiche e correzioni mirate eseguite durante la traduzione.
 - `Database/GUI_Patcher/GUI/`: sorgenti dell'interfaccia del patcher, del backend e del randomizzatore localizzati in italiano.
 - `Database/`: database inglesi originali, copie italiane e glossari inglese→italiano.
 - `Guide/`: documentazione originale inglese e traduzioni italiane.
