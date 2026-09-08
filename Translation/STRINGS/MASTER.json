@@ -22,17 +22,20 @@
   "msg_itemhelp.txt": {
     "source": "msg_itemhelp.binA",
     "fpk_header": "msg_itemhelp.fpkhdr",
-    "entry_count": 257
+    "entry_count": 257,
+    "trailing_empty_entries": 2
   },
   "msg_itemname.txt": {
     "source": "msg_itemname.binA",
     "fpk_header": "msg_itemname.fpkhdr",
-    "entry_count": 257
+    "entry_count": 257,
+    "trailing_empty_entries": 1
   },
   "msg_library.txt": {
     "source": "msg_library.binA",
     "fpk_header": "msg_library.fpkhdr",
-    "entry_count": 272
+    "entry_count": 272,
+    "trailing_empty_entries": 5
   },
   "msg_map.txt": {
     "source": "msg_map.binA",
@@ -42,7 +45,8 @@
   "msg_menu.txt": {
     "source": "msg_menu.binA",
     "fpk_header": "msg_menu.fpkhdr",
-    "entry_count": 443
+    "entry_count": 443,
+    "trailing_empty_entries": 2
   },
   "msg_monstername.txt": {
     "source": "msg_monstername.binA",
@@ -72,7 +76,8 @@
   "msg_shop.txt": {
     "source": "msg_shop.binA",
     "fpk_header": "msg_shop.fpkhdr",
-    "entry_count": 255
+    "entry_count": 255,
+    "trailing_empty_entries": 2
   },
   "msg_skillhelp.txt": {
     "source": "msg_skillhelp.binA",
@@ -82,12 +87,14 @@
   "msg_skillname.txt": {
     "source": "msg_skillname.binA",
     "fpk_header": "msg_skillname.fpkhdr",
-    "entry_count": 257
+    "entry_count": 257,
+    "trailing_empty_entries": 1
   },
   "msg_taiseiname.txt": {
     "source": "msg_taiseiname.binA",
     "fpk_header": "msg_taiseiname.fpkhdr",
-    "entry_count": 256
+    "entry_count": 256,
+    "trailing_empty_entries": 1
   },
   "msg_tokusei.txt": {
     "source": "msg_tokusei.binA",
@@ -97,12 +104,14 @@
   "msg_traveler.txt": {
     "source": "msg_traveler.binA",
     "fpk_header": "msg_traveler.fpkhdr",
-    "entry_count": 118
+    "entry_count": 118,
+    "trailing_empty_entries": 4
   },
   "msg_virtual.txt": {
     "source": "msg_virtual.binA",
     "fpk_header": "msg_virtual.fpkhdr",
-    "entry_count": 124
+    "entry_count": 124,
+    "trailing_empty_entries": 1
   },
   "msg_wifi.txt": {
     "source": "msg_wifi.binA",

@@ -215,6 +215,16 @@ def cmd_repack(txt_dir, out_dir):
         # strip ONE optional trailing newline (the file usually ends with \n)
         if text.endswith('\n'): text = text[:-1]
         lines = text.split('\n')
+        # Some game tables end with meaningful empty records. Keeping those as
+        # invisible blank lines at EOF is fragile because editors commonly
+        # trim them, so MASTER.json records them explicitly.
+        lines.extend([''] * info.get('trailing_empty_entries', 0))
+        expected_count = info.get('entry_count')
+        if expected_count is not None and len(lines) != expected_count:
+            raise ValueError(
+                f'{txt_name}: expected {expected_count} entries from MASTER.json, '
+                f'got {len(lines)}; blank entries, including trailing ones, must be preserved'
+            )
         entries = [encode(line) for line in lines]
         payload = join_entries(entries)
         header  = (txt_dir / info['fpk_header']).read_bytes()
