@@ -38,6 +38,7 @@ SAVE_PAYLOAD_BASE  = 0x021BD51C
 # Cosmetic fixes intentionally do not taint a save.
 CHEAT_TAINT_PATCHES = frozenset({
     'xp_mult',
+    'full_reserve_exp',
     'scout_offense',
     'scout_penalty',
     'synthesis_level',
@@ -197,6 +198,40 @@ def apply_xp_mult(dec: bytearray, mult: float):
           f'0x{cur:08x} → 0x{new_inst:08x}')
 
 
+def apply_full_reserve_exp(dec: bytearray):
+    """Give substitutes and Monster Pen monsters the main party's full EXP."""
+    guards = (
+        (0x021E3B74, 0xEBF98508),
+        (0x021E3C90, 0xE1A08004),
+    )
+    patches = (
+        (0x021E4B74, 0xE5950038, 0xE5952030),
+        (0x021E4B7C, 0xE280100B, 0xEA000002),
+        (0x021E4C90, 0xE5900038, 0xE5903030),
+        (0x021E4C98, 0xE2801017, 0xEA000002),
+    )
+
+    for addr, expected in guards:
+        off = addr - OV_RAM_BASE
+        current = struct.unpack_from('<I', dec, off)[0]
+        if current != expected:
+            sys.exit(
+                f'full_reserve_exp: unexpected guard at 0x{addr:08x}: '
+                f'0x{current:08x} (expected 0x{expected:08x})'
+            )
+
+    for addr, expected, new in patches:
+        off = addr - OV_RAM_BASE
+        current = struct.unpack_from('<I', dec, off)[0]
+        if current != expected:
+            sys.exit(
+                f'full_reserve_exp: unexpected code at 0x{addr:08x}: '
+                f'0x{current:08x} (expected 0x{expected:08x})'
+            )
+        struct.pack_into('<I', dec, off, new)
+        print(f'  full_reserve_exp: 0x{addr:08x}: 0x{current:08x} → 0x{new:08x}')
+
+
 def apply_xvariant_suffix(dec: bytearray):
     off = 0x02045028 - ARM9_BASE
     cur = struct.unpack_from('<I', dec, off)[0]
@@ -305,6 +340,9 @@ PATCHES = [
          param=dict(default=2.0, fmt=str, parse=float,
                     validate=lambda v: 0.0625 <= v <= 256.0,
                     validate_msg='must be between 0.0625 and 256.0')),
+
+    dict(key='full_reserve_exp',   label='Give Substitutes and Monster Pen Full Party EXP',
+         required=False, target='ov0001', param=None),
 
     dict(key='xvariant_suffix',    label='Apply X/XY Variant Suffix Fix',
          required=False, target='arm9',   param=None),
@@ -499,6 +537,7 @@ def main():
         dec  = overlay_decompress(ov1)
         apply_grow_actionhelp(dec)
         if sel('xp_mult'):       apply_xp_mult(dec, val('xp_mult'))
+        if sel('full_reserve_exp'): apply_full_reserve_exp(dec)
         if sel('scout_offense'): apply_scout_offense(dec)
         if sel('scout_penalty'): apply_scout_penalty(dec)
         comp = overlay_compress(bytes(dec))

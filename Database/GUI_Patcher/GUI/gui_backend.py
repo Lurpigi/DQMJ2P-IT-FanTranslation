@@ -254,6 +254,7 @@ def build_randomizer_settings_summary(args):
         f"- X/XY monster suffixes: {'on' if args.xvariant_suffix else 'off'}",
         f"- Gender icons: {'on' if args.gender_icons else 'off'}",
         f"- XP multiplier: {'on' if bool(args.xp_mult) else 'off'}",
+        f"- Full substitute/Monster Pen EXP: {'on' if args.full_reserve_exp else 'off'}",
         f"- Scout offense boost: {'on' if args.scout_offense else 'off'}",
         f"- Scout penalty changes: {'on' if args.scout_penalty else 'off'}",
         f"- Synthesis level changes: {'on' if args.synthesis_level else 'off'}",
@@ -332,6 +333,7 @@ def main(argv=None):
     ap.add_argument("--postgame-pipit-vendor-items", action="store_true")
     ap.add_argument("--anti-piracy", action="store_true")
     ap.add_argument("--xp-mult", type=float, default=None)
+    ap.add_argument("--full-reserve-exp", action="store_true")
     ap.add_argument("--xvariant-suffix", action="store_true")
     ap.add_argument("--gender-icons", action="store_true")
     ap.add_argument("--scout-offense", action="store_true")
@@ -402,6 +404,7 @@ def main(argv=None):
         apply_grow_actionhelp,
         apply_cheat_taint,
         apply_xp_mult,
+        apply_full_reserve_exp,
         apply_xvariant_suffix,
         apply_gender_icons,
         apply_scout_offense,
@@ -446,6 +449,7 @@ def main(argv=None):
             apply_grow_actionhelp,
             apply_cheat_taint,
             apply_xp_mult,
+            apply_full_reserve_exp,
             apply_xvariant_suffix,
             apply_gender_icons,
             apply_scout_offense,
@@ -501,6 +505,7 @@ def main(argv=None):
     apply_grow_msg_pool(dec, 0x35000)
     taint_save = any((
         args.xp_mult is not None,
+        args.full_reserve_exp,
         args.scout_offense,
         args.scout_penalty,
         args.synthesis_level is not None,
@@ -523,6 +528,8 @@ def main(argv=None):
     # apply_grow_actionhelp(dec)
     if args.xp_mult is not None:
         apply_xp_mult(dec, args.xp_mult)
+    if args.full_reserve_exp:
+        apply_full_reserve_exp(dec)
 
     if args.scout_offense:
         apply_scout_offense(dec)
