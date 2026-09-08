@@ -4,6 +4,7 @@ ROMs built with any of these optional gameplay patches set a common,
 irreversible marker in save-backed RAM:
 
 - XP multiplier
+- full substitute and Monster Pen EXP
 - scouting after a monster takes offense
 - removal of the multiple-owned scouting penalty
 - minimum synthesis level

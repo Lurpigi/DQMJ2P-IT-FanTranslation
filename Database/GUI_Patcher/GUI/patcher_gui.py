@@ -29,7 +29,7 @@ def app_root():
 
 
 ROOT = app_root()
-PATCHER_VERSION = "1.3.1-it.2"
+PATCHER_VERSION = "1.3.2-it.1"
 
 def open_url(url):
     if sys.platform.startswith("linux"):
@@ -266,6 +266,7 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         self.postgame_pipit_vendor_var = tk.BooleanVar(value=True)
         self.xp_mult_var = tk.BooleanVar(value=False)
         self.xp_mult_value = tk.StringVar(value="2.0")
+        self.full_reserve_exp_var = tk.BooleanVar(value=False)
         self.xvariant_var = tk.BooleanVar(value=True)
         self.gender_icons_var = tk.BooleanVar(value=True)
         self.scout_offense_var = tk.BooleanVar(value=False)
@@ -380,6 +381,12 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         qol = ttk.LabelFrame(patch_tab, text="Miglioramenti facoltativi")
         qol.pack(fill="x", expand=False, padx=8, pady=(4, 8))
 
+        add_check_with_info(
+            qol,
+            "Assegna PE completi alle riserve e ai mostri nel recinto",
+            self.full_reserve_exp_var,
+            "I mostri di riserva e quelli nel recinto ricevono gli stessi PE dei mostri nella squadra principale.",
+        )
         add_check_with_info(
             qol,
             'Consenti lo scouting dopo "Si è offeso"',
@@ -772,6 +779,8 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
             args.append("--postgame-pipit-vendor-items")
         if self.xp_mult_var.get():
             args.extend(["--xp-mult", self.xp_mult_value.get()])
+        if self.full_reserve_exp_var.get():
+            args.append("--full-reserve-exp")
         if self.xvariant_var.get():
             args.append("--xvariant-suffix")
         if self.gender_icons_var.get():

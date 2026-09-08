@@ -8,7 +8,7 @@ Il repository include il workflow GitHub Actions `.github/workflows/build-gui.ym
 
 ### 1. Aggiorna la versione
 
-Modifica `PATCHER_VERSION` in `Database/GUI_Patcher/GUI/patcher_gui.py`. La versione italiana usa il formato `1.2.1-it.1`, che indica sia la base tecnica inglese sia la revisione della localizzazione.
+Modifica `PATCHER_VERSION` in `Database/GUI_Patcher/GUI/patcher_gui.py`. La versione italiana usa il formato `1.3.2-it.1`, che indica sia la base tecnica inglese sia la revisione della localizzazione.
 
 ### 2. Verifica e pubblica le modifiche
 
@@ -33,8 +33,8 @@ Usa `--force-with-lease`, non `--force`: il comando interrompe l'operazione se i
 Il tag deve iniziare con `gui-v` e corrispondere alla versione del programma:
 
 ```bash
-git tag -a gui-v1.2.1-it.1 -m "Patcher italiano v1.2.1-it.1"
-git push origin gui-v1.2.1-it.1
+git tag -a gui-v1.3.2-it.1 -m "Patcher italiano v1.3.2-it.1"
+git push origin gui-v1.3.2-it.1
 ```
 
 Il push del tag avvia il workflow **Build GUI Patcher**. Al termine, il job `publish-release` crea automaticamente la release GitHub e allega i tre pacchetti.

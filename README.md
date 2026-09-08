@@ -47,6 +47,8 @@ I codici di controllo e i segnaposto, come `{NAME}`, `{E321}`, `{COLOR=...}`, `{
 
 Il patcher grafico è disponibile per Windows, Linux e macOS nella pagina [Releases](https://github.com/Lurpigi/DQMJ2Pro_Translation/releases). Seleziona una ROM originale, scegli le opzioni desiderate e premi **Applica la patch**. La versione distribuita è autonoma e non richiede Python.
 
+L'**emulatore consigliato** per questa traduzione è [melonDS](https://github.com/melonDS-emu/melonDS/releases), come per il progetto inglese originale.
+
 <img src="./Database/GUI_Patcher/gui.png" width="420" alt="Interfaccia grafica del patcher">
 
 Per costruire e pubblicare personalmente il programma consulta la [guida italiana alle release](Guide/releasing_patcher_it.md).
@@ -82,7 +84,6 @@ Le versioni inglesi originali degli stessi documenti sono conservate nella carte
 - Randomizzando le ricette di sintesi, alcuni risultati della famiglia `???` potrebbero non essere sintetizzabili. Se un risultato non mostra il nome, non selezionarlo.
 - Quando il nome originale di un mostro reclutato supera i 13 caratteri, la tastiera inferiore può mostrare un difetto grafico durante il ripristino del nome predefinito. Il problema è soltanto visivo.
 - Alcuni vecchi firmware R4 non sono compatibili con la patch. Consulta la [guida italiana per R4](Guide/playing_on_r4_it.md).
-- Sembra esserci un problema con l'emulatore PC `Melons`, testando con `Desmume` invece sembra funzionare perfettamente.
 
 ## Struttura dei file
 

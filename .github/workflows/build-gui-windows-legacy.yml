@@ -37,7 +37,7 @@ jobs:
       - name: Install legacy PyInstaller
         run: |
           python -m pip install --upgrade "pip<25"
-          python -m pip install pyinstaller==4.10 tkinterdnd2 pillow
+          python -m pip install pyinstaller==4.10 pyinstaller-hooks-contrib==2025.1 tkinterdnd2 pillow
 
       - name: Patch Python 3.8 annotations in build workspace only
         shell: bash
@@ -160,10 +160,10 @@ jobs:
         shell: pwsh
         run: |
           New-Item -ItemType Directory -Force release-assets
-          Copy-Item dist/DQMJ2P-IT-Patcher-Windows-Legacy.exe "release-assets/DQMJ2P-IT-Patcher-${{ steps.version.outputs.version }}-x86_64-windows-legacy.exe"
+          Copy-Item dist/DQMJ2P-IT-Patcher-Windows-Legacy.exe "release-assets/DQMJ2P-IT-Patcher-${{ steps.version.outputs.version }}-windows-legacy.exe"
 
       - name: Upload Windows Legacy exe to release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ github.event.inputs.release_tag }}
-          files: release-assets/DQMJ2P-IT-Patcher-${{ steps.version.outputs.version }}-x86_64-windows-legacy.exe
+          files: release-assets/DQMJ2P-IT-Patcher-${{ steps.version.outputs.version }}-windows-legacy.exe

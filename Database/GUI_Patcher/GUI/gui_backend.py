@@ -263,6 +263,7 @@ def build_randomizer_settings_summary(args):
         f"- Suffissi X/XY dei mostri: {state(args.xvariant_suffix)}",
         f"- Icone del sesso: {state(args.gender_icons)}",
         f"- Moltiplicatore PE: {state(bool(args.xp_mult))}",
+        f"- PE completi per riserve e recinto: {state(args.full_reserve_exp)}",
         f"- Scouting dopo l'offesa: {state(args.scout_offense)}",
         f"- Modifiche alle penalità di scouting: {state(args.scout_penalty)}",
         f"- Modifiche al livello di sintesi: {state(bool(args.synthesis_level))}",
@@ -341,6 +342,7 @@ def main(argv=None):
     ap.add_argument("--postgame-pipit-vendor-items", action="store_true")
     ap.add_argument("--anti-piracy", action="store_true")
     ap.add_argument("--xp-mult", type=float, default=None)
+    ap.add_argument("--full-reserve-exp", action="store_true")
     ap.add_argument("--xvariant-suffix", action="store_true")
     ap.add_argument("--gender-icons", action="store_true")
     ap.add_argument("--scout-offense", action="store_true")
@@ -411,6 +413,7 @@ def main(argv=None):
         apply_grow_actionhelp,
         apply_cheat_taint,
         apply_xp_mult,
+        apply_full_reserve_exp,
         apply_xvariant_suffix,
         apply_gender_icons,
         apply_scout_offense,
@@ -455,6 +458,7 @@ def main(argv=None):
             apply_grow_actionhelp,
             apply_cheat_taint,
             apply_xp_mult,
+            apply_full_reserve_exp,
             apply_xvariant_suffix,
             apply_gender_icons,
             apply_scout_offense,
@@ -510,6 +514,7 @@ def main(argv=None):
     apply_grow_msg_pool(dec, 0x35000)
     taint_save = any((
         args.xp_mult is not None,
+        args.full_reserve_exp,
         args.scout_offense,
         args.scout_penalty,
         args.synthesis_level is not None,
@@ -532,6 +537,8 @@ def main(argv=None):
     # apply_grow_actionhelp(dec)
     if args.xp_mult is not None:
         apply_xp_mult(dec, args.xp_mult)
+    if args.full_reserve_exp:
+        apply_full_reserve_exp(dec)
 
     if args.scout_offense:
         apply_scout_offense(dec)
