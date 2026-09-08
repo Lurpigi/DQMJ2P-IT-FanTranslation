@@ -37,7 +37,7 @@ jobs:
       - name: Install legacy PyInstaller
         run: |
           python -m pip install --upgrade "pip<25"
-          python -m pip install pyinstaller==4.10 tkinterdnd2 pillow
+          python -m pip install pyinstaller==4.10 pyinstaller-hooks-contrib==2025.1 tkinterdnd2 pillow
 
       - name: Patch Python 3.8 annotations in build workspace only
         shell: bash
