@@ -69,13 +69,13 @@ jobs:
         shell: pwsh
         run: |
           New-Item -ItemType Directory -Force release-assets
-          Copy-Item dist/DQMJ2Patcher.exe "release-assets/DQMJ2PPatcher-${{ steps.version.outputs.version }}-x86_64-windows.exe"
+          Copy-Item dist/DQMJ2Patcher.exe "release-assets/DQMJ2PPatcher-${{ steps.version.outputs.version }}-windows.exe"
 
       - name: Upload Windows artifact
         uses: actions/upload-artifact@v4
         with:
-          name: DQMJ2PPatcher-${{ steps.version.outputs.version }}-x86_64-windows
-          path: release-assets/DQMJ2PPatcher-${{ steps.version.outputs.version }}-x86_64-windows.exe
+          name: DQMJ2PPatcher-${{ steps.version.outputs.version }}-windows
+          path: release-assets/DQMJ2PPatcher-${{ steps.version.outputs.version }}-windows.exe
 
   linux:
     runs-on: ubuntu-latest
@@ -162,13 +162,13 @@ jobs:
             https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage
           chmod +x appimagetool-x86_64.AppImage
 
-          ARCH=x86_64 ./appimagetool-x86_64.AppImage AppDir DQMJ2PPatcher-${{ steps.version.outputs.version }}-x86_64-linux.AppImage
+          ARCH=x86_64 ./appimagetool-x86_64.AppImage AppDir DQMJ2PPatcher-${{ steps.version.outputs.version }}-linux.AppImage
 
       - name: Upload Linux AppImage
         uses: actions/upload-artifact@v4
         with:
-          name: DQMJ2PPatcher-${{ steps.version.outputs.version }}-x86_64-linux
-          path: DQMJ2PPatcher-${{ steps.version.outputs.version }}-x86_64-linux.AppImage
+          name: DQMJ2PPatcher-${{ steps.version.outputs.version }}-linux
+          path: DQMJ2PPatcher-${{ steps.version.outputs.version }}-linux.AppImage
 
   macos:
     runs-on: macos-latest
@@ -229,13 +229,13 @@ jobs:
       - name: Zip macOS app
         run: |
           mkdir -p release-assets
-          ditto -c -k --sequesterRsrc --keepParent dist/DQMJ2Patcher.app release-assets/DQMJ2PPatcher-${{ steps.version.outputs.version }}-x86_64-macos.zip
+          ditto -c -k --sequesterRsrc --keepParent dist/DQMJ2Patcher.app release-assets/DQMJ2PPatcher-${{ steps.version.outputs.version }}-macos.zip
 
       - name: Upload macOS app
         uses: actions/upload-artifact@v4
         with:
-          name: DQMJ2PPatcher-${{ steps.version.outputs.version }}-x86_64-macos
-          path: release-assets/DQMJ2PPatcher-${{ steps.version.outputs.version }}-x86_64-macos.zip
+          name: DQMJ2PPatcher-${{ steps.version.outputs.version }}-macos
+          path: release-assets/DQMJ2PPatcher-${{ steps.version.outputs.version }}-macos.zip
 
   publish-release:
     name: Publish GitHub Release assets
