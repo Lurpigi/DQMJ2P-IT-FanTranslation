@@ -13,6 +13,8 @@ Questa repository contiene la traduzione italiana amatoriale di **Dragon Quest M
 
 <img src="./Database/credits.png" width="700" alt="Crediti del progetto originale">
 
+## Video Tutorial su YT [QUI](https://youtu.be/CfnY1OR9TYI?si=MLcagyW1aM3tQgoR)
+
 ## Il lavoro della community alla base del progetto
 
 Questa traduzione italiana usa come base lo straordinario lavoro del [Dragon Quest Monsters: Joker 2 Professional English Translation Project](https://github.com/Saneezore/DQMJ2Pro_Translation). Senza questi bravissimi membri della community, realizzare la versione italiana sarebbe stato impossibile o avrebbe richiesto **mooolto** più tempo.
